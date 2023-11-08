@@ -103,6 +103,23 @@
             border: none;
             cursor: pointer;
         }
+
+        .back-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Adjust content size for mobile devices */
+        @media screen and (max-width: 768px) {
+            #menu-bar {
+                width: 100%;
+                position: static;
+            }
+            #content {
+                margin-left: 0;
+                padding: 20px 10px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -215,6 +232,8 @@
                 batchDiv.appendChild(viewNowButton);
                 document.getElementById('content').appendChild(batchDiv);
             });
+
+            addBackButton();
         }
 
         function showSubjects(batchName, subjects) {
@@ -235,6 +254,7 @@
             }
 
             document.getElementById('content').appendChild(subjectShapesDiv);
+            addBackButton();
         }
 
         function showLessons(batchName, subject, lessons) {
@@ -268,6 +288,7 @@
             });
 
             document.getElementById('content').appendChild(lessonsTable);
+            addBackButton();
         }
 
         function showContent(batchName, subject, lesson) {
@@ -327,6 +348,23 @@
             } else {
                 alert('Content not found.');
             }
+
+            addBackButton();
+        }
+
+        function addBackButton() {
+            const backDiv = document.createElement('div');
+            backDiv.classList.add('back-button');
+            const backButton = document.createElement('button');
+            backButton.textContent = "Back";
+            backButton.classList.add('view-now-button');
+
+            backButton.addEventListener('click', () => {
+                showBatches(); // Adjust this to go back to the appropriate previous page
+            });
+
+            backDiv.appendChild(backButton);
+            document.getElementById('content').appendChild(backDiv);
         }
     </script>
 </body>
