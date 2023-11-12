@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        .quality-select {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px;
+        }
+
+        .error-message {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px;
+        }
+
+        .go-back-button {
+            margin-top: 10px;
+        }
+
+        /* Style for bold text and increased size */
+        .bold-text {
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+           const lectures = [
+    {
+        "lectureNumber": "09",
+        "lectureName": "Wave Optics 09 : Diffraction OR Single Slit Experiment || NO DPP || Extra Lecture || Recorded",
+        "lectureCode": "cb9b577b-10cd-4f97-9b2b-7f140385f9f4",
+        "classNotesCode": "a84a4fb5-4d0e-44ea-b737-092c8c9e670d.pdf",
+        "dppsPdfCode": ""
+    },
+    {
+        "lectureNumber": "07",
+        "lectureName": "Wave Optics 07 : Questions On YDSE & Introduction To Photoelectric Effect || NO DPP || Rescheduled @ 3:30 PM",
+        "lectureCode": "228133b9-9987-44dc-a1c2-7c009b1438f2",
+        "classNotesCode": "e3013f50-b73c-4f9e-89fe-fce2f743c2d2.pdf",
+        "dppsPdfCode": ""
+    },
+    {
+        "lectureNumber": "08",
+        "lectureName": "Wave Optics 08 : Polarisation || Extra Lecture || Recorded",
+        "lectureCode": "7ee24d09-4891-481c-a0e8-cc533ad2a879",
+        "classNotesCode": "720663df-247d-48ac-baa0-22fc6bc54981.pdf",
+        "dppsPdfCode": "c333eeff-584c-4afe-9127-91c44cc56e0c.pdf"
+    },
+    {
+        "lectureNumber": "06",
+        "lectureName": "Wave Optics 06 : Questions On YDSE || Rescheduled @ 3:30 PM",
+        "lectureCode": "aebf602b-6cb4-4c06-af14-c63c0548f8e3",
+        "classNotesCode": "fbe416f4-d02d-4556-aa85-0a38de7d6a01.pdf",
+        "dppsPdfCode": "c92b3d36-a7d5-408b-afcd-d6813ef6ad36.pdf"
+    },
+    {
+        "lectureNumber": "05",
+        "lectureName": "Wave Optics 05 : Modification In YDSE",
+        "lectureCode": "25e84bf4-6e90-4bb5-a3b0-e26684d70de4",
+        "classNotesCode": "2c698ee0-5825-4138-8583-991675875032.pdf",
+        "dppsPdfCode": "c5058639-c322-4aba-a90a-812f7dd67ad4.pdf"
+    },
+    {
+        "lectureNumber": "04",
+        "lectureName": "Wave Optics 04 : Young Double Slit Experiment",
+        "lectureCode": "041d041c-6ce4-49c5-9763-54384de25f22",
+        "classNotesCode": "8067382a-c1e0-466c-86f6-5859bb75b185.pdf",
+        "dppsPdfCode": "8b836c19-41ca-4f3b-b2b5-9d83669e9190.pdf"
+    },
+    {
+        "lectureNumber": "03",
+        "lectureName": "Wave Optics 03 : Question On Interference",
+        "lectureCode": "9fd35eb8-c258-4134-88cf-7a054ea8d3a6",
+        "classNotesCode": "c50fb822-a9aa-4153-8cc0-0d2a96d7c0da.pdf",
+        "dppsPdfCode": "6bf3a19f-82b5-42e5-a9dd-7f6e628fc99b.pdf"
+    },
+    {
+        "lectureNumber": "02",
+        "lectureName": "Wave Optics 02 : Interference || Reschedule @ 3:30 PM",
+        "lectureCode": "6505c36b-1874-4dff-bd20-bb346a58b619",
+        "classNotesCode": "bf60456c-24fa-4a07-8cf5-0a995c08f9ea.pdf",
+        "dppsPdfCode": "3045029e-a946-4d74-aff4-6391b70e71d9.pdf"
+    },
+    {
+        "lectureNumber": "01",
+        "lectureName": "Wave Optics 01 : Wave Fronts & Huygens Principle",
+        "lectureCode": "475f597a-0c8f-4a5d-bd9c-715acda527bc",
+        "classNotesCode": "3d356d60-7602-4f77-8e11-f938665a8053.pdf",
+        "dppsPdfCode": "48bb13fa-8ede-4870-8ffc-c3e442c50404.pdf"
+    }
+];
+
+
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectures.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                    <div id="qualitySelect_${index}" class="quality-select">
+                        <p>Select Quality:</p>
+                        <select id="qualityOptions_${index}">
+                            <option value="720">720p</option>
+                            <option value="480">480p</option>
+                            <option value="360">360p</option>
+                            <option value="240">240p</option>
+                            <option value="144">144p</option>
+                        </select>
+                        <button onclick="playVideoOrCopyLink(${index})">Play Now</button><br><br>
+                        <button class="go-back-button" onclick="goBack(${index})">Go Back</button>
+                    </div>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        function showQualityOptions(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "block";
+        }
+
+        function playVideoOrCopyLink(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "none";
+
+            const selectedQuality = document.getElementById(`qualityOptions_${index}`).value;
+            const lectureCode = lectures[index].lectureCode;
+            const videoLink = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${selectedQuality}/main.m3u8`;
+
+            // Check the user's device
+            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+            if (isMobile) {
+                openVLC(videoLink);
+            } else {
+                openLectureLinkWindow(videoLink);
+            }
+        }
+
+        function openVLC(videoPath) {
+            const vlcUri = `vlc://${videoPath}`;
+            window.location.href = vlcUri;
+        }
+
+        function openLectureLinkWindow(videoLink) {
+            const lectureLinkWindow = window.open('', '_blank', 'width=400,height=200');
+            lectureLinkWindow.document.write(`
+                <h2 class="bold-text">Lecture Link</h2>
+                <input type="text" value="${videoLink}" id="lectureLink">
+                <button onclick="copyLectureLink()">Copy Link</button>
+                <p class="bold-text">You must play this link in VLC Player Only.</p>
+            `);
+            lectureLinkWindow.document.getElementById('lectureLink').style.width = '500px'; // Adjust the textbox size
+        }
+
+        function copyLectureLink() {
+            const lectureLink = document.getElementById('lectureLink');
+            lectureLink.select();
+            document.execCommand('copy');
+            alert('Lecture link copied to clipboard');
+        }
+
+        function goBack(index) {
+    const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+    qualitySelect.style.display = "none";
+}
+
+        generateTable();
+    </script>
+</body>
+</html>

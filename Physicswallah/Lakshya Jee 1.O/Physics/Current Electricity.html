@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        .quality-select {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px; /* Set your desired font size */
+        }
+
+        .go-back-button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+        const lectureData = [
+            {
+                lectureNumber: 16,
+                lectureName: "Current Electricity 16 : RC Circuits Charging || RC Circuit Discharging || Time Constant || Questions || NO DPP || (Recorded) || (Extra Lecture)",
+                lectureCode: "cbdb961c-aee4-4ecc-a576-2f613b32a3af",
+                classNotesCode: "ac4aaf98-a8db-4c10-86e1-bcbf5a33a873.pdf",
+                dppsPdfCode: ""
+            },
+            {
+                lectureNumber: 15,
+                lectureName: "Current Electricity 15 : Power & Brightness Of Bulb",
+                lectureCode: "e2b6cd76-a5e9-4bfe-9508-98b7e64af4ef",
+                classNotesCode: "9a0e35a1-2e67-42b7-9bb0-be96658c597a.pdf",
+                dppsPdfCode: "f015a8d6-51aa-4d98-990b-7479b5e9792b.pdf"
+            },
+            {
+                lectureNumber: 14,
+                lectureName: "Current Electricity 14 : Potentiometer",
+                lectureCode: "10f75003-a922-4a6f-802e-9154bc96216d",
+                classNotesCode: "ae83f1d3-4cb5-4f5c-a0da-19b3fb450199.pdf",
+                dppsPdfCode: "805dc312-a3ca-4de2-af49-fc63bcdfc731.pdf"
+            },
+            {
+                lectureNumber: 13,
+                lectureName: "Current Electricity 13 : Wheatstone Bridge & Meter Bridge",
+                lectureCode: "49680226-f387-42be-938b-4e695832e196",
+                classNotesCode: "0d9aa25a-d57e-49eb-930b-02e8ab310a9e.pdf",
+                dppsPdfCode: "fb5f14d6-e633-410e-ae11-2cdff79dee4b.pdf"
+            },
+            {
+                lectureNumber: 12,
+                lectureName: "Current Electricity 12 : Question On KVL & KCL",
+                lectureCode: "19616ec1-7180-4de0-9c42-fdfd12f359d8",
+                classNotesCode: "1080fcb1-9c37-4564-8fd6-c4f84a9e26c8.pdf",
+                dppsPdfCode: "47df7761-0d73-4772-8ac8-5f54936ba517.pdf"
+            },
+            {
+                lectureNumber: 11,
+                lectureName: "Current Electricity 11 : Question On KVL & KCL",
+                lectureCode: "e2c7ab2d-edac-4129-8c6b-6b61700bfc38",
+                classNotesCode: "783147a9-1d5c-40b8-b361-7a2b7aa1d820.pdf",
+                dppsPdfCode: "6405b591-4846-4efd-8013-720c511dcc64.pdf"
+            },
+            {
+                lectureNumber: 10,
+                lectureName: "Current Electricity 10 : Kirchoff Laws || NO DPP",
+                lectureCode: "20869ef6-ef7d-4747-8072-48555af95712",
+                classNotesCode: "c95883e4-4d65-42a0-ad87-9f8578aecb0d.pdf",
+                dppsPdfCode: ""
+            },
+            {
+                lectureNumber: 9,
+                lectureName: "Current Electricity 09 : Combination Of Batteries And Questions",
+                lectureCode: "63208633-c1db-4209-8462-ee4d4337927b",
+                classNotesCode: "2b71c2fa-12ea-4b9d-aa33-a1a29a701e75.pdf",
+                dppsPdfCode: "467a0cb0-c3aa-484c-9458-bcd10ba75366.pdf"
+            },
+            {
+                lectureNumber: 8,
+                lectureName: "Current Electricity 08 : Question On Series & Parallel Of Resistance",
+                lectureCode: "a6655642-4276-47a4-a1cc-c211eb2d9e65",
+                classNotesCode: "2bc830f2-2493-4bb2-8372-8cfb38a7a835.pdf",
+                dppsPdfCode: "172d3200-7e2e-4242-89e2-cceb841b9af2.pdf"
+            },
+            {
+                lectureNumber: 7,
+                lectureName: "Current Electricity 07 : Series & Parallel Of Batteries",
+                lectureCode: "1dedce7a-6597-4967-a812-8668cb776d4f",
+                classNotesCode: "70223a2b-ca5b-4ebc-bd0d-328a5fe79d22.pdf",
+                dppsPdfCode: "cf3d9ffd-bd3c-4453-923a-45ea4ddfcbcc.pdf"
+            },
+            {
+                lectureNumber: 6,
+                lectureName: "Current Electricity 06 : Combination Of Resistances || NO DPP",
+                lectureCode: "908d2584-f0ea-4140-9ac6-528e90a9cfc3",
+                classNotesCode: "b1cb1499-0a01-46a0-a057-e167c800cda5.pdf",
+                dppsPdfCode: ""
+            },
+            {
+                lectureNumber: 5,
+                lectureName: "Current Electricity 05 : Temperature Dependence Of Resistance",
+                lectureCode: "63c299aa-1c7a-409c-a15b-8013c9029b48",
+                classNotesCode: "82e352f0-563a-4924-b325-be498a8b32a1.pdf",
+                dppsPdfCode: "50ee7d0d-e13a-4aa7-8e99-9e5e69df9495.pdf"
+            },
+            {
+                lectureNumber: 4,
+                lectureName: "Current Electricity 04 : Questions On Resistance Calculation",
+                lectureCode: "e8d69e32-9ce5-440c-b9ec-7d97b4ea93f8",
+                classNotesCode: "93eae15b-5134-46a7-a882-4780b00aef90.pdf",
+                dppsPdfCode: "1ce215c2-f7c3-49bd-b5c6-1917a23fe707.pdf"
+            },
+            {
+                lectureNumber: 3,
+                lectureName: "Current Electricity 03 : Relation Between Current & Drift Velocity || Ohms Law",
+                lectureCode: "8f58bae4-599b-4b7a-b423-df50b308da57",
+                classNotesCode: "3b9896e7-0f4e-4459-b187-7a8202bbdde1.pdf",
+                dppsPdfCode: "e19c7b8f-dc86-4b24-b975-b65a06f8d7a6.pdf"
+            },
+            {
+                lectureNumber: 2,
+                lectureName: "Current Electricity 02 : Current Density || Drift velocity || Mobility",
+                lectureCode: "c071d04d-3195-4e34-9c32-96714f70cfd0",
+                classNotesCode: "04267fc3-0e0f-4c61-af25-ba482253bba7.pdf",
+                dppsPdfCode: "9542b3df-243a-48c0-b53d-4742d27d6fb1.pdf"
+            },
+            {
+                lectureNumber: 1,
+                lectureName: "Current Electricity 01 : Basics Of Current || NO DPP",
+                lectureCode: "ff908fca-c22e-41ba-826b-3719f8573442",
+                classNotesCode: "7d6739ae-ea17-415f-a472-69d2da65beb5.pdf",
+                dppsPdfCode: ""
+            }
+        ];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                    <div id="qualitySelect_${index}" class="quality-select">
+                        <p>Select Quality:</p>
+                        <select id="qualityOptions_${index}">
+                            <option value="720">720p</option>
+                            <option value="480">480p</option>
+                            <option value="360">360p</option>
+                            <option value="240">240p</option>
+                            <option value="144">144p</option>
+                        </select>
+                        <button onclick="playVideoInVLC('${lecture.lectureCode}', ${index})">Play Now</button>
+                        <p id="vlcLink_${index}"></p>
+                        <button class="go-back-button" onclick="goBack(${index})">Go Back</button>
+                    </div>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        function showQualityOptions(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "block";
+        }
+
+        function playVideoInVLC(lectureCode, index) {
+            const quality = document.getElementById(`qualityOptions_${index}`).value;
+            const videoLink = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${quality}/main.m3u8`;
+            openVLC(videoLink, index);
+        }
+
+        function openVLC(videoPath, index) {
+            const vlcUri = `vlc://${videoPath}`;
+            document.getElementById(`vlcLink_${index}`).textContent = "Opening in VLC. Please check your VLC player.";
+            setTimeout(() => {
+                window.location.href = vlcUri;
+            }, 1000);
+        }
+
+        function goBack(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "none";
+        }
+
+        generateTable();
+    </script>
+</body>
+</html>

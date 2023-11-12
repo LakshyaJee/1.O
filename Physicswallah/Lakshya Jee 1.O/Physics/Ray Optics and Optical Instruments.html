@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        .quality-select {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px;
+        }
+
+        .error-message {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px;
+        }
+
+        .go-back-button {
+            margin-top: 10px;
+        }
+
+        /* Style for bold text and increased size */
+        .bold-text {
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+      const lectures = [
+    {
+        "lectureNumber": 20,
+        "lectureName": "Ray Optics and Optical Instruments 20 : Power Of Lens & Mirror || Question On Thin Lenses || Optical Instruments || NO DPP || Extra Lecture || Recorded",
+        "lectureCode": "de46dbff-fdc5-4dfe-ace2-57635e0a0f49",
+        "classNotesCode": "a5dae39a-1e0c-42e3-bdd8-8c856067a824.pdf",
+        "dppsPdfCode": ""
+    },
+    {
+        "lectureNumber": 19,
+        "lectureName": "Ray Optics and Optical Instruments 19 : Question On Thin Lenses || NO DPP",
+        "lectureCode": "5882668b-1aca-4063-973a-9bcafe9deaf3",
+        "classNotesCode": "76cb5bb9-a64c-4c99-bed8-89346f0aa97d.pdf",
+        "dppsPdfCode": ""
+    },
+    {
+        "lectureNumber": 18,
+        "lectureName": "Ray Optics and Optical Instruments 18 : Important Points Of Thin Lenses || Reschedule @ 3:30PM",
+        "lectureCode": "1b6ed979-272a-4ce6-8f9f-54952870a53a",
+        "classNotesCode": "fff9a499-72c6-4838-a217-6e8c6da941c3.pdf",
+        "dppsPdfCode": "5743b5d7-e23b-44ad-bbbf-7caba33b177c.pdf"
+    },
+    {
+        "lectureNumber": 17,
+        "lectureName": "Ray Optics and Optical Instruments 17 : Lens Maker Formula & Thin Lenses",
+        "lectureCode": "4d32fa9b-a834-4aed-bee8-850934898e0f",
+        "classNotesCode": "29a04594-7cb0-4128-9594-de63bd48563d.pdf",
+        "dppsPdfCode": "14d224cd-0222-46b8-82cd-79b9d63cf981.pdf"
+    },
+    {
+        "lectureNumber": 16,
+        "lectureName": "Ray Optics and Optical Instruments 16 : Questions On Refraction From Plane Surface & Thin Lenses",
+        "lectureCode": "35385abb-6fd8-4187-9d95-14aec514d6ee",
+        "classNotesCode": "7e2c0abb-0bf1-4a83-96bf-a63aca163e67.pdf",
+        "dppsPdfCode": "2a06e8d5-ca49-441d-8f57-e536f2fc5ad9.pdf"
+    },
+    {
+        "lectureNumber": 15,
+        "lectureName": "Ray Optics and Optical Instruments 15 : Refraction From Plane Surface",
+        "lectureCode": "7ce73bb6-3278-471c-bf2c-36903dd22ef1",
+        "classNotesCode": "4322bc1a-9a4d-41f2-9fbc-bf8789a41f37.pdf",
+        "dppsPdfCode": "e8eb01b6-1904-4ba8-89ae-a9418887637e.pdf"
+    },
+    {
+        "lectureNumber": 14,
+        "lectureName": "Ray Optics and Optical Instruments 14 : Refraction Through Curved Surface",
+        "lectureCode": "09c36e0d-60f7-4859-a140-7562b6192cc0",
+        "classNotesCode": "70c560a5-b3b7-4c54-b6ff-88829da9834f.pdf",
+        "dppsPdfCode": "774ae41e-cfac-4c47-9b85-40bb21acbbac.pdf"
+    },
+    {
+        "lectureNumber": 13,
+        "lectureName": "Ray Optics and Optical Instruments 13 : Dispersion & Questions On Prism || DPP QUIZ SOON",
+        "lectureCode": "f1dac785-ecdf-4ddf-b9c4-f100bd02746f",
+        "classNotesCode": "e96a782c-de00-4cf6-9f81-a759302b42d4.pdf",
+        "dppsPdfCode": "dc124530-0260-4a68-8868-844d88926706.pdf"
+    },
+    {
+        "lectureNumber": 12,
+        "lectureName": "Ray Optics and Optical Instruments 12 : Prism Theory",
+        "lectureCode": "34f67968-bf49-4d06-940c-e3ef75464af6",
+        "classNotesCode": "257bfd9f-45eb-452f-9b71-04bb8cc8a1b5.pdf",
+        "dppsPdfCode": "198818fd-6f94-4a5a-97f2-987827d39c7c.pdf"
+    },
+    {
+        "lectureNumber": 11,
+        "lectureName": "Ray Optics and Optical Instruments 11 : Questions On TIR",
+        "lectureCode": "9ac83320-fc56-4846-b71f-bc110dd0da2a",
+        "classNotesCode": "ce605c46-c666-4cca-8805-386847204ec7.pdf",
+        "dppsPdfCode": "4ea73274-9428-4d3b-b1cc-5d12c55ebf23.pdf"
+    },
+    {
+        "lectureNumber": 10,
+        "lectureName": "Ray Optics and Optical Instruments 10 : Total Internal Reflection",
+        "lectureCode": "4fa3305d-85bf-4b77-9ee2-41a49b410f6d",
+        "classNotesCode": "b7e75f43-362c-4cfe-a662-4abd19a205cc.pdf",
+        "dppsPdfCode": "545ce3d8-9af1-43f6-ba4b-f879ec3e256f.pdf"
+    },
+    {
+        "lectureNumber": 9,
+        "lectureName": "Ray Optics and Optical Instruments 9 : Introduction To Optical Instruments",
+        "lectureCode": "ff47bf2d-7c90-45b7-a234-7d779774b4ea",
+        "classNotesCode": "5e0a3a65-431f-40d0-a8ea-1d86ef2db16c.pdf",
+        "dppsPdfCode": "e9a52f43-6b2b-496f-aa13-8b7fb5d4aa33.pdf"
+    },
+    {
+        "lectureNumber": 8,
+        "lectureName": "Ray Optics and Optical Instruments 8 : Telescope & Compound Microscope",
+        "lectureCode": "dbb9f8c6-c0d6-4dbd-93fc-3c21f3ec73cf",
+        "classNotesCode": "0e8ff1b7-888c-4909-86f7-59ddc4823b61.pdf",
+        "dppsPdfCode": "f4144bc4-507b-4f59-bc93-76ebbf982eed.pdf"
+    },
+    {
+        "lectureNumber": 7,
+        "lectureName": "Ray Optics and Optical Instruments 7 : Microscope",
+        "lectureCode": "06d17d8e-bfaa-4e7b-a8d7-6c8d8b1034ec",
+        "classNotesCode": "3e6ef8ff-49a9-4fc4-9386-4da5b7c9295c.pdf",
+        "dppsPdfCode": "c50b74b6-ba0c-4bcf-9f3a-3ac9b825e5db.pdf"
+    },
+    {
+        "lectureNumber": 6,
+        "lectureName": "Ray Optics and Optical Instruments 6 : Human Eye",
+        "lectureCode": "74603d76-f91e-48a4-a5db-aa142a751f12",
+        "classNotesCode": "89d4f491-1b03-4ef0-a5b0-1918a4aa79d4.pdf",
+        "dppsPdfCode": "f003781d-12c3-41ab-8af1-e695e21812d1.pdf"
+    },
+    {
+        "lectureNumber": 5,
+        "lectureName": "Ray Optics and Optical Instruments 5 : Important Points & Questions On Reflection Through Mirror",
+        "lectureCode": "3c5454d0-0213-4be1-8c94-4225a676d24e",
+        "classNotesCode": "50c6b9aa-86fc-4e5d-8c92-5d54f8f3bc5e.pdf",
+        "dppsPdfCode": "b812ea91-9bf7-4d0e-9f23-57a36752d987.pdf"
+    },
+    {
+        "lectureNumber": 4,
+        "lectureName": "Ray Optics and Optical Instruments 4 : Image Formation By Convex Mirror",
+        "lectureCode": "af54e5c5-1c15-4a68-88dd-5af3b481c50a",
+        "classNotesCode": "a2cf1564-6eb6-49c6-929e-25f2b13989a2.pdf",
+        "dppsPdfCode": "8a49a5b2-0714-4f02-9409-9a54653bb9e9.pdf"
+    },
+    {
+        "lectureNumber": 3,
+        "lectureName": "Ray Optics and Optical Instruments 3 : Image Formation By Convex Lens",
+        "lectureCode": "e2a5a0d5-394f-4ab2-82c9-9f4247f4b49c",
+        "classNotesCode": "d0ff56ff-892b-4c32-94d5-45019a249fad.pdf",
+        "dppsPdfCode": "e8ee3ee5-0464-4b52-8ae9-33c9f943de3f.pdf"
+    },
+    {
+        "lectureNumber": 2,
+        "lectureName": "Ray Optics and Optical Instruments 2 : Image Formation By Concave Lens",
+        "lectureCode": "c4bfc3c4-4c2a-4c12-8272-7d2c5eae2ad4",
+        "classNotesCode": "ed1a4b8b-04a1-45f3-8495-4b729d3c2494.pdf",
+        "dppsPdfCode": "b8e3ee8a-0344-4d12-8ab5-1e2c3e2e0b7d.pdf"
+    },
+    {
+        "lectureNumber": 1,
+        "lectureName": "Ray Optics and Optical Instruments 1 : Introduction to Ray Optics",
+        "lectureCode": "f7c2f1e7-0c2c-46b9-8ea2-4b8ac3c3ff3c",
+        "classNotesCode": "a7b2b6e9-0c2c-45b3-8ae2-4b7ac3c3ee3c.pdf",
+        "dppsPdfCode": "a1b3e2e0-0c2c-41b2-8ec2-4c7ac3c3dd3c.pdf"
+    }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectures.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                    <div id="qualitySelect_${index}" class="quality-select">
+                        <p>Select Quality:</p>
+                        <select id="qualityOptions_${index}">
+                            <option value="720">720p</option>
+                            <option value="480">480p</option>
+                            <option value="360">360p</option>
+                            <option value="240">240p</option>
+                            <option value="144">144p</option>
+                        </select>
+                        <button onclick="playVideoOrCopyLink(${index})">Play Now</button><br><br>
+                        <button class="go-back-button" onclick="goBack(${index})">Go Back</button>
+                    </div>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        function showQualityOptions(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "block";
+        }
+
+        function playVideoOrCopyLink(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "none";
+
+            const selectedQuality = document.getElementById(`qualityOptions_${index}`).value;
+            const lectureCode = lectures[index].lectureCode;
+            const videoLink = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${selectedQuality}/main.m3u8`;
+
+            // Check the user's device
+            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+            if (isMobile) {
+                openVLC(videoLink);
+            } else {
+                openLectureLinkWindow(videoLink);
+            }
+        }
+
+        function openVLC(videoPath) {
+            const vlcUri = `vlc://${videoPath}`;
+            window.location.href = vlcUri;
+        }
+
+        function openLectureLinkWindow(videoLink) {
+            const lectureLinkWindow = window.open('', '_blank', 'width=400,height=200');
+            lectureLinkWindow.document.write(`
+                <h2 class="bold-text">Lecture Link</h2>
+                <input type="text" value="${videoLink}" id="lectureLink">
+                <button onclick="copyLectureLink()">Copy Link</button>
+                <p class="bold-text">You must play this link in VLC Player Only.</p>
+            `);
+            lectureLinkWindow.document.getElementById('lectureLink').style.width = '500px'; // Adjust the textbox size
+        }
+
+        function copyLectureLink() {
+            const lectureLink = document.getElementById('lectureLink');
+            lectureLink.select();
+            document.execCommand('copy');
+            alert('Lecture link copied to clipboard');
+        }
+
+        function goBack(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "none";
+        }
+
+        generateTable();
+    </script>
+</body>
+</html>

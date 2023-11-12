@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        .quality-select {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px; /* Set your desired font size */
+        }
+
+        .go-back-button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+        const lectures = [
+    {
+        lectureNumber: 1,
+        lectureCode: "bce6196c-7b93-463b-9318-3f983fe2228f",
+        lectureName: "Carges and its Properties",
+        classNotesCode: "7bce6196c-7b93-463b-9318-3f983fe2228f.pdf",
+        dppCode: "dbce6196c-7b93-463b-9318-3f983fe2228f.pdf"
+    },
+    {
+        lectureNumber: 2,
+        lectureCode: "5f582dc3-7089-4b5b-b698-8169196fedb9",
+        lectureName: "Method Of Charging A Body",
+        classNotesCode: "75f582dc3-7089-4b5b-b698-8169196fedb9.pdf",
+        dppCode: "d5f582dc3-7089-4b5b-b698-8169196fedb9.pdf"
+    },
+    {
+        lectureNumber: 3,
+        lectureCode: "a3420114-8f8f-4eeb-8f76-9a61e7b529b3",
+        lectureName: "Charging By Conduction || Coloumb's Law",
+        classNotesCode: "7a3420114-8f8f-4eeb-8f76-9a61e7b529b3.pdf",
+        dppCode: "da3420114-8f8f-4eeb-8f76-9a61e7b529b3.pdf"
+    },
+    {
+        lectureNumber: 4,
+        lectureCode: "04b455b9-2fc1-4de9-b77c-1b1d54349d34",
+        lectureName: "Coulomb's Law || It's Vector Form",
+        classNotesCode: "704b455b9-2fc1-4de9-b77c-1b1d54349d34.pdf",
+        dppCode: "d04b455b9-2fc1-4de9-b77c-1b1d54349d34.pdf"
+    },
+    {
+        lectureNumber: 5,
+        lectureCode: "a9256859-6ba5-4db7-839c-f9040c44cea9",
+        lectureName: "Questions On Coulomb's Law",
+        classNotesCode: "7a9256859-6ba5-4db7-839c-f9040c44cea9.pdf",
+        dppCode: "da9256859-6ba5-4db7-839c-f9040c44cea9.pdf"
+    },
+    {
+        lectureNumber: 6,
+        lectureCode: "04f7ef5c-4312-45ed-9840-640fd862d0a0",
+        lectureName: "Questions On Coulomb's Law (Part - 02)",
+        classNotesCode: "704f7ef5c-4312-45ed-9840-640fd862d0a0.pdf",
+        dppCode: "d04f7ef5c-4312-45ed-9840-640fd862d0a0.pdf"
+    },
+    {
+        lectureNumber: 7,
+        lectureCode: "a682ac69-ad9c-4f9d-a5b7-84bac9706e6e",
+        lectureName: "Electric Field || Force On Charge Particle In Electric Field",
+        classNotesCode: "7a682ac69-ad9c-4f9d-a5b7-84bac9706e6e.pdf",
+        dppCode: "da682ac69-ad9c-4f9d-a5b7-84bac9706e6e.pdf"
+    },
+    {
+        lectureNumber: 8,
+        lectureCode: "7b9e040b-a86d-487e-8094-eae5089338a5",
+        lectureName: "Charge Particle In Electric Field || NO DPP",
+        classNotesCode: "77b9e040b-a86d-487e-8094-eae5089338a5.pdf",
+        dppCode: "d7b9e040b-a86d-487e-8094-eae5089338a5.pdf"
+    },
+    {
+        lectureNumber: 9,
+        lectureCode: "02833026-e4a9-4d4c-9cff-8b1872f2243d",
+        lectureName: "Electric Field Lines & It's Properties",
+        classNotesCode: "702833026-e4a9-4d4c-9cff-8b1872f2243d.pdf",
+        dppCode: "d02833026-e4a9-4d4c-9cff-8b1872f2243d.pdf"
+    },
+    {
+        lectureNumber: 10,
+        lectureCode: "4eec2554-8fdd-460d-80e5-9f8ffb4d0e84",
+        lectureName: "Electric Field Lines",
+        classNotesCode: "74eec2554-8fdd-460d-80e5-9f8ffb4d0e84.pdf",
+        dppCode: "d4eec2554-8fdd-460d-80e5-9f8ffb4d0e84.pdf"
+    },
+    {
+        lectureNumber: 11,
+        lectureCode: "821e335d-fd5e-41a7-b702-18717e8a6c11",
+        lectureName: "Electric Field Due To Ring Il Electric Dipole",
+        classNotesCode: "7821e335d-fd5e-41a7-b702-18717e8a6c11.pdf",
+        dppCode: "d821e335d-fd5e-41a7-b702-18717e8a6c11.pdf"
+    },
+    {
+        lectureNumber: 12,
+        lectureCode: "106607d3-7f30-4e53-ac01-e9c4b6dfbcc3",
+        lectureName: "Electric Field Due To Charged Thread Il Electric Dipole",
+        classNotesCode: "7106607d3-7f30-4e53-ac01-e9c4b6dfbcc3.pdf",
+        dppCode: "d106607d3-7f30-4e53-ac01-e9c4b6dfbcc3.pdf"
+    },
+    {
+        lectureNumber: 13,
+        lectureCode: "0e377742-a6ca-4484-99b0-4f8d95b80130",
+        lectureName: "Electric Dipole || Electric Field Due To Dipole Moment",
+        classNotesCode: "70e377742-a6ca-4484-99b0-4f8d95b80130.pdf",
+        dppCode: "d0e377742-a6ca-4484-99b0-4f8d95b80130.pdf"
+    },
+    {
+        lectureNumber: 14,
+        lectureCode: "068c2fe0-896a-4594-9459-b1675334e1af",
+        lectureName: "Electric dipole in External Field",
+        classNotesCode: "7068c2fe0-896a-4594-9459-b1675334e1af.pdf",
+        dppCode: "d068c2fe0-896a-4594-9459-b1675334e1af.pdf"
+    },
+    {
+        lectureNumber: 15,
+        lectureCode: "1bb52c47-9a00-482f-ae3b-7985541f82b7",
+        lectureName: "Oscillation Of Dipole In Field || Force Interaction Between Dipoles || NO DPP",
+        classNotesCode: "71bb52c47-9a00-482f-ae3b-7985541f82b7.pdf",
+        dppCode: "d1bb52c47-9a00-482f-ae3b-7985541f82b7.pdf"
+    },
+    {
+        lectureNumber: 16,
+        lectureCode: "8ebd09ec-e878-45e8-b89b-c6ca999470b3",
+        lectureName: "Electric dipole in External Field",
+        classNotesCode: "78ebd09ec-e878-45e8-b89b-c6ca999470b3.pdf",
+        dppCode: "d8ebd09ec-e878-45e8-b89b-c6ca999470b3.pdf"
+    },
+    {
+        lectureNumber: 17,
+        lectureCode: "479a55f0-5f63-46be-8cbe-879d906fcc25",
+        lectureName: "Electric Flux Projection Rule || Gauss Law",
+        classNotesCode: "7479a55f0-5f63-46be-8cbe-879d906fcc25.pdf",
+        dppCode: "d479a55f0-5f63-46be-8cbe-879d906fcc25.pdf"
+    },
+    {
+        lectureNumber: 18,
+        lectureCode: "9f88dd78-7ea9-4d98-af8a-50e9cc06983c",
+        lectureName: "Questions On Gauss Law",
+        classNotesCode: "79f88dd78-7ea9-4d98-af8a-50e9cc06983c.pdf",
+        dppCode: "d9f88dd78-7ea9-4d98-af8a-50e9cc06983c.pdf"
+    },
+    {
+        lectureNumber: 19,
+        lectureCode: "c6cbe2b2-415e-467c-9af6-9dc47a2b9f08",
+        lectureName: "Application of Gauss Law",
+        classNotesCode: "7c6cbe2b2-415e-467c-9af6-9dc47a2b9f08.pdf",
+        dppCode: "dc6cbe2b2-415e-467c-9af6-9dc47a2b9f08.pdf"
+    },
+    {
+        lectureNumber: 20,
+        lectureCode: "93e40292-9a3b-4cba-8beb-084cfdd3a3a3",
+        lectureName: "Question on Application of Gauss Law || NO DPP",
+        classNotesCode: "793e40292-9a3b-4cba-8beb-084cfdd3a3a3.pdf",
+        dppCode: "d93e40292-9a3b-4cba-8beb-084cfdd3a3a3.pdf"
+    },
+    {
+        lectureNumber: 21,
+        lectureCode: "bba45af5-ccf7-493a-bd5f-9b6dc525b316",
+        lectureName: "Quick Revision || NO DPP",
+        classNotesCode: "7bba45af5-ccf7-493a-bd5f-9b6dc525b316.pdf",
+        dppCode: "dbba45af5-ccf7-493a-bd5f-9b6dc525b316.pdf"
+    },
+    {
+        lectureNumber: "--",
+        lectureCode: "b998ec4c-8587-413c-a95a-a0d23ce13ef4",
+        lectureName: "Advance Concepts and Questions || NO DPP",
+        classNotesCode: "bb998ec4c-8587-413c-a95a-a0d23ce13ef4.pdf",
+        dppCode: "bdb998ec4c-8587-413c-a95a-a0d23ce13ef4.pdf"
+    },
+    {
+        lectureNumber: "--",
+        lectureCode: "newEX",
+        lectureName: "MINDMAP",
+        classNotesCode: "bnewEX.pdf",
+        dppCode: "bdnewEX.pdf"
+    }
+];
+
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectures.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                    <div id="qualitySelect_${index}" class="quality-select">
+                        <p>Select Quality:</p>
+                        <select id="qualityOptions_${index}">
+                            <option value="720">720p</option>
+                            <option value="480">480p</option>
+                            <option value="360">360p</option>
+                            <option value="240">240p</option>
+                            <option value="144">144p</option>
+                        </select>
+                        <button onclick="playVideoInVLC('${lecture.lectureCode}', ${index})">Play Now</button>
+                        <p id="vlcLink_${index}"></p>
+                        <button class="go-back-button" onclick="goBack(${index})">Go Back</button>
+                    </div>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <a href="${generateClassNotesLink(lecture.classNotesCode)}" target="_blank">
+                        <button>Class Notes PDF</button>
+                    </a>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppCode) {
+                    cell5.innerHTML = `
+                        <a href="${generateDPPLink(lecture.dppCode)}" target="_blank">
+                            <button>DPP PDF</button>
+                        </a>
+                    `;
+                }
+            });
+        }
+
+        function showQualityOptions(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "block";
+        }
+
+        function playVideoInVLC(lectureCode, index) {
+            const quality = document.getElementById(`qualityOptions_${index}`).value;
+            const videoLink = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${quality}/main.m3u8`;
+            openVLC(videoLink, index);
+        }
+
+        function openVLC(videoPath, index) {
+            const vlcUri = `vlc://${videoPath}`;
+            document.getElementById(`vlcLink_${index}`).textContent = "Opening in VLC. Please check your VLC player.";
+            setTimeout(() => {
+                window.location.href = vlcUri;
+            }, 1000);
+        }
+
+        function goBack(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "none";
+        }
+
+        generateTable();
+    </script>
+</body>
+</html>

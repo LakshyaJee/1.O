@@ -39,7 +39,7 @@
     <table>
         <tr>
             <th>Sr. No</th>
-            <th>Lecture lectureNumber</th>
+            <th>Lecture Number</th>
             <th>Lecture</th>
             <th>Class Notes PDF</th>
             <th>DPP PDF</th>
@@ -47,82 +47,110 @@
     </table>
 
     <script>
-        const lectures = [
+       const lectureData = [
   {
     lectureNumber: 1,
-    lectureName: "Faraday's Law And Lenz Law",
-    lectureCode: "52a1f104-37e2-475e-aa5f-7d40e570291b",
-    classNotesCode: "58284bd3-53d8-4488-bbc4-03faefdbbbd1.pdf",
-    dppsPdfCode: "89333db8-79e1-4273-a230-6ae944ae88e3.pdf"
-  },
-  {
-    lectureNumber: 2,
-    lectureName: "Cases Of Faradays & Lenz Law",
-    lectureCode: "0a1cdd60-924f-445f-9607-371b30ba12a5",
-    classNotesCode: "35bef2e0-b69f-4bfe-8dc8-622daba5dc00.pdf",
-    dppsPdfCode: "0f26f87e-33ea-48ad-b730-c7502123e4ae.pdf"
-  },
-  {
-    lectureNumber: 3,
-    lectureName: "Motional Emf & Rotational Emf",
-    lectureCode: "8a60a4f2-b9cb-4409-a7c5-1dacff9bc699",
-    classNotesCode: "347a6faa-4d87-450f-abbb-fbb1843a6c2f.pdf",
-    dppsPdfCode: "42929b97-b91c-4daf-bc48-9e071159af19.pdf"
-  },
-  {
-    lectureNumber: 4,
-    lectureName: "Rotational Emf & Questions",
-    lectureCode: "(Not Available)",
-    classNotesCode: "d8a3815e-5447-4aa2-b246-53a4495c6bf5.pdf",
-    dppsPdfCode: "8c8c64b5-be51-4a59-af7f-609345ea6d3e.pdf"
-  },
-  {
-    lectureNumber: 5,
-    lectureName: "Motion of rod by applying external force In Field and questions",
-    lectureCode: "196da7de-960f-4865-90db-b23d749afb36",
-    classNotesCode: "5d33cc92-b715-40b4-a01b-cf423f4efa06.pdf",
-    dppsPdfCode: "0e9f3127-cce3-4780-8d45-878b4e4bd95c.pdf"
-  },
-  {
-    lectureNumber: 6,
-    lectureName: "Advance Question On EMI & Self Inductance || Questions On Motional EMF",
-    lectureCode: "428e3a74-2bc6-4c48-9977-2ff42c620db7",
-    classNotesCode: "b721d4ab-b27d-422e-8cd7-0f3f0bc91402.pdf",
-    dppsPdfCode: "5d3f1ad6-f4a4-4642-80b1-bcf49e2134b1.pdf"
-  },
-  {
-    lectureNumber: 7,
-    lectureName: "Self Induction and Mutual Induction.",
-    lectureCode: "0d6423a5-252a-4328-ad49-1e4999856e01",
-    classNotesCode: "0fb58efc-68e5-40d5-afec-8020d7eef0f0.pdf",
-    dppsPdfCode: "d9421063-f6cb-4769-90ac-01ee787b6485.pdf"
-  },
-  {
-    lectureNumber: 8,
-    lectureName: "Questions on self inductance and mutual inductance",
-    lectureCode: "6a55d96d-4ea1-41be-a214-1207c04ece5f",
-    classNotesCode: "fde80db2-25db-4140-b7ed-f0788f888019.pdf",
-    dppsPdfCode: "b2a323b7-3c96-4dcb-94b0-d2e8c129a72c.pdf"
-  },
-  {
-    lectureNumber: 9,
-    lectureName: "TVMF and It's Question || NO DPP",
-    lectureCode: "78f12d42-1753-42ed-9ec2-14b0a9c4e040",
-    classNotesCode: "f024ece4-27ff-4dd4-bec8-e3d9b3b10881.pdf",
+    lectureName: "Biot Savart's Law",
+    lectureCode: "36b16145-1dad-4758-8dea-9bfeae6fe7e8",
+    classNotesCode: "4310cc6d-2b4c-45aa-8b0b-99301793631b.pdf",
     dppsPdfCode: ""
   },
   {
+    lectureNumber: 2,
+    lectureName: "Questions On Biot Savart's Law",
+    lectureCode: "572bd0b2-03a5-41f3-8b65-e06aa5bc84ff",
+    classNotesCode: "baf9316a-f99d-468b-8513-f0ce7829b752.pdf",
+    dppsPdfCode: "dbea16b7-0c63-40c4-a27a-39677d307e31.pdf"
+  },
+  {
+    lectureNumber: 3,
+    lectureName: "Questions On Biot Savart's Law",
+    lectureCode: "950df758-a2c8-4680-a1b8-980662a9ea8f",
+    classNotesCode: "bf84e528-e553-4c03-9d9e-d2edf8e29c5d.pdf",
+    dppsPdfCode: "f19c6246-d476-4f3a-a244-e66c201c08d1.pdf"
+  },
+  {
+    lectureNumber: 4,
+    lectureName: "Magnetic Field Due To Current Carrying Loop And Ampere Circuital Law || NO DPP",
+    lectureCode: "900a98fe-9e0e-4f83-a311-67d483b26412",
+    classNotesCode: "026175bb-421b-4acb-ac64-f4c52b67fc73.pdf",
+    dppsPdfCode: ""
+  },
+  {
+    lectureNumber: 5,
+    lectureName: "Application Of Ampere Circuital Law",
+    lectureCode: "9cccdeac-56a6-4868-905e-5fba89adb504",
+    classNotesCode: "6cf70cd3-6ad6-48ad-ad46-66eafdebc95d.pdf",
+    dppsPdfCode: "d5733cde-565d-4ec4-b3a4-7d585d02f594.pdf"
+  },
+  {
+    lectureNumber: 6,
+    lectureName: "Solenoid || Toroid || Motion Of Charge Particle In Magnetic Field",
+    lectureCode: "038851d2-cdd8-4303-8c26-735ba213e452",
+    classNotesCode: "1cd79fd1-fd5d-4eba-8c53-969d5a4b36cb.pdf",
+    dppsPdfCode: "6b7a026a-01cd-4c0f-9d8e-8e6496796474.pdf"
+  },
+  {
+    lectureNumber: 7,
+    lectureName: "Motion Of Charge In Magnetic Field & Velocity Selector",
+    lectureCode: "024fb873-e66d-42d4-b88a-bcd7c11f422c",
+    classNotesCode: "bab85db8-877d-46df-9f7b-9206f643831a.pdf",
+    dppsPdfCode: "269b89f5-3b6c-4962-a972-a907f9e60418.pdf"
+  },
+  {
+    lectureNumber: 8,
+    lectureName: "Velocity Selector",
+    lectureCode: "f0614086-d717-4edd-b335-12b092e147c8",
+    classNotesCode: "e3919a45-12b8-46cb-8151-a43af1a5ad38.pdf",
+    dppsPdfCode: "e7ab6895-48a1-45fe-8e97-6a16bf1d75ae.pdf"
+  },
+  {
+    lectureNumber: 9,
+    lectureName: "Question On Motion On Charge Particle",
+    lectureCode: "90f9021f-973f-4605-968f-8fd5f8cf1df6",
+    classNotesCode: "d8770462-c950-4cf2-8179-22ceb1f2cbeb.pdf",
+    dppsPdfCode: "657e84de-120e-4837-b09d-8870b9c45ed0.pdf"
+  },
+  {
     lectureNumber: 10,
-    lectureName: "RL Circuits & Earth Magnetism || NO DPP",
-    lectureCode: "d68ef546-da11-44fe-8d95-1376c5ebcbc5",
-    classNotesCode: "3bda1aad-b114-4d3b-bf18-e1504945f858.pdf",
+    lectureName: "Force On Current Carrying Wire || (NO DPP)",
+    lectureCode: "46909c2c-e4bb-4ec1-a88e-7f0f318c2c98",
+    classNotesCode: "fd3b47a0-15e4-48db-a302-7f97cf82b8b3.pdf",
     dppsPdfCode: ""
   },
   {
     lectureNumber: 11,
-    lectureName: "Quick Revision || NO DPP",
-    lectureCode: "0e41aa0c-4d0a-4782-a693-6259f4032e36",
-    classNotesCode: "0fd9e095-42af-4cba-8ab1-071c7298cf0c.pdf",
+    lectureName: "Questions On Force On Current Carrying Conductor In External Field",
+    lectureCode: "a1863cc2-9019-4203-9f17-a9a169427036",
+    classNotesCode: "4f8f6e77-9104-4182-bac1-0709ebac34d0.pdf",
+    dppsPdfCode: "eefc9da9-a290-4a7a-a083-aba67798eed1.pdf"
+  },
+  {
+    lectureNumber: 12,
+    lectureName: "Magnetic Moment & Torque On Coil",
+    lectureCode: "ea5f7b74-11dc-4726-a21b-54cc8427eb06",
+    classNotesCode: "384f8d17-f086-421e-beb4-34fc232cbbce.pdf",
+    dppsPdfCode: "ae4d27a6-7371-40db-878a-baf7d2dbbbac.pdf"
+  },
+  {
+    lectureNumber: 13,
+    lectureName: "Magnetic Moment & Torque On Coil || Moving Coil Galvanometer",
+    lectureCode: "1db2c7f8-c881-4e92-a591-5d321fc70822",
+    classNotesCode: "9726f347-e90a-4bbc-9a9d-72333bcafda9.pdf",
+    dppsPdfCode: "0d0092eb-9440-44c3-bc3f-f13c44c451ca.pdf"
+  },
+  {
+    lectureNumber: 14,
+    lectureName: "Moving Coil Galvanometer & Questions || (NO DPP)",
+    lectureCode: "c26181da-e62b-4fc0-8fde-6e05f9932b45",
+    classNotesCode: "53415363-7270-4aaf-b371-2898640406fc.pdf",
+    dppsPdfCode: ""
+  },
+  {
+    lectureNumber: "--",
+    lectureName: "Quick Revision (NO DPP)",
+    lectureCode: "705f5ff2-c5f4-40d9-9e1e-2ea691016cf2",
+    classNotesCode: "36a10079-dcea-4e8c-85c1-271c8c3f57a0.pdf",
     dppsPdfCode: ""
   }
 ];
@@ -140,10 +168,17 @@
             return '';
         }
 
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
         function generateTable() {
             const table = document.querySelector('table');
 
-            lectures.forEach((lecture, index) => {
+            lectureData.forEach((lecture, index) => {
                 const row = table.insertRow();
                 row.insertCell(0).textContent = index + 1;
                 row.insertCell(1).textContent = lecture.lectureName;
@@ -168,18 +203,13 @@
 
                 const cell4 = row.insertCell(3);
                 cell4.innerHTML = `
-                    <a href="${generateClassNotesLink(lecture.classNotesCode)}" target="_blank">
-                        <button>Class Notes PDF</button>
-                    </a>
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
                 `;
 
                 const cell5 = row.insertCell(4);
                 if (lecture.dppsPdfCode) {
-
                     cell5.innerHTML = `
-                        <a href="${generateDPPLink(lecture.dppsPdfCode)}" target="_blank">
-                            <button>DPP PDF</button>
-                        </a>
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
                     `;
                 }
             });
