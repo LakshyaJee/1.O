@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        .quality-select {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px;
+        }
+
+        .error-message {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px;
+        }
+
+        .go-back-button {
+            margin-top: 10px;
+        }
+
+        /* Style for bold text and increased size */
+        .bold-text {
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+    const lectures = [
+    {
+        "lectureNumber": "1",
+        "lectureName": "Basics of 3D, Direction Cosines & Direction Ratios || NO DPP",
+        "lectureCode": "554878d5-61e0-4633-8eab-0d44124945cc",
+        "classNotesCode": "f24c89ab-5bf8-4c59-b028-98d9b24d366c.pdf",
+        "dppsPdfCode": ""
+    },
+    {
+        "lectureNumber": "2",
+        "lectureName": "Direction Cosines & Direction Ratios",
+        "lectureCode": "a5b6e634-2d40-4c24-a1e9-4ab2d9c9cc6d",
+        "classNotesCode": "e5617268-d2c1-4277-8612-dd8a2c0a3784.pdf",
+        "dppsPdfCode": "07bf1e5f-882c-476d-9d47-537d47cbc70d.pdf"
+    },
+    {
+        "lectureNumber": "3",
+        "lectureName": "Equation of Line, Angle between Two Lines, Line & a Point",
+        "lectureCode": "2b804f05-48be-408d-9b3d-1e1d40edf293",
+        "classNotesCode": "e5617268-d2c1-4277-8612-dd8a2c0a3784.pdf",
+        "dppsPdfCode": "d9289f20-77d9-45c0-92f8-af80b1550347.pdf"
+    },
+    {
+        "lectureNumber": "4",
+        "lectureName": "Skew Lines, Shortest Distance between two Lines",
+        "lectureCode": "7dd4775e-f7df-4b1b-ae95-c0124db12d12",
+        "classNotesCode": "f3516656-813d-492a-8021-ee457e6213eb.pdf",
+        "dppsPdfCode": "c6f7e48a-087c-483c-9dac-eac2c5ea2c8a.pdf"
+    },
+    {
+        "lectureNumber": "5",
+        "lectureName": "Equation of Plane & Question Practice",
+        "lectureCode": "194d2d2c-ebf5-48bf-9b01-148c0cf17f9a",
+        "classNotesCode": "8751ecaf-bd3c-4a3a-8d8e-140ca399bdb3.pdf",
+        "dppsPdfCode": "9d1e1754-e4ba-4590-bd64-c4fec7811d35.pdf"
+    },
+    {
+        "lectureNumber": "6",
+        "lectureName": "Line and Plane, Point & Plane",
+        "lectureCode": "37b10db3-5698-4033-8423-9a1b6e939f0f",
+        "classNotesCode": "e26d9d3e-9e71-4ee3-84ef-7f439b163293.pdf",
+        "dppsPdfCode": "f6121a34-f9ce-400e-a71e-7ee62b394609.pdf"
+    },
+    {
+        "lectureNumber": "7",
+        "lectureName": "Image Of Line In Plane || Line Of Projection || Angle Bisector Plane || OP-QP",
+        "lectureCode": "08274ad4-8da1-4e51-8e5d-e1798055f9b9",
+        "classNotesCode": "e6b879a8-e2ce-4327-906b-acbee4de1038.pdf",
+        "dppsPdfCode": "e417f023-2f66-4ac4-98d6-aefb283644f8.pdf"
+    },
+    {
+        "lectureNumber": "8",
+        "lectureName": "Family of Planes, Line of Intersection of two planes, Locus problems",
+        "lectureCode": "ba929bbc-f6f9-483d-b70a-cb85592fd918",
+        "classNotesCode": "967abe92-408e-434c-8288-ca79b2f9e563.pdf",
+        "dppsPdfCode": "d3381096-87b9-45c8-9072-ba44bf8a1ef3.pdf"
+    },
+    {
+        "lectureNumber": "9",
+        "lectureName": "Locus Problems, Equation Of Sphere, Important Results, Question Practice",
+        "lectureCode": "1861015e-74df-4722-b8b3-56cbcfeab7fd",
+        "classNotesCode": "0462e798-0c1e-49d4-a16d-c4077055945f.pdf",
+        "dppsPdfCode": "f13626cd-2628-4a31-ba8a-65a2472b3f37.pdf"
+    }
+];
+
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectures.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                    <div id="qualitySelect_${index}" class="quality-select">
+                        <p>Select Quality:</p>
+                        <select id="qualityOptions_${index}">
+                            <option value="720">720p</option>
+                            <option value="480">480p</option>
+                            <option value="360">360p</option>
+                            <option value="240">240p</option>
+                            <option value="144">144p</option>
+                        </select>
+                        <button onclick="playVideoOrCopyLink(${index})">Play Now</button><br><br>
+                        <button class="go-back-button" onclick="goBack(${index})">Go Back</button>
+                    </div>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        function showQualityOptions(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "block";
+        }
+
+        function playVideoOrCopyLink(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "none";
+
+            const selectedQuality = document.getElementById(`qualityOptions_${index}`).value;
+            const lectureCode = lectures[index].lectureCode;
+            const videoLink = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${selectedQuality}/main.m3u8`;
+
+            // Check the user's device
+            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+            if (isMobile) {
+                openVLC(videoLink);
+            } else {
+                openLectureLinkWindow(videoLink);
+            }
+        }
+
+        function openVLC(videoPath) {
+            const vlcUri = `vlc://${videoPath}`;
+            window.location.href = vlcUri;
+        }
+
+        function openLectureLinkWindow(videoLink) {
+            const lectureLinkWindow = window.open('', '_blank', 'width=400,height=200');
+            lectureLinkWindow.document.write(`
+                <h2 class="bold-text">Lecture Link</h2>
+                <input type="text" value="${videoLink}" id="lectureLink">
+                <button onclick="copyLectureLink()">Copy Link</button>
+                <p class="bold-text">You must play this link in VLC Player Only.</p>
+            `);
+            lectureLinkWindow.document.getElementById('lectureLink').style.width = '500px'; // Adjust the textbox size
+        }
+
+        function copyLectureLink() {
+            const lectureLink = document.getElementById('lectureLink');
+            lectureLink.select();
+            document.execCommand('copy');
+            alert('Lecture link copied to clipboard');
+        }
+
+        function goBack(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "none";
+        }
+
+        generateTable();
+    </script>
+</body>
+</html>

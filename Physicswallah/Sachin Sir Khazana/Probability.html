@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        .quality-select {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px;
+        }
+
+        .error-message {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px;
+        }
+
+        .go-back-button {
+            margin-top: 10px;
+        }
+
+        /* Style for bold text and increased size */
+        .bold-text {
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+     const lectures = [
+    {
+        "lectureNumber": "1",
+        "lectureName": "Revision of Permutation & Combination || NO DPP",
+        "lectureCode": "d8df0313-427c-4278-9fa0-0965d1599f69",
+        "classNotesCode": "8407614b-dc60-4a9d-9070-580468003005.pdf",
+        "dppsPdfCode": ""
+    },
+    {
+        "lectureNumber": "2",
+        "lectureName": "Revision of Permutation & Combination || NO DPP",
+        "lectureCode": "1cb94884-4962-4d52-b4ca-707b063f2bd3",
+        "classNotesCode": "29c7da14-0ee1-40fa-9f5c-ba50ed0666d6.pdf",
+        "dppsPdfCode": ""
+    },
+    {
+        "lectureNumber": "3",
+        "lectureName": "General Terminology, Classical Definition of Probability, Different types of Questions",
+        "lectureCode": "34553d81-3e71-4450-9536-f5c5e9914fd4",
+        "classNotesCode": "101eec5a-9b91-4272-b33e-e425c235c677.pdf",
+        "dppsPdfCode": "989e4c55-a875-4b7b-a63b-ece49cd4ac80.pdf"
+    },
+    {
+        "lectureNumber": "4",
+        "lectureName": "Use of Set Theory, Independent Events, Conditional Probability || NO DPP",
+        "lectureCode": "f247d79e-0ba4-46bd-9787-0629888d037b",
+        "classNotesCode": "74736d99-8726-493f-95a7-3f3f1c5cf506.pdf",
+        "dppsPdfCode": ""
+    },
+    {
+        "lectureNumber": "5",
+        "lectureName": "Independent Events, Conditional Probability, OP-QP",
+        "lectureCode": "cf0526a1-cc47-47e0-86e7-55b5fa264970",
+        "classNotesCode": "06e26fa4-46cd-4a77-a2d0-d25bc5ad8709.pdf",
+        "dppsPdfCode": "dcab0d86-d5ae-4dcf-becf-a8cd0e48f666.pdf"
+    },
+    {
+        "lectureNumber": "6",
+        "lectureName": "Total Probability & Baye’s Theorem",
+        "lectureCode": "28395904-332f-4c72-91ef-05e757682bf6",
+        "classNotesCode": "16df0f73-7acf-45bc-ae15-68f729dbcee9.pdf",
+        "dppsPdfCode": "a1af2b83-13a7-4ae3-b27c-4891c59be643.pdf"
+    },
+    {
+        "lectureNumber": "7",
+        "lectureName": "Random Variable, Probability Distribution, Mean Variance & Standard Deviation",
+        "lectureCode": "215ac69b-4786-4c86-a8fb-311442f7e5a4",
+        "classNotesCode": "ea150a88-82bf-4199-90a0-1f5145d07a98.pdf",
+        "dppsPdfCode": "81f40c17-16c0-49df-a08e-21eb0ba40e39.pdf"
+    },
+    {
+        "lectureNumber": "8",
+        "lectureName": "Binomial Probability Distribution, Bernoulli’s Trial",
+        "lectureCode": "2e05e50b-183c-41b5-ab22-6b9120f39612",
+        "classNotesCode": "fb42aa54-4e9b-47ba-8e9a-44f3b27eae8a.pdf",
+        "dppsPdfCode": "eb92d380-f735-49ad-b9fe-54cec9b5d2b6.pdf"
+    },
+    {
+        "lectureNumber": "9",
+        "lectureName": "Geometrical Probability, Different types of Question Solving",
+        "lectureCode": "a9e8a427-7327-42f6-955f-0e1637e248bf",
+        "classNotesCode": "7f2ca3aa-4f02-4146-9edf-940c31623f30.pdf",
+        "dppsPdfCode": "eb92d380-f735-49ad-b9fe-54cec9b5d2b6.pdf"
+    },
+    {
+        "lectureNumber": "10",
+        "lectureName": "Solving Different Types of Question || NO DPP",
+        "lectureCode": "dd286fa9-5217-4b08-809f-6584c27d37d6",
+        "classNotesCode": "467c936a-9928-4771-b3a4-5ec427f8b282.pdf",
+        "dppsPdfCode": ""
+    }
+];
+
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectures.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                    <div id="qualitySelect_${index}" class="quality-select">
+                        <p>Select Quality:</p>
+                        <select id="qualityOptions_${index}">
+                            <option value="720">720p</option>
+                            <option value="480">480p</option>
+                            <option value="360">360p</option>
+                            <option value="240">240p</option>
+                            <option value="144">144p</option>
+                        </select>
+                        <button onclick="playVideoOrCopyLink(${index})">Play Now</button><br><br>
+                        <button class="go-back-button" onclick="goBack(${index})">Go Back</button>
+                    </div>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        function showQualityOptions(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "block";
+        }
+
+        function playVideoOrCopyLink(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "none";
+
+            const selectedQuality = document.getElementById(`qualityOptions_${index}`).value;
+            const lectureCode = lectures[index].lectureCode;
+            const videoLink = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${selectedQuality}/main.m3u8`;
+
+            // Check the user's device
+            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+            if (isMobile) {
+                openVLC(videoLink);
+            } else {
+                openLectureLinkWindow(videoLink);
+            }
+        }
+
+        function openVLC(videoPath) {
+            const vlcUri = `vlc://${videoPath}`;
+            window.location.href = vlcUri;
+        }
+
+        function openLectureLinkWindow(videoLink) {
+            const lectureLinkWindow = window.open('', '_blank', 'width=400,height=200');
+            lectureLinkWindow.document.write(`
+                <h2 class="bold-text">Lecture Link</h2>
+                <input type="text" value="${videoLink}" id="lectureLink">
+                <button onclick="copyLectureLink()">Copy Link</button>
+                <p class="bold-text">You must play this link in VLC Player Only.</p>
+            `);
+            lectureLinkWindow.document.getElementById('lectureLink').style.width = '500px'; // Adjust the textbox size
+        }
+
+        function copyLectureLink() {
+            const lectureLink = document.getElementById('lectureLink');
+            lectureLink.select();
+            document.execCommand('copy');
+            alert('Lecture link copied to clipboard');
+        }
+
+        function goBack(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "none";
+        }
+
+        generateTable();
+    </script>
+</body>
+</html>

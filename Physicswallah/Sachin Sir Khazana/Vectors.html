@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        .quality-select {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px;
+        }
+
+        .error-message {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px;
+        }
+
+        .go-back-button {
+            margin-top: 10px;
+        }
+
+        /* Style for bold text and increased size */
+        .bold-text {
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+     const lectures = [
+    {
+        "lectureNumber": "1",
+        "lectureName": "Different types of Questions on DE, Basics of Vectors, Types of Vectors || NO DPP",
+        "lectureCode": "6355780b-c052-4a5e-ae13-568c04581025",
+        "classNotesCode": "196835c6-71b4-4897-ab92-63007c595ca9.pdf",
+        "dppsPdfCode": ""
+    },
+    {
+        "lectureNumber": "2",
+        "lectureName": "Vector Law of Addition, Dot Product",
+        "lectureCode": "dab72f4e-5404-4287-b91a-16d170d3956b",
+        "classNotesCode": "826b37f1-7b18-4b5d-990d-05ff11743ba9.pdf",
+        "dppsPdfCode": "c4d19ef6-79ff-4e72-84f6-59612efe4930.pdf"
+    },
+    {
+        "lectureNumber": "3",
+        "lectureName": "Dot Product & Cross Product",
+        "lectureCode": "496b630b-d034-48a6-a71f-c9a655ce8f83",
+        "classNotesCode": "e7a3759f-7802-486b-8634-a25706703f6e.pdf",
+        "dppsPdfCode": "56afacc5-dd2e-4ab0-bab9-612a921e5187.pdf"
+    },
+    {
+        "lectureNumber": "4",
+        "lectureName": "Cross Product & Question Practice || NO DPP",
+        "lectureCode": "3cee0533-2daf-4e81-9f05-29b23b9514f8",
+        "classNotesCode": "dc521522-d1f4-4ad4-b47e-81fb578afb12.pdf",
+        "dppsPdfCode": ""
+    },
+    {
+        "lectureNumber": "5",
+        "lectureName": "Cross Product & Questions on it, Scalar Triple Product",
+        "lectureCode": "a38a66ea-e968-426a-a922-e479384a2295",
+        "classNotesCode": "efb9af68-093e-4b06-9427-e58afeb17310.pdf",
+        "dppsPdfCode": "96eaf546-f8b5-47fb-9b28-8debfab81014.pdf"
+    },
+    {
+        "lectureNumber": "6",
+        "lectureName": "STP, Questions on STP, Vector Triple Product",
+        "lectureCode": "ccf23461-14c6-4083-b481-6a0ad8c8f5b9",
+        "classNotesCode": "622507a0-3a20-4fae-b20c-69e94bd9fda7.pdf",
+        "dppsPdfCode": "329d85ef-6685-4f05-abae-c0b015bc8c53.pdf"
+    },
+    {
+        "lectureNumber": "7",
+        "lectureName": "Question Discussion, Linearly Dependent & Independent, Theorem in Plane and Space",
+        "lectureCode": "91c9291f-0fee-44be-b6d9-e2315dcd6d38",
+        "classNotesCode": "589d62b6-9d58-42da-9cba-f62bfbc23d18.pdf",
+        "dppsPdfCode": "c4d55f2c-fd3b-49fd-bae7-2fa9469bc02b.pdf"
+    },
+    {
+        "lectureNumber": "8",
+        "lectureName": "Reciprocal Systems of Vectors, Solving Vector Equation",
+        "lectureCode": "66d0b147-c1d2-4382-b8d2-279f09bf1e41",
+        "classNotesCode": "7c47ce59-fe9b-4b60-88ee-040f9803ab23.pdf",
+        "dppsPdfCode": "0b8ceabe-38d8-41c4-bbbd-2c80567bdcfe.pdf"
+    },
+    {
+        "lectureNumber": "9",
+        "lectureName": "EXTRA DPP 01",
+        "lectureCode": "",
+        "classNotesCode": "",
+        "dppsPdfCode": "086a7443-1939-48c5-91c3-45af0b4f0836.pdf"
+    }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectures.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                    <div id="qualitySelect_${index}" class="quality-select">
+                        <p>Select Quality:</p>
+                        <select id="qualityOptions_${index}">
+                            <option value="720">720p</option>
+                            <option value="480">480p</option>
+                            <option value="360">360p</option>
+                            <option value="240">240p</option>
+                            <option value="144">144p</option>
+                        </select>
+                        <button onclick="playVideoOrCopyLink(${index})">Play Now</button><br><br>
+                        <button class="go-back-button" onclick="goBack(${index})">Go Back</button>
+                    </div>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        function showQualityOptions(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "block";
+        }
+
+        function playVideoOrCopyLink(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "none";
+
+            const selectedQuality = document.getElementById(`qualityOptions_${index}`).value;
+            const lectureCode = lectures[index].lectureCode;
+            const videoLink = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${selectedQuality}/main.m3u8`;
+
+            // Check the user's device
+            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+            if (isMobile) {
+                openVLC(videoLink);
+            } else {
+                openLectureLinkWindow(videoLink);
+            }
+        }
+
+        function openVLC(videoPath) {
+            const vlcUri = `vlc://${videoPath}`;
+            window.location.href = vlcUri;
+        }
+
+        function openLectureLinkWindow(videoLink) {
+            const lectureLinkWindow = window.open('', '_blank', 'width=400,height=200');
+            lectureLinkWindow.document.write(`
+                <h2 class="bold-text">Lecture Link</h2>
+                <input type="text" value="${videoLink}" id="lectureLink">
+                <button onclick="copyLectureLink()">Copy Link</button>
+                <p class="bold-text">You must play this link in VLC Player Only.</p>
+            `);
+            lectureLinkWindow.document.getElementById('lectureLink').style.width = '500px'; // Adjust the textbox size
+        }
+
+        function copyLectureLink() {
+            const lectureLink = document.getElementById('lectureLink');
+            lectureLink.select();
+            document.execCommand('copy');
+            alert('Lecture link copied to clipboard');
+        }
+
+        function goBack(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "none";
+        }
+
+        generateTable();
+    </script>
+</body>
+</html>
