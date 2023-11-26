@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Physicswallah</title>
     <style>
@@ -27,6 +28,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            transition: 0.5s;
         }
 
         #menu-items {
@@ -48,6 +50,7 @@
         #content {
             margin-left: 220px;
             padding: 20px;
+            transition: margin-left 0.5s;
         }
 
         .batch {
@@ -112,17 +115,32 @@
         /* Adjust content size for mobile devices */
         @media screen and (max-width: 768px) {
             #menu-bar {
-                width: 100%;
-                position: static;
+                width: 0;
             }
             #content {
                 margin-left: 0;
                 padding: 20px 10px;
             }
         }
+
+        #menu-toggle {
+            font-size: 24px;
+            cursor: pointer;
+            position: fixed;
+            left: 10px;
+            top: 10px;
+            z-index: 2;
+            color: white;
+            background-color: #333;
+            padding: 10px;
+            border: none;
+        }
+
     </style>
 </head>
 <body>
+    <div id="menu-toggle" onclick="toggleMenu()">☰</div>
+
     <div id="menu-bar">
         <div id="menu-items">
             <div class="menu-item" onclick="showBatches()">Batches</div>
@@ -147,7 +165,7 @@
             document.body.style.backgroundColor = isDarkBackground ? '#333' : '#f2f2f2';
         }
 
-        function showBatches() {
+        function showBatches()  {
             document.getElementById('content').innerHTML = '';
             const batches = [
                 {
@@ -361,7 +379,7 @@
             addBackButton();
         }
 
-        function showSubjects(batchName, subjects) {
+         function showSubjects(batchName, subjects) {
             document.getElementById('content').innerHTML = '';
             const subjectShapesDiv = document.createElement('div');
             subjectShapesDiv.classList.add('subject-shapes');
@@ -495,25 +513,551 @@ function showContent(batchName, subject, lesson) {
     } else {
         alert('Content not found.');
     }
+ addBackButton();
+};
 
-    addBackButton();
-}
-// ...
+        function toggleMenu() {
+            const menuBar = document.getElementById('menu-bar');
+            const content = document.getElementById('content');
+            if (menuBar.style.width === '200px') {
+                menuBar.style.width = '0';
+                content.style.marginLeft = '0';
+            } else {
+                menuBar.style.width = '200px';
+                content.style.marginLeft = '220px';
+            }
+        }
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Physicswallah</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #000;
+            margin: 0;
+        }
 
+        #header {
+            text-align: center;
+            font-family: 'Maldives', sans-serif;
+            color: black;
+            padding: 20px;
+        }
 
-        function addBackButton() {
-            const backDiv = document.createElement('div');
-            backDiv.classList.add('back-button');
-            const backButton = document.createElement('button');
-            backButton.textContent = "Back";
-            backButton.classList.add('view-now-button');
+        #menu-bar {
+            background-color: #333;
+            width: 200px;
+            position: fixed;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: 0.5s;
+        }
 
-            backButton.addEventListener('click', () => {
-                showBatches(); // Adjust this to go back to the appropriate previous page
+        #menu-items {
+            margin-top: 20px;
+        }
+
+        .menu-item {
+            margin: 10px 0;
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+            color: white;
+        }
+
+        .menu-item:hover {
+            background-color: #555;
+        }
+
+        #content {
+            margin-left: 220px;
+            padding: 20px;
+            transition: margin-left 0.5s;
+        }
+
+        .batch {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .batch-image {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        .view-now-button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            display: block;
+            margin: 10px auto;
+        }
+
+        .subject-shapes {
+            display: flex;
+            justify-content: center;
+        }
+
+        .subject-shape {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        .lessons-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .lessons-table th, .lessons-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .view-content-button {
+            background-color: #3498db;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .back-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Adjust content size for mobile devices */
+        @media screen and (max-width: 768px) {
+            #menu-bar {
+                width: 0;
+            }
+            #content {
+                margin-left: 0;
+                padding: 20px 10px;
+            }
+        }
+
+        #menu-toggle {
+            font-size: 24px;
+            cursor: pointer;
+            position: fixed;
+            left: 10px;
+            top: 10px;
+            z-index: 2;
+            color: white;
+            background-color: #333;
+            padding: 10px;
+            border: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <div id="menu-bar">
+        <div id="menu-items">
+            <div class="menu-item" onclick="showBatches()">Batches</div>
+            <div class="menu-item">Contact Us</div>
+            <div class="menu-item">Telegram Channel</div>
+            <div class="menu-item">Copyright Disclaimer</div>
+            <div class="menu-item" onclick="toggleBackground()">Switch background</div>
+        </div>
+    </div>
+
+    <div id="content">
+        <div id="header">
+            <h1>Physicswallah</h1>
+        </div>
+    </div>
+
+    <script>
+        let isDarkBackground = false;
+
+        function toggleBackground() {
+            isDarkBackground = !isDarkBackground;
+            document.body.style.backgroundColor = isDarkBackground ? '#333' : '#f2f2f2';
+        }
+
+        function showBatches()  {
+            document.getElementById('content').innerHTML = '';
+            const batches = [
+                {
+                    name: "Arjuna Jee 1.0",
+                    image: "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/b6de786f-81d5-46bb-b149-6e3d5f19f228.png",
+                    subjects: {
+                        "Physics": [
+                            "Units and Dimensions",
+                            "Basics Mathematics",
+                            "Motion in 1 Dimensions",
+                            "Motion in 2 Dimensions",
+                            'Newton Laws of Motion',
+                            "Work, Power and Energy",
+                            "Rotational Motion"
+                        ],
+                        "Chemistry": [
+                            "Mole Concept",
+                            "Some Basics Concept of Chemistry",
+                            "Chemical Bonding"
+                        ],
+                        "Mathematics": [
+                            "Basics Mathematics",
+                            "Sets theory",
+                            "Relation and Function"
+                        ]
+                    }
+                },
+                {
+                    name: "Lakshya Jee 1.0",
+                    image: "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/0f6d994a-1f66-44f2-9890-26b603adfcfd.png",
+                    subjects: {
+                        "Physics": [
+                            "Electrostatics",
+                            "Electro Potential and Capacitance",
+                            "Current Electricity",
+                            "Moving Charge and Magnetism",
+                            "Magnetism and Matter",
+                            "ElectroMagnetic Induction",
+                            "ElectroMagnetic Waves",
+                            "Alternating Current",
+                            "Ray Optic & Optical Instruments",
+                            "Wave Optics",
+                            "Communication",
+                            "Communication",
+                            "Dual Nature & Matter Radiation",
+                            "Ncert Discussion",
+                            "Advance Lectures"
+                        ],
+                        "Mathematics": [
+                            "Relation and Functions",
+                            "Inverse Trigonometric Function",
+                            "Matrices",
+                            "Determinants",
+                            "Limits, Continuity and Differentiability",
+                            "Application of Derivative"
+                        ],
+                        "Chemistry": [
+                            "Solutions",
+                            "Chemical Kinematics"
+                        ]
+                    }
+                },
+                 {
+                    name: "Lakshya Jee 2.0",
+                    image: "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/27317fe2-081d-499b-83a1-c7a148a12a75.png",
+                    subjects: {
+                        "Physics": [
+                            "Electrostatics",
+                            "Electro Potential and Capacitance",
+                            "Current Electricity",
+                            "Moving Charge and Magnetism",
+                            "Magnetism and Matter",
+                            "ElectroMagnetic Induction",
+                            "ElectroMagnetic Waves",
+                            "Alternating Current",
+                            "Ray Optic & Optical Instruments",
+                            "Wave Optics",
+                            "Communication",
+                            "Communication",
+                            "Dual Nature & Matter Radiation",
+                            "Ncert Discussion",
+                            "Advance Lectures"
+                        ],
+                        "Mathematics": [
+                            "Relation and Functions",
+                            "Inverse Trigonometric Function",
+                            "Matrices",
+                            "Determinants",
+                            "Limits, Continuity and Differentiability",
+                            "Application of Derivative"
+                        ],
+                        "Chemistry": [
+                            "Solutions",
+                            "Chemical Kinematics"
+                        ]
+                    }
+                },
+                {
+                    name: "Lakshya Jee 3.0",
+                    image: "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/d8bc6beb-2ce7-4f9d-a7c6-bcf99183c7f1.png",
+                    subjects: {
+                        "Physics": [
+                            "Electrostatics",
+                            "Electro Potential and Capacitance",
+                            "Current Electricity",
+                            "Moving Charge and Magnetism",
+                            "Magnetism and Matter",
+                            "ElectroMagnetic Induction",
+                            "ElectroMagnetic Waves",
+                            "Alternating Current",
+                            "Ray Optic & Optical Instruments",
+                            "Wave Optics",
+                            "Communication",
+                            "Communication",
+                            "Dual Nature & Matter Radiation",
+                            "Ncert Discussion",
+                            "Advance Lectures"
+                        ],
+                        "Mathematics": [
+                            "Relation and Functions",
+                            "Inverse Trigonometric Function",
+                            "Matrices",
+                            "Determinants",
+                            "Limits, Continuity and Differentiability",
+                            "Application of Derivative"
+                        ],
+                        "Chemistry": [
+                            "Solutions",
+                            "Chemical Kinematics"
+                        ]
+                    }
+                },
+                {
+                    name: "Sachin Sir Khazana",
+                    image: "https://images.moneycontrol.com/static-mcnews/2023/05/PhysicsWallah_1-1.png?impolicy=website&width=1600&height=900",
+                    subjects: {
+                        "Mathematics": [
+                            "Relation and Function",
+                            "Inverse Trigonometric Function",
+                            "Vectors",
+                            "3D Geometry",
+                            "Probability",
+                            "Linear Programming"
+                        ]
+                    }
+                },
+                {
+                    name: "Arjuna Jee 2.O",
+                    image: "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/bbe6d693-7ff6-4daf-ad0f-a8469038cc1b.png",
+                    subjects: {
+                        "Mathematics": [
+                            "Relation and Function",
+                            "Inverse Trigonometric Function",
+                            "Vectors",
+                            "3D Geometry",
+                            "Probability",
+                            "Linear Programming"
+                        ]
+                    }
+                },
+                {
+                    name: "Board Booster (Standard 12 Maharashtra Board)",
+                    image: "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/d6f1569c-9fae-4b4f-b962-8dedc3d423ea.png",
+                    subjects: {
+                        "Mathematics": [
+                            "Relation and Function",
+                            "Inverse Trigonometric Function",
+                            "Vectors",
+                            "3D Geometry",
+                            "Probability",
+                            "Linear Programming"
+                        ]
+                    }
+                },
+                {
+                    name: "Arjuna Jee 3.O",
+                    image: "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/8ae75dcf-2d2e-4fe6-897e-1e6e13efd06d.png",
+                    subjects: {
+                        "Mathematics": [
+                            "Relation and Function"
+                    
+                        ]
+                    }
+                }
+            ];
+
+            batches.forEach((batch, index) => {
+                const batchDiv = document.createElement('div');
+                batchDiv.classList.add('batch');
+                const image = document.createElement('img');
+                image.src = batch.image;
+                image.classList.add('batch-image');
+                const viewNowButton = document.createElement('button');
+                viewNowButton.textContent = "View Now";
+                viewNowButton.classList.add('view-now-button');
+
+                viewNowButton.addEventListener('click', () => {
+                    showSubjects(batch.name, batch.subjects);
+                });
+
+                batchDiv.appendChild(image);
+                batchDiv.appendChild(document.createElement('br'));
+                const batchNameElement = document.createElement('b');
+                batchNameElement.textContent = batch.name;
+                batchDiv.appendChild(batchNameElement);
+                batchDiv.appendChild(document.createElement('br'));
+                batchDiv.appendChild(viewNowButton);
+                document.getElementById('content').appendChild(batchDiv);
             });
 
-            backDiv.appendChild(backButton);
-            document.getElementById('content').appendChild(backDiv);
+            addBackButton();
+        }
+
+         function showSubjects(batchName, subjects) {
+            document.getElementById('content').innerHTML = '';
+            const subjectShapesDiv = document.createElement('div');
+            subjectShapesDiv.classList.add('subject-shapes');
+
+            for (const subject in subjects) {
+                const subjectShape = document.createElement('div');
+                subjectShape.classList.add('subject-shape');
+                subjectShape.textContent = subject;
+
+                subjectShape.addEventListener('click', () => {
+                    showLessons(batchName, subject, subjects[subject]);
+                });
+
+                subjectShapesDiv.appendChild(subjectShape);
+            }
+
+            document.getElementById('content').appendChild(subjectShapesDiv);
+            addBackButton();
+        }
+
+        function showLessons(batchName, subject, lessons) {
+            document.getElementById('content').innerHTML = '';
+
+            const lessonsTable = document.createElement('table');
+            lessonsTable.classList.add('lessons-table');
+
+            const headerRow = lessonsTable.insertRow(0);
+            const srNoHeader = headerRow.insertCell(0);
+            srNoHeader.textContent = "Sr. No.";
+            const lessonNameHeader = headerRow.insertCell(1);
+            lessonNameHeader.textContent = "Lesson Name";
+            const contentHeader = headerRow.insertCell(2);
+            contentHeader.textContent = "Content";
+
+            lessons.forEach((lesson, index) => {
+                const row = lessonsTable.insertRow(index + 1);
+                const srNoCell = row.insertCell(0);
+                srNoCell.textContent = index + 1;
+                const lessonNameCell = row.insertCell(1);
+                lessonNameCell.textContent = lesson;
+                const contentCell = row.insertCell(2);
+                const viewContentButton = document.createElement('button');
+                viewContentButton.textContent = "View Content";
+                viewContentButton.classList.add('view-content-button');
+                viewContentButton.addEventListener('click', () => {
+                    showContent(batchName, subject, lesson);
+                });
+                contentCell.appendChild(viewContentButton);
+            });
+
+            document.getElementById('content').appendChild(lessonsTable);
+            addBackButton();
+        }
+
+        // ...
+function showContent(batchName, subject, lesson) {
+    const contentPaths = {
+        "Sachin Sir Khazana": {
+            Mathematics: {
+                // Update these URLs with the actual content URLs
+                "Relation and Function": "https://example.com/home21.html",
+                "Inverse Trigonometric Function": "https://example.com/home22.html",
+                "3D Geometry": "Physicswallah/Sachin Sir Khazana/3D Geometry.html",
+                "Vectors": "Physicswallah/Sachin Sir Khazana/Vectors.html",
+                "Probability": "Physicswallah/Sachin Sir Khazana/Probability.html",
+                "Linear Programming": "Physicswallah/Sachin Sir Khazana/Linear Programming.html",
+            }
+        },
+        "Arjuna Jee 1.0": {
+            Mathematics: {
+                // Update these URLs with the actual content URLs
+                "Basics Mathematics": "https://example.com/home8.html",
+                "Sets theory": "https://example.com/home3.html",
+                "Relation and Function": "https://example.com/home4.html",
+            },
+            Chemistry: {
+                // Update these URLs with the actual content URLs
+                "Mole Concept": "https://example.com/home5.html",
+                "Some Basics Concept of Chemistry": "https://example.com/home6.html",
+                "Chemical Bonding": "https://example.com/home7.html",
+            },
+            Physics: {
+                // Update these URLs with the actual content URLs
+                "Units and Dimensions": "https://example.com/home8.html",
+                "Basics Mathematics": "https://example.com/home9.html",
+                "Motion in 1 Dimensions": "https://example.com/home10.html",
+                "Motion in 2 Dimensions": "https://example.com/home11.html",
+                "Newton Laws of Motion": "https://example.com/home12.html",
+                "Work, Power and Energy": "https://example.com/home13.html",
+                "Rotational Motion": "https://example.com/home14.html",
+            }
+        },
+        "Lakshya Jee 1.0": {
+            Physics: {
+                // Update these URLs with the actual content URLs
+               "Electrostatics" : "Physicswallah/Lakshya Jee 1.O/Physics/Electrostatics.html",
+               "Electro Potential and Capacitance" : "Physicswallah/Lakshya Jee 1.O/Physics/Electrostatic Potiential and Capacitance.html",
+               "Current Electricity" : "Physicswallah/Lakshya Jee 1.O/Physics/Current Electricity.html",
+               "Moving Charge and Magnetism" : "Physicswallah/Lakshya Jee 1.O/Physics/Moving Charge and Magnetism.html", 
+               "Magnetism and Matter" : "Physicswallah/Lakshya Jee 1.O/Physics/Magnetism and Matter.html",
+               "ElectroMagnetic Induction" : "Physicswallah/Lakshya Jee 1.O/Physics/ElectroMagnetic Induction.html",
+               "ElectroMagnetic Waves" : "Physicswallah/Lakshya Jee 1.O/Physics/ElectroMagnetic Waves.html",
+               "Alternating Current" : "Physicswallah/Lakshya Jee 1.O/Physics/Alternating Current.html",
+               "Ray Optic & Optical Instruments" : "Physicswallah/Lakshya Jee 1.O/Physics/Ray Optics and Optical Instruments.html",
+               "Wave Optics" : "Physicswallah/Lakshya Jee 1.O/Physics/Wave Optics.html",
+               "Communication" : "Physicswallah/Lakshya Jee 1.O/Physics/Communications.html",
+               "Dual Nature & Matter Radiation" : "Physicswallah/Lakshya Jee 1.O/Physics/Dual Nature and Matter Radiation.html",
+ },
+            Mathematics: {
+                // Update these URLs with the actual content URLs
+                "Relation and Function": "https://example.com/home19.html",
+                "Inverse Trigonometric Function": "https://example.com/home20.html",
+                "Matrices": "https://example.com/home21.html",
+                "Determinants": "https://example.com/home22.html",
+                "Limits, Continuity and Differentiability": "https://example.com/home23.html",
+                "Application of Derivative": "https://example.com/home24.html",
+            },
+            Chemistry: {
+                // Update these URLs with the actual content URLs
+                "Solutions": "https://example.com/home25.html",
+                "Chemical Kinematics": "https://example.com/home26.html",
+            }
+        }
+    };
+
+    const contentPath = contentPaths[batchName]?.[subject]?.[lesson];
+
+    if (contentPath) {
+        // Open the content in a new tab
+        window.open(contentPath, '_blank');
+    } else {
+        alert('Content not found.');
+    }
+ addBackButton();
+};
+
+        function toggleMenu() {
+            const menuBar = document.getElementById('menu-bar');
+            const content = document.getElementById('content');
+            if (menuBar.style.width === '200px') {
+                menuBar.style.width = '0';
+                content.style.marginLeft = '0';
+            } else {
+                menuBar.style.width = '200px';
+                content.style.marginLeft = '220px';
+            }
         }
     </script>
 </body>
