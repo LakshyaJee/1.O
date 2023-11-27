@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         table {
             width: 100%;
@@ -28,6 +29,8 @@
             padding: 10px;
             z-index: 1;
             font-size: 18px;
+            width: 100%; /* Adjusted width for mobile */
+            box-sizing: border-box; /* Box-sizing to include padding in width */
         }
 
         .error-message {
@@ -49,6 +52,13 @@
             font-weight: bold;
             font-size: 24px;
             margin-bottom: 20px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .quality-select {
+                position: static;
+                width: auto;
+            }
         }
     </style>
 </head>
