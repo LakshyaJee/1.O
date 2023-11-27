@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        .quality-select {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px;
+        }
+
+        .error-message {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px;
+        }
+
+        .go-back-button {
+            margin-top: 10px;
+        }
+
+        /* Style for bold text and increased size */
+        .bold-text {
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+       const lectures = [
+    {
+        "lectureNumber": "12",
+        "lectureName": "Vector Product Of Four Vectors || Theorem In Space || Vector Equations || NO DPP",
+        "lectureCode": "98ce984c-f018-4331-9e7c-ef8f8c103cf0",
+        "classNotesCode": "60ecefd7-54c0-485f-b813-84d57b199cd7.pdf",
+        "dppsPdfCode": ""
+    },
+    {
+        "lectureNumber": "11",
+        "lectureName": "Vector Triple Product || Scalar Product Of Four Vectors (Part -02) || NO DPP || Extra Lecture || Recorded",
+        "lectureCode": "ca2350ca-385d-4372-8566-59216892835b",
+        "classNotesCode": "5c6356c4-62e5-405f-8689-e3b977437f46.pdf",
+        "dppsPdfCode": ""
+    },
+    {
+        "lectureNumber": "10",
+        "lectureName": "Vector Triple Product || Scalar Product Of Four Vectors",
+        "lectureCode": "84b88d55-1b99-4953-ade3-e37f8a7fa05b",
+        "classNotesCode": "1e12320b-0fd4-4dd0-957b-b6a7cd38a93c.pdf",
+        "dppsPdfCode": "c167c439-32fa-4757-8c20-b482de1c3bba.pdf"
+    },
+    {
+        "lectureNumber": "09",
+        "lectureName": "Practice Problems || NO DPP",
+        "lectureCode": "8abf92e1-829d-4cf8-a664-5ffefc904f54",
+        "classNotesCode": "846e39be-b747-4d03-ad96-5f2c82cbabad.pdf",
+        "dppsPdfCode": ""
+    },
+    {
+        "lectureNumber": "08",
+        "lectureName": "Scalar Triple Product",
+        "lectureCode": "e13bae45-b816-4825-94ff-e488ff11b016",
+        "classNotesCode": "d8a54653-ed2c-4e7b-b76b-3c0afb4ed07f.pdf",
+        "dppsPdfCode": "30f09181-6999-495d-af96-ee700332a34f.pdf"
+    },
+    {
+        "lectureNumber": "07",
+        "lectureName": "Practice Problems || Shortest Distance Between Two Lines || STP",
+        "lectureCode": "03f11590-efad-45fa-bd99-2657c1f12d82",
+        "classNotesCode": "ba91e524-1709-41ee-8395-5928f038811e.pdf",
+        "dppsPdfCode": "6e688ee8-cf8c-4a5a-b8ac-108afb5ffc07.pdf"
+    },
+    {
+        "lectureNumber": "06",
+        "lectureName": "Practice Problems || Vector Product Of Vectors (Part -02) || Recorded",
+        "lectureCode": "143112cc-2ab8-4bfe-b64f-105825dbae3e",
+        "classNotesCode": "79892134-f4a0-4275-9f44-c7d5991c6cb6.pdf",
+        "dppsPdfCode": "84336503-7c48-41f2-b2c3-9bd57e17453e.pdf"
+    },
+    {
+        "lectureNumber": "05",
+        "lectureName": "Practice Problems || Vector Product Of Vectors || NO DPP || Recorded || Reschedule @11:35 PM",
+        "lectureCode": "d005b890-3d2c-4547-a1fa-199af342aca0",
+        "classNotesCode": "359c4d8b-4c23-46b4-b1a5-cada7fd3558b.pdf",
+        "dppsPdfCode": ""
+    },
+    {
+        "lectureNumber": "04",
+        "lectureName": "Scalar Product Of Vectors || NO DPP",
+        "lectureCode": "3ce27eca-976a-4d0b-84fd-42124a615e62",
+        "classNotesCode": "dac2ff80-075c-4125-acf8-cfe77fb60b59.pdf",
+        "dppsPdfCode": ""
+    },
+    {
+        "lectureNumber": "03",
+        "lectureName": "Vector Equation Of Line & Practice Problems (Part -02)",
+        "lectureCode": "139e5793-f5ac-4303-9dea-447b134cbfdf",
+        "classNotesCode": "83e5c5ef-9e4d-4444-9296-2e635a745935.pdf",
+        "dppsPdfCode": "29cea1bf-e9b4-4e2a-8fde-65f3e99e1e0f.pdf"
+    },
+    {
+        "lectureNumber": "01",
+        "lectureName": "Introduction To Vectors || NO DPP",
+        "lectureCode": "a170bb43-77ca-471a-985d-48458aa52011",
+        "classNotesCode": "9e35dd6e-c4fa-4e1c-831d-265b9fa774f0.pdf",
+        "dppsPdfCode": ""
+    }
+];
+
+
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectures.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                    <div id="qualitySelect_${index}" class="quality-select">
+                        <p>Select Quality:</p>
+                        <select id="qualityOptions_${index}">
+                            <option value="720">720p</option>
+                            <option value="480">480p</option>
+                            <option value="360">360p</option>
+                            <option value="240">240p</option>
+                            <option value="144">144p</option>
+                        </select>
+                        <button onclick="playVideoOrCopyLink(${index})">Play Now</button><br><br>
+                        <button class="go-back-button" onclick="goBack(${index})">Go Back</button>
+                    </div>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        function showQualityOptions(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "block";
+        }
+
+        function playVideoOrCopyLink(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "none";
+
+            const selectedQuality = document.getElementById(`qualityOptions_${index}`).value;
+            const lectureCode = lectures[index].lectureCode;
+            const videoLink = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${selectedQuality}/main.m3u8`;
+
+            // Check the user's device
+            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+            if (isMobile) {
+                openVLC(videoLink);
+            } else {
+                openLectureLinkWindow(videoLink);
+            }
+        }
+
+        function openVLC(videoPath) {
+            const vlcUri = `vlc://${videoPath}`;
+            window.location.href = vlcUri;
+        }
+
+        function openLectureLinkWindow(videoLink) {
+            const lectureLinkWindow = window.open('', '_blank', 'width=400,height=200');
+            lectureLinkWindow.document.write(`
+                <h2 class="bold-text">Lecture Link</h2>
+                <input type="text" value="${videoLink}" id="lectureLink">
+                <button onclick="copyLectureLink()">Copy Link</button>
+                <p class="bold-text">You must play this link in VLC Player Only.</p>
+            `);
+            lectureLinkWindow.document.getElementById('lectureLink').style.width = '500px'; // Adjust the textbox size
+        }
+
+        function copyLectureLink() {
+            const lectureLink = document.getElementById('lectureLink');
+            lectureLink.select();
+            document.execCommand('copy');
+            alert('Lecture link copied to clipboard');
+        }
+
+        function goBack(index) {
+    const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+    qualitySelect.style.display = "none";
+}
+
+        generateTable();
+    </script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        .quality-select {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px;
+        }
+
+        .error-message {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px;
+        }
+
+        .go-back-button {
+            margin-top: 10px;
+        }
+
+        /* Style for bold text and increased size */
+        .bold-text {
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+       const lectures = [
+     {
+        "lectureNumber": "06",
+        "lectureName": "Three Dimensional Geometry 06 : Angle Bisector Planes || Practice Problems || No DPP || Extra Lecture || Recorded",
+        "lectureCode": "7eee7d9c-879a-490d-8166-d82ddd5f248b",
+        "classNotesCode": "4334414d-b6d8-4941-b94d-fd4c57acc351.pdf",
+        "dppsPdfCode": ""
+    },
+    {
+        "lectureNumber": "05",
+        "lectureName": "Three Dimensional Geometry 05 : Unsymmetrical Form Of Line || Practice Problems || Recorded",
+        "lectureCode": "0f7ea88d-f988-4e40-9c9d-c04e15b1a5f5",
+        "classNotesCode": "4dc8ed55-1795-44d2-969b-d04790687796.pdf",
+        "dppsPdfCode": "350a1c78-fda9-496c-94f1-673f68962498.pdf"
+    },
+    {
+        "lectureNumber": "04",
+        "lectureName": "Three Dimensional Geometry 04 : Equation Of Plane In Different Forms || Length Of Perpendicular & Image Of A Point || NO DPP",
+        "lectureCode": "bd70299e-0d29-42b6-8f53-4586c4e2b6f6",
+        "classNotesCode": "4b74bb5a-5bc2-4263-a995-51e370cba3b2.pdf",
+        "dppsPdfCode": ""
+    },
+    {
+        "lectureNumber": "03",
+        "lectureName": "Three Dimensional Geometry 03 : Practice Problems & Introduction To Plane",
+        "lectureCode": "eea05db8-5ecf-42cc-af7a-4a641e8d09f0",
+        "classNotesCode": "2c217a12-d474-4313-8683-f5eeb9d8a24d.pdf",
+        "dppsPdfCode": "84f49289-f453-41cc-b768-9b41a5708969.pdf"
+    },
+    {
+        "lectureNumber": "02",
+        "lectureName": "Three Dimensional Geometry 02 : Practice Problems & Straight Line || NO DPP",
+        "lectureCode": "75b97324-d16c-477b-b51a-5725a0181118",
+        "classNotesCode": "6aeb541e-bebe-4284-9ba8-c9d964b35b98.pdf",
+        "dppsPdfCode": ""
+    },
+    {
+        "lectureNumber": "01",
+        "lectureName": "Three Dimensional Geometry 01 : Introduction to 3D || Direction Cosines & Direction Ratios || No DPP || Extra Lecture",
+        "lectureCode": "68eb1ec4-de65-49e8-b5f7-59b4d39f3d87",
+        "classNotesCode": "e8736a46-04d2-4d6b-83a1-3a557a2730ca.pdf",
+        "dppsPdfCode": ""
+    }
+];
+
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectures.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                    <div id="qualitySelect_${index}" class="quality-select">
+                        <p>Select Quality:</p>
+                        <select id="qualityOptions_${index}">
+                            <option value="720">720p</option>
+                            <option value="480">480p</option>
+                            <option value="360">360p</option>
+                            <option value="240">240p</option>
+                            <option value="144">144p</option>
+                        </select>
+                        <button onclick="playVideoOrCopyLink(${index})">Play Now</button><br><br>
+                        <button class="go-back-button" onclick="goBack(${index})">Go Back</button>
+                    </div>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        function showQualityOptions(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "block";
+        }
+
+        function playVideoOrCopyLink(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "none";
+
+            const selectedQuality = document.getElementById(`qualityOptions_${index}`).value;
+            const lectureCode = lectures[index].lectureCode;
+            const videoLink = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${selectedQuality}/main.m3u8`;
+
+            // Check the user's device
+            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+            if (isMobile) {
+                openVLC(videoLink);
+            } else {
+                openLectureLinkWindow(videoLink);
+            }
+        }
+
+        function openVLC(videoPath) {
+            const vlcUri = `vlc://${videoPath}`;
+            window.location.href = vlcUri;
+        }
+
+        function openLectureLinkWindow(videoLink) {
+            const lectureLinkWindow = window.open('', '_blank', 'width=400,height=200');
+            lectureLinkWindow.document.write(`
+                <h2 class="bold-text">Lecture Link</h2>
+                <input type="text" value="${videoLink}" id="lectureLink">
+                <button onclick="copyLectureLink()">Copy Link</button>
+                <p class="bold-text">You must play this link in VLC Player Only.</p>
+            `);
+            lectureLinkWindow.document.getElementById('lectureLink').style.width = '500px'; // Adjust the textbox size
+        }
+
+        function copyLectureLink() {
+            const lectureLink = document.getElementById('lectureLink');
+            lectureLink.select();
+            document.execCommand('copy');
+            alert('Lecture link copied to clipboard');
+        }
+
+        function goBack(index) {
+    const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+    qualitySelect.style.display = "none";
+}
+
+        generateTable();
+    </script>
+</body>
+</html>

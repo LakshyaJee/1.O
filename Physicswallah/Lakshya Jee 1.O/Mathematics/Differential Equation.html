@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        .quality-select {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px;
+        }
+
+        .error-message {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px;
+        }
+
+        .go-back-button {
+            margin-top: 10px;
+        }
+
+        /* Style for bold text and increased size */
+        .bold-text {
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+    const lectures = [
+    {
+        "lectureNumber": "06",
+        "lectureName": "Differential Equations 06 : Practice Problems || NO DPP",
+        "lectureCode": "1bd5cbee-9ca7-4d73-98c6-3be1016fa79a",
+        "classNotesCode": "05fb9881-c5a2-4a50-8cb9-d0fff97bde79.pdf",
+        "dppsPdfCode": ""
+    },
+    {
+        "lectureNumber": "05",
+        "lectureName": "Differential Equations 05 : Orthogonal Trajectory || Mixed Practice Problems",
+        "lectureCode": "c8e3e847-d4c4-40a1-8182-2b8810217cec",
+        "classNotesCode": "1410f08c-e60f-4849-967e-a18541758112.pdf",
+        "dppsPdfCode": "1bb9d162-76de-4023-9d86-131381e9b63b.pdf"
+    },
+    {
+        "lectureNumber": "04",
+        "lectureName": "Differential Equations 04 : Linear Differential Equations || Mixed Practice Problems || NO DPP",
+        "lectureCode": "770fa2a9-7858-4188-9d09-a52e411ec0c6",
+        "classNotesCode": "ae0cff06-aa83-464e-8c4b-8c361f108cf0.pdf",
+        "dppsPdfCode": ""
+    },
+    {
+        "lectureNumber": "03",
+        "lectureName": "Differential Equations 03 : Variable Separable Type || Homogeneous & Linear Differential Equations",
+        "lectureCode": "ccece4b6-c27a-4890-b623-a4255b1bb8c6",
+        "classNotesCode": "fcada996-eebd-4646-bde9-4a8d92057956.pdf",
+        "dppsPdfCode": "fcada996-eebd-4646-bde9-4a8d92057956.pdf"
+    },
+    {
+        "lectureNumber": "02",
+        "lectureName": "Differential Equations 02 : Variable Separable Type || Practice Problems || NO DPP",
+        "lectureCode": "bc8f517e-2abe-414b-ad4a-e7aa53227eeb",
+        "classNotesCode": "ad3a1d81-05e0-42e4-b0eb-1c2c59ab0858.pdf",
+        "dppsPdfCode": ""
+    },
+    {
+        "lectureNumber": "01",
+        "lectureName": "Differential Equations 01 : Average Value & Determination Of Function || Introduction To Differential Equations || NO DPP",
+        "lectureCode": "c9588f98-9655-418e-9e33-758f41a06109",
+        "classNotesCode": "30310dcf-4b50-4ec3-a5a5-afbf295a7080.pdf",
+        "dppsPdfCode": ""
+    }
+];
+
+
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectures.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                    <div id="qualitySelect_${index}" class="quality-select">
+                        <p>Select Quality:</p>
+                        <select id="qualityOptions_${index}">
+                            <option value="720">720p</option>
+                            <option value="480">480p</option>
+                            <option value="360">360p</option>
+                            <option value="240">240p</option>
+                            <option value="144">144p</option>
+                        </select>
+                        <button onclick="playVideoOrCopyLink(${index})">Play Now</button><br><br>
+                        <button class="go-back-button" onclick="goBack(${index})">Go Back</button>
+                    </div>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        function showQualityOptions(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "block";
+        }
+
+        function playVideoOrCopyLink(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "none";
+
+            const selectedQuality = document.getElementById(`qualityOptions_${index}`).value;
+            const lectureCode = lectures[index].lectureCode;
+            const videoLink = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${selectedQuality}/main.m3u8`;
+
+            // Check the user's device
+            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+            if (isMobile) {
+                openVLC(videoLink);
+            } else {
+                openLectureLinkWindow(videoLink);
+            }
+        }
+
+        function openVLC(videoPath) {
+            const vlcUri = `vlc://${videoPath}`;
+            window.location.href = vlcUri;
+        }
+
+        function openLectureLinkWindow(videoLink) {
+            const lectureLinkWindow = window.open('', '_blank', 'width=400,height=200');
+            lectureLinkWindow.document.write(`
+                <h2 class="bold-text">Lecture Link</h2>
+                <input type="text" value="${videoLink}" id="lectureLink">
+                <button onclick="copyLectureLink()">Copy Link</button>
+                <p class="bold-text">You must play this link in VLC Player Only.</p>
+            `);
+            lectureLinkWindow.document.getElementById('lectureLink').style.width = '500px'; // Adjust the textbox size
+        }
+
+        function copyLectureLink() {
+            const lectureLink = document.getElementById('lectureLink');
+            lectureLink.select();
+            document.execCommand('copy');
+            alert('Lecture link copied to clipboard');
+        }
+
+        function goBack(index) {
+    const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+    qualitySelect.style.display = "none";
+}
+
+        generateTable();
+    </script>
+</body>
+</html>
