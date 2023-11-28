@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        .quality-select {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px;
+        }
+
+        .error-message {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px;
+        }
+
+        .go-back-button {
+            margin-top: 10px;
+        }
+
+        /* Style for bold text and increased size */
+        .bold-text {
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+         const lectures = [
+    {
+        "lectureNumber": "1",
+        "lectureName": "Rate of Reaction || Type of Rate",
+        "lectureCode": "cdd7dc36-7139-4115-b63b-63da835b2926",
+        "classNotesCode": "e1248719-1c5e-4359-8d44-ad3efeeaa213.pdf",
+        "dppsPdfCode": "d0ad31c9-f6c7-47b4-b15d-a8fb2dfca4f7.pdf"
+    },
+    {
+        "lectureNumber": "2",
+        "lectureName": "Order Of Reaction || Molecularity Of Reaction",
+        "lectureCode": "5e84d92c-0b03-4097-a11a-c1e77e0f5010",
+        "classNotesCode": "dfb61a57-b4de-45bb-a996-d9597e0be4cb.pdf",
+        "dppsPdfCode": "8a806062-db7d-4178-a419-e57a3f55998c.pdf"
+    },
+    {
+        "lectureNumber": "3",
+        "lectureName": "Molecularity || Integrated Rate Equations",
+        "lectureCode": "bec7dc77-a1d6-47f3-8862-23d94912b9c2",
+        "classNotesCode": "22ad7065-7cec-4234-97c2-11cc06bc8caf.pdf",
+        "dppsPdfCode": "51a7411a-b98a-44be-8dee-eff28daedbd9.pdf"
+    },
+    {
+        "lectureNumber": "4",
+        "lectureName": "Zero And First Order Reactions",
+        "lectureCode": "955e5eb6-c49c-47de-9a78-d969caf9375e",
+        "classNotesCode": "8c513140-9825-47f8-9b7f-fa1b2ce38fc7.pdf",
+        "dppsPdfCode": "748725f1-2ad1-4465-823f-ce7ba39a15bf.pdf"
+    },
+    {
+        "lectureNumber": "5",
+        "lectureName": "First Order And nth Order Reactions",
+        "lectureCode": "a748b5a2-5b72-42fb-a738-32d74b5575ae",
+        "classNotesCode": "30a6cf25-ece0-4f2d-9d9f-b84abc27e0e9.pdf",
+        "dppsPdfCode": "10948caa-84b2-4032-a4c3-3ff6a0dae1c5.pdf"
+    },
+    {
+        "lectureNumber": "6",
+        "lectureName": "Numericals Based On Pressure || Factors Affecting Rate Of Reaction",
+        "lectureCode": "e5f7692b-9523-4396-b6ad-d570d24132db",
+        "classNotesCode": "67cb147b-113c-40f7-828a-b3e3248e8d26.pdf",
+        "dppsPdfCode": "5a6a4643-8572-4b8b-8467-037c919fdac2.pdf"
+    },
+    {
+        "lectureNumber": "7",
+        "lectureName": "Arrhenius Equation || Collision theory",
+        "lectureCode": "51d6ee1e-4e10-45cd-8c21-5ebcaf5a92a7",
+        "classNotesCode": "5be6a2b9-9187-4fb6-ac95-6099c2df0851.pdf",
+        "dppsPdfCode": "21cc57e2-9532-4855-a361-a4f263783931.pdf"
+    },
+    {
+        "lectureNumber": "8",
+        "lectureName": "Collision theory II First Order Parallel Reactions",
+        "lectureCode": "ad93fb4f-40b0-4d35-8f29-21ae82a84c47",
+        "classNotesCode": "c9f75412-67f2-4096-b487-be21bca5315d.pdf",
+        "dppsPdfCode": "ca8bbe96-a29a-448b-96f2-2031d0995027.pdf"
+    },
+    {
+        "lectureNumber": "9",
+        "lectureName": "First Order Parallel || Sequential || Reversible Reactions",
+        "lectureCode": "eb48229d-bfaa-4ea2-a92d-9b97b32f68c6",
+        "classNotesCode": "4c858fcc-2fc5-4c57-9af6-60c5c6d51968.pdf",
+        "dppsPdfCode": "c02b8813-8ec0-4296-9671-78e8592e40d4.pdf"
+    },
+    {
+        "lectureNumber": "10",
+        "lectureName": "Advanced Session (One Shot) || No DPP",
+        "lectureCode": "fc0cdb08-f3c8-49ee-81e0-9af7bd118ef0",
+        "classNotesCode": "88f6d17c-9013-4250-afbf-d302bc40e754.pdf",
+        "dppsPdfCode": ""
+    }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectures.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                    <div id="qualitySelect_${index}" class="quality-select">
+                        <p>Select Quality:</p>
+                        <select id="qualityOptions_${index}">
+                            <option value="720">720p</option>
+                            <option value="480">480p</option>
+                            <option value="360">360p</option>
+                            <option value="240">240p</option>
+                            <option value="144">144p</option>
+                        </select>
+                        <button onclick="playVideoOrCopyLink(${index})">Play Now</button><br><br>
+                        <button class="go-back-button" onclick="goBack(${index})">Go Back</button>
+                    </div>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        function showQualityOptions(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "block";
+        }
+
+        function playVideoOrCopyLink(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "none";
+
+            const selectedQuality = document.getElementById(`qualityOptions_${index}`).value;
+            const lectureCode = lectures[index].lectureCode;
+            const videoLink = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${selectedQuality}/main.m3u8`;
+
+            // Check the user's device
+            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+            if (isMobile) {
+                openVLC(videoLink);
+            } else {
+                openLectureLinkWindow(videoLink);
+            }
+        }
+
+        function openVLC(videoPath) {
+            const vlcUri = `vlc://${videoPath}`;
+            window.location.href = vlcUri;
+        }
+
+        function openLectureLinkWindow(videoLink) {
+            const lectureLinkWindow = window.open('', '_blank', 'width=400,height=200');
+            lectureLinkWindow.document.write(`
+                <h2 class="bold-text">Lecture Link</h2>
+                <input type="text" value="${videoLink}" id="lectureLink">
+                <button onclick="copyLectureLink()">Copy Link</button>
+                <p class="bold-text">You must play this link in VLC Player Only.</p>
+            `);
+            lectureLinkWindow.document.getElementById('lectureLink').style.width = '500px'; // Adjust the textbox size
+        }
+
+        function copyLectureLink() {
+            const lectureLink = document.getElementById('lectureLink');
+            lectureLink.select();
+            document.execCommand('copy');
+            alert('Lecture link copied to clipboard');
+        }
+
+        function goBack(index) {
+    const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+    qualitySelect.style.display = "none";
+}
+
+        generateTable();
+    </script>
+</body>
+</html>

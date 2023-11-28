@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        .quality-select {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px;
+            width: 100%; /* Adjusted width for mobile */
+            box-sizing: border-box; /* Box-sizing to include padding in width */
+        }
+
+        .error-message {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px;
+        }
+
+        .go-back-button {
+            margin-top: 10px;
+        }
+
+        /* Style for bold text and increased size */
+        .bold-text {
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .quality-select {
+                position: static;
+                width: auto;
+            }
+        }
+    </style>
+  
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+     const lectureData = [
+  {
+    "lectureNumber": "d & f Block 02",
+    "lectureName": "d & f Block (Part -02) || NO DPP || Extra Lecture || Recorded",
+    "lectureCode": "33e5b358-d04a-488d-8933-bd39a8fd4f72",
+    "classNotesCode": "5efd9738-5ab5-4ae8-ac8f-ea6b6fbafe51.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": "d & f Block 01",
+    "lectureName": "Complete d & f Block || NO DPP || Recorded || (Extra Lec)",
+    "lectureCode": "45a029c4-c4ed-4cca-a931-e769ea4df627",
+    "classNotesCode": "070b7879-1b90-4c43-8b54-4a6d2473a06d.pdf",
+    "dppsPdfCode": ""
+  }
+];
+
+
+
+
+// You can now use this lectureData to generate your table, just like in your previous code.
+
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                    <div id="qualitySelect_${index}" class="quality-select">
+                        <p>Select Quality:</p>
+                        <select id="qualityOptions_${index}">
+                            <option value="720">720p</option>
+                            <option value="480">480p</option>
+                            <option value="360">360p</option>
+                            <option value="240">240p</option>
+                            <option value="144">144p</option>
+                        </select>
+                        <button onclick="playVideoInVLC('${lecture.lectureCode}', ${index})">Play Now</button>
+                        <p id="vlcLink_${index}"></p>
+                        <button class="go-back-button" onclick="goBack(${index})">Go Back</button>
+                    </div>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        function showQualityOptions(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "block";
+        }
+
+        function playVideoInVLC(lectureCode, index) {
+            const quality = document.getElementById(`qualityOptions_${index}`).value;
+            const videoLink = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${quality}/main.m3u8`;
+            openVLC(videoLink, index);
+        }
+
+        function openVLC(videoPath, index) {
+            const vlcUri = `vlc://${videoPath}`;
+            document.getElementById(`vlcLink_${index}`).textContent = "Opening in VLC. Please check your VLC player.";
+            setTimeout(() => {
+                window.location.href = vlcUri;
+            }, 1000);
+        }
+
+        function goBack(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "none";
+        }
+
+        generateTable();
+    </script>
+</body>
+</html>

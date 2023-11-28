@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        .quality-select {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px;
+        }
+
+        .error-message {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            z-index: 1;
+            font-size: 18px;
+        }
+
+        .go-back-button {
+            margin-top: 10px;
+        }
+
+        /* Style for bold text and increased size */
+        .bold-text {
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+         const lectures = [
+  {
+    lectureNumber: "12",
+    lectureName: "Electrochemistry 12 : Batteries & Corrosion || NO DPP || (Extra ) || (Recorded)",
+    lectureCode: "9395d7d5-051a-45e8-9b9f-36eec4ba567f",
+    classNotesCode: "1f52db39-a3ba-4da9-8f1c-c723a031858a.pdf",
+    dppsPdfCode: ""
+  },
+  {
+    lectureNumber: "11",
+    lectureName: "Electrochemistry 11 : Product Of Electrolysis || Laws Of Electrolysis",
+    lectureCode: "c501bc2a-5507-4d0c-91e1-9fd33377143b",
+    classNotesCode: "3f064f51-7e35-4073-a0f4-5a174707ab27.pdf",
+    dppsPdfCode: "07d1f985-78d0-4439-85f6-cbbc2b0c2d13.pdf"
+  },
+  {
+    lectureNumber: "10",
+    lectureName: "Electrochemistry 10 : Thermodynamics Of Cell || Electrolysis || Electrolytic cell || NO DPP",
+    lectureCode: "60b9e6b6-5ef1-4bdc-a444-17ae3f535928",
+    classNotesCode: "a7d09d0a-14e7-45b9-8cbb-87c41600a7bd.pdf",
+    dppsPdfCode: ""
+  },
+  {
+    lectureNumber: "9",
+    lectureName: "Electrochemistry 09 : Concentration Cell || Reference Electrodes",
+    lectureCode: "545e3f97-9133-4326-8610-501769390f67",
+    classNotesCode: "8131d0b9-9b76-4933-9a6f-a9e9fc979cf2.pdf",
+    dppsPdfCode: "90d19ef1-247b-41b9-862f-9798dc14cf3a.pdf"
+  },
+  {
+    lectureNumber: "8",
+    lectureName: "Electrochemistry 08 : Half Cell || Equilibrium In Electrochemical Cell",
+    lectureCode: "4fd36a8f-26ae-4312-9d41-b7d628f6642c",
+    classNotesCode: "9331efaf-a96b-4dd6-b153-9fab5a57f5a2.pdf",
+    dppsPdfCode: "41d23a30-7183-4826-b381-d5d18de0265e.pdf"
+  },
+  {
+    lectureNumber: "7",
+    lectureName: "Electrochemistry 07 : Applications Of Gibb's Free Energy || Nernst's Equation",
+    lectureCode: "a92cb671-17d2-4912-a7ad-95008e1a1361",
+    classNotesCode: "7a510aba-1054-4c12-b86c-e1c1f6dc636e.pdf",
+    dppsPdfCode: "73161bb2-ce6a-4484-ae3f-251ade796a67.pdf"
+  },
+  {
+    lectureNumber: "6",
+    lectureName: "Electrochemistry 06 : Electrochemical Series And Its Applications",
+    lectureCode: "8a04c9d1-af50-4ba4-8504-f746a547e7b6",
+    classNotesCode: "5e44697f-879f-47d0-80a9-d52a5f8c1022.pdf",
+    dppsPdfCode: "0a3b0886-049c-4295-aea8-b531a4713fe9.pdf"
+  },
+  {
+    lectureNumber: "5",
+    lectureName: "Electrochemistry 05 : Electrode potential || Cell Potential",
+    lectureCode: "ff1ce934-5a6b-47f0-af6d-0e808bbda49c",
+    classNotesCode: "aa48ff73-024d-4997-90ea-278f381cd108.pdf",
+    dppsPdfCode: "8561045a-43b8-44af-b647-00a20f728090.pdf"
+  },
+  {
+    lectureNumber: "4",
+    lectureName: "Electrochemistry 04 : Conductometric Titrations ||  Electrochemical cell",
+    lectureCode: "24b85fbd-1185-4c32-8525-bce3c2e0d0a7",
+    classNotesCode: "59cefcd5-7716-44b1-8ac5-08ba45ec0f79.pdf",
+    dppsPdfCode: ""
+  },
+  {
+    lectureNumber: "3",
+    lectureName: "Electrochemistry 03 : Kohlrausch Law || Conductometric Titrations",
+    lectureCode: "6c314310-9e3a-4371-9485-ae17a7f4d3d4",
+    classNotesCode: "1a350d95-8ecf-45ae-a76b-23f9e5a7cd0d.pdf",
+    dppsPdfCode: ""
+  },
+  {
+    lectureNumber: "2",
+    lectureName: "Electrochemistry 02 : Conductance Measurement || Variation of Conductivity and Molar Conductivity with Concentration",
+    lectureCode: "7bfbde1c-12eb-41b2-9ea6-ed90581c8b0b",
+    classNotesCode: "d885653e-a688-419c-af8a-c17f6308943d.pdf",
+    dppsPdfCode: ""
+  },
+  {
+    lectureNumber: "1",
+    lectureName: "Electrochemistry 01 : Introduction || Types Of Conductors || NO DPP",
+    lectureCode: "bc07a9ca-2f29-4757-8c68-d6437b6a9fbf",
+    classNotesCode: "bf65e45f-8ae2-48cf-b736-e1c94e0e2fea.pdf",
+    dppsPdfCode: ""
+  }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectures.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                    <div id="qualitySelect_${index}" class="quality-select">
+                        <p>Select Quality:</p>
+                        <select id="qualityOptions_${index}">
+                            <option value="720">720p</option>
+                            <option value="480">480p</option>
+                            <option value="360">360p</option>
+                            <option value="240">240p</option>
+                            <option value="144">144p</option>
+                        </select>
+                        <button onclick="playVideoOrCopyLink(${index})">Play Now</button><br><br>
+                        <button class="go-back-button" onclick="goBack(${index})">Go Back</button>
+                    </div>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        function showQualityOptions(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "block";
+        }
+
+        function playVideoOrCopyLink(index) {
+            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+            qualitySelect.style.display = "none";
+
+            const selectedQuality = document.getElementById(`qualityOptions_${index}`).value;
+            const lectureCode = lectures[index].lectureCode;
+            const videoLink = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${selectedQuality}/main.m3u8`;
+
+            // Check the user's device
+            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+            if (isMobile) {
+                openVLC(videoLink);
+            } else {
+                openLectureLinkWindow(videoLink);
+            }
+        }
+
+        function openVLC(videoPath) {
+            const vlcUri = `vlc://${videoPath}`;
+            window.location.href = vlcUri;
+        }
+
+        function openLectureLinkWindow(videoLink) {
+            const lectureLinkWindow = window.open('', '_blank', 'width=400,height=200');
+            lectureLinkWindow.document.write(`
+                <h2 class="bold-text">Lecture Link</h2>
+                <input type="text" value="${videoLink}" id="lectureLink">
+                <button onclick="copyLectureLink()">Copy Link</button>
+                <p class="bold-text">You must play this link in VLC Player Only.</p>
+            `);
+            lectureLinkWindow.document.getElementById('lectureLink').style.width = '500px'; // Adjust the textbox size
+        }
+
+        function copyLectureLink() {
+            const lectureLink = document.getElementById('lectureLink');
+            lectureLink.select();
+            document.execCommand('copy');
+            alert('Lecture link copied to clipboard');
+        }
+
+        function goBack(index) {
+    const qualitySelect = document.getElementById(`qualitySelect_${index}`);
+    qualitySelect.style.display = "none";
+}
+
+        generateTable();
+    </script>
+</body>
+</html>
