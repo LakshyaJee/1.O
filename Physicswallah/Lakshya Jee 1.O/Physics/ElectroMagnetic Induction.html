@@ -1,45 +1,82 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
     <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
         }
 
-        table, th, td {
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table,
+        th,
+        td {
             border: 1px solid black;
         }
 
-        th, td {
+        th,
+        td {
             padding: 10px;
             text-align: left;
         }
 
         button {
             cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
         }
 
-        .quality-select {
-            display: none;
-            position: absolute;
-            background: #fff;
-            border: 1px solid #ccc;
-            padding: 10px;
-            z-index: 1;
-            font-size: 18px; /* Set your desired font size */
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #4caf50;
         }
 
-        .go-back-button {
-            margin-top: 10px;
+        @media (max-width: 600px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
         }
     </style>
 </head>
+
 <body>
+
     <table>
         <tr>
             <th>Sr. No</th>
-            <th>Lecture lectureNumber</th>
+            <th>Lecture Number</th>
             <th>Lecture</th>
             <th>Class Notes PDF</th>
             <th>DPP PDF</th>
@@ -47,85 +84,87 @@
     </table>
 
     <script>
-        const lectures = [
-  {
-    lectureNumber: 1,
-    lectureName: "Faraday's Law And Lenz Law",
-    lectureCode: "52a1f104-37e2-475e-aa5f-7d40e570291b",
-    classNotesCode: "58284bd3-53d8-4488-bbc4-03faefdbbbd1.pdf",
-    dppsPdfCode: "89333db8-79e1-4273-a230-6ae944ae88e3.pdf"
-  },
-  {
-    lectureNumber: 2,
-    lectureName: "Cases Of Faradays & Lenz Law",
-    lectureCode: "0a1cdd60-924f-445f-9607-371b30ba12a5",
-    classNotesCode: "35bef2e0-b69f-4bfe-8dc8-622daba5dc00.pdf",
-    dppsPdfCode: "0f26f87e-33ea-48ad-b730-c7502123e4ae.pdf"
-  },
-  {
-    lectureNumber: 3,
-    lectureName: "Motional Emf & Rotational Emf",
-    lectureCode: "8a60a4f2-b9cb-4409-a7c5-1dacff9bc699",
-    classNotesCode: "347a6faa-4d87-450f-abbb-fbb1843a6c2f.pdf",
-    dppsPdfCode: "42929b97-b91c-4daf-bc48-9e071159af19.pdf"
-  },
-  {
-    lectureNumber: 4,
-    lectureName: "Rotational Emf & Questions",
-    lectureCode: "(Not Available)",
-    classNotesCode: "d8a3815e-5447-4aa2-b246-53a4495c6bf5.pdf",
-    dppsPdfCode: "8c8c64b5-be51-4a59-af7f-609345ea6d3e.pdf"
-  },
-  {
-    lectureNumber: 5,
-    lectureName: "Motion of rod by applying external force In Field and questions",
-    lectureCode: "196da7de-960f-4865-90db-b23d749afb36",
-    classNotesCode: "5d33cc92-b715-40b4-a01b-cf423f4efa06.pdf",
-    dppsPdfCode: "0e9f3127-cce3-4780-8d45-878b4e4bd95c.pdf"
-  },
-  {
-    lectureNumber: 6,
-    lectureName: "Advance Question On EMI & Self Inductance || Questions On Motional EMF",
-    lectureCode: "428e3a74-2bc6-4c48-9977-2ff42c620db7",
-    classNotesCode: "b721d4ab-b27d-422e-8cd7-0f3f0bc91402.pdf",
-    dppsPdfCode: "5d3f1ad6-f4a4-4642-80b1-bcf49e2134b1.pdf"
-  },
-  {
-    lectureNumber: 7,
-    lectureName: "Self Induction and Mutual Induction.",
-    lectureCode: "0d6423a5-252a-4328-ad49-1e4999856e01",
-    classNotesCode: "0fb58efc-68e5-40d5-afec-8020d7eef0f0.pdf",
-    dppsPdfCode: "d9421063-f6cb-4769-90ac-01ee787b6485.pdf"
-  },
-  {
-    lectureNumber: 8,
-    lectureName: "Questions on self inductance and mutual inductance",
-    lectureCode: "6a55d96d-4ea1-41be-a214-1207c04ece5f",
-    classNotesCode: "fde80db2-25db-4140-b7ed-f0788f888019.pdf",
-    dppsPdfCode: "b2a323b7-3c96-4dcb-94b0-d2e8c129a72c.pdf"
-  },
-  {
-    lectureNumber: 9,
-    lectureName: "TVMF and It's Question || NO DPP",
-    lectureCode: "78f12d42-1753-42ed-9ec2-14b0a9c4e040",
-    classNotesCode: "f024ece4-27ff-4dd4-bec8-e3d9b3b10881.pdf",
-    dppsPdfCode: ""
-  },
-  {
-    lectureNumber: 10,
-    lectureName: "RL Circuits & Earth Magnetism || NO DPP",
-    lectureCode: "d68ef546-da11-44fe-8d95-1376c5ebcbc5",
-    classNotesCode: "3bda1aad-b114-4d3b-bf18-e1504945f858.pdf",
-    dppsPdfCode: ""
-  },
-  {
-    lectureNumber: 11,
-    lectureName: "Quick Revision || NO DPP",
-    lectureCode: "0e41aa0c-4d0a-4782-a693-6259f4032e36",
-    classNotesCode: "0fd9e095-42af-4cba-8ab1-071c7298cf0c.pdf",
-    dppsPdfCode: ""
-  }
-];
+let lessonName = "Determinants";
+const lectures = [
+    {
+      lectureNumber: 1,
+      lectureName: "Faraday's Law And Lenz Law",
+      lectureCode: "52a1f104-37e2-475e-aa5f-7d40e570291b",
+      classNotesCode: "58284bd3-53d8-4488-bbc4-03faefdbbbd1.pdf",
+      dppsPdfCode: "89333db8-79e1-4273-a230-6ae944ae88e3.pdf"
+    },
+    {
+      lectureNumber: 2,
+      lectureName: "Cases Of Faradays & Lenz Law",
+      lectureCode: "0a1cdd60-924f-445f-9607-371b30ba12a5",
+      classNotesCode: "35bef2e0-b69f-4bfe-8dc8-622daba5dc00.pdf",
+      dppsPdfCode: "0f26f87e-33ea-48ad-b730-c7502123e4ae.pdf"
+    },
+    {
+      lectureNumber: 3,
+      lectureName: "Motional Emf & Rotational Emf",
+      lectureCode: "8a60a4f2-b9cb-4409-a7c5-1dacff9bc699",
+      classNotesCode: "347a6faa-4d87-450f-abbb-fbb1843a6c2f.pdf",
+      dppsPdfCode: "42929b97-b91c-4daf-bc48-9e071159af19.pdf"
+    },
+    {
+      lectureNumber: 4,
+      lectureName: "Rotational Emf & Questions",
+      lectureCode: "(Not Available)",
+      classNotesCode: "d8a3815e-5447-4aa2-b246-53a4495c6bf5.pdf",
+      dppsPdfCode: "8c8c64b5-be51-4a59-af7f-609345ea6d3e.pdf"
+    },
+    {
+      lectureNumber: 5,
+      lectureName: "Motion of rod by applying external force In Field and questions",
+      lectureCode: "196da7de-960f-4865-90db-b23d749afb36",
+      classNotesCode: "5d33cc92-b715-40b4-a01b-cf423f4efa06.pdf",
+      dppsPdfCode: "0e9f3127-cce3-4780-8d45-878b4e4bd95c.pdf"
+    },
+    {
+      lectureNumber: 6,
+      lectureName: "Advance Question On EMI & Self Inductance || Questions On Motional EMF",
+      lectureCode: "428e3a74-2bc6-4c48-9977-2ff42c620db7",
+      classNotesCode: "b721d4ab-b27d-422e-8cd7-0f3f0bc91402.pdf",
+      dppsPdfCode: "5d3f1ad6-f4a4-4642-80b1-bcf49e2134b1.pdf"
+    },
+    {
+      lectureNumber: 7,
+      lectureName: "Self Induction and Mutual Induction.",
+      lectureCode: "0d6423a5-252a-4328-ad49-1e4999856e01",
+      classNotesCode: "0fb58efc-68e5-40d5-afec-8020d7eef0f0.pdf",
+      dppsPdfCode: "d9421063-f6cb-4769-90ac-01ee787b6485.pdf"
+    },
+    {
+      lectureNumber: 8,
+      lectureName: "Questions on self inductance and mutual inductance",
+      lectureCode: "6a55d96d-4ea1-41be-a214-1207c04ece5f",
+      classNotesCode: "fde80db2-25db-4140-b7ed-f0788f888019.pdf",
+      dppsPdfCode: "b2a323b7-3c96-4dcb-94b0-d2e8c129a72c.pdf"
+    },
+    {
+      lectureNumber: 9,
+      lectureName: "TVMF and It's Question || NO DPP",
+      lectureCode: "78f12d42-1753-42ed-9ec2-14b0a9c4e040",
+      classNotesCode: "f024ece4-27ff-4dd4-bec8-e3d9b3b10881.pdf",
+      dppsPdfCode: ""
+    },
+    {
+      lectureNumber: 10,
+      lectureName: "RL Circuits & Earth Magnetism || NO DPP",
+      lectureCode: "d68ef546-da11-44fe-8d95-1376c5ebcbc5",
+      classNotesCode: "3bda1aad-b114-4d3b-bf18-e1504945f858.pdf",
+      dppsPdfCode: ""
+    },
+    {
+      lectureNumber: 11,
+      lectureName: "Quick Revision || NO DPP",
+      lectureCode: "0e41aa0c-4d0a-4782-a693-6259f4032e36",
+      classNotesCode: "0fd9e095-42af-4cba-8ab1-071c7298cf0c.pdf",
+      dppsPdfCode: ""
+    }
+  ];
+  
 
         function generateClassNotesLink(classNotesCode) {
             const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
@@ -140,10 +179,25 @@
             return '';
         }
 
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
         function generateTable() {
             const table = document.querySelector('table');
 
-            lectures.forEach((lecture, index) => {
+            lectureData.forEach((lecture, index) => {
                 const row = table.insertRow();
                 row.insertCell(0).textContent = index + 1;
                 row.insertCell(1).textContent = lecture.lectureName;
@@ -151,65 +205,24 @@
                 const cell3 = row.insertCell(2);
                 cell3.innerHTML = `
                     <button onclick="showQualityOptions(${index})">View Lecture</button>
-                    <div id="qualitySelect_${index}" class="quality-select">
-                        <p>Select Quality:</p>
-                        <select id="qualityOptions_${index}">
-                            <option value="720">720p</option>
-                            <option value="480">480p</option>
-                            <option value="360">360p</option>
-                            <option value="240">240p</option>
-                            <option value="144">144p</option>
-                        </select>
-                        <button onclick="playVideoInVLC('${lecture.lectureCode}', ${index})">Play Now</button>
-                        <p id="vlcLink_${index}"></p>
-                        <button class="go-back-button" onclick="goBack(${index})">Go Back</button>
-                    </div>
                 `;
 
                 const cell4 = row.insertCell(3);
                 cell4.innerHTML = `
-                    <a href="${generateClassNotesLink(lecture.classNotesCode)}" target="_blank">
-                        <button>Class Notes PDF</button>
-                    </a>
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
                 `;
 
                 const cell5 = row.insertCell(4);
                 if (lecture.dppsPdfCode) {
-
                     cell5.innerHTML = `
-                        <a href="${generateDPPLink(lecture.dppsPdfCode)}" target="_blank">
-                            <button>DPP PDF</button>
-                        </a>
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
                     `;
                 }
             });
         }
 
-        function showQualityOptions(index) {
-            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
-            qualitySelect.style.display = "block";
-        }
-
-        function playVideoInVLC(lectureCode, index) {
-            const quality = document.getElementById(`qualityOptions_${index}`).value;
-            const videoLink = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${quality}/main.m3u8`;
-            openVLC(videoLink, index);
-        }
-
-        function openVLC(videoPath, index) {
-            const vlcUri = `vlc://${videoPath}`;
-            document.getElementById(`vlcLink_${index}`).textContent = "Opening in VLC. Please check your VLC player.";
-            setTimeout(() => {
-                window.location.href = vlcUri;
-            }, 1000);
-        }
-
-        function goBack(index) {
-            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
-            qualitySelect.style.display = "none";
-        }
-
         generateTable();
     </script>
 </body>
+
 </html>

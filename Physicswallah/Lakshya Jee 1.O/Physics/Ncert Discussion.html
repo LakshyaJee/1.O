@@ -1,68 +1,78 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
     <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
         }
 
-        table, th, td {
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table,
+        th,
+        td {
             border: 1px solid black;
         }
 
-        th, td {
+        th,
+        td {
             padding: 10px;
             text-align: left;
         }
 
         button {
             cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
         }
 
-        .quality-select {
-            display: none;
-            position: absolute;
-            background: #fff;
-            border: 1px solid #ccc;
-            padding: 10px;
-            z-index: 1;
-            font-size: 18px;
-            width: 100%; /* Adjusted width for mobile */
-            box-sizing: border-box; /* Box-sizing to include padding in width */
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #4caf50;
         }
 
-        .error-message {
-            display: none;
-            position: absolute;
-            background: #fff;
-            border: 1px solid #ccc;
-            padding: 10px;
-            z-index: 1;
-            font-size: 18px;
-        }
+        @media (max-width: 600px) {
+            table {
+                width: 95%;
+            }
 
-        .go-back-button {
-            margin-top: 10px;
-        }
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
 
-        /* Style for bold text and increased size */
-        .bold-text {
-            font-weight: bold;
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-
-        @media only screen and (max-width: 600px) {
-            .quality-select {
-                position: static;
-                width: auto;
+            button:hover {
+                background-color: #ccc;
             }
         }
     </style>
 </head>
+
 <body>
+
     <table>
         <tr>
             <th>Sr. No</th>
@@ -74,107 +84,108 @@
     </table>
 
     <script>
-          const lectures = [
-    {
-        "lectureNumber": "01",
-        "lectureName": "Alternating Current 02 : NCERT Discussion || Recorded",
-        "lectureCode": "2eeb0e27-e356-4fdd-93db-f0ca44521adc",
-        "classNotesCode": "",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "02",
-        "lectureName": "Alternating Current 01 : NCERT Discussion || Recorded || Only Video",
-        "lectureCode": "cf007c69-4db0-4fa3-a306-136d4e2e49e2",
-        "classNotesCode": "",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "03",
-        "lectureName": "Electromagnetic Induction 02 : NCERT Discussion || Recorded",
-        "lectureCode": "e6b17cb2-d79b-4789-a6f6-4e9e718cdfc8",
-        "classNotesCode": "",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "04",
-        "lectureName": "Electromagnetic Induction 01 : NCERT Discussion || Recorded",
-        "lectureCode": "ec96b313-d297-499a-9449-5f1913b8c028",
-        "classNotesCode": "",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "05",
-        "lectureName": "Magnetism & Matter 02 : NCERT Discussion || (Recorded)",
-        "lectureCode": "06fd48d3-f2ab-442a-b447-dc7bff27736d",
-        "classNotesCode": "",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "06",
-        "lectureName": "Magnetism & Matter 01 : NCERT Discussion || (Recorded)",
-        "lectureCode": "3c709eae-441b-41f9-b9ad-698a22170586",
-        "classNotesCode": "",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "07",
-        "lectureName": "Moving Charges & Magnetism 02 : NCERT Discussion || (Recorded)",
-        "lectureCode": "9543be96-75dd-43da-8d78-9502434a8f53",
-        "classNotesCode": "",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "08",
-        "lectureName": "Moving Charges & Magnetism 01 : NCERT Discussion || (Recorded)",
-        "lectureCode": "76e8b979-6f4e-48f2-bfbc-75b70c5706b5",
-        "classNotesCode": "",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "09",
-        "lectureName": "Current Electricity 02 : NCERT Discussion || Only Video || (Recorded)",
-        "lectureCode": "02136c50-6907-48cf-aa35-89282067f8a6",
-        "classNotesCode": "",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "10",
-        "lectureName": "Current Electricity 01 : NCERT Discussion || (Recorded)",
-        "lectureCode": "b8ab7505-cbd9-4fbc-871c-36a661f23b00",
-        "classNotesCode": "",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "11",
-        "lectureName": "Electrostatic Potential & Capacitance 02 : NCERT Discussion || (Recorded)",
-        "lectureCode": "70d92111-d475-46cf-a934-1ecc2c7d7261",
-        "classNotesCode": "",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "12",
-        "lectureName": "Electrostatic Potential & Capacitance 01 : NCERT Discussion || (Recorded)",
-        "lectureCode": "050ee7ab-bf12-4796-ad00-ba2781e00d31",
-        "classNotesCode": "",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "13",
-        "lectureName": "Electric Charges and Fields 02 : NCERT Discussion || (Recorded)",
-        "lectureCode": "0deb59b6-9c05-496b-83ac-22e50da15d78",
-        "classNotesCode": "",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "14",
-        "lectureName": "Electric Charges and Fields 01 : NCERT Discussion || (Recorded)",
-        "lectureCode": "2cf3b258-da5a-4aad-8413-678e35464b4e",
-        "classNotesCode": "",
-        "dppsPdfCode": ""
-    }
+let lessonName = "Determinants";
+      const lectureData = [
+      {
+    "lectureNumber": "01",
+    "lectureName": "Alternating Current 02 : NCERT Discussion || Recorded",
+    "lectureCode": "2eeb0e27-e356-4fdd-93db-f0ca44521adc",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+},
+{
+    "lectureNumber": "02",
+    "lectureName": "Alternating Current 01 : NCERT Discussion || Recorded || Only Video",
+    "lectureCode": "cf007c69-4db0-4fa3-a306-136d4e2e49e2",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+},
+{
+    "lectureNumber": "03",
+    "lectureName": "Electromagnetic Induction 02 : NCERT Discussion || Recorded",
+    "lectureCode": "e6b17cb2-d79b-4789-a6f6-4e9e718cdfc8",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+},
+{
+    "lectureNumber": "04",
+    "lectureName": "Electromagnetic Induction 01 : NCERT Discussion || Recorded",
+    "lectureCode": "ec96b313-d297-499a-9449-5f1913b8c028",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+},
+{
+    "lectureNumber": "05",
+    "lectureName": "Magnetism & Matter 02 : NCERT Discussion || (Recorded)",
+    "lectureCode": "06fd48d3-f2ab-442a-b447-dc7bff27736d",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+},
+{
+    "lectureNumber": "06",
+    "lectureName": "Magnetism & Matter 01 : NCERT Discussion || (Recorded)",
+    "lectureCode": "3c709eae-441b-41f9-b9ad-698a22170586",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+},
+{
+    "lectureNumber": "07",
+    "lectureName": "Moving Charges & Magnetism 02 : NCERT Discussion || (Recorded)",
+    "lectureCode": "9543be96-75dd-43da-8d78-9502434a8f53",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+},
+{
+    "lectureNumber": "08",
+    "lectureName": "Moving Charges & Magnetism 01 : NCERT Discussion || (Recorded)",
+    "lectureCode": "76e8b979-6f4e-48f2-bfbc-75b70c5706b5",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+},
+{
+    "lectureNumber": "09",
+    "lectureName": "Current Electricity 02 : NCERT Discussion || Only Video || (Recorded)",
+    "lectureCode": "02136c50-6907-48cf-aa35-89282067f8a6",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+},
+{
+    "lectureNumber": "10",
+    "lectureName": "Current Electricity 01 : NCERT Discussion || (Recorded)",
+    "lectureCode": "b8ab7505-cbd9-4fbc-871c-36a661f23b00",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+},
+{
+    "lectureNumber": "11",
+    "lectureName": "Electrostatic Potential & Capacitance 02 : NCERT Discussion || (Recorded)",
+    "lectureCode": "70d92111-d475-46cf-a934-1ecc2c7d7261",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+},
+{
+    "lectureNumber": "12",
+    "lectureName": "Electrostatic Potential & Capacitance 01 : NCERT Discussion || (Recorded)",
+    "lectureCode": "050ee7ab-bf12-4796-ad00-ba2781e00d31",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+},
+{
+    "lectureNumber": "13",
+    "lectureName": "Electric Charges and Fields 02 : NCERT Discussion || (Recorded)",
+    "lectureCode": "0deb59b6-9c05-496b-83ac-22e50da15d78",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+},
+{
+    "lectureNumber": "14",
+    "lectureName": "Electric Charges and Fields 01 : NCERT Discussion || (Recorded)",
+    "lectureCode": "2cf3b258-da5a-4aad-8413-678e35464b4e",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+}
 ];
-
+  
 
         function generateClassNotesLink(classNotesCode) {
             const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
@@ -190,15 +201,24 @@
         }
 
         function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
             const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
             const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
             newWindow.focus();
         }
 
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
         function generateTable() {
             const table = document.querySelector('table');
 
-            lectures.forEach((lecture, index) => {
+            lectureData.forEach((lecture, index) => {
                 const row = table.insertRow();
                 row.insertCell(0).textContent = index + 1;
                 row.insertCell(1).textContent = lecture.lectureName;
@@ -206,18 +226,6 @@
                 const cell3 = row.insertCell(2);
                 cell3.innerHTML = `
                     <button onclick="showQualityOptions(${index})">View Lecture</button>
-                    <div id="qualitySelect_${index}" class="quality-select">
-                        <p>Select Quality:</p>
-                        <select id="qualityOptions_${index}">
-                            <option value="720">720p</option>
-                            <option value="480">480p</option>
-                            <option value="360">360p</option>
-                            <option value="240">240p</option>
-                            <option value="144">144p</option>
-                        </select>
-                        <button onclick="playVideoOrCopyLink(${index})">Play Now</button><br><br>
-                        <button class="go-back-button" onclick="goBack(${index})">Go Back</button>
-                    </div>
                 `;
 
                 const cell4 = row.insertCell(3);
@@ -234,58 +242,8 @@
             });
         }
 
-        function showQualityOptions(index) {
-            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
-            qualitySelect.style.display = "block";
-        }
-
-        function playVideoOrCopyLink(index) {
-            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
-            qualitySelect.style.display = "none";
-
-            const selectedQuality = document.getElementById(`qualityOptions_${index}`).value;
-            const lectureCode = lectures[index].lectureCode;
-            const videoLink = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${selectedQuality}/main.m3u8`;
-
-            // Check the user's device
-            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-
-            if (isMobile) {
-                openVLC(videoLink);
-            } else {
-                openLectureLinkWindow(videoLink);
-            }
-        }
-
-        function openVLC(videoPath) {
-            const vlcUri = `vlc://${videoPath}`;
-            window.location.href = vlcUri;
-        }
-
-        function openLectureLinkWindow(videoLink) {
-            const lectureLinkWindow = window.open('', '_blank', 'width=400,height=200');
-            lectureLinkWindow.document.write(`
-                <h2 class="bold-text">Lecture Link</h2>
-                <input type="text" value="${videoLink}" id="lectureLink">
-                <button onclick="copyLectureLink()">Copy Link</button>
-                <p class="bold-text">You must play this link in VLC Player Only.</p>
-            `);
-            lectureLinkWindow.document.getElementById('lectureLink').style.width = '500px'; // Adjust the textbox size
-        }
-
-        function copyLectureLink() {
-            const lectureLink = document.getElementById('lectureLink');
-            lectureLink.select();
-            document.execCommand('copy');
-            alert('Lecture link copied to clipboard');
-        }
-
-        function goBack(index) {
-    const qualitySelect = document.getElementById(`qualitySelect_${index}`);
-    qualitySelect.style.display = "none";
-}
-
         generateTable();
     </script>
 </body>
+
 </html>
