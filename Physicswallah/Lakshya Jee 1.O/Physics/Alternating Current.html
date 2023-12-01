@@ -11,13 +11,14 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 100vh;
+            
         }
 
         table {
             width: 80%;
             border-collapse: collapse;
             margin-top: 20px;
+            margin-bottom: 20px;
         }
 
         table,
@@ -50,10 +51,10 @@
         button:hover {
             background-color: white;
             color: black;
-            border: 1px solid #4caf50;
+            border: 1px solid #a6cbe4;
         }
 
-        @media (max-width: 600px) {
+        @media (max-width: 760px) {
             table {
                 width: 95%;
             }
@@ -84,73 +85,74 @@
     </table>
 
     <script>
-let lessonName = "Determinants";
-const lectures = [
-    {
-        lectureNumber: 1,
-        lectureCode: "974d6c87-f0c3-415d-b40a-42955efdeb38",
-        lectureName: "Alternating Current 09 : Questions On Resonance, Power & LC Oscillation",
-        classNotesCode: "57a9c3b6-3b5f-4253-a3b4-51f920f0670f.pdf",
-        dppCode: "57a9c3b6-3b5f-4253-a3b4-51f920f0670f.pdf"
-    },
-    {
-        lectureNumber: 2,
-        lectureCode: "a7c44f6c-eae4-4113-8095-2615b2613e7a",
-        lectureName: "Alternating Current 08 : LC oscillation & Transformers || Reschedule @3:45 PM",
-        classNotesCode: "fd7c4086-7c20-4d33-9aa2-46f56d45e132.pdf",
-        dppCode: "bfc8126a-6709-4fe6-9895-e367f76c326b.pdf"
-    },
-    {
-        lectureNumber: 3,
-        lectureCode: "d80c4150-04d0-4dbd-91dc-456521c6eca6",
-        lectureName: "Alternating Current 07: Transformers || Resonance In RLC Circuit || Power Factor || Wattless Current",
-        classNotesCode: "51a2b71a-b75f-4991-8e99-1aae67cba483.pdf",
-        dppCode: "341e2286-3072-431c-86f9-973553ce3b8a.pdf"
-    },
-    {
-        lectureNumber: 4,
-        lectureCode: "59f20beb-2c8d-4839-937b-13ab520f7cf9",
-        lectureName: "Alternating Current 06 : Questions || Resonance In RLC Circuit || Power Factor || Wattless Current || NO DPP || Extra Lecture",
-        classNotesCode: "4ebccacd-a23f-42fe-9617-29b6c5ec35f9.pdf",
-        dppCode: ""
-    },
-    {
-        lectureNumber: 5,
-        lectureCode: "c3bbb3e2-f919-4bbf-a8cd-6f58f58e13f6",
-        lectureName: "Alternating Current 05 : RLC circuit & Questions",
-        classNotesCode: "7cc850a8-6516-494e-b5f0-635e429d1d5e.pdf",
-        dppCode: "6173a347-6b56-4384-8718-ba6c6e869c93.pdf"
-    },
-    {
-        lectureNumber: 6,
-        lectureCode: "24cb6470-72ac-42a7-bbf8-af485fdd4b78",
-        lectureName: "Alternating Current 04 : Analysis Of AC Circuits || NO DPP",
-        classNotesCode: "9c89ab28-ed38-4c6f-8ee2-be50619d826a.pdf",
-        dppCode: ""
-    },
-    {
-        lectureNumber: 7,
-        lectureCode: "b7cf0fd0-0c1e-4017-b364-9620935b1c81",
-        lectureName: "Alternating Current 03 : R-Ckt,L-Ckt,C-Ckt, RL, RC,LC Circuit",
-        classNotesCode: "59c80552-42fc-4255-995f-1ca2d2bc5363.pdf",
-        dppCode: "6cd4b323-7cd2-4185-b56f-e5ce0ed79f2c.pdf"
-    },
-    {
-        lectureNumber: 8,
-        lectureCode: "10504492-0b31-4663-a7f5-b6385d3f6e40",
-        lectureName: "Alternating Current 02 : Mean & RMS Value Of Current",
-        classNotesCode: "8048cda9-fa53-48c4-8d01-0ea607e0efe9.pdf",
-        dppCode: "ddc6fb04-f043-4030-927d-10c4d6c18325.pdf"
-    },
-    {
-        lectureNumber: 9,
-        lectureCode: "640aa9f7-4860-4859-9e11-ad966c07c4f7",
-        lectureName: "Alternating Current 01 : AC Generator || AC Current || NO DPP",
-        classNotesCode: "d25a742a-cc5c-4c58-b14a-430ac0b98c00.pdf",
-        dppCode: ""
-    }
+let lessonName = "Alternating Current";
+const lectureData= [
+{
+    lectureNumber: 1,
+    lectureCode: "974d6c87-f0c3-415d-b40a-42955efdeb38",
+    lectureName: "Alternating Current 09 : Questions On Resonance, Power & LC Oscillation",
+    classNotesCode: "57a9c3b6-3b5f-4253-a3b4-51f920f0670f.pdf",
+    dppCode: "57a9c3b6-3b5f-4253-a3b4-51f920f0670f.pdf"
+},
+{
+    lectureNumber: 2,
+    lectureCode: "a7c44f6c-eae4-4113-8095-2615b2613e7a",
+    lectureName: "Alternating Current 08 : LC oscillation & Transformers || Reschedule @3:45 PM",
+    classNotesCode: "fd7c4086-7c20-4d33-9aa2-46f56d45e132.pdf",
+    dppCode: "bfc8126a-6709-4fe6-9895-e367f76c326b.pdf"
+},
+{
+    lectureNumber: 3,
+    lectureCode: "d80c4150-04d0-4dbd-91dc-456521c6eca6",
+    lectureName: "Alternating Current 07: Transformers || Resonance In RLC Circuit || Power Factor || Wattless Current",
+    classNotesCode: "51a2b71a-b75f-4991-8e99-1aae67cba483.pdf",
+    dppCode: "341e2286-3072-431c-86f9-973553ce3b8a.pdf"
+},
+{
+    lectureNumber: 4,
+    lectureCode: "59f20beb-2c8d-4839-937b-13ab520f7cf9",
+    lectureName: "Alternating Current 06 : Questions || Resonance In RLC Circuit || Power Factor || Wattless Current || NO DPP || Extra Lecture",
+    classNotesCode: "4ebccacd-a23f-42fe-9617-29b6c5ec35f9.pdf",
+    dppCode: ""
+},
+{
+    lectureNumber: 5,
+    lectureCode: "c3bbb3e2-f919-4bbf-a8cd-6f58f58e13f6",
+    lectureName: "Alternating Current 05 : RLC circuit & Questions",
+    classNotesCode: "7cc850a8-6516-494e-b5f0-635e429d1d5e.pdf",
+    dppCode: "6173a347-6b56-4384-8718-ba6c6e869c93.pdf"
+},
+{
+    lectureNumber: 6,
+    lectureCode: "24cb6470-72ac-42a7-bbf8-af485fdd4b78",
+    lectureName: "Alternating Current 04 : Analysis Of AC Circuits || NO DPP",
+    classNotesCode: "9c89ab28-ed38-4c6f-8ee2-be50619d826a.pdf",
+    dppCode: ""
+},
+{
+    lectureNumber: 7,
+    lectureCode: "b7cf0fd0-0c1e-4017-b364-9620935b1c81",
+    lectureName: "Alternating Current 03 : R-Ckt,L-Ckt,C-Ckt, RL, RC,LC Circuit",
+    classNotesCode: "59c80552-42fc-4255-995f-1ca2d2bc5363.pdf",
+    dppCode: "6cd4b323-7cd2-4185-b56f-e5ce0ed79f2c.pdf"
+},
+{
+    lectureNumber: 8,
+    lectureCode: "10504492-0b31-4663-a7f5-b6385d3f6e40",
+    lectureName: "Alternating Current 02 : Mean & RMS Value Of Current",
+    classNotesCode: "8048cda9-fa53-48c4-8d01-0ea607e0efe9.pdf",
+    dppCode: "ddc6fb04-f043-4030-927d-10c4d6c18325.pdf"
+},
+{
+    lectureNumber: 9,
+    lectureCode: "640aa9f7-4860-4859-9e11-ad966c07c4f7",
+    lectureName: "Alternating Current 01 : AC Generator || AC Current || NO DPP",
+    classNotesCode: "d25a742a-cc5c-4c58-b14a-430ac0b98c00.pdf",
+    dppCode: ""
+}
 ];
 
+  
 
         function generateClassNotesLink(classNotesCode) {
             const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
