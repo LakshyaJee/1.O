@@ -11,13 +11,14 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 100vh;
+            
         }
 
         table {
             width: 80%;
             border-collapse: collapse;
             margin-top: 20px;
+            margin-bottom: 20px;
         }
 
         table,
@@ -50,10 +51,10 @@
         button:hover {
             background-color: white;
             color: black;
-            border: 1px solid #4caf50;
+            border: 1px solid #a6cbe4;
         }
 
-        @media (max-width: 600px) {
+        @media (max-width: 760px) {
             table {
                 width: 95%;
             }
@@ -84,31 +85,30 @@
     </table>
 
     <script>
-let lessonName = "Determinants";
-const lectureData = [
-    {
-        "lectureNumber": 3,
-        "lectureName": "Electromagnetic Waves 03 : Questions On EM Waves || NO DPP",
-        "lectureCode": "4ffffdc3-e577-4068-9be5-4cae6fd3e428",
-        "classNotesCode": "ee1287f1-879e-4acc-9bb6-713a9a8ac33a.pdf",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": 2,
-        "lectureName": "Electromagnetic Waves 02 : Properties Of EM Waves || NO DPP",
-        "lectureCode": "28d6d981-e209-4f1c-b9fe-17398283a9d8",
-        "classNotesCode": "728ca5e4-922a-4fbb-8629-0f58809b9c56.pdf",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": 1,
-        "lectureName": "Electromagnetic Waves 01 : Displacement Current || Analysis Of Displacement Current || Maxwell Equations || Equation Of Wave Revisit || NO DPP",
-        "lectureCode": "f320fae4-5fcf-4742-933c-b343861b05b9",
-        "classNotesCode": "7621e92e-17a4-4937-9b9d-ec03ce805577.pdf",
-        "dppsPdfCode": ""
-    }
+let lessonName = "ElectroMagnetic Waves";
+const lectureData= [
+{
+    "lectureNumber": 3,
+    "lectureName": "Electromagnetic Waves 03 : Questions On EM Waves || NO DPP",
+    "lectureCode": "4ffffdc3-e577-4068-9be5-4cae6fd3e428",
+    "classNotesCode": "ee1287f1-879e-4acc-9bb6-713a9a8ac33a.pdf",
+    "dppsPdfCode": ""
+},
+{
+    "lectureNumber": 2,
+    "lectureName": "Electromagnetic Waves 02 : Properties Of EM Waves || NO DPP",
+    "lectureCode": "28d6d981-e209-4f1c-b9fe-17398283a9d8",
+    "classNotesCode": "728ca5e4-922a-4fbb-8629-0f58809b9c56.pdf",
+    "dppsPdfCode": ""
+},
+{
+    "lectureNumber": 1,
+    "lectureName": "Electromagnetic Waves 01 : Displacement Current || Analysis Of Displacement Current || Maxwell Equations || Equation Of Wave Revisit || NO DPP",
+    "lectureCode": "f320fae4-5fcf-4742-933c-b343861b05b9",
+    "classNotesCode": "7621e92e-17a4-4937-9b9d-ec03ce805577.pdf",
+    "dppsPdfCode": ""
+}
 ];
-  
 
         function generateClassNotesLink(classNotesCode) {
             const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";

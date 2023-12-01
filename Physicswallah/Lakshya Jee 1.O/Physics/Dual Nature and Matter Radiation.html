@@ -11,13 +11,14 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 100vh;
+            
         }
 
         table {
             width: 80%;
             border-collapse: collapse;
             margin-top: 20px;
+            margin-bottom: 20px;
         }
 
         table,
@@ -50,10 +51,10 @@
         button:hover {
             background-color: white;
             color: black;
-            border: 1px solid #4caf50;
+            border: 1px solid #a6cbe4;
         }
 
-        @media (max-width: 600px) {
+        @media (max-width: 760px) {
             table {
                 width: 95%;
             }
@@ -84,37 +85,38 @@
     </table>
 
     <script>
-let lessonName = "Determinants";
-const lectureData = [
-    {
-        "lectureNumber": 4,
-        "lectureName": "Dual Nature Of Matter & Radiation 04 : Radiation Pressure & Force || Rescheduled @ 3:30 PM || DPP & DPP Quiz Will Be Provided Soon",
-        "lectureCode": "893147d3-a892-4cfc-9051-20ff7f8f831e",
-        "classNotesCode": "d91adfd5-be5c-4dfe-91a9-e0f6e5940ec3.pdf",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": 3,
-        "lectureName": "Dual Nature Of Matter & Radiation 03 : Question On Photoelectric & Debroglie Wavelength || Rescheduled @ 3:30 PM",
-        "lectureCode": "9d6b87fc-d62c-40aa-9258-4c1207dffc61",
-        "classNotesCode": "434c23b7-f31c-4fe5-a961-9e862856185d.pdf",
-        "dppsPdfCode": "91ae097b-f609-4427-86bb-b824300e970c.pdf"
-    },
-    {
-        "lectureNumber": 2,
-        "lectureName": "Dual Nature Of Matter & Radiation 02 : Questions On Photoelectric Effect || NO DPP || Reschedule @ 03:30 PM",
-        "lectureCode": "39746862-46f5-4346-a80f-dd2d0d3b9da0",
-        "classNotesCode": "2cc68707-c051-4d61-a4bb-e24641aeffcb.pdf",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": 1,
-        "lectureName": "Dual Nature Of Matter & Radiation 01 : Photo Electric Effect || NO DPP || Rescheduled @ 3:30 PM",
-        "lectureCode": "8fdd5471-6f03-4bf4-b12e-eac2323ece5d",
-        "classNotesCode": "329e752a-5f7c-4938-b759-53cf40960ef0.pdf",
-        "dppsPdfCode": ""
-    }
+let lessonName = "Dual Nature and Matter Radiation";
+const lectureData= [
+{
+    "lectureNumber": 4,
+    "lectureName": "Dual Nature Of Matter & Radiation 04 : Radiation Pressure & Force || Rescheduled @ 3:30 PM || DPP & DPP Quiz Will Be Provided Soon",
+    "lectureCode": "893147d3-a892-4cfc-9051-20ff7f8f831e",
+    "classNotesCode": "d91adfd5-be5c-4dfe-91a9-e0f6e5940ec3.pdf",
+    "dppsPdfCode": ""
+},
+{
+    "lectureNumber": 3,
+    "lectureName": "Dual Nature Of Matter & Radiation 03 : Question On Photoelectric & Debroglie Wavelength || Rescheduled @ 3:30 PM",
+    "lectureCode": "9d6b87fc-d62c-40aa-9258-4c1207dffc61",
+    "classNotesCode": "434c23b7-f31c-4fe5-a961-9e862856185d.pdf",
+    "dppsPdfCode": "91ae097b-f609-4427-86bb-b824300e970c.pdf"
+},
+{
+    "lectureNumber": 2,
+    "lectureName": "Dual Nature Of Matter & Radiation 02 : Questions On Photoelectric Effect || NO DPP || Reschedule @ 03:30 PM",
+    "lectureCode": "39746862-46f5-4346-a80f-dd2d0d3b9da0",
+    "classNotesCode": "2cc68707-c051-4d61-a4bb-e24641aeffcb.pdf",
+    "dppsPdfCode": ""
+},
+{
+    "lectureNumber": 1,
+    "lectureName": "Dual Nature Of Matter & Radiation 01 : Photo Electric Effect || NO DPP || Rescheduled @ 3:30 PM",
+    "lectureCode": "8fdd5471-6f03-4bf4-b12e-eac2323ece5d",
+    "classNotesCode": "329e752a-5f7c-4938-b759-53cf40960ef0.pdf",
+    "dppsPdfCode": ""
+}
 ];
+
   
 
         function generateClassNotesLink(classNotesCode) {

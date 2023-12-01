@@ -89,8 +89,6 @@ let lessonName = "Ray Optics and Optical Instruments";
 const lectureData= [
     
 
-  
-
         function generateClassNotesLink(classNotesCode) {
             const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
             return baseUrl + classNotesCode;

@@ -11,13 +11,14 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 90vh;
+            
         }
 
         table {
             width: 80%;
             border-collapse: collapse;
             margin-top: 20px;
+            margin-bottom: 20px;
         }
 
         table,
@@ -50,7 +51,7 @@
         button:hover {
             background-color: white;
             color: black;
-            border: 1px solid #4caf50;
+            border: 1px solid #a6cbe4;
         }
 
         @media (max-width: 760px) {
@@ -85,114 +86,113 @@
 
     <script>
 let lessonName = "Moving Charge and Magnetism";
-const lectureData = [
-    {
-      lectureNumber: 1,
-      lectureName: "Biot Savart's Law",
-      lectureCode: "36b16145-1dad-4758-8dea-9bfeae6fe7e8",
-      classNotesCode: "4310cc6d-2b4c-45aa-8b0b-99301793631b.pdf",
-      dppsPdfCode: ""
-    },
-    {
-      lectureNumber: 2,
-      lectureName: "Questions On Biot Savart's Law",
-      lectureCode: "572bd0b2-03a5-41f3-8b65-e06aa5bc84ff",
-      classNotesCode: "baf9316a-f99d-468b-8513-f0ce7829b752.pdf",
-      dppsPdfCode: "dbea16b7-0c63-40c4-a27a-39677d307e31.pdf"
-    },
-    {
-      lectureNumber: 3,
-      lectureName: "Questions On Biot Savart's Law",
-      lectureCode: "950df758-a2c8-4680-a1b8-980662a9ea8f",
-      classNotesCode: "bf84e528-e553-4c03-9d9e-d2edf8e29c5d.pdf",
-      dppsPdfCode: "f19c6246-d476-4f3a-a244-e66c201c08d1.pdf"
-    },
-    {
-      lectureNumber: 4,
-      lectureName: "Magnetic Field Due To Current Carrying Loop And Ampere Circuital Law || NO DPP",
-      lectureCode: "900a98fe-9e0e-4f83-a311-67d483b26412",
-      classNotesCode: "026175bb-421b-4acb-ac64-f4c52b67fc73.pdf",
-      dppsPdfCode: ""
-    },
-    {
-      lectureNumber: 5,
-      lectureName: "Application Of Ampere Circuital Law",
-      lectureCode: "9cccdeac-56a6-4868-905e-5fba89adb504",
-      classNotesCode: "6cf70cd3-6ad6-48ad-ad46-66eafdebc95d.pdf",
-      dppsPdfCode: "d5733cde-565d-4ec4-b3a4-7d585d02f594.pdf"
-    },
-    {
-      lectureNumber: 6,
-      lectureName: "Solenoid || Toroid || Motion Of Charge Particle In Magnetic Field",
-      lectureCode: "038851d2-cdd8-4303-8c26-735ba213e452",
-      classNotesCode: "1cd79fd1-fd5d-4eba-8c53-969d5a4b36cb.pdf",
-      dppsPdfCode: "6b7a026a-01cd-4c0f-9d8e-8e6496796474.pdf"
-    },
-    {
-      lectureNumber: 7,
-      lectureName: "Motion Of Charge In Magnetic Field & Velocity Selector",
-      lectureCode: "024fb873-e66d-42d4-b88a-bcd7c11f422c",
-      classNotesCode: "bab85db8-877d-46df-9f7b-9206f643831a.pdf",
-      dppsPdfCode: "269b89f5-3b6c-4962-a972-a907f9e60418.pdf"
-    },
-    {
-      lectureNumber: 8,
-      lectureName: "Velocity Selector",
-      lectureCode: "f0614086-d717-4edd-b335-12b092e147c8",
-      classNotesCode: "e3919a45-12b8-46cb-8151-a43af1a5ad38.pdf",
-      dppsPdfCode: "e7ab6895-48a1-45fe-8e97-6a16bf1d75ae.pdf"
-    },
-    {
-      lectureNumber: 9,
-      lectureName: "Question On Motion On Charge Particle",
-      lectureCode: "90f9021f-973f-4605-968f-8fd5f8cf1df6",
-      classNotesCode: "d8770462-c950-4cf2-8179-22ceb1f2cbeb.pdf",
-      dppsPdfCode: "657e84de-120e-4837-b09d-8870b9c45ed0.pdf"
-    },
-    {
-      lectureNumber: 10,
-      lectureName: "Force On Current Carrying Wire || (NO DPP)",
-      lectureCode: "46909c2c-e4bb-4ec1-a88e-7f0f318c2c98",
-      classNotesCode: "fd3b47a0-15e4-48db-a302-7f97cf82b8b3.pdf",
-      dppsPdfCode: ""
-    },
-    {
-      lectureNumber: 11,
-      lectureName: "Questions On Force On Current Carrying Conductor In External Field",
-      lectureCode: "a1863cc2-9019-4203-9f17-a9a169427036",
-      classNotesCode: "4f8f6e77-9104-4182-bac1-0709ebac34d0.pdf",
-      dppsPdfCode: "eefc9da9-a290-4a7a-a083-aba67798eed1.pdf"
-    },
-    {
-      lectureNumber: 12,
-      lectureName: "Magnetic Moment & Torque On Coil",
-      lectureCode: "ea5f7b74-11dc-4726-a21b-54cc8427eb06",
-      classNotesCode: "384f8d17-f086-421e-beb4-34fc232cbbce.pdf",
-      dppsPdfCode: "ae4d27a6-7371-40db-878a-baf7d2dbbbac.pdf"
-    },
-    {
-      lectureNumber: 13,
-      lectureName: "Magnetic Moment & Torque On Coil || Moving Coil Galvanometer",
-      lectureCode: "1db2c7f8-c881-4e92-a591-5d321fc70822",
-      classNotesCode: "9726f347-e90a-4bbc-9a9d-72333bcafda9.pdf",
-      dppsPdfCode: "0d0092eb-9440-44c3-bc3f-f13c44c451ca.pdf"
-    },
-    {
-      lectureNumber: 14,
-      lectureName: "Moving Coil Galvanometer & Questions || (NO DPP)",
-      lectureCode: "c26181da-e62b-4fc0-8fde-6e05f9932b45",
-      classNotesCode: "53415363-7270-4aaf-b371-2898640406fc.pdf",
-      dppsPdfCode: ""
-    },
-    {
-      lectureNumber: "--",
-      lectureName: "Quick Revision (NO DPP)",
-      lectureCode: "705f5ff2-c5f4-40d9-9e1e-2ea691016cf2",
-      classNotesCode: "36a10079-dcea-4e8c-85c1-271c8c3f57a0.pdf",
-      dppsPdfCode: ""
-    }
-  ];
-  
+const lectureData= [
+{
+    lectureNumber: 1,
+    lectureName: "Biot Savart's Law",
+    lectureCode: "36b16145-1dad-4758-8dea-9bfeae6fe7e8",
+    classNotesCode: "4310cc6d-2b4c-45aa-8b0b-99301793631b.pdf",
+    dppsPdfCode: ""
+  },
+  {
+    lectureNumber: 2,
+    lectureName: "Questions On Biot Savart's Law",
+    lectureCode: "572bd0b2-03a5-41f3-8b65-e06aa5bc84ff",
+    classNotesCode: "baf9316a-f99d-468b-8513-f0ce7829b752.pdf",
+    dppsPdfCode: "dbea16b7-0c63-40c4-a27a-39677d307e31.pdf"
+  },
+  {
+    lectureNumber: 3,
+    lectureName: "Questions On Biot Savart's Law",
+    lectureCode: "950df758-a2c8-4680-a1b8-980662a9ea8f",
+    classNotesCode: "bf84e528-e553-4c03-9d9e-d2edf8e29c5d.pdf",
+    dppsPdfCode: "f19c6246-d476-4f3a-a244-e66c201c08d1.pdf"
+  },
+  {
+    lectureNumber: 4,
+    lectureName: "Magnetic Field Due To Current Carrying Loop And Ampere Circuital Law || NO DPP",
+    lectureCode: "900a98fe-9e0e-4f83-a311-67d483b26412",
+    classNotesCode: "026175bb-421b-4acb-ac64-f4c52b67fc73.pdf",
+    dppsPdfCode: ""
+  },
+  {
+    lectureNumber: 5,
+    lectureName: "Application Of Ampere Circuital Law",
+    lectureCode: "9cccdeac-56a6-4868-905e-5fba89adb504",
+    classNotesCode: "6cf70cd3-6ad6-48ad-ad46-66eafdebc95d.pdf",
+    dppsPdfCode: "d5733cde-565d-4ec4-b3a4-7d585d02f594.pdf"
+  },
+  {
+    lectureNumber: 6,
+    lectureName: "Solenoid || Toroid || Motion Of Charge Particle In Magnetic Field",
+    lectureCode: "038851d2-cdd8-4303-8c26-735ba213e452",
+    classNotesCode: "1cd79fd1-fd5d-4eba-8c53-969d5a4b36cb.pdf",
+    dppsPdfCode: "6b7a026a-01cd-4c0f-9d8e-8e6496796474.pdf"
+  },
+  {
+    lectureNumber: 7,
+    lectureName: "Motion Of Charge In Magnetic Field & Velocity Selector",
+    lectureCode: "024fb873-e66d-42d4-b88a-bcd7c11f422c",
+    classNotesCode: "bab85db8-877d-46df-9f7b-9206f643831a.pdf",
+    dppsPdfCode: "269b89f5-3b6c-4962-a972-a907f9e60418.pdf"
+  },
+  {
+    lectureNumber: 8,
+    lectureName: "Velocity Selector",
+    lectureCode: "f0614086-d717-4edd-b335-12b092e147c8",
+    classNotesCode: "e3919a45-12b8-46cb-8151-a43af1a5ad38.pdf",
+    dppsPdfCode: "e7ab6895-48a1-45fe-8e97-6a16bf1d75ae.pdf"
+  },
+  {
+    lectureNumber: 9,
+    lectureName: "Question On Motion On Charge Particle",
+    lectureCode: "90f9021f-973f-4605-968f-8fd5f8cf1df6",
+    classNotesCode: "d8770462-c950-4cf2-8179-22ceb1f2cbeb.pdf",
+    dppsPdfCode: "657e84de-120e-4837-b09d-8870b9c45ed0.pdf"
+  },
+  {
+    lectureNumber: 10,
+    lectureName: "Force On Current Carrying Wire || (NO DPP)",
+    lectureCode: "46909c2c-e4bb-4ec1-a88e-7f0f318c2c98",
+    classNotesCode: "fd3b47a0-15e4-48db-a302-7f97cf82b8b3.pdf",
+    dppsPdfCode: ""
+  },
+  {
+    lectureNumber: 11,
+    lectureName: "Questions On Force On Current Carrying Conductor In External Field",
+    lectureCode: "a1863cc2-9019-4203-9f17-a9a169427036",
+    classNotesCode: "4f8f6e77-9104-4182-bac1-0709ebac34d0.pdf",
+    dppsPdfCode: "eefc9da9-a290-4a7a-a083-aba67798eed1.pdf"
+  },
+  {
+    lectureNumber: 12,
+    lectureName: "Magnetic Moment & Torque On Coil",
+    lectureCode: "ea5f7b74-11dc-4726-a21b-54cc8427eb06",
+    classNotesCode: "384f8d17-f086-421e-beb4-34fc232cbbce.pdf",
+    dppsPdfCode: "ae4d27a6-7371-40db-878a-baf7d2dbbbac.pdf"
+  },
+  {
+    lectureNumber: 13,
+    lectureName: "Magnetic Moment & Torque On Coil || Moving Coil Galvanometer",
+    lectureCode: "1db2c7f8-c881-4e92-a591-5d321fc70822",
+    classNotesCode: "9726f347-e90a-4bbc-9a9d-72333bcafda9.pdf",
+    dppsPdfCode: "0d0092eb-9440-44c3-bc3f-f13c44c451ca.pdf"
+  },
+  {
+    lectureNumber: 14,
+    lectureName: "Moving Coil Galvanometer & Questions || (NO DPP)",
+    lectureCode: "c26181da-e62b-4fc0-8fde-6e05f9932b45",
+    classNotesCode: "53415363-7270-4aaf-b371-2898640406fc.pdf",
+    dppsPdfCode: ""
+  },
+  {
+    lectureNumber: "--",
+    lectureName: "Quick Revision (NO DPP)",
+    lectureCode: "705f5ff2-c5f4-40d9-9e1e-2ea691016cf2",
+    classNotesCode: "36a10079-dcea-4e8c-85c1-271c8c3f57a0.pdf",
+    dppsPdfCode: ""
+  }
+];
 
         function generateClassNotesLink(classNotesCode) {
             const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";

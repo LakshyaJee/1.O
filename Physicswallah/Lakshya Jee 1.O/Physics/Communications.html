@@ -11,13 +11,14 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 100vh;
+            
         }
 
         table {
             width: 80%;
             border-collapse: collapse;
             margin-top: 20px;
+            margin-bottom: 20px;
         }
 
         table,
@@ -50,10 +51,10 @@
         button:hover {
             background-color: white;
             color: black;
-            border: 1px solid #4caf50;
+            border: 1px solid #a6cbe4;
         }
 
-        @media (max-width: 600px) {
+        @media (max-width: 760px) {
             table {
                 width: 95%;
             }
@@ -84,29 +85,29 @@
     </table>
 
     <script>
-let lessonName = "Determinants";
-const lectures = [
-    {
-        "lectureNumber": "03",
-        "lectureName": "Communications 03 : Questions on Communication || NO DPP || Extra || Recorded",
-        "lectureCode": "4aa89a9f-4a7c-4643-b231-5636f6be366f",
-        "classNotesCode": "a67db5f0-3b1e-4773-bbde-15c470591be1.pdf",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "02",
-        "lectureName": "Communications 02 : Modulation || Questions on Communications || (NO DPP) || Extra || Recorded",
-        "lectureCode": "593c6227-e6fe-4f4b-905f-bc80c4cbcf0d",
-        "classNotesCode": "7036a436-ff0b-4fe6-a18b-5dfc6880b343.pdf",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "01",
-        "lectureName": "Communications 01 : Complete Communications Theory || (NO DPP) || Recorded",
-        "lectureCode": "fd83f558-c79c-41ef-88b0-5ae15df02dfc",
-        "classNotesCode": "98445668-661a-410e-b420-df781d9a7a89.pdf",
-        "dppsPdfCode": ""
-    }
+let lessonName = "Communications";
+const lectureData= [
+{
+    "lectureNumber": "03",
+    "lectureName": "Communications 03 : Questions on Communication || NO DPP || Extra || Recorded",
+    "lectureCode": "4aa89a9f-4a7c-4643-b231-5636f6be366f",
+    "classNotesCode": "a67db5f0-3b1e-4773-bbde-15c470591be1.pdf",
+    "dppsPdfCode": ""
+},
+{
+    "lectureNumber": "02",
+    "lectureName": "Communications 02 : Modulation || Questions on Communications || (NO DPP) || Extra || Recorded",
+    "lectureCode": "593c6227-e6fe-4f4b-905f-bc80c4cbcf0d",
+    "classNotesCode": "7036a436-ff0b-4fe6-a18b-5dfc6880b343.pdf",
+    "dppsPdfCode": ""
+},
+{
+    "lectureNumber": "01",
+    "lectureName": "Communications 01 : Complete Communications Theory || (NO DPP) || Recorded",
+    "lectureCode": "fd83f558-c79c-41ef-88b0-5ae15df02dfc",
+    "classNotesCode": "98445668-661a-410e-b420-df781d9a7a89.pdf",
+    "dppsPdfCode": ""
+}
 ];
 
         function generateClassNotesLink(classNotesCode) {

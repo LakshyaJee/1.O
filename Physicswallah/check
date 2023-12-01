@@ -1,64 +1,64 @@
 {
-    lectureNumber: 1,
-    lectureCode: "974d6c87-f0c3-415d-b40a-42955efdeb38",
-    lectureName: "Alternating Current 09 : Questions On Resonance, Power & LC Oscillation",
-    classNotesCode: "57a9c3b6-3b5f-4253-a3b4-51f920f0670f.pdf",
-    dppCode: "57a9c3b6-3b5f-4253-a3b4-51f920f0670f.pdf"
+    "lectureNumber": "09",
+    "lectureName": "Wave Optics 09 : Diffraction OR Single Slit Experiment || NO DPP || Extra Lecture || Recorded",
+    "lectureCode": "cb9b577b-10cd-4f97-9b2b-7f140385f9f4",
+    "classNotesCode": "a84a4fb5-4d0e-44ea-b737-092c8c9e670d.pdf",
+    "dppsPdfCode": ""
 },
 {
-    lectureNumber: 2,
-    lectureCode: "a7c44f6c-eae4-4113-8095-2615b2613e7a",
-    lectureName: "Alternating Current 08 : LC oscillation & Transformers || Reschedule @3:45 PM",
-    classNotesCode: "fd7c4086-7c20-4d33-9aa2-46f56d45e132.pdf",
-    dppCode: "bfc8126a-6709-4fe6-9895-e367f76c326b.pdf"
+    "lectureNumber": "07",
+    "lectureName": "Wave Optics 07 : Questions On YDSE & Introduction To Photoelectric Effect || NO DPP || Rescheduled @ 3:30 PM",
+    "lectureCode": "228133b9-9987-44dc-a1c2-7c009b1438f2",
+    "classNotesCode": "e3013f50-b73c-4f9e-89fe-fce2f743c2d2.pdf",
+    "dppsPdfCode": ""
 },
 {
-    lectureNumber: 3,
-    lectureCode: "d80c4150-04d0-4dbd-91dc-456521c6eca6",
-    lectureName: "Alternating Current 07: Transformers || Resonance In RLC Circuit || Power Factor || Wattless Current",
-    classNotesCode: "51a2b71a-b75f-4991-8e99-1aae67cba483.pdf",
-    dppCode: "341e2286-3072-431c-86f9-973553ce3b8a.pdf"
+    "lectureNumber": "08",
+    "lectureName": "Wave Optics 08 : Polarisation || Extra Lecture || Recorded",
+    "lectureCode": "7ee24d09-4891-481c-a0e8-cc533ad2a879",
+    "classNotesCode": "720663df-247d-48ac-baa0-22fc6bc54981.pdf",
+    "dppsPdfCode": "c333eeff-584c-4afe-9127-91c44cc56e0c.pdf"
 },
 {
-    lectureNumber: 4,
-    lectureCode: "59f20beb-2c8d-4839-937b-13ab520f7cf9",
-    lectureName: "Alternating Current 06 : Questions || Resonance In RLC Circuit || Power Factor || Wattless Current || NO DPP || Extra Lecture",
-    classNotesCode: "4ebccacd-a23f-42fe-9617-29b6c5ec35f9.pdf",
-    dppCode: ""
+    "lectureNumber": "06",
+    "lectureName": "Wave Optics 06 : Questions On YDSE || Rescheduled @ 3:30 PM",
+    "lectureCode": "aebf602b-6cb4-4c06-af14-c63c0548f8e3",
+    "classNotesCode": "fbe416f4-d02d-4556-aa85-0a38de7d6a01.pdf",
+    "dppsPdfCode": "c92b3d36-a7d5-408b-afcd-d6813ef6ad36.pdf"
 },
 {
-    lectureNumber: 5,
-    lectureCode: "c3bbb3e2-f919-4bbf-a8cd-6f58f58e13f6",
-    lectureName: "Alternating Current 05 : RLC circuit & Questions",
-    classNotesCode: "7cc850a8-6516-494e-b5f0-635e429d1d5e.pdf",
-    dppCode: "6173a347-6b56-4384-8718-ba6c6e869c93.pdf"
+    "lectureNumber": "05",
+    "lectureName": "Wave Optics 05 : Modification In YDSE",
+    "lectureCode": "25e84bf4-6e90-4bb5-a3b0-e26684d70de4",
+    "classNotesCode": "2c698ee0-5825-4138-8583-991675875032.pdf",
+    "dppsPdfCode": "c5058639-c322-4aba-a90a-812f7dd67ad4.pdf"
 },
 {
-    lectureNumber: 6,
-    lectureCode: "24cb6470-72ac-42a7-bbf8-af485fdd4b78",
-    lectureName: "Alternating Current 04 : Analysis Of AC Circuits || NO DPP",
-    classNotesCode: "9c89ab28-ed38-4c6f-8ee2-be50619d826a.pdf",
-    dppCode: ""
+    "lectureNumber": "04",
+    "lectureName": "Wave Optics 04 : Young Double Slit Experiment",
+    "lectureCode": "041d041c-6ce4-49c5-9763-54384de25f22",
+    "classNotesCode": "8067382a-c1e0-466c-86f6-5859bb75b185.pdf",
+    "dppsPdfCode": "8b836c19-41ca-4f3b-b2b5-9d83669e9190.pdf"
 },
 {
-    lectureNumber: 7,
-    lectureCode: "b7cf0fd0-0c1e-4017-b364-9620935b1c81",
-    lectureName: "Alternating Current 03 : R-Ckt,L-Ckt,C-Ckt, RL, RC,LC Circuit",
-    classNotesCode: "59c80552-42fc-4255-995f-1ca2d2bc5363.pdf",
-    dppCode: "6cd4b323-7cd2-4185-b56f-e5ce0ed79f2c.pdf"
+    "lectureNumber": "03",
+    "lectureName": "Wave Optics 03 : Question On Interference",
+    "lectureCode": "9fd35eb8-c258-4134-88cf-7a054ea8d3a6",
+    "classNotesCode": "c50fb822-a9aa-4153-8cc0-0d2a96d7c0da.pdf",
+    "dppsPdfCode": "6bf3a19f-82b5-42e5-a9dd-7f6e628fc99b.pdf"
 },
 {
-    lectureNumber: 8,
-    lectureCode: "10504492-0b31-4663-a7f5-b6385d3f6e40",
-    lectureName: "Alternating Current 02 : Mean & RMS Value Of Current",
-    classNotesCode: "8048cda9-fa53-48c4-8d01-0ea607e0efe9.pdf",
-    dppCode: "ddc6fb04-f043-4030-927d-10c4d6c18325.pdf"
+    "lectureNumber": "02",
+    "lectureName": "Wave Optics 02 : Interference || Reschedule @ 3:30 PM",
+    "lectureCode": "6505c36b-1874-4dff-bd20-bb346a58b619",
+    "classNotesCode": "bf60456c-24fa-4a07-8cf5-0a995c08f9ea.pdf",
+    "dppsPdfCode": "3045029e-a946-4d74-aff4-6391b70e71d9.pdf"
 },
 {
-    lectureNumber: 9,
-    lectureCode: "640aa9f7-4860-4859-9e11-ad966c07c4f7",
-    lectureName: "Alternating Current 01 : AC Generator || AC Current || NO DPP",
-    classNotesCode: "d25a742a-cc5c-4c58-b14a-430ac0b98c00.pdf",
-    dppCode: ""
+    "lectureNumber": "01",
+    "lectureName": "Wave Optics 01 : Wave Fronts & Huygens Principle",
+    "lectureCode": "475f597a-0c8f-4a5d-bd9c-715acda527bc",
+    "classNotesCode": "3d356d60-7602-4f77-8e11-f938665a8053.pdf",
+    "dppsPdfCode": "48bb13fa-8ede-4870-8ffc-c3e442c50404.pdf"
 }
 ];
