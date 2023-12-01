@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://images.moneycontrol.com/static-mcnews/2023/05/PhysicsWallah_1-1.png?impolicy=website&width=1600&height=900" sizes="16x16">
+    <link rel="icon" href="https://startupstorymedia.com/wp-content/uploads/2023/02/PhysicsWallah_1-1.jpg" type="image/gif" sizes="16x16">
     <title>Physicswallah</title>
     <style>
         body {
@@ -18,6 +18,15 @@
             font-family: 'Maldives', sans-serif;
             color: black;
             padding: 20px;
+            background-color: #3498db;
+        }
+
+        #welcome-textbox {
+            margin: 20px;
+            padding: 10px;
+            border: 2px solid #3498db;
+            border-radius: 10px;
+            text-align: center;
         }
 
         #menu-bar {
@@ -29,6 +38,9 @@
             flex-direction: column;
             align-items: center;
             transition: 0.5s;
+            z-index: 1;
+            overflow-x: hidden;
+            padding-top: 20px;
         }
 
         #menu-items {
@@ -110,6 +122,14 @@
         .back-button {
             text-align: center;
             margin-top: 20px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            color: #3498db;
+        }
+
+        .back-button img {
+            margin-right: 5px;
         }
 
         /* Adjust content size for mobile devices */
@@ -136,6 +156,19 @@
             border: none;
         }
 
+        #copyright-disclaimer {
+            margin-top: 20px;
+            text-align: center;
+            color: #555;
+            position: fixed;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            background-color: #fff;
+            padding: 10px;
+            border-top: 1px solid #ddd;
+        }
     </style>
 </head>
 <body>
@@ -153,11 +186,28 @@
 
     <div id="content">
         <div id="header">
-            <h1>Physicswallah</h1>
+            <h1 style="position: relative; display: inline-block;">Physicswallah
+                <div style="position: absolute; top: -20px; left: 50%; transform: translateX(-50%);">
+                    <svg height="60" width="150">
+                       <br><br><br><br><br>
+                        <text x="0" y="40" fill="#3498db" font-family="Arial" font-size="20">بِسْمِ ٱللّٰهِ ٱلرَّحْمٰنِ ٱلرَّحِيمِ‎ </text>
+                    </svg>
+                </div>
+            </h1>
         </div>
+
+        <div id="welcome-textbox">
+            <p>Welcome to the Incredible platform of Physicswallah. All the content is provided for free of cost to the students who can't afford it.</p>
+        </div>
+
+        <!-- Your existing content goes here -->
     </div>
 
-    <script>
+    <div id="copyright-disclaimer">
+        All the rights of the contents are preserved by Physicswallah- Alakh Pandey Sir.
+    </div>
+
+   <script>
         let isDarkBackground = false;
         let currentView = 'batches'; // Initial view
         let currentBatchName;
@@ -661,4 +711,3 @@ function showContent(batchName, subject, lesson) {
     </script>
 </body>
 </html>
-<link rel="icon" href="https://startupstorymedia.com/wp-content/uploads/2023/02/PhysicsWallah_1-1.jpg" type="image/gif" sizes="16x16">
