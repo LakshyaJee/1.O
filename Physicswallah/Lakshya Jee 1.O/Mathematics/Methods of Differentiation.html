@@ -1,68 +1,79 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
     <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
         }
 
-        table, th, td {
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
             border: 1px solid black;
         }
 
-        th, td {
+        th,
+        td {
             padding: 10px;
             text-align: left;
         }
 
         button {
             cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
         }
 
-        .quality-select {
-            display: none;
-            position: absolute;
-            background: #fff;
-            border: 1px solid #ccc;
-            padding: 10px;
-            z-index: 1;
-            font-size: 18px;
-            width: 100%; /* Adjusted width for mobile */
-            box-sizing: border-box; /* Box-sizing to include padding in width */
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
         }
 
-        .error-message {
-            display: none;
-            position: absolute;
-            background: #fff;
-            border: 1px solid #ccc;
-            padding: 10px;
-            z-index: 1;
-            font-size: 18px;
-        }
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
 
-        .go-back-button {
-            margin-top: 10px;
-        }
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
 
-        /* Style for bold text and increased size */
-        .bold-text {
-            font-weight: bold;
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-
-        @media only screen and (max-width: 600px) {
-            .quality-select {
-                position: static;
-                width: auto;
+            button:hover {
+                background-color: #ccc;
             }
         }
     </style>
 </head>
+
 <body>
+
     <table>
         <tr>
             <th>Sr. No</th>
@@ -74,51 +85,51 @@
     </table>
 
     <script>
-         const lectures = [
-    {
-        "lectureNumber": "1",
-        "lectureName": "Introduction to MOD || NO DPP",
-        "lectureCode": "f4fe611d-ff98-4e69-b128-e90e61ddddf8",
-        "classNotesCode": "352c9f76-1ea2-4fe2-8219-8b060f5d91bd.pdf",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "2",
-        "lectureName": "Logarithmic || Parametric Differentiation || Derivative of Implicit Function || (NO DPP)",
-        "lectureCode": "c1788591-5cd8-490f-8816-a50f05aeffff",
-        "classNotesCode": "cd275682-6a97-465a-8b63-db2a49271a71.pdf",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "3",
-        "lectureName": "Derivative Of ITFs || Derivative Of Implicit Function",
-        "lectureCode": "262e46fb-ec80-4da4-8f01-2ec2df81f989",
-        "classNotesCode": "e3d28159-94b5-4002-a077-ede0ead1ed6c.pdf",
-        "dppsPdfCode": "b29dfc5d-a41b-46df-bc81-ad75390c49fd.pdf"
-    },
-    {
-        "lectureNumber": "--",
-        "lectureName": "SOLUTION TO DPP 01",
-        "lectureCode": "a09469e6-fac9-4023-a283-a5e96135772f",
-        "classNotesCode": "f4c03e97-a4e3-4718-810f-43add0d288d9.pdf",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "4",
-        "lectureName": "Lhopital Rule || NO DPP",
-        "lectureCode": "TEMP",
-        "classNotesCode": "",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "5",
-        "lectureName": "Successive Differentiation And Derivative OF Inverse OF A Function Practice Problems",
-        "lectureCode": "64ae74c7269d2e3ebc343763",
-        "classNotesCode": "",
-        "dppsPdfCode": ""
-    },
+let lessonName = "Methods of Differentiation";
+const lectureData= [
+{
+  "lectureNumber": "1",
+  "lectureName": "Introduction to MOD || NO DPP",
+  "lectureCode": "f4fe611d-ff98-4e69-b128-e90e61ddddf8",
+  "classNotesCode": "352c9f76-1ea2-4fe2-8219-8b060f5d91bd.pdf",
+  "dppsPdfCode": ""
+},
+{
+  "lectureNumber": "2",
+  "lectureName": "Logarithmic || Parametric Differentiation || Derivative of Implicit Function || (NO DPP)",
+  "lectureCode": "c1788591-5cd8-490f-8816-a50f05aeffff",
+  "classNotesCode": "cd275682-6a97-465a-8b63-db2a49271a71.pdf",
+  "dppsPdfCode": ""
+},
+{
+  "lectureNumber": "3",
+  "lectureName": "Derivative Of ITFs || Derivative Of Implicit Function",
+  "lectureCode": "262e46fb-ec80-4da4-8f01-2ec2df81f989",
+  "classNotesCode": "e3d28159-94b5-4002-a077-ede0ead1ed6c.pdf",
+  "dppsPdfCode": "b29dfc5d-a41b-46df-bc81-ad75390c49fd.pdf"
+},
+{
+  "lectureNumber": "--",
+  "lectureName": "SOLUTION TO DPP 01",
+  "lectureCode": "a09469e6-fac9-4023-a283-a5e96135772f",
+  "classNotesCode": "f4c03e97-a4e3-4718-810f-43add0d288d9.pdf",
+  "dppsPdfCode": ""
+},
+{
+  "lectureNumber": "4",
+  "lectureName": "Lhopital Rule || NO DPP",
+  "lectureCode": "TEMP",
+  "classNotesCode": "",
+  "dppsPdfCode": ""
+},
+{
+  "lectureNumber": "5",
+  "lectureName": "Successive Differentiation And Derivative OF Inverse OF A Function Practice Problems",
+  "lectureCode": "64ae74c7269d2e3ebc343763",
+  "classNotesCode": "",
+  "dppsPdfCode": ""
+},
 ];
-
 
         function generateClassNotesLink(classNotesCode) {
             const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
@@ -134,15 +145,24 @@
         }
 
         function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
             const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
             const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
             newWindow.focus();
         }
 
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
         function generateTable() {
             const table = document.querySelector('table');
 
-            lectures.forEach((lecture, index) => {
+            lectureData.forEach((lecture, index) => {
                 const row = table.insertRow();
                 row.insertCell(0).textContent = index + 1;
                 row.insertCell(1).textContent = lecture.lectureName;
@@ -150,18 +170,6 @@
                 const cell3 = row.insertCell(2);
                 cell3.innerHTML = `
                     <button onclick="showQualityOptions(${index})">View Lecture</button>
-                    <div id="qualitySelect_${index}" class="quality-select">
-                        <p>Select Quality:</p>
-                        <select id="qualityOptions_${index}">
-                            <option value="720">720p</option>
-                            <option value="480">480p</option>
-                            <option value="360">360p</option>
-                            <option value="240">240p</option>
-                            <option value="144">144p</option>
-                        </select>
-                        <button onclick="playVideoOrCopyLink(${index})">Play Now</button><br><br>
-                        <button class="go-back-button" onclick="goBack(${index})">Go Back</button>
-                    </div>
                 `;
 
                 const cell4 = row.insertCell(3);
@@ -178,58 +186,8 @@
             });
         }
 
-        function showQualityOptions(index) {
-            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
-            qualitySelect.style.display = "block";
-        }
-
-        function playVideoOrCopyLink(index) {
-            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
-            qualitySelect.style.display = "none";
-
-            const selectedQuality = document.getElementById(`qualityOptions_${index}`).value;
-            const lectureCode = lectures[index].lectureCode;
-            const videoLink = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${selectedQuality}/main.m3u8`;
-
-            // Check the user's device
-            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-
-            if (isMobile) {
-                openVLC(videoLink);
-            } else {
-                openLectureLinkWindow(videoLink);
-            }
-        }
-
-        function openVLC(videoPath) {
-            const vlcUri = `vlc://${videoPath}`;
-            window.location.href = vlcUri;
-        }
-
-        function openLectureLinkWindow(videoLink) {
-            const lectureLinkWindow = window.open('', '_blank', 'width=400,height=200');
-            lectureLinkWindow.document.write(`
-                <h2 class="bold-text">Lecture Link</h2>
-                <input type="text" value="${videoLink}" id="lectureLink">
-                <button onclick="copyLectureLink()">Copy Link</button>
-                <p class="bold-text">You must play this link in VLC Player Only.</p>
-            `);
-            lectureLinkWindow.document.getElementById('lectureLink').style.width = '500px'; // Adjust the textbox size
-        }
-
-        function copyLectureLink() {
-            const lectureLink = document.getElementById('lectureLink');
-            lectureLink.select();
-            document.execCommand('copy');
-            alert('Lecture link copied to clipboard');
-        }
-
-        function goBack(index) {
-    const qualitySelect = document.getElementById(`qualitySelect_${index}`);
-    qualitySelect.style.display = "none";
-}
-
         generateTable();
     </script>
 </body>
+
 </html>

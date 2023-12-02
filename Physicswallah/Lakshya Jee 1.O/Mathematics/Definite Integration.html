@@ -1,68 +1,79 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
     <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
         }
 
-        table, th, td {
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
             border: 1px solid black;
         }
 
-        th, td {
+        th,
+        td {
             padding: 10px;
             text-align: left;
         }
 
         button {
             cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
         }
 
-        .quality-select {
-            display: none;
-            position: absolute;
-            background: #fff;
-            border: 1px solid #ccc;
-            padding: 10px;
-            z-index: 1;
-            font-size: 18px;
-            width: 100%; /* Adjusted width for mobile */
-            box-sizing: border-box; /* Box-sizing to include padding in width */
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
         }
 
-        .error-message {
-            display: none;
-            position: absolute;
-            background: #fff;
-            border: 1px solid #ccc;
-            padding: 10px;
-            z-index: 1;
-            font-size: 18px;
-        }
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
 
-        .go-back-button {
-            margin-top: 10px;
-        }
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
 
-        /* Style for bold text and increased size */
-        .bold-text {
-            font-weight: bold;
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-
-        @media only screen and (max-width: 600px) {
-            .quality-select {
-                position: static;
-                width: auto;
+            button:hover {
+                background-color: #ccc;
             }
         }
     </style>
 </head>
+
 <body>
+
     <table>
         <tr>
             <th>Sr. No</th>
@@ -74,72 +85,72 @@
     </table>
 
     <script>
-      const lectures = [
-    {
-        "lectureNumber": "09",
-        "lectureName": "Definite Integration 09 : Estimation Of Definite Integration || Practice Problem || NO DPP || Extra Lecture || Recorded",
-        "lectureCode": "9a566504-cdc8-4e63-a46b-99bfb4f22d25",
-        "classNotesCode": "4c32d0d3-e611-4cca-98e8-efa43ea42e91.pdf",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "08",
-        "lectureName": "Definite Integration 08 : Practice Problem || Reduction Formula || Estimation Of Definite Integration",
-        "lectureCode": "270145c7-27bd-466d-bea2-12e493458fb8",
-        "classNotesCode": "cd738cb0-1f8f-4c84-8b2a-1f72cc507a47.pdf",
-        "dppsPdfCode": "fc46c843-75bd-42dc-8f8f-3d509e56c18b.pdf"
-    },
-    {
-        "lectureNumber": "07",
-        "lectureName": "Definite Integration 07 : Newton Leibnitz Formula || Reduction Formula ||NO DPP || Extra Lecture",
-        "lectureCode": "3161ed4f-a657-4345-8526-ee33bce66a2e",
-        "classNotesCode": "87623749-ae7e-4bae-954a-630369af7f5b.pdf",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "06",
-        "lectureName": "Definite Integration 06 : Properties Of Definite Integrals || Practice Problems (Part -03)",
-        "lectureCode": "f6dce81b-4ae3-4dc4-93a7-e4578ac189d8",
-        "classNotesCode": "7efec4f1-c4bf-4f1e-b3e3-6e99887be308.pdf",
-        "dppsPdfCode": "45b88dba-077f-4be5-8849-63e75c378496.pdf"
-    },
-    {
-        "lectureNumber": "05",
-        "lectureName": "Definite Integration 05 : Properties Of Definite Integrals || Practice Problems (Part -02) || NO DPP",
-        "lectureCode": "c6c1389e-5a90-4ff9-9bff-de9abc4b22b4",
-        "classNotesCode": "550b97d7-bc30-4213-b5ed-a495893c1262.pdf",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "04",
-        "lectureName": "Definite Integration 04 : Properties Of Definite Integrals || Practice Problems || NO DPP",
-        "lectureCode": "a93848ba-16d5-4003-af4c-22a447126c63",
-        "classNotesCode": "071d0ab6-6a7d-4d03-a03b-ec15ae0098e6.pdf",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "03",
-        "lectureName": "Definite Integration 03 : Some Important Points || Practice Problem || Extra Lecture",
-        "lectureCode": "8475cbb3-64b7-4dd8-b65d-60381eb6c015",
-        "classNotesCode": "9def374c-1ac6-4cb5-a35e-19eb33a0d1bc.pdf",
-        "dppsPdfCode": "bdafbe82-4193-46bd-9e75-0cf2092d8d7c.pdf"
-    },
-    {
-        "lectureNumber": "02",
-        "lectureName": "Definite Integration 02 : Fundamental Theorem Of Integral Calculus || Practice Problems || NO DPP",
-        "lectureCode": "cdf3ed74-69a6-4e63-8b00-4e8ad992503e",
-        "classNotesCode": "2f1660b4-01a6-48c3-af86-1db9f2477170.pdf",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "01",
-        "lectureName": "Definite Integration 01 : Introduction To Definite Integration || NO DPP",
-        "lectureCode": "5a5f8e06-c9c2-4a6e-ae81-b6bf3fb0f9d0",
-        "classNotesCode": "c68a7f9c-5eb7-4dda-8535-0354446c0e63.pdf",
-        "dppsPdfCode": ""
-    }
+let lessonName = "Definite Integration";
+const lectureData= [
+{
+  "lectureNumber": "09",
+  "lectureName": "Definite Integration 09 : Estimation Of Definite Integration || Practice Problem || NO DPP || Extra Lecture || Recorded",
+  "lectureCode": "9a566504-cdc8-4e63-a46b-99bfb4f22d25",
+  "classNotesCode": "4c32d0d3-e611-4cca-98e8-efa43ea42e91.pdf",
+  "dppsPdfCode": ""
+},
+{
+  "lectureNumber": "08",
+  "lectureName": "Definite Integration 08 : Practice Problem || Reduction Formula || Estimation Of Definite Integration",
+  "lectureCode": "270145c7-27bd-466d-bea2-12e493458fb8",
+  "classNotesCode": "cd738cb0-1f8f-4c84-8b2a-1f72cc507a47.pdf",
+  "dppsPdfCode": "fc46c843-75bd-42dc-8f8f-3d509e56c18b.pdf"
+},
+{
+  "lectureNumber": "07",
+  "lectureName": "Definite Integration 07 : Newton Leibnitz Formula || Reduction Formula ||NO DPP || Extra Lecture",
+  "lectureCode": "3161ed4f-a657-4345-8526-ee33bce66a2e",
+  "classNotesCode": "87623749-ae7e-4bae-954a-630369af7f5b.pdf",
+  "dppsPdfCode": ""
+},
+{
+  "lectureNumber": "06",
+  "lectureName": "Definite Integration 06 : Properties Of Definite Integrals || Practice Problems (Part -03)",
+  "lectureCode": "f6dce81b-4ae3-4dc4-93a7-e4578ac189d8",
+  "classNotesCode": "7efec4f1-c4bf-4f1e-b3e3-6e99887be308.pdf",
+  "dppsPdfCode": "45b88dba-077f-4be5-8849-63e75c378496.pdf"
+},
+{
+  "lectureNumber": "05",
+  "lectureName": "Definite Integration 05 : Properties Of Definite Integrals || Practice Problems (Part -02) || NO DPP",
+  "lectureCode": "c6c1389e-5a90-4ff9-9bff-de9abc4b22b4",
+  "classNotesCode": "550b97d7-bc30-4213-b5ed-a495893c1262.pdf",
+  "dppsPdfCode": ""
+},
+{
+  "lectureNumber": "04",
+  "lectureName": "Definite Integration 04 : Properties Of Definite Integrals || Practice Problems || NO DPP",
+  "lectureCode": "a93848ba-16d5-4003-af4c-22a447126c63",
+  "classNotesCode": "071d0ab6-6a7d-4d03-a03b-ec15ae0098e6.pdf",
+  "dppsPdfCode": ""
+},
+{
+  "lectureNumber": "03",
+  "lectureName": "Definite Integration 03 : Some Important Points || Practice Problem || Extra Lecture",
+  "lectureCode": "8475cbb3-64b7-4dd8-b65d-60381eb6c015",
+  "classNotesCode": "9def374c-1ac6-4cb5-a35e-19eb33a0d1bc.pdf",
+  "dppsPdfCode": "bdafbe82-4193-46bd-9e75-0cf2092d8d7c.pdf"
+},
+{
+  "lectureNumber": "02",
+  "lectureName": "Definite Integration 02 : Fundamental Theorem Of Integral Calculus || Practice Problems || NO DPP",
+  "lectureCode": "cdf3ed74-69a6-4e63-8b00-4e8ad992503e",
+  "classNotesCode": "2f1660b4-01a6-48c3-af86-1db9f2477170.pdf",
+  "dppsPdfCode": ""
+},
+{
+  "lectureNumber": "01",
+  "lectureName": "Definite Integration 01 : Introduction To Definite Integration || NO DPP",
+  "lectureCode": "5a5f8e06-c9c2-4a6e-ae81-b6bf3fb0f9d0",
+  "classNotesCode": "c68a7f9c-5eb7-4dda-8535-0354446c0e63.pdf",
+  "dppsPdfCode": ""
+}
 ];
-
 
         function generateClassNotesLink(classNotesCode) {
             const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
@@ -155,15 +166,24 @@
         }
 
         function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
             const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
             const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
             newWindow.focus();
         }
 
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
         function generateTable() {
             const table = document.querySelector('table');
 
-            lectures.forEach((lecture, index) => {
+            lectureData.forEach((lecture, index) => {
                 const row = table.insertRow();
                 row.insertCell(0).textContent = index + 1;
                 row.insertCell(1).textContent = lecture.lectureName;
@@ -171,18 +191,6 @@
                 const cell3 = row.insertCell(2);
                 cell3.innerHTML = `
                     <button onclick="showQualityOptions(${index})">View Lecture</button>
-                    <div id="qualitySelect_${index}" class="quality-select">
-                        <p>Select Quality:</p>
-                        <select id="qualityOptions_${index}">
-                            <option value="720">720p</option>
-                            <option value="480">480p</option>
-                            <option value="360">360p</option>
-                            <option value="240">240p</option>
-                            <option value="144">144p</option>
-                        </select>
-                        <button onclick="playVideoOrCopyLink(${index})">Play Now</button><br><br>
-                        <button class="go-back-button" onclick="goBack(${index})">Go Back</button>
-                    </div>
                 `;
 
                 const cell4 = row.insertCell(3);
@@ -199,58 +207,8 @@
             });
         }
 
-        function showQualityOptions(index) {
-            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
-            qualitySelect.style.display = "block";
-        }
-
-        function playVideoOrCopyLink(index) {
-            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
-            qualitySelect.style.display = "none";
-
-            const selectedQuality = document.getElementById(`qualityOptions_${index}`).value;
-            const lectureCode = lectures[index].lectureCode;
-            const videoLink = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${selectedQuality}/main.m3u8`;
-
-            // Check the user's device
-            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-
-            if (isMobile) {
-                openVLC(videoLink);
-            } else {
-                openLectureLinkWindow(videoLink);
-            }
-        }
-
-        function openVLC(videoPath) {
-            const vlcUri = `vlc://${videoPath}`;
-            window.location.href = vlcUri;
-        }
-
-        function openLectureLinkWindow(videoLink) {
-            const lectureLinkWindow = window.open('', '_blank', 'width=400,height=200');
-            lectureLinkWindow.document.write(`
-                <h2 class="bold-text">Lecture Link</h2>
-                <input type="text" value="${videoLink}" id="lectureLink">
-                <button onclick="copyLectureLink()">Copy Link</button>
-                <p class="bold-text">You must play this link in VLC Player Only.</p>
-            `);
-            lectureLinkWindow.document.getElementById('lectureLink').style.width = '500px'; // Adjust the textbox size
-        }
-
-        function copyLectureLink() {
-            const lectureLink = document.getElementById('lectureLink');
-            lectureLink.select();
-            document.execCommand('copy');
-            alert('Lecture link copied to clipboard');
-        }
-
-        function goBack(index) {
-    const qualitySelect = document.getElementById(`qualitySelect_${index}`);
-    qualitySelect.style.display = "none";
-}
-
         generateTable();
     </script>
 </body>
+
 </html>

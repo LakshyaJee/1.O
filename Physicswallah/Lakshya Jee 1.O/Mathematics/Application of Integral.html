@@ -1,68 +1,79 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
     <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
         }
 
-        table, th, td {
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
             border: 1px solid black;
         }
 
-        th, td {
+        th,
+        td {
             padding: 10px;
             text-align: left;
         }
 
         button {
             cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
         }
 
-        .quality-select {
-            display: none;
-            position: absolute;
-            background: #fff;
-            border: 1px solid #ccc;
-            padding: 10px;
-            z-index: 1;
-            font-size: 18px;
-            width: 100%; /* Adjusted width for mobile */
-            box-sizing: border-box; /* Box-sizing to include padding in width */
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
         }
 
-        .error-message {
-            display: none;
-            position: absolute;
-            background: #fff;
-            border: 1px solid #ccc;
-            padding: 10px;
-            z-index: 1;
-            font-size: 18px;
-        }
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
 
-        .go-back-button {
-            margin-top: 10px;
-        }
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
 
-        /* Style for bold text and increased size */
-        .bold-text {
-            font-weight: bold;
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-
-        @media only screen and (max-width: 600px) {
-            .quality-select {
-                position: static;
-                width: auto;
+            button:hover {
+                background-color: #ccc;
             }
         }
     </style>
 </head>
+
 <body>
+
     <table>
         <tr>
             <th>Sr. No</th>
@@ -74,72 +85,72 @@
     </table>
 
     <script>
-        const lectures = [
-    {
-        "lectureNumber": "01",
-        "lectureName": "Application of Integrals 06 : Practice Problems || Area Involving Inverse of Function || Average value & Determination of Function || NO DPP || Extra Lecture",
-        "lectureCode": "bd379167-bf11-4086-ac63-7ba32c80866a",
-        "classNotesCode": "aac4ecb0-0c5a-46c7-8d41-bd506218b06d.pdf",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "02",
-        "lectureName": "Application of Integrals 05 : Practice Problem || Determination Of Parameters || Area Involving Inverse Of Function",
-        "lectureCode": "dc2ca98d-6d30-48e8-94b7-400a4931da91",
-        "classNotesCode": "12b7cf3f-1873-4d25-9eee-8c2228dafecf.pdf",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "03",
-        "lectureName": "Application of Integrals 04 : Some Important Points || Shifting Of Origin || Area Involving Inequalities || NO DPP",
-        "lectureCode": "ec2b5006-4192-457f-83e1-a5dc05a1746b",
-        "classNotesCode": "f730d86e-810e-4200-bd6c-1aeffd2050ab.pdf",
-        "dppsPdfCode": "585767d8-2678-4238-b8f3-06e8945e8e41.pdf"
-    },
-    {
-        "lectureNumber": "04",
-        "lectureName": "Application of Integrals 03 : Practice Problems || Some Important Points",
-        "lectureCode": "edeb6b30-2d4c-4a59-86dc-4b408b876430",
-        "classNotesCode": "88c08165-b408-413b-9692-b8e58c6fa660.pdf",
-        "dppsPdfCode": "94395d65-ee11-4708-a338-0dfaa189a5cf.pdf"
-    },
-    {
-        "lectureNumber": "05",
-        "lectureName": "Application of Integrals 02 : Practice Problem || Area Between Two Curves || NO DPP || Extra Lecture",
-        "lectureCode": "d38f3a29-e466-436e-8a6c-c7a68c4bc574",
-        "classNotesCode": "2454ad54-f40a-4778-8801-0cc8b2899612.pdf",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "06",
-        "lectureName": "Application of Integrals 01 : Practice Problem || Introduction To Area Under Curve || NO DPP",
-        "lectureCode": "de6e718c-c68f-4dfd-9400-8c0fbef2ca6b",
-        "classNotesCode": "faa034a6-b503-4ba2-ab39-d4e6f1527f1b.pdf",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "07",
-        "lectureName": "SOL TO DPP 01",
-        "lectureCode": "bcaeee56-6b62-489f-95c7-dfe10c94ec76",
-        "classNotesCode": "d5ea781a-6a1e-411b-a876-71c2090e4c2c.pdf",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "08",
-        "lectureName": "SOL TO DPP 02",
-        "lectureCode": "88abc834-f63a-4d11-bc01-d3dbec64e0fa",
-        "classNotesCode": "dc36aa02-6f1d-4595-a631-003738c2f184.pdf",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "09",
-        "lectureName": "SOL TO DPP 03",
-        "lectureCode": "dd7e7302-5459-4730-9607-f2d7efb90494",
-        "classNotesCode": "0e0effb8-803f-446e-9300-cf28888edb1a.pdf",
-        "dppsPdfCode": ""
-    }
+let lessonName = "Application of Integral";
+const lectureData= [
+{
+  "lectureNumber": "01",
+  "lectureName": "Application of Integrals 06 : Practice Problems || Area Involving Inverse of Function || Average value & Determination of Function || NO DPP || Extra Lecture",
+  "lectureCode": "bd379167-bf11-4086-ac63-7ba32c80866a",
+  "classNotesCode": "aac4ecb0-0c5a-46c7-8d41-bd506218b06d.pdf",
+  "dppsPdfCode": ""
+},
+{
+  "lectureNumber": "02",
+  "lectureName": "Application of Integrals 05 : Practice Problem || Determination Of Parameters || Area Involving Inverse Of Function",
+  "lectureCode": "dc2ca98d-6d30-48e8-94b7-400a4931da91",
+  "classNotesCode": "12b7cf3f-1873-4d25-9eee-8c2228dafecf.pdf",
+  "dppsPdfCode": ""
+},
+{
+  "lectureNumber": "03",
+  "lectureName": "Application of Integrals 04 : Some Important Points || Shifting Of Origin || Area Involving Inequalities || NO DPP",
+  "lectureCode": "ec2b5006-4192-457f-83e1-a5dc05a1746b",
+  "classNotesCode": "f730d86e-810e-4200-bd6c-1aeffd2050ab.pdf",
+  "dppsPdfCode": "585767d8-2678-4238-b8f3-06e8945e8e41.pdf"
+},
+{
+  "lectureNumber": "04",
+  "lectureName": "Application of Integrals 03 : Practice Problems || Some Important Points",
+  "lectureCode": "edeb6b30-2d4c-4a59-86dc-4b408b876430",
+  "classNotesCode": "88c08165-b408-413b-9692-b8e58c6fa660.pdf",
+  "dppsPdfCode": "94395d65-ee11-4708-a338-0dfaa189a5cf.pdf"
+},
+{
+  "lectureNumber": "05",
+  "lectureName": "Application of Integrals 02 : Practice Problem || Area Between Two Curves || NO DPP || Extra Lecture",
+  "lectureCode": "d38f3a29-e466-436e-8a6c-c7a68c4bc574",
+  "classNotesCode": "2454ad54-f40a-4778-8801-0cc8b2899612.pdf",
+  "dppsPdfCode": ""
+},
+{
+  "lectureNumber": "06",
+  "lectureName": "Application of Integrals 01 : Practice Problem || Introduction To Area Under Curve || NO DPP",
+  "lectureCode": "de6e718c-c68f-4dfd-9400-8c0fbef2ca6b",
+  "classNotesCode": "faa034a6-b503-4ba2-ab39-d4e6f1527f1b.pdf",
+  "dppsPdfCode": ""
+},
+{
+  "lectureNumber": "07",
+  "lectureName": "SOL TO DPP 01",
+  "lectureCode": "bcaeee56-6b62-489f-95c7-dfe10c94ec76",
+  "classNotesCode": "d5ea781a-6a1e-411b-a876-71c2090e4c2c.pdf",
+  "dppsPdfCode": ""
+},
+{
+  "lectureNumber": "08",
+  "lectureName": "SOL TO DPP 02",
+  "lectureCode": "88abc834-f63a-4d11-bc01-d3dbec64e0fa",
+  "classNotesCode": "dc36aa02-6f1d-4595-a631-003738c2f184.pdf",
+  "dppsPdfCode": ""
+},
+{
+  "lectureNumber": "09",
+  "lectureName": "SOL TO DPP 03",
+  "lectureCode": "dd7e7302-5459-4730-9607-f2d7efb90494",
+  "classNotesCode": "0e0effb8-803f-446e-9300-cf28888edb1a.pdf",
+  "dppsPdfCode": ""
+}
 ];
-
 
         function generateClassNotesLink(classNotesCode) {
             const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
@@ -155,15 +166,24 @@
         }
 
         function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
             const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
             const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
             newWindow.focus();
         }
 
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
         function generateTable() {
             const table = document.querySelector('table');
 
-            lectures.forEach((lecture, index) => {
+            lectureData.forEach((lecture, index) => {
                 const row = table.insertRow();
                 row.insertCell(0).textContent = index + 1;
                 row.insertCell(1).textContent = lecture.lectureName;
@@ -171,18 +191,6 @@
                 const cell3 = row.insertCell(2);
                 cell3.innerHTML = `
                     <button onclick="showQualityOptions(${index})">View Lecture</button>
-                    <div id="qualitySelect_${index}" class="quality-select">
-                        <p>Select Quality:</p>
-                        <select id="qualityOptions_${index}">
-                            <option value="720">720p</option>
-                            <option value="480">480p</option>
-                            <option value="360">360p</option>
-                            <option value="240">240p</option>
-                            <option value="144">144p</option>
-                        </select>
-                        <button onclick="playVideoOrCopyLink(${index})">Play Now</button><br><br>
-                        <button class="go-back-button" onclick="goBack(${index})">Go Back</button>
-                    </div>
                 `;
 
                 const cell4 = row.insertCell(3);
@@ -199,58 +207,8 @@
             });
         }
 
-        function showQualityOptions(index) {
-            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
-            qualitySelect.style.display = "block";
-        }
-
-        function playVideoOrCopyLink(index) {
-            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
-            qualitySelect.style.display = "none";
-
-            const selectedQuality = document.getElementById(`qualityOptions_${index}`).value;
-            const lectureCode = lectures[index].lectureCode;
-            const videoLink = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${selectedQuality}/main.m3u8`;
-
-            // Check the user's device
-            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-
-            if (isMobile) {
-                openVLC(videoLink);
-            } else {
-                openLectureLinkWindow(videoLink);
-            }
-        }
-
-        function openVLC(videoPath) {
-            const vlcUri = `vlc://${videoPath}`;
-            window.location.href = vlcUri;
-        }
-
-        function openLectureLinkWindow(videoLink) {
-            const lectureLinkWindow = window.open('', '_blank', 'width=400,height=200');
-            lectureLinkWindow.document.write(`
-                <h2 class="bold-text">Lecture Link</h2>
-                <input type="text" value="${videoLink}" id="lectureLink">
-                <button onclick="copyLectureLink()">Copy Link</button>
-                <p class="bold-text">You must play this link in VLC Player Only.</p>
-            `);
-            lectureLinkWindow.document.getElementById('lectureLink').style.width = '500px'; // Adjust the textbox size
-        }
-
-        function copyLectureLink() {
-            const lectureLink = document.getElementById('lectureLink');
-            lectureLink.select();
-            document.execCommand('copy');
-            alert('Lecture link copied to clipboard');
-        }
-
-        function goBack(index) {
-    const qualitySelect = document.getElementById(`qualitySelect_${index}`);
-    qualitySelect.style.display = "none";
-}
-
         generateTable();
     </script>
 </body>
+
 </html>
