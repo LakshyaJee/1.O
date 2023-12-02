@@ -99,6 +99,19 @@
             cursor: pointer;
             margin: 10px;
         }
+        .text-box {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.subject-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.subjects-container {
+    text-align: center;
+}
 
         .lessons-table {
             width: 100%;
@@ -478,8 +491,23 @@
 
         function showSubjects(batchName, subjects) {
     document.getElementById('content').innerHTML = '';
-    const subjectShapesDiv = document.createElement('div');
-    subjectShapesDiv.classList.add('subject-shapes');
+
+    // Create a container div for the subjects
+    const subjectsContainer = document.createElement('div');
+    subjectsContainer.classList.add('subjects-container');
+
+    // Add a text box above the subjects
+    const textBox = document.createElement('div');
+    textBox.innerText = 'Please, select your preferable Subject';
+    textBox.classList.add('text-box');
+
+    // Create a div for the first row of subjects
+    const firstRowDiv = document.createElement('div');
+    firstRowDiv.classList.add('subject-row');
+
+    // Create a div for the second row of subjects
+    const secondRowDiv = document.createElement('div');
+    secondRowDiv.classList.add('subject-row');
 
     const subjectImages = {
         Physics: "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/bc2c62dd-a5c5-4da6-93ec-4793a6932071.png",
@@ -495,23 +523,36 @@
         const subjectImageButton = document.createElement('img');
         subjectImageButton.src = subjectImages[subject];
         subjectImageButton.classList.add('subject-shape');
-        subjectImageButton.width = 60; // Set the width to 60px
-        subjectImageButton.height = 60; // Set the height to 60px
+        subjectImageButton.width = 60;
+        subjectImageButton.height = 60;
         subjectImageButton.alt = subject;
 
         subjectImageButton.addEventListener('click', () => {
             showLessons(batchName, subject, subjects[subject]);
         });
 
-        subjectShapesDiv.appendChild(subjectImageButton);
+        // Add subjects to the respective rows
+        if (Object.keys(subjects).indexOf(subject) < 3) {
+            firstRowDiv.appendChild(subjectImageButton);
+        } else {
+            secondRowDiv.appendChild(subjectImageButton);
+        }
     }
 
-    document.getElementById('content').appendChild(subjectShapesDiv);
+    // Append rows to the subjects container
+    subjectsContainer.appendChild(textBox);
+    subjectsContainer.appendChild(firstRowDiv);
+    subjectsContainer.appendChild(secondRowDiv);
+
+    // Append the subjects container to the content div
+    document.getElementById('content').appendChild(subjectsContainer);
+
     currentView = 'subjects';
-            currentBatchName = batchName;
-            currentBatchSubjects = subjects;
-            addBackButton();
-        }
+    currentBatchName = batchName;
+    currentBatchSubjects = subjects;
+    addBackButton();
+}
+
 
 
 
