@@ -1,58 +1,79 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
     <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
         }
 
-        table, th, td {
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
             border: 1px solid black;
         }
 
-        th, td {
+        th,
+        td {
             padding: 10px;
             text-align: left;
         }
 
         button {
             cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
         }
 
-        .quality-select {
-            display: none;
-            position: absolute;
-            background: #fff;
-            border: 1px solid #ccc;
-            padding: 10px;
-            z-index: 1;
-            font-size: 18px;
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
         }
 
-        .error-message {
-            display: none;
-            position: absolute;
-            background: #fff;
-            border: 1px solid #ccc;
-            padding: 10px;
-            z-index: 1;
-            font-size: 18px;
-        }
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
 
-        .go-back-button {
-            margin-top: 10px;
-        }
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
 
-        /* Style for bold text and increased size */
-        .bold-text {
-            font-weight: bold;
-            font-size: 24px;
-            margin-bottom: 20px;
+            button:hover {
+                background-color: #ccc;
+            }
         }
     </style>
 </head>
+
 <body>
+
     <table>
         <tr>
             <th>Sr. No</th>
@@ -64,8 +85,9 @@
     </table>
 
     <script>
-         const lectures = [
-  {
+let lessonName = "ElectroChemistry";
+const lectureData= [
+{
     lectureNumber: "12",
     lectureName: "Electrochemistry 12 : Batteries & Corrosion || NO DPP || (Extra ) || (Recorded)",
     lectureCode: "9395d7d5-051a-45e8-9b9f-36eec4ba567f",
@@ -165,15 +187,24 @@
         }
 
         function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
             const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
             const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
             newWindow.focus();
         }
 
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
         function generateTable() {
             const table = document.querySelector('table');
 
-            lectures.forEach((lecture, index) => {
+            lectureData.forEach((lecture, index) => {
                 const row = table.insertRow();
                 row.insertCell(0).textContent = index + 1;
                 row.insertCell(1).textContent = lecture.lectureName;
@@ -181,18 +212,6 @@
                 const cell3 = row.insertCell(2);
                 cell3.innerHTML = `
                     <button onclick="showQualityOptions(${index})">View Lecture</button>
-                    <div id="qualitySelect_${index}" class="quality-select">
-                        <p>Select Quality:</p>
-                        <select id="qualityOptions_${index}">
-                            <option value="720">720p</option>
-                            <option value="480">480p</option>
-                            <option value="360">360p</option>
-                            <option value="240">240p</option>
-                            <option value="144">144p</option>
-                        </select>
-                        <button onclick="playVideoOrCopyLink(${index})">Play Now</button><br><br>
-                        <button class="go-back-button" onclick="goBack(${index})">Go Back</button>
-                    </div>
                 `;
 
                 const cell4 = row.insertCell(3);
@@ -209,58 +228,8 @@
             });
         }
 
-        function showQualityOptions(index) {
-            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
-            qualitySelect.style.display = "block";
-        }
-
-        function playVideoOrCopyLink(index) {
-            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
-            qualitySelect.style.display = "none";
-
-            const selectedQuality = document.getElementById(`qualityOptions_${index}`).value;
-            const lectureCode = lectures[index].lectureCode;
-            const videoLink = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${selectedQuality}/main.m3u8`;
-
-            // Check the user's device
-            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-
-            if (isMobile) {
-                openVLC(videoLink);
-            } else {
-                openLectureLinkWindow(videoLink);
-            }
-        }
-
-        function openVLC(videoPath) {
-            const vlcUri = `vlc://${videoPath}`;
-            window.location.href = vlcUri;
-        }
-
-        function openLectureLinkWindow(videoLink) {
-            const lectureLinkWindow = window.open('', '_blank', 'width=400,height=200');
-            lectureLinkWindow.document.write(`
-                <h2 class="bold-text">Lecture Link</h2>
-                <input type="text" value="${videoLink}" id="lectureLink">
-                <button onclick="copyLectureLink()">Copy Link</button>
-                <p class="bold-text">You must play this link in VLC Player Only.</p>
-            `);
-            lectureLinkWindow.document.getElementById('lectureLink').style.width = '500px'; // Adjust the textbox size
-        }
-
-        function copyLectureLink() {
-            const lectureLink = document.getElementById('lectureLink');
-            lectureLink.select();
-            document.execCommand('copy');
-            alert('Lecture link copied to clipboard');
-        }
-
-        function goBack(index) {
-    const qualitySelect = document.getElementById(`qualitySelect_${index}`);
-    qualitySelect.style.display = "none";
-}
-
         generateTable();
     </script>
 </body>
+
 </html>

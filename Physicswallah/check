@@ -1,64 +1,36 @@
 {
-    "lectureNumber": "09",
-    "lectureName": "Wave Optics 09 : Diffraction OR Single Slit Experiment || NO DPP || Extra Lecture || Recorded",
-    "lectureCode": "cb9b577b-10cd-4f97-9b2b-7f140385f9f4",
-    "classNotesCode": "a84a4fb5-4d0e-44ea-b737-092c8c9e670d.pdf",
+    "lectureNumber": 1,
+    "lectureName": "Adsorption / Type Of Adsorption Adsorption Isotherms || NO DPP",
+    "lectureCode": "0d80da00-e71b-4661-9b4f-a0c75f767ba5",
+    "classNotesCode": "b5d25aea-8f78-4cb4-8574-a014379d5f8d.pdf",
     "dppsPdfCode": ""
-},
-{
-    "lectureNumber": "07",
-    "lectureName": "Wave Optics 07 : Questions On YDSE & Introduction To Photoelectric Effect || NO DPP || Rescheduled @ 3:30 PM",
-    "lectureCode": "228133b9-9987-44dc-a1c2-7c009b1438f2",
-    "classNotesCode": "e3013f50-b73c-4f9e-89fe-fce2f743c2d2.pdf",
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Catalysis || Classification And Preparation Of Colloids",
+    "lectureCode": "10128253-c182-4aef-a2f7-efe4c54b7e53",
+    "classNotesCode": "ad530ba8-b2d1-4e92-bcda-bddfb1be41da.pdf",
+    "dppsPdfCode": "6dbfd834-5ad5-4a33-bb56-544d7a3ed996.pdf"
+  },
+  {
+    "lectureNumber": "SOL1",
+    "lectureName": "SOLUTION TO DPP 01",
+    "lectureCode": "f92a4dc8-37a5-496b-9c3c-3b9f8feafb32",
+    "classNotesCode": "4a1e8488-50d2-49d6-a36f-41c882f412dd.pdf",
     "dppsPdfCode": ""
-},
-{
-    "lectureNumber": "08",
-    "lectureName": "Wave Optics 08 : Polarisation || Extra Lecture || Recorded",
-    "lectureCode": "7ee24d09-4891-481c-a0e8-cc533ad2a879",
-    "classNotesCode": "720663df-247d-48ac-baa0-22fc6bc54981.pdf",
-    "dppsPdfCode": "c333eeff-584c-4afe-9127-91c44cc56e0c.pdf"
-},
-{
-    "lectureNumber": "06",
-    "lectureName": "Wave Optics 06 : Questions On YDSE || Rescheduled @ 3:30 PM",
-    "lectureCode": "aebf602b-6cb4-4c06-af14-c63c0548f8e3",
-    "classNotesCode": "fbe416f4-d02d-4556-aa85-0a38de7d6a01.pdf",
-    "dppsPdfCode": "c92b3d36-a7d5-408b-afcd-d6813ef6ad36.pdf"
-},
-{
-    "lectureNumber": "05",
-    "lectureName": "Wave Optics 05 : Modification In YDSE",
-    "lectureCode": "25e84bf4-6e90-4bb5-a3b0-e26684d70de4",
-    "classNotesCode": "2c698ee0-5825-4138-8583-991675875032.pdf",
-    "dppsPdfCode": "c5058639-c322-4aba-a90a-812f7dd67ad4.pdf"
-},
-{
-    "lectureNumber": "04",
-    "lectureName": "Wave Optics 04 : Young Double Slit Experiment",
-    "lectureCode": "041d041c-6ce4-49c5-9763-54384de25f22",
-    "classNotesCode": "8067382a-c1e0-466c-86f6-5859bb75b185.pdf",
-    "dppsPdfCode": "8b836c19-41ca-4f3b-b2b5-9d83669e9190.pdf"
-},
-{
-    "lectureNumber": "03",
-    "lectureName": "Wave Optics 03 : Question On Interference",
-    "lectureCode": "9fd35eb8-c258-4134-88cf-7a054ea8d3a6",
-    "classNotesCode": "c50fb822-a9aa-4153-8cc0-0d2a96d7c0da.pdf",
-    "dppsPdfCode": "6bf3a19f-82b5-42e5-a9dd-7f6e628fc99b.pdf"
-},
-{
-    "lectureNumber": "02",
-    "lectureName": "Wave Optics 02 : Interference || Reschedule @ 3:30 PM",
-    "lectureCode": "6505c36b-1874-4dff-bd20-bb346a58b619",
-    "classNotesCode": "bf60456c-24fa-4a07-8cf5-0a995c08f9ea.pdf",
-    "dppsPdfCode": "3045029e-a946-4d74-aff4-6391b70e71d9.pdf"
-},
-{
-    "lectureNumber": "01",
-    "lectureName": "Wave Optics 01 : Wave Fronts & Huygens Principle",
-    "lectureCode": "475f597a-0c8f-4a5d-bd9c-715acda527bc",
-    "classNotesCode": "3d356d60-7602-4f77-8e11-f938665a8053.pdf",
-    "dppsPdfCode": "48bb13fa-8ede-4870-8ffc-c3e442c50404.pdf"
-}
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Preparation And Properties Of Colloids || Emulsions",
+    "lectureCode": "c05f819c-4d19-41ac-bebe-2ce1d0b1f8f1",
+    "classNotesCode": "3ce227a9-eb33-4631-86bc-e777f9c27243.pdf",
+    "dppsPdfCode": "6f810395-0f18-482a-8acb-438ab764bc0e.pdf"
+  },
+  {
+    "lectureNumber": "SOL2",
+    "lectureName": "Solution To DPP -02",
+    "lectureCode": "eb44a496-d43b-43d8-ae13-e0bb8a12c86a",
+    "classNotesCode": "f277d760-e934-46aa-9bc6-e0b78656f0f6.pdf",
+    "dppsPdfCode": ""
+  }
 ];
