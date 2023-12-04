@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+let lessonName = "Matrices";
+const lectureData = [
+  {
+    "lectureNumber": 7,
+    "lectureName": "Matrices 07: Problems On Inverse Of A Matrix, Matrix Method For Solving Linear Equations, Multiplication Of Determinants",
+    "lectureCode": "99333acc-d7c2-48fb-ae03-d3df0c5c2d74",
+    "classNotesCode": "794afe8c-dbb2-47ff-a9e1-835542f1669b.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Matrices 06: More Type Of Square Matrices, Inverse Of A Matrix, Properties Of Inverse Of A Matrix",
+    "lectureCode": "86602dbe-4e08-413b-9ebd-64805784df28",
+    "classNotesCode": "a5c21b88-bb2c-4fe3-a21f-d8467966d96e.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Matrices 05: Properties Of Adjoint, Important Problems Of Adjoint, More Types Of Square Matrices, (NO DPP)",
+    "lectureCode": "f252a299-ac32-4ac1-b5ec-d683814a528f",
+    "classNotesCode": "985a8b97-9831-40b7-b574-ee1e9d7ab0a5.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Matrices 04: Problems On Symmetric & Skew Symmetric Matrices, Adjoint Of A Matrix, Properties Of Adjoint, Recorded, (Reschedule @9:00PM)",
+    "lectureCode": "09a38e4e-fea6-4dcc-af0e-81a01bdfa7bd",
+    "classNotesCode": "4bd08444-dc30-4e61-b888-29e53bed55e7.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Matrices 03: Symmetric & Skew Symmetric Matrices, Properties Of Symmetric & Skew Symmetric Matrices, Important Problems",
+    "lectureCode": "595b0e55-cb76-41ef-899c-1f6274757936",
+    "classNotesCode": "c7d54eaf-a276-4722-9d45-0235106aff78.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Matrices 02: Matrix Multiplication-Contd.., Trace Of A Matrix, Transpose Of A Matrix",
+    "lectureCode": "061fe7d0-ae1b-47a2-9a84-1f4520fc2319",
+    "classNotesCode": "123d64fd-3813-4673-bcc4-800cf294eabe.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Matrices 01: Types Of Matrices, Algebra Of Matrices, Properties Of Matrix Multiplication",
+    "lectureCode": "931d0ccc-b933-470c-b685-2eec1505c5ea",
+    "classNotesCode": "0aaf856d-1ba8-49aa-867b-5767ea2803ed.pdf",
+    "dppsPdfCode": ""
+  }
+];
+
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        generateTable();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+let lessonName = "Limits Continuity and Differentiability";
+const lectureData= [
+{
+    "lectureNumber": 10,
+    "lectureName": "Limit, Continuity And Differentiability 10: Properties Of Differentiable Function, Problems On Functional Identities, NO DPP",
+    "lectureCode": "df75bfc3-aee7-48cf-8812-63f4974c48f7",
+    "classNotesCode": "4f2b5fbc-59d8-4400-850f-bfd7170bc39d.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Limit, Continuity And Differentiability 09: Differentiability At A Point X=A, Differentiability In An Interval, Differentiability Vs Continuity",
+    "lectureCode": "5ff49ec0-ae43-44b2-88e3-af64dcd695bd",
+    "classNotesCode": "b7aaef95-c467-4fbe-8571-942d8723c584.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Limit, Continuity And Differentiability 08: Properties Of Cont. Functions, Differentiability At A Point X=A, Important Problems, NO DPP",
+    "lectureCode": "7f24fac6-2285-4fef-bd37-e972460385a4",
+    "classNotesCode": "ef6428ff-bac5-497b-84b3-ad776fc760be.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Limit, Continuity And Differentiability 07: Continuity In An Interval, Properties Of Cont. Functions, Important Problems",
+    "lectureCode": "9f0bbfd8-c699-4e24-b23c-b36e7a18688e",
+    "classNotesCode": "3bd5868c-bd41-406e-973c-37069259b85b.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Limit, Continuity And Differentiability 06: Continuity At A Point X=A, Important Problems",
+    "lectureCode": "8cb847dc-91b3-4c42-ba94-7ab90e59633f",
+    "classNotesCode": "623fc1b5-ddd9-4ffc-83bc-b44bd7d03a71.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Limit, Continuity And Differentiability 05: Solving Limits Using Series Expansion, Sandwich Theorem, Important Problems, NO DPP",
+    "lectureCode": "49000646-8947-4f94-b2df-8d3849320cc5",
+    "classNotesCode": "cb849add-32f5-47f4-a4da-e4d120ddf5ca.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Limit, Continuity And Differentiability 04: L'Hospital's Rule Contd.., Solving Limits Of The Form 1, Solving Limits Using Series Expansion",
+    "lectureCode": "fa6bcd96-29a0-47c8-8e7f-1f154e0e9ca5",
+    "classNotesCode": "1e1402cc-452b-4b71-b0fe-5276b28e0261.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Limit, Continuity And Differentiability 03: Solving Limits Of The Form Infinity/Infinity, Solving Limits Using B.T, Solving Limits Using L'Hospital's Rule",
+    "lectureCode": "4adf33fc-31c3-408a-b0e0-931527f52ff1",
+    "classNotesCode": "5e1a6b5b-4c74-4999-9e77-122c1e66098f.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Limit, Continuity And Differentiability 02: Examples On Trigo Limits, Exponential & Logarithmic Limits, Important Problems",
+    "lectureCode": "3e6adb01-4bc0-4d0d-82de-3a2872a06371",
+    "classNotesCode": "e9c0bfaf-f999-4b5b-b6f4-be7f8ff7b01f.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Limit, Continuity And Differentiability 01: Limit At A Point x=a, 7 Indeterminate Forms, Trigonometric & Exponential Limits",
+    "lectureCode": "497a6fe6-8a12-4358-b5ec-b6646a2f7907",
+    "classNotesCode": "232f953d-2663-4104-a913-6356357d41e7.pdf",
+    "dppsPdfCode": ""
+  }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        generateTable();
+    </script>
+</body>
+
+</html>

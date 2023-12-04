@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+let lessonName = "Relation and Function";
+const lectureData = [
+  {
+    "lectureNumber": 17,
+    "lectureName": "Relations & Functions 17: Problems On Functional Identities, Important Types Of functions, NO DPP",
+    "lectureCode": "34352cce-8019-4f90-ab74-3468edaf0fe7",
+    "classNotesCode": "811f08e5-1aff-408c-a9ff-07c3e001ae84.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Relations & Functions 16: Properties Of Periodic Functions, Problems On Periodic Functions, Functional Identities",
+    "lectureCode": "d18837da-4c01-414e-8a9f-4144a7fa0a05",
+    "classNotesCode": "0bdbc736-fa76-40a0-9e16-291ff0a6edc8.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Relations & Functions 15: Properties Of Even & Odd Function, Periodic Functions, Properties Of Periodic Functions",
+    "lectureCode": "ab13759d-4d6a-4fb4-914b-72c41e00e496",
+    "classNotesCode": "71528d16-d19b-4245-9c9c-99b92447c555.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Relations & Functions 14: Properties Of Inverse, Even & Odd Function, Important Examples, NO DPP",
+    "lectureCode": "6ebff76d-4d9a-4092-b7bf-5a580b3c1900",
+    "classNotesCode": "e485126a-0e8c-4061-944b-d2c09c93e015.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Relations & Functions 13: Composite Of A Function, Finding Inverse Of A Function, Important Examples",
+    "lectureCode": "e3cdef3b-9f43-4ca7-84c2-788217971a92",
+    "classNotesCode": "d694cd3f-e652-4275-b090-c08f358b26b3.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Relations & Functions 12: Important Graphs Using Transformations, Application Of Graphs, Composite Of A Function",
+    "lectureCode": "92c37389-dbe8-43f9-9076-fe85ff9b09cc",
+    "classNotesCode": "496862d9-cfe3-4e45-9b77-627e88862181.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Relations & Functions 11: Some Basic Graphs, Graphical Transformations, Important Examples",
+    "lectureCode": "ec9abeeb-3a94-4b3f-9834-3ff3cc910c88",
+    "classNotesCode": "22facea3-5ca1-460f-9a1c-c59949cd971a.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Relations & Functions 10: Properties Of G.I.F & Fractional Function, Problems On G.I.F & Fractional Function, (Recorded)",
+    "lectureCode": "57980498-1f62-4e7e-9ad5-c7c5212a4c71",
+    "classNotesCode": "8dad132a-388f-4392-8cec-2f984f5b2237.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Relations & Functions 09: Greatest Integer Function, Fractional Function, Properties of G.I.F & Fractional Function",
+    "lectureCode": "a2e41d50-589d-4ef0-a084-d46f40fcdf80",
+    "classNotesCode": "003f8bcc-c430-4e12-8c35-a7479e2c5418.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Relations & Functions 08: Range of a Function Contd., Equal or Identical Functions, Signum function & G.I.F, No DPP",
+    "lectureCode": "3d5a712d-8726-48b5-9bc2-8df09a841c65",
+    "classNotesCode": "446f6458-79a4-40b0-ab45-150daea70ca0.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Relations & Functions 07: Range of a Function, Various methods to find Range, Important PYQs on Range",
+"lectureCode": "39df0904-c56a-46c9-83fb-9128edddb8cb",
+"classNotesCode": "ae11efba-661c-4fb0-86db-9277ad735a26.pdf",
+"dppsPdfCode": ""
+},
+{
+"lectureNumber": 6,
+"lectureName": "Relations & Functions 06: Classification of Function Contd, Important Problems, PnC Based Problems",
+"lectureCode": "95397be3-78f4-4d79-afed-194df9b41273",
+"classNotesCode": "fbb3fe80-2450-4cf1-8b9f-91c6e568311d.pdf",
+"dppsPdfCode": ""
+},
+{
+"lectureNumber": 5,
+"lectureName": "Relations & Functions 05: Domain Of A Function Contd, Range OF Some Common Functions, Classification Of Functions",
+"lectureCode": "b50e185f-0274-4ccb-b8d0-8289cabbcdb4",
+"classNotesCode": "a7e971e0-f4ef-4be0-a18d-51f3167a1c5e.pdf",
+"dppsPdfCode": ""
+},
+{
+"lectureNumber": 4,
+"lectureName": "Relations & Functions 04: Functions - Definition & Vertical Line Test, Domain Of A Function, Range Of Some Common Functions, NO DPP",
+"lectureCode": "4f91ce72-ed30-4c83-92e7-e21bb5d50555",
+"classNotesCode": "836810f8-c3fd-4503-87a8-639d3479a589.pdf",
+"dppsPdfCode": ""
+},
+{
+"lectureNumber": 3,
+"lectureName": "Relations & Functions 03: PYQs On Relations, Functions-Definition & Vertical Line Test, Domain Of A Function",
+"lectureCode": "cae7b40a-8fb2-42e2-bb94-43bd7e16585e",
+"classNotesCode": "37f55934-84a6-4456-a292-5055b6d110f4.pdf",
+"dppsPdfCode": ""
+},
+{
+"lectureNumber": 2,
+"lectureName": "Relations & Functions 02: Relations, Types Of Relations, PYQs On Relations",
+"lectureCode": "b3c963c1-9338-49eb-9b50-5e3c3d2c014c",
+"classNotesCode": "573c42f4-8c57-4fce-9390-43363f5b6a74.pdf",
+"dppsPdfCode": ""
+},
+{
+"lectureNumber": 1,
+"lectureName": "Relations & Functions 01: What Is A Relation, Various Methods To Represent Relations, Domain, Co-domain & Range Of A Relation, (Recorded)",
+"lectureCode": "1ad6789b-54a9-4ddd-9cd6-5175227f8bc7",
+"classNotesCode": "91185b94-6130-4100-806a-21f07092ad06.pdf",
+"dppsPdfCode": ""
+}
+];
+
+    
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        generateTable();
+    </script>
+</body>
+
+</html>
