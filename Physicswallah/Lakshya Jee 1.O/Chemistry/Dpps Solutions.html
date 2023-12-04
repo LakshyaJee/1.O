@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+let lessonName = "Dpps Solutions";
+const lectureData= [
+{
+    "lectureNumber": 8,
+    "lectureName": "Haloalkanes & Haloarenes: Solution to DPP 08",
+    "lectureCode": "c8740eda-a1d7-4037-97f4-51fb6008a8eb",
+    "classNotesCode": "55679781-9833-466e-8230-912d6c923d93.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Haloalkanes & Haloarenes: Solution to DPP 07",
+    "lectureCode": "e4813c0e-4975-43be-ad15-0b9f869f0db7",
+    "classNotesCode": "1bcd04dd-cdbe-4017-b915-b38c047d37da.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Haloalkanes & Haloarenes: Solution to DPP 06",
+    "lectureCode": "530439ab-55e3-46ac-9613-5325a4d19d48",
+    "classNotesCode": "f5bec127-b04c-40e9-acde-9290acaa1f39.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Haloalkanes & Haloarenes: Solution to DPP 05",
+    "lectureCode": "e1849a5a-fcbf-4da4-99d4-6f63dd41511b",
+    "classNotesCode": "d7ae23f2-95e0-49a3-9780-f192d05ad623.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Haloalkanes & Haloarenes: Solution to DPP 04",
+    "lectureCode": "96147a9b-5b19-4a1f-9346-83616b8a7206",
+    "classNotesCode": "f8daff80-f1c2-4146-a8d9-cb6416d25f33.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Haloalkanes & Haloarenes: Solution to DPP 03",
+    "lectureCode": "401a88c3-9dea-4e4e-977c-65039b4d52ea",
+    "classNotesCode": "fa93b10f-99ba-4ea7-a822-a4fd423ef075.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Haloalkanes & Haloarenes: Solution to DPP 02",
+    "lectureCode": "2e4380c0-e7d6-463a-afce-5b249ff44d3d",
+    "classNotesCode": "a9aa7e2e-d2d8-41af-86bd-a11d49854bee.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Haloalkanes & Haloarenes: Solution to DPP 01",
+    "lectureCode": "793b10cc-b36e-40a2-a3ba-f8ce0f91e431",
+    "classNotesCode": "6a74b6bd-0e2f-4518-83c4-7180597cfbcf.pdf",
+    "dppsPdfCode": ""
+  }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        generateTable();
+    </script>
+</body>
+
+</html>
