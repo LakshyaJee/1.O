@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notification Panel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #111; /* Dark background color */
+    }
+
+    #notification-panel {
+      width: 700px;
+      height: 500px;
+      overflow: hidden;
+      border: 1px solid #ccc;
+      position: relative;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: #fff; /* White color for the panel */
+    }
+
+    .notification-list {
+      list-style: none;
+      padding: 10px;
+      margin: 0;
+    }
+
+    .notification {
+      padding: 10px;
+      border-bottom: 1px solid #eee;
+    }
+
+    #view-all-btn {
+      display: block;
+      margin: 10px auto;
+      padding: 10px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #notification-table-container {
+      display: none;
+      position: relative;
+      overflow: hidden;
+      border: 1px solid #ccc;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background: linear-gradient(45deg, #111, #333); /* Neon background gradient */
+    }
+
+    #notification-table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      position: relative;
+    }
+
+    #notification-table th, #notification-table td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    #notification-table th {
+      background-color: #3498db;
+      color: #fff;
+    }
+
+    .neon-lights {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+      overflow: hidden;
+    }
+
+    .neon-light {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(45deg, #f06, #9f6); /* Neon gradient background */
+      animation: neonGlow 2s linear infinite alternate, neonRevolve 6s linear infinite;
+      z-index: -1;
+    }
+
+    .notification-box {
+      position: relative;
+      width: 400px;
+      height: 600px;
+      overflow: hidden;
+      border: 1px solid #ccc;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: #fff; /* White color for the panel */
+    }
+
+    .notification-box-content {
+      padding: 10px;
+    }
+
+    @keyframes neonGlow {
+      0% {
+        opacity: 0.8;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes neonRevolve {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="notification-panel">
+    <ul class="notification-list">
+      <li class="notification">Notification 1: Lorem ipsum dolor sit amet.</li>
+      <li class="notification">Notification 2: Consectetur adipiscing elit.</li>
+      <li class="notification">Notification 3: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+      <!-- Add more notifications as needed -->
+    </ul>
+  </div>
+
+  <button id="view-all-btn" onclick="showNotifications()">View all Notifications</button>
+
+  <div id="notification-table-container" style="display: none;">
+    <div class="neon-lights">
+      <div class="neon-light"></div>
+    </div>
+    <table id="notification-table">
+      <thead>
+        <th>Notification</th>
+      </thead>
+      <tbody>
+        <tr><td>Notification 1: Lorem ipsum dolor sit amet.</td></tr>
+        <tr><td>Notification 2: Consectetur adipiscing elit.</td></tr>
+        <tr><td>Notification 3: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td></tr>
+        <!-- Add more rows for additional notifications -->
+      </tbody>
+    </table>
+  </div>
+
+  <div class="notification-box">
+    <div class="neon-lights">
+      <div class="neon-light"></div>
+    </div>
+    <div class="notification-box-content">
+      <!-- Content for the notification box -->
+      <ul class="notification-list">
+        <li class="notification">Notification 1: Lorem ipsum dolor sit amet.</li>
+        <li class="notification">Notification 2: Consectetur adipiscing elit.</li>
+        <li class="notification">Notification 3: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+        <!-- Add more notifications as needed -->
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function showNotifications() {
+      document.getElementById("notification-panel").style.display = "none";
+      document.getElementById("view-all-btn").style.display = "none";
+      document.getElementById("notification-table-container").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
