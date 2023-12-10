@@ -6,34 +6,40 @@
   <title>Notification Panel</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'monotype', monospace;
       margin: 0;
       padding: 0;
-      overflow: hidden;
-      background: #111; /* Dark background color */
+      overflow: auto; /* Enable scrolling for the entire body */
+      background: #1e1e1e; /* Constant color for neon background */
+      color: #fff; /* Text color for dark background */
     }
 
     #notification-panel {
-      width: 700px;
-      height: 500px;
+      width: 90vw; /* Responsive width for mobile screens */
+      max-width: 500px;
+      height: 60vh; /* Responsive height for mobile screens */
       overflow: hidden;
-      border: 1px solid #ccc;
+      border: 1px solid #4b6cb7; /* Neon color for outline */
       position: relative;
       margin: 20px auto;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      background-color: #fff; /* White color for the panel */
+      background: url('planet.jpg') center/cover; /* Planet background image */
+      animation: neonOutline 2s linear infinite alternate;
     }
 
     .notification-list {
       list-style: none;
       padding: 10px;
       margin: 0;
+      animation: scrollNotifications 20s linear infinite;
     }
 
     .notification {
       padding: 10px;
       border-bottom: 1px solid #eee;
+      white-space: pre-wrap; /* Adjusted to allow wrapping of long lines */
+      word-wrap: break-word; /* Breaks word when needed */
     }
 
     #view-all-btn {
@@ -51,11 +57,11 @@
       display: none;
       position: relative;
       overflow: hidden;
-      border: 1px solid #ccc;
+      border: 1px solid #4b6cb7; /* Neon color for outline */
       margin: 20px auto;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      background: linear-gradient(45deg, #111, #333); /* Neon background gradient */
+      background: #1e1e1e; /* Constant color for neon background */
     }
 
     #notification-table {
@@ -69,9 +75,8 @@
       border: 1px solid #ddd;
       padding: 10px;
       text-align: left;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
+      white-space: pre-wrap; /* Adjusted to allow wrapping of long lines */
+      word-wrap: break-word; /* Breaks word when needed */
     }
 
     #notification-table th {
@@ -99,19 +104,51 @@
     }
 
     .notification-box {
+      display: none;
       position: relative;
-      width: 400px;
-      height: 600px;
+      width: 90vw; /* Responsive width for mobile screens */
+      max-width: 400px;
+      height: 50vh; /* Responsive height for mobile screens */
       overflow: hidden;
-      border: 1px solid #ccc;
+      border: 1px solid #4b6cb7; /* Neon color for outline */
       margin: 20px auto;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      background-color: #fff; /* White color for the panel */
+      background: #1e1e1e; /* Constant color for neon background */
     }
 
     .notification-box-content {
-      padding: 10px;
+      padding: 5px; /* Decreased content size */
+      border: 1px solid #4b6cb7; /* Neon color for outline */
+      border-radius: 8px;
+    }
+
+    .neon-lights-box {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+      overflow: hidden;
+    }
+
+    .neon-light-box {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(45deg, #f06, #9f6); /* Neon gradient background */
+      animation: neonGlow 2s linear infinite alternate, neonBlow 6s linear infinite;
+      z-index: -1;
+    }
+
+    @keyframes scrollNotifications {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-100%);
+      }
     }
 
     @keyframes neonGlow {
@@ -131,6 +168,31 @@
         transform: rotate(360deg);
       }
     }
+
+    @keyframes neonBlow {
+      0% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(1.1);
+      }
+    }
+
+    @keyframes neonOutline {
+      0% {
+        box-shadow: 0 0 10px rgba(75, 108, 183, 0.8), 0 0 20px rgba(75, 108, 183, 0.6), 0 0 30px rgba(75, 108, 183, 0.4);
+      }
+      100% {
+        box-shadow: 0 0 10px rgba(75, 108, 183, 0.8), 0 0 20px rgba(75, 108, 183, 0.6), 0 0 40px rgba(75, 108, 183, 0.4);
+      }
+    }
+
+    @media (max-width: 600px) {
+      #notification-panel, #notification-table-container, .notification-box {
+        width: 90vw;
+        max-width: 90vw;
+      }
+    }
   </style>
 </head>
 <body>
@@ -142,6 +204,9 @@
       <li class="notification">Notification 3: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
       <!-- Add more notifications as needed -->
     </ul>
+    <div class="neon-lights">
+      <div class="neon-light"></div>
+    </div>
   </div>
 
   <button id="view-all-btn" onclick="showNotifications()">View all Notifications</button>
@@ -158,14 +223,16 @@
         <tr><td>Notification 1: Lorem ipsum dolor sit amet.</td></tr>
         <tr><td>Notification 2: Consectetur adipiscing elit.</td></tr>
         <tr><td>Notification 3: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td></tr>
+ 
+
         <!-- Add more rows for additional notifications -->
       </tbody>
     </table>
   </div>
 
-  <div class="notification-box">
-    <div class="neon-lights">
-      <div class="neon-light"></div>
+  <div class="notification-box" id="notification-box">
+    <div class="neon-lights-box">
+      <div class="neon-light-box"></div>
     </div>
     <div class="notification-box-content">
       <!-- Content for the notification box -->
@@ -173,6 +240,7 @@
         <li class="notification">Notification 1: Lorem ipsum dolor sit amet.</li>
         <li class="notification">Notification 2: Consectetur adipiscing elit.</li>
         <li class="notification">Notification 3: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+   
         <!-- Add more notifications as needed -->
       </ul>
     </div>
@@ -183,6 +251,8 @@
       document.getElementById("notification-panel").style.display = "none";
       document.getElementById("view-all-btn").style.display = "none";
       document.getElementById("notification-table-container").style.display = "block";
+      document.getElementById("notification-table-container").style.overflow = "auto"; // Enable scrolling
+      document.getElementById("notification-box").style.display = "block";
     }
   </script>
 
