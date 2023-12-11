@@ -182,23 +182,76 @@
             padding: 10px;
             border-top: 1px solid #ddd;
         }
-        .banner {
+        body {
+    margin: 0;
+    overflow: hidden;
+}
+
+/* Add styles for your banner */
+.banner {
     display: none;
-    position: center;
-    top: 30;
-    left: 50;
-    width: 50%;
-    background-color: #f8d7da; /* Add your preferred background color */
-    color: #721c24; /* Add your preferred text color */
-    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #0e0e0e; /* Neon background color */
+    overflow: hidden;
+}
+
+/* Add styles for the neon square */
+.neon-square {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px; /* Adjust the size of the square */
+    height: 200px;
+    border: 2px solid transparent; /* Transparent border to create space for the neon glow */
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.8), 0 0 40px rgba(0, 255, 0, 0.8),
+                0 0 60px rgba(0, 255, 0, 0.8), 0 0 80px rgba(0, 255, 0, 0.8);
+    animation: neonOutline 2s linear infinite;
+}
+
+/* Add styles for the text container */
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
 }
 
-/* Add styles for the banner image */
-.banner img {
-    max-width: 75%;
-    height: auto;
-    margin-bottom: 30px;
+/* Add styles for the neon text */
+.neon-text {
+    font-family: 'Monospace', monospace;
+    font-size: 2em;
+    color: white;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8),
+                0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.8);
+    animation: neonAnimation 5s ease-in-out forwards;
+}
+
+/* Neon animation for the text */
+@keyframes neonAnimation {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+/* Neon outline animation for the square */
+@keyframes neonOutline {
+    0%, 100% {
+        box-shadow: 0 0 20px rgba(0, 255, 0, 0.8), 0 0 40px rgba(0, 255, 0, 0.8),
+                    0 0 60px rgba(0, 255, 0, 0.8), 0 0 80px rgba(0, 255, 0, 0.8);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(0, 255, 0, 0), 0 0 40px rgba(0, 255, 0, 0),
+                    0 0 60px rgba(0, 255, 0, 0), 0 0 80px rgba(0, 255, 0, 0);
+    }
 }
     </style>
 </head>
@@ -234,9 +287,11 @@
         </div>
 
         <div id="banner" class="banner">
-            <img src="https://pbs.twimg.com/media/GBARH4BWsAAwsSf?format=jpg&name=small" alt="Banner Photo">
-            <p>Gaza is facing ongoing genocide by the Israel ! Hamas has the support of the all the Countries leaving Britan and America</p>
-            <button onclick="closeBanner()">Close</button>
+            <div class="neon-square">
+                <div class="text-container">
+                    <p class="neon-text">Your Neon Text</p>
+                </div>
+            </div>
         </div>
         <!-- Your existing content goes here -->
     </div>
@@ -880,10 +935,12 @@ function showContent(batchName, subject, lesson) {
     banner.style.display = 'none';
 }
 
-// Function to show the banner after the webpage loads
+// Function to close the banner after 10 seconds
 window.onload = function () {
     var banner = document.getElementById('banner');
-    banner.style.display = 'block';
+    setTimeout(function () {
+        banner.style.display = 'none';
+    }, 10000); // 10 seconds
 };
     </script>
 </body>
