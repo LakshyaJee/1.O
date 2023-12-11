@@ -207,7 +207,7 @@
 /* Add styles for the neon square */
 .neon-square {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 350px; /* Adjust the size of the square */
@@ -250,8 +250,8 @@
 /* Neon outline animation for the square */
 @keyframes neonOutline {
     0%, 100% {
-        box-shadow: 0 0 20px rgba(0, 255, 0, 0.8), 0 0 40px rgba(0, 255, 0, 0.8),
-                    0 0 60px rgba(0, 255, 0, 0.8), 0 0 80px rgba(0, 255, 0, 0.8);
+        box-shadow: 0 0 20px rgba(85, 83, 206, 0.8), 0 0 40px rgba(71, 106, 204, 0.8),
+                    0 0 60px rgba(93, 83, 235, 0.8), 0 0 80px rgba(83, 111, 235, 0.8);
     }
     50% {
         box-shadow: 0 0 20px rgba(0, 255, 0, 0), 0 0 40px rgba(0, 255, 0, 0),
@@ -295,7 +295,7 @@
             <div class="neon-square">
                 <img src="https://pbs.twimg.com/media/GBARH4BWsAAwsSf?format=jpg&name=small" alt="Banner Photo">
                 <div class="text-container">
-                    <p class="neon-text">Your Neon Text</p>
+                    <p class="neon-text">Alert ⛏</p>
                 </div>
             </div>
         </div>
@@ -942,7 +942,7 @@ function showContent(batchName, subject, lesson) {
 window.onload = function () {
     var banner = document.getElementById('banner');
     setTimeout(function () {
-        banner.style.display = 'block';
+        banner.style.display = 'none';
     }, 10000); // 10 seconds
 };
 // Function to show the banner after the webpage loads
