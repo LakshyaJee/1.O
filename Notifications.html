@@ -57,6 +57,7 @@
       display: none;
       position: relative;
       overflow: hidden;
+      max-height: 300px; /* Set a fixed height for the container */
       border: 1px solid #4b6cb7; /* Neon color for outline */
       margin: 20px auto;
       border-radius: 10px;
@@ -69,7 +70,7 @@
       border-collapse: collapse;
       table-layout: fixed;
       position: relative;
-      overflow: auto;
+      overflow-y: auto; /* Enable vertical scrolling */
     }
 
     #notification-table th, #notification-table td {
@@ -221,10 +222,10 @@
         <th>Notification</th>
       </thead>
       <tbody>
-        <td><td>12.12.2023 All the Contents of Sachin Sir Khazana were updated to newer version handling. Enjoy the new handling version in this Khazana </td>
-        <tr><td>12.12.2023 All the Lecture Updated which were suppose to get updated in the Maharashtra Board Booster Batch</td>
+        <tr><td>12.12.2023 All the Contents of Sachin Sir Khazana were updated to newer version handling. Enjoy the new handling version in this Khazana </td></tr>
+        <tr><td>12.12.2023 All the Lecture Updated which were suppose to get updated in the Maharashtra Board Booster Batch</td></tr>
         <tr><td>10.12.2023: Asalamualikum Wa Rahmatullahi Wa Barkatuhu ! Welcome to the Incredible Platform of Physicswallah ! Here all the Notification regarding updates would be posted. . Check out here continously..</td></tr>
-
+ 
         <!-- Add more rows for additional notifications -->
       </tbody>
     </table>
