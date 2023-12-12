@@ -1,58 +1,79 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
     <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
         }
 
-        table, th, td {
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
             border: 1px solid black;
         }
 
-        th, td {
+        th,
+        td {
             padding: 10px;
             text-align: left;
         }
 
         button {
             cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
         }
 
-        .quality-select {
-            display: none;
-            position: absolute;
-            background: #fff;
-            border: 1px solid #ccc;
-            padding: 10px;
-            z-index: 1;
-            font-size: 18px;
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
         }
 
-        .error-message {
-            display: none;
-            position: absolute;
-            background: #fff;
-            border: 1px solid #ccc;
-            padding: 10px;
-            z-index: 1;
-            font-size: 18px;
-        }
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
 
-        .go-back-button {
-            margin-top: 10px;
-        }
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
 
-        /* Style for bold text and increased size */
-        .bold-text {
-            font-weight: bold;
-            font-size: 24px;
-            margin-bottom: 20px;
+            button:hover {
+                background-color: #ccc;
+            }
         }
     </style>
 </head>
+
 <body>
+
     <table>
         <tr>
             <th>Sr. No</th>
@@ -64,65 +85,65 @@
     </table>
 
     <script>
-         const lectures = [
-    {
-        "lectureNumber": "1",
-        "lectureName": "Domain, Range & Graph of Six Inverse Trigonometric Functions",
-        "lectureCode": "d545a614-072b-4979-8949-d55b57fae8de",
-        "classNotesCode": "fcb9ee44-ea74-4e09-a43f-7b590740a173.pdf",
-        "dppsPdfCode": "eb4af98a-5370-4b2b-b916-bc4e59fbc239.pdf"
-    },
-    {
-        "lectureNumber": "2",
-        "lectureName": "Questions Practice & Properties of I.T.F.",
-        "lectureCode": "21ad08e9-5c6c-4ce7-aff1-ac30dda5f8aa",
-        "classNotesCode": "9e53df72-0d5d-4a7f-aada-f2e757fbfd44.pdf",
-        "dppsPdfCode": "7dafcf49-17dd-4f4a-9224-4abaf2cde571.pdf"
-    },
-    {
-        "lectureNumber": "3",
-        "lectureName": "Properties of I.T.F.",
-        "lectureCode": "307905fe-2d7e-4319-99ed-cc4e57922d6d",
-        "classNotesCode": "7f77437d-ad01-483c-985a-55b10e7de130.pdf",
-        "dppsPdfCode": "d8e3e0f4-3e98-4e66-9cf1-81d5f005bc3b.pdf"
-    },
-    {
-        "lectureNumber": "4",
-        "lectureName": "Properties of I.T.F",
-        "lectureCode": "900447b1-dd4d-4d26-924c-0960b0743fda",
-        "classNotesCode": "3518b367-94af-45e4-8e22-eead09a2cb71.pdf",
-        "dppsPdfCode": "39292d3a-da29-4130-b7cc-f84251cca949.pdf"
-    },
-    {
-        "lectureNumber": "5",
-        "lectureName": "Properties of I.T.F.",
-        "lectureCode": "ed091df8-d6be-41cd-872a-3a3957c833aa",
-        "classNotesCode": "548ef5cc-03c5-48bd-967b-d13e06331053.pdf",
-        "dppsPdfCode": "b65606c3-c2c4-491c-b168-7e6d5ac889dd.pdf"
-    },
-    {
-        "lectureNumber": "6",
-        "lectureName": "Sum & Difference Of Two ITF, Converting One ITF Into Other",
-        "lectureCode": "db0f211e-cba4-4ee2-8369-80823ced31ef",
-        "classNotesCode": "2ffe0d2d-de96-4e74-87c1-677c48caa491.pdf",
-        "dppsPdfCode": "4e508a32-80e7-40c0-8a53-8e8c262cd784.pdf"
-    },
-    {
-        "lectureNumber": "7",
-        "lectureName": "Questions On ITF Series",
-        "lectureCode": "8d703b38-2504-4121-b096-c288418e9025",
-        "classNotesCode": "6d27f0d2-62e2-4455-b8ed-6e239ef8c648.pdf",
-        "dppsPdfCode": ""
-    },
-    {
-        "lectureNumber": "8",
-        "lectureName": "Simplification & Defining by Feel of Substitution",
-        "lectureCode": "8d91d88b-6da1-461f-92b1-f96f9a5e7645",
-        "classNotesCode": "e02461e8-78a8-4100-8f6e-79f87319fc96.pdf",
-        "dppsPdfCode": ""
-    }
+let lessonName = "Inverse Trigonometric Function";
+const lectureData= [
+{
+  "lectureNumber": "1",
+  "lectureName": "Domain, Range & Graph of Six Inverse Trigonometric Functions",
+  "lectureCode": "d545a614-072b-4979-8949-d55b57fae8de",
+  "classNotesCode": "fcb9ee44-ea74-4e09-a43f-7b590740a173.pdf",
+  "dppsPdfCode": "eb4af98a-5370-4b2b-b916-bc4e59fbc239.pdf"
+},
+{
+  "lectureNumber": "2",
+  "lectureName": "Questions Practice & Properties of I.T.F.",
+  "lectureCode": "21ad08e9-5c6c-4ce7-aff1-ac30dda5f8aa",
+  "classNotesCode": "9e53df72-0d5d-4a7f-aada-f2e757fbfd44.pdf",
+  "dppsPdfCode": "7dafcf49-17dd-4f4a-9224-4abaf2cde571.pdf"
+},
+{
+  "lectureNumber": "3",
+  "lectureName": "Properties of I.T.F.",
+  "lectureCode": "307905fe-2d7e-4319-99ed-cc4e57922d6d",
+  "classNotesCode": "7f77437d-ad01-483c-985a-55b10e7de130.pdf",
+  "dppsPdfCode": "d8e3e0f4-3e98-4e66-9cf1-81d5f005bc3b.pdf"
+},
+{
+  "lectureNumber": "4",
+  "lectureName": "Properties of I.T.F",
+  "lectureCode": "900447b1-dd4d-4d26-924c-0960b0743fda",
+  "classNotesCode": "3518b367-94af-45e4-8e22-eead09a2cb71.pdf",
+  "dppsPdfCode": "39292d3a-da29-4130-b7cc-f84251cca949.pdf"
+},
+{
+  "lectureNumber": "5",
+  "lectureName": "Properties of I.T.F.",
+  "lectureCode": "ed091df8-d6be-41cd-872a-3a3957c833aa",
+  "classNotesCode": "548ef5cc-03c5-48bd-967b-d13e06331053.pdf",
+  "dppsPdfCode": "b65606c3-c2c4-491c-b168-7e6d5ac889dd.pdf"
+},
+{
+  "lectureNumber": "6",
+  "lectureName": "Sum & Difference Of Two ITF, Converting One ITF Into Other",
+  "lectureCode": "db0f211e-cba4-4ee2-8369-80823ced31ef",
+  "classNotesCode": "2ffe0d2d-de96-4e74-87c1-677c48caa491.pdf",
+  "dppsPdfCode": "4e508a32-80e7-40c0-8a53-8e8c262cd784.pdf"
+},
+{
+  "lectureNumber": "7",
+  "lectureName": "Questions On ITF Series",
+  "lectureCode": "8d703b38-2504-4121-b096-c288418e9025",
+  "classNotesCode": "6d27f0d2-62e2-4455-b8ed-6e239ef8c648.pdf",
+  "dppsPdfCode": ""
+},
+{
+  "lectureNumber": "8",
+  "lectureName": "Simplification & Defining by Feel of Substitution",
+  "lectureCode": "8d91d88b-6da1-461f-92b1-f96f9a5e7645",
+  "classNotesCode": "e02461e8-78a8-4100-8f6e-79f87319fc96.pdf",
+  "dppsPdfCode": ""
+}
 ];
-
 
         function generateClassNotesLink(classNotesCode) {
             const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
@@ -138,15 +159,24 @@
         }
 
         function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
             const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
             const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
             newWindow.focus();
         }
 
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
         function generateTable() {
             const table = document.querySelector('table');
 
-            lectures.forEach((lecture, index) => {
+            lectureData.forEach((lecture, index) => {
                 const row = table.insertRow();
                 row.insertCell(0).textContent = index + 1;
                 row.insertCell(1).textContent = lecture.lectureName;
@@ -154,18 +184,6 @@
                 const cell3 = row.insertCell(2);
                 cell3.innerHTML = `
                     <button onclick="showQualityOptions(${index})">View Lecture</button>
-                    <div id="qualitySelect_${index}" class="quality-select">
-                        <p>Select Quality:</p>
-                        <select id="qualityOptions_${index}">
-                            <option value="720">720p</option>
-                            <option value="480">480p</option>
-                            <option value="360">360p</option>
-                            <option value="240">240p</option>
-                            <option value="144">144p</option>
-                        </select>
-                        <button onclick="playVideoOrCopyLink(${index})">Play Now</button><br><br>
-                        <button class="go-back-button" onclick="goBack(${index})">Go Back</button>
-                    </div>
                 `;
 
                 const cell4 = row.insertCell(3);
@@ -182,58 +200,8 @@
             });
         }
 
-        function showQualityOptions(index) {
-            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
-            qualitySelect.style.display = "block";
-        }
-
-        function playVideoOrCopyLink(index) {
-            const qualitySelect = document.getElementById(`qualitySelect_${index}`);
-            qualitySelect.style.display = "none";
-
-            const selectedQuality = document.getElementById(`qualityOptions_${index}`).value;
-            const lectureCode = lectures[index].lectureCode;
-            const videoLink = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${selectedQuality}/main.m3u8`;
-
-            // Check the user's device
-            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-
-            if (isMobile) {
-                openVLC(videoLink);
-            } else {
-                openLectureLinkWindow(videoLink);
-            }
-        }
-
-        function openVLC(videoPath) {
-            const vlcUri = `vlc://${videoPath}`;
-            window.location.href = vlcUri;
-        }
-
-        function openLectureLinkWindow(videoLink) {
-            const lectureLinkWindow = window.open('', '_blank', 'width=400,height=200');
-            lectureLinkWindow.document.write(`
-                <h2 class="bold-text">Lecture Link</h2>
-                <input type="text" value="${videoLink}" id="lectureLink">
-                <button onclick="copyLectureLink()">Copy Link</button>
-                <p class="bold-text">You must play this link in VLC Player Only.</p>
-            `);
-            lectureLinkWindow.document.getElementById('lectureLink').style.width = '500px'; // Adjust the textbox size
-        }
-
-        function copyLectureLink() {
-            const lectureLink = document.getElementById('lectureLink');
-            lectureLink.select();
-            document.execCommand('copy');
-            alert('Lecture link copied to clipboard');
-        }
-
-        function goBack(index) {
-    const qualitySelect = document.getElementById(`qualitySelect_${index}`);
-    qualitySelect.style.display = "none";
-}
-
         generateTable();
     </script>
 </body>
+
 </html>

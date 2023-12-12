@@ -1,78 +1,8 @@
 {
-  "lectureNumber": "12",
-  "lectureName": "Vector Product Of Four Vectors || Theorem In Space || Vector Equations || NO DPP",
-  "lectureCode": "98ce984c-f018-4331-9e7c-ef8f8c103cf0",
-  "classNotesCode": "60ecefd7-54c0-485f-b813-84d57b199cd7.pdf",
-  "dppsPdfCode": ""
-},
-{
-  "lectureNumber": "11",
-  "lectureName": "Vector Triple Product || Scalar Product Of Four Vectors (Part -02) || NO DPP || Extra Lecture || Recorded",
-  "lectureCode": "ca2350ca-385d-4372-8566-59216892835b",
-  "classNotesCode": "5c6356c4-62e5-405f-8689-e3b977437f46.pdf",
-  "dppsPdfCode": ""
-},
-{
-  "lectureNumber": "10",
-  "lectureName": "Vector Triple Product || Scalar Product Of Four Vectors",
-  "lectureCode": "84b88d55-1b99-4953-ade3-e37f8a7fa05b",
-  "classNotesCode": "1e12320b-0fd4-4dd0-957b-b6a7cd38a93c.pdf",
-  "dppsPdfCode": "c167c439-32fa-4757-8c20-b482de1c3bba.pdf"
-},
-{
-  "lectureNumber": "09",
-  "lectureName": "Practice Problems || NO DPP",
-  "lectureCode": "8abf92e1-829d-4cf8-a664-5ffefc904f54",
-  "classNotesCode": "846e39be-b747-4d03-ad96-5f2c82cbabad.pdf",
-  "dppsPdfCode": ""
-},
-{
-  "lectureNumber": "08",
-  "lectureName": "Scalar Triple Product",
-  "lectureCode": "e13bae45-b816-4825-94ff-e488ff11b016",
-  "classNotesCode": "d8a54653-ed2c-4e7b-b76b-3c0afb4ed07f.pdf",
-  "dppsPdfCode": "30f09181-6999-495d-af96-ee700332a34f.pdf"
-},
-{
-  "lectureNumber": "07",
-  "lectureName": "Practice Problems || Shortest Distance Between Two Lines || STP",
-  "lectureCode": "03f11590-efad-45fa-bd99-2657c1f12d82",
-  "classNotesCode": "ba91e524-1709-41ee-8395-5928f038811e.pdf",
-  "dppsPdfCode": "6e688ee8-cf8c-4a5a-b8ac-108afb5ffc07.pdf"
-},
-{
-  "lectureNumber": "06",
-  "lectureName": "Practice Problems || Vector Product Of Vectors (Part -02) || Recorded",
-  "lectureCode": "143112cc-2ab8-4bfe-b64f-105825dbae3e",
-  "classNotesCode": "79892134-f4a0-4275-9f44-c7d5991c6cb6.pdf",
-  "dppsPdfCode": "84336503-7c48-41f2-b2c3-9bd57e17453e.pdf"
-},
-{
-  "lectureNumber": "05",
-  "lectureName": "Practice Problems || Vector Product Of Vectors || NO DPP || Recorded || Reschedule @11:35 PM",
-  "lectureCode": "d005b890-3d2c-4547-a1fa-199af342aca0",
-  "classNotesCode": "359c4d8b-4c23-46b4-b1a5-cada7fd3558b.pdf",
-  "dppsPdfCode": ""
-},
-{
-  "lectureNumber": "04",
-  "lectureName": "Scalar Product Of Vectors || NO DPP",
-  "lectureCode": "3ce27eca-976a-4d0b-84fd-42124a615e62",
-  "classNotesCode": "dac2ff80-075c-4125-acf8-cfe77fb60b59.pdf",
-  "dppsPdfCode": ""
-},
-{
-  "lectureNumber": "03",
-  "lectureName": "Vector Equation Of Line & Practice Problems (Part -02)",
-  "lectureCode": "139e5793-f5ac-4303-9dea-447b134cbfdf",
-  "classNotesCode": "83e5c5ef-9e4d-4444-9296-2e635a745935.pdf",
-  "dppsPdfCode": "29cea1bf-e9b4-4e2a-8fde-65f3e99e1e0f.pdf"
-},
-{
-  "lectureNumber": "01",
-  "lectureName": "Introduction To Vectors || NO DPP",
-  "lectureCode": "a170bb43-77ca-471a-985d-48458aa52011",
-  "classNotesCode": "9e35dd6e-c4fa-4e1c-831d-265b9fa774f0.pdf",
+  "lectureNumber": "1",
+  "lectureName": "All About Linear Programming",
+  "lectureCode": "220a98c6-07da-48fc-954e-6e31ed80303c",
+  "classNotesCode": "d3bea7c5-fd32-4ff8-b151-0ee62ae3ee55.pdf",
   "dppsPdfCode": ""
 }
 ];
