@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSBSHSE Class 12 Textbooks</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            overflow-y: auto;
+            background-color: #000;
+            color: #fff;
+            position: relative;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            z-index: -1;
+        }
+
+        .neon-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .neon-box {
+            flex: 0 1 45%;
+            margin: 10px;
+            position: relative;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .neon-text {
+            font-family: 'Arial', sans-serif;
+            font-size: 24px;
+            color: #00ff00; /* Neon Green */
+            text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+        }
+
+        .neon-outline {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 3px solid #00f; /* Neon Blue */
+            border-radius: 10px;
+            z-index: -1;
+            animation: neon-animation 1.5s ease-in-out infinite alternate;
+        }
+
+        @keyframes neon-animation {
+            0% {
+                opacity: 0.5;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .download-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #00ff00;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            .neon-box {
+                flex: 0 1 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="neon-container">
+    <!-- Subject 1 -->
+    <div class="neon-box">
+        <div class="neon-text">Geography</div>
+        <div class="neon-outline"></div>
+        <button class="download-button" onclick="downloadFile('https://books.ebalbharati.in/pdfs/1203010011.pdf')">Download Now</button>
+    </div>
+
+    <!-- Subject 2 -->
+    <div class="neon-box">
+        <div class="neon-text">Physics</div>
+        <div class="neon-outline"></div>
+        <button class="download-button" onclick="downloadFile('https://books.ebalbharati.in/pdfs/1203020415.pdf')">Download Now</button>
+    </div>
+
+    <!-- Subject 3 -->
+    <div class="neon-box">
+        <div class="neon-text">Chemistry</div>
+        <div class="neon-outline"></div>
+        <button class="download-button" onclick="downloadFile('https://books.ebalbharati.in/pdfs/1203030414.pdf')">Download Now</button>
+    </div>
+
+    <!-- Subject 4 -->
+    <div class="neon-box">
+        <div class="neon-text">Mathematics and Statistic Part 1</div>
+        <div class="neon-outline"></div>
+        <button class="download-button" onclick="downloadFile('https://books.ebalbharati.in/pdfs/1203020423.pdf')">Download Now</button>
+    </div>
+
+    <!-- Subject 5 -->
+    <div class="neon-box">
+        <div class="neon-text">Mathematics and Statistic Part 2</div>
+        <div class="neon-outline"></div>
+        <button class="download-button" onclick="downloadFile('https://books.ebalbharati.in/pdfs/1203020424.pdf')">Download Now</button>
+    </div>
+
+    <!-- Subject 6 -->
+    <div class="neon-box">
+        <div class="neon-text">English Balbharti</div>
+        <div class="neon-outline"></div>
+        <button class="download-button" onclick="downloadFile('https://books.ebalbharati.in/pdfs/1203040026.pdf')">Download Now</button>
+    </div>
+
+    <!-- Subject 7 -->
+    <div class="neon-box">
+        <div class="neon-text">Biology</div>
+        <div class="neon-outline"></div>
+        <button class="download-button" onclick="downloadFile('https://books.ebalbharati.in/pdfs/1203030421.pdf')">Download Now</button>
+    </div>
+<!-- Subject 8 -->
+    <div class="neon-box">
+        <div class="neon-text">Information Technology</div>
+        <div class="neon-outline"></div>
+        <button class="download-button" onclick="downloadFile('https://books.ebalbharati.in/pdfs/1203010500.pdf')">Download Now</button>
+    </div>
+</div>
+
+<script>
+    function downloadFile(url) {
+        window.location.href = url;
+    }
+</script>
+
+</body>
+</html>
