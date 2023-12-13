@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+let lessonName = "Ray Optics and Optical Instruments";
+const lectureData= [
+{
+    "lectureNumber": 14,
+    "lectureName": "Ray Optics And Optical Instruments 14: Thin Prism, Microscope, Telescope, Reflecting Telescope (Extra Lecture) (No DPP)",
+    "lectureCode": "b158594e-e00f-4298-b2e8-e71325444cdb",
+    "classNotesCode": "ff664c06-8746-443e-9bf5-4640ed19a298.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Ray Optics And Optical Instruments 13: Displacement Method, Prism, Deviation From Prism (No DPP)",
+    "lectureCode": "16fff6fa-4eea-42b1-ab81-e63c58ccbea0",
+    "classNotesCode": "b9ac8489-8e5d-434f-8bb5-cad992afaff0.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Ray Optics And Optical Instruments 12: Velocity of Image, Netwon's Formula, Thin Lens In Contact, Silvering Of Lens (No DPP)",
+    "lectureCode": "3b18ae1f-5f63-4f3b-8d68-24215eebaaac",
+    "classNotesCode": "ca136144-0c3a-4c89-9e6f-89e3846635e7.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Ray Optics And Optical Instruments 11: Power Of Lens, Displacement Method, Newton's Formula, Thin Lenes In Contact",
+    "lectureCode": "8d808559-434b-4350-9799-5c9d9231fee8",
+    "classNotesCode": "f8cffa0f-c987-4899-b5eb-bd1cea437143.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Ray Optics And Optical Instruments 10: Lenses, Lens Formula And Lens Maker Formula, Power Of Lens, Displacement Method",
+    "lectureCode": "f8104231-94e1-488d-a592-4760f920813b",
+    "classNotesCode": "698dd605-e1f7-408f-bc77-7da730c43ca0.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Ray Optics And Optical Instruments 09: Refraction From Spherical Surface, Thin Spherical Lens, Lens Formula And Lens Maker Formula",
+    "lectureCode": "0621a7ff-c038-4a3d-9347-e6251d0f22d7",
+    "classNotesCode": "e60d6b62-2c61-4510-829e-043f1f8695d9.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Ray Optics And Optical Instruments 08: TIR, Refraction From Spherical Surface, Thin Spherical Lens, Lens Formula And Lens Maker Formula",
+    "lectureCode": "8c09c655-0ed0-4f27-804f-3a0228edc395",
+    "classNotesCode": "43798bc0-66fa-4755-a3ba-4289d7b41140.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Ray Optics And Optical Instruments 07: Real Depth And Apparent Depth, Image Formed by Thick Mirror, Total Internal Reflection",
+    "lectureCode": "3f89f2cf-1b4e-4ea6-9e63-0c9325ffe2c6",
+    "classNotesCode": "2f276269-b0c2-46a9-baec-bbbc4fa0d6b1.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Ray Optics And Optical Instruments 06: Refraction, Refractive Index, Optical Path, Laws of Refraction",
+    "lectureCode": "0dc9ac79-e204-424b-b59c-d56e0ba15cf7",
+    "classNotesCode": "f3fb34c1-6730-477a-a9b8-ad9df3b4e1a5.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Ray Optics And Optical Instruments 05: Mirror Modification, V Vs U Graph, Velocity Of Image Formed By Spherical Mirror (No DPP)",
+    "lectureCode": "9874f8b7-105f-41a1-b123-7f47001ddb99",
+    "classNotesCode": "b33abbc2-66c6-4862-9fd4-12d9bcc323c8.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Ray Optics And Optical Instruments 04: Mirrors Formula, Mirror Modification, Newton's Formula, V Vs U Graph (No DPP)",
+    "lectureCode": "06a2cf03-ab12-454e-bd8f-90b962a04510",
+    "classNotesCode": "214cd036-7c83-4920-8760-c5f30e66083f.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Ray Optics And Optical Instruments 03: Spherical Mirrors, Relation Between Focal Length And Radius Of Curvature, Image Formation (No DPP)",
+    "lectureCode": "6fb5a57a-bd58-4899-b38d-8c8e9022ed66",
+    "classNotesCode": "c46e0a42-fa4c-44db-9fdd-24de5a6b0e45.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Ray Optics And Optical Instruments 02: Deviation Caused By Rotation Of Mirror And Light Ray, No. Of Images Formed By Mirrors, Velocity of Image",
+    "lectureCode": "7d171d58-786d-45eb-b6fa-30d74f3e8e76",
+    "classNotesCode": "9ed07ffb-9d57-43b8-856b-7f8c1b44c6a6.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Ray Optics And Optical Instruments 01: Reflection, Laws Of Reflection, Deviation From Plane Mirror (No DPP)",
+    "lectureCode": "dad9b4d9-b864-4bc1-a361-a398b1491573",
+    "classNotesCode": "60c60479-4ce4-4434-a8ec-fbb68376a0d6.pdf",
+    "dppsPdfCode": ""
+  }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        generateTable();
+    </script>
+</body>
+
+</html>

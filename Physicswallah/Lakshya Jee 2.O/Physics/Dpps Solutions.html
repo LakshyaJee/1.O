@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+let lessonName = "Dpps Solutions";
+const lectureData= [
+{
+    "lectureNumber": 7,
+    "lectureName": "Moving Charges & Magnetism: Solution To DPP 07",
+    "lectureCode": "d00ad369-1eef-4b74-8835-21ec10da2cfb",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Moving Charges & Magnetism: Solution To DPP 06",
+    "lectureCode": "aa1e4159-4717-4cc4-b24e-a169181528cd",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Moving Charges & Magnetism: Solution To DPP 05",
+    "lectureCode": "ef212ff6-47b2-43f7-ab58-4e3d7bcb1d06",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Moving Charges & Magnetism: Solution To DPP 04",
+    "lectureCode": "5297ba98-0d55-43c4-9ac5-97aab667b606",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Moving Charges & Magnetism: Solution To DPP 03",
+    "lectureCode": "fbb937a5-a34f-4b3b-aca9-6448eddb2aa0",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Moving Charges & Magnetism: Solution To DPP 02",
+    "lectureCode": "db1ef63b-bf96-4fef-9c52-82946dce639e",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Moving Charges & Magnetism: Solution To DPP 01",
+    "lectureCode": "ceb4d8c4-9c9e-45b8-b1dc-b5912900b359",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Current Electricity: Solution To DPP 08",
+    "lectureCode": "88e6dca8-54bb-407e-8dd1-1bdfcd9b3921",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Current Electricity: Solution To DPP 07",
+    "lectureCode": "f2a5a95f-12f3-4231-beb8-e49d683f3d4c",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Current Electricity: Solution To DPP 06",
+    "lectureCode": "a185286d-2c8b-4c12-b841-f81d4c2c5068",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Current Electricity: Solution To DPP 05",
+    "lectureCode": "6b7ac815-cb21-4472-9ccd-55c1f0442bee",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Current Electricity: Solution To DPP 04",
+    "lectureCode": "ee51f3d3-c5bc-42f6-9210-0041cf1a0437",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Current Electricity: Solution To DPP 03",
+    "lectureCode": "d8d2ef76-efdf-4c81-978f-8b749facfda9",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Current Electricity: Solution To DPP 02",
+    "lectureCode": "4e284d6e-89d7-48d2-bc72-f6a5c7d3a840",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Current Electricity: Solution To DPP 01",
+    "lectureCode": "6bed12b0-8291-4a1b-ae07-8a9805f711bf",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Electrostatic Potential and Capacitance: Solution To DPP 09",
+    "lectureCode": "9b37c753-1ee0-4311-9fd0-b0b40de6e9fc",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Electrostatic Potential and Capacitance: Solution To DPP 08",
+    "lectureCode": "6356cd19-0e7d-46b1-91b0-157a77465159",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Electrostatic potential and Capacitance: Solution To DPP 07",
+    "lectureCode": "91145b1d-ec71-451c-a461-b70c75ec5cec",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Electrostatic potential and Capacitance: Solution To DPP 06",
+    "lectureCode": "0a916b83-47c8-42e2-b7b0-5c95678fc588",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Electrostatic potential and Capacitance: Solution To DPP 05",
+    "lectureCode": "03a25c27-3b64-407d-8a16-abe6e01297d5",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Electrostatic potential and Capacitance: Solution To DPP 04",
+    "lectureCode": "f3aedaeb-2b75-491e-9f82-06927c9241e2",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Electrostatic potential and Capacitance: Solution To DPP 03",
+    "lectureCode": "70cf97ba-d518-491e-a156-3d6ebd23a777",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Electrostatic potential and Capacitance: Solution To DPP 02",
+    "lectureCode": "09f38528-208d-4335-a871-dc7b1a8b9c44",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Electrostatic potential and Capacitance: Solution To DPP 01",
+    "lectureCode": "bb6e758d-ca56-43a0-b1d9-98a5ea85fb98",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Electric Charges And Field: Solution To DPP 08",
+    "lectureCode": "725cfc02-733b-487b-b3cf-fa5a609919b2",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Electric Charges And Field: Solution To DPP 07",
+    "lectureCode": "7e2f5cc2-0785-48ac-905a-92a72f117011",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Electric Charges And Field: Solution To DPP 06",
+    "lectureCode": "2148450a-c930-4a96-9ae7-2b6f6b079c8b",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Electric Charges And Field: Solution To DPP 05",
+    "lectureCode": "ffd0304f-d6ce-4da3-b79e-73cc62df7f87",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Electric Charges And Field: Solution To DPP 04",
+    "lectureCode": "9a89154e-7d12-4974-96c0-a83f2a4cdf8d",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Electric Charges And Field: Solution To DPP 03",
+    "lectureCode": "4c1dfd6a-1fae-4385-8ac3-af43ba89ef59",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Electric Charges And Field: Solution To DPP 02",
+    "lectureCode": "18c15923-f0ff-4b13-892c-8b24ce72e18e",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Electric Charges And Field: Solution To DPP 01",
+    "lectureCode": "5ad8df24-ffae-4482-ae94-372cb8b6930b",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        generateTable();
+    </script>
+</body>
+
+</html>

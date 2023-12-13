@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+let lessonName = "Magnetism and Matter";
+const lectureData= [
+{
+    "lectureNumber": 2,
+    "lectureName": "Magnetism & Matter 02: NCERT Discussion (Recorded)",
+    "lectureCode": "06fd48d3-f2ab-442a-b447-dc7bff27736d",
+    "classNotesCode": "33b76470-4a21-4bb3-aa0e-85155a87c479.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Magnetism & Matter 01: NCERT Discussion (Recorded)",
+    "lectureCode": "3c709eae-441b-41f9-b9ad-698a22170586",
+    "classNotesCode": "7aa77a8b-d490-415e-bd3c-0c13d4b99828.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Magnetism and Matter 09: Hysteresis, Moving Coil Galvanometer",
+    "lectureCode": "643d9fec-8882-42bd-aced-35b4c7a39f64",
+    "classNotesCode": "ee0040da-df49-4cc3-af0d-99d3ea4291dd.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Magnetism and Matter 08: Classification Of Magnetic Materials, Hysteresis (No DPP)",
+    "lectureCode": "0cd64990-ef78-448f-ab69-4a4a3b0ae799",
+    "classNotesCode": "bda0ee31-f84f-4aa9-ad70-e74872ea073a.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Magnetism and Matter 07: Classification Of Magnetic Materials, Hysteresis",
+    "lectureCode": "bdf1bb62-1c66-4421-b2e8-01f1cd1f7cce",
+    "classNotesCode": "2b9c884b-1647-403d-8240-4bc5678c7ffa.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Magnetism and Matter 06: Tangent Galvanometer, Deflection Magnetometer, Neutral Point, Magnetisation And Magnetic Intensity (No DPP)",
+    "lectureCode": "cd25b017-3902-4625-bdef-0c8255ba2d4f",
+    "classNotesCode": "eed29c39-4396-4e5c-bc01-5ada5edefdd5.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Magnetism and Matter 05: Earth Magnetism",
+    "lectureCode": "6f9d59a9-cff9-4091-9adb-f5f4028a8dcc",
+    "classNotesCode": "c95472d2-c533-4c14-a3e4-d720fafed674.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Magnetism and Matter 04: Time Period Of Oscillations Of Bar Magnet In Uniform Magnetic Field, Force & Field Due To Pole And Dipole, Earths Magnetism",
+    "lectureCode": "2abe8907-2cbc-4f66-b4d8-cea17c8a4e47",
+    "classNotesCode": "1ecd002c-5a48-42b6-afd2-7cc864ab9fae.pdf",
+    "dppsPdfCode": ""
+  }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        generateTable();
+    </script>
+</body>
+
+</html>
