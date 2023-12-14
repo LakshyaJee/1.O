@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+let lessonName = "Determinants";
+const lectureData= [
+{
+    "lectureNumber": 1,
+    "lectureName": "Basics of Determinants & Properties of Determinants",
+    "lectureCode": "81cbad99-89b8-4530-ab12-126321ce2c32",
+    "classNotesCode": "cba9f2a3-c6eb-4fe2-a44d-beb604a124e9.pdf",
+    "dppsPdfCode": "",
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Properties of Determinants & Question Practice",
+    "lectureCode": "4252c0be-23b4-4848-bca3-61dbf2b56c65",
+    "classNotesCode": "beb29949-1047-423b-b5de-5dae89ae3972.pdf",
+    "dppsPdfCode": "e13f91d3-adde-4c32-81ed-c3f2e789ac28.pdf",
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Question Practice, Circulant Determinant, Cube Root of Unity in Determinants",
+    "lectureCode": "5c220745-ceae-4bb2-88af-0b215c5ce9a5",
+    "classNotesCode": "1e28c9de-0e6d-4c5e-95d8-ab862da27800.pdf",
+    "dppsPdfCode": "340e60cc-92c8-4781-b5dc-a917cd950ccb.pdf",
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Circulant, Cube root of Unity in Determinants, Differentiation of Determinant",
+    "lectureCode": "7bda766b-6693-499e-85b5-ca893bc5436f",
+    "classNotesCode": "e4bb663a-614f-4258-9716-be77a80354d7.pdf",
+    "dppsPdfCode": "ea8ae1f4-a943-4cc7-9a4f-e8871a6b6e56.pdf",
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Determinant Multiplication, System of Linear Equation || NO DPP",
+    "lectureCode": "f1ad2a9c-4fab-47af-b2df-d4bb3e6bb00a",
+    "classNotesCode": "078a0f28-ea63-4ce8-aa8a-639f26adabc1.pdf",
+    "dppsPdfCode": "",
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Solving system of Linear Equations, Cramer’s Rule & Gauss Jordan Method",
+    "lectureCode": "391212aa-f179-46e8-abb7-08618bcfcaf0",
+    "classNotesCode": "92a32cd1-8189-45b8-a799-58b3346039d1.pdf",
+    "dppsPdfCode": "c4c91066-e7fa-4166-8a5c-339b7533d48a.pdf",
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Gauss Jordan Method, Finding Inverse by Elementary Transformations, Question Practice",
+    "lectureCode": "454920bd-08b9-4ca5-b25a-752761df56e0",
+    "classNotesCode": "fba88e7e-23e9-4e6a-b4c2-d2fcad66325a.pdf",
+    "dppsPdfCode": "6d4d16dc-7791-4f4f-b4e8-e6c662c5ba23.pdf",
+  }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        generateTable();
+    </script>
+</body>
+
+</html>

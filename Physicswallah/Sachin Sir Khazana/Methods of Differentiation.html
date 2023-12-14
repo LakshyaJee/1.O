@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+let lessonName = "Methods of Differentiation";
+const lectureData= [
+{
+    "lectureNumber": 1,
+    "lectureName": "Basics formulas of Differentiation, Product Rule, Quotient Rule & Chain Rule",
+    "lectureCode": "251b90da-9d29-4eda-ab0c-b3796ab3977c",
+    "classNotesCode": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/273d8d42-94ff-4cb0-a2dc-a779a1917005.pdf",
+    "dppsPdfCode": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/06d00360-3fc0-4f69-a47a-baa61cc57dd0.pdf"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Differentiation of Implicit Function, Important points of Differentiation",
+    "lectureCode": "725fbd42-c571-4b3d-ba56-af25d7f5fea0",
+    "classNotesCode": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/04591310-310e-4f7d-88a9-18d7b864bc4e.pdf",
+    "dppsPdfCode": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/b2ec582d-1d58-43ad-94ab-49722b3d0732.pdf"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Parametric differentiation, Differentiation using Trigonometric substitution & Differentiation of Inverse Function || NO DPP",
+    "lectureCode": "29d62940-6540-4d63-8c11-0bff4d84dd19",
+    "classNotesCode": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/aad412c4-8982-4afe-b269-a40fc0f7d607.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Differentiation using Trigonometric Substitution, Higher order Derivatives, Question Practice",
+    "lectureCode": "0dae328f-432a-4c7a-9e4c-a204580d88c5",
+    "classNotesCode": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/4113e30f-dd37-44dd-9b09-eb3f19f579d0.pdf",
+    "dppsPdfCode": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/7f8baf5b-4817-4da0-a033-34c9825a7e07.pdf"
+  }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        generateTable();
+    </script>
+</body>
+
+</html>
