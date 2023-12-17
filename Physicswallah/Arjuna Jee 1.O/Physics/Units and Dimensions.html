@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+let lessonName = "Units and Dimensions";
+const lectureData= [
+{
+    "lectureNumber": 1,
+    "lectureName": "Units , Dimensions and Measurements 01 : Units and Unit Systems",
+    "lectureCode": "cf210a22-7d1b-410f-8a5e-0732205deac8",
+    "classNotesCode": "c45059e1-ea16-4d42-b8fc-01cc216716a0.pdf",
+    "dppsPdfCode": "e9804c6b-3b1f-424a-905e-0040a7311d15.pdf",
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Units , Dimensions and Measurements 02 : Supplementary Units and Conversion of Units || No DPP",
+    "lectureCode": "59fd8cd0-00d3-4468-86a3-815009f7c8d1",
+    "classNotesCode": "b1b6aca3-73c6-4a62-b9d5-f478554cb6e1.pdf",
+    "dppsPdfCode": "",
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Units , Dimensions and Measurements 03 : Conversion of Units",
+    "lectureCode": "2e9a65b0-4734-43c2-a2a7-445444edf7b8",
+    "classNotesCode": "81882537-69c9-455a-9b9f-30b28b9b74bb.pdf",
+    "dppsPdfCode": "d9ad315d-60ae-46b8-b5f9-a2c91f9ebaa6.pdf",
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Units , Dimensions and Measurements 04 : Dimensions and Dimensional Formulas",
+    "lectureCode": "5cffb06e-efd0-4dbb-84f5-d408fb8472ab",
+    "classNotesCode": "539d3d9d-8558-4d0d-8750-c3f6a49efc6c.pdf",
+    "dppsPdfCode": "026b0d51-47e4-4d6c-a3f9-6552a37f28b3.pdf",
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Units , Dimensions and Measurements 05 : Important Dimensions",
+    "lectureCode": "dbd7e684-b41a-4e0f-a19e-e6bd49a5b670",
+    "classNotesCode": "866d9878-2c6b-4955-8021-3b8663ead0a8.pdf",
+    "dppsPdfCode": "d6080b4e-8427-4998-a1d7-892191ec65bd.pdf",
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Units , Dimensions and Measurements 06 : Principle of Homogeneity",
+    "lectureCode": "a2c865eb-2353-4869-8d03-5a6e6d41de75",
+    "classNotesCode": "d5f10557-699a-4a30-b966-0879ea8c33ad.pdf",
+    "dppsPdfCode": "412b6e50-29c9-40c7-a543-d372150e00c9.pdf",
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Units , Dimensions and Measurements 07 : Application of Dimension Analysis",
+    "lectureCode": "c2947072-ee82-4870-b193-e9001bd777f5",
+    "classNotesCode": "8d0f0395-23d1-4206-ad2f-9332a48b6dcc.pdf",
+    "dppsPdfCode": "ba212cd2-445d-4d0f-8bca-1caf4a91a0c1.pdf",
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Units , Dimensions and Measurements 08 : Application of Dimensions (Part 02) II Recorded",
+    "lectureCode": "1df00eda-4da1-41b9-9675-6b731c4dde55",
+    "classNotesCode": "aae7964d-82c9-4e8e-bad5-89ce3d9c41df.pdf",
+    "dppsPdfCode": "1d322aa8-ecc0-4e31-9948-c1bce17829f9.pdf",
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Units , Dimensions and Measurements 09 : Parallax Method || No DPP",
+    "lectureCode": "47fb945d-4cce-40d4-8832-e5f7e8200638",
+    "classNotesCode": "3b5a31df-b6a9-44c1-955d-c7cd1bcf04b3.pdf",
+    "dppsPdfCode": "",
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Units , Dimensions and Measurements 10 : Significant Numbers",
+    "lectureCode": "0f75f0ae-ddca-48c5-b525-012c6ec0c768",
+    "classNotesCode": "62303533-3807-43f8-a737-bcb1086412d3.pdf",
+    "dppsPdfCode": "c75eaf8c-2e44-458a-8562-71712061d005.pdf",
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Units , Dimensions and Measurements 11 : Round Off and Errors || No DPP || Recorded",
+    "lectureCode": "fc3464f5-a0fd-4be9-95d6-0fdba9fe13ee",
+    "classNotesCode": "380b8fa1-c25e-4728-8253-cbb8694452f5.pdf",
+    "dppsPdfCode": "",
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Units , Dimensions and Measurements 12 : Errors",
+    "lectureCode": "963a9aa5-2df7-4618-9ce9-624160395a72",
+    "classNotesCode": "df7360bf-f1ce-4075-b614-dbdb51d44d91.pdf",
+    "dppsPdfCode": "c9c1a590-e360-4597-90a2-4b215ac0609d.pdf",
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Units , Dimensions and Measurements 13 : Errors Analysis || Extra Lecture || Recorded",
+    "lectureCode": "dc4467f5-4297-4f1a-9291-021c1fb184c0",
+    "classNotesCode": "6af153b4-a173-4619-b61f-9dd8ff49314b.pdf",
+    "dppsPdfCode": "82aae3c5-2c91-4001-a475-8640b8bd9278.pdf",
+  },
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        generateTable();
+    </script>
+</body>
+
+</html>
