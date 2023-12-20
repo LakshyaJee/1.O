@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+let lessonName = "Some Basics Concept of Chemistry";
+const lectureData= [
+{
+    "lectureNumber": 1,
+    "lectureName": "Some Basic Concept Of Chemistry -01 : Matter & It's Classification || (No DPP)",
+    "lectureCode": "71c387df-ecaa-4279-aaea-d1e9e80f75e6",
+    "classNotesCode": "cf52a170-3393-4888-abe6-2e28044bd051.pdf",
+    "dppsPdfCode": "7d98ab86-e0a2-4b39-8604-9c4e71c3ee13.pdf",
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Some Basic Concept Of Chemistry -02 : Atomic Mass",
+    "lectureCode": "168122ac-fb2c-40c2-86ee-28353f2e348d",
+    "classNotesCode": "8c0a86d4-82fd-4cfd-b78c-d67db1a0c6e0.pdf",
+    "dppsPdfCode": "",
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Some Basic Concept Of Chemistry -03 : A.A.M & G.A.M || Mole Concept || No DPP",
+    "lectureCode": "dcd80d11-4f36-4d55-8020-d2dd21ff4546",
+    "classNotesCode": "164a31fb-2d97-4e07-a8cf-a6b527be4a56.pdf",
+    "dppsPdfCode": "",
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Some Basic Concept Of Chemistry -04 : Mole Concept (Continued)",
+    "lectureCode": "53911f62-0db5-4436-93ab-0cf6bf0d65db",
+    "classNotesCode": "709d17f6-c30b-4196-9f59-35416e448f55.pdf",
+    "dppsPdfCode": "439e6a9d-6305-4b74-bbac-66774d3a97db.pdf",
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Some Basic Concept Of Chemistry -05 : Average Molecular Mass || Average Atomic Mass || No DPP",
+    "lectureCode": "68c0175f-7f9b-49f1-a38d-951249545731",
+    "classNotesCode": "f8169bdd-d26c-4474-8a30-14f8d473e101.pdf",
+    "dppsPdfCode": "",
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Some Basic Concept Of Chemistry -06 : Average Atomic Mass || Stoichiometry",
+    "lectureCode": "31266406-70f7-41e0-9a1a-66a0731ea742",
+    "classNotesCode": "a6645bec-99da-4655-8734-c81e6d39d785.pdf",
+    "dppsPdfCode": "b4a34de4-1eca-4556-bef4-c0506c232f8a.pdf",
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Some Basic Concept Of Chemistry -07 : Stoichiometry || Limiting Reagent || (No DPP)",
+    "lectureCode": "0b9d6115-ea55-4a34-8d53-76d1ce24bcdb",
+    "classNotesCode": "c5c5d295-49c6-46eb-925d-b2c07e5afc7e.pdf",
+    "dppsPdfCode": "",
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Some Basic Concept Of Chemistry -08 : Percentage Yield || Dalton Atomic Theory",
+    "lectureCode": "dd1e76d3-a61f-498f-a8b0-d497eced30bb",
+    "classNotesCode": "d39ac409-bb2d-4012-b00c-32b04e7c8ef0.pdf",
+    "dppsPdfCode": "e99cd038-604f-4259-808d-4228d4835605.pdf",
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Some Basic Concept Of Chemistry -09 : Laws of Multiple Proportions || Gay Lussac Law || Empirical & Molecular Formula || (No DPP)",
+    "lectureCode": "2abd0989-2afb-4423-b585-d620bdd20988",
+    "classNotesCode": "32ad3b4a-1d3e-4cbb-b5fc-b1b6e438fedb.pdf",
+    "dppsPdfCode": "",
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Some Basic Concept Of Chemistry -10 : Concentration Terms (Part 01)",
+    "lectureCode": "cbb52ecf-3451-4380-899c-d5131f663f39",
+    "classNotesCode": "4981a81a-57aa-4fbf-9252-c7924f7a2d62.pdf",
+    "dppsPdfCode": "c43857ab-43fd-4d28-af26-dca73ef1b2f7.pdf",
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Some Basic Concept Of Chemistry -11 : Concentration Terms (Part 02) || (No DPP)",
+    "lectureCode": "bd30a9d0-0418-43ae-b696-274f2f265a26",
+    "classNotesCode": "3e7ab2a1-9dd4-47d0-a10a-c5bccdcb294d.pdf",
+    "dppsPdfCode": "",
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Some Basic Concept Of Chemistry -12 : Concentration Terms (Part 03)",
+    "lectureCode": "d43bc311-d0ae-4f15-a12f-8c2164af4aea",
+    "classNotesCode": "6c3e500a-1340-4303-88d0-15e9b2c3c290.pdf",
+    "dppsPdfCode": "af9fa03a-812a-4302-a4c5-fa23a96f6e2d.pdf",
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Some Basic Concept Of Chemistry -13 : Normality & n Factor Calculation || (No DPP)",
+    "lectureCode": "a07329fc-0b6c-40dc-8776-e1128be1d626",
+    "classNotesCode": "ca2a0aed-150b-453f-9616-d2e8ee8c0cb1.pdf",
+    "dppsPdfCode": "",
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Some Basic Concept Of Chemistry -14 : Concentration Of Mixtures || Significant Figures",
+    "lectureCode": "3437ee47-6495-494e-b721-5d8b6c847a98",
+    "classNotesCode": "c46153c5-4458-48de-9284-5f2d4bcb2906.pdf",
+    "dppsPdfCode": "eca6167d-8389-4d70-b50b-60d58d3a5425.pdf",
+  },
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        generateTable();
+    </script>
+</body>
+
+</html>
