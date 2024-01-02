@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+    <script>
+let lessonName = "Quadratic Equations";
+const lectureData= [
+{
+    "lectureNumber": 1,
+    "lectureName": "Quadratic Equations 01 : Equation & Identities || Quadratic Equation || Sum, Product & Difference of Roots || (No DPP)",
+    "lectureCode": "6d6a6340-dbce-416b-97fb-051ad9641937",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Quadratic Equations 02 : Symmetric Expression of Roots || Newton's Formula || Nature of Roots || Question Practice",
+    "lectureCode": "8158d597-763d-4cc8-b19e-67297185c2ff",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Quadratic Equations 03 : Nature of Roots || Graph of Quadratic || Question Practice",
+    "lectureCode": "bae0ae0e-4c98-4789-b5f2-f953aad5ea5e",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Quadratic Equations 04 : Graph of Quadratic || Range of Quadratic || Common Root Condition || Question Practice",
+    "lectureCode": "e4431db0-92a4-46be-8aed-ecaed602ff21",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Quadratic Equations 05 : Range of Quadratic & Functions Reducible To Quadratic || Common Root Condition || Question Practice",
+    "lectureCode": "92f357e4-2bb0-40b0-9cc2-073d506ff959",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Quadratic Equations 06 : Common Root Condition || Range of Rational Functions || Question Practice",
+    "lectureCode": "f9152a05-92f7-4118-9036-f062dbf5e69b",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Quadratic Equations 07 : Location of Roots || Question on Location of Roots",
+    "lectureCode": "0b5d7589-f26f-459b-b21f-17333d6c2c3d",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Quadratic Equations 08 : Higher Degree Polynomial Equations || Transformation of Equations || Equations Reducible to Quadratic || Question practice",
+    "lectureCode": "c36bb596-4b1a-4ca5-9631-f39274664f4b",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        generateTable();
+    </script>
+</body>
+
+</html>

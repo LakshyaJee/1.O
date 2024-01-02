@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+    <script>
+let lessonName = "Sequences and Series";
+const lectureData= [
+
+  {
+    "lectureNumber": 1,
+    "lectureName": "Sequence & Series 01 : Factor & Remainder Theorem || Equations Reducible to Quadratic || Basics of Arithmetic Progression || (No DPP)",
+    "lectureCode": "b2b29d66-5f81-4e04-9d88-fecbf696a8af",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Sequence & Series 02 : Arithmetic Progression || Properties of A.P. || Different Types of Questions on A.P. || (No DPP)",
+    "lectureCode": "b828a24a-fff0-4cba-8f6f-3f92684fd7c6",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Sequence & Series 03 : Different Types of Questions on A.P. || Introduction to Geometric Progression",
+    "lectureCode": "ed7a4856-15b4-422c-abaf-7fafe3990f9a",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Sequence & Series 04 : Different types of Questions on G.P. || Introduction to Harmonic Progression",
+    "lectureCode": "e57f64a7-7913-40be-b64f-55f9f5e3ebc3",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Sequence & Series 05 : Arithmetic, Geometric & Harmonic Means || Inserting AM's, GM's, HM's || Question Practice",
+    "lectureCode": "db4feb7a-9484-476e-a5e8-643674b7bf50",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Sequence & Series 06 : A.G.P. || Properties of Sigma || Miscellaneous Sequence",
+    "lectureCode": "6201f11f-f263-4c02-9f31-08e67b6b1e66",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Sequence & Series 07 : Miscellaneous Sequence || Telescopic Method of Difference || Question Practice",
+    "lectureCode": "f21adfdd-df7a-466a-8994-c67f10fddba6",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Sequence & Series 08 : Telescopic Method of Difference || AM-GM-HM Inequality || Question Practice",
+    "lectureCode": "3c91172b-0ac9-46d6-8a7b-2f2615f3afb0",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Sequence & Series 09 : Questions on AM-GM-HM Inequality || Log & Exponential Series || Question Practice",
+    "lectureCode": "b1d9e9b4-53fb-46c8-9e61-b9683464c270",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  }
+];
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        generateTable();
+    </script>
+</body>
+
+</html>

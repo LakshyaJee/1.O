@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <script>
+let lessonName = "Basics Mathematics";
+const lectureData= [
+{
+    "lectureNumber": 1,
+    "lectureName": "Basic Mathematics 01 : Basic Points || Basic Identities & Factorization || Sets & their Symbols || (No DPP)",
+    "lectureCode": "a795f9be-8969-4c44-b54a-615409acb0a5",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Basic Mathematics 02 : Basic Identities & Factorization || Questions Practice || Different Types of Numbers (Number System, Sets, Symbols)",
+    "lectureCode": "bcadb6d3-08c3-4541-8930-a435305673bf",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Basic Mathematics 03 : Identities || Different Types of Numbers (Number System) || Question Practice",
+    "lectureCode": "2c6406ee-1e68-4642-ad8f-195b968b5d5e",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Basic Mathematics 04 : Different Types of Numbers (Number System) || Question Practice || Law of Indices || Intervals & Solution Representation",
+    "lectureCode": "852e76ac-62a4-4ea7-bd7c-c0aa7e041d72",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Basic Mathematics 05 : Law of exponent || Intervals || Basic of Inequality",
+    "lectureCode": "d1bbaf00-8935-4aea-95d4-220d96d0b466",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Basic Mathematics 06 : Basic of Inequality || Wavy Curve Method",
+    "lectureCode": "6451cc14-3390-4792-8e1b-dac8141ab499",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Basic Mathematics 07 : Wavy Curve Method || (No DPP)",
+    "lectureCode": "a0149bc0-7360-420d-aef6-3bbf565e3a31",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Basic Mathematics 08 : Wavy Curve Method || Question Practice",
+    "lectureCode": "9a66c081-7d21-4de3-859d-14a1098d4943",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Basic Mathematics 09 : Irrational Equations & Inequalities || Questions Practice",
+    "lectureCode": "f74f5869-32fa-456e-abc4-a05d7910f802",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Basic Mathematics 10 : Irrational Equations & Inequalities || Modulus Function || Question Practice",
+    "lectureCode": "3844ea19-40e8-4e0d-9b6c-4dc8c01cb45b",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Basic Mathematics 11 : Modulus Function || Modulus Inequality || Question Practice",
+    "lectureCode": "2d90e511-fe7d-4512-bb53-a85016f88ccf",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Basic Mathematics 12 : Modulus Inequality || Logarithm || Question Practice",
+    "lectureCode": "58c691ba-dab3-409b-8f16-111c09b385a5",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Basic Mathematics 13 : Modulus Inequality || Logarithm & its Properties || Question practice",
+    "lectureCode": "fee9a8d7-a244-4616-b105-d8e7ea3efbb9",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Basic Mathematics 14 : Logarithm & Its Properties || Logarithm Equations & Inequality",
+    "lectureCode": "d1f9bc99-262e-4206-a910-d69e6f75fa3a",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Basic Mathematics 15 : Logarithm Equations || Logarithm Inequality || Question Practice",
+    "lectureCode": "d36508bf-1b8b-46be-8dac-6cf50870c4d0",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Basic Mathematics 16 : Logarithmic Inequality || Exponential Function || Equation & Inequality || (No DPP)",
+    "lectureCode": "cfb1731e-3f96-45c3-85ac-005f01f8a562",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Basic Mathematics 17 : Exponential Function || Equation & Inequality || Question Practice",
+    "lectureCode": "0d1d0230-bafa-4e7d-967a-61572014b671",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Basic Mathematics : Homework Discussion || (Extra Recorded)",
+    "lectureCode": "f92893e9-056c-4eb5-b17b-55a9f5f4727f",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  }
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        generateTable();
+    </script>
+</body>
+
+</html>
