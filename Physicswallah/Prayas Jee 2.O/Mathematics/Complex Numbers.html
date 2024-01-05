@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+    <script>
+let lessonName = "Complex Numbers";
+const lectureData= [
+{
+    "lectureNumber": 1,
+    "lectureName": "Complex Number 01 : Powers of Iota || Introduction to Complex Number || Three Important Terms || Question Practice || NO DPP || Reschedule @01:30 PM",
+    "lectureCode": "52061566-4022-47a2-a76f-3f8fa360a8bf",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Complex Number 02 : Modulus, Argument & Conjugate || Properties Of Modulus, Argument & Conjugate || Question Practice || Reschedule @ 11:15 AM",
+    "lectureCode": "3e1c7031-080b-4fc0-ac55-2f9a5ac7c737",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Complex Number 03 : Properties Of Modulus, Argument & Conjugate || Euler's Identity || Question Practice || Reschedule @01:30 PM",
+    "lectureCode": "f9128fce-0eb5-4c0d-a925-d4c7129f9ae4",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Complex Number 04 : Polar & Euler's Form || De Moivre's Theorem || Log Of Complex Number || (No DPP) || Reschedule @11:30 AM",
+    "lectureCode": "1d4301cc-2cca-4672-8042-b1f4e2cfe4f3",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Complex Number 05 : Cube Root Of Unity || De Moivre's Theorem || Log Of Complex Number || nth Root Of Unity || Reschedule @2:00 PM",
+    "lectureCode": "41be6736-e82b-4003-8bf2-2da512597152",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Complex Number 06 : nth Root Of Unity || Questions On Cube and nth Root Of Unity || Geometry Of Complex Number",
+    "lectureCode": "93abbf66-7d96-45e0-96cf-6549178ca880",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Complex Number 07 : Geometry Of Complex Number || Locus Based on Modulus || Locus Based on Argument",
+    "lectureCode": "678665c1-1f74-413a-830e-f329ad6fe2b5",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Complex Number 08 : Equation of Locus || Straight Line & Circle || Question Practice",
+    "lectureCode": "7c76189a-af90-4e52-956d-5e46eaab6d03",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        generateTable();
+    </script>
+</body>
+
+</html>
