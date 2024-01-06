@@ -199,6 +199,12 @@ const lectureData= [
                     cell5.innerHTML = `
                         <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
                     `;
+
+                    const cell6 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell6.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;    
                 }
             });
         }
