@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quality Selection</title>
     <style>
         body {
             background-color: #f0f0f0;
@@ -79,15 +81,14 @@
         function playVideo() {
             const quality = document.getElementById('qualityOptions').value;
 
-            // Get the lecture code from the URL
+            // Get the lectureCode or dppsSolutionCode from the URL
             const urlParams = new URLSearchParams(window.location.search);
             const lectureCode = urlParams.get('lectureCode');
+            const dppsSolutionCode = urlParams.get('dppsSolutionCode');
 
-            // Determine the video link based on the selected quality
-            const videoLinkWithQuality = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${quality}/main.m3u8`;
-
-            // Determine the video link based on the selected quality
-            const videoLinkWithQuality = `https://d26g5bnklkwsh4.cloudfront.net/${dppsSolutionCode}/hls/${quality}/main.m3u8`;
+            // Determine the video link based on the available parameter
+            const codeToUse = lectureCode || dppsSolutionCode;
+            const videoLinkWithQuality = `https://d26g5bnklkwsh4.cloudfront.net/${codeToUse}/hls/${quality}/main.m3u8`;
 
             // Check if the device is mobile
             const isMobile = window.innerWidth <= 600;

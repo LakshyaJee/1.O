@@ -11,7 +11,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            
         }
 
         table {
@@ -79,15 +78,112 @@
             <th>Sr. No</th>
             <th>Lecture Number</th>
             <th>Lecture</th>
+            <th>Dpps Solution Video</th>
             <th>Class Notes PDF</th>
-            <th>DPP PDF</th>
+            <th>Dpps PDF</th>
         </tr>
     </table>
     <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
     <script>
-let lessonName = "Ray Optics and Optical Instruments";
-const lectureData= [
-    
+        let lessonName = "GOC";
+        const lectureData = [
+        {
+    "lectureNumber": 1,
+    "lectureName": "GOC 01 : Basics of Organic Chemistry || (No DPP)",
+    "lectureCode": "baa9e3d6-4469-4252-8b8c-71532b4c2ef2",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "GOC 02 : Inductive Effect & its Application",
+    "lectureCode": "282986aa-a888-450f-94ac-00f276cf0a7f",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "GOC 03 : Resonance || Practice",
+    "lectureCode": "7dfe6447-7b19-4b57-970b-dd6c015077af",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "GOC 04 : Stability Of Resonating Structures || Practice",
+    "lectureCode": "901a671b-6bc0-4f1d-913b-e4a002f3633f",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "GOC 05 : Mesomeric Effect || Practice || No DPP",
+    "lectureCode": "98ff8c6a-34cb-4abe-936d-65c639db78a8",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "GOC 06 : Applications Of Mesomeric Effect || Acidic Strength of Carboxylic Acids and Phenols || Practice",
+    "lectureCode": "3774ef80-16d4-4205-b450-4746c23078b1",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "GOC 07 : Basic Strength || Question",
+    "lectureCode": "31436745-7896-4cd9-a638-2accd1d4cba8",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "GOC 08 : Hyperconjugation and It's Application || Practice",
+    "lectureCode": "f52b0adb-9dfd-459f-90db-69b93102aa97",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "GOC 09 : Aromaticity || Practice",
+    "lectureCode": "5ba0724f-7eee-438a-997e-ad4fe2b34849",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "GOC 10 : Stability of Intermediates || Practice",
+    "lectureCode": "bab24426-2172-402d-98e5-51bdd1e09649",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "GOC 11 : Tautomerism || Resonance energy || Feasible Reactions || Heat of Combustion",
+    "lectureCode": "fcdfe11a-6131-45e9-a6a0-0bd85ecf326a",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "GOC 12 : PYQS || Practice & Revision",
+    "lectureCode": "13450c43-f5d7-4b85-a8db-cfa6a913bf8f",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+];
 
         function generateClassNotesLink(classNotesCode) {
             const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
@@ -117,6 +213,14 @@ const lectureData= [
             window.open(qualitySelectUrl, '_blank');
         }
 
+        function showSolutionOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const solutionSelectUrl = `quality-select.html?lessonName=${lessonName}&dppsSolutionCode=${lecture.dppsSolutionCode}`;
+            window.open(solutionSelectUrl, '_blank');
+        }
+
         function generateTable() {
             const table = document.querySelector('table');
 
@@ -131,16 +235,25 @@ const lectureData= [
                 `;
 
                 const cell4 = row.insertCell(3);
-                cell4.innerHTML = `
+                if (lecture.dppsSolutionCode) {
+                    cell4.innerHTML = `
+                        <button onclick="showSolutionOptions(${index})">View Solutions</button>
+                    `;
+                } else {
+                    cell4.textContent = ""; // No DPPS Solution, leave the cell empty
+                }
+
+                const cell5 = row.insertCell(4);
+                cell5.innerHTML = `
                     <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
                 `;
 
-                const cell5 = row.insertCell(4);
+                const cell6 = row.insertCell(5);
                 if (lecture.dppsPdfCode) {
-                    cell5.innerHTML = `
+                    cell6.innerHTML = `
                         <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
                     `;
-                }
+                } 
             });
         }
 

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        table {
+            width: 75%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Dpps Solution Video</th>
+            <th>Class Notes PDF</th>
+            <th>Dpps PDF</th>
+        </tr>
+    </table>
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+    <script>
+        let lessonName = "Isomerism";
+        const lectureData = [
+        {
+    "lectureNumber": 1,
+    "lectureName": "Isomerism 01 : Isomerism || Types of Isomerism || Structural Isomerism",
+    "lectureCode": "3d8688ff-d4bf-41bc-998e-2b208e813eff",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": "5cb69c65-505a-405f-92de-b6ce03dd3b6a"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Isomerism 02 : Calculation of number of Structural Isomers || Practice",
+    "lectureCode": "f276ce7f-fd50-4f83-9ba3-e348e580b1c1",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Isomerism 03 : Geometrical Isomerism Exhibition",
+    "lectureCode": "a9ba0938-d9dc-4cac-9f46-ba0794b13be4",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": "75baf80c-a2bd-4374-bce2-45da66d11f0b"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Isomerism 04 : Geometrical Isomerism Part 2 || (No DPP)",
+    "lectureCode": "16102c8e-00ac-4a0b-8b4d-42487e43c241",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": "2e88ebfa-fe39-41d5-8cdd-d673bf649c7d"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Isomerism 05 : Special Cases of Geometric Isomerism || Practice",
+    "lectureCode": "25606457-2ef6-4aa6-98e1-d0da6d2836f9",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": "a65c1fbb-0307-42f6-8125-7f0eb2351eeb"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Isomerism 06 : Chiral Centers and Stereo Centers || POS/COS || R/S Nomenclature",
+    "lectureCode": "dcfb5c0b-a1c5-427d-8b44-2f854e258a4d",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Isomerism 07 : Polarimeter Experiment || Optical Active/Inactive Compound",
+    "lectureCode": "a9955f7f-f4e5-449c-ad0d-ba427fa15695",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": "7f00c4ff-2fbf-49f0-8d3e-cf37c3aab781"
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Isomerism 08 : Axis of Symmetry/Alternate Axis of Symmetry || Polarimeter Experiment || Optical Active/Inactive Compound",
+    "lectureCode": "1194b71e-5403-4ae8-9a20-ae028380cb26",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": "95a3b25b-7282-4bcc-a68c-c22bc8a3d107"
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Isomerism 09 : Enantiomers/Diastereomers/Epimers || Racemic Mixture, Resolution and Meso Compounds",
+    "lectureCode": "e9fd92fd-59bb-47c2-8fdf-f180fd2c6eb2",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": "fed505a8-1383-4e33-a742-6e441bb52067"
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Isomerism 10 : Racemic Mixture, Resolution and Meso Compounds || Pseudo Chiral Centers || D/L Erythro /Thereo",
+    "lectureCode": "1e40f212-ef50-4c12-8be5-2068098fe1cc",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": "3332fbba-7384-4bd0-9c92-4ec4b6795a02"
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Isomerism 11 : D/L Nomenclature, Erythro and Thereo Isomers || Special Cases of Optical Isomerism || Calculation of No. of Stereoisomers",
+    "lectureCode": "c4ed8a0c-8cb9-4248-bbee-e5b14a6effce",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": "408eb0d4-05c9-4b84-8486-7bfe89298dc1"
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Isomerism 12 : Optical Rotation, Specific Rotation & Enantiomeric Excess || Amine Inversion || Practice || (No DPP)",
+    "lectureCode": "c596d299-4aec-4df3-8825-970af1e36fb2",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": "e771696a-d311-4eb5-b94b-0551b95cc819"
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Isomerism 13 : Conformers Basics, Alkanes || Gauche Effect || Practice",
+    "lectureCode": "09f5aa1a-efb5-451c-8e15-45c541ad56c1",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": "aa659c0c-d957-43ec-ab63-1a32f795fe88"
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Isomerism 14 : Conformers of Cycloalkanes || Conversion of Formulae || Practice",
+    "lectureCode": "e51dc154-845e-4a86-a45f-359df5b590d9",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": "fa32950d-aef4-4dc0-bc6a-83f4765cffb4"
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Isomerism 15 : Conversion of Formulae || PYQs of Isomerism",
+    "lectureCode": "d2496dae-4425-4463-87f2-c51e7fe1b1d8",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": "1cf51748-43eb-4cf2-b0b4-a29b8dffd533"
+  }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function showSolutionOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const solutionSelectUrl = `quality-select.html?lessonName=${lessonName}&dppsSolutionCode=${lecture.dppsSolutionCode}`;
+            window.open(solutionSelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                if (lecture.dppsSolutionCode) {
+                    cell4.innerHTML = `
+                        <button onclick="showSolutionOptions(${index})">View Solutions</button>
+                    `;
+                } else {
+                    cell4.textContent = ""; // No DPPS Solution, leave the cell empty
+                }
+
+                const cell5 = row.insertCell(4);
+                cell5.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell6 = row.insertCell(5);
+                if (lecture.dppsPdfCode) {
+                    cell6.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                } 
+            });
+        }
+
+        generateTable();
+    </script>
+</body>
+
+</html>
