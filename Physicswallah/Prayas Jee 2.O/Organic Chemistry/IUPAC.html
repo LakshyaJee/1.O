@@ -200,8 +200,8 @@ const lectureData= [
                         <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
                     `;
 
-                    const cell6 = row.insertCell(4);
-                if (lecture.dppsPdfCode) {
+                    const cell6 = row.insertCell(5);
+                if (lecture.dppsSolutionCode) {
                     cell6.innerHTML = `
                     <button onclick="showQualityOptions(${index})">View Lecture</button>
                 `;    
