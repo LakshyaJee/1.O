@@ -115,10 +115,7 @@
             const isMobile = window.innerWidth <= 600;
 
             if (isMobile) {
- 
-                // Redirect to 1DM on mobile devices
-                window.location.href = `intent://${videoLinkWithQuality}`;
-=======
+
                 // Open 1DM app with the provided intent link
                 window.location.href = `intent:${encodeURIComponent(videoLinkWithQuality)}#Intent;package=idm.internet.download.manager;end`;
             } else {
