@@ -117,7 +117,7 @@
             if (isMobile) {
 
                 // Open 1DM app with the provided intent link
-                window.location.href = `intent:${encodeURIComponent(videoLinkWithQuality)}#Intent;package=idm.internet.download.manager;end`;
+                window.location.href = `intent:${videoLinkWithQuality}#Intent;package=idm.internet.download.manager;end`;
             } else {
                 // Show a message that this feature is for mobile devices only
                 alert('Download feature is available for mobile devices only.');
