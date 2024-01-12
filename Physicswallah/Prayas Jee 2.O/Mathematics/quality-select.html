@@ -116,7 +116,7 @@
 
             if (isMobile) {
                 // Redirect to 1DM on mobile devices
-                window.location.href = `intent://download?url=${encodeURIComponent(videoLinkWithQuality)}`;
+                window.location.href = `intent://download?url=${videoLinkWithQuality}`;
             } else {
                 // Show a message that this feature is for mobile devices only
                 alert('Download feature is available for mobile devices only.');
