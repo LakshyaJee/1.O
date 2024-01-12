@@ -11,17 +11,25 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 100vh;
         }
 
-        .quality-select-container {
-            background-color: #fff;
-            border: 1px solid #ccc;
-            padding: 20px;
-            text-align: center;
-            max-width: 400px;
-            width: 100%;
-            box-sizing: border-box;
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
         }
 
         button {
@@ -42,15 +50,23 @@
         button:hover {
             background-color: white;
             color: black;
-            border: 1px solid #4caf50;
+            border: 1px solid #a6cbe4;
         }
 
-        p {
-            margin-top: 20px;
-        }
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
 
-        .copy-button {
-            display: none;
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
         }
     </style>
 </head>
@@ -68,6 +84,8 @@
         <br><br>
         <button onclick="playVideo()">Play Now</button>
         <br><br>
+        <button onclick="downloadVideo()">Download Now</button> <!-- Added 'Download Now' button -->
+        <br><br>
         <p id="lectureLink"></p>
         <br><br>
         <button class="copy-button" onclick="copyLink()">Copy Now</button>
@@ -76,7 +94,7 @@
     </div>
 
     <script>
-        function playVideo() {
+         function playVideo() {
             const quality = document.getElementById('qualityOptions').value;
 
             // Get the lecture code from the URL
@@ -96,6 +114,28 @@
                 // Show the video link with a copy button on desktop
                 document.getElementById('lectureLink').innerText = videoLinkWithQuality;
                 document.querySelector('.copy-button').style.display = 'inline-block';
+            }
+        }
+
+        function downloadVideo() {
+            const quality = document.getElementById('qualityOptions').value;
+
+            // Get the lecture code from the URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const lectureCode = urlParams.get('lectureCode');
+
+            // Determine the video link based on the selected quality
+            const videoLinkWithQuality = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${quality}/main.m3u8`;
+
+            // Check if the device is mobile
+            const isMobile = window.innerWidth <= 600;
+
+            if (isMobile) {
+                // Redirect to 1DM on mobile devices
+                window.location.href = `1dm://download?url=${encodeURIComponent(videoLinkWithQuality)}`;
+            } else {
+                // Show a message that this feature is for mobile devices only
+                alert('Download feature is available for mobile devices only.');
             }
         }
 
