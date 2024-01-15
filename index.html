@@ -12,6 +12,13 @@
             color: #000;
             margin: 0;
         }
+        {
+            transition: background 0.5s ease; /* Add a smooth transition effect */
+        }
+        .dark-theme {
+      background-color: #333; /* Set the dark background color */
+      color: #fff; /* Set the text color for better visibility on dark background */
+       }
 
         #header {
             text-align: center;
@@ -1277,7 +1284,9 @@ function showContent(batchName, subject, lesson) {
                 content.style.marginLeft = '220px';
             }
         }
-        
+        function toggleBackground() {
+    document.body.classList.toggle('dark-theme');
+  }        
        
 // Function to close the banner after 10 seconds and show the banner initially
 window.onload = function () {
