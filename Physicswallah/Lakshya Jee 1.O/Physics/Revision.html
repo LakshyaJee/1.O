@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Generated Tables -->
+    <!-- Table 1: Biodiversity Conservation and Environmental Issues -->
+    <h2>Biodiversity Conservation and Environmental Issues</h2>
+    <table id="table1">
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+
+    <!-- Script for generating data for Table 1 -->
+    <script>
+        let tablenumber = "1";
+        let lessonName1 = "Work, Power and Energy";
+        const lectureData1 = [
+        {
+    "lectureNumber": 13,
+    "lectureName": "Work, Power and Energy 02 : Relation Between Conservation Force And Potential Energy || Power || Vertical Circular Motion || NO DPP || Recorded",
+    "lectureCode": "7e086c15-445d-4cda-888a-274ec65ace35",
+    "classNotesCode": "a153aaa7-843f-47e8-9694-c1df04a049ec.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Work, Power and Energy 01 : Work || Work Energy Theorem || Conservation Of Mechanical Energy || NO DPP || Recorded",
+    "lectureCode": "ff2cbbdb-72d2-462e-a9ac-56c7f1c647ce",
+    "classNotesCode": "f29ba863-f8fe-4543-814a-6d416c682145.pdf",
+    "dppsPdfCode": ""
+  }
+];
+
+        let tablenumber = "2";
+        let lessonName2 = "Rotational Motion";
+        const lectureData2 = [
+        {
+    "lectureNumber": 17,
+    "lectureName": "Rotational Motion 01 : Rotational Motion || Velocity And Acceleration Profile || Torque || NO DPP || Recorded",
+    "lectureCode": "89d6ccbd-3629-41eb-8b62-c796788a6ff3",
+    "classNotesCode": "c9c04f9f-f5e3-4b11-95b6-7a62e19d56db.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Rotational Motion 02 : Rigid Body Constraints || Equilibrium And Dynamics Of Rotational Motion || Kinetic Energy In Rotational Motion || NO DPP || Recorded",
+    "lectureCode": "4c0969de-c040-4751-896d-271ef6bd9490",
+    "classNotesCode": "0f7eff47-7422-4fd1-8d49-aa6a4c56d959.pdf",
+    "dppsPdfCode": ""
+  }
+];
+
+        function generateTable(tableNumber) {
+    const table = document.getElementById(`table${tableNumber}`);
+    const lectureData = lectureDataMap[`lectureData${tableNumber}`]; // Assuming lectureDataMap is an object containing your lecture data
+
+    lectureData.forEach((lecture, index) => {
+        const row = table.insertRow();
+        row.insertCell(0).textContent = index + 1;
+        row.insertCell(1).textContent = lecture.lectureName;
+
+        const cell3 = row.insertCell(2);
+        cell3.innerHTML = `
+            <button onclick="showQualityOptions(${index})">View Lecture</button>
+        `;
+
+        const cell4 = row.insertCell(3);
+        cell4.innerHTML = `
+            <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+        `;
+
+        const cell5 = row.insertCell(4);
+        if (lecture.dppsPdfCode) {
+            cell5.innerHTML = `
+                <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+            `;
+        }
+    });
+}
+
+    function generateTables(startTableNumber, endTableNumber) {
+    for (let tableNumber = startTableNumber; tableNumber <= endTableNumber; tableNumber++) {
+        generateTable(tableNumber);
+    }
+}
+
+// Example usage
+generateTables(1, 5); // This will generate tables from 'table1' to 'table5'
+
+
+    </script>
+
+    <!-- Additional Tables for Other Topics (if needed) -->
+
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+    <script>
+        // Common Functions
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+    </script>
+</body>
+
+</html>
