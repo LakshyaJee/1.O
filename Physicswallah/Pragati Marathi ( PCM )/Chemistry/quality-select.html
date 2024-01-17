@@ -70,6 +70,8 @@
         <br><br>
         <button onclick="playVideo()">Play Now</button>
         <br><br>
+        <button onclick="downloadVideo()">Download Now</button>
+        <br><br>
         <p id="lectureLink"></p>
         <br><br>
         <button class="copy-button" onclick="copyLink()">Copy Now</button>
@@ -100,6 +102,29 @@
                 // Show the video link with a copy button on desktop
                 document.getElementById('lectureLink').innerText = videoLinkWithQuality;
                 document.querySelector('.copy-button').style.display = 'inline-block';
+            }
+        }
+
+        function downloadVideo() {
+            const quality = document.getElementById('qualityOptions').value;
+
+            // Get the lecture code from the URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const lectureCode = urlParams.get('lectureCode');
+
+            // Determine the video link based on the selected quality
+            const videoLinkWithQuality = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${quality}/main.m3u8`;
+
+            // Check if the device is mobile
+            const isMobile = window.innerWidth <= 600;
+
+            if (isMobile) {
+
+                // Open 1DM app with the provided intent link
+                window.location.href = `intent:${videoLinkWithQuality}#Intent;package=idm.internet.download.manager;end`;
+            } else {
+                // Show a message that this feature is for mobile devices only
+                alert('Download feature is available for mobile devices only.');
             }
         }
 
