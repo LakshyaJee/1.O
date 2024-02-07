@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Dpps Solution Video</th>
+            <th>Class Notes PDF</th>
+            <th>Dpps PDF</th>
+        </tr>
+    </table>
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+    <script>
+        let lessonName = "Basics of Organic Chemistry";
+        const lectureData = [
+        [
+  {
+    "lectureNumber": 3,
+    "lectureName": "Basics of Organic chemistry (OC) 03 : Classification of Organic Compound || IUPAC || Extra Class",
+    "lectureCode": "43d59ed7-065a-485e-91dc-3050fefe78f6",
+    "classNotesCode": "10e83841-81c8-47e2-b83c-fbec132fc288.pdf",
+    "dppsPdfCode": "3f10a6a5-0950-45e7-b3d7-f92caa2f9bc8.pdf",
+    "dppsSolutionCode": "422f81fe-162d-4041-8c71-71c0f60b7737"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Basics of Organic chemistry (OC) 02 : Classification of Organic Compound || Nomenclature || Extra Class || NO DPP",
+    "lectureCode": "c946a897-9df2-47ad-9bfb-7aa150c71cda",
+    "classNotesCode": "67a27556-0011-4ee7-bdc5-aaec50a7c312.pdf",
+    "dppsPdfCode": "495edd70-4dc8-449d-9353-2c408df00d1f.pdf",
+    "dppsSolutionCode": "7e1cfd2a-c425-47f5-b9b5-dcdde7dcd832"
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Basics of Organic chemistry (OC) 01: Valency & Hybridization || Drawing of Organic Molecules || Extra Class",
+    "lectureCode": "380c47e1-60d0-4c56-9be1-e2853b56d9fb",
+    "classNotesCode": "5348a325-de04-4501-b7ee-0cfc6e125bbb.pdf",
+    "dppsPdfCode": "64679782-6e05-44ab-a7e6-7e7ca8d27c2d.pdf",
+    "dppsSolutionCode": "c15a6233-404a-4e25-a4ca-2c46971d44a4"
+  }
+]
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function showSolutionOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const solutionSelectUrl = `quality-select.html?lessonName=${lessonName}&dppsSolutionCode=${lecture.dppsSolutionCode}`;
+            window.open(solutionSelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                if (lecture.dppsSolutionCode) {
+                    cell4.innerHTML = `
+                        <button onclick="showSolutionOptions(${index})">View Solutions</button>
+                    `;
+                } else {
+                    cell4.textContent = ""; // No DPPS Solution, leave the cell empty
+                }
+
+                const cell5 = row.insertCell(4);
+                cell5.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell6 = row.insertCell(5);
+                if (lecture.dppsPdfCode) {
+                    cell6.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                } 
+            });
+        }
+
+        generateTable();
+    </script>
+</body>
+
+</html>

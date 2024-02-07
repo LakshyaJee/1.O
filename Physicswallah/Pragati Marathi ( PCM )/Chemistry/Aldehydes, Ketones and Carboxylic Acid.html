@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Dpps Solution Video</th>
+            <th>Class Notes PDF</th>
+            <th>Dpps PDF</th>
+        </tr>
+    </table>
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+    <script>
+        let lessonName = "Aldehydes, Ketones and Carboxylic Acid";
+        const lectureData = [
+        {
+    "lectureNumber": 9,
+    "lectureName": "Aldehydes, ketones and Carboxylic acids : Practice Sheet  Discussion",
+    "lectureCode": "e1ad015d-d563-4e6e-8501-d6e0162e9621",
+    "classNotesCode": "d2413d07-b7c8-4500-8373-0251ad620966.pdf",
+    "dppsPdfCode": "810d37e9-b8cc-454b-bec7-6cc6b30c3e03.pdf",
+    "dppsSolutionCode": "3f40d1b3-0437-4ae4-93c7-c20e326d4279"
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Aldehydes, ketones and carboxylic acids 08 : Chemical Properties Of Aldehydes & Ketones",
+    "lectureCode": "79782e36-f42e-4ce9-b0c9-e867fbd88c21",
+    "classNotesCode": "c9377a81-2702-4b93-8a6a-0c1dfd9e6240.pdf",
+    "dppsPdfCode": "22ab843d-02bf-47ca-8cb8-99fa44e473f1.pdf",
+    "dppsSolutionCode": "9843c934-08bf-4519-868f-8109bbd8a082"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Aldehydes, ketones and carboxylic acids 07 : Chemical Properties Of Aldehydes & Ketones",
+    "lectureCode": "e23b2d42-85aa-425f-9524-3ee9693fa539",
+    "classNotesCode": "054799e5-7578-485f-afe8-321ca9804d13.pdf",
+    "dppsPdfCode": "b94a32a1-5208-475f-b40c-643653b2e099.pdf",
+    "dppsSolutionCode": "8d81241a-cc94-4ea1-8233-7e9787143954"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Aldehydes, ketones and carboxylic acids 06 : Chemical Properties Of Carboxylic Acids || NO DPP",
+    "lectureCode": "b5bcaf75-f88b-46f9-b758-abbdcefbc564",
+    "classNotesCode": "7808c260-f7bf-40de-8b74-78baa8931113.pdf",
+    "dppsPdfCode": "9e106323-016f-4c78-9f03-ec74ffcdbbef.pdf",
+    "dppsSolutionCode": "daa4207b-7791-4290-804f-631d60ab672d"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Aldehydes,Ketones and carboxylic acids 05 : Chemical Properties Of Aldehydes & Ketones",
+    "lectureCode": "27272ffd-94f7-4ab0-a881-1c7be07e94f1",
+    "classNotesCode": "84f5e963-7a1d-4dad-b47e-0822dd30a76c.pdf",
+    "dppsPdfCode": "0b4d3e0b-3c7f-4229-bfd5-a8e775da9c5b.pdf",
+    "dppsSolutionCode": "49efe5d4-edcc-4a26-8e65-1345d42b731b"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Aldehydes, ketones and carboxylic acids 04 : Reactivity Of Aldehydes & Ketones || Chemical Properties ( Recorded Lecture )",
+    "lectureCode": "4e344946-1612-4bae-bd59-72e4ccf309da",
+    "classNotesCode": "d9523e6d-3d42-4069-8c7a-84283a8b6a66.pdf",
+    "dppsPdfCode": "4c6b1cc2-a53c-442a-b3f6-539cc8aa6ed2.pdf",
+    "dppsSolutionCode": "28325eb8-b6a2-4105-9cec-4886557fe2cb"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Aldehydes, ketones and carboxylic acids 03 : Preparation and Physical properties of carboxylic acids",
+    "lectureCode": "1a19c5eb-9929-4b76-aaa3-8b1e860ace99",
+    "classNotesCode": "f77d2453-e6ef-4a18-8c26-4b525ce2146d.pdf",
+    "dppsPdfCode": "bca49741-a587-4854-bac3-955065620947.pdf",
+    "dppsSolutionCode": "f22a60f3-a776-4f14-997a-438106d5df9c"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Aldehydes, ketones and carboxylic acids 02 : Introduction || Classification || Nomenclature",
+    "lectureCode": "199adff4-c6b6-4271-8d72-7861f7b690fe",
+    "classNotesCode": "c68a823e-f329-4316-baea-9f6148d45bf3.pdf",
+    "dppsPdfCode": "fb379355-18a9-4f6a-bb25-7383dee7f71e.pdf"
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Aldehydes, ketones and carboxylic acids 01 : Introduction || Classification || Nomenclature",
+    "lectureCode": "8cd3abc9-8ab2-468e-9f7d-5abba3a950e1",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function showSolutionOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const solutionSelectUrl = `quality-select.html?lessonName=${lessonName}&dppsSolutionCode=${lecture.dppsSolutionCode}`;
+            window.open(solutionSelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                if (lecture.dppsSolutionCode) {
+                    cell4.innerHTML = `
+                        <button onclick="showSolutionOptions(${index})">View Solutions</button>
+                    `;
+                } else {
+                    cell4.textContent = ""; // No DPPS Solution, leave the cell empty
+                }
+
+                const cell5 = row.insertCell(4);
+                cell5.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell6 = row.insertCell(5);
+                if (lecture.dppsPdfCode) {
+                    cell6.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                } 
+            });
+        }
+
+        generateTable();
+    </script>
+</body>
+
+</html>
