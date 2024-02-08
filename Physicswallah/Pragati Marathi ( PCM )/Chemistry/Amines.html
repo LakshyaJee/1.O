@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+    <script>
+let lessonName = "Amines";
+const lectureData= [
+{
+    "lectureNumber": 5,
+    "lectureName": "Amines : Practice Sheet Discussion",
+    "lectureCode": "f706e36f-6653-4668-b99d-50252ebcd58b",
+    "classNotesCode": "3e345fb7-d318-4216-86d9-fc1cb55538e6.pdf",
+    "dppsPdfCode": "a83dae29-0034-4f40-9f53-e2e1f52f5540.pdf",
+    "dppsSolutionCode": "90100b13-3d8e-400f-bcdf-f49200a3ebde"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Amines 04 : Chemical properties of Amines",
+    "lectureCode": "4fedbbd7-c778-49a0-b5b1-807952859c9e",
+    "classNotesCode": "dbe91e00-5c8d-416f-81b8-5819ef8a3917.pdf",
+    "dppsPdfCode": "52af82fe-1783-476f-8841-6101f7f08f17.pdf",
+    "dppsSolutionCode": "47baacb3-c0ca-4b44-8e04-41eaba72fb8e"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Amines 03 : Chemical properties of Amines",
+    "lectureCode": "ee30da13-8930-4414-8701-97268c2854fd",
+    "classNotesCode": "71fc940f-10e5-4277-b796-111494fd8537.pdf",
+    "dppsPdfCode": "601139c5-8b70-4ef2-875d-3ec296217d8f.pdf",
+    "dppsSolutionCode": "a07b55cc-7b28-4686-be3a-6a6421007fe0"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Amines 02 : Physical and Chemical Properties of Amines",
+    "lectureCode": "e6917efc-4e99-4351-9cd3-45839c99f3c0",
+    "classNotesCode": "86a111b8-ed54-4349-a7ff-7d5192e76abb.pdf",
+    "dppsPdfCode": "76e9d8ed-579b-430d-9884-8682d0b5848e.pdf"
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Amines 01 : Introduction || Classification || Nomenclature || Preparation || NO DPP",
+    "lectureCode": "f15163e7-afc8-4879-ab92-11eea9a67498",
+    "classNotesCode": "",
+    "dppsPdfCode": ""
+  }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+
+        generateTable();
+    </script>
+</body>
+
+</html>
