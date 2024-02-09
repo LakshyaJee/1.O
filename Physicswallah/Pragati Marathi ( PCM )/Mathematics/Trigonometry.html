@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Dpps Solution Video</th>
+            <th>Class Notes PDF</th>
+            <th>Dpps PDF</th>
+        </tr>
+    </table>
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+    <script>
+        let lessonName = "IUPAC";
+        const lectureData = [
+        {
+    "lectureNumber": 6,
+    "lectureName": "Trigonometry : Practice Sheet Discussion || Video Only",
+    "lectureCode": "376f79df-5e9b-451a-b7b6-0b92c8ac9c58",
+    "classNotesCode": "e946d16c-ec38-4b09-b0f0-a31da2e37de8.pdf",
+    "dppsPdfCode": "4e0fc7ab-c586-4b65-8c81-a90cfb49260f.pdf",
+    "dppsSolutionCode": "f6b8b602-47dc-48db-a117-f60125f71c9d"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Trigonometry 05 : Degree and Radian || Trigonometry Identities",
+    "lectureCode": "14647e9c-4fea-4b4b-ba9c-a49f4c8a8966",
+    "classNotesCode": "63cc36de-ffcb-4c4f-a09a-f9d875f5dbe2.pdf",
+    "dppsPdfCode": "cb4ad240-5190-4bce-862e-9df7209a1643.pdf",
+    "dppsSolutionCode": "e3be21a3-389f-4157-b7e5-0196b3226f31"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Trigonometry 04 : Degree and Radian || Trigonometry Identities",
+    "lectureCode": "17d2aa2a-4c23-4a84-a4b5-1ad90ad60e14",
+    "classNotesCode": "ebf305ff-71f1-4afd-b518-e58e3a8a802e.pdf",
+    "dppsPdfCode": "54dc8899-a6c8-4337-9759-0990c124f755.pdf",
+    "dppsSolutionCode": "76eeb825-5de6-4fb1-9a8f-62e60e6f7112"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Trigonometry 03 : Degree and Radian || Trigonometry Identities",
+    "lectureCode": "fcda3595-4cb8-4a0c-a214-799d05af8f6a",
+    "classNotesCode": "7f6701d8-1f2c-49df-851d-67fad54398ae.pdf",
+    "dppsPdfCode": "2c4066cf-0fbd-453c-932f-dd2c6a6ae282.pdf",
+    "dppsSolutionCode": "9218979a-f597-4754-aa91-f6ee6dc3a12e"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Trigonometry 02 :  Degree and Radian || Trigonometry Identities",
+    "lectureCode": "815a56bc-1278-4793-a9ea-62ed75d5ad57",
+    "classNotesCode": "b986982f-c6ae-4ddd-ac01-4485a9f9a0e2.pdf",
+    "dppsPdfCode": "4dfa9189-fdf3-45fb-8e75-b10069af62fa.pdf",
+    "dppsSolutionCode": "e1c06eb2-4029-4958-9c06-950175c87003"
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Trigonometry 01 : Degree and Radian || Trigonometry Identities",
+    "lectureCode": "0cdf00d7-7603-4188-ad83-425291f198ef",
+    "classNotesCode": "",
+    "dppsPdfCode": "ca23d100-fff6-4992-b9a6-ca35b06d6421.pdf"
+  }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function showSolutionOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const solutionSelectUrl = `quality-select.html?lessonName=${lessonName}&dppsSolutionCode=${lecture.dppsSolutionCode}`;
+            window.open(solutionSelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                if (lecture.dppsSolutionCode) {
+                    cell4.innerHTML = `
+                        <button onclick="showSolutionOptions(${index})">View Solutions</button>
+                    `;
+                } else {
+                    cell4.textContent = ""; // No DPPS Solution, leave the cell empty
+                }
+
+                const cell5 = row.insertCell(4);
+                cell5.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell6 = row.insertCell(5);
+                if (lecture.dppsPdfCode) {
+                    cell6.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                } 
+            });
+        }
+
+        generateTable();
+    </script>
+</body>
+
+</html>
