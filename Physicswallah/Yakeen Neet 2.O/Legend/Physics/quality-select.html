@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quality Selection</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .quality-select-container {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #4caf50;
+        }
+
+        p {
+            margin-top: 20px;
+        }
+
+        .copy-button {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="quality-select-container">
+        <h2>Select Quality</h2>
+        <select id="qualityOptions">
+            <option value="720">720p</option>
+            <option value="480">480p</option>
+            <option value="360">360p</option>
+            <option value="240">240p</option>
+            <option value="144">144p</option>
+        </select>
+        <br><br>
+        <button onclick="playVideo()">Play Now</button>
+        <br><br>
+        <button onclick="downloadVideo()">Download Now</button>
+        <br><br>
+        <p id="lectureLink"></p>
+        <br><br>
+        <button class="copy-button" onclick="copyLink()">Copy Now</button>
+        <br><br>
+        <button onclick="goBack()">Go Back</button>
+    </div>
+
+    <script>
+        function playVideo() {
+            const quality = document.getElementById('qualityOptions').value;
+
+            // Get the lectureCode or dppsSolutionCode from the URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const lectureCode = urlParams.get('lectureCode');
+            const dppsSolutionCode = urlParams.get('dppsSolutionCode');
+
+            // Determine the video link based on the available parameter
+            const codeToUse = lectureCode || dppsSolutionCode;
+            const videoLinkWithQuality = `https://d26g5bnklkwsh4.cloudfront.net/${codeToUse}/hls/${quality}/main.m3u8`;
+
+            // Check if the device is mobile
+            const isMobile = window.innerWidth <= 600;
+
+            if (isMobile) {
+                // Redirect to VLC on mobile devices
+                window.location.href = `vlc://${videoLinkWithQuality}`;
+            } else {
+                // Show the video link with a copy button on desktop
+                document.getElementById('lectureLink').innerText = videoLinkWithQuality;
+                document.querySelector('.copy-button').style.display = 'inline-block';
+            }
+        }
+
+
+        function downloadVideo() {
+            const quality = document.getElementById('qualityOptions').value;
+
+            // Get the lecture code from the URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const lectureCode = urlParams.get('lectureCode');
+
+            // Determine the video link based on the selected quality
+            const codeToUse = lectureCode || dppsSolutionCode;
+            const videoLinkWithQuality = `https://d26g5bnklkwsh4.cloudfront.net/${codeToUse}/hls/${quality}/main.m3u8`;
+
+            // Check if the device is mobile
+            const isMobile = window.innerWidth <= 600;
+
+            if (isMobile) {
+
+                // Open 1DM app with the provided intent link
+                window.location.href = `intent:${videoLinkWithQuality}#Intent;package=idm.internet.download.manager;end`;
+            } else {
+                // Show a message that this feature is for mobile devices only
+                alert('Download feature is available for mobile devices only.');
+            }
+        }
+
+        function goBack() {
+            // Get the lessonName parameter from the URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const lessonName = urlParams.get('lessonName');
+
+            // Redirect back to the respective lesson page
+            if (lessonName) {
+                window.location.href = `${lessonName}.html`;
+            } else {
+                // If lessonName is not available, you can provide a default fallback page
+                window.location.href = 'default.html';
+            }
+        }
+
+        function copyLink() {
+            const lectureLink = document.getElementById('lectureLink');
+            const textArea = document.createElement('textarea');
+            textArea.value = lectureLink.innerText;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+
+            alert('Link copied!');
+        }
+    </script>
+</body>
+
+</html>
