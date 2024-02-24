@@ -70,6 +70,8 @@
         <br><br>
         <button onclick="downloadVideo()">Download Now</button>
         <br><br>
+        <button onclick="playOnWeb()">Play on Web</button>
+        <br><br>
         <p id="lectureLink"></p>
         <br><br>
         <button class="copy-button" onclick="copyLink()">Copy Now</button>
@@ -123,6 +125,34 @@
                 alert('Download feature is available for mobile devices only.');
             }
         }
+
+        function playOnWeb() {
+    // Hide unnecessary elements
+    document.querySelector('.quality-select-container').style.display = 'none';
+
+    // Get the lecture code from the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const lectureCode = urlParams.get('lectureCode');
+
+    // Determine the embedded link
+    const embeddedLink = `https://extractapi.vercel.app/pw?link=https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
+
+    // Create an iframe element
+    const iframe = document.createElement('iframe');
+    iframe.src = embeddedLink;
+    iframe.style.width = '100%';
+    iframe.style.height = '100vh';
+    iframe.style.border = 'none';
+
+    // Clear the body and append the iframe
+    document.body.innerHTML = '';
+    document.body.appendChild(iframe);
+    // Create a script element to disable developer tools
+    const disableDevToolScript = document.createElement('script');
+    disableDevToolScript.setAttribute('src', 'https://cdn.jsdelivr.net/npm/disable-devtool');
+    document.body.appendChild(disableDevToolScript);
+
+}
 
         function goBack() {
             // Get the lessonName parameter from the URL
