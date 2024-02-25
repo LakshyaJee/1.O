@@ -127,27 +127,19 @@
         }
 
         function playOnWeb() {
-    // Hide unnecessary elements
-    document.querySelector('.quality-select-container').style.display = 'none';
+            // Hide unnecessary elements
+            document.querySelector('.quality-select-container').style.display = 'none';
 
-    // Get the lecture code from the URL
-    const urlParams = new URLSearchParams(window.location.search);
-    const lectureCode = urlParams.get('lectureCode');
+            // Get the lecture code from the URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const lectureCode = urlParams.get('lectureCode');
 
-    // Determine the embedded link
-    const embeddedLink = `https://extractapi.vercel.app/pw?link=https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
+            // Determine the embedded link
+            const embeddedLink = `https://extractapi.vercel.app/pw?link=https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
 
-    // Create an iframe element
-    const iframe = document.createElement('iframe');
-    iframe.src = embeddedLink;
-    iframe.style.width = '100%';
-    iframe.style.height = '100vh';
-    iframe.style.border = 'none';
-
-    // Clear the body and append the iframe
-    document.body.innerHTML = '';
-    document.body.appendChild(iframe);
-}
+            // Open embedded link on the screen
+            window.location.href = embeddedLink;
+        }
 
         function goBack() {
             // Get the lessonName parameter from the URL
