@@ -70,6 +70,8 @@
         <br><br>
         <button onclick="downloadVideo()">Download Now</button>
         <br><br>
+        <button onclick="playOnWeb()">Play on Web</button>
+        <br><br>
         <p id="lectureLink"></p>
         <br><br>
         <button class="copy-button" onclick="copyLink()">Copy Now</button>
@@ -109,7 +111,7 @@
             const lectureCode = urlParams.get('lectureCode');
 
             // Determine the video link based on the selected quality
-            const videoLinkWithQuality = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${quality}/main.m3u8`;
+            const videoLinkWithQuality = `https://psitoffers.store/1dm.php?vid=${lectureCode}`;
 
             // Check if the device is mobile
             const isMobile = window.innerWidth <= 600;
@@ -122,6 +124,21 @@
                 // Show a message that this feature is for mobile devices only
                 alert('Download feature is available for mobile devices only.');
             }
+        }
+
+        function playOnWeb() {
+            // Hide unnecessary elements
+            document.querySelector('.quality-select-container').style.display = 'none';
+
+            // Get the lecture code from the URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const lectureCode = urlParams.get('lectureCode');
+
+            // Determine the embedded link
+            const embeddedLink = `https://extractapi.vercel.app/pw?link=https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
+
+            // Open embedded link on the screen
+            window.location.href = embeddedLink;
         }
 
         function goBack() {
