@@ -91,24 +91,14 @@
         const dash = dashjs.MediaPlayer().create();
 
         // Touch events
-        let tapCount = 0;
         let lastTapTime = 0;
 
-        video.addEventListener('touchstart', function(e) {
-            if (tapCount === 0) {
-                lastTapTime = new Date().getTime();
-            }
+        video.addEventListener('touchend', function(e) {
+            const currentTime = new Date().getTime();
+            const tapDuration = currentTime - lastTapTime;
 
-            if (new Date().getTime() - lastTapTime < 300) {
-                tapCount += 1;
-            } else {
-                tapCount = 1;
-                lastTapTime = new Date().getTime();
-            }
-
-            // Handle double tap for forward and rewind
-            if (tapCount === 2) {
-                const x = e.touches[0].clientX;
+            if (tapDuration < 300 && tapDuration > 0) { // Double tap detected
+                const x = e.changedTouches[0].clientX;
                 const screenWidth = window.innerWidth;
                 const position = x / screenWidth;
 
@@ -117,9 +107,9 @@
                 } else if (position > 0.7) { // Double tap on right side (forward)
                     video.currentTime += 10; // Forward by 10 seconds
                 }
-
-                tapCount = 0;
             }
+
+            lastTapTime = currentTime;
         });
 
         var defaultOptions = {
