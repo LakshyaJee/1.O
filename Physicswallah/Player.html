@@ -91,33 +91,39 @@
         const dash = dashjs.MediaPlayer().create();
 
         // Touch events
-        let lastTapTime = 0;
+        let touchStartX = 0;
+        let touchStartY = 0;
+
+        video.addEventListener('touchstart', function(e) {
+            touchStartX = e.touches[0].clientX;
+            touchStartY = e.touches[0].clientY;
+        });
 
         video.addEventListener('touchend', function(e) {
-            // Get the bounding rectangle of the video element
-            const rect = video.getBoundingClientRect();
+            const touchEndX = e.changedTouches[0].clientX;
+            const touchEndY = e.changedTouches[0].clientY;
 
-            // Get the touch coordinates relative to the viewport
-            const x = e.changedTouches[0].clientX;
-            const y = e.changedTouches[0].clientY;
+            const deltaX = touchEndX - touchStartX;
+            const deltaY = touchEndY - touchStartY;
 
-            // Check if the touch event occurred within the boundaries of the video element
-            if (x >= rect.left && x <= rect.right && y >= rect.top && y <= rect.bottom) {
-                const currentTime = new Date().getTime();
-                const tapDuration = currentTime - lastTapTime;
-
-                if (tapDuration < 300 && tapDuration > 0) { // Double tap detected
-                    const screenWidth = window.innerWidth;
-                    const position = x / screenWidth;
-
-                    if (position < 0.3) { // Double tap on left side (rewind)
-                        video.currentTime -= 15; // Rewind by 15 seconds
-                    } else if (position > 0.7) { // Double tap on right side (forward)
-                        video.currentTime += 10; // Forward by 10 seconds
-                    }
+            if (Math.abs(deltaX) > Math.abs(deltaY)) {
+                // Horizontal swipe
+                if (deltaX > 0) {
+                    // Swipe right
+                    video.currentTime += 10; // Forward by 10 seconds
+                } else {
+                    // Swipe left
+                    video.currentTime -= 10; // Rewind by 10 seconds
                 }
-
-                lastTapTime = currentTime;
+            } else {
+                // Vertical swipe
+                if (deltaY > 0) {
+                    // Swipe down
+                    // Decrease volume or brightness (not implemented in this example)
+                } else {
+                    // Swipe up
+                    // Increase volume or brightness (not implemented in this example)
+                }
             }
         });
 
