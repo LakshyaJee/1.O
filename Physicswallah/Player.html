@@ -94,22 +94,31 @@
         let lastTapTime = 0;
 
         video.addEventListener('touchend', function(e) {
-            const currentTime = new Date().getTime();
-            const tapDuration = currentTime - lastTapTime;
+            // Get the bounding rectangle of the video element
+            const rect = video.getBoundingClientRect();
 
-            if (tapDuration < 300 && tapDuration > 0) { // Double tap detected
-                const x = e.changedTouches[0].clientX;
-                const screenWidth = window.innerWidth;
-                const position = x / screenWidth;
+            // Get the touch coordinates relative to the viewport
+            const x = e.changedTouches[0].clientX;
+            const y = e.changedTouches[0].clientY;
 
-                if (position < 0.3) { // Double tap on left side (rewind)
-                    video.currentTime -= 15; // Rewind by 15 seconds
-                } else if (position > 0.7) { // Double tap on right side (forward)
-                    video.currentTime += 10; // Forward by 10 seconds
+            // Check if the touch event occurred within the boundaries of the video element
+            if (x >= rect.left && x <= rect.right && y >= rect.top && y <= rect.bottom) {
+                const currentTime = new Date().getTime();
+                const tapDuration = currentTime - lastTapTime;
+
+                if (tapDuration < 300 && tapDuration > 0) { // Double tap detected
+                    const screenWidth = window.innerWidth;
+                    const position = x / screenWidth;
+
+                    if (position < 0.3) { // Double tap on left side (rewind)
+                        video.currentTime -= 15; // Rewind by 15 seconds
+                    } else if (position > 0.7) { // Double tap on right side (forward)
+                        video.currentTime += 10; // Forward by 10 seconds
+                    }
                 }
-            }
 
-            lastTapTime = currentTime;
+                lastTapTime = currentTime;
+            }
         });
 
         var defaultOptions = {
