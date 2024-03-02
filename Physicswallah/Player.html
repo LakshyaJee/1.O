@@ -90,16 +90,35 @@
         const source = "https://d1d34p8vz63oiq.cloudfront.net/bf2e55a0-18d1-41d1-827d-7312bf822648/master.mpd";
         const dash = dashjs.MediaPlayer().create();
 
-        // Forward and Rewind Functionality
-        video.addEventListener('click', function(event) {
-            const x = event.clientX;
-            const width = window.innerWidth;
-            const position = x / width;
+        // Touch events
+        let tapCount = 0;
+        let lastTapTime = 0;
 
-            if (position < 0.3) { // Clicked on the left side (rewind)
-                video.currentTime -= 15;
-            } else if (position > 0.7) { // Clicked on the right side (forward)
-                video.currentTime += 10;
+        video.addEventListener('touchstart', function(e) {
+            if (tapCount === 0) {
+                lastTapTime = new Date().getTime();
+            }
+
+            if (new Date().getTime() - lastTapTime < 300) {
+                tapCount += 1;
+            } else {
+                tapCount = 1;
+                lastTapTime = new Date().getTime();
+            }
+
+            // Handle double tap for forward and rewind
+            if (tapCount === 2) {
+                const x = e.touches[0].clientX;
+                const screenWidth = window.innerWidth;
+                const position = x / screenWidth;
+
+                if (position < 0.3) { // Double tap on left side (rewind)
+                    video.currentTime -= 15; // Rewind by 15 seconds
+                } else if (position > 0.7) { // Double tap on right side (forward)
+                    video.currentTime += 10; // Forward by 10 seconds
+                }
+
+                tapCount = 0;
             }
         });
 
