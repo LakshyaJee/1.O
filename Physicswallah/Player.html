@@ -91,6 +91,7 @@
 <video id="videoContainer" controls></video>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/3.1.3/dash.all.min.js"></script>
+<script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
 <script>
      document.addEventListener("DOMContentLoaded", function() {
         const video = document.getElementById("videoContainer");
@@ -116,6 +117,13 @@
             video.style.visibility = "visible";
         });
     });
+
+    // Add event listener when DOM is loaded
+    document.addEventListener('DOMContentLoaded', function () {
+        const video = document.getElementById('videoContainer');
+        const player = new Plyr(video);
+        const loading = document.getElementById('loading');
+
         player.on('canplay', event => {
             loading.style.display = 'none';
         });
@@ -148,7 +156,7 @@
         function forward() {
             video.currentTime += 10;
         }
-    
+    });
 </script>
 </body>
 </html>
