@@ -69,12 +69,19 @@
         #videoContainer {
             width: 100vw;
             height: 100vh;
+            position: relative;
         }
 
         .custom-controls {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            transform: translateY(-50%);
             display: flex;
             justify-content: center;
             margin-top: 10px;
+            z-index: 999;
         }
 
         .custom-controls button {
@@ -84,6 +91,25 @@
             font-size: 24px;
             color: #FFF;
             margin: 0 10px;
+        }
+
+        .invisible-button {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 50%;
+            z-index: 1;
+            opacity: 0;
+        }
+
+        .volume-control {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 10%;
+            left: 0;
+            cursor: pointer;
+            z-index: 1;
         }
     </style>
 </head>
