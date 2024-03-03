@@ -186,14 +186,45 @@
         });
         dash.attachView(video);
     });
+    const player = new Plyr(video, {
+            autoplay: false,
+            controls: ['play', 'progress', 'current-time', 'mute', 'volume', 'settings', 'fullscreen']
+        });
 
-    function forward() {
-        video.currentTime += 10; // Forward by 10 seconds
-    }
+        // Hide loading screen when player is ready
+        player.on('ready', function(event) {
+            loadingElement.style.display = "none";
+        });
 
-    function rewind() {
-        video.currentTime -= 10; // Rewind by 10 seconds
-    }
+        // Add custom controls for forward and backward
+        const controlsContainer = document.createElement('div');
+        controlsContainer.className = 'controls-container';
+        video.parentNode.appendChild(controlsContainer);
+
+        const rewindButton = document.createElement('button');
+        rewindButton.innerHTML = '⏪';
+        rewindButton.className = 'control-button';
+        rewindButton.onclick = function () {
+            rewind();
+        };
+        controlsContainer.appendChild(rewindButton);
+
+        const forwardButton = document.createElement('button');
+        forwardButton.innerHTML = '⏩';
+        forwardButton.className = 'control-button';
+        forwardButton.onclick = function () {
+            forward();
+        };
+        controlsContainer.appendChild(forwardButton);
+
+        // Functions for rewinding and forwarding
+        function rewind() {
+            video.currentTime -= 10;
+        }
+
+        function forward() {
+            video.currentTime += 10;
+        }
 </script>
 </body>
 </html>
