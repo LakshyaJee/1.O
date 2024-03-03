@@ -92,11 +92,30 @@
 
 <script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const video = document.getElementById('videoContainer');
-        const player = new Plyr(video);
-        const loading = document.getElementById('loading');
+     document.addEventListener("DOMContentLoaded", function() {
+        const video = document.getElementById("videoContainer");
+        const source = "https://d1d34p8vz63oiq.cloudfront.net/bf2e55a0-18d1-41d1-827d-7312bf822648/master.mpd";
+        const dash = dashjs.MediaPlayer().create();
 
+        dash.getDebug().setLogToBrowserConsole(false); // Disable logging to console
+
+        const protData = {
+            "org.w3.clearkey": {
+                "clearkeys": {
+                    "cg3QDNdNxqiWvCjaEhV-9Q": "EvFeZwG9XD5JIGQJxDEuXA"
+                }
+            }
+        };
+
+        dash.setProtectionData(protData);
+        dash.initialize(video, source, false);
+
+        dash.on(dashjs.MediaPlayer.events.STREAM_INITIALIZED, function() {
+            const loadingElement = document.getElementById("loading");
+            loadingElement.style.display = "none";
+            video.style.visibility = "visible";
+        });
+    });
         player.on('canplay', event => {
             loading.style.display = 'none';
         });
@@ -129,7 +148,7 @@
         function forward() {
             video.currentTime += 10;
         }
-    });
+    
 </script>
 </body>
 </html>
