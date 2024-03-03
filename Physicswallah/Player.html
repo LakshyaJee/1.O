@@ -71,22 +71,17 @@
             height: 100vh;
         }
 
-        .custom-controls {
-            position: absolute;
-            bottom: 10px;
-            left: 50%;
-            transform: translateX(-50%);
+        .plyr__controls .custom-controls {
             display: flex;
             align-items: center;
-            justify-content: center;
         }
 
         .custom-controls button {
-            background-color: transparent;
+            background: transparent;
             border: none;
-            color: #fff;
             cursor: pointer;
             font-size: 24px;
+            color: #FFF;
             margin: 0 10px;
         }
     </style>
@@ -135,9 +130,11 @@
                 if (xDiff > 0) {
                     /* left swipe */
                     // You can add rewind functionality here
+                    rewind();
                 } else {
                     /* right swipe */
                     // You can add forward functionality here
+                    forward();
                 }
             } else {
                 if (yDiff > 0) {
@@ -218,19 +215,38 @@
             const player = new Plyr(video, defaultOptions);
             window.player = player;
             window.dash = dash;
+
+            // Add custom controls
+            const controls = player.elements.controls;
+            const customControls = document.createElement('div');
+            customControls.classList.add('custom-controls');
+            controls.appendChild(customControls);
+
+            const rewindButton = document.createElement('button');
+            rewindButton.innerHTML = '<i class="fa fa-backward"></i>';
+            rewindButton.onclick = function () {
+                rewind();
+            };
+            customControls.appendChild(rewindButton);
+
+            const forwardButton = document.createElement('button');
+            forwardButton.innerHTML = '<i class="fa fa-forward"></i>';
+            forwardButton.onclick = function () {
+                forward();
+            };
+            customControls.appendChild(forwardButton);
+
+            // Functions for rewinding and forwarding
+            function rewind() {
+                video.currentTime -= 10;
+            }
+
+            function forward() {
+                video.currentTime += 10;
+            }
         });
         dash.attachView(video);
     });
-
-    // Function to rewind the video by 10 seconds
-    function rewind() {
-        video.currentTime -= 10;
-    }
-
-    // Function to forward the video by 10 seconds
-    function forward() {
-        video.currentTime += 10;
-    }
 </script>
 </body>
 </html>
