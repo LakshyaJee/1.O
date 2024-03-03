@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <link rel="icon" type="image/jpeg" href="https://i.imgur.com/Z52wJgg.jpg">
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DRM VIDEO PLAYER</title>
-    <!-- Help use= to earn from your site!, if you dont want then just remove the below line -->
-    <style type="text/css" media="screen">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css" />
+    <style>
         html, body {
             font-family: 'Poppins', sans-serif;
             background: #0A0909;
@@ -19,7 +15,7 @@
             overflow: hidden;
         }
 
-        .loading {
+        #loading {
             position: fixed;
             top: 0;
             left: 0;
@@ -71,151 +67,59 @@
             height: 100vh;
         }
 
-        .plyr__controls {
-            background: rgba(0, 0, 0, 0.5);
-            padding: 10px;
+        .plyr__controls .custom-controls {
+            display: flex;
+            align-items: center;
         }
 
-        .plyr__control--forward, .plyr__control--rewind {
-            color: #FFF;
-            font-size: 24px;
+        .custom-controls button {
+            background: transparent;
+            border: none;
             cursor: pointer;
+            font-size: 24px;
+            color: #FFF;
             margin: 0 10px;
-        }
-
-        .forward-btn {
-            position: absolute;
-            top: 50%;
-            right: 10px;
-            transform: translateY(-50%);
-        }
-
-        .rewind-btn {
-            position: absolute;
-            top: 50%;
-            left: 10px;
-            transform: translateY(-50%);
         }
     </style>
 </head>
 <body>
-<div id="loading" class="loading">
+<div id="loading">
     <div class="circle"></div>
     <div class="circle"></div>
     <div class="circle"></div>
 </div>
-<video controls crossorigin playsinline id="videoContainer" style="background-color: #0A0909;">
-    <source src="https://d1d34p8vz63oiq.cloudfront.net/bf2e55a0-18d1-41d1-827d-7312bf822648/master.mpd">
-</video>
-<button class="forward-btn" onclick="forward()">Forward</button>
-<button class="rewind-btn" onclick="rewind()">Rewind</button>
+<video id="videoContainer" controls></video>
 
 <script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/3.1.3/dash.all.min.js"></script>
 <script>
-    const video = document.getElementById("videoContainer");
-    document.addEventListener("DOMContentLoaded", function() {
-        const source = "https://d1d34p8vz63oiq.cloudfront.net/bf2e55a0-18d1-41d1-827d-7312bf822648/master.mpd";
-        const dash = dashjs.MediaPlayer().create();
+    document.addEventListener('DOMContentLoaded', function () {
+        const video = document.getElementById('videoContainer');
+        const player = new Plyr(video);
+        const loading = document.getElementById('loading');
 
-        var defaultOptions = {
-            "autoplay": false,
-            "muted": false,
-            "loop": {
-                "active": false
-            },
-            speed: {
-                selected: 1,
-                options: [1,1.25,1.5, 2,2.5, 3, 3.25,3.5, 4]
-            },
-            "captions": {
-                "active": true,
-                "update": true
-            }
-        };
-
-        dash.initialize(video, source, false);
-        dash.updateSettings({
-            streaming: {
-                abr: {
-                    autoSwitchBitrate: {
-                        audio: false,
-                        video: false
-                    }
-                },
-                fastSwitchEnabled: true,
-                lowLatencyEnabled: true
-            }
+        player.on('canplay', event => {
+            loading.style.display = 'none';
         });
 
-        const protData = {
-            "org.w3.clearkey": {
-                "clearkeys": {
-                    "cg3QDNdNxqiWvCjaEhV-9Q": "EvFeZwG9XD5JIGQJxDEuXA"
-                }
-            }
-        };
-
-        dash.setProtectionData(protData);
-        dash.on("streamInitialized", function() {
-            const bodyElement = document.querySelector("body");
-            const loadingElement = document.getElementById("loading");
-            loadingElement.style.display = "none";
-            bodyElement.style.visibility = "visible";
-            const availableQualities = dash.getBitrateInfoListFor("video").map((l) => l.height);
-            defaultOptions.quality = {
-                default: availableQualities[0].height,
-                options: availableQualities,
-                forced: true,
-                onChange: function(newQuality) {
-                    dash.getBitrateInfoListFor("video").forEach((level, levelIndex) => {
-                        if (level.height === newQuality) {
-                            dash.setQualityFor("video", level.qualityIndex);
-                        }
-                    });
-                },
-            };
-            defaultOptions.previewThumbnails = {
-                enabled: true,
-                src: 'https://d1d34p8vz63oiq.cloudfront.net/bf2e55a0-18d1-41d1-827d-7312bf822648/master.mpd'
-            };
-            defaultOptions.tooltips = {controls: true, seek:true};
-            const player = new Plyr(video, defaultOptions);
-            window.player = player;
-            window.dash = dash;
-        });
-        dash.attachView(video);
-    });
-    const player = new Plyr(video, {
-            autoplay: false,
-            controls: ['play', 'progress', 'current-time', 'mute', 'volume', 'settings', 'fullscreen']
-        });
-
-        // Hide loading screen when player is ready
-        player.on('ready', function(event) {
-            loadingElement.style.display = "none";
-        });
-
-        // Add custom controls for forward and backward
-        const controlsContainer = document.createElement('div');
-        controlsContainer.className = 'controls-container';
-        video.parentNode.appendChild(controlsContainer);
+        // Add custom controls
+        const controls = player.elements.controls;
+        const customControls = document.createElement('div');
+        customControls.classList.add('custom-controls');
+        controls.appendChild(customControls);
 
         const rewindButton = document.createElement('button');
         rewindButton.innerHTML = '⏪';
-        rewindButton.className = 'control-button';
         rewindButton.onclick = function () {
             rewind();
         };
-        controlsContainer.appendChild(rewindButton);
+        customControls.appendChild(rewindButton);
 
         const forwardButton = document.createElement('button');
         forwardButton.innerHTML = '⏩';
-        forwardButton.className = 'control-button';
         forwardButton.onclick = function () {
             forward();
         };
-        controlsContainer.appendChild(forwardButton);
+        customControls.appendChild(forwardButton);
 
         // Functions for rewinding and forwarding
         function rewind() {
@@ -225,6 +129,7 @@
         function forward() {
             video.currentTime += 10;
         }
+    });
 </script>
 </body>
 </html>
