@@ -143,8 +143,8 @@ const lectureData= [
                 }
             });
         }
-
-        generateTable();
+    
+  generateTable();
     </script>
 </body>
 
