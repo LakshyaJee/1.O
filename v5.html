@@ -70,24 +70,32 @@
             width: 100vw;
             height: 100vh;
         }
-        
-        .custom-controls {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+
+        .plyr__controls .custom-controls {
             display: flex;
-            justify-content: center;
             align-items: center;
-            z-index: 9999;
         }
 
         .custom-controls button {
-            background-color: transparent;
+            background: transparent;
             border: none;
-            color: white;
             cursor: pointer;
             font-size: 24px;
+            color: #FFF;
+            margin: 0 10px;
+        }
+        
+        .custom-controls .custom-forward-backward {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .custom-controls .custom-forward-backward button {
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 24px;
+            color: #FFF;
             margin: 0 10px;
         }
     </style>
@@ -109,12 +117,6 @@
     document.addEventListener("DOMContentLoaded", function() {
         const source = "https://d1d34p8vz63oiq.cloudfront.net/bf2e55a0-18d1-41d1-827d-7312bf822648/master.mpd";
         const dash = dashjs.MediaPlayer().create();
-
-        var isFullScreen = false;
-
-        document.addEventListener("fullscreenchange", function () {
-            isFullScreen = !isFullScreen;
-        });
 
         video.addEventListener('touchstart', handleTouchStart, false);
         video.addEventListener('touchmove', handleTouchMove, false);
@@ -141,24 +143,20 @@
             if (Math.abs(xDiff) > Math.abs(yDiff)) {/*most significant*/
                 if (xDiff > 0) {
                     /* left swipe */
+                    // You can add rewind functionality here
                     rewind();
                 } else {
                     /* right swipe */
+                    // You can add forward functionality here
                     forward();
                 }
             } else {
                 if (yDiff > 0) {
                     /* up swipe */
-                    // Increase volume
-                    if (video.volume < 2) {
-                        video.volume += 0.1; // Increase volume by 10%
-                    }
+                    // You can increase volume or brightness here
                 } else {
                     /* down swipe */
-                    // Decrease volume
-                    if (video.volume > 0) {
-                        video.volume -= 0.1; // Decrease volume by 10%
-                    }
+                    // You can decrease volume or brightness here
                 }
             }
             /* reset values */
@@ -231,48 +229,56 @@
             const player = new Plyr(video, defaultOptions);
             window.player = player;
             window.dash = dash;
+
+            // Add custom controls
+            const controls = player.elements.controls;
+            const customControls = document.createElement('div');
+            customControls.classList.add('custom-controls');
+            controls.appendChild(customControls);
+
+            const rewindButton = document.createElement('button');
+            rewindButton.innerHTML = '<i class="fa fa-backward"></i>';
+            rewindButton.onclick = function () {
+                rewind();
+            };
+            customControls.appendChild(rewindButton);
+
+            const forwardButton = document.createElement('button');
+            forwardButton.innerHTML = '<i class="fa fa-forward"></i>';
+            forwardButton.onclick = function () {
+                forward();
+            };
+            customControls.appendChild(forwardButton);
+            
+            const customForwardBackward = document.createElement('div');
+            customForwardBackward.classList.add('custom-forward-backward');
+            customControls.appendChild(customForwardBackward);
+
+            const customRewindButton = document.createElement('button');
+            customRewindButton.innerHTML = '<i class="fa fa-angle-double-left"></i>';
+            customRewindButton.onclick = function () {
+                rewind();
+            };
+            customForwardBackward.appendChild(customRewindButton);
+
+            const customForwardButton = document.createElement('button');
+            customForwardButton.innerHTML = '<i class="fa fa-angle-double-right"></i>';
+            customForwardButton.onclick = function () {
+                forward();
+            };
+            customForwardBackward.appendChild(customForwardButton);
+
+            // Functions for rewinding and forwarding
+            function rewind() {
+                video.currentTime -= 10;
+            }
+
+            function forward() {
+                video.currentTime += 10;
+            }
         });
         dash.attachView(video);
     });
-
-    // Rewind function
-    function rewind() {
-        if (!video.paused) {
-            video.currentTime -= 10; // Rewind 10 seconds
-        }
-    }
-
-    // Forward function
-    function forward() {
-        if (!video.paused) {
-            video.currentTime += 10; // Forward 10 seconds
-        }
-    }
-
-    // Toggle full screen
-    function toggleFullScreen() {
-        if (!isFullScreen) {
-            if (video.requestFullscreen) {
-                video.requestFullscreen();
-            } else if (video.mozRequestFullScreen) { /* Firefox */
-                video.mozRequestFullScreen();
-            } else if (video.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-                video.webkitRequestFullscreen();
-            } else if (video.msRequestFullscreen) { /* IE/Edge */
-                video.msRequestFullscreen();
-            }
-        } else {
-            if (document.exitFullscreen) {
-                document.exitFullscreen();
-            } else if (document.mozCancelFullScreen) { /* Firefox */
-                document.mozCancelFullScreen();
-            } else if (document.webkitExitFullscreen) { /* Chrome, Safari and Opera */
-                document.webkitExitFullscreen();
-            } else if (document.msExitFullscreen) { /* IE/Edge */
-                document.msExitFullscreen();
-            }
-        }
-    }
 </script>
 </body>
 </html>
