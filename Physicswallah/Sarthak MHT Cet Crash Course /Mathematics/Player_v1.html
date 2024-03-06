@@ -123,7 +123,7 @@
                 const lectureCode = data.match(/<option value="(.+?)"/)[1];
                 
                 // Construct the video source URL with the lecture code
-                const lectureUrl = `https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
+                const lectureUrl = `https://extractapi.vercel.app/pw?link=https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
 
                 const source = lectureUrl;
                 const dash = dashjs.MediaPlayer().create();
