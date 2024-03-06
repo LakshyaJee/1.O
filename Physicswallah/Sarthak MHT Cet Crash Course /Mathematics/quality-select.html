@@ -128,7 +128,7 @@
 
         function playOnWeb() {
             // Hide unnecessary elements
-            const quality = document.getElementById('qualityOptions').value;
+            document.querySelector('.quality-select-container').style.display = 'none';
     
     // Get the lecture code from the URL
     const urlParams = new URLSearchParams(window.location.search);
