@@ -114,40 +114,62 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/3.1.3/dash.all.min.js"></script>
 <script>
 
-var clearkeysData; 
+var clearkeysData;
 
-    const video = document.getElementById("videoContainer");
-    document.addEventListener("DOMContentLoaded", function() {
-        // Fetch lecture code from quality-select.html
-fetch('quality-select.html')
-    .then(response => response.text())
-    .then(data => {
-        // Extract the lecture code from the fetched HTML
-        const lectureCode = data.match(/<option value="(.+?)"/)[1];
+        document.addEventListener("DOMContentLoaded", function() {
+            // Fetch lecture code from quality-select.html
+            fetch('quality-select.html')
+                .then(response => response.text())
+                .then(data => {
+                    // Extract the lecture code from the fetched HTML
+                    const lectureCode = data.match(/<option value="(.+?)"/)[1];
 
-        // Construct the video source URL with the lecture code
-        var lectureUrl = `https://extractapi.vercel.app/pw?link=https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
+                    // Construct the video source URL with the lecture code
+                    var lectureUrl = `https://extractapi.vercel.app/pw?link=https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
 
-        // Your code to extract clearkeysData from the fetched HTML
-        // Make sure scriptElement is properly defined
+                    // Fetch clearkeysData from lectureUrl
+                    fetchClearkeysData(lectureUrl);
+                })
+                .catch(error => console.error('Error fetching HTML:', error));
+        });
 
-        // Call initializePlayer function after extracting necessary data
-        initializePlayer(lectureCode, lectureUrl);
-    })
-    .catch(error => console.error('Error fetching HTML:', error));
+        function fetchClearkeysData(lectureUrl) {
+            fetch(lectureUrl)
+                .then(response => response.text())
+                .then(htmlContent => {
+                    // Parse HTML content to extract clearkeysData
+                    var tempDiv = document.createElement('div');
+                    tempDiv.innerHTML = htmlContent;
 
-function initializePlayer(lectureCode, lectureUrl) {
-    // Initialize your player here with the extracted data
-    const video = document.getElementById("videoContainer");
-    const videoSource = document.querySelector("#videoContainer source");
-    const source = `https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
+                    // Find the script tag containing clearkeysData
+                    var scriptElement = tempDiv.querySelector('script:not([src])');
 
-    videoSource.src = source;
+                    if (scriptElement && scriptElement.textContent.includes('const clearkeysData')) {
+                        // Extract clearkeysData object
+                        var startIndex = scriptElement.textContent.indexOf('const clearkeysData = ') + 'const clearkeysData = '.length;
+                        var endIndex = scriptElement.textContent.indexOf(';', startIndex);
+                        var clearkeysDataStr = scriptElement.textContent.substring(startIndex, endIndex);
 
-    // Other initialization and customization of the player
-    // Add event listeners, custom controls, etc.
-}
+                        // Parse clearkeysData object
+                        clearkeysData = JSON.parse(clearkeysDataStr);
 
+                        // Once clearkeysData is fetched, initialize the player
+                        initializePlayer();
+                    } else {
+                        console.error('Script tag containing clearkeysData not found');
+                    }
+                })
+                .catch(error => console.error('Error fetching clearkeysData:', error));
+        }
+
+        function initializePlayer() {
+            // Initialize your player with the fetched clearkeysData
+            const video = document.getElementById("videoContainer");
+            const videoSource = document.querySelector("#videoContainer source");
+            const source = "https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd"; // Replace with your video source URL
+
+            videoSource.src = source;
+        }
                 // Add touch controls for fast forward and rewind
         document.addEventListener('touchstart', handleTouchStart, false);
         document.addEventListener('touchmove', handleTouchMove, false);
