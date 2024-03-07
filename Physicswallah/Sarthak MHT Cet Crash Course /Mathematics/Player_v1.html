@@ -128,51 +128,54 @@
                 const source = lectureUrl;
                 const dash = dashjs.MediaPlayer().create();
 
-                video.addEventListener('touchstart', handleTouchStart, false);
-                video.addEventListener('touchmove', handleTouchMove, false);
+                // Add touch controls for fast forward and rewind
+        document.addEventListener('touchstart', handleTouchStart, false);
+        document.addEventListener('touchmove', handleTouchMove, false);
 
-                let xDown = null;
-                let yDown = null;
+        let xDown = null;
+        let yDown = null;
 
-                function handleTouchStart(evt) {
-                    xDown = evt.touches[0].clientX;
-                    yDown = evt.touches[0].clientY;
+        function handleTouchStart(evt) {
+            xDown = evt.touches[0].clientX;
+            yDown = evt.touches[0].clientY;
+        }
+
+        function handleTouchMove(evt) {
+            if (!xDown || !yDown) {
+                return;
+            }
+
+            let xUp = evt.touches[0].clientX;
+            let yUp = evt.touches[0].clientY;
+
+            let xDiff = xDown - xUp;
+            let yDiff = yDown - yUp;
+
+            if (Math.abs(xDiff) > Math.abs(yDiff)) {
+                if (xDiff > 0) {
+                    // Swipe left, rewind functionality
+                    rewind();
+                } else {
+                    // Swipe right, fast forward functionality
+                    fastForward();
                 }
+            }
 
-                function handleTouchMove(evt) {
-                    if (!xDown || !yDown) {
-                        return;
-                    }
+            // Reset values
+            xDown = null;
+            yDown = null;
+        }
 
-                    let xUp = evt.touches[0].clientX;
-                    let yUp = evt.touches[0].clientY;
+        // Define rewind and fast forward functions
+        function rewind() {
+            const video = document.getElementById('videoContainer');
+            video.currentTime -= 10; // Rewind by 10 seconds
+        }
 
-                    let xDiff = xDown - xUp;
-                    let yDiff = yDown - yUp;
-
-                    if (Math.abs(xDiff) > Math.abs(yDiff)) {/*most significant*/
-                        if (xDiff > 0) {
-                            /* left swipe */
-                            // You can add rewind functionality here
-                            rewind();
-                        } else {
-                            /* right swipe */
-                            // You can add forward functionality here
-                            forward();
-                        }
-                    } else {
-                        if (yDiff > 0) {
-                            /* up swipe */
-                            // You can increase volume or brightness here
-                        } else {
-                            /* down swipe */
-                            // You can decrease volume or brightness here
-                        }
-                    }
-                    /* reset values */
-                    xDown = null;
-                    yDown = null;
-                }
+        function fastForward() {
+            const video = document.getElementById('videoContainer');
+            video.currentTime += 10; // Fast forward by 10 seconds
+        }
 
                 var defaultOptions = {
                     "autoplay": false,
@@ -205,11 +208,9 @@
                 });
 
                 const protData = {
-                    "org.w3.clearkey": {
-                        "clearkeys": {
-                            "cg3QDNdNxqiWvCjaEhV-9Q": "EvFeZwG9XD5JIGQJxDEuXA"
-                        }
-                    }
+                "org.w3.clearkey": {
+                    "clearkeys": clearkeysData 
+                }
                 };
 
                 dash.setProtectionData(protData);
