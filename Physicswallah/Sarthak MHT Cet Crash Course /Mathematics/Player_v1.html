@@ -119,54 +119,34 @@ var clearkeysData;
     const video = document.getElementById("videoContainer");
     document.addEventListener("DOMContentLoaded", function() {
         // Fetch lecture code from quality-select.html
-        fetch('quality-select.html')
-            .then(response => response.text())
-            .then(data => {
-                // Extract the lecture code from the fetched HTML
-                const lectureCode = data.match(/<option value="(.+?)"/)[1];
-                
-                // Construct the video source URL with the lecture code
-                var lectureUrl = `https://extractapi.vercel.app/pw?link=https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
+fetch('quality-select.html')
+    .then(response => response.text())
+    .then(data => {
+        // Extract the lecture code from the fetched HTML
+        const lectureCode = data.match(/<option value="(.+?)"/)[1];
 
-                 // Create a temporary div element to parse HTML content
-                    var tempDiv = document.createElement('div');
-                    tempDiv.innerHTML = htmlContent;
+        // Construct the video source URL with the lecture code
+        var lectureUrl = `https://extractapi.vercel.app/pw?link=https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
 
-                    // Find the script tag containing protData
-                    var scriptElement = tempDiv.querySelector('script:not([src])');
+        // Your code to extract clearkeysData from the fetched HTML
+        // Make sure scriptElement is properly defined
 
-                    if (scriptElement && scriptElement.textContent.includes('const protData')) {
-                        // Extract protData object
-                        var startIndex = scriptElement.textContent.indexOf('const protData = ') + 'const protData = '.length;
-                        var endIndex = scriptElement.textContent.indexOf(';', startIndex);
-                        var protDataStr = scriptElement.textContent.substring(startIndex, endIndex);
+        // Call initializePlayer function after extracting necessary data
+        initializePlayer(lectureCode, lectureUrl);
+    })
+    .catch(error => console.error('Error fetching HTML:', error));
 
-                        // Parse protData object
-                        var protData = JSON.parse(protDataStr);
+function initializePlayer(lectureCode, lectureUrl) {
+    // Initialize your player here with the extracted data
+    const video = document.getElementById("videoContainer");
+    const videoSource = document.querySelector("#videoContainer source");
+    const source = `https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
 
-                        // Extract clearkeys data
-                        clearkeysData = protData['org.w3.clearkey'].clearkeys; // Assign to the global variable
+    videoSource.src = source;
 
-                        // Log clearkeys data
-                        console.log('Clearkeys Data:', clearkeysData);
-
-                        // Initialize the player with the retrieved source
-                        initializePlayer();
-                    } else {
-                        console.error('Script tag containing protData not found');
-                    }
-                })
-                .catch(error => console.error('Error fetching HTML:', error));
-
-                function initializePlayer() {
-            
-            const video = document.getElementById("videoContainer");
-            const videoSource = document.querySelector("#videoContainer source");
-            
-            const source = `https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
-
-            videoSource.src = source;
-        };
+    // Other initialization and customization of the player
+    // Add event listeners, custom controls, etc.
+}
 
                 // Add touch controls for fast forward and rewind
         document.addEventListener('touchstart', handleTouchStart, false);
