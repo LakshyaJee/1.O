@@ -1,19 +1,17 @@
 <?php
-// Check if LectureUrl is provided in the query string
-if(isset($_GET['LectureUrl'])){
-    // Get the LectureUrl from the query string
-    $lecture_url = $_GET['LectureUrl'];
+// Check if LectureCode is provided in the query string
+if(isset($_GET['lectureCode'])){
+    // Get the lectureCode from the query string
+    $lecture_code = $_GET['lectureCode'];
 
-    // Extract lectureCode from the LectureUrl
-    $url_parts = parse_url($lecture_url);
-    $path_parts = explode('/', $url_parts['path']);
-    $lecture_code = $path_parts[count($path_parts) - 2]; // Extracting the second last part of the path
+    // Construct the LectureUrl using the provided lectureCode
+    $lecture_url = "https://d1d34p8vz63oiq.cloudfront.net/${lecture_code}/master.mpd";
 
-    // Construct the URL to fetch the MPD file
-    $remote_url = $lecture_url;
+    // Add query string to the LectureUrl
+    $lecture_url_with_query = $lecture_url . "?param1=value1&param2=value2";
 
     // Fetch remote MPD content
-    $remote_content = file_get_contents($remote_url);
+    $remote_content = file_get_contents($lecture_url_with_query);
 
     // Check if content is fetched successfully
     if ($remote_content !== false) {
@@ -32,7 +30,7 @@ if(isset($_GET['LectureUrl'])){
         echo "Error fetching remote content.";
     }
 } else {
-    // If LectureUrl is not provided in the query string, return an error message
-    echo "LectureUrl parameter is missing in the query string.";
+    // If lectureCode is not provided in the query string, return an error message
+    echo "lectureCode parameter is missing in the query string.";
 }
 ?>
