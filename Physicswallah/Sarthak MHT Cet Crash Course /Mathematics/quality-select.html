@@ -129,13 +129,13 @@
         function playOnWeb() {
             // Hide unnecessary elements
             document.querySelector('.quality-select-container').style.display = 'none';
-    
-    // Get the lecture code from the URL
-    const urlParams = new URLSearchParams(window.location.search);
-    const lectureCode = urlParams.get('lectureCode');
 
-    // Redirect to the Player_v1.html page with the lectureCode parameter
-    window.location.href = `Player_v1.html?lectureCode=${lectureCode}`;
+            // Get the lecture code from the URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const lectureCode = urlParams.get('lectureCode');
+
+            // Determine the embedded link
+            const embeddedLink = `https://extractapi.vercel.app/pw?link=https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
 
             // Open embedded link on the screen
             window.location.href = embeddedLink;
