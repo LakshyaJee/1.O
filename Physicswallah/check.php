@@ -25,7 +25,7 @@ if(isset($_GET['LectureUrl'])){
         echo $remote_content;
 
         // Redirect to the 1dm application
-        header("Location: https://example.com/1dm-application");
+        header("Location: intent:${remoteurl}#Intent;package=idm.internet.download.manager;end");
         exit;
     } else {
         // Handle error if content cannot be fetched
