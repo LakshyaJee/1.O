@@ -1,5 +1,5 @@
 <?php
-// Check if LectureCode is provided in the query string
+// Check if lectureCode is provided in the query string
 if(isset($_GET['lectureCode'])){
     // Get the lectureCode from the query string
     $lecture_code = $_GET['lectureCode'];
@@ -7,11 +7,8 @@ if(isset($_GET['lectureCode'])){
     // Construct the LectureUrl using the provided lectureCode
     $lecture_url = "https://d1d34p8vz63oiq.cloudfront.net/${lecture_code}/master.mpd";
 
-    // Add query string to the LectureUrl
-    $lecture_url_with_query = $lecture_url . "?param1=value1&param2=value2";
-
     // Fetch remote MPD content
-    $remote_content = file_get_contents($lecture_url_with_query);
+    $remote_content = file_get_contents($lecture_url);
 
     // Check if content is fetched successfully
     if ($remote_content !== false) {
@@ -23,7 +20,8 @@ if(isset($_GET['lectureCode'])){
         echo $remote_content;
 
         // Redirect to the 1dm application
-        header("Location: intent:${remoteurl}#Intent;package=idm.internet.download.manager;end");
+        $redirect_url = "intent:${lecture_url}#Intent;package=idm.internet.download.manager;end";
+        header("Location: $redirect_url");
         exit;
     } else {
         // Handle error if content cannot be fetched
