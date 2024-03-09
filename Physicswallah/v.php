@@ -4,7 +4,7 @@ if(isset($_GET['lectureCode'])){
     // Get the lectureCode from the query string
     $lecture_code = $_GET['lectureCode'];
 
-    // Construct the LectureUrl using the provided lectureCode
+    // Construct the lectureURL using the provided lectureCode
     $lecture_url = "https://d1d34p8vz63oiq.cloudfront.net/${lecture_code}/master.mpd";
 
     // Set appropriate headers to allow CORS
@@ -15,13 +15,7 @@ if(isset($_GET['lectureCode'])){
 
     // Check if content is fetched successfully
     if ($remote_content !== false) {
-        // Set appropriate headers
-        header('Content-Type: application/dash+xml'); // MPD file type
-
-        // Echo the remote content
-        echo $remote_content;
-
-        // Redirect to the 1dm application
+        // Redirect to the accessed lecture_url in the 1dm browser
         $redirect_url = "intent:${lecture_url}#Intent;package=idm.internet.download.manager;end";
         header("Location: $redirect_url");
         exit;
