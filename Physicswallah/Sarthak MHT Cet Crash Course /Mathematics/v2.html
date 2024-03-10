@@ -24,9 +24,7 @@
     
     <div class="plyr__video-wrapper">
         <!-- Added crossorigin and playsinline attributes -->
-        <video crossorigin playsinline id="videoContainer" style="background-color: #0A0909;" preload="auto">
-            <!-- Remove the source element here, it will be set dynamically -->
-        </video>
+        <video crossorigin playsinline id="videoContainer" style="background-color: #0A0909;" preload="auto"></video>
     </div>
     
     <script>
@@ -46,8 +44,8 @@
                         // Construct the main lecture link
                         const mainLectureLink = `https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
 
-                        // Set the source dynamically
-                        initializePlayer(mainLectureLink);
+                        // Fetch clearkeys from the main lecture link
+                        fetchClearkeys(mainLectureLink);
                     } else {
                         console.error('Lecture code not found in quality-select.html');
                     }
@@ -55,17 +53,7 @@
                 .catch(error => console.error('Error fetching lecture code:', error));
         });
 
-        function initializePlayer(lectureLink) {
-            const video = document.getElementById("videoContainer");
-
-            const dash = dashjs.MediaPlayer().create();
-            const defaultOptions = {
-                // Your default player options here
-            };
-
-            dash.initialize(video, lectureLink, false);
-
-            // Fetch clearkeys from the main lecture link
+        function fetchClearkeys(lectureLink) {
             fetch(lectureLink)
                 .then(response => response.text())
                 .then(htmlContent => {
@@ -82,13 +70,8 @@
                             const clearkeysJson = clearkeysMatch[1];
                             clearkeysData = JSON.parse(clearkeysJson);
 
-                            // Once clearkeysData is fetched, set it to the player
-                            dash.setProtectionData({ "org.w3.clearkey": { "clearkeys": clearkeysData } });
-
-                            dash.on("streamInitialized", function() {
-                                const loadingElement = document.getElementById("loading");
-                                loadingElement.style.display = "none";
-                            });
+                            // Once clearkeysData is fetched, initialize the player
+                            initializePlayer(lectureLink);
                         } else {
                             console.error('Clearkeys data not found in main lecture link');
                         }
@@ -97,8 +80,32 @@
                     }
                 })
                 .catch(error => console.error('Error fetching clearkeys:', error));
+        }
+
+        function initializePlayer(lectureLink) {
+            const video = document.getElementById("videoContainer");
+            const videoSource = document.querySelector("#videoContainer source");
+
+            // Set the source URL
+            videoSource.src = lectureLink;
+
+            const dash = dashjs.MediaPlayer().create();
+            const defaultOptions = {
+                // Your default player options here
+            };
+
+            dash.initialize(video, videoSource.src, false);
+            dash.setProtectionData({ "org.w3.clearkey": { "clearkeys": clearkeysData } });
+
+            dash.on("streamInitialized", function() {
+                const loadingElement = document.getElementById("loading");
+                loadingElement.style.display = "none";
+            });
 
             dash.attachView(video);
+
+            // Initialize Plyr for the video element
+            const player = new Plyr(video);
         }
     </script>
 
