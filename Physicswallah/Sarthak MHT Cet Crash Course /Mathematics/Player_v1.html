@@ -21,121 +21,90 @@
         <div class="circle"></div>
         <div class="circle"></div>
     </div>
-	
+    
     <div class="plyr__video-wrapper">
-        <video crossorigin="" playsinline="" id="videoContainer" style="background-color: #0A0909;" preload="auto">
-            <source src="">
+        <!-- Added crossorigin and playsinline attributes -->
+        <video crossorigin playsinline id="videoContainer" style="background-color: #0A0909;" preload="auto">
+            <source src="mainLectureLink">
         </video>
     </div>
-	
+    
     <script>
+        var clearkeysData;
+
         document.addEventListener("DOMContentLoaded", function() {
             // Fetch lecture code from quality-select.html
             fetch('quality-select.html')
                 .then(response => response.text())
                 .then(data => {
                     // Extract the lecture code from the fetched HTML
-                    const lectureCodeRegex = /<option value="(.+?)"/;
+                    const lectureCodeRegex = /lectureCode\s*=\s*"([^"]+)"/;
                     const match = data.match(lectureCodeRegex);
                     if (match && match[1]) {
                         const lectureCode = match[1];
 
-                        // Construct the video source URL with the lecture code
-                        const videoUrl = `https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
+                        // Construct the main lecture link
+                        const mainLectureLink = `https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
 
-                        // Initialize the player with the retrieved lecture code
-                        initializePlayer(videoUrl);
+                        // Fetch clearkeys from the main lecture link
+                        fetchClearkeys(mainLectureLink);
                     } else {
                         console.error('Lecture code not found in quality-select.html');
                     }
                 })
-                .catch(error => console.error('Error fetching HTML:', error));
+                .catch(error => console.error('Error fetching lecture code:', error));
         });
 
-        function initializePlayer(videoUrl) {
-            fetchClearkeysData(videoUrl)
-                .then(clearkeysData => {
-                    // Once clearkeysData is fetched, initialize the player
-                    initializeDashPlayer(videoUrl, clearkeysData);
-                })
-                .catch(error => console.error('Error fetching clearkeysData:', error));
-        }
-
-        function fetchClearkeysData(videoUrl) {
-            return fetch(videoUrl)
+        function fetchClearkeys(lectureLink) {
+            fetch(lectureLink)
                 .then(response => response.text())
                 .then(htmlContent => {
-                    // Parse HTML content to extract clearkeysData
-                    const tempDiv = document.createElement('div');
-                    tempDiv.innerHTML = htmlContent;
+                    // Parse HTML content to extract clearkeys
+                    const clearkeysRegex = /<script>(.*?)<\/script>/s;
+                    const match = htmlContent.match(clearkeysRegex);
+                    if (match && match[1]) {
+                        const clearkeysScript = match[1];
 
-                    // Find the script tag containing clearkeysData
-                    const scriptElement = tempDiv.querySelector('script:not([src])');
+                        // Extract clearkeys data
+                        const clearkeysDataRegex = /const protData = ({.*?})/;
+                        const clearkeysMatch = clearkeysScript.match(clearkeysDataRegex);
+                        if (clearkeysMatch && clearkeysMatch[1]) {
+                            const clearkeysJson = clearkeysMatch[1];
+                            clearkeysData = JSON.parse(clearkeysJson);
 
-                    if (scriptElement && scriptElement.textContent.includes('const clearkeysData')) {
-                        // Extract clearkeysData object
-                        const startIndex = scriptElement.textContent.indexOf('const clearkeysData = ') + 'const clearkeysData = '.length;
-                        const endIndex = scriptElement.textContent.indexOf(';', startIndex);
-                        const clearkeysDataStr = scriptElement.textContent.substring(startIndex, endIndex);
-
-                        // Parse clearkeysData object
-                        const clearkeysData = JSON.parse(clearkeysDataStr);
-                        return clearkeysData;
+                            // Once clearkeysData is fetched, initialize the player
+                            initializePlayer();
+                        } else {
+                            console.error('Clearkeys data not found in main lecture link');
+                        }
                     } else {
-                        console.error('Script tag containing clearkeysData not found');
-                        return Promise.reject('Script tag containing clearkeysData not found');
+                        console.error('Clearkeys script not found in main lecture link');
                     }
-                });
+                })
+                .catch(error => console.error('Error fetching clearkeys:', error));
         }
 
-        function initializeDashPlayer(videoUrl, clearkeysData) {
+        function initializePlayer() {
             const video = document.getElementById("videoContainer");
             const videoSource = document.querySelector("#videoContainer source");
 
             // Set the source URL
-            videoSource.src = videoUrl;
+            videoSource.src = "mainLectureLink"; // Replace with your lecture URL
 
             const dash = dashjs.MediaPlayer().create();
-            const protData = {
-                "org.w3.clearkey": {
-                    "clearkeys": clearkeysData
-                }
+            const defaultOptions = {
+                // Your default player options here
             };
 
-            dash.setProtectionData(protData);
+            dash.initialize(video, videoSource.src, false);
+            dash.setProtectionData({ "org.w3.clearkey": { "clearkeys": clearkeysData } });
+
             dash.on("streamInitialized", function() {
-                const bodyElement = document.querySelector("body");
                 const loadingElement = document.getElementById("loading");
                 loadingElement.style.display = "none";
-                bodyElement.style.visibility = "visible";
-                const availableQualities = dash.getBitrateInfoListFor("video").map(l => l.height);
-
-                const defaultOptions = {
-                    quality: {
-                        default: availableQualities[0].height,
-                        options: availableQualities,
-                        forced: true,
-                        onChange: function(newQuality) {
-                            dash.getBitrateInfoListFor("video").forEach(level => {
-                                if (level.height === newQuality) {
-                                    dash.setQualityFor("video", level.qualityIndex);
-                                }
-                            });
-                        }
-                    },
-                    autoplay: false,
-                    muted: false,
-                    loop: { active: false },
-                    captions: { active: false, update: false }
-                };
-
-                const player = new Plyr(video, defaultOptions);
-                window.player = player;
-                window.dash = dash;
             });
 
             dash.attachView(video);
-            dash.initialize(video, videoUrl, false);
         }
     </script>
 
