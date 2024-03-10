@@ -3,129 +3,273 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>DEV'S VIDEO PLAYER</title>
-    <link rel="icon" type="image/jpeg" href="https://telegra.ph/file/53696585b88da5376d48c.jpg">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="icon" type="image/jpeg" href="https://i.imgur.com/Z52wJgg.jpg">
     <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins|Quattrocento+Sans" rel="stylesheet"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
-    <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script> 
+    <title>Lecture Player</title>
+    <!-- Help use= to earn from your site!, if you dont want then just remove the below line -->
     <style type="text/css" media="screen">
-        /* Your CSS styles here */
+        html, body {
+            font-family: 'Poppins', sans-serif;
+            background: #0A0909;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            z-index: 9999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .circle {
+            width: 20px;
+            height: 20px;
+            margin: 10px;
+            border-radius: 50%;
+            animation: loader-animation 0.75s ease infinite;
+        }
+
+        .circle:nth-child(1) {
+            background-color: #D90429;
+            animation-delay: 0s;
+        }
+
+        .circle:nth-child(2) {
+            background-color: #FFA300;
+            animation-delay: 0.15s;
+        }
+
+        .circle:nth-child(3) {
+            background-color: #048BA8;
+            animation-delay: 0.3s;
+        }
+
+        @keyframes loader-animation {
+            0% {
+                transform: scale(0);
+                opacity: 0.7;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 0;
+            }
+        }
+
+        #videoContainer {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+
+        .custom-controls {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            transform: translateY(-50%);
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            z-index: 999;
+        }
+
+        .custom-controls button {
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 24px;
+            color: #FFF;
+            margin: 0 10px;
+        }
+
+        .invisible-button {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 50%;
+            z-index: 1;
+            opacity: 0;
+        }
+
+        .volume-control {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 10%;
+            left: 0;
+            cursor: pointer;
+            z-index: 1;
+        }
     </style>
 </head>
 <body>
-    <!-- Your loading indicator -->
-    <div id="loading" class="loading">
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-    </div>
-    
-    <div class="plyr__video-wrapper">
-        <!-- Added crossorigin and playsinline attributes -->
-        <video crossorigin playsinline id="videoContainer" style="background-color: #0A0909;" preload="auto">
-            <source src="https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd">
-        </video>
-    </div>
-    
-    <script>
-        var clearkeysData;
+<div id="loading" class="loading">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+</div>
+<video controls crossorigin playsinline id="videoContainer" style="background-color: #0A0909;">
+    <source src="https://d1d34p8vz63oiq.cloudfront.net/bf2e55a0-18d1-41d1-827d-7312bf822648/master.mpd">
+</video>
 
-        document.addEventListener("DOMContentLoaded", function() {
-            // Fetch lecture code from quality-select.html
-            fetch('quality-select.html')
-                .then(response => response.text())
-                .then(data => {
-                    // Extract the lecture code from the fetched HTML
-                    const lectureCodeRegex = /lectureCode\s*=\s*"([^"]+)"/;
-                    const match = data.match(lectureCodeRegex);
-                    if (match && match[1]) {
-                        const lectureCode = match[1];
+<script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/3.1.3/dash.all.min.js"></script>
+<script src="Physicswallah/ProtectionKeyController.js"></script>
+<script>
+    const video = document.getElementById("videoContainer");
 
-                        // Construct the main lecture link
-                        const mainLectureLink = `https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
+document.addEventListener("DOMContentLoaded", function() {
+    const source = "https://d1d34p8vz63oiq.cloudfront.net/bf2e55a0-18d1-41d1-827d-7312bf822648/master.mpd";
+    const dash = dashjs.MediaPlayer().create();
 
-                        // Fetch clearkeys from the main lecture link
-                        fetchClearkeys(mainLectureLink);
-                    } else {
-                        console.error('Lecture code not found in quality-select.html');
-                    }
-                })
-                .catch(error => console.error('Error fetching lecture code:', error));
-        });
+        video.addEventListener('touchstart', handleTouchStart, false);
+        video.addEventListener('touchmove', handleTouchMove, false);
 
-        function fetchClearkeys(lectureLink) {
-            fetch(lectureLink)
-                .then(response => response.text())
-                .then(htmlContent => {
-                    // Parse HTML content to extract clearkeys
-                    const clearkeysRegex = /<script>(.*?)<\/script>/s;
-                    const match = htmlContent.match(clearkeysRegex);
-                    if (match && match[1]) {
-                        const clearkeysScript = match[1];
+        let xDown = null;
+        let yDown = null;
 
-                        // Extract clearkeys data
-                        const clearkeysDataRegex = /const protData = ({.*?})/;
-                        const clearkeysMatch = clearkeysScript.match(clearkeysDataRegex);
-                        if (clearkeysMatch && clearkeysMatch[1]) {
-                            const clearkeysJson = clearkeysMatch[1];
-                            clearkeysData = JSON.parse(clearkeysJson);
-
-                            // Once clearkeysData is fetched, initialize the player
-                            initializePlayer();
-                        } else {
-                            console.error('Clearkeys data not found in main lecture link');
-                        }
-                    } else {
-                        console.error('Clearkeys script not found in main lecture link');
-                    }
-                })
-                .catch(error => console.error('Error fetching clearkeys:', error));
+        function handleTouchStart(evt) {
+            xDown = evt.touches[0].clientX;
+            yDown = evt.touches[0].clientY;
         }
 
-        function initializePlayer() {
-            const video = document.getElementById("videoContainer");
-            const videoSource = document.querySelector("#videoContainer source");
+        function handleTouchMove(evt) {
+            if (!xDown || !yDown) {
+                return;
+            }
 
-            // Set the source URL
-            videoSource.src = "mainLectureLink"; // Replace with your lecture URL
+            let xUp = evt.touches[0].clientX;
+            let yUp = evt.touches[0].clientY;
 
-            const dash = dashjs.MediaPlayer().create();
-            const defaultOptions = {
-                // Your default player options here
-            };
+            let xDiff = xDown - xUp;
+            let yDiff = yDown - yUp;
 
-            dash.initialize(video, videoSource.src, false);
-            dash.setProtectionData({ "org.w3.clearkey": { "clearkeys": clearkeysData } });
-
-            dash.on("streamInitialized", function() {
-                const loadingElement = document.getElementById("loading");
-                loadingElement.style.display = "none";
-            });
-
-            dash.attachView(video);
+            if (Math.abs(xDiff) > Math.abs(yDiff)) {/*most significant*/
+                if (xDiff > 0) {
+                    /* left swipe */
+                    rewind();
+                } else {
+                    /* right swipe */
+                    forward();
+                }
+            } else {
+                if (yDiff > 0) {
+                    /* up swipe */
+                    // Increase volume
+                    if (video.volume < 2) {
+                        video.volume += 0.1; // Increase volume by 10%
+                    }
+                } else {
+                    /* down swipe */
+                    // Decrease volume
+                    if (video.volume > 0) {
+                        video.volume -= 0.1; // Decrease volume by 10%
+                    }
+                }
+            }
+            /* reset values */
+            xDown = null;
+            yDown = null;
         }
-    </script>
 
-    <!-- Your additional script to prevent context menu and other interactions -->
-    <script>
-        document.addEventListener("contextmenu", function (e) { e.preventDefault() });
-        document.addEventListener('keydown', function (e) {
-            if (
-                e.key === 'F12' ||
-                (e.ctrlKey && e.shiftKey && e.key === 'I') ||
-                (e.ctrlKey && e.key === 'u') ||
-                (e.ctrlKey && e.key === 'U') ||
-                (e.ctrlKey && e.key === 's') ||
-                (e.ctrlKey && e.key === 'S') ||
-                e.ctrlKey ||
-                e.shiftKey ||
-                e.altKey
-            ) {
-                e.preventDefault();
+        var defaultOptions = {
+            "autoplay": false,
+            "muted": false,
+            "loop": {
+                "active": false
+            },
+            speed: {
+                selected: 1,
+                options: [1,1.25,1.5, 2,2.5, 3, 3.25,3.5, 4]
+            },
+            "captions": {
+                "active": true,
+                "update": true
+            }
+        };
+
+        dash.initialize(video, source, false);
+        dash.updateSettings({
+            streaming: {
+                abr: {
+                    autoSwitchBitrate: {
+                        audio: false,
+                        video: false
+                    }
+                },
+                fastSwitchEnabled: true,
+                lowLatencyEnabled: true
             }
         });
-    </script>
+
+         // Fetch clearkeys data from ProtectionKeysController.js
+         const clearkeysData = ProtectionKeysController.getClearkeys();
+
+// Integrate clearkeys into Dash.js configuration
+const protData = {
+    "org.w3.clearkey": {
+        "clearkeys": clearkeysData
+    }
+};
+
+dash.initialize(video, source, false);
+dash.setProtectionData(protData);
+
+        dash.setProtectionData(protData);
+        dash.on("streamInitialized", function() {
+            const bodyElement = document.querySelector("body");
+            const loadingElement = document.getElementById("loading");
+            loadingElement.style.display = "none";
+            bodyElement.style.visibility = "visible";
+            const availableQualities = dash.getBitrateInfoListFor("video").map((l) => l.height);
+            defaultOptions.quality = {
+                default: availableQualities[0].height,
+                options: availableQualities,
+                forced: true,
+                onChange: function(newQuality) {
+                    dash.getBitrateInfoListFor("video").forEach((level, levelIndex) => {
+                        if (level.height === newQuality) {
+                            dash.setQualityFor("video", level.qualityIndex);
+                        }
+                    });
+                },
+            };
+            defaultOptions.previewThumbnails = {
+                enabled: true,
+                src: 'https://d1d34p8vz63oiq.cloudfront.net/bf2e55a0-18d1-41d1-827d-7312bf822648/master.mpd'
+            };
+            defaultOptions.tooltips = {controls: true, seek:true};
+            const player = new Plyr(video, defaultOptions);
+            window.player = player;
+            window.dash = dash;
+        });
+        dash.attachView(video);
+    });
+
+    // Rewind function
+    function rewind() {
+        if (!video.paused) {
+            video.currentTime -= 10; // Rewind 10 seconds
+        }
+    }
+
+    // Forward function
+    function forward() {
+        if (!video.paused) {
+            video.currentTime += 10; // Forward 10 seconds
+        }
+    }
+</script>
 </body>
 </html>
