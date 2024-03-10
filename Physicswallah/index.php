@@ -32,7 +32,7 @@ if(isset($_GET['lectureCode'])){
         }
     } else {
         // Handle error if content cannot be fetched
-        echo "Error fetching remote contnt.";
+        echo "Error fetching remote content.";
     }
 } else {
     // If lectureCode is not provided in the query string, return an error message
