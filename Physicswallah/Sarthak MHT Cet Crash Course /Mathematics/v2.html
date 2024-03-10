@@ -12,6 +12,28 @@
     <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script> 
     <style type="text/css" media="screen">
         /* Your CSS styles here */
+        .loading {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+        }
+        .circle {
+            background-color: #007bff;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 5px;
+            animation: bounce 0.5s ease infinite alternate;
+        }
+        @keyframes bounce {
+            to {
+                transform: translate(0, -10px);
+                background-color: #ff4c4c;
+            }
+        }
     </style>
 </head>
 <body>
@@ -94,7 +116,7 @@
                 // Your default player options here
             };
 
-            dash.initialize(video, videoSource.src, false);
+            dash.initialize(video, lectureLink, true);
             dash.setProtectionData({ "org.w3.clearkey": { "clearkeys": clearkeysData } });
 
             dash.on("streamInitialized", function() {
