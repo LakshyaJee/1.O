@@ -25,14 +25,13 @@
     <div class="plyr__video-wrapper">
         <!-- Added crossorigin and playsinline attributes -->
         <video crossorigin playsinline id="videoContainer" style="background-color: #0A0909;" preload="auto">
-            <!-- Set the source script dynamically using lectureCode variable -->
-            <source id="videoSource" src="">
+            <source src="https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd">
         </video>
     </div>
     
     <script>
         var clearkeysData;
-    
+
         document.addEventListener("DOMContentLoaded", function() {
             // Fetch lecture code from quality-select.html
             fetch('quality-select.html')
@@ -43,21 +42,19 @@
                     const match = data.match(lectureCodeRegex);
                     if (match && match[1]) {
                         const lectureCode = match[1];
-    
-                        // Set the source script dynamically with the lectureCode
-                        const sourceScript = `https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
-                        const videoSource = document.getElementById("videoSource");
-                        videoSource.src = sourceScript;
-    
-                        // Now fetch clearkeys from the main lecture link
-                        fetchClearkeys(sourceScript);
+
+                        // Construct the main lecture link
+                        const mainLectureLink = `https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
+
+                        // Fetch clearkeys from the main lecture link
+                        fetchClearkeys(mainLectureLink);
                     } else {
                         console.error('Lecture code not found in quality-select.html');
                     }
                 })
                 .catch(error => console.error('Error fetching lecture code:', error));
         });
-    
+
         function fetchClearkeys(lectureLink) {
             fetch(lectureLink)
                 .then(response => response.text())
@@ -67,14 +64,14 @@
                     const match = htmlContent.match(clearkeysRegex);
                     if (match && match[1]) {
                         const clearkeysScript = match[1];
-    
+
                         // Extract clearkeys data
                         const clearkeysDataRegex = /const protData = ({.*?})/;
                         const clearkeysMatch = clearkeysScript.match(clearkeysDataRegex);
                         if (clearkeysMatch && clearkeysMatch[1]) {
                             const clearkeysJson = clearkeysMatch[1];
                             clearkeysData = JSON.parse(clearkeysJson);
-    
+
                             // Once clearkeysData is fetched, initialize the player
                             initializePlayer();
                         } else {
@@ -86,27 +83,29 @@
                 })
                 .catch(error => console.error('Error fetching clearkeys:', error));
         }
-    
+
         function initializePlayer() {
             const video = document.getElementById("videoContainer");
-    
+            const videoSource = document.querySelector("#videoContainer source");
+
+            // Set the source URL
+            videoSource.src = "mainLectureLink"; // Replace with your lecture URL
+
             const dash = dashjs.MediaPlayer().create();
             const defaultOptions = {
                 // Your default player options here
             };
-    
+
             dash.initialize(video, videoSource.src, false);
             dash.setProtectionData({ "org.w3.clearkey": { "clearkeys": clearkeysData } });
-    
+
             dash.on("streamInitialized", function() {
                 const loadingElement = document.getElementById("loading");
                 loadingElement.style.display = "none";
             });
-    
+
             dash.attachView(video);
         }
-    
-    
     </script>
 
     <!-- Your additional script to prevent context menu and other interactions -->
