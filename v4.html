@@ -130,28 +130,45 @@
         };
 
         <script>
-            function fetchClearkeysData() {
-            ProtectionKeyController.getClearkeys()
-                .then(clearkeysData => {
+    // Function to fetch clearkeys data from the server
+    function fetchClearkeysData() {
+        fetch('clearkeys_url_here') // Replace 'clearkeys_url_here' with the actual URL
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                // Check if clearkeys data is present in the response
+                if (data && data.clearkeys) {
                     // Process clearkeys data
-                    processClearkeysData(clearkeysData);
-                })
-                .catch(error => {
-                    console.error('Error fetching clearkeys data:', error);
-                });
-        }
+                    processClearkeysData(data.clearkeys);
+                } else {
+                    // Handle case where clearkeys data is not found in the response
+                    console.error('Clearkeys data not found in server response');
+                }
+            })
+            .catch(error => {
+                // Handle fetch errors
+                console.error('Error fetching clearkeys data:', error);
+            });
+    }
 
-        // Function to process clearkeys data
-        function processClearkeysData(clearkeysData) {
-            // Your logic to handle clearkeys data goes here
-            console.log('Clearkeys data:', clearkeysData);
-            // Integrate clearkeys into your video player for decryption
-            // For Dash.js, you would use dash.setProtectionData()
-        }
+    // Function to process clearkeys data
+    function processClearkeysData(clearkeysData) {
+        // Your logic to handle clearkeys data goes here
+        console.log('Clearkeys data:', clearkeysData);
+    }
 
-        // Trigger fetching of clearkeys data when DOM content is loaded
+    // Trigger fetching of clearkeys data when DOM content is loaded
+    document.addEventListener('DOMContentLoaded', function() {
         fetchClearkeysData();
-    });
+    })
+
+
+
 </script>
+
 </body>
 </html>
