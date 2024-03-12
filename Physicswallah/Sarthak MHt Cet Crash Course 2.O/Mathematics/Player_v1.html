@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DEV'S VIDEO PLAYER</title>
+    <link rel="icon" type="image/jpeg" href="https://telegra.ph/file/53696585b88da5376d48c.jpg">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Quattrocento+Sans" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
+    <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script> 
+    <style type="text/css" media="screen">
+        /* Your CSS styles here */
+    </style>
+</head>
+<body>
+    <!-- Your loading indicator -->
+    <div id="loading" class="loading">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+    
+    <div class="plyr__video-wrapper">
+        <!-- Added crossorigin and playsinline attributes -->
+        <video crossorigin playsinline id="videoContainer" style="background-color: #0A0909;" preload="auto">
+            <source src="https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd">
+        </video>
+    </div>
+    
+    <script>
+        var clearkeysData;
+
+        document.addEventListener("DOMContentLoaded", function() {
+            // Fetch lecture code from quality-select.html
+            fetch('quality-select.html')
+                .then(response => response.text())
+                .then(data => {
+                    // Extract the lecture code from the fetched HTML
+                    const lectureCodeRegex = /lectureCode\s*=\s*"([^"]+)"/;
+                    const match = data.match(lectureCodeRegex);
+                    if (match && match[1]) {
+                        const lectureCode = match[1];
+
+                        // Construct the main lecture link
+                        const mainLectureLink = `https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
+
+                        // Fetch clearkeys from the main lecture link
+                        fetchClearkeys(mainLectureLink);
+                    } else {
+                        console.error('Lecture code not found in quality-select.html');
+                    }
+                })
+                .catch(error => console.error('Error fetching lecture code:', error));
+        });
+
+        function fetchClearkeys(lectureLink) {
+            fetch(lectureLink)
+                .then(response => response.text())
+                .then(htmlContent => {
+                    // Parse HTML content to extract clearkeys
+                    const clearkeysRegex = /<script>(.*?)<\/script>/s;
+                    const match = htmlContent.match(clearkeysRegex);
+                    if (match && match[1]) {
+                        const clearkeysScript = match[1];
+
+                        // Extract clearkeys data
+                        const clearkeysDataRegex = /const protData = ({.*?})/;
+                        const clearkeysMatch = clearkeysScript.match(clearkeysDataRegex);
+                        if (clearkeysMatch && clearkeysMatch[1]) {
+                            const clearkeysJson = clearkeysMatch[1];
+                            clearkeysData = JSON.parse(clearkeysJson);
+
+                            // Once clearkeysData is fetched, initialize the player
+                            initializePlayer();
+                        } else {
+                            console.error('Clearkeys data not found in main lecture link');
+                        }
+                    } else {
+                        console.error('Clearkeys script not found in main lecture link');
+                    }
+                })
+                .catch(error => console.error('Error fetching clearkeys:', error));
+        }
+
+        function initializePlayer() {
+            const video = document.getElementById("videoContainer");
+            const videoSource = document.querySelector("#videoContainer source");
+
+            // Set the source URL
+            videoSource.src = "mainLectureLink"; // Replace with your lecture URL
+
+            const dash = dashjs.MediaPlayer().create();
+            const defaultOptions = {
+                // Your default player options here
+            };
+
+            dash.initialize(video, videoSource.src, false);
+            dash.setProtectionData({ "org.w3.clearkey": { "clearkeys": clearkeysData } });
+
+            dash.on("streamInitialized", function() {
+                const loadingElement = document.getElementById("loading");
+                loadingElement.style.display = "none";
+            });
+
+            dash.attachView(video);
+        }
+    </script>
+
+    <!-- Your additional script to prevent context menu and other interactions -->
+    <script>
+        document.addEventListener("contextmenu", function (e) { e.preventDefault() });
+        document.addEventListener('keydown', function (e) {
+            if (
+                e.key === 'F12' ||
+                (e.ctrlKey && e.shiftKey && e.key === 'I') ||
+                (e.ctrlKey && e.key === 'u') ||
+                (e.ctrlKey && e.key === 'U') ||
+                (e.ctrlKey && e.key === 's') ||
+                (e.ctrlKey && e.key === 'S') ||
+                e.ctrlKey ||
+                e.shiftKey ||
+                e.altKey
+            ) {
+                e.preventDefault();
+            }
+        });
+    </script>
+</body>
+</html>
