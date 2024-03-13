@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRM Video Player</title>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Quattrocento+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <style type="text/css" media="screen">
+        html {
+            font-family: Poppins;
+            background: rgb(34,164,195);
+            background: linear-gradient(166deg, rgba(34,164,195,1) 9%, rgba(253,187,45,1) 88%);
+            margin: 0;
+            padding: 0;
+            background-repeat: no-repeat;
+            height:100%;
+            width:100%;
+            --plyr-color-main: #2986cc;
+        }
+        .plyr {
+            height: 100%;
+            width: 100%;
+        }
+        .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            z-index: 9999;
+        }
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .circle {
+            width: 20px;
+            height: 20px;
+            margin: 10px;
+            border-radius: 50%;
+            animation: loader-animation 0.75s ease infinite;
+        }
+        .circle:nth-child(1) {
+            background-color: #D90429;
+            animation-delay: 0s;
+        }
+        .circle:nth-child(2) {
+            background-color: #FFA300;
+            animation-delay: 0.15s;
+        }
+        .circle:nth-child(3) {
+            background-color: #048BA8;
+            animation-delay: 0.3s;
+        }
+        @keyframes loader-animation {
+            0% {
+                transform: scale(0);
+                opacity: 0.7;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="loading" class="loading">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+    <div class="plyr__video-wrapper">
+        <video crossorigin="" playsinline="" id="videoContainer" style="background-color: #0A0909;" preload="auto">
+            <source src="">
+        </video>
+    </div>
+
+    <script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
+    <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+    <script>
+        // Declare clearkeysData as a global variable
+        var clearkeysData;
+
+        // Function to fetch lecture code from quality-select.html
+        function fetchLectureCode() {
+            // Fetch HTML content from the quality-select.html URL
+            fetch('quality-select.html')
+                .then(response => response.text())
+                .then(htmlContent => {
+                    // Create a temporary div element to parse HTML content
+                    var tempDiv = document.createElement('div');
+                    tempDiv.innerHTML = htmlContent;
+
+                    // Find the script tag containing protData
+                    var scriptElement = tempDiv.querySelector('script:not([src])');
+
+                    if (scriptElement && scriptElement.textContent.includes('const protData')) {
+                        // Extract protData object
+                        var startIndex = scriptElement.textContent.indexOf('const protData = ') + 'const protData = '.length;
+                        var endIndex = scriptElement.textContent.indexOf(';', startIndex);
+                        var protDataStr = scriptElement.textContent.substring(startIndex, endIndex);
+
+                        // Parse protData object
+                        var protData = JSON.parse(protDataStr);
+
+                        // Extract clearkeys data
+                        clearkeysData = protData['org.w3.clearkey'].clearkeys; // Assign to the global variable
+
+                        // Log clearkeys data
+                        console.log('Clearkeys Data:', clearkeysData);
+
+                        // Initialize the player with the retrieved source
+                        initializePlayer();
+                    } else {
+                        console.error('Script tag containing protData not found');
+                    }
+                })
+                .catch(error => console.error('Error fetching HTML:', error));
+        }
+
+        // Function to initialize the video player with DRM settings
+        function initializePlayer(lectureCode) {
+    // Construct the video ID and URL based on the lectureCode
+    var videoId = `https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
+    var url = `https://sarkarithanos.com/pw?link=${videoId}`;
+
+    // Fetch HTML content from the URL
+    fetch(url)
+        .then(response => response.text())
+        .then(htmlContent => {
+            // Create a temporary div element to parse HTML content
+            var tempDiv = document.createElement('div');
+            tempDiv.innerHTML = htmlContent;
+
+            // Find the script tag containing protData
+            var scriptElement = tempDiv.querySelector('script:not([src])');
+
+            if (scriptElement && scriptElement.textContent.includes('const protData')) {
+                // Extract protData object
+                var startIndex = scriptElement.textContent.indexOf('const protData = ') + 'const protData = '.length;
+                var endIndex = scriptElement.textContent.indexOf(';', startIndex);
+                var protDataStr = scriptElement.textContent.substring(startIndex, endIndex);
+
+                // Parse protData object
+                var protData = JSON.parse(protDataStr);
+
+                // Extract clearkeys data
+                clearkeysData = protData['org.w3.clearkey'].clearkeys; // Assign to the global variable
+
+                // Log clearkeys data
+                console.log('Clearkeys Data:', clearkeysData);
+
+                // Initialize the player with the retrieved source
+                initializePlayer();
+            } else {
+                console.error('Script tag containing protData not found');
+            }
+        })
+        .catch(error => console.error('Error fetching HTML:', error));
+}
+
+
+        // Call the fetchLectureCode function when the page is loaded
+        fetchLectureCode();
+    </script>
+</body>
+</html>
