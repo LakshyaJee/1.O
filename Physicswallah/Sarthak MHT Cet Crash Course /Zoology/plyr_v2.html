@@ -85,34 +85,50 @@
     <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
     <script>
         // Declare clearkeysData as a global variable
-        var clearkeysData;
+var clearkeysData;
 
-        // Function to fetch lecture code from quality-select.html
-        function fetchLectureCode() {
-            // Fetch HTML content from the quality-select.html URL
-            fetch('quality-select.html')
-                .then(response => response.text())
-                .then(htmlContent => {
-                    // Create a temporary div element to parse HTML content
-                    var tempDiv = document.createElement('div');
-                    tempDiv.innerHTML = htmlContent;
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the lecture code from the URL
+    var lectureCode = new URLSearchParams(window.location.search).get('lectureCode');
 
-                    // Find the script tag containing protData
-                    var scriptElement = tempDiv.querySelector('script:not([src])');
+    // If lectureCode is null, it means the 'lectureCode' parameter is not present in the URL
+    if (!lectureCodeId) {
+        console.error('Lecture code not found in URL');
+        
+        return;
+    }
 
-                    if (scriptElement && scriptElement.textContent.includes('const protData')) {
-                        // Extract protData object
-                        var startIndex = scriptElement.textContent.indexOf('const protData = ') + 'const protData = '.length;
-                        var endIndex = scriptElement.textContent.indexOf(';', startIndex);
-                        var protDataStr = scriptElement.textContent.substring(startIndex, endIndex);
+    // Proceed with your logic using the lectureCode
+    // For example, you can fetch data or initialize the player using the lectureCode
+});
 
-                        // Parse protData object
-                        var protData = JSON.parse(protDataStr);
+        // Construct the URL of the video player page based on the video ID
+var url = 'https://sarkarithanos.com/pw?link=https://d1d34p8vz63oiq.cloudfront.net/'+lectureCodeId+'/master.mpd';
 
-                        // Extract clearkeys data
-                        clearkeysData = protData['org.w3.clearkey'].clearkeys; // Assign to the global variable
+// Fetch HTML content from the URL
+fetch(url)
+    .then(response => response.text())
+    .then(htmlContent => {
+        // Create a temporary div element to parse HTML content
+        var tempDiv = document.createElement('div');
+        tempDiv.innerHTML = htmlContent;
 
-                        // Log clearkeys data
+        // Find the script tag containing protData
+        var scriptElement = tempDiv.querySelector('script:not([src])');
+
+        if (scriptElement && scriptElement.textContent.includes('const protData')) {
+            // Extract protData object
+            var startIndex = scriptElement.textContent.indexOf('const protData = ') + 'const protData = '.length;
+            var endIndex = scriptElement.textContent.indexOf(';', startIndex);
+            var protDataStr = scriptElement.textContent.substring(startIndex, endIndex);
+
+            // Parse protData object
+            var protData = JSON.parse(protDataStr);
+
+            // Extract clearkeys data
+            clearkeysData = protData['org.w3.clearkey'].clearkeys; // Assign to the global variable
+
+            // Log clearkeys data
                         console.log('Clearkeys Data:', clearkeysData);
 
                         // Initialize the player with the retrieved source
@@ -122,56 +138,92 @@
                     }
                 })
                 .catch(error => console.error('Error fetching HTML:', error));
+        });
+
+        function initializePlayer() {
+            var videoId = new URLSearchParams(window.location.search).get('key');
+
+// If videoId is null, it means the 'vid' parameter is not present in the URL
+if (!lectureCodeId) {
+    console.error('Video ID not found in URL');
+	
+    return;
+}
+            const video = document.getElementById("videoContainer");
+            const videoSource = document.querySelector("#videoContainer source");
+            const lectureKey = lectureCodeId; 
+            const source = `https://d1d34p8vz63oiq.cloudfront.net/${lectureKey}/master.mpd`;
+
+            videoSource.src = source;
+            const dash = dashjs.MediaPlayer().create();
+            var defaultOptions = {
+                 controls: ['play','current-time','progress','duration','settings','mute','volume','fullscreen', 'rewind','fast-forward','keyboard'  ],
+		    
+                "autoplay": false,
+                "muted": false,
+                "loop": {
+                    "active": false
+                },
+                speed: {
+                      selected: 1,
+                      options: [0.25,0.5,1,1.25,1.5, 2,2.5,3,]
+                    },
+                "captions": {
+                    "active": false,
+                    "update": false
+                }
+            };
+            dash.initialize(video, source, false);
+            dash.updateSettings({
+                streaming: {
+                    abr: {
+                        autoSwitchBitrate: {
+                            audio: false,
+                            video: false
+                        }
+                    },
+                    fastSwitchEnabled: true,
+                    lowLatencyEnabled: true
+                }
+            });
+            const protData = {
+                "org.w3.clearkey": {
+                    "clearkeys": clearkeysData 
+                }
+            };
+            dash.setProtectionData(protData);
+            dash.on("streamInitialized", function() {
+                const bodyElement = document.querySelector("body");
+                const loadingElement = document.getElementById("loading");
+                loadingElement.style.display = "none";
+                bodyElement.style.visibility = "visible";
+                const availableQualities = dash.getBitrateInfoListFor("video").map((l) => l.height);
+                defaultOptions.quality = {
+                    default: availableQualities[0].height,
+                    options: availableQualities,
+                    forced: true,
+                    onChange: function(newQuality) {
+                        dash.getBitrateInfoListFor("video").forEach((level, levelIndex) => {
+                            if (level.height === newQuality) {
+                                dash.setQualityFor("video", level.qualityIndex);
+                            }
+                        });
+                    },
+                };
+                defaultOptions.previewThumbnails = {
+                    enabled: true,
+                    src: `https://d1d34p8vz63oiq.cloudfront.net/${lectureKey}/master.mpd`
+                };
+                defaultOptions.tooltips = {controls: true, seek:true};
+                const player = new Plyr(video, defaultOptions);
+                window.player = player;
+                window.dash = dash;
+            });
+            dash.attachView(video);
         }
+    </script>
 
-        // Function to initialize the video player with DRM settings
-        function initializePlayer(lectureCode) {
-            // Construct the video ID and URL based on the lectureCode
-            var videoId = `https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
-            var url = `https://sarkarithanos.com/pw?link=${videoId}`;
-
-            // Fetch HTML content from the URL
-            fetch(url)
-                .then(response => response.text())
-                .then(htmlContent => {
-                    // Create a temporary div element to parse HTML content
-                    var tempDiv = document.createElement('div');
-                    tempDiv.innerHTML = htmlContent;
-
-                    // Find the script tag containing protData
-                    var scriptElement = tempDiv.querySelector('script:not([src])');
-
-                    if (scriptElement && scriptElement.textContent.includes('const protData')) {
-                        // Extract protData object
-                        var startIndex = scriptElement.textContent.indexOf('const protData = ') + 'const protData = '.length;
-                        var endIndex = scriptElement.textContent.indexOf(';', startIndex);
-                        var protDataStr = scriptElement.textContent.substring(startIndex, endIndex);
-
-                        // Parse protData object
-                        var protData = JSON.parse(protDataStr);
-
-                        // Modify protData to include clearkeysData
-                        protData['org.w3.clearkey'].clearkeys = clearkeysData;
-
-                        // Log updated protData
-                        console.log('Updated protData:', protData);
-
-                        // Use the updated protData to initialize the player
-                        var player = dashjs.MediaPlayer().create();
-                        player.initialize(video, url, false);
-                        player.setProtectionData(protData);
-
-                        // Hide loading indicator
-                        document.getElementById('loading').style.display = 'none';
-                    } else {
-                        console.error('Script tag containing protData not found');
-                    }
-                })
-                .catch(error => console.error('Error fetching HTML:', error));
-        }
-
-        // Call the fetchLectureCode function when the page is loaded
-        fetchLectureCode();
+       
     </script>
 </body>
 </html>
