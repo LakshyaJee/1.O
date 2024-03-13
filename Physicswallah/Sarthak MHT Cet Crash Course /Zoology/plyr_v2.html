@@ -126,45 +126,49 @@
 
         // Function to initialize the video player with DRM settings
         function initializePlayer(lectureCode) {
-    // Construct the video ID and URL based on the lectureCode
-    var videoId = `https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
-    var url = `https://sarkarithanos.com/pw?link=${videoId}`;
+            // Construct the video ID and URL based on the lectureCode
+            var videoId = `https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
+            var url = `https://sarkarithanos.com/pw?link=${videoId}`;
 
-    // Fetch HTML content from the URL
-    fetch(url)
-        .then(response => response.text())
-        .then(htmlContent => {
-            // Create a temporary div element to parse HTML content
-            var tempDiv = document.createElement('div');
-            tempDiv.innerHTML = htmlContent;
+            // Fetch HTML content from the URL
+            fetch(url)
+                .then(response => response.text())
+                .then(htmlContent => {
+                    // Create a temporary div element to parse HTML content
+                    var tempDiv = document.createElement('div');
+                    tempDiv.innerHTML = htmlContent;
 
-            // Find the script tag containing protData
-            var scriptElement = tempDiv.querySelector('script:not([src])');
+                    // Find the script tag containing protData
+                    var scriptElement = tempDiv.querySelector('script:not([src])');
 
-            if (scriptElement && scriptElement.textContent.includes('const protData')) {
-                // Extract protData object
-                var startIndex = scriptElement.textContent.indexOf('const protData = ') + 'const protData = '.length;
-                var endIndex = scriptElement.textContent.indexOf(';', startIndex);
-                var protDataStr = scriptElement.textContent.substring(startIndex, endIndex);
+                    if (scriptElement && scriptElement.textContent.includes('const protData')) {
+                        // Extract protData object
+                        var startIndex = scriptElement.textContent.indexOf('const protData = ') + 'const protData = '.length;
+                        var endIndex = scriptElement.textContent.indexOf(';', startIndex);
+                        var protDataStr = scriptElement.textContent.substring(startIndex, endIndex);
 
-                // Parse protData object
-                var protData = JSON.parse(protDataStr);
+                        // Parse protData object
+                        var protData = JSON.parse(protDataStr);
 
-                // Extract clearkeys data
-                clearkeysData = protData['org.w3.clearkey'].clearkeys; // Assign to the global variable
+                        // Modify protData to include clearkeysData
+                        protData['org.w3.clearkey'].clearkeys = clearkeysData;
 
-                // Log clearkeys data
-                console.log('Clearkeys Data:', clearkeysData);
+                        // Log updated protData
+                        console.log('Updated protData:', protData);
 
-                // Initialize the player with the retrieved source
-                initializePlayer();
-            } else {
-                console.error('Script tag containing protData not found');
-            }
-        })
-        .catch(error => console.error('Error fetching HTML:', error));
-}
+                        // Use the updated protData to initialize the player
+                        var player = dashjs.MediaPlayer().create();
+                        player.initialize(video, url, false);
+                        player.setProtectionData(protData);
 
+                        // Hide loading indicator
+                        document.getElementById('loading').style.display = 'none';
+                    } else {
+                        console.error('Script tag containing protData not found');
+                    }
+                })
+                .catch(error => console.error('Error fetching HTML:', error));
+        }
 
         // Call the fetchLectureCode function when the page is loaded
         fetchLectureCode();
