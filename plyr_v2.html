@@ -159,7 +159,7 @@ background: linear-gradient(166deg, rgba(34,164,195,1) 9%, rgba(253,187,45,1) 88
 
         document.addEventListener("DOMContentLoaded", function() {
             // Get the lecture code from the URL
-            var lectureCodeId = new URLSearchParams(window.location.search).get('lectureCode');
+            var lectureCodeId = new URLSearchParams(window.location.search).get('key');
 
             // If lectureCodeId is null, it means the 'lectureCode' parameter is not present in the URL
             if (!lectureCodeId) {
