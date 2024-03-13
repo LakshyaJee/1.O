@@ -127,19 +127,16 @@
         }
 
         function playOnWeb() {
-    // Hide unnecessary elements
-    document.querySelector('.quality-select-container').style.display = 'none';
+            // Get the lecture code from the URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const lectureCode = urlParams.get('lectureCode');
 
-    // Get the lecture code from the URL
-    const urlParams = new URLSearchParams(window.location.search);
-    const lectureCode = urlParams.get('lectureCode');
+            // Construct the URL with lectureCode parameter
+            const redirectURL = `plyr_v2.html?key=${lectureCode}`;
 
-    // Construct the URL with lectureCode parameter
-    const redirectURL = `plyr_v2.html?lectureCode=${lectureCode}`;
-
-    // Redirect to the plyr2.html page with lectureCode parameter
-    window.location.href = redirectURL;
-}
+            // Redirect to the plyr2.html page with lectureCode parameter
+            window.location.href = redirectURL;
+        }
 
 
 
