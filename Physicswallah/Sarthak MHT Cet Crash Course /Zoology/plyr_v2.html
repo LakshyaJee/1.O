@@ -103,56 +103,58 @@
         var lectureCodeId;
 
         document.addEventListener("DOMContentLoaded", function () {
-            // Get the lecture code from the URL
-            lectureCodeId = new URLSearchParams(window.location.search).get('key');
+    // Get the lecture code from the URL
+    lectureCodeId = new URLSearchParams(window.location.search).get('key');
 
-            // If lectureCodeId is null, it means the 'lectureCode' parameter is not present in the URL
-            if (!lectureCodeId) {
-                console.error('Lecture code not found in URL');
-                alert("HEY YOU NEED TO GIVE LECTURE CODE TOO OR YOU MIGHT HAVE GIVEN INCORRECT LECTURE CODE");
-                return;
+    // If lectureCodeId is null, it means the 'lectureCode' parameter is not present in the URL
+    if (!lectureCodeId) {
+        console.error('Lecture code not found in URL');
+        alert("HEY YOU NEED TO GIVE LECTURE CODE TOO OR YOU MIGHT HAVE GIVEN INCORRECT LECTURE CODE");
+        return;
+    }
+
+    // Proceed with your logic using the lectureCode
+    // For example, you can fetch data or initialize the player using the lectureCode
+
+    // Construct the URL of the video player page based on the video ID
+    var url = 'https://sarkarithanos.com/pw?link=https://d1d34p8vz63oiq.cloudfront.net/' + lectureCodeId + '/master.mpd';
+
+    // Fetch HTML content from the URL
+    fetch(url)
+        .then(response => response.text())
+        .then(htmlContent => {
+            // Create a temporary div element to parse HTML content
+            var tempDiv = document.createElement('div');
+            tempDiv.innerHTML = htmlContent;
+
+            // Find the script tag containing protData
+            var scriptElement = tempDiv.querySelector('script:not([src])');
+
+            if (scriptElement && scriptElement.textContent.includes('const protData')) {
+                // Extract protData object
+                var startIndex = scriptElement.textContent.indexOf('const protData = ') + 'const protData = '.length;
+                var endIndex = scriptElement.textContent.indexOf(';', startIndex);
+                var protDataStr = scriptElement.textContent.substring(startIndex, endIndex);
+                console.log('HTML Content:', htmlContent);
+
+                // Parse protData object
+                var protData = JSON.parse(protDataStr);
+
+                // Extract clearkeys data
+                clearkeysData = protData['org.w3.clearkey'].clearkeys; // Assign to the global variable
+
+                // Log clearkeys data
+                console.log('Clearkeys Data:', clearkeysData);
+
+                // Initialize the player after fetching HTML content
+                initializePlayer();
+            } else {
+                console.error('Script tag containing protData not found');
             }
+        })
+        .catch(error => console.error('Error fetching HTML:', error));
+});
 
-            // Proceed with your logic using the lectureCode
-            // For example, you can fetch data or initialize the player using the lectureCode
-            initializePlayer();
-        });
-
-         // Construct the URL of the video player page based on the video ID
-         var url = 'https://sarkarithanos.com/pw?link=https://d1d34p8vz63oiq.cloudfront.net/'+lectureCodeId+'/master.mpd';
-
-// Fetch HTML content from the URL
-fetch(url)
-    .then(response => response.text())
-    .then(htmlContent => {
-        // Create a temporary div element to parse HTML content
-        var tempDiv = document.createElement('div');
-        tempDiv.innerHTML = htmlContent;
-
-        // Find the script tag containing protData
-        var scriptElement = tempDiv.querySelector('script:not([src])');
-
-        if (scriptElement && scriptElement.textContent.includes('const protData')) {
-            // Extract protData object
-            var startIndex = scriptElement.textContent.indexOf('const protData = ') + 'const protData = '.length;
-            var endIndex = scriptElement.textContent.indexOf(';', startIndex);
-            var protDataStr = scriptElement.textContent.substring(startIndex, endIndex);
-            console.log('HTML Content:', htmlContent);
-
-            // Parse protData object
-            var protData = JSON.parse(protDataStr);
-
-            // Extract clearkeys data
-            clearkeysData = protData['org.w3.clearkey'].clearkeys; // Assign to the global variable
-
-            // Log clearkeys data
-            console.log('Clearkeys Data:', clearkeysData);
-            
-        } else {
-            console.error('Script tag containing protData not found');
-        }
-    })
-    .catch(error => console.error('Error fetching HTML:', error));
         function initializePlayer() {
             // If lectureCodeId is null, it means the 'lectureCode' parameter is not present in the URL
             if (!lectureCodeId) {
