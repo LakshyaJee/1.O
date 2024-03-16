@@ -163,6 +163,23 @@
                 return;
             }
 
+            // Add CORS headers script dynamically
+    const corsScript = document.createElement('script');
+    corsScript.innerHTML = `
+        app.use((req, res, next) => {
+            res.setHeader('Access-Control-Allow-Origin', '*'); // Allow requests from any origin
+            res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS'); // Allow specified methods
+            res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization'); // Allow specified headers
+            if (req.method === 'OPTIONS') {
+                res.sendStatus(200); // Respond to preflight requests
+            } else {
+                next(); // Continue processing other requests
+            }
+        });
+    `;
+    document.body.appendChild(corsScript);
+    
+
             const video = document.getElementById("videoContainer");
             const videoSource = document.querySelector("#videoContainer source");
             const lectureKey = lectureCodeId;
