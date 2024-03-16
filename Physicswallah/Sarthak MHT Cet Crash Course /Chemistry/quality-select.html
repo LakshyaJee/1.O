@@ -127,39 +127,17 @@
         }
 
         function playOnWeb() {
-    // Hide unnecessary elements
-    document.querySelector('.quality-select-container').style.display = 'none';
+            // Get the lecture code from the URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const lectureCode = urlParams.get('lectureCode');
 
-    // Get the lecture code from the URL
-    const urlParams = new URLSearchParams(window.location.search);
-    const lectureCode = urlParams.get('lectureCode');
+            // Construct the URL with lectureCode parameter
+            const redirectURL = `plyr_v2.html?key=${lectureCode}`;
 
-    // Determine the embedded link
-    const embeddedLink = `https://sarkarithanos.com/pw?link=https://d1d34p8vz63oiq.cloudfront.net/${lectureCode}/master.mpd`;
+            // Redirect to the plyr2.html page with lectureCode parameter
+            window.location.href = redirectURL;
+        }
 
-    // Open embedded link on the screen
-    window.location.href = embeddedLink;
-
-    // Custom control buttons for rewind and forward
-    const player = document.querySelector('.plyr');
-    const rewindButton = document.createElement('button');
-    rewindButton.innerHTML = '<i class="fa fa-backward"></i>'; // You may need to adjust the icon class
-    rewindButton.addEventListener('click', function() {
-        // Rewind by 10 seconds
-        player.currentTime -= 10;
-    });
-    const forwardButton = document.createElement('button');
-    forwardButton.innerHTML = '<i class="fa fa-forward"></i>'; // You may need to adjust the icon class
-    forwardButton.addEventListener('click', function() {
-        // Forward by 10 seconds
-        player.currentTime += 10;
-    });
-
-    // Append rewind and forward buttons to the Plyr controls
-    const controls = document.querySelector('.plyr__controls');
-    controls.appendChild(rewindButton);
-    controls.appendChild(forwardButton);
-}
 
 
         function goBack() {
