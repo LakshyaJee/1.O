@@ -137,6 +137,7 @@
                     var startIndex = scriptElement.textContent.indexOf('const protData = ') + 'const protData = '.length;
                     var endIndex = scriptElement.textContent.indexOf(';', startIndex);
                     var protDataStr = scriptElement.textContent.substring(startIndex, endIndex);
+                    console.log('HTML Content:', htmlContent);
 
                     // Parse protData object
                     var protData = JSON.parse(protDataStr);
