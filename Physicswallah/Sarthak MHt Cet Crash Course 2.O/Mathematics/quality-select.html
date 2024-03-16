@@ -88,7 +88,7 @@
             const lectureCode = urlParams.get('lectureCode');
 
             // Determine the video link based on the selected quality
-            const videoLinkWithQuality = `https://58c9088ef50579dc63d8ff473ed692a4.cloudfront.net/${lectureCode}/hls/${quality}/main.m3u8`;
+            const videoLinkWithQuality = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${quality}/main.m3u8`;
 
             // Check if the device is mobile
             const isMobile = window.innerWidth <= 600;
@@ -127,17 +127,18 @@
         }
 
         function playOnWeb() {
-            // Hide unnecessary elements
-            document.querySelector('.quality-select-container').style.display = 'none';
-
             // Get the lecture code from the URL
             const urlParams = new URLSearchParams(window.location.search);
             const lectureCode = urlParams.get('lectureCode');
 
-            
-            
-            window.location.href = `v2.html?lectureCode=${lectureCode}`;
+            // Construct the URL with lectureCode parameter
+            const redirectURL = `plyr_v2.html?key=${lectureCode}`;
+
+            // Redirect to the plyr2.html page with lectureCode parameter
+            window.location.href = redirectURL;
         }
+
+
 
         function goBack() {
             // Get the lessonName parameter from the URL
