@@ -109,7 +109,7 @@
             const lectureCode = urlParams.get('lectureCode');
 
             // Determine the video link based on the selected quality
-            const videoLinkWithQuality = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${quality}/main.m3u8`;
+            const videoLinkWithQuality = `https://psitoffers.store/1dm.php?vid=${lectureCode}`;
 
             // Check if the device is mobile
             const isMobile = window.innerWidth <= 600;
@@ -123,6 +123,19 @@
                 alert('Download feature is available for mobile devices only.');
             }
         }
+
+        function playOnWeb() {
+            // Get the lecture code from the URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const lectureCode = urlParams.get('lectureCode');
+
+            // Construct the URL with lectureCode parameter
+            const redirectURL = `plyr_v2.html?key=${lectureCode}`;
+
+            // Redirect to the plyr2.html page with lectureCode parameter
+            window.location.href = redirectURL;
+        }
+
 
         function goBack() {
             // Get the lessonName parameter from the URL
