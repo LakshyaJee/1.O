@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "disable-devtool": "^0.3.7"
+    "cors": "^2.8.5",
+    "disable-devtool": "^0.3.7",
+    "express": "^4.18.3"
   }
 }
