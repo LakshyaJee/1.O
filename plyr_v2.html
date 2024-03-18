@@ -1,225 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Video Player</title>
-    <link rel="icon" type="image/jpeg" href="https://w7.pngwing.com/pngs/117/870/png-transparent-vlc-media-player-computer-icons-windows-media-player-button-video-player-funny-media-player.png">
+    <link rel="icon" type="image/jpeg" href="https://img.freepik.com/premium-vector/palestine-flag-paint-brush-strokes-palestine-flag-vector-page-symbol-your-web-site-design-vector-illustration_623474-1577.jpg">
     <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins|Quattrocento+Sans" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Quattrocento+Sans" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
-    <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script> 
+    <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
     <style type="text/css" media="screen">
         html {
             font-family: Poppins;
-/*             background: #0A0909; */
-		background: rgb(34,164,195);
-background: linear-gradient(166deg, rgba(34,164,195,1) 9%, rgba(253,187,45,1) 88%);
+            background: rgb(34, 164, 195);
+            background: #0A0909;
             margin: 0;
             padding: 0;
-		background-repeat: no-repeat;
-		height:100%;
-		width:100%;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
             --plyr-color-main: #2986cc;
         }
-       .logo-container {
-                position: absolute;
-                top: 10px;
-                left: 10px;
-                width: 60px;
-                height: 60px;
-            }
-	  .plyr {
-                height: 100%;
-                width: 100%;
-            }
-            #logo {
-                position: fixed;
-                background-image: url("https://i.imgur.com/Z52wJgg.jpg");
-                background-size: contain;
-                background-position: center;
-            }
 
-            .float {
-                height: 60px;
-                width: 60px;
-                z-index: 10;
-                border-radius: 50px;
-                box-shadow: 2px 2px 3px #999;
-            }
+        .plyr {
+            height: 100%;
+            width: 100%;
+        }
 
-            .label-container{
-	            position: relative;
-                top: 5px;
-                left:70px;
-                display:table;
-                visibility: hidden;
-            }
+        .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            z-index: 9999;
+        }
 
-            .label-text{
-                color:#FFF;
-                background:rgba(51,51,51,0.5);
-                display:table-cell;
-                vertical-align:middle;
-                padding:10px;
-                border-radius:3px;
-            }
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
-            .label-arrow{
-                display:table-cell;
-                vertical-align:middle;
-                color:#333;
-                opacity:0.5;
-                transform: scaleX(-1);
-            }
+        .circle {
+            width: 20px;
+            height: 20px;
+            margin: 10px;
+            border-radius: 50%;
+            animation: loader-animation 0.75s ease infinite;
+        }
 
-            a.float + div.label-container {
-/*               visibility: hidden; */
-              opacity: 0;
-              transition: visibility 0s, opacity 0.5s ease;
+        .circle:nth-child(1) {
+            background-color: #D90429;
+            animation-delay: 0s;
+        }
+
+        .circle:nth-child(2) {
+            background-color: #FFA300;
+            animation-delay: 0.15s;
+        }
+
+        .circle:nth-child(3) {
+            background-color: #048BA8;
+            animation-delay: 0.3s;
+        }
+
+        @keyframes loader-animation {
+            0% {
+                transform: scale(0);
+                opacity: 0.7;
             }
 
-            a.float:hover + div.label-container{
-/*               visibility: visible; */
-              opacity: 1;
+            100% {
+                transform: scale(1);
+                opacity: 0;
             }
-
-
-    .loading {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: #000;
-        z-index: 9999;
-    }
-
-    .loading {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  }
-
-.circle {
-  width: 20px;
-  height: 20px;
-  margin: 10px;
-  border-radius: 50%;
-  animation: loader-animation 0.75s ease infinite;
-}
-
-.circle:nth-child(1) {
-  background-color: #D90429;
-  animation-delay: 0s;
-}
-
-.circle:nth-child(2) {
-  background-color: #FFA300;
-  animation-delay: 0.15s;
-}
-
-.circle:nth-child(3) {
-  background-color: #048BA8;
-  animation-delay: 0.3s;
-}
-
-@keyframes loader-animation {
-  0% {
-    transform: scale(0);
-    opacity: 0.7;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 0;
-  }
-}
-
+        }
     </style>
 </head>
+
 <body>
     <div id="loading" class="loading">
         <div class="circle"></div>
         <div class="circle"></div>
         <div class="circle"></div>
     </div>
-	<div class="plyr__video-wrapper">
-    <video crossorigin="" playsinline="" id="videoContainer" style="background-color: #0A0909;" preload="auto" >
-        <source src="">
-    </video>
-	
-	</div>
+    <div class="plyr__video-wrapper">
+        <video crossorigin="" playsinline="" id="videoContainer" style="background-color: #0A0909;" preload="auto">
+            <source src="">
+        </video>
 
-   
+    </div>
+
+    
     <script>
         // Declare clearkeysData as a global variable
         var clearkeysData;
+        var lectureCodeId;
 
-        document.addEventListener("DOMContentLoaded", function() {
-            // Get the lecture code from the URL
-            var lectureCodeId = new URLSearchParams(window.location.search).get('key');
+        document.addEventListener("DOMContentLoaded", function () {
+    // Get the lecture code from the URL
+    lectureCodeId = new URLSearchParams(window.location.search).get('key');
 
-            // If lectureCodeId is null, it means the 'lectureCode' parameter is not present in the URL
-            if (!lectureCodeId) {
-                console.error('Lecture code not found in URL');
-                return;
+    // If lectureCodeId is null, it means the 'lectureCode' parameter is not present in the URL
+    if (!lectureCodeId) {
+        console.error('Lecture code not found in URL');
+        alert("HEY YOU NEED TO GIVE LECTURE CODE TOO OR YOU MIGHT HAVE GIVEN INCORRECT LECTURE CODE");
+        return;
+    }
+
+    // Proceed with your logic using the lectureCode
+    // For example, you can fetch data or initialize the player using the lectureCode
+
+    // Construct the URL of the video player page based on the video ID
+    var url = 'https://sarkarithanos.com/pw?link=https://d1d34p8vz63oiq.cloudfront.net/' + lectureCodeId + '/master.mpd';
+
+    // Fetch HTML content from the URL
+    fetch(url)
+        .then(response => response.text())
+        .then(htmlContent => {
+            // Create a temporary div element to parse HTML content
+            var tempDiv = document.createElement('div');
+            tempDiv.innerHTML = htmlContent;
+
+            // Find the script tag containing protData
+            var scriptElement = tempDiv.querySelector('script:not([src])');
+
+            if (scriptElement && scriptElement.textContent.includes('const protData')) {
+                // Extract protData object
+                var startIndex = scriptElement.textContent.indexOf('const protData = ') + 'const protData = '.length;
+                var endIndex = scriptElement.textContent.indexOf(';', startIndex);
+                var protDataStr = scriptElement.textContent.substring(startIndex, endIndex);
+                console.log('HTML Content:', htmlContent);
+
+                // Parse protData object
+                var protData = JSON.parse(protDataStr);
+
+                // Extract clearkeys data
+                clearkeysData = protData['org.w3.clearkey'].clearkeys; // Assign to the global variable
+
+                // Log clearkeys data
+                console.log('Clearkeys Data:', clearkeysData);
+
+                // Initialize the player after fetching HTML content
+                initializePlayer();
+            } else {
+                console.error('Script tag containing protData not found');
             }
-
-            // Proceed with your logic using the lectureCode
-            // For example, you can fetch data or initialize the player using the lectureCode
-        });
-
-        // Construct the URL of the video player page based on the video ID
-        var url = 'https://sarkarithanos.com/pw?link=https://d1d34p8vz63oiq.cloudfront.net/'+lectureCodeId+'/master.mpd';
-
-        // Fetch HTML content from the URL
-        fetch(url)
-            .then(response => response.text())
-            .then(htmlContent => {
-                // Create a temporary div element to parse HTML content
-                var tempDiv = document.createElement('div');
-                tempDiv.innerHTML = htmlContent;
-
-                // Find the script tag containing protData
-                var scriptElement = tempDiv.querySelector('script:not([src])');
-
-                if (scriptElement && scriptElement.textContent.includes('const protData')) {
-                    // Extract protData object
-                    var startIndex = scriptElement.textContent.indexOf('const protData = ') + 'const protData = '.length;
-                    var endIndex = scriptElement.textContent.indexOf(';', startIndex);
-                    var protDataStr = scriptElement.textContent.substring(startIndex, endIndex);
-
-                    // Parse protData object
-                    var protData = JSON.parse(protDataStr);
-
-                    // Extract clearkeys data
-                    clearkeysData = protData['org.w3.clearkey'].clearkeys; // Assign to the global variable
-
-                    // Log clearkeys data
-                    console.log('Clearkeys Data:', clearkeysData);
-
-                    // Initialize the player with the retrieved source
-                    initializePlayer();
-                } else {
-                    console.error('Script tag containing protData not found');
-                }
-            })
-            .catch(error => console.error('Error fetching HTML:', error));
+        })
+        .catch(error => console.error('Error fetching HTML:', error));
+});
 
         function initializePlayer() {
-            var lectureCodeId = new URLSearchParams(window.location.search).get('key');
-
             // If lectureCodeId is null, it means the 'lectureCode' parameter is not present in the URL
             if (!lectureCodeId) {
                 console.error('Video ID not found in URL');
+                alert("HEY YOU NEED TO GIVE LECTURE CODE TOO OR YOU MIGHT HAVE GIVEN INCORRECT LECTURE CODE");
                 return;
             }
 
             const video = document.getElementById("videoContainer");
             const videoSource = document.querySelector("#videoContainer source");
-            const lectureKey = lectureCodeId; 
+            const lectureKey = lectureCodeId;
             const source = `https://d1d34p8vz63oiq.cloudfront.net/${lectureKey}/master.mpd`;
 
             videoSource.src = source;
@@ -260,7 +206,7 @@ background: linear-gradient(166deg, rgba(34,164,195,1) 9%, rgba(253,187,45,1) 88
                 }
             };
             dash.setProtectionData(protData);
-            dash.on("streamInitialized", function() {
+            dash.on("streamInitialized", function () {
                 const bodyElement = document.querySelector("body");
                 const loadingElement = document.getElementById("loading");
                 loadingElement.style.display = "none";
@@ -270,7 +216,7 @@ background: linear-gradient(166deg, rgba(34,164,195,1) 9%, rgba(253,187,45,1) 88
                     default: availableQualities[0].height,
                     options: availableQualities,
                     forced: true,
-                    onChange: function(newQuality) {
+                    onChange: function (newQuality) {
                         dash.getBitrateInfoListFor("video").forEach((level, levelIndex) => {
                             if (level.height === newQuality) {
                                 dash.setQualityFor("video", level.qualityIndex);
@@ -293,5 +239,7 @@ background: linear-gradient(166deg, rgba(34,164,195,1) 9%, rgba(253,187,45,1) 88
             dash.attachView(video);
         }
     </script>
+   
 </body>
+
 </html>
