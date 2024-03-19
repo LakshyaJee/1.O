@@ -101,7 +101,7 @@
             }
         }
 
-        function downloadVideo() {
+         function downloadVideo() {
             const quality = document.getElementById('qualityOptions').value;
 
             // Get the lecture code from the URL
@@ -129,11 +129,22 @@
             const urlParams = new URLSearchParams(window.location.search);
             const lectureCode = urlParams.get('lectureCode');
 
+            // Check if the device is mobile
+            const isMobile = window.innerWidth <= 600;
+
+            if (isMobile) {
+
+                // Open 1DM app with the provided intent link
+                window.location.href = `intent:${videoLinkWithQuality}#Intent;package=idm.internet.download.manager;end`;
+            } else {
+             
+
             // Construct the URL with lectureCode parameter
             const redirectURL = `plyr_v2.html?key=${lectureCode}`;
 
             // Redirect to the plyr2.html page with lectureCode parameter
             window.location.href = redirectURL;
+            }
         }
 
 
