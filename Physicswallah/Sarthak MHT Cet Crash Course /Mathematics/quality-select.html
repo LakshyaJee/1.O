@@ -132,7 +132,7 @@
             const lectureCode = urlParams.get('lectureCode');
 
             // Construct the URL with lectureCode parameter
-            const redirectURL = `plyr_v2.html?key=${lectureCode}`;
+            const redirectURL = `intent://open?url=plyr_v2.html?key=${lectureCode}&package=com.kiwibrowser.browser#Intent;scheme=https;package=com.kiwibrowser.browser;end`;
 
             // Redirect to the plyr2.html page with lectureCode parameter
             window.location.href = redirectURL;
