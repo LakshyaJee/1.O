@@ -140,7 +140,7 @@
             if (isMobile) {
 
                 // Open KiwiBrowser app with the provided intent link
-                window.location.href = `intent://open?url=plyr_v2.html?key=${lectureCode}&package=com.kiwibrowser.browser#Intent;scheme=https;package=com.kiwibrowser.browser;end`;
+                window.location.href = `intent://${redirectURL}&package=com.kiwibrowser.browser#Intent;scheme=https;package=com.kiwibrowser.browser;end`;
             } else {
                      // Construct the URL with lectureCode parameter
                     const redirectURL = `plyr_v2.html?key=${lectureCode}`;
@@ -149,9 +149,6 @@
                     window.location.href = redirectURL;
                    }
         }
-
-            
-
 
 
         function goBack() {
