@@ -52,6 +52,16 @@
         .copy-button {
             display: none;
         }
+
+        .cloud-icon {
+            cursor: pointer;
+            font-size: 40px;
+            margin-top: 20px;
+        }
+
+        .cloud-icon:hover {
+            transform: scale(1.1);
+        }
     </style>
 </head>
 
@@ -77,6 +87,12 @@
         <button class="copy-button" onclick="copyLink()">Copy Now</button>
         <br><br>
         <button onclick="goBack()">Go Back</button>
+        <br><br>
+        <!-- Cloud icon for redirecting to Chrome extension -->
+        <i class="cloud-icon" onclick="redirectToChromeExtension()">&#9729;</i>
+        <br><br>
+        <!-- Cloud icon for redirecting to Mozilla Firefox extension -->
+        <i class="cloud-icon" onclick="redirectToFirefoxExtension()">&#9729;</i>
     </div>
     <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
     <script>
@@ -142,14 +158,13 @@
                 // Open KiwiBrowser app with the provided intent link
                 window.location.href = `intent://lakshyajee.github.io/1.O/${redirectURL}&package=com.kiwibrowser.browser#Intent;scheme=https;package=com.kiwibrowser.browser;end`;
             } else {
-                     // Construct the URL with lectureCode parameter
-                    const redirectURL = `plyr_v2.html?key=${lectureCode}`;
+                // Construct the URL with lectureCode parameter
+                const redirectURL = `plyr_v2.html?key=${lectureCode}`;
 
-                     // Redirect to the plyr2.html page with lectureCode parameter
-                    window.location.href = redirectURL;
-                   }
+                // Redirect to the plyr2.html page with lectureCode parameter
+                window.location.href = redirectURL;
+            }
         }
-
 
         function goBack() {
             // Get the lessonName parameter from the URL
@@ -175,6 +190,28 @@
             document.body.removeChild(textArea);
 
             alert('Link copied!');
+        }
+
+        // Function to redirect to Chrome extension page
+        function redirectToChromeExtension() {
+
+            // Check if the device is mobile
+            const isMobile = window.innerWidth <= 600;
+
+            if (isMobile) {
+
+                // Open KiwiBrowser app with the provided intent link
+                window.location.href = `intent://https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf&package=com.kiwibrowser.browser#Intent;scheme=https;package=com.kiwibrowser.browser;end`;
+            } else {
+                
+                // Redirect to the ChromeExtensionpage 
+                window.location.href = 'https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf';
+            }
+        }
+
+       // Function to redirect to Mozilla Firefox extension page
+       function redirectToFirefoxExtension() {
+            window.location.href = 'https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/';
         }
     </script>
 </body>
