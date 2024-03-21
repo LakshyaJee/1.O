@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+    <script>
+let lessonName = "Relation and Function";
+const lectureData= [
+{
+    "lectureNumber": 20,
+    "lectureName": "Relations & Functions 22 : Functional Equations",
+    "lectureCode": "47ff8079-297f-495c-a54c-0c1f966c26a6",
+    "classNotesCode": "ab0616ad-53ec-4702-b7af-d2ecad4aa36b.pdf",
+    "dppsPdfCode": "f2e60494-5282-44dd-83bd-0999276c99c8.pdf"
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Relations & Functions 21 : Some Important Definitions || Practice Problems On Inverse Function",
+    "lectureCode": "c318ae82-1e4f-4d9b-b4ce-3d55c28812b5",
+    "classNotesCode": "c7c574d2-3de0-4b33-a46f-0297c9678090.pdf",
+    "dppsPdfCode": "594a84db-3c7b-4dec-88a0-1f1b0360eb27.pdf"
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Relations & Functions 20 : Practice Problems On Periodic Functions || Inverse Of A Function",
+    "lectureCode": "dc1c9459-1df8-4094-83cc-2e50b092bb1a",
+    "classNotesCode": "45c2a813-3549-4c22-b052-f442ad0edd55.pdf",
+    "dppsPdfCode": "8d1cde7f-a037-4be9-ad56-da307a652423.pdf"
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Relations & Functions 19 : Periodic Function",
+    "lectureCode": "fa41bb10-dc18-42d8-94c5-a962b46a16cb",
+    "classNotesCode": "f6524169-744e-41b8-86d1-152c7d2fff78.pdf",
+    "dppsPdfCode": "93d05664-3f07-4662-8dab-0dd0cfa52de6.pdf"
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Relations & Functions :  Practice Session || No DPP || (Extra) || (Recorded)",
+    "lectureCode": "4235bfc8-f7e1-4d9b-a7b5-0ad90bf6813c",
+    "classNotesCode": "a52763cc-5822-49da-8f8e-7d0e41b99746.pdf",
+    "dppsPdfCode": "283712b8-9772-4341-a214-142ae0e0802d.pdf"
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Relations & Functions 18 : Practice Problems On Composite Functions",
+    "lectureCode": "7ddebe30-40c5-48e6-bef4-80b152e15963",
+    "classNotesCode": "e0aa9705-8429-428f-91f2-c1768fcfc76c.pdf",
+    "dppsPdfCode": "41490a86-ab93-4f3f-b238-0d6db1cb24bd.pdf"
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Relations & Functions 17 : Composition Of Functions || Practice Problems",
+    "lectureCode": "b0dff4b9-1419-4846-b1cf-1f51fdbac4ac",
+    "classNotesCode": "1a122a49-7cc9-4e8c-9ac5-8b1596cd9577.pdf",
+    "dppsPdfCode": "8849d5c1-96ad-470f-af7a-b80cb0ca5ff9.pdf"
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Relations & Functions 16 : Practice Problems",
+    "lectureCode": "17f4c8f9-ff3d-47c8-9ef4-a0565f1118ab",
+    "classNotesCode": "4a6d84d6-4995-4f68-9839-b14808d88e58.pdf",
+    "dppsPdfCode": "08b1eeaf-7811-4659-8982-628301764961.pdf"
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Relations & Functions 15 : Classification Of Functions",
+    "lectureCode": "0ec80c2c-985f-4185-9a56-ca72c9a50e96",
+    "classNotesCode": "6433a03e-1a12-4686-9fe2-9ea805a83f29.pdf",
+    "dppsPdfCode": "d124efb4-e1b0-40f1-a64a-d3648515a740.pdf"
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Relations & Functions 14 : Practice Problems",
+    "lectureCode": "b9e6eaf8-f06d-45f1-9d88-7844665199d2",
+    "classNotesCode": "d8c75afd-bac3-4e33-b2cc-cb0f5334ecd9.pdf",
+    "dppsPdfCode": "8c9e6d53-f158-491d-939f-c2c71ecfbe78.pdf"
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Relations & Functions 13 : Identical and Non Identical Functions || Even and Odd Function || Practice Problems",
+    "lectureCode": "e3a53b8d-d8d9-4887-99a8-13b3dc8818a4",
+    "classNotesCode": "8902a1f6-3070-4116-b313-a3f46721a990.pdf",
+    "dppsPdfCode": "c555cecd-50c1-4ce9-96cf-7299e4675fec.pdf"
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Relations & Functions : Extra Practice Session || Range Of Function || No DPP || (Extra) || (Recorded)",
+    "lectureCode": "c2f4bd15-de67-4207-897b-a88dd045931c",
+    "classNotesCode": "a66ba91a-a958-4eb8-9e31-ecdc43b28d5f.pdf",
+    "dppsPdfCode": "89c40e04-4a2d-48c9-af21-a4dc8d486c47.pdf"
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Relations & Functions 12 : Greatest Integer Function || Fractional Part Function || Identical & Non-Identical Functions",
+    "lectureCode": "3b7fcf90-f65d-416a-84ef-6b1711bfeb51",
+    "classNotesCode": "3a50afa3-90a2-436d-a226-ea861bc36810.pdf",
+    "dppsPdfCode": "6bd69a9a-b6d5-428a-bc2c-2549c8641505.pdf"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Relations & Functions 11 : Range Of Rational Functions || Exponential || Signum || Logarithmic || Greatest Integer Function",
+    "lectureCode": "e73f513f-c1d6-40c3-832e-3cc57e696c11",
+    "classNotesCode": "13766cca-e9a9-439f-a38f-bab26f254036.pdf",
+    "dppsPdfCode": "145f51c4-e48e-4537-8d70-e252fe413e2b.pdf"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Relations & Functions 10 : Practice Problems || Range Of Relation Functions || NO DPP",
+    "lectureCode": "7c1ffbb6-46c0-45cd-8453-f7d3796a77c7",
+    "classNotesCode": "2edf2c8e-016d-40c3-9492-61f3b69fc3da.pdf",
+    "dppsPdfCode": "62773472-f8b1-4652-87b8-1690a3cfd7b9.pdf"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Relations & Functions 09 : Polynomial Function || Algebraic And Rational Functions || Range Of Rational Functions",
+    "lectureCode": "a8a7d380-4974-406f-8d93-3e107c651980",
+    "classNotesCode": "ca16700b-fa33-4c5b-b7ee-27990bcfcf9a.pdf",
+    "dppsPdfCode": "ff5ea603-0d27-4abe-9cd7-408b4e6fa5e4.pdf"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Relations & Functions 08 : Algebra Of Function || Polynomial Function",
+    "lectureCode": "0f52c740-9e7d-4d0b-988b-386fd53fbb7f",
+    "classNotesCode": "ad4d0a6a-069a-49ad-ad82-2c7a8a2b7496.pdf",
+    "dppsPdfCode": "2b68a132-47c4-4859-9c73-ba08d9769009.pdf"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Relations & Functions 07 : Introduction To Functions || Domain & Range Of Functions",
+    "lectureCode": "8d92f1b4-91c9-449d-b37e-e98dc833fff7",
+    "classNotesCode": "027a1dac-c65a-4b0c-91c9-a3d82cb6c480.pdf",
+    "dppsPdfCode": "4398e93e-5578-4297-b194-ee0780cb4188.pdf"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Relations & Functions 06 : Composition Of Relations || Number Of Relations || Introduction To Functions",
+    "lectureCode": "f1653524-9e6f-414a-9054-d9902ec4b8eb",
+    "classNotesCode": "1c460ec3-e283-4f3d-b0d1-21cdf5f8fe2f.pdf",
+    "dppsPdfCode": "4a3c774f-f13d-4e3a-8938-f60e791e8fd6.pdf"
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Relations & Functions 05 : Practice Problems || Composition Of Relations || NO DPP",
+    "lectureCode": "746e5e26-820c-4124-ade8-0d8e32a43a4c",
+    "classNotesCode": "7fc4dc78-be5d-4024-8606-3fa81dd6b057.pdf",
+    "dppsPdfCode": "29962906-2312-4bbb-8462-c2c18d84aa36.pdf"
+  }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+    
+  generateTable();
+    </script>
+</body>
+
+</html>

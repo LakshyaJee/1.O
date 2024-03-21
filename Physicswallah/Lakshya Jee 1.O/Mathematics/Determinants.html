@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+    <script>
+let lessonName = "Determinants";
+const lectureData= [
+{
+    "lectureNumber": 6,
+    "lectureName": "Determinant 06 : Multiplication of Determinants || Cramer's Rule",
+    "lectureCode": "5865710d-c21d-4694-820e-c97d7b3bc696",
+    "classNotesCode": "45065ca7-aa6c-4d37-86fb-cfaf2aecf1a9.pdf",
+    "dppsPdfCode": "540ec928-68a6-48aa-9f05-64e660b79a77.pdf"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Determinant 05 : Multiplication Of Determinants || Cramer's Rule || NO DPP || (Extra Lecture)",
+    "lectureCode": "4bf437c2-db98-4a1a-a149-3052050aace1",
+    "classNotesCode": "7019b046-6ff6-476f-b5e2-44f16bfee8c3.pdf",
+    "dppsPdfCode": "c4e6edfd-684e-41f4-8cbb-fdf6af570d7e.pdf"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Determinant 04 : Multiplication Of Determinants || Practice Problems",
+    "lectureCode": "d8ab2420-2c90-474b-8d68-0fb669954d46",
+    "classNotesCode": "be9f4195-2072-45e6-9342-c8bc36a19654.pdf",
+    "dppsPdfCode": "3d98fc50-ded0-4b47-b937-e2cbb5c69875.pdf"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Determinant 03 : Question Involving Determinant Properties || Cyclic Determinant",
+    "lectureCode": "dbcaeac6-76bc-4669-b7de-ad2642ebf2ea",
+    "classNotesCode": "1b02faf2-1121-4a10-b27d-9668bf462d62.pdf",
+    "dppsPdfCode": "dae893ba-5c40-49d6-904b-2f12959942d6.pdf"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Determinant 02 : Properties Of Determinants || NO DPP",
+    "lectureCode": "56650fe8-bc1e-4670-bf76-e26d795e1a2b",
+    "classNotesCode": "8b692f35-ba4b-44d7-8026-cea3f0aad923.pdf",
+    "dppsPdfCode": "d229d5d4-5362-45e8-bef7-8c3a4a921891.pdf"
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Determinant 01 : Introduction to Determinants || NO DPP",
+    "lectureCode": "9f1211b3-2be7-4b3a-99bf-2841f4548b1f",
+    "classNotesCode": "f3efaefa-8ec6-4df9-a41b-78ca388ba77a.pdf",
+    "dppsPdfCode": ""
+  }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+    
+  generateTable();
+    </script>
+</body>
+
+</html>

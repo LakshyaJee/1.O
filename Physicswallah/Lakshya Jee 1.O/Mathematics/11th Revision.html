@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+    <script>
+let lessonName = "11th Revision";
+const lectureData= [
+{
+    "lectureNumber": 20,
+    "lectureName": "Set Theory 01 : Set theory Revision || No DPP || Extra Lecture || Recorded",
+    "lectureCode": "abadf5c2-35dc-4ee8-ba0d-982b3dea9e0b",
+    "classNotesCode": "a8a1ff80-e293-447e-b406-dd9ba9ffd8eb.pdf",
+    "dppsPdfCode": "c6932570-79ca-4c73-b7f2-76d2ea362ebf.pdf"
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Statistics 01 : Summary || PYQ's || Recorded || NO DPP || Extra Lecture",
+    "lectureCode": "097971c0-9365-4c98-b75e-f2e1ef4e2ab5",
+    "classNotesCode": "173155e1-9128-4f7d-a113-7af3c6c540d2.pdf",
+    "dppsPdfCode": "f44a26d8-9896-4a58-a7df-e79296585fb7.pdf"
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Hyperbola 01 : Summary || PYQ's || Recorded",
+    "lectureCode": "6f3b8a07-ef18-4df7-9fba-7f7eb649b17e",
+    "classNotesCode": "408af339-987e-4430-9c30-fb1de9c981a7.pdf",
+    "dppsPdfCode": "d9c1f650-fce6-4948-821e-7a6fde53716d.pdf"
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Ellipse 02 : Ellipse Revision (Part-02) || Recorded",
+    "lectureCode": "dda91af8-ec00-45e3-b819-d142e8b15d17",
+    "classNotesCode": "91ddcfe0-8cfe-4979-bb6f-52a8205ebf08.pdf",
+    "dppsPdfCode": "25f64480-3ecc-46ea-8f32-021bd6938288.pdf"
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Ellipse 01 : Ellipse Revision || NO DPP || Recorded",
+    "lectureCode": "75a7d71a-820f-4837-ae59-b62e98a25c88",
+    "classNotesCode": "af7bf8fe-976d-48e7-91e3-6fbee58f8d66.pdf",
+    "dppsPdfCode": "733cb2a4-74b9-4ccb-863d-e320e315cfdd.pdf"
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Parabola 02 : Important PYQ's (Part-02) || Recorded",
+    "lectureCode": "23b849be-c488-4f82-92ed-b3e4b221a23a",
+    "classNotesCode": "037d1061-3f15-4cef-bfb2-55882792ee11.pdf",
+    "dppsPdfCode": "a241d2f1-98a6-4128-a45e-25efb1577cb5.pdf"
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Parabola 01 : Important PYQ's || NO DPP || Recorded",
+    "lectureCode": "4d1910c2-d7d6-49d6-8d51-bae95721972b",
+    "classNotesCode": "ed455b42-5c1f-44e1-af5a-0144b16c8576.pdf",
+    "dppsPdfCode": "e1215fb4-edbf-41d2-af85-f4ebde83d380.pdf"
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Circle 02 : Circle Revision (Part-02) || Recorded",
+    "lectureCode": "58102e39-877c-459c-a4b2-a38e7050207c",
+    "classNotesCode": "a7931e07-b5ba-4e24-baeb-604914a47e9f.pdf",
+    "dppsPdfCode": "1980f9e6-f0cc-4c56-b29a-fcd36593b8a3.pdf"
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Circle 01 : Circle Revision || NO DPP || Recorded",
+    "lectureCode": "f926b0e5-b3a9-4028-afe1-b98c7553549e",
+    "classNotesCode": "011a6b9a-8c3b-4d8f-844d-d6c522217321.pdf",
+    "dppsPdfCode": "b5386023-c122-45b2-88c0-a71163c52db9.pdf"
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Straight Line 02 : Summary || Important PYQ's (Part-02) || Recorded",
+    "lectureCode": "94b73742-f564-462d-a20a-f24afb5ef880",
+    "classNotesCode": "c9befba1-a432-411f-954a-19eaf9aaca29.pdf",
+    "dppsPdfCode": "d20c8775-bea5-4dc0-ba40-ab902bd7e977.pdf"
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Straight Line 01 : Summary || Important PYQ's || NO DPP || Recorded",
+    "lectureCode": "01375790-876b-493e-848b-bbb16861be79",
+    "classNotesCode": "afaa0172-5f68-418d-a10c-1a8914bb23b6.pdf",
+    "dppsPdfCode": "0bafee39-cf63-43ac-beb7-0464779ff08d.pdf"
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Trigonometry 02 : Trigonometry Revision (Part- 02) || NO DPP || Recorded",
+    "lectureCode": "c8862022-88b5-4c85-86a5-f621acc8e360",
+    "classNotesCode": "7c216115-929a-4306-8eb1-9c48fd7fb27a.pdf",
+    "dppsPdfCode": "1c925930-d04e-4654-bb86-035fef44b30b.pdf"
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Trigonometry 01 : Trigonometry Revision || NO DPP || Recorded",
+    "lectureCode": "a5246d08-8e0f-4816-9d94-01175c349fc3",
+    "classNotesCode": "c6cfb6ce-8968-4401-965b-a910f382e298.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Complex Number 04 : Practice Problems || Geometry Involving Complex Numbers || Recorded",
+    "lectureCode": "59047792-eca1-43b8-b800-f1782eab2fe2",
+    "classNotesCode": "bc8cb5b4-8743-4763-a18b-c1f81f2cf0f2.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Complex  Number 03 : Rotation Of Complex Numbers || nth Root & Cube Root Of Unity || NO DPP || Recorded",
+    "lectureCode": "cb126b6f-76de-4edd-94ad-7e663eee3bb3",
+    "classNotesCode": "d92dd0f9-07b9-4646-9bbc-506d251ac362.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Complex Number 02 : Introduction To Complex Numbers || Three Important Terms || Representation Of Complex Numbers || NO DPP || Recorded || Extra Lecture",
+    "lectureCode": "23a6e528-5774-4590-b4c7-d4512a067d91",
+    "classNotesCode": "642f14bf-4a1c-456e-a596-35b7ad2c921c.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Complex Number 01 : Complete Theory Revision || NO DPP || Recorded",
+    "lectureCode": "a64ea797-f102-4e7b-a939-5647e369bbaa",
+    "classNotesCode": "37b1ec1a-a087-4c4c-bc03-bfdaa510bd17.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Permutation & Combination 02 : PYQ's (Part- 02) || Recorded || Rescheduled @ 09:00PM",
+    "lectureCode": "2a720c4a-81db-4180-960e-6c9e3187f044",
+    "classNotesCode": "38061fd9-d33a-4220-a77f-238e112f2300.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Permutation & Combination 01 : PYQ's || NO DPP || Recorded",
+    "lectureCode": "540d29f3-e5cb-4e33-af87-c5ad8cb704e6",
+    "classNotesCode": "8258e7c2-f0de-4cf1-a431-040b2fb8bb3c.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Binomial Theorem 02 : Properties Of Binomial Coefficients || Binomial Series || Recorded",
+    "lectureCode": "8b598a82-c41b-4ac3-b5c0-1498cf44b087",
+    "classNotesCode": "04c1961d-dc88-4560-8d71-c58dead83a2a.pdf",
+    "dppsPdfCode": ""
+  }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+    
+  generateTable();
+    </script>
+</body>
+
+</html>
