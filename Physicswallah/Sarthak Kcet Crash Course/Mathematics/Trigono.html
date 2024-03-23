@@ -97,7 +97,7 @@ const lectureData= [
   }
 ];
 
-        function generateClassNotesLink(classNotesCode) {
+function generateClassNotesLink(classNotesCode) {
             const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
             return baseUrl + classNotesCode;
         }
@@ -125,6 +125,14 @@ const lectureData= [
             window.open(qualitySelectUrl, '_blank');
         }
 
+        function showSolutionOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const solutionSelectUrl = `quality-select.html?lessonName=${lessonName}&dppsSolutionCode=${lecture.dppsSolutionCode}`;
+            window.open(solutionSelectUrl, '_blank');
+        }
+
         function generateTable() {
             const table = document.querySelector('table');
 
@@ -139,20 +147,29 @@ const lectureData= [
                 `;
 
                 const cell4 = row.insertCell(3);
-                cell4.innerHTML = `
+                if (lecture.dppsSolutionCode) {
+                    cell4.innerHTML = `
+                        <button onclick="showSolutionOptions(${index})">View Solutions</button>
+                    `;
+                } else {
+                    cell4.textContent = ""; // No DPPS Solution, leave the cell empty
+                }
+
+                const cell5 = row.insertCell(4);
+                cell5.innerHTML = `
                     <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
                 `;
 
-                const cell5 = row.insertCell(4);
+                const cell6 = row.insertCell(5);
                 if (lecture.dppsPdfCode) {
-                    cell5.innerHTML = `
+                    cell6.innerHTML = `
                         <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
                     `;
-                }
+                } 
             });
         }
-    
-  generateTable();
+
+        generateTable();
     </script>
 </body>
 
