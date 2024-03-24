@@ -85,11 +85,26 @@
     </table>
     <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
     <script>
-let lessonName = "Ray Optics and Optical Instruments";
+let lessonName = "Some Basics";
 const lectureData= [
-    
+{
+    "lectureNumber": 2,
+    "lectureName": "Some Basic Concept of Chemistry 02 : MCQs on Mole Concept || Concentration of Solution",
+    "lectureCode": "94fb8721-c8e9-4afc-8de7-12eee18169bb",
+    "classNotesCode": "af91720c-8393-49fd-be87-ffcd39e78e15.pdf",
+    "dppsPdfCode": "8d93fedb-a182-493b-90f6-0beae12c052d.pdf",
+    "dppsSolutionCode": "43a2b104-f71c-4217-8624-fc91418af161"
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Some Basic Concept of Chemistry 01 : Laws of Chemical Combination || Emperical & Molecular Formula || (No DPP)",
+    "lectureCode": "7320c46c-8c14-457d-ac09-73c32e7a85b3",
+    "classNotesCode": "91496ee9-ee78-4d08-be29-30db420c9019.pdf",
+    "dppsPdfCode": ""
+  }
+];
 
-        function generateClassNotesLink(classNotesCode) {
+function generateClassNotesLink(classNotesCode) {
             const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
             return baseUrl + classNotesCode;
         }
@@ -117,6 +132,14 @@ const lectureData= [
             window.open(qualitySelectUrl, '_blank');
         }
 
+        function showSolutionOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const solutionSelectUrl = `quality-select.html?lessonName=${lessonName}&dppsSolutionCode=${lecture.dppsSolutionCode}`;
+            window.open(solutionSelectUrl, '_blank');
+        }
+
         function generateTable() {
             const table = document.querySelector('table');
 
@@ -131,20 +154,29 @@ const lectureData= [
                 `;
 
                 const cell4 = row.insertCell(3);
-                cell4.innerHTML = `
+                if (lecture.dppsSolutionCode) {
+                    cell4.innerHTML = `
+                        <button onclick="showSolutionOptions(${index})">View Solutions</button>
+                    `;
+                } else {
+                    cell4.textContent = ""; // No DPPS Solution, leave the cell empty
+                }
+
+                const cell5 = row.insertCell(4);
+                cell5.innerHTML = `
                     <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
                 `;
 
-                const cell5 = row.insertCell(4);
+                const cell6 = row.insertCell(5);
                 if (lecture.dppsPdfCode) {
-                    cell5.innerHTML = `
+                    cell6.innerHTML = `
                         <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
                     `;
-                }
+                } 
             });
         }
-    
-  generateTable();
+
+        generateTable();
     </script>
 </body>
 

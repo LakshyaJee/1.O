@@ -85,11 +85,26 @@
     </table>
     <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
     <script>
-let lessonName = "Ray Optics and Optical Instruments";
+let lessonName = "Solutn";
 const lectureData= [
-    
+{
+    "lectureNumber": 2,
+    "lectureName": "Solutions 02 : Colligative Properties (RLVP)",
+    "lectureCode": "8f838c50-ad20-4c4c-9f22-fad31e978d54",
+    "classNotesCode": "51a1e1c6-4f9e-4615-bcb3-5a658b32697d.pdf",
+    "dppsPdfCode": "bd6f94a1-ca95-47b9-b875-e4becdbafbf4.pdf",
+    "dppsSolutionCode": "d27cf20c-7d1f-4c88-a416-adedb20fb6a0"
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Solutions 01 : Types of Solutions || Concentration of Solutions || (No DPP)",
+    "lectureCode": "694977ad-5288-4207-8996-d9da2e3628ad",
+    "classNotesCode": "e546905c-d4ce-416b-ae50-f78fb03005f0.pdf",
+    "dppsPdfCode": ""
+  }
+];
 
-        function generateClassNotesLink(classNotesCode) {
+function generateClassNotesLink(classNotesCode) {
             const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
             return baseUrl + classNotesCode;
         }
@@ -117,6 +132,14 @@ const lectureData= [
             window.open(qualitySelectUrl, '_blank');
         }
 
+        function showSolutionOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const solutionSelectUrl = `quality-select.html?lessonName=${lessonName}&dppsSolutionCode=${lecture.dppsSolutionCode}`;
+            window.open(solutionSelectUrl, '_blank');
+        }
+
         function generateTable() {
             const table = document.querySelector('table');
 
@@ -131,20 +154,29 @@ const lectureData= [
                 `;
 
                 const cell4 = row.insertCell(3);
-                cell4.innerHTML = `
+                if (lecture.dppsSolutionCode) {
+                    cell4.innerHTML = `
+                        <button onclick="showSolutionOptions(${index})">View Solutions</button>
+                    `;
+                } else {
+                    cell4.textContent = ""; // No DPPS Solution, leave the cell empty
+                }
+
+                const cell5 = row.insertCell(4);
+                cell5.innerHTML = `
                     <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
                 `;
 
-                const cell5 = row.insertCell(4);
+                const cell6 = row.insertCell(5);
                 if (lecture.dppsPdfCode) {
-                    cell5.innerHTML = `
+                    cell6.innerHTML = `
                         <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
                     `;
-                }
+                } 
             });
         }
-    
-  generateTable();
+
+        generateTable();
     </script>
 </body>
 
