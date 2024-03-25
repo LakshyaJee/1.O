@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+    <script>
+let lessonName = "Sets";
+const lectureData= [
+{
+    "lectureNumber": 5,
+    "lectureName": "Set Theory -05 : Word Problems On Number Of Elements In Sets",
+    "lectureCode": "63f69631-df9c-40a7-bdb1-02fdecf09ca5",
+    "classNotesCode": "fe63386c-882e-4d50-a30f-fa2203dac883.pdf",
+    "dppsPdfCode": "bc86b1ee-66fb-4d2d-90aa-582b4fd754b4.pdf"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Set Theory -04 : Laws Of Algebra Of Sets || Number Of Elements In Sets || Practice Problems",
+    "lectureCode": "4ffe9bfb-d6fe-46de-893f-9831e9e11eec",
+    "classNotesCode": "20874e6b-e9af-4ce9-b1ea-122d1008401e.pdf",
+    "dppsPdfCode": "0af156d6-60d8-4619-a1dc-8f4a3b26e216.pdf"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Set Theory -03 : Practice Problems || Operation On Sets (Continued)",
+    "lectureCode": "bce7c703-22be-4744-9966-8f0b252302f6",
+    "classNotesCode": "615b75c0-93c1-467f-9a36-f99fb90aa812.pdf",
+    "dppsPdfCode": "98516af8-8c2e-4213-8157-a5ec27c269d3.pdf"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Set Theory -02 : Practice Problems || Operation On Sets",
+    "lectureCode": "ee6acf3d-b0cb-4e00-9f87-a78b9445d403",
+    "classNotesCode": "286442af-5954-4441-a865-30751ea73530.pdf",
+    "dppsPdfCode": "624ade2c-8c4e-4f7c-9562-7017ccd8f5ac.pdf"
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Set Theory -01 : Practice Problems || Introduction To Sets || (NO DPP)",
+    "lectureCode": "62b0bc60-4d91-4acc-b2bc-c2dbb48e69e8",
+    "classNotesCode": "75ba47ab-cfe7-480f-911f-0d3d329e2d02.pdf",
+    "dppsPdfCode": "367ccb92-36d0-4f68-b9e9-d7513be1bec5.pdf"
+  }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+    
+  generateTable();
+    </script>
+</body>
+
+</html>

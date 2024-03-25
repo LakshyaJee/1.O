@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+    <script>
+let lessonName = "Trigonometry";
+const lectureData= [
+{
+    "lectureNumber": 13,
+    "lectureName": "Trigonometry 13 : Optimization || Practice Problems",
+    "lectureCode": "07dbc018-be56-4a7c-8142-461011fe4cfb",
+    "classNotesCode": "5bdbaefa-02c1-4538-9315-0f11972a0585.pdf",
+    "dppsPdfCode": "a7669941-fe34-4c2b-ae00-c97f14e31144.pdf"
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Trigonometry 12 : Graph Of Trigonometric Functions || Practice Problems",
+    "lectureCode": "1a0b9f42-485b-449b-b913-22d12374fbfc",
+    "classNotesCode": "97bebb7a-5242-4e1a-83b7-c833029cc8f9.pdf",
+    "dppsPdfCode": "605f09d5-a243-4826-b532-d19023368ebf.pdf"
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Trigonometry 11 : Summation Of Trigonometric Series || Graph Of Trigonometric Series || No DPP || Recorded",
+    "lectureCode": "b719376b-00cb-43c2-b58d-444b0f752297",
+    "classNotesCode": "9e00d0ca-d063-488c-b2c8-c0243b3b619b.pdf",
+    "dppsPdfCode": "d1c74f97-cefa-4f7f-b29b-a4f9f083e84f.pdf"
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Trigonometry 10 : Conditional Identities || Summation Of Trigonometric Series",
+    "lectureCode": "32b446bf-e0a2-4420-ae4d-ef4063441495",
+    "classNotesCode": "9f25a192-f8bb-458a-aad1-0ff62cef2182.pdf",
+    "dppsPdfCode": "c54b57b6-4e15-4b53-9163-0c60a2f8ae20.pdf"
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Trigonometry 09 : Value Of sin18 & cos36 || Practice Problems",
+    "lectureCode": "71c75b7b-f453-451b-bd5d-4f8f74b413a6",
+    "classNotesCode": "56e06bb6-85c9-4add-8b7f-6061cbad30b0.pdf",
+    "dppsPdfCode": "f13acb2a-c58c-4c8c-99cf-6bdc480e0541.pdf"
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Trigonometry 08 : T-Ratios of Multiple & Submultiple of Angle || Practice Problems",
+    "lectureCode": "f1c47a47-e736-410f-92df-ba257ebbd4a2",
+    "classNotesCode": "104ea4a6-dd7f-4fbf-b0d9-e56e08e576bd.pdf",
+    "dppsPdfCode": "a3ab2b7a-7c78-4400-9f17-b2ea3176ae1a.pdf"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Trigonometry 07 : C & D Formulae || Practice Problems || Logarithmic Inequalities || NO DPP",
+    "lectureCode": "316bd617-342c-4d3c-bbb7-44bba5612bfe",
+    "classNotesCode": "dfc24f7d-1982-43af-97a1-e0c0da2eb556.pdf",
+    "dppsPdfCode": "aaee3382-26c2-4025-b111-9e956c777970.pdf"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Trigonometry 06 : Compound Angle Formula || Transformation Formula Product To Sum",
+    "lectureCode": "ae801917-98dc-4431-a790-3ddcc1ff7ab8",
+    "classNotesCode": "82672374-b959-46ad-870d-aa28becd9d7f.pdf",
+    "dppsPdfCode": "0829b2c6-65be-4415-9e83-68cb38fdc17d.pdf"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Trigonometry 05 : Practice Problems on Reduction Formula",
+    "lectureCode": "fc291f86-571d-43f1-8464-89ea5b6c685f",
+    "classNotesCode": "58322e1f-05d2-4900-9d4d-0c096f441a27.pdf",
+    "dppsPdfCode": "010ff779-2ed6-49fa-b746-8543b6e9de5d.pdf"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Trigonometry 04 : Reduction Formula (Continued) || Practice Problems",
+    "lectureCode": "cfd3ddee-9556-4bae-af94-a6549ff43641",
+    "classNotesCode": "dc0a13dd-64aa-4367-85a6-844a997bff44.pdf",
+    "dppsPdfCode": "9da2349c-3b91-4995-a5a8-c0261c8ae53d.pdf"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Trigonometry 03 : Value Of T-ratios At Boundaries",
+    "lectureCode": "e912282e-9580-4495-b3c0-d154139c5e09",
+    "classNotesCode": "03b2d2ac-0c04-4aaf-8720-6a0a47be5df9.pdf",
+    "dppsPdfCode": "71c692a1-3d62-4721-beb2-73eabe665f0c.pdf"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Trigonometry 02 : Radian Measure || Real Definition Of T-ratios || Angles At Boundaries",
+    "lectureCode": "a16d5c62-6372-4684-b8ad-64f05a003df9",
+    "classNotesCode": "52ab6178-9503-47f4-b777-b3b9daba9d5d.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Trigonometry 01 : Introduction To Trigonometry || (No DPP)",
+    "lectureCode": "36cb8417-df9c-481b-ab71-b394e2942329",
+    "classNotesCode": "60abd64d-8ee3-45e0-89d1-2c8745f5011c.pdf",
+    "dppsPdfCode": ""
+  }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+    
+  generateTable();
+    </script>
+</body>
+
+</html>

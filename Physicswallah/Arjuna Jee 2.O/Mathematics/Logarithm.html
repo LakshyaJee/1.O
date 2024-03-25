@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+    <script>
+let lessonName = "Logarithm";
+const lectureData= [
+{
+    "lectureNumber": 6,
+    "lectureName": "Logarithm -06 : Characteristic Mantissa (Continued) || (No DPP)",
+    "lectureCode": "c91286aa-d7c4-46cc-9a49-9972bf8f730c",
+    "classNotesCode": "bb317b3e-b8bf-4998-87df-dfa00707ccdc.pdf",
+    "dppsPdfCode": "d69bcd00-ce4d-4e09-9656-19c536fd192e.pdf"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Logarithm -05 : Logarithmic Equations (Continued) || Characteristics Mantissa",
+    "lectureCode": "cce6c925-1a66-4995-9a27-6ff2e89a2569",
+    "classNotesCode": "2d1ddaff-0644-411f-acf3-a1577167ab08.pdf",
+    "dppsPdfCode": "8e4d0f5d-e660-43c6-a5c7-c005e190432a.pdf"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Logarithm -04 : Practice Problem || Logarithmic Equations",
+    "lectureCode": "b7bcd7ac-3135-475f-b38d-03b4978508e8",
+    "classNotesCode": "569ada29-b27e-41d4-b176-f5e64d45075c.pdf",
+    "dppsPdfCode": "39130cdb-b74d-4d57-8337-f331b25ec924.pdf"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Logarithm -03 : Base Changing Formula Of Log || Deductions From Base Changing Formula (Continued)",
+    "lectureCode": "ecb6752a-4a6c-455d-80f3-6a9c5aeb5aee",
+    "classNotesCode": "4099adf1-c44c-44a8-ba5f-52b0c64c93d6.pdf",
+    "dppsPdfCode": "360e5374-939e-4f0e-ae35-7fddd1f0974c.pdf"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Logarithm -02 : Principle Properties & Base Changing Formula Of Log || Deductions From Base Changing Formula || Practice Problems || (No DPP)",
+    "lectureCode": "69971886-9324-4f33-a2d1-2461d958c59b",
+    "classNotesCode": "f870fe89-279c-451c-b156-9ba5577d7f77.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Logarithm -01 : An Important Point || Definition Of Logarithm || Important Properties Of Logarithm",
+    "lectureCode": "a8cc1558-9d08-45bd-94d8-863678e4eb30",
+    "classNotesCode": "09130b6c-90b4-498e-8e26-273c7cc20990.pdf",
+    "dppsPdfCode": ""
+  }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+    
+  generateTable();
+    </script>
+</body>
+
+</html>
