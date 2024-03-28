@@ -72,17 +72,54 @@
             transition: margin-left 0.5s;
         }
 
-        .batch {
-            margin: 20px 0;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+        /* styles.css */
 
-        .batch-image {
-            max-width: 300px;
-            margin: 0 auto;
-        }
+/* Styling for streams */
+.streams-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.stream {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.stream:hover {
+    background-color: #f0f0f0;
+}
+
+/* Styling for batches */
+.batches-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.batch {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+}
+
+/* Styling for search bar */
+.search-container {
+    margin-top: 20px;
+}
+
+#search {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 
         .view-now-button {
             background-color: #3498db;
