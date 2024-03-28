@@ -72,54 +72,17 @@
             transition: margin-left 0.5s;
         }
 
-        /* styles.css */
+        .batch {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-/* Styling for streams */
-.streams-container {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-}
-
-.stream {
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.stream:hover {
-    background-color: #f0f0f0;
-}
-
-/* Styling for batches */
-.batches-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.batch {
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: #3498db;
-    color: white;
-    cursor: pointer;
-}
-
-/* Styling for search bar */
-.search-container {
-    margin-top: 20px;
-}
-
-#search {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
+        .batch-image {
+            max-width: 300px;
+            margin: 0 auto;
+        }
 
         .view-now-button {
             background-color: #3498db;
@@ -307,18 +270,6 @@
 <body>
     <div id="menu-toggle" onclick="toggleMenu()">☰</div>
 
-    <div class="streams-container">
-        <div class="stream" id="engineering">Engineering</div>
-        <div class="stream" id="medical">Medicals</div>
-        <div class="stream" id="foundations">Foundations</div>
-        <div class="stream" id="boards">Boards</div>
-    </div>
-
-    <div class="search-container">
-        <input type="text" id="search" placeholder="Search batches...">
-    </div>
-
-
     <div id="menu-bar">
         <div id="menu-items">
             <div class="menu-item" onclick="showBatches()">Batches</div>
@@ -376,50 +327,6 @@
             isDarkBackground = !isDarkBackground;
             document.body.style.backgroundColor = isDarkBackground ? '#333' : '#f2f2f2';
         }
-
-        const batches = {
-    engineering: ["Prayas Jee 2.O", "Lakshya Jee 1.O", "Batch 3"],
-    medical: ["Batch A", "Batch B", "Batch C"],
-    foundations: ["Foundation X", "Foundation Y", "Foundation Z"],
-    boards: ["Board P", "Board Q", "Board R"]
-};
-
-// Function to display batches for the selected stream
-function displayBatches(stream) {
-    const batchesContainer = document.querySelector('.batches-container');
-    batchesContainer.innerHTML = ''; // Clear previous batches
-
-    batches[stream].forEach(batch => {
-        const batchElement = document.createElement('div');
-        batchElement.textContent = batch;
-        batchElement.classList.add('batch');
-        batchesContainer.appendChild(batchElement);
-    });
-}
-
-// Event listener for stream selection
-document.querySelectorAll('.stream').forEach(stream => {
-    stream.addEventListener('click', () => {
-        const selectedStream = stream.id;
-        displayBatches(selectedStream);
-    });
-});
-
-// Event listener for batch search
-document.getElementById('search').addEventListener('input', function() {
-    const searchKeyword = this.value.toLowerCase();
-    const batchesContainer = document.querySelector('.batches-container');
-    const batchElements = batchesContainer.querySelectorAll('.batch');
-
-    batchElements.forEach(batch => {
-        const batchName = batch.textContent.toLowerCase();
-        if (batchName.includes(searchKeyword)) {
-            batch.style.display = 'block';
-        } else {
-            batch.style.display = 'none';
-        }
-    });
-});
 
         function showBatches()  {
             document.getElementById('content').innerHTML = '';
