@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.73">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #a6cbe4;
+        }
+
+        @media (max-width: 760px) {
+            table {
+                width: 95%;
+            }
+
+            button {
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #ccc;
+            }
+
+            button:hover {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Lecture Number</th>
+            <th>Lecture</th>
+            <th>Class Notes PDF</th>
+            <th>DPP PDF</th>
+        </tr>
+    </table>
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+    <script>
+let lessonName = "11 th Revision";
+const lectureData= [
+{
+    "lectureNumber": 20,
+    "lectureName": "Complex Numbers, Matrices & Determinants, Vectors & 3D 01 : Practice Questions || Recorded || Extra Lecture",
+    "lectureCode": "f00a59db-9a7c-4282-9b81-08c33dcea420",
+    "classNotesCode": "5d79387a-e28a-462b-8378-0a4a90ebd6ac.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Determinants & Matrices 01 : Question Practice || (Recorded)",
+    "lectureCode": "2d70f5ff-dadf-46ab-a139-df7999566ec9",
+    "classNotesCode": "c5b3f722-d4f4-447f-b9a1-23a4cd35f8df.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Complex Number 01 : PYQ || (Recorded)",
+    "lectureCode": "c84498fa-a6a5-4320-b67f-e8df51fa759b",
+    "classNotesCode": "4002255c-fb98-4d74-8570-9c0f34ae9ef5.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Integral Calculus 01 : Indefinite & Definite Integral || Area Under Curve || Differential Equation || (Recorded) || (Extra Lecture)",
+    "lectureCode": "b4d2ecd0-47d8-4148-a66e-cca984695ede",
+    "classNotesCode": "b62855ae-70da-4b50-92cd-a3972e02edf4.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Differential Equations 01 : PYQs || Some Important Concepts || (LIVE)",
+    "lectureCode": "84eb3afc-ed6a-4511-b8f5-b5bdbd0fcd08",
+    "classNotesCode": "fa346eb0-f00f-431c-9f3e-419e0c5b1d5e.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Area Under Curve 01 : PYQs || Some Important Concepts || (LIVE)",
+    "lectureCode": "b15c302d-5792-4373-b4e8-85ea1be4e8be",
+    "classNotesCode": "45f776ed-afd0-4009-ae5e-763be9e8f1b2.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Indefinite & Definite Integration 02 : PYQs || Some Important Concepts || (LIVE)",
+    "lectureCode": "069b85c6-6736-49bf-8931-9aebbdf0e8f7",
+    "classNotesCode": "00363368-a164-480a-a5d0-9facbe1d4281.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Indefinite & Definite Integration 01 : PYQs || Some Important Concepts || (LIVE)",
+    "lectureCode": "0927d4dc-ec6c-468e-931b-b9f9b7c7842f",
+    "classNotesCode": "7d8dbe78-1681-46f7-8a43-5d9668982089.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Straight Line, Circle & Conic Section 01 : Problem Practice || (Recorded)",
+    "lectureCode": "e58582e7-fefb-45c6-88fa-fd2a56524eaf",
+    "classNotesCode": "0c02e6b1-a6e7-44c8-b929-d976a2dee43f.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Conic 02 : Problem Practice (Part 02) || (LIVE)",
+    "lectureCode": "c5d4c64f-0954-46cc-a2c3-ee51408e639f",
+    "classNotesCode": "e445d871-35f4-4cf9-a0af-cc59308fb1f5.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Conic 01 : Problem Practice || (LIVE) || (Rescheduled @12:30 PM)",
+    "lectureCode": "7538b45d-23e5-41b0-9e7f-aacd0aee54b6",
+    "classNotesCode": "737362d1-b017-453d-b320-932d1f3edd82.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "PNC, Binomial Theorem & Probability 01 : Practice Questions || Recorded || (Extra Lecture)",
+    "lectureCode": "d0693182-e9da-4676-b003-2603fb6fda4e",
+    "classNotesCode": "f9746eed-d4d7-4f6f-addf-433336f6699a.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Probability & Statistics 01 : PYQ's || (LIVE) || (Extra Lecture)",
+    "lectureCode": "78f10dbc-511d-49cc-b443-18f2369dad60",
+    "classNotesCode": "8d419dc2-9a8d-441b-a091-2d97390b87fe.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Binomial Theorem 01 : Problem Practice || (LIVE)",
+    "lectureCode": "7172c5ec-767d-4f3b-8cc9-55c9e4831dfb",
+    "classNotesCode": "f87dc84f-dd9f-44dd-8fd0-c6be903732f0.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Permutation & Combination 01 : Problem Practice || (LIVE)",
+    "lectureCode": "a54f4ff1-baa1-4729-9ebf-9ae1c03d99fd",
+    "classNotesCode": "852448e7-7b38-4cd8-9cd1-afa0472cef36.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Application of Derivatives 02 : Advance Session || Practice Problems || Extra Lecture",
+    "lectureCode": "d534d87d-7bc2-4c16-9ecd-2a0943af1068",
+    "classNotesCode": "24e7838f-c1fb-4799-ad76-a02c4fdaf65a.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Inverse Trigonometric Function 01 :  Practice Questions || (Extra Lecture)",
+    "lectureCode": "730697c0-4660-4c8f-9636-edd4c266bc35",
+    "classNotesCode": "5cd6c818-5cab-4d0c-b25e-d67878c73890.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Function 01  : Practice Problems",
+    "lectureCode": "0092787e-03ca-4b4b-b0c8-2c845f047a3d",
+    "classNotesCode": "b4649648-8099-4072-b53a-52eacc6ff21b.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Sets & Relations, Function & ITF 04 : Revision (Part 4)",
+    "lectureCode": "c825ada8-7059-4325-9e94-70bf08b3793b",
+    "classNotesCode": "c337555e-15a3-4b89-b2af-6c32c58f4319.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Sets & Relations, Function & ITF 03 : Revision (Part 3)",
+    "lectureCode": "f59bfac7-0c9b-48fd-8089-19546d521bca",
+    "classNotesCode": "49b26137-ede1-4f06-a539-064fdf179204.pdf",
+    "dppsPdfCode": ""
+  }
+];
+
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        function openPDFInNewWindow(pdfUrl) {
+            // Open the PDF in a new window with the PDF.js viewer
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        function showQualityOptions(index) {
+            const lecture = lectureData[index];
+
+            // Open quality-select.html with lecture link
+            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        function generateTable() {
+            const table = document.querySelector('table');
+
+            lectureData.forEach((lecture, index) => {
+                const row = table.insertRow();
+                row.insertCell(0).textContent = index + 1;
+                row.insertCell(1).textContent = lecture.lectureName;
+
+                const cell3 = row.insertCell(2);
+                cell3.innerHTML = `
+                    <button onclick="showQualityOptions(${index})">View Lecture</button>
+                `;
+
+                const cell4 = row.insertCell(3);
+                cell4.innerHTML = `
+                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+                `;
+
+                const cell5 = row.insertCell(4);
+                if (lecture.dppsPdfCode) {
+                    cell5.innerHTML = `
+                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+                    `;
+                }
+            });
+        }
+    
+  generateTable();
+    </script>
+</body>
+
+</html>
