@@ -121,7 +121,7 @@
             const lecture = lectureData[index];
 
             // Open quality-select.html with lecture link
-            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
+            const qualitySelectUrl = `quality-select.html?lectureCode=${lecture.lectureCode}`;
             window.open(qualitySelectUrl, '_blank');
         }
 
@@ -129,7 +129,7 @@
             const lecture = lectureData[index];
 
             // Open quality-select.html with lecture link
-            const solutionSelectUrl = `quality-select.html?lessonName=${lessonName}&dppsSolutionCode=${lecture.dppsSolutionCode}`;
+            const solutionSelectUrl = `quality-select.html?dppsSolutionCode=${lecture.dppsSolutionCode}`;
             window.open(solutionSelectUrl, '_blank');
         }
 
