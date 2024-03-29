@@ -98,16 +98,16 @@
 
     <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
     <script>
-        // Declare clearkeysData as a global variable
-        var clearkeysData;
-        var lectureCodeId;
-        var dppsSolutionCodeId;
+       // Declare clearkeysData as a global variable
+var clearkeysData;
+var lectureCodeId;
+var dppsSolutionCodeId;
 
-        document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
     // Get the lecture code and solution code from the URL
     const urlParams = new URLSearchParams(window.location.search);
-    const lectureCodeId = urlParams.get('key');
-    const dppsSolutionCodeId = urlParams.get('key');
+    lectureCodeId = urlParams.get('lectureCode');
+    dppsSolutionCodeId = urlParams.get('dppsSolutionCode');
 
     // If lectureCodeId is null, it means the 'lectureCode' parameter is not present in the URL
     if (!lectureCodeId) {
@@ -116,10 +116,7 @@
         return;
     }
 
-    // Proceed with your logic using the lectureCode
-    // For example, you can fetch data or initialize the player using the lectureCode
-
-    // Construct the URL of the video player page based on the video ID
+    // Construct the video source ID by concatenating lectureCodeId and dppsSolutionCodeId
     const videoSrcId = lectureCodeId + '/' + dppsSolutionCodeId;
 
     // If the video source ID is not provided, log an error and alert the user
@@ -128,6 +125,9 @@
         alert("HEY YOU NEED TO GIVE LECTURE CODE TOO OR YOU MIGHT HAVE GIVEN INCORRECT LECTURE CODE");
         return;
     }
+
+    // Proceed with your logic using the lectureCode
+    // For example, you can fetch data or initialize the player using the lectureCode
 
     const source = `https://d1d34p8vz63oiq.cloudfront.net/${videoSrcId}/master.mpd`;
     const videoSource = document.querySelector("#videoContainer source");
@@ -170,20 +170,22 @@
 });
 
 
-        function initializePlayer() {
-            // If lectureCodeId is null, it means the 'lectureCode' parameter is not present in the URL
-            if (!videoSrcId) {
-                console.error('Video ID not found in URL');
-                alert("HEY YOU NEED TO GIVE LECTURE CODE TOO OR YOU MIGHT HAVE GIVEN INCORRECT LECTURE CODE");
-                return;
-            }
+function initializePlayer() {
+    // If videoSrcId is null, it means the 'lectureCode' parameter is not present in the URL
+    if (!videoSrcId) {
+        console.error('Video ID not found in URL');
+        alert("HEY YOU NEED TO GIVE LECTURE CODE TOO OR YOU MIGHT HAVE GIVEN INCORRECT LECTURE CODE");
+        return;
+    }
 
-            const video = document.getElementById("videoContainer");
-            const videoSource = document.querySelector("#videoContainer source");
-            const lectureKey = videoSrcId;
-            const source = `https://d1d34p8vz63oiq.cloudfront.net/${lectureKey}/master.mpd`;
+    const video = document.getElementById("videoContainer");
+    const videoSource = document.querySelector("#videoContainer source");
+    const lectureKey = videoSrcId;
+    const source = `https://d1d34p8vz63oiq.cloudfront.net/${lectureKey}/master.mpd`;
 
-            videoSource.src = source;
+    videoSource.src = source;
+    // ...
+
 
             const dash = dashjs.MediaPlayer().create();
             var defaultOptions = {
