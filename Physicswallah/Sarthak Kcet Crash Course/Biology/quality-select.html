@@ -101,6 +101,9 @@
             // Get the lecture code from the URL
             const urlParams = new URLSearchParams(window.location.search);
             const lectureCode = urlParams.get('lectureCode');
+           
+
+           
 
             // Determine the video link based on the selected quality
             const videoLinkWithQuality = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${quality}/main.m3u8`;
@@ -123,10 +126,14 @@
 
             // Get the lecture code from the URL
             const urlParams = new URLSearchParams(window.location.search);
-            const lectureCode = urlParams.get('lectureCode');
+    const lectureCode = urlParams.get('lectureCode');
+    const dppsSolutionCode = urlParams.get('dppsSolutionCode');
+
+    // Concatenate lecture code and solution code to form video key
+    const videoKey = `${lectureCode}/${dppsSolutionCode}`;
 
             // Determine the video link based on the selected quality
-            const videoLinkWithQuality = `https://psitoffers.store/1dm.php?vid=${lectureCode}`;
+            const videoLinkWithQuality = `https://psitoffers.store/1dm.php?vid=${videoKey}`;
 
             // Check if the device is mobile
             const isMobile = window.innerWidth <= 600;
@@ -142,12 +149,18 @@
         }
 
         function playOnWeb() {
-            // Get the lecture code from the URL
-            const urlParams = new URLSearchParams(window.location.search);
-            const lectureCode = urlParams.get('lectureCode');
+    // Get the lecture code and solution code from the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const lectureCode = urlParams.get('lectureCode');
+    const dppsSolutionCode = urlParams.get('dppsSolutionCode');
 
-            // Construct the URL with lectureCode parameter
-            const redirectURL = `plyr_v2.html?key=${lectureCode}`;
+    // Concatenate lecture code and solution code to form video key
+    const videoKey = `${lectureCode}/${dppsSolutionCode}`;
+
+    // Construct the URL with videoKey parameter
+    const redirectURL = `plyr_v2.html?key=${videoKey}`;
+}
+
 
             // Check if the device is mobile
             const isMobile = window.innerWidth <= 600;
@@ -158,7 +171,7 @@
                 window.location.href = `intent://lakshyajee.github.io/1.O/${redirectURL}&package=com.kiwibrowser.browser#Intent;scheme=https;package=com.kiwibrowser.browser;end`;
             } else {
                 // Construct the URL with lectureCode parameter
-         const redirectURL = `plyr_v2.html?key=${lectureCode}`;
+         const redirectURL = `plyr_v2.html?key=${videoKey}`;
 
         // Redirect to the plyr2.html page with lectureCode parameter
        window.location.href = `https://lakshyajee.github.io/1.O/${redirectURL}`;
