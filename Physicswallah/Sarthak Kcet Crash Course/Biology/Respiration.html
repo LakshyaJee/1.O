@@ -165,13 +165,13 @@
 
         // Function to view lecture
         function viewLecture(lectureCode) {
-            const qualitySelectUrl = `quality-select.html?lectureCode=${lectureCode}`;
+            const qualitySelectUrl = `quality-select.html?lectureCode=${lecture.lectureCode}`;
             window.open(qualitySelectUrl, '_blank');
         }
 
         // Function to view solutions
         function viewSolutions(dppsSolutionCode) {
-            const solutionSelectUrl = `quality-select.html?dppsSoltionCode${lectureData.dppsSolutionCode}`;
+            const solutionSelectUrl = `quality-select.html?dppsSoltionCode${lecture.dppsSolutionCode}`;
             window.open(solutionSelectUrl, '_blank');
         }
 
