@@ -105,17 +105,23 @@ var dppsSolutionCodeId;
 
 document.addEventListener("DOMContentLoaded", function () {
     // Get the lecture code and solution code from the URL
-    const urlParams = new URLSearchParams(window.location.search);
-    lectureCodeId = urlParams.get('lectureCode');
-    dppsSolutionCodeId = urlParams.get('dppsSolutionCode');
+    lectureCodeId = new URLSearchParams(window.location.search).get('key');
+    dppsSolutionCodeId = new URLSearchParams(window.location.search).get('key');
+    
 
     // If lectureCodeId is null, it means the 'lectureCode' parameter is not present in the URL
     if (!lectureCodeId) {
         console.error('Lecture code not found in URL');
-        alert("HEY YOU NEED TO GIVE LECTURE CODE TOO OR YOU MIGHT HAVE GIVEN INCORRECT LECTURE CODE");
+        alert("LectureCode missing or Error percieved");
         return;
     }
 
+    // If dppsSolutionCodeId is null, it means the 'lectureCode' parameter is not present in the URL
+    if (!dppsSolutionCodeId) {
+        console.error('Lecture code not found in URL');
+        alert("LectureCode missing or Error percieved");
+        return;
+    }
     // Construct the video source ID by concatenating lectureCodeId and dppsSolutionCodeId
     const videoSrcId = lectureCodeId + '/' + dppsSolutionCodeId;
 
