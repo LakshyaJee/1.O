@@ -186,7 +186,17 @@
             const buttons = createButtons(lecture);
             lectureCard.appendChild(buttons);
             lectureContainer.appendChild(lectureCard);
-        });
+
+            // Add click event listener to the lecture card
+    lectureCard.addEventListener('click', () => {
+        viewLecture(lecture.lectureCode); // Pass lectureCode when clicked
+    });
+    // Add click event listener to the lecture card
+    lectureCard.addEventListener('click', () => {
+        viewLecture(lecture.dppsSolutionCode); // Pass lectureCode when clicked
+    });
+});
+        
 
         
 
