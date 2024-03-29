@@ -113,7 +113,7 @@
             if (lecture.lectureCode) {
                 const viewLectureButton = document.createElement('button');
                 viewLectureButton.textContent = 'View Lecture';
-                viewLectureButton.onclick = () => viewLecture(lecture.lectureName);
+                viewLectureButton.onclick = () => viewLecture(lecture.lectureCode);
                 buttonContainer.appendChild(viewLectureButton);
             }
 
