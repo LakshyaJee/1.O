@@ -154,23 +154,34 @@
     const lectureCode = urlParams.get('lectureCode');
     const dppsSolutionCode = urlParams.get('dppsSolutionCode');
 
-    // Concatenate lecture code and solution code to form video key
-    const videoKey = `${lectureCode}/${dppsSolutionCode}`;
+    // Construct the URL with the proper parameter
+    let redirectURL;
 
-    // Construct the URL with videoKey parameter
-    const redirectURL = `plyr.html?key=${videoKey}`;
+    if (lectureCode) {
+        // If lectureCode is present, use it in the redirect URL
+        redirectURL = `plyr.html?key=${lectureCode}`;
+    } else if (dppsSolutionCode) {
+        // If dppsSolutionCode is present, use it in the redirect URL
+        redirectURL = `plyr.html?key=${dppsSolutionCode}`;
+    } else {
+        // Handle the case where neither lectureCode nor dppsSolutionCode is present
+        console.error('Neither lectureCode nor dppsSolutionCode found in URL');
+        alert('Error: Neither lectureCode nor dppsSolutionCode found in URL');
+        return;
+    }
 
     // Check if the device is mobile
-    const isMobile = window.innerWidth <= 600;
+    const isMobile = window.innerWidth <= 650;
 
     if (isMobile) {
         // Open KiwiBrowser app with the provided intent link
         window.location.href = `intent://lakshyajee.github.io/1.O/${redirectURL}&package=com.kiwibrowser.browser#Intent;scheme=https;package=com.kiwibrowser.browser;end`;
     } else {
-        // Redirect to the plyr2.html page with videoKey parameter
+        // Redirect to the plyr.html page with the proper parameter
         window.location.href = `https://lakshyajee.github.io/1.O/${redirectURL}`;
     }
 }
+
 
         
 
