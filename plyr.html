@@ -93,38 +93,33 @@
         <video crossorigin="" playsinline="" id="videoContainer" style="background-color: #0A0909;" preload="auto">
             <source src="">
         </video>
+
     </div>
 
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
     <script>
         // Declare clearkeysData as a global variable
         var clearkeysData;
-        var lectureCodeId;
-        var dppsSolutionCodeId;
+        var codeId;
 
         document.addEventListener("DOMContentLoaded", function () {
-            // Get the lecture code and solution code from the URL
+            // Get the lecture code or dppsSolutionCode from the URL
             var params = new URLSearchParams(window.location.search);
-            lectureCodeId = params.get('key');
-            dppsSolutionCodeId = params.get('dppsSolutionCode');
+            var lectureCodeId = params.get('key');
+            var dppsSolutionCodeId = params.get('dppsSolutionCode');
 
-            // If lectureCodeId is null, it means the 'lectureCode' parameter is not present in the URL
-            if (!lectureCodeId) {
-                console.error('Lecture code not found in URL');
-                alert("HEY YOU NEED TO GIVE LECTURE CODE TOO OR YOU MIGHT HAVE GIVEN INCORRECT LECTURE CODE");
+            // Use lectureCodeId if present, otherwise use dppsSolutionCodeId
+            codeId = lectureCodeId || dppsSolutionCodeId;
+
+            // If codeId is null, it means neither lectureCode nor dppsSolutionCode is present in the URL
+            if (!codeId) {
+                console.error('Lecture code or dppsSolutionCode not found in URL');
+                alert("HEY YOU NEED TO GIVE LECTURE CODE OR SOLUTION CODE OR YOU MIGHT HAVE GIVEN INCORRECT CODE");
                 return;
             }
 
-            // Construct the video source ID by concatenating lectureCodeId and dppsSolutionCodeId
-            const videoSrcId = dppsSolutionCodeId ? `${lectureCodeId}/${dppsSolutionCodeId}` : lectureCodeId;
-            var url = 'https://studyrays.site/drmplayer.php?v=https://d1d34p8vz63oiq.cloudfront.net/' + videoSrcId + '/master.mpd';
-            
-
-            // Proceed with your logic using the lectureCode
-            // For example, you can fetch data or initialize the player using the lectureCode
-
-            const source = `https://d1d34p8vz63oiq.cloudfront.net/${videoSrcId}/master.mpd`;
-            const videoSource = document.querySelector("#videoContainer source");
-            videoSource.src = source;
+            // Construct the URL of the video player page based on the video ID
+            var url = 'https://studyrays.site/drmplayer.php?v=https://d1d34p8vz63oiq.cloudfront.net/' + codeId + '/master.mpd';
 
             // Fetch HTML content from the URL
             fetch(url)
@@ -163,17 +158,16 @@
         });
 
         function initializePlayer() {
-            // If lectureCodeId is null, it means the 'lectureCode' parameter is not present in the URL
-            if (!lectureCodeId) {
+            // If codeId is null, it means neither lectureCode nor dppsSolutionCode is present in the URL
+            if (!codeId) {
                 console.error('Video ID not found in URL');
-                alert("HEY YOU NEED TO GIVE LECTURE CODE TOO OR YOU MIGHT HAVE GIVEN INCORRECT LECTURE CODE");
+                alert("HEY YOU NEED TO GIVE LECTURE CODE OR SOLUTION CODE OR YOU MIGHT HAVE GIVEN INCORRECT CODE");
                 return;
             }
 
             const video = document.getElementById("videoContainer");
             const videoSource = document.querySelector("#videoContainer source");
-            const lectureKey = lectureCodeId;
-            const source = `https://d1d34p8vz63oiq.cloudfront.net/${lectureKey}/master.mpd`;
+            const source = `https://d1d34p8vz63oiq.cloudfront.net/${codeId}/master.mpd`;
 
             videoSource.src = source;
 
@@ -233,7 +227,7 @@
                 };
                 defaultOptions.previewThumbnails = {
                     enabled: true,
-                    src: `https://d1d34p8vz63oiq.cloudfront.net/${lectureKey}/master.mpd`
+                    src: `https://d1d34p8vz63oiq.cloudfront.net/${codeId}/master.mpd`
                 };
                 defaultOptions.tooltips = {
                     controls: true,
