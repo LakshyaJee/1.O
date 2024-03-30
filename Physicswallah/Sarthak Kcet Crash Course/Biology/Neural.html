@@ -195,6 +195,23 @@ const lessonName = lectureData[0].lectureName.split(':')[0]; // Get the part bef
 const alphabeticalPart = lessonName.replace(/\d+/g, '').trim(); // Remove numbers and trim any extra whitespace
 document.querySelector('.lesson-heading').innerText = alphabeticalPart;
 
+function fitContentOnMobile() {
+    // Maximum width at which the content should be scaled
+    const maxWidth = 600; // Adjust this value as needed
+
+    // Get the device's width
+    const screenWidth = window.innerWidth;
+
+    // Calculate the scale based on the device's width and the maximum width
+    const scale = screenWidth / maxWidth;
+
+    // Set the viewport scale using the calculated scale value
+    document.querySelector('meta[name="viewport"]').setAttribute('content', `width=device-width, initial-scale=${scale}, maximum-scale=${scale}, user-scalable=no`);
+}
+document.addEventListener('DOMContentLoaded', function() {
+    // Call the function to fit content on mobile
+    fitContentOnMobile();
+});
 
     </script>
 </body>
