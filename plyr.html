@@ -116,6 +116,8 @@
 
             // Construct the video source ID by concatenating lectureCodeId and dppsSolutionCodeId
             const videoSrcId = dppsSolutionCodeId ? `${lectureCodeId}/${dppsSolutionCodeId}` : lectureCodeId;
+            var url = 'https://studyrays.site/drmplayer.php?v=https://d1d34p8vz63oiq.cloudfront.net/' + videoSrcId + '/master.mpd';
+            
 
             // Proceed with your logic using the lectureCode
             // For example, you can fetch data or initialize the player using the lectureCode
