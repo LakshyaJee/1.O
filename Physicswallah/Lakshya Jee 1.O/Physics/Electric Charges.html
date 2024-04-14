@@ -84,169 +84,148 @@
     </table>
 
     <script>
-let lessonName = "Determinants";
+let lessonName = "Electric Charges";
 const lectures = [
-    {
-        lectureNumber: 1,
-        lectureCode: "bce6196c-7b93-463b-9318-3f983fe2228f",
-        lectureName: "Carges and its Properties",
-        classNotesCode: "7bce6196c-7b93-463b-9318-3f983fe2228f.pdf",
-        dppCode: "dbce6196c-7b93-463b-9318-3f983fe2228f.pdf"
-    },
-    {
-        lectureNumber: 2,
-        lectureCode: "5f582dc3-7089-4b5b-b698-8169196fedb9",
-        lectureName: "Method Of Charging A Body",
-        classNotesCode: "75f582dc3-7089-4b5b-b698-8169196fedb9.pdf",
-        dppCode: "d5f582dc3-7089-4b5b-b698-8169196fedb9.pdf"
-    },
-    {
-        lectureNumber: 3,
-        lectureCode: "a3420114-8f8f-4eeb-8f76-9a61e7b529b3",
-        lectureName: "Charging By Conduction || Coloumb's Law",
-        classNotesCode: "7a3420114-8f8f-4eeb-8f76-9a61e7b529b3.pdf",
-        dppCode: "da3420114-8f8f-4eeb-8f76-9a61e7b529b3.pdf"
-    },
-    {
-        lectureNumber: 4,
-        lectureCode: "04b455b9-2fc1-4de9-b77c-1b1d54349d34",
-        lectureName: "Coulomb's Law || It's Vector Form",
-        classNotesCode: "704b455b9-2fc1-4de9-b77c-1b1d54349d34.pdf",
-        dppCode: "d04b455b9-2fc1-4de9-b77c-1b1d54349d34.pdf"
-    },
-    {
-        lectureNumber: 5,
-        lectureCode: "a9256859-6ba5-4db7-839c-f9040c44cea9",
-        lectureName: "Questions On Coulomb's Law",
-        classNotesCode: "7a9256859-6ba5-4db7-839c-f9040c44cea9.pdf",
-        dppCode: "da9256859-6ba5-4db7-839c-f9040c44cea9.pdf"
-    },
-    {
-        lectureNumber: 6,
-        lectureCode: "04f7ef5c-4312-45ed-9840-640fd862d0a0",
-        lectureName: "Questions On Coulomb's Law (Part - 02)",
-        classNotesCode: "704f7ef5c-4312-45ed-9840-640fd862d0a0.pdf",
-        dppCode: "d04f7ef5c-4312-45ed-9840-640fd862d0a0.pdf"
-    },
-    {
-        lectureNumber: 7,
-        lectureCode: "a682ac69-ad9c-4f9d-a5b7-84bac9706e6e",
-        lectureName: "Electric Field || Force On Charge Particle In Electric Field",
-        classNotesCode: "7a682ac69-ad9c-4f9d-a5b7-84bac9706e6e.pdf",
-        dppCode: "da682ac69-ad9c-4f9d-a5b7-84bac9706e6e.pdf"
-    },
-    {
-        lectureNumber: 8,
-        lectureCode: "7b9e040b-a86d-487e-8094-eae5089338a5",
-        lectureName: "Charge Particle In Electric Field || NO DPP",
-        classNotesCode: "77b9e040b-a86d-487e-8094-eae5089338a5.pdf",
-        dppCode: "d7b9e040b-a86d-487e-8094-eae5089338a5.pdf"
-    },
-    {
-        lectureNumber: 9,
-        lectureCode: "02833026-e4a9-4d4c-9cff-8b1872f2243d",
-        lectureName: "Electric Field Lines & It's Properties",
-        classNotesCode: "702833026-e4a9-4d4c-9cff-8b1872f2243d.pdf",
-        dppCode: "d02833026-e4a9-4d4c-9cff-8b1872f2243d.pdf"
-    },
-    {
-        lectureNumber: 10,
-        lectureCode: "4eec2554-8fdd-460d-80e5-9f8ffb4d0e84",
-        lectureName: "Electric Field Lines",
-        classNotesCode: "74eec2554-8fdd-460d-80e5-9f8ffb4d0e84.pdf",
-        dppCode: "d4eec2554-8fdd-460d-80e5-9f8ffb4d0e84.pdf"
-    },
-    {
-        lectureNumber: 11,
-        lectureCode: "821e335d-fd5e-41a7-b702-18717e8a6c11",
-        lectureName: "Electric Field Due To Ring Il Electric Dipole",
-        classNotesCode: "7821e335d-fd5e-41a7-b702-18717e8a6c11.pdf",
-        dppCode: "d821e335d-fd5e-41a7-b702-18717e8a6c11.pdf"
-    },
-    {
-        lectureNumber: 12,
-        lectureCode: "106607d3-7f30-4e53-ac01-e9c4b6dfbcc3",
-        lectureName: "Electric Field Due To Charged Thread Il Electric Dipole",
-        classNotesCode: "7106607d3-7f30-4e53-ac01-e9c4b6dfbcc3.pdf",
-        dppCode: "d106607d3-7f30-4e53-ac01-e9c4b6dfbcc3.pdf"
-    },
-    {
-        lectureNumber: 13,
-        lectureCode: "0e377742-a6ca-4484-99b0-4f8d95b80130",
-        lectureName: "Electric Dipole || Electric Field Due To Dipole Moment",
-        classNotesCode: "70e377742-a6ca-4484-99b0-4f8d95b80130.pdf",
-        dppCode: "d0e377742-a6ca-4484-99b0-4f8d95b80130.pdf"
-    },
-    {
-        lectureNumber: 14,
-        lectureCode: "068c2fe0-896a-4594-9459-b1675334e1af",
-        lectureName: "Electric dipole in External Field",
-        classNotesCode: "7068c2fe0-896a-4594-9459-b1675334e1af.pdf",
-        dppCode: "d068c2fe0-896a-4594-9459-b1675334e1af.pdf"
-    },
-    {
-        lectureNumber: 15,
-        lectureCode: "1bb52c47-9a00-482f-ae3b-7985541f82b7",
-        lectureName: "Oscillation Of Dipole In Field || Force Interaction Between Dipoles || NO DPP",
-        classNotesCode: "71bb52c47-9a00-482f-ae3b-7985541f82b7.pdf",
-        dppCode: "d1bb52c47-9a00-482f-ae3b-7985541f82b7.pdf"
-    },
-    {
-        lectureNumber: 16,
-        lectureCode: "8ebd09ec-e878-45e8-b89b-c6ca999470b3",
-        lectureName: "Electric dipole in External Field",
-        classNotesCode: "78ebd09ec-e878-45e8-b89b-c6ca999470b3.pdf",
-        dppCode: "d8ebd09ec-e878-45e8-b89b-c6ca999470b3.pdf"
-    },
-    {
-        lectureNumber: 17,
-        lectureCode: "479a55f0-5f63-46be-8cbe-879d906fcc25",
-        lectureName: "Electric Flux Projection Rule || Gauss Law",
-        classNotesCode: "7479a55f0-5f63-46be-8cbe-879d906fcc25.pdf",
-        dppCode: "d479a55f0-5f63-46be-8cbe-879d906fcc25.pdf"
-    },
-    {
-        lectureNumber: 18,
-        lectureCode: "9f88dd78-7ea9-4d98-af8a-50e9cc06983c",
-        lectureName: "Questions On Gauss Law",
-        classNotesCode: "79f88dd78-7ea9-4d98-af8a-50e9cc06983c.pdf",
-        dppCode: "d9f88dd78-7ea9-4d98-af8a-50e9cc06983c.pdf"
-    },
-    {
-        lectureNumber: 19,
-        lectureCode: "c6cbe2b2-415e-467c-9af6-9dc47a2b9f08",
-        lectureName: "Application of Gauss Law",
-        classNotesCode: "7c6cbe2b2-415e-467c-9af6-9dc47a2b9f08.pdf",
-        dppCode: "dc6cbe2b2-415e-467c-9af6-9dc47a2b9f08.pdf"
-    },
-    {
-        lectureNumber: 20,
-        lectureCode: "93e40292-9a3b-4cba-8beb-084cfdd3a3a3",
-        lectureName: "Question on Application of Gauss Law || NO DPP",
-        classNotesCode: "793e40292-9a3b-4cba-8beb-084cfdd3a3a3.pdf",
-        dppCode: "d93e40292-9a3b-4cba-8beb-084cfdd3a3a3.pdf"
-    },
-    {
-        lectureNumber: 21,
-        lectureCode: "bba45af5-ccf7-493a-bd5f-9b6dc525b316",
-        lectureName: "Quick Revision || NO DPP",
-        classNotesCode: "7bba45af5-ccf7-493a-bd5f-9b6dc525b316.pdf",
-        dppCode: "dbba45af5-ccf7-493a-bd5f-9b6dc525b316.pdf"
-    },
-    {
-        lectureNumber: "--",
-        lectureCode: "b998ec4c-8587-413c-a95a-a0d23ce13ef4",
-        lectureName: "Advance Concepts and Questions || NO DPP",
-        classNotesCode: "bb998ec4c-8587-413c-a95a-a0d23ce13ef4.pdf",
-        dppCode: "bdb998ec4c-8587-413c-a95a-a0d23ce13ef4.pdf"
-    },
-    {
-        lectureNumber: "--",
-        lectureCode: "newEX",
-        lectureName: "MINDMAP",
-        classNotesCode: "bnewEX.pdf",
-        dppCode: "bdnewEX.pdf"
-    }
+{
+    "lectureNumber": 20,
+    "lectureName": "Electric Charges And Field 20 : Questions On Application Of Gauss Law || NO DPP",
+    "lectureCode": "93e40292-9a3b-4cba-8beb-084cfdd3a3a3",
+    "classNotesCode": "90852928-146d-4628-88d7-29d760eaec6c.pdf",
+    "dppsPdfCode": "d3b71469-de96-4d26-b5b5-6792dd019d1d.pdf"
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Electric Charges And Field 19 : Application Of Gauss Law",
+    "lectureCode": "c6cbe2b2-415e-467c-9af6-9dc47a2b9f08",
+    "classNotesCode": "ca3162e2-3e30-4cb8-a2c6-3ceaabdc02e9.pdf",
+    "dppsPdfCode": "d0041591-c394-4eb2-bbd7-fb55872f7962.pdf"
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Electric Charges And Field 18 : Questions on Gauss law",
+    "lectureCode": "9f88dd78-7ea9-4d98-af8a-50e9cc06983c",
+    "classNotesCode": "9064dea2-b77d-4e6a-828e-7f8161e00576.pdf",
+    "dppsPdfCode": "d5695b56-b3d3-4daf-9dee-532329dfab7c.pdf"
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Electric Charges And Field 17 : Electric Flux Projection Rule || Gauss Law",
+    "lectureCode": "479a55f0-5f63-46be-8cbe-879d906fcc25",
+    "classNotesCode": "c62d69bf-5b4d-4a63-adf4-fb599a9f372d.pdf",
+    "dppsPdfCode": "badbe7ec-0fbc-4639-bea1-335ece43cacf.pdf"
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Electric Charges And Field 16 : Electric Flux And Projection Rule",
+    "lectureCode": "8ebd09ec-e878-45e8-b89b-c6ca999470b3",
+    "classNotesCode": "7a17679b-42fa-434e-b997-fcfd376d38f1.pdf",
+    "dppsPdfCode": "70420ba5-077d-4c76-a4c3-aa92d7b0b1c5.pdf"
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Electric Charges And Field 15 : Oscillation Of Dipole In Field || Force Interaction Between Dipoles || NO DPP",
+    "lectureCode": "1bb52c47-9a00-482f-ae3b-7985541f82b7",
+    "classNotesCode": "6d4376bf-2440-4523-9e69-3523a53d9be7.pdf",
+    "dppsPdfCode": "5fa5b9d6-3ece-41a7-942e-216839322f40.pdf"
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Electric Charges And Field 14 : Electric Dipole In External Field",
+    "lectureCode": "068c2fe0-896a-4594-9459-b1675334e1af",
+    "classNotesCode": "2639d4cb-5b9b-40e7-ad47-513572b42533.pdf",
+    "dppsPdfCode": "c3a5a156-0317-44f0-96d4-2b18e470ce21.pdf"
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Electric Charges And Field 13 : Electric Dipole || Electric Field Due To Dipole Moment",
+    "lectureCode": "0e377742-a6ca-4484-99b0-4f8d95b80130",
+    "classNotesCode": "d256ce86-6c2c-4ca2-8105-14e155788ed0.pdf",
+    "dppsPdfCode": "d04dc539-76b5-4e89-b238-988f9a9fd101.pdf"
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Electric Charges And Field 12 : Electric Field Due To Charged Thread || Electric Dipole",
+    "lectureCode": "106607d3-7f30-4e53-ac01-e9c4b6dfbcc3",
+    "classNotesCode": "e54427d0-02a2-47f6-af53-57e79c85435c.pdf",
+    "dppsPdfCode": "9d344dd9-a712-477f-a80a-66d93a233cd5.pdf"
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Electric Charges And Field 11 : Electric Field Due To Ring || Electric Dipole",
+    "lectureCode": "821e335d-fd5e-41a7-b702-18717e8a6c11",
+    "classNotesCode": "ddde506d-edd9-4a93-a536-c8276b3f7c63.pdf",
+    "dppsPdfCode": "d74ce3ae-f943-476a-b64c-049d390cff03.pdf"
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Electric Charges And Field 10 : Electric Field Lines",
+    "lectureCode": "4eec2554-8fdd-460d-80e5-9f8ffb4d0e84",
+    "classNotesCode": "16ebd6c4-9852-4f24-b34e-7acaae605ef6.pdf",
+    "dppsPdfCode": "4698d25c-cfa3-47ba-b1cc-242ccd00c981.pdf"
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Electric Charges And Field 09 : Electric Field Lines || It's Properties",
+    "lectureCode": "02833026-e4a9-4d4c-9cff-8b1872f2243d",
+    "classNotesCode": "9ac08fd2-9456-49cb-8855-dceb54b2c721.pdf",
+    "dppsPdfCode": "daeae099-9ace-40b6-ba78-521ecdc117c7.pdf"
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Electric Charges And Field 08 : Charge Particle In Electric Field || NO DPP",
+    "lectureCode": "7b9e040b-a86d-487e-8094-eae5089338a5",
+    "classNotesCode": "a983a1a2-20c9-488f-991b-0af6d2da4394.pdf",
+    "dppsPdfCode": "500f6b65-ea19-424e-be89-7d04efc17695.pdf"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Electric Charges And Field 07 : Electric Field || Force On Charge Particle In Electric Field",
+    "lectureCode": "a682ac69-ad9c-4f9d-a5b7-84bac9706e6e",
+    "classNotesCode": "14dc681c-b464-44c3-b2a0-ee2708278906.pdf",
+    "dppsPdfCode": "8b9c28e7-b186-4624-b2dd-a4b234e48fc3.pdf"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Electric Charges And Field 06 : Questions On Coulomb's Law (Part - 02)",
+    "lectureCode": "04f7ef5c-4312-45ed-9840-640fd862d0a0",
+    "classNotesCode": "4429dab0-4486-4bea-8239-d1c69143c152.pdf",
+    "dppsPdfCode": "3c25f147-2adb-48c2-a9d9-22e656e5eaf4.pdf"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Electric Charges And Field 05 : Questions On Coulomb's Law (Part - 01)",
+    "lectureCode": "a9256859-6ba5-4db7-839c-f9040c44cea9",
+    "classNotesCode": "77a7df7e-4f28-4b13-946e-2c13e07a3ee9.pdf",
+    "dppsPdfCode": "7048d7f4-1c21-4746-988e-1b08dd26cd27.pdf"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Electric Charges And Field 04 : Coulomb's Law || It's Vector Form",
+    "lectureCode": "04b455b9-2fc1-4de9-b77c-1b1d54349d34",
+    "classNotesCode": "efe669d3-f8c2-485f-8998-df98f21c9c75.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Electric Charges And Field 03 : Charging By Conduction || Coloumb's Law",
+    "lectureCode": "a3420114-8f8f-4eeb-8f76-9a61e7b529b3",
+    "classNotesCode": "a7bc83e6-e107-4c00-bdc6-575aa681ce9f.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Electric Charges And Field 02 : Method Of Charging A Body",
+    "lectureCode": "5f582dc3-7089-4b5b-b698-8169196fedb9",
+    "classNotesCode": "99121a06-bddc-46e5-8d00-dc5f234b8164.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Electric Charges And Field 01 : Charges || Properties OF Charges || Questions || NO DPP",
+    "lectureCode": "bce6196c-7b93-463b-9318-3f983fe2228f",
+    "classNotesCode": "94ef82c1-0a00-4a1f-99cb-a0e2b6755c33.pdf",
+    "dppsPdfCode": ""
+  }
 ];
   
 
