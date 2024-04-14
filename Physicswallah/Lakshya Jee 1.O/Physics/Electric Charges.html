@@ -258,31 +258,32 @@ const lectures = [
         }
 
         function generateTable() {
-            const table = document.querySelector('table');
+    const table = document.querySelector('table');
 
-            lectureData.forEach((lecture, index) => {
-                const row = table.insertRow();
-                row.insertCell(0).textContent = index + 1;
-                row.insertCell(1).textContent = lecture.lectureName;
+    lectures.forEach((lecture, index) => {
+        const row = table.insertRow();
+        row.insertCell(0).textContent = index + 1;
+        row.insertCell(1).textContent = lecture.lectureName;
 
-                const cell3 = row.insertCell(2);
-                cell3.innerHTML = `
-                    <button onclick="showQualityOptions(${index})">View Lecture</button>
-                `;
+        const cell3 = row.insertCell(2);
+        cell3.innerHTML = `
+            <button onclick="showQualityOptions(${index})">View Lecture</button>
+        `;
 
-                const cell4 = row.insertCell(3);
-                cell4.innerHTML = `
-                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
-                `;
+        const cell4 = row.insertCell(3);
+        cell4.innerHTML = `
+            <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
+        `;
 
-                const cell5 = row.insertCell(4);
-                if (lecture.dppsPdfCode) {
-                    cell5.innerHTML = `
-                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
-                    `;
-                }
-            });
+        const cell5 = row.insertCell(4);
+        if (lecture.dppsPdfCode) {
+            cell5.innerHTML = `
+                <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
+            `;
         }
+    });
+}
+
 
         generateTable();
     </script>
