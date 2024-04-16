@@ -353,8 +353,12 @@
             document.body.style.backgroundColor = isDarkBackground ? '#333' : '#f2f2f2';
         }
 
-        function showBatches()  {
-            document.getElementById('content').innerHTML = '';
+        function showBatches() {
+    document.getElementById('content').innerHTML = '';
+
+    const batchesContainer = document.createElement('div');
+    batchesContainer.classList.add('batches-container');
+
             const batches = [
             {
                     name: "Prayas Jee 2.O",
