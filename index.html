@@ -145,25 +145,63 @@
     text-align: center;
 }
 
-        .lessons-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
+        /* Styling for lessons header */
+.lessons-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
-        .lessons-table th, .lessons-table td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
+/* Styling for individual lesson containers */
+.lesson-container {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #333; /* Border color */
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent white background */
+    transition: background-color 0.3s ease; /* Add transition effect */
+}
 
-        .view-content-button {
-            background-color: #3498db;
-            color: white;
-            padding: 5px 10px;
-            border: none;
-            cursor: pointer;
-        }
+/* Animation for fading in */
+.lesson-container {
+    animation: fadeIn 0.5s ease;
+}
 
+/* Hover effect for individual lesson containers */
+.lesson-container:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Lighten background on hover */
+}
+
+/* Styling for individual lessons */
+.lesson {
+    font-size: 18px;
+}
+
+/* Styling for view content button */
+.view-content-button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+/* Hover effect for view content button */
+.view-content-button:hover {
+    background-color: #ddd; /* Darken button background on hover */
+}
+
+/* Animation for fading in */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
         .back-button {
             text-align: center;
             margin-top: 20px;
@@ -1350,43 +1388,47 @@
 
 
 
-        function showLessons(batchName, subject, lessons) {
-            document.getElementById('content').innerHTML = '';
+function showLessons(batchName, subject, lessons) {
+    const contentDiv = document.getElementById('content');
+    contentDiv.innerHTML = '';
 
-            const lessonsTable = document.createElement('table');
-            lessonsTable.classList.add('lessons-table');
+    const lessonsContainer = document.createElement('div');
+    lessonsContainer.classList.add('lessons-container');
 
-            const headerRow = lessonsTable.insertRow(0);
-            const srNoHeader = headerRow.insertCell(0);
-            srNoHeader.textContent = "Sr. No.";
-            const lessonNameHeader = headerRow.insertCell(1);
-            lessonNameHeader.textContent = "Lesson Name";
-            const contentHeader = headerRow.insertCell(2);
-            contentHeader.textContent = "Content";
+    const header = document.createElement('div');
+    header.textContent = `Lessons for ${batchName} - ${subject}`;
+    header.classList.add('lessons-header');
 
-            lessons.forEach((lesson, index) => {
-                const row = lessonsTable.insertRow(index + 1);
-                const srNoCell = row.insertCell(0);
-                srNoCell.textContent = index + 1;
-                const lessonNameCell = row.insertCell(1);
-                lessonNameCell.textContent = lesson;
-                const contentCell = row.insertCell(2);
-                const viewContentButton = document.createElement('button');
-                viewContentButton.textContent = "View Content";
-                viewContentButton.classList.add('view-content-button');
-                viewContentButton.addEventListener('click', () => {
-                    showContent(batchName, subject, lesson);
-                });
-                contentCell.appendChild(viewContentButton);
-            });
+    lessonsContainer.appendChild(header);
 
-            document.getElementById('content').appendChild(lessonsTable);
-            currentView = 'lessons';
-            currentBatchName = batchName;
-            currentBatchLessons = 'lessons'; // Reset current subjects for lessons view
-            addBackButton();
-        }
-        
+    lessons.forEach((lesson, index) => {
+        const lessonContainer = document.createElement('div');
+        lessonContainer.classList.add('lesson-container');
+
+        const lessonDiv = document.createElement('div');
+        lessonDiv.classList.add('lesson');
+        lessonDiv.textContent = `${index + 1}. ${lesson}`;
+
+        const viewContentButton = document.createElement('button');
+        viewContentButton.textContent = "View Content";
+        viewContentButton.classList.add('view-content-button');
+        viewContentButton.addEventListener('click', () => {
+            showContent(batchName, subject, lesson);
+        });
+
+        lessonContainer.appendChild(lessonDiv);
+        lessonContainer.appendChild(viewContentButton);
+        lessonsContainer.appendChild(lessonContainer);
+    });
+
+    contentDiv.appendChild(lessonsContainer);
+
+    currentView = 'lessons';
+    currentBatchName = batchName;
+    currentBatchLessons = lessons; // Store lessons data for back navigation
+    addBackButton();
+}
+
 
         // ...
 function showContent(batchName, subject, lesson) {
