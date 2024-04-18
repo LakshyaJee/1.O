@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.90">
+    <title>Lecture Data</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .lesson-heading {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+        }
+
+        .lecture-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .lecture-card {
+            background-color: #222;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 20px;
+            box-sizing: border-box;
+            position: relative;
+            cursor: pointer;
+            max-width: 600px;
+            margin: 0 auto;
+            animation: glow-animation 1s infinite alternate;
+        }
+
+        @keyframes glow-animation {
+            0% {
+                box-shadow: 0 0 20px 5px rgba(0, 0, 255, 0.5);
+            }
+
+            100% {
+                box-shadow: 0 0 30px 10px rgba(0, 0, 255, 0.7);
+            }
+        }
+
+        .lecture-details {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-top: 10px;
+        }
+
+        .lecture-details p {
+            margin: 0;
+            padding: 5px 0;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .button-container button {
+            cursor: pointer;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .button-container button:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="lesson-heading"> <!-- Lesson Heading will be inserted dynamically here --> </div>
+
+    <div class="lecture-container">
+        <!-- Lecture Containers -->
+    </div>
+
+    <script>
+        const lectureData = [
+        {
+    "lectureNumber": 1,
+    "lectureName": "Motion in a Plane 01 : Vectors || Projectile Motion",
+    "lectureCode": "93c6d072-568c-47ce-941b-fc22054afa2e",
+    "classNotesCode": "4ad2127e-a2ee-4307-8dd6-63cbb8225c88.pdf",
+    "dppsPdfCode": "1e8c9a64-60ad-4a97-8e73-632c2c84d7d4.pdf",
+    "dppsSolutionCode": "69849358-995d-4b7d-9967-167015cd4646"
+  }
+];
+
+        // Function to create buttons for each lecture
+        function createButtons(lecture) {
+            const buttonContainer = document.createElement('div');
+            buttonContainer.classList.add('button-container');
+
+            if (lecture.lectureCode) {
+                const viewLectureButton = document.createElement('button');
+                viewLectureButton.textContent = 'View Lecture';
+                viewLectureButton.onclick = () => viewLecture(lecture.lectureCode);
+                buttonContainer.appendChild(viewLectureButton);
+            }
+
+            if (lecture.classNotesCode) {
+                const viewClassNotesButton = document.createElement('button');
+                viewClassNotesButton.textContent = 'View Class Notes';
+                viewClassNotesButton.onclick = () => openPDFInNewWindow(generateClassNotesLink(lecture.classNotesCode));
+                buttonContainer.appendChild(viewClassNotesButton);
+            }
+
+            if (lecture.dppsPdfCode) {
+                const viewDppPdfButton = document.createElement('button');
+                viewDppPdfButton.textContent = 'View DPP PDF';
+                viewDppPdfButton.onclick = () => openPDFInNewWindow(generateDPPLink(lecture.dppsPdfCode));
+                buttonContainer.appendChild(viewDppPdfButton);
+            }
+
+            if (lecture.dppsSolutionCode) {
+                const viewSolutionButton = document.createElement('button');
+                viewSolutionButton.textContent = 'View Solution';
+                viewSolutionButton.onclick = () => viewSolutions(lecture.dppsSolutionCode);
+                buttonContainer.appendChild(viewSolutionButton);
+            }
+
+            return buttonContainer;
+        }
+
+        // Function to generate link for class notes
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        // Function to generate link for DPP
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
+        // Function to open PDF in new window
+        function openPDFInNewWindow(pdfUrl) {
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
+
+        // Function to view lecture
+        function viewLecture(lectureCode) {
+            const qualitySelectUrl = `quality-select.html?lectureCode=${lectureCode}`;
+            window.open(qualitySelectUrl, '_blank');
+        }
+
+        // Function to view solutions
+        function viewSolutions(dppsSolutionCode) {
+            const solutionSelectUrl = `quality-select.html?dppsSolutionCode=${dppsSolutionCode}`;
+            window.open(solutionSelectUrl, '_blank');
+        }
+
+        // Populate lecture containers
+        const lectureContainer = document.querySelector('.lecture-container');
+        lectureData.forEach(lecture => {
+            const lectureCard = document.createElement('div');
+            lectureCard.classList.add('lecture-card');
+            lectureCard.innerHTML = `
+                <h3>${lecture.lectureName}</h3>
+            `;
+            const buttons = createButtons(lecture);
+            lectureCard.appendChild(buttons);
+            lectureContainer.appendChild(lectureCard);
+        });
+
+        
+
+        // Set the lesson heading
+const lessonName = lectureData[0].lectureName.split(':')[0]; // Get the part before colon
+const alphabeticalPart = lessonName.replace(/\d+/g, '').trim(); // Remove numbers and trim any extra whitespace
+document.querySelector('.lesson-heading').innerText = alphabeticalPart;
+
+function fitContentOnMobile() {
+    // Maximum width at which the content should be scaled
+    const maxWidth = 650; // Adjust this value as needed
+
+    // Get the device's width
+    const screenWidth = window.innerWidth;
+
+    // Calculate the scale based on the device's width and the maximum width
+    const scale = screenWidth / maxWidth;
+
+    // Set the viewport scale using the calculated scale value
+    document.querySelector('meta[name="viewport"]').setAttribute('content', `width=device-width, initial-scale=${scale}, maximum-scale=${scale}, user-scalable=no`);
+}
+
+
+    </script>
+</body>
+
+</html>
