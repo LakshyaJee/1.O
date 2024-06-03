@@ -1,0 +1,50 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Ellipse 06 : Most Important Property ...",
+    "lectureCode": "0c54bb91-ae33-4b6a-b6e6-603afcd62239",
+    "classNotesCode": "76a463d7-680a-42f6-831e-a4d3c6755199.pdf",
+    "dppsPdfCode": "76a463d7-680a-42f6-831e-a4d3c6755199.pdf",
+    "dppsSolutionCode": "2d348ada-d51c-4889-8d0b-cd45e5d38997"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Ellipse 05 : Normal || Properties of ...",
+    "lectureCode": "199801f1-1962-4607-89e7-d8b37c6702dd",
+    "classNotesCode": "372abe88-d38a-4f17-8b5a-a955a0ee5a6f.pdf",
+    "dppsPdfCode": "372abe88-d38a-4f17-8b5a-a955a0ee5a6f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Ellipse 04 : Equations of Tangent || ...",
+    "lectureCode": "d2f6a45d-4545-4b5a-9fd7-8d7363f40986",
+    "classNotesCode": "e331cbf1-8f57-4d75-aaca-da0103740213.pdf",
+    "dppsPdfCode": "e331cbf1-8f57-4d75-aaca-da0103740213.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Ellipse 03 : Auxiliary circle || Obli...",
+    "lectureCode": "45d0ce9f-abd6-4a34-9b96-78d042033890",
+    "classNotesCode": "9a6a1e17-555b-4b5d-b403-57346f6dd660.pdf",
+    "dppsPdfCode": "9a6a1e17-555b-4b5d-b403-57346f6dd660.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Ellipse 02 : Basic Terminology (conti...",
+    "lectureCode": "3f7f5be6-d33b-4c24-a579-7d2bfbf07b02",
+    "classNotesCode": "18641cfb-5837-40f8-ba3d-484ecf3c120e.pdf",
+    "dppsPdfCode": "18641cfb-5837-40f8-ba3d-484ecf3c120e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Ellipse 01 : Basic terminology || Int...",
+    "lectureCode": "391ac871-dd6c-4ba8-abb2-85da8af08f81",
+    "classNotesCode": "19b29e5e-66a4-47f0-9baa-2841b18d80b8.pdf",
+    "dppsPdfCode": "19b29e5e-66a4-47f0-9baa-2841b18d80b8.pdf",
+    "dppsSolutionCode": ""
+  }
+]

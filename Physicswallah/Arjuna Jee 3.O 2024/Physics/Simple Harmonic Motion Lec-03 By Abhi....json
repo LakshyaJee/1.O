@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Simple Harmonic Motion Lec-03 By Abhi...",
+    "lectureCode": "0f040e5a-fce3-4307-99ab-9d6c326e9a90",
+    "classNotesCode": "0e14f6f8-752b-424d-8db3-9c4628a8ed1b.pdf",
+    "dppsPdfCode": "0e14f6f8-752b-424d-8db3-9c4628a8ed1b.pdf",
+    "dppsSolutionCode": "130f2c0c-11be-4351-a5cf-afcd82870589"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Simple Harmonic Motion 02 : Condition...",
+    "lectureCode": "117c862e-e728-4d24-8e3c-73131325f1fa",
+    "classNotesCode": "2f620ac0-58a0-48d6-b495-fd280a71c00e.pdf",
+    "dppsPdfCode": "2f620ac0-58a0-48d6-b495-fd280a71c00e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Simple Harmonic Motion 01 :  Equation...",
+    "lectureCode": "80599e88-a796-422c-a039-6e3f21b5e052",
+    "classNotesCode": "d78dd62a-5972-451f-b4f1-e2e5cc546248.pdf",
+    "dppsPdfCode": "d78dd62a-5972-451f-b4f1-e2e5cc546248.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Simple Harmonic Motion 04 : SHM in va...",
+    "lectureCode": "65dd7c55-a978-404c-aaf8-9dd999654bc0",
+    "classNotesCode": "ae7f31e8-5cfe-4e3e-9578-349ffb3436c2.pdf",
+    "dppsPdfCode": "ae7f31e8-5cfe-4e3e-9578-349ffb3436c2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Simple Harmonic Motion 05 : Angular SHM",
+    "lectureCode": "5fd02e43-5adf-494e-8f88-7ec879f92373",
+    "classNotesCode": "9ac10e58-e2bd-4bde-9295-2cd8ec13a262.pdf",
+    "dppsPdfCode": "9ac10e58-e2bd-4bde-9295-2cd8ec13a262.pdf",
+    "dppsSolutionCode": ""
+  }
+]

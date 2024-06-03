@@ -1,0 +1,50 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Chemical Equilibrium 06 : Application...",
+    "lectureCode": "ce48f8c1-928d-4ed6-b2a9-9231ccc150b8",
+    "classNotesCode": "579e982f-1495-4205-bd34-2379cd45adb3.pdf",
+    "dppsPdfCode": "579e982f-1495-4205-bd34-2379cd45adb3.pdf",
+    "dppsSolutionCode": "84be3246-35ff-4533-b283-93f523d800cf"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Lec-05 Application of Equilibrium (pa...",
+    "lectureCode": "1079b1bb-ff6f-4186-a644-807fd879d110",
+    "classNotesCode": "7bf4da11-3b3d-47eb-bbdb-4a4e85f37a28.pdf",
+    "dppsPdfCode": "7bf4da11-3b3d-47eb-bbdb-4a4e85f37a28.pdf",
+    "dppsSolutionCode": "8b252f92-3fc0-4bce-a6ca-a4f899fc0fc0"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Chemical Equilibrium 04 : Application...",
+    "lectureCode": "d36e4886-0257-4e5f-aced-fe4efe9f8616",
+    "classNotesCode": "7c622327-3b65-4fe7-abdc-793a3cccb337.pdf",
+    "dppsPdfCode": "7c622327-3b65-4fe7-abdc-793a3cccb337.pdf",
+    "dppsSolutionCode": "cf41268f-5235-4794-b3a7-dbbac0682a7f"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Chemical Equilibrium 03 : Properties ...",
+    "lectureCode": "d38cfd9a-77e2-4adf-9b9f-37ea70d8934a",
+    "classNotesCode": "3a863dde-d2ef-4863-b21f-7d50ae9b5057.pdf",
+    "dppsPdfCode": "3a863dde-d2ef-4863-b21f-7d50ae9b5057.pdf",
+    "dppsSolutionCode": "e33d3327-984c-4e06-a990-fdba708c6eec"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Chemical Equilibrium 02 : Law of Mass...",
+    "lectureCode": "d1ec913c-e6a9-4524-b334-92b6cf69f2a5",
+    "classNotesCode": "8a3edf8a-f11c-43d5-9d9a-179bcb01a364.pdf",
+    "dppsPdfCode": "8a3edf8a-f11c-43d5-9d9a-179bcb01a364.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Chemical Equilibrium 01 : Introductio...",
+    "lectureCode": "56938936-5fb0-4710-b662-85b7c5c3ea5f",
+    "classNotesCode": "1b4bfe9d-422a-4971-9d1f-f8bb463502a1.pdf",
+    "dppsPdfCode": "1b4bfe9d-422a-4971-9d1f-f8bb463502a1.pdf",
+    "dppsSolutionCode": ""
+  }
+]

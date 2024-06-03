@@ -1,0 +1,50 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Ionic Equilibrium 06 : Solubility Pro...",
+    "lectureCode": "7164f10e-0cee-4ac3-91fa-e85702c69b4a",
+    "classNotesCode": "6bc93bf9-584e-48ee-b54f-a0d9140e9588.pdf",
+    "dppsPdfCode": "6bc93bf9-584e-48ee-b54f-a0d9140e9588.pdf",
+    "dppsSolutionCode": "da1b9a31-f04a-47bb-b6a3-13fc0bed9479"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Ionic Equilibrium 05 : Buffer Solutio...",
+    "lectureCode": "4bc16a0a-014c-404e-8fc5-a3f5c97f46d7",
+    "classNotesCode": "9d949ce9-b05b-4a47-92e5-03106294d9cc.pdf",
+    "dppsPdfCode": "9d949ce9-b05b-4a47-92e5-03106294d9cc.pdf",
+    "dppsSolutionCode": "8519e18d-d722-46a8-b4a8-b63243b633a4"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Ionic Equilibrium 04 : pH calculations-2",
+    "lectureCode": "082b8173-8f63-4612-ac73-17039d290180",
+    "classNotesCode": "f181786f-3e34-4473-927a-8f17286c1fca.pdf",
+    "dppsPdfCode": "f181786f-3e34-4473-927a-8f17286c1fca.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Ionic Equilibrium 03 : pH calculation...",
+    "lectureCode": "b3020ece-8016-4d9a-9bfc-0b1955e4adfa",
+    "classNotesCode": "96b76e69-4033-4b6d-9236-24fb9abbd8dd.pdf",
+    "dppsPdfCode": "96b76e69-4033-4b6d-9236-24fb9abbd8dd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Ionic Equilibrium 02 : Introduction t...",
+    "lectureCode": "9046d776-012c-4dfa-b94b-74aa86608783",
+    "classNotesCode": "7c28ac1b-b023-41cd-a918-592d97ace773.pdf",
+    "dppsPdfCode": "7c28ac1b-b023-41cd-a918-592d97ace773.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Ionic Equilibrium 01 : Introduction t...",
+    "lectureCode": "ad25ead4-7d02-4de8-8bd4-f18230cc48d3",
+    "classNotesCode": "87e5f90c-26d3-4a58-bbbf-791ccf5a4a0e.pdf",
+    "dppsPdfCode": "87e5f90c-26d3-4a58-bbbf-791ccf5a4a0e.pdf",
+    "dppsSolutionCode": ""
+  }
+]

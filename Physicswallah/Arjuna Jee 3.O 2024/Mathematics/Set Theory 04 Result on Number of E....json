@@ -1,0 +1,34 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Set Theory 04 : Result on Number of E...",
+    "lectureCode": "ab1e8846-7449-45ff-8538-2ee8597774c9",
+    "classNotesCode": "bffe91a2-0a41-4705-891b-afe9443c1373.pdf",
+    "dppsPdfCode": "bffe91a2-0a41-4705-891b-afe9443c1373.pdf",
+    "dppsSolutionCode": "b3a01d19-ab95-42cd-a90e-0560dc3f8457"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Set Theory 03 : Venn diagram (Continu...",
+    "lectureCode": "8816ad5d-a9a3-4dbf-8b17-a4a9db9d2cd0",
+    "classNotesCode": "697e6ab7-6b71-444f-a297-4bfe65880b8e.pdf",
+    "dppsPdfCode": "697e6ab7-6b71-444f-a297-4bfe65880b8e.pdf",
+    "dppsSolutionCode": "28c89606-1503-4515-8d5d-a3927e1fb78e"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Set Theory 02 : Venn Euler diagram ||...",
+    "lectureCode": "33ca28f5-fc8c-477a-b420-6b56164ca4ba",
+    "classNotesCode": "893541f8-54a6-422d-a3ec-01e06a748e72.pdf",
+    "dppsPdfCode": "893541f8-54a6-422d-a3ec-01e06a748e72.pdf",
+    "dppsSolutionCode": "0df663fe-8aed-42e3-af42-7b5e374e8f8c"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Set Theory 01 : Sets || Elements of a...",
+    "lectureCode": "d9e9cc28-3fbf-431f-8d9d-6771dd79a9a9",
+    "classNotesCode": "4e40536c-ab28-4665-be83-f98e7e3be1f0.pdf",
+    "dppsPdfCode": "4e40536c-ab28-4665-be83-f98e7e3be1f0.pdf",
+    "dppsSolutionCode": "a80ac34a-7a84-4f2f-9263-cd24349c7a61"
+  }
+]

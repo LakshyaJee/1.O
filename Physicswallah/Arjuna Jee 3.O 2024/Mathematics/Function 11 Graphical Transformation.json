@@ -1,0 +1,90 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Function 11 : Graphical Transformation",
+    "lectureCode": "6714f7e3-623d-49a8-bd7e-c9b473066f95",
+    "classNotesCode": "9a886526-a141-4399-8733-735ed26f339f.pdf",
+    "dppsPdfCode": "9a886526-a141-4399-8733-735ed26f339f.pdf",
+    "dppsSolutionCode": "26925002-c7a2-4602-8bc5-50bfd71dc3ba"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Function 10 : Miscellaneous problem o...",
+    "lectureCode": "1f1d0257-19eb-4327-abb2-51fc03d1fb3c",
+    "classNotesCode": "f2f7e051-a37c-4401-b86b-acb2b816d4d2.pdf",
+    "dppsPdfCode": "f2f7e051-a37c-4401-b86b-acb2b816d4d2.pdf",
+    "dppsSolutionCode": "1cc65dd4-dac7-469c-9055-c902e9585a8e"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Function 09 : Composite function and ...",
+    "lectureCode": "df3b5d0f-360b-4a94-8a40-3b9031d53ad9",
+    "classNotesCode": "caae920d-a50f-46e2-98d3-7c4165c33411.pdf",
+    "dppsPdfCode": "caae920d-a50f-46e2-98d3-7c4165c33411.pdf",
+    "dppsSolutionCode": "ddf2ef2d-aa91-4d53-9abd-ed0c84989bbd"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Function 08 : Trigonometric functions...",
+    "lectureCode": "0e7dc85b-9481-4ab2-b9fb-23a46a761b4d",
+    "classNotesCode": "7a8c88f4-41a6-4b9c-a549-6dc24591aa6a.pdf",
+    "dppsPdfCode": "7a8c88f4-41a6-4b9c-a549-6dc24591aa6a.pdf",
+    "dppsSolutionCode": "e1f6a5d0-95d2-4604-9d24-f047bf25157c"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Function 07 : Modulus function",
+    "lectureCode": "88bbdb77-19e1-4f1a-ab2c-79bbcdd9ebdb",
+    "classNotesCode": "485d1402-b717-48df-ad0a-31ee99e7ae63.pdf",
+    "dppsPdfCode": "485d1402-b717-48df-ad0a-31ee99e7ae63.pdf",
+    "dppsSolutionCode": "ed1911ed-d71f-4591-bdd3-142992cf7fd7"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Function 06 : Signum Function || Frac...",
+    "lectureCode": "fb071cdb-544d-49d6-9368-f3c250470869",
+    "classNotesCode": "35c25490-603d-4992-a394-a3e4f640b2b8.pdf",
+    "dppsPdfCode": "35c25490-603d-4992-a394-a3e4f640b2b8.pdf",
+    "dppsSolutionCode": "42e3b542-0041-4a08-9e16-7cb349317657"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Function 05 : Greatest Integer Function",
+    "lectureCode": "a011c358-c6bc-4a28-a848-198db564cea9",
+    "classNotesCode": "607c866c-2d70-479d-944a-3d2f32ee4e79.pdf",
+    "dppsPdfCode": "607c866c-2d70-479d-944a-3d2f32ee4e79.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Function 04 : Homework discussion || ...",
+    "lectureCode": "8a42d231-19c7-41d4-a9b2-d24983886e62",
+    "classNotesCode": "3f097c2d-1d21-40c7-8ed4-69334583bfdf.pdf",
+    "dppsPdfCode": "3f097c2d-1d21-40c7-8ed4-69334583bfdf.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Function 03 : Function Introduction |...",
+    "lectureCode": "5a1ce789-44de-4fbf-a637-ebc9b2288fcb",
+    "classNotesCode": "72c1f7bd-e216-435d-b908-e0964433a907.pdf",
+    "dppsPdfCode": "72c1f7bd-e216-435d-b908-e0964433a907.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Function 02 : Relation :- Domain and ...",
+    "lectureCode": "05aebae4-becc-47eb-bbe1-b1bfee459e50",
+    "classNotesCode": "97df5162-a827-4323-b1fd-54b7ce1d166b.pdf",
+    "dppsPdfCode": "97df5162-a827-4323-b1fd-54b7ce1d166b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Function 01 : Relation || Cartesian p...",
+    "lectureCode": "60af60a8-da1b-47b2-bea5-714d8096c5bd",
+    "classNotesCode": "4fd68792-7a43-418e-9c8d-8a08623a2a23.pdf",
+    "dppsPdfCode": "4fd68792-7a43-418e-9c8d-8a08623a2a23.pdf",
+    "dppsSolutionCode": ""
+  }
+]

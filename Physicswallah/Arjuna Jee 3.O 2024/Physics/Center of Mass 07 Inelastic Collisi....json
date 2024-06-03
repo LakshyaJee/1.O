@@ -1,0 +1,58 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Center of Mass 07 : Inelastic Collisi...",
+    "lectureCode": "f2479f33-2597-4352-b212-ed2679a73499",
+    "classNotesCode": "7a123299-fa81-4b98-a626-509633242d2f.pdf",
+    "dppsPdfCode": "7a123299-fa81-4b98-a626-509633242d2f.pdf",
+    "dppsSolutionCode": "23a0b802-ec0a-4ffe-af7c-77991b387b69"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Center of Mass 06 : Impulse || Collis...",
+    "lectureCode": "ec98d99e-a3ea-407e-ad07-60165ba8e70a",
+    "classNotesCode": "2c307c12-3644-4e93-916b-29ec1847484e.pdf",
+    "dppsPdfCode": "2c307c12-3644-4e93-916b-29ec1847484e.pdf",
+    "dppsSolutionCode": "7b68911f-88d9-434f-b788-a5898380f764"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Center of Mass 05 : Conservation of L...",
+    "lectureCode": "04eda54c-6001-4f5d-85a7-456e8c72ac00",
+    "classNotesCode": "6f4c63cf-192d-48d5-804a-cdb57e4a1d1f.pdf",
+    "dppsPdfCode": "6f4c63cf-192d-48d5-804a-cdb57e4a1d1f.pdf",
+    "dppsSolutionCode": "f85e2bd4-1c89-48ef-81c8-31efde5b5585"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Center of Mass 04: Velocity of COM, A...",
+    "lectureCode": "b86e56cd-01d4-4d98-8e9d-87df26fc3bba",
+    "classNotesCode": "c62e3657-3a6a-4261-98a1-544cc28317c9.pdf",
+    "dppsPdfCode": "c62e3657-3a6a-4261-98a1-544cc28317c9.pdf",
+    "dppsSolutionCode": "4ff627b1-c89b-43c9-a0c5-44d90bbf0166"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Center of Mass 03 : COM of Asymmetric...",
+    "lectureCode": "1be60ff2-5fc7-4fe4-b59a-2942c5a0aad8",
+    "classNotesCode": "fd420771-0499-456d-8429-3a22f7cd8292.pdf",
+    "dppsPdfCode": "fd420771-0499-456d-8429-3a22f7cd8292.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Center of Mass 02 : Center of Mass of...",
+    "lectureCode": "c25ac8ff-f04b-4e2d-9b60-ad6db5ebe86c",
+    "classNotesCode": "6c4f4dd5-32b9-4670-b75d-d82ecc51fdf8.pdf",
+    "dppsPdfCode": "6c4f4dd5-32b9-4670-b75d-d82ecc51fdf8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Center of Mass 01 :Center of Mass of ...",
+    "lectureCode": "ee6bae1b-df00-4782-b0d4-a0b82a537729",
+    "classNotesCode": "ae0a4ccd-2308-47cb-ba67-c152f2212fdc.pdf",
+    "dppsPdfCode": "ae0a4ccd-2308-47cb-ba67-c152f2212fdc.pdf",
+    "dppsSolutionCode": ""
+  }
+]

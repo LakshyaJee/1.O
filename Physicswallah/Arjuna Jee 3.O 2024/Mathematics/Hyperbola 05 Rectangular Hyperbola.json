@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Hyperbola 05 : Rectangular Hyperbola",
+    "lectureCode": "cfdb6d67-af0d-42e2-b9c5-a65aaaabf54b",
+    "classNotesCode": "7b521ae2-d837-4403-ba3a-6ecdc3271e0e.pdf",
+    "dppsPdfCode": "7b521ae2-d837-4403-ba3a-6ecdc3271e0e.pdf",
+    "dppsSolutionCode": "29126846-73eb-47b6-a0d9-99e27019efcb"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Hyperbola 04 :  Asymptotes || Propert...",
+    "lectureCode": "2d35963a-d7f3-48c5-830d-4fbb47b1a48d",
+    "classNotesCode": "770ece6e-156b-4f57-a4d8-fe563c6f294a.pdf",
+    "dppsPdfCode": "770ece6e-156b-4f57-a4d8-fe563c6f294a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Hyperbola 03 : Normals || Chord Bisec...",
+    "lectureCode": "5506a578-d566-4379-ba80-8849467c731e",
+    "classNotesCode": "9913f08c-20b6-4d98-a30c-e199a636a37d.pdf",
+    "dppsPdfCode": "9913f08c-20b6-4d98-a30c-e199a636a37d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Hyperbola 02 : Tangent || Pair of tan...",
+    "lectureCode": "8e90cbe8-0879-4594-a207-3dc0556eed07",
+    "classNotesCode": "4a9ea20f-9c71-4635-a826-1c55ba64e208.pdf",
+    "dppsPdfCode": "4a9ea20f-9c71-4635-a826-1c55ba64e208.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Hyperbola 01 : Basic Terminology || N...",
+    "lectureCode": "e162aadb-73ce-4673-b059-5f0ee176a572",
+    "classNotesCode": "cb55c3e3-5f70-48d8-a440-ed84dd27e0c4.pdf",
+    "dppsPdfCode": "cb55c3e3-5f70-48d8-a440-ed84dd27e0c4.pdf",
+    "dppsSolutionCode": ""
+  }
+]

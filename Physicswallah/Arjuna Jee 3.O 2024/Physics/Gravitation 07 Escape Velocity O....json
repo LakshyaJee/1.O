@@ -1,0 +1,58 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Gravitation 07 : Escape Velocity || O...",
+    "lectureCode": "91b843eb-1856-4a29-8831-fc2f4792a99d",
+    "classNotesCode": "809a76db-b9a0-42cb-a439-75e51da03872.pdf",
+    "dppsPdfCode": "809a76db-b9a0-42cb-a439-75e51da03872.pdf",
+    "dppsSolutionCode": "5f60b380-c585-4a8b-a96d-51962dc7a5d5"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Gravitation 06 : Gravitational Potent...",
+    "lectureCode": "0f133b44-4146-46d0-a9e1-d42db5042b2f",
+    "classNotesCode": "6994df7a-fa1d-49a8-a5f3-9001b3c3d41b.pdf",
+    "dppsPdfCode": "6994df7a-fa1d-49a8-a5f3-9001b3c3d41b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Gravitation 05 : Gravitational Potent...",
+    "lectureCode": "033393a0-4566-48aa-935c-8de3eac74238",
+    "classNotesCode": "43dc3741-f640-445a-be7e-7aa2df90c95b.pdf",
+    "dppsPdfCode": "43dc3741-f640-445a-be7e-7aa2df90c95b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Gravitation 04 : Variation in 'g'",
+    "lectureCode": "a1712c9f-8e15-402a-b814-d5046397e259",
+    "classNotesCode": "879a84a6-0dee-4cb5-8db9-2b1a997ee9f1.pdf",
+    "dppsPdfCode": "879a84a6-0dee-4cb5-8db9-2b1a997ee9f1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Gravitation 03 : Acceleration due to ...",
+    "lectureCode": "dad3a435-a3aa-4823-ac26-f3325627a09a",
+    "classNotesCode": "bb5bf3b2-e09a-4575-8a3e-0af46a1325fd.pdf",
+    "dppsPdfCode": "bb5bf3b2-e09a-4575-8a3e-0af46a1325fd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Gravitation 02 : Gravitational Force ...",
+    "lectureCode": "435bcd66-d7fb-484d-9ba6-74abebf8f9c2",
+    "classNotesCode": "2a6cad6f-c51f-4c0f-b817-437448fe8803.pdf",
+    "dppsPdfCode": "2a6cad6f-c51f-4c0f-b817-437448fe8803.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Gravitation 01 : Law of Gravitation |...",
+    "lectureCode": "d1175f06-1d83-42da-afb3-91f82a776fd5",
+    "classNotesCode": "8c4dc4d9-01f8-47b8-957f-308e7824943b.pdf",
+    "dppsPdfCode": "8c4dc4d9-01f8-47b8-957f-308e7824943b.pdf",
+    "dppsSolutionCode": ""
+  }
+]

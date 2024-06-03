@@ -1,0 +1,106 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Atomic Structure 13 : Rules for Writi...",
+    "lectureCode": "53263c57-d3dd-4727-9ea7-7a451e461c7b",
+    "classNotesCode": "07710ad6-1a88-4ad5-84a9-c8e3d6e14c9b.pdf",
+    "dppsPdfCode": "07710ad6-1a88-4ad5-84a9-c8e3d6e14c9b.pdf",
+    "dppsSolutionCode": "90fd690e-b80d-4c97-8beb-12d8d96a09f4"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Atomic Structure 12 : Quantum Number ...",
+    "lectureCode": "730541db-af90-4a78-856e-ae064c379261",
+    "classNotesCode": "7b931cd9-bd5d-448c-a05f-61e66213372a.pdf",
+    "dppsPdfCode": "7b931cd9-bd5d-448c-a05f-61e66213372a.pdf",
+    "dppsSolutionCode": "8d48e5e2-bf97-4c4b-b6b9-4d4a214be32e"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Atomic Structure 11 : Atomic Structur...",
+    "lectureCode": "f491f65a-4ffb-498b-9740-2f097b480825",
+    "classNotesCode": "216d960b-ec5f-496d-b27b-d399dd422f35.pdf",
+    "dppsPdfCode": "216d960b-ec5f-496d-b27b-d399dd422f35.pdf",
+    "dppsSolutionCode": "d803bea2-4790-488b-bed7-1eeb42503e47"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Atomic Structure 10 : Spectra (part 02)",
+    "lectureCode": "e5d13e23-f5d1-4a4c-8829-abecd0be6ba1",
+    "classNotesCode": "9f7f9f24-951e-418b-8246-800dcc2ea50d.pdf",
+    "dppsPdfCode": "9f7f9f24-951e-418b-8246-800dcc2ea50d.pdf",
+    "dppsSolutionCode": "b20c61b4-cf37-4547-9faf-bfd3874b3269"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Atomic Structure 09 : Spectra || No DPP",
+    "lectureCode": "3537ee48-9f8c-4974-9142-78db9d140de0",
+    "classNotesCode": "fb26f326-255b-4626-abef-7cd501955f19.pdf",
+    "dppsPdfCode": "fb26f326-255b-4626-abef-7cd501955f19.pdf",
+    "dppsSolutionCode": "e7ad3457-ccc9-44c9-a31e-bdd555258c6a"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Atomic Structure 08 : Bohr Model :- C...",
+    "lectureCode": "d73bd39f-0343-46c8-877d-62bd540e49a0",
+    "classNotesCode": "db4df733-3a30-47cf-bdbf-6f66789ff5df.pdf",
+    "dppsPdfCode": "db4df733-3a30-47cf-bdbf-6f66789ff5df.pdf",
+    "dppsSolutionCode": "6f055ba5-8744-4ae1-ac61-be3c630702c0"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Atomic Structure 07 : Bohr Model",
+    "lectureCode": "858f6cf6-7783-4bb1-9457-4e329c27afe4",
+    "classNotesCode": "01edb195-4b04-4236-82a9-13197be38ba7.pdf",
+    "dppsPdfCode": "01edb195-4b04-4236-82a9-13197be38ba7.pdf",
+    "dppsSolutionCode": "2849f0bc-85c7-4a05-abd1-f9c06bcb97b1"
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Atomic Structure 06 : Plank?s Quantum...",
+    "lectureCode": "ea86e215-0484-4bf8-a5c5-6def0aa3826b",
+    "classNotesCode": "9ee351a6-da81-4c2d-8cc1-07a4b4c7c5ca.pdf",
+    "dppsPdfCode": "9ee351a6-da81-4c2d-8cc1-07a4b4c7c5ca.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Atomic Structure 05 : Plank?s Quantum...",
+    "lectureCode": "d8ec0b19-f763-4ad2-b651-c2f103288c0f",
+    "classNotesCode": "be9a44be-a4f9-4375-a456-598c276c1bd9.pdf",
+    "dppsPdfCode": "be9a44be-a4f9-4375-a456-598c276c1bd9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Atomic Structure 04 : Some Important ...",
+    "lectureCode": "95ae60ec-98ca-4e18-ba58-1b7473dfbf0b",
+    "classNotesCode": "9e677e94-90df-425d-b328-426b162d5b22.pdf",
+    "dppsPdfCode": "9e677e94-90df-425d-b328-426b162d5b22.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Atomic Structure 03 : Rutherford mode...",
+    "lectureCode": "d8495570-07e2-48fe-a06e-a2bc92167556",
+    "classNotesCode": "bd507ab0-a31c-4764-9d66-a8b2ad307912.pdf",
+    "dppsPdfCode": "bd507ab0-a31c-4764-9d66-a8b2ad307912.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Atomic Structure 02 : Atomic Models",
+    "lectureCode": "9b94aab3-1555-4c71-9caa-7a11c9294774",
+    "classNotesCode": "dbcf1f3e-f738-445d-85dc-2559d14b5cc2.pdf",
+    "dppsPdfCode": "dbcf1f3e-f738-445d-85dc-2559d14b5cc2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Atomic Structure 01 : Discovery of Su...",
+    "lectureCode": "83bcb478-2ef6-4077-89e2-725df2fac6ce",
+    "classNotesCode": "fff5d0f6-f8b2-48a6-9497-78780d305dd8.pdf",
+    "dppsPdfCode": "fff5d0f6-f8b2-48a6-9497-78780d305dd8.pdf",
+    "dppsSolutionCode": ""
+  }
+]

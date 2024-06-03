@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Complex Numbers - II 01 : nth root of...",
+    "lectureCode": "cc57f757-4e29-49cf-8e62-7e68ba32487e",
+    "classNotesCode": "51de06c0-2056-4c4b-8e75-78d5b715e011.pdf",
+    "dppsPdfCode": "51de06c0-2056-4c4b-8e75-78d5b715e011.pdf",
+    "dppsSolutionCode": "eaf00c49-3f84-441c-a741-f54edd672f86"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Complex Numbers - II 05 : PYQ Discussion",
+    "lectureCode": "0b0c4184-dec0-4bbc-b0df-2bd036b54ad6",
+    "classNotesCode": "15e88c6b-3b9d-4f4b-bc95-b278049f02ef.pdf",
+    "dppsPdfCode": "15e88c6b-3b9d-4f4b-bc95-b278049f02ef.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Complex Numbers - II 04 : Concept of ...",
+    "lectureCode": "ef488eeb-6c0a-4156-9241-a4d9814d9983",
+    "classNotesCode": "7e380f16-c80d-4bdb-b863-93cffdfb20bf.pdf",
+    "dppsPdfCode": "7e380f16-c80d-4bdb-b863-93cffdfb20bf.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Complex Numbers - II 03 :  Geometry o...",
+    "lectureCode": "cd893230-c1b9-47b6-8241-b17ef7c10dc1",
+    "classNotesCode": "35bd5474-085b-4ae2-81bc-6a341d19efab.pdf",
+    "dppsPdfCode": "35bd5474-085b-4ae2-81bc-6a341d19efab.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Complex Numbers - II 02 : Geometry of...",
+    "lectureCode": "84071c45-c4a1-4f42-9fc8-d5c071e276f4",
+    "classNotesCode": "1dff662b-909c-4d26-97e9-8b11e5fcc010.pdf",
+    "dppsPdfCode": "1dff662b-909c-4d26-97e9-8b11e5fcc010.pdf",
+    "dppsSolutionCode": ""
+  }
+]

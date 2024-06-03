@@ -1,0 +1,58 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Binomial theorem 07 : Binomial theore...",
+    "lectureCode": "8482cf72-64d5-415f-a1a3-9ceee767a52f",
+    "classNotesCode": "0d299321-22d3-42a5-9529-89099d75f00d.pdf",
+    "dppsPdfCode": "0d299321-22d3-42a5-9529-89099d75f00d.pdf",
+    "dppsSolutionCode": "d0eefb9e-7993-419b-a213-a3b4440f818c"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Binomial theorem 06 : Previous year q...",
+    "lectureCode": "3ea81bef-e393-4b13-afc3-6cd2448e47af",
+    "classNotesCode": "9a54239e-c3ac-45a7-9d05-4127301af41a.pdf",
+    "dppsPdfCode": "9a54239e-c3ac-45a7-9d05-4127301af41a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Binomial theorem 05 : Double Series M...",
+    "lectureCode": "dd8b306f-69e1-49da-9887-749c159823ec",
+    "classNotesCode": "9e8d575a-9313-44e3-9003-6f87f05a222c.pdf",
+    "dppsPdfCode": "9e8d575a-9313-44e3-9003-6f87f05a222c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Binomial theorem 04 : Remainder and D...",
+    "lectureCode": "ddaa4891-48b7-4381-a3ad-0454593651f1",
+    "classNotesCode": "6f1a0bee-d205-43f4-b6ad-a4e53f6bc430.pdf",
+    "dppsPdfCode": "6f1a0bee-d205-43f4-b6ad-a4e53f6bc430.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Binomial theorem 03 : Greatest term |...",
+    "lectureCode": "d1858ed9-07c5-4d35-8f73-0f677516a474",
+    "classNotesCode": "e8a02946-1b03-43cd-8757-96c2de706a59.pdf",
+    "dppsPdfCode": "e8a02946-1b03-43cd-8757-96c2de706a59.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Binomial theorem 02 : Middle term || ...",
+    "lectureCode": "c8f9358e-5ecc-40c1-af1b-02791de32862",
+    "classNotesCode": "a222bcdf-9f04-42dc-b7a0-d76ef2d4f912.pdf",
+    "dppsPdfCode": "a222bcdf-9f04-42dc-b7a0-d76ef2d4f912.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Binomial theorem 01 : Introduction ||...",
+    "lectureCode": "acbe1982-3dd6-4dc7-8e54-f01b147df5f5",
+    "classNotesCode": "75bb76e4-b43e-451d-814a-bd52710d78d6.pdf",
+    "dppsPdfCode": "75bb76e4-b43e-451d-814a-bd52710d78d6.pdf",
+    "dppsSolutionCode": ""
+  }
+]

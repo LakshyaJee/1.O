@@ -1,0 +1,122 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Thermodynamics One  Shot nikhil sir",
+    "lectureCode": "d922a6af-a3a9-40d3-a2c9-4cc7d05c12a5",
+    "classNotesCode": "0dd7adbc-7c68-4ad5-ae9a-3c1e2e433754.pdf",
+    "dppsPdfCode": "0dd7adbc-7c68-4ad5-ae9a-3c1e2e433754.pdf",
+    "dppsSolutionCode": "77791740-3e24-4b94-9b83-0a6cbad5001b"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Thermodynamics 14 : Gibbs free Energy",
+    "lectureCode": "c0da7cf5-6ac6-4189-9918-c11475a65edf",
+    "classNotesCode": "985d2e94-5791-48d6-ab1b-46eac44b0651.pdf",
+    "dppsPdfCode": "985d2e94-5791-48d6-ab1b-46eac44b0651.pdf",
+    "dppsSolutionCode": "dc6fa144-5ce5-4db1-a517-681b48b9b672"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Thermodynamics 13 : Second Law of The...",
+    "lectureCode": "03151e31-6755-45c2-a9c4-72cd4b42f28a",
+    "classNotesCode": "dddb873a-06d7-490b-a992-385f250bb20f.pdf",
+    "dppsPdfCode": "dddb873a-06d7-490b-a992-385f250bb20f.pdf",
+    "dppsSolutionCode": "56bdb706-22a6-4ee5-bb69-79bf76f3b918"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Thermodynamics 12 : Entropy || Classn...",
+    "lectureCode": "c6b91074-eb5e-4460-941a-a3ee79da94dd",
+    "classNotesCode": "707cac4f-0ddc-4ff3-b80f-c76a70876f31.pdf",
+    "dppsPdfCode": "707cac4f-0ddc-4ff3-b80f-c76a70876f31.pdf",
+    "dppsSolutionCode": "47758079-287a-488a-8162-bddffb11b720"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Thermodynamics 11 : Laws of Thermoche...",
+    "lectureCode": "04a1c1ab-ddc6-41fc-9d5c-ceb41113774e",
+    "classNotesCode": "7fbd35f2-eede-402b-ac36-a3cc31a40c7d.pdf",
+    "dppsPdfCode": "7fbd35f2-eede-402b-ac36-a3cc31a40c7d.pdf",
+    "dppsSolutionCode": "a87acf26-51ca-4ddc-9120-0e88c53f5946"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Thermodynamics 10 : Standard Enthalpy...",
+    "lectureCode": "6306505f-cf9b-4840-a001-44c9875b00bc",
+    "classNotesCode": "d14ddc80-d615-4eae-a7b4-6b4f8a71cef5.pdf",
+    "dppsPdfCode": "d14ddc80-d615-4eae-a7b4-6b4f8a71cef5.pdf",
+    "dppsSolutionCode": "c83116cd-ce99-473f-bf06-183f1df7dc82"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Thermodynamics 09 : Enthalpy of Forma...",
+    "lectureCode": "ec0b6b21-6e43-48b2-8519-1e53fd59c7fa",
+    "classNotesCode": "622f1d13-3494-46b5-8399-320fcc9e6f9c.pdf",
+    "dppsPdfCode": "622f1d13-3494-46b5-8399-320fcc9e6f9c.pdf",
+    "dppsSolutionCode": "6e4c01f4-2821-4254-80d6-3c4e953bfde8"
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Thermodynamics 08 : Heat capacity || ...",
+    "lectureCode": "43d39dbc-6785-4841-a750-be4e7c856c75",
+    "classNotesCode": "da11d267-f8c8-45ce-a9e7-417dc1496287.pdf",
+    "dppsPdfCode": "da11d267-f8c8-45ce-a9e7-417dc1496287.pdf",
+    "dppsSolutionCode": "9cddd72f-fce7-4726-8201-b7a045596a2e"
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Thermodynamics 07 : Free Expansion ||...",
+    "lectureCode": "d471f509-f158-402e-8103-369c43b9021f",
+    "classNotesCode": "8f7454c9-8da3-4eed-80d6-3a7a777284e8.pdf",
+    "dppsPdfCode": "8f7454c9-8da3-4eed-80d6-3a7a777284e8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Thermodynamics 06 : Irreversible Pathway",
+    "lectureCode": "fc59c16f-3eeb-43e8-ad1c-ab0e787a9839",
+    "classNotesCode": "fedfcf0f-4dd2-4d25-b6a4-586ad5d49f84.pdf",
+    "dppsPdfCode": "fedfcf0f-4dd2-4d25-b6a4-586ad5d49f84.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Thermodynamics 05 : Reversible Pathwa...",
+    "lectureCode": "9bedaff9-fc2c-4842-953e-6ae47e19c2fb",
+    "classNotesCode": "24445ec9-3e85-4e90-87b1-208d2e783e8e.pdf",
+    "dppsPdfCode": "24445ec9-3e85-4e90-87b1-208d2e783e8e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Thermodynamics 04 : First law of ther...",
+    "lectureCode": "849acdba-b42e-4752-ae53-c774762004c6",
+    "classNotesCode": "c35838c1-cf96-4eec-9688-edfb3ea4b881.pdf",
+    "dppsPdfCode": "c35838c1-cf96-4eec-9688-edfb3ea4b881.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Thermodynamics 03 : First Law of Ther...",
+    "lectureCode": "3b55d01b-221b-4dc6-98d1-3d4059287d31",
+    "classNotesCode": "33002073-7263-4e72-a89d-8766138c6a8b.pdf",
+    "dppsPdfCode": "33002073-7263-4e72-a89d-8766138c6a8b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Thermodynamics 02 : Extensive vs inte...",
+    "lectureCode": "e932efea-cb05-47ad-9b21-8f514e9a0b8d",
+    "classNotesCode": "0ebc6b45-bf9d-4e34-8757-5467471c121c.pdf",
+    "dppsPdfCode": "0ebc6b45-bf9d-4e34-8757-5467471c121c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Thermodynamics 01 : Introduction to T...",
+    "lectureCode": "1096f68b-6606-4d09-880f-3b5024ae8a92",
+    "classNotesCode": "18a7a06e-22f4-4c79-a73a-fd821f2cdf41.pdf",
+    "dppsPdfCode": "18a7a06e-22f4-4c79-a73a-fd821f2cdf41.pdf",
+    "dppsSolutionCode": ""
+  }
+]

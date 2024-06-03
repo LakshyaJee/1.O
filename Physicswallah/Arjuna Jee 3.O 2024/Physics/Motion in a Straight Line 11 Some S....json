@@ -1,0 +1,90 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Motion in a Straight Line 11 : Some S...",
+    "lectureCode": "625e36d2-7512-45d9-afda-3d42a0b756db",
+    "classNotesCode": "dcb23a59-12c7-4f95-a85f-c2e7f95bbbc4.pdf",
+    "dppsPdfCode": "dcb23a59-12c7-4f95-a85f-c2e7f95bbbc4.pdf",
+    "dppsSolutionCode": "60e5ce27-b6fc-42e7-9fd4-21b25e184003"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Motion in a Straight Line 10 : Steps ...",
+    "lectureCode": "83404c4a-38fa-4b5d-af5f-7f2fc9c9159c",
+    "classNotesCode": "b9c4e43d-9425-4346-bdb9-a7a2ed95b751.pdf",
+    "dppsPdfCode": "b9c4e43d-9425-4346-bdb9-a7a2ed95b751.pdf",
+    "dppsSolutionCode": "3cba34aa-1448-49be-a679-ebb90fd40bfd"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Motion in a Straight Line 09 : Displa...",
+    "lectureCode": "05fe4371-b445-4b33-934d-8740c1615986",
+    "classNotesCode": "8c5570c9-ca77-49c8-b10a-67f4a8390e7c.pdf",
+    "dppsPdfCode": "8c5570c9-ca77-49c8-b10a-67f4a8390e7c.pdf",
+    "dppsSolutionCode": "6be9ff40-63aa-42c1-bd80-8bcbd1b89ceb"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Motion in a Straight Line 08 : Displa...",
+    "lectureCode": "ea81e29c-8812-471f-ad4e-8efd0178a56e",
+    "classNotesCode": "29b0591e-c6d5-4973-a71e-aa23d8cd38f4.pdf",
+    "dppsPdfCode": "29b0591e-c6d5-4973-a71e-aa23d8cd38f4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Motion in a Straight Line 07 : Free f...",
+    "lectureCode": "b1c97eef-fee5-4c34-8874-3b001104a96f",
+    "classNotesCode": "4fb4c972-6d7b-4925-96ba-7f000c235ce5.pdf",
+    "dppsPdfCode": "4fb4c972-6d7b-4925-96ba-7f000c235ce5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Motion in a Straight Line 06 : Equati...",
+    "lectureCode": "af343324-517e-4636-9826-1706d8617991",
+    "classNotesCode": "61c3265a-359b-4a47-b392-2c4aa00011f4.pdf",
+    "dppsPdfCode": "61c3265a-359b-4a47-b392-2c4aa00011f4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Motion in a Straight Line 05 : Types ...",
+    "lectureCode": "8d5ef436-fde1-4637-abf8-64b3a15f0c57",
+    "classNotesCode": "17817900-acd0-411a-9253-da33bccc9c6b.pdf",
+    "dppsPdfCode": "17817900-acd0-411a-9253-da33bccc9c6b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Motion in a Straight Line 04 : Accele...",
+    "lectureCode": "8ea2962e-6c1d-4582-8346-e8c9f1dc4ed1",
+    "classNotesCode": "78350626-f8ab-45f4-b399-97b8f590aed8.pdf",
+    "dppsPdfCode": "78350626-f8ab-45f4-b399-97b8f590aed8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Motion in a Straight Line 03 : Averag...",
+    "lectureCode": "f6872990-eff4-408b-a103-1d4ad5f10695",
+    "classNotesCode": "d5ea2511-375a-43ad-8aca-904081c2ed26.pdf",
+    "dppsPdfCode": "d5ea2511-375a-43ad-8aca-904081c2ed26.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Motion in a Straight Line 02 : Distan...",
+    "lectureCode": "4be6323b-67ee-42ae-a2d0-8b0a8ae5bf30",
+    "classNotesCode": "bd4ac148-9f15-428f-b086-47a64c2069c2.pdf",
+    "dppsPdfCode": "bd4ac148-9f15-428f-b086-47a64c2069c2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Motion in a Straight Line 01 : Defini...",
+    "lectureCode": "f1d20b65-2eaf-450c-bf57-4ddab30da0b1",
+    "classNotesCode": "cbcffc2c-3f9b-4aca-84d4-69c83f27e57b.pdf",
+    "dppsPdfCode": "cbcffc2c-3f9b-4aca-84d4-69c83f27e57b.pdf",
+    "dppsSolutionCode": ""
+  }
+]

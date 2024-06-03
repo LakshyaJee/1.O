@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Rotational Motion 10 : Accelerated Ro...",
+    "lectureCode": "86eb3072-fefe-4297-b29e-b8bd78fe9ed0",
+    "classNotesCode": "dc0996d2-ca80-4c6d-9daf-f2191f9733d7.pdf",
+    "dppsPdfCode": "dc0996d2-ca80-4c6d-9daf-f2191f9733d7.pdf",
+    "dppsSolutionCode": "8bda2791-9d9b-4cd4-83a5-2461839219ae"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Rotational Motion 09 : Rolling Motion...",
+    "lectureCode": "6aa453ac-59e2-4b64-b408-aa13c2535ff1",
+    "classNotesCode": "deff567a-efe5-436d-b80c-29e13b55b519.pdf",
+    "dppsPdfCode": "deff567a-efe5-436d-b80c-29e13b55b519.pdf",
+    "dppsSolutionCode": "9344ecfb-b001-41ff-b4a3-7596ae3909df"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Rotational Motion 08 : Conservation o...",
+    "lectureCode": "d5ba07b8-c1a1-457d-8fc8-7a0fabe8a2d1",
+    "classNotesCode": "a88c4ce7-ecee-4fc1-a216-e8f17a4a401d.pdf",
+    "dppsPdfCode": "a88c4ce7-ecee-4fc1-a216-e8f17a4a401d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Rotational Motion 07 : Angular Moment...",
+    "lectureCode": "6515ffb7-b482-4e99-a2bb-be589b4960f1",
+    "classNotesCode": "8a777d4f-1c54-4040-a2ad-f9b2ea3e10e9.pdf",
+    "dppsPdfCode": "8a777d4f-1c54-4040-a2ad-f9b2ea3e10e9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Rotational Motion 06 : Rotational Kin...",
+    "lectureCode": "cb1d64d1-0db0-4c2a-aceb-72b0ed4749d5",
+    "classNotesCode": "403667fb-4b13-44d6-83a5-5764523e230d.pdf",
+    "dppsPdfCode": "403667fb-4b13-44d6-83a5-5764523e230d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Rotational Motion 05 : Equilibrium of...",
+    "lectureCode": "e4393002-dd89-4d9f-8c76-549c79ff1dcc",
+    "classNotesCode": "67bb1dce-f636-431b-b514-869b7d0e122f.pdf",
+    "dppsPdfCode": "67bb1dce-f636-431b-b514-869b7d0e122f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Rotational Motion 04 : MOI of Objects...",
+    "lectureCode": "5a70cf13-75fc-44b5-a7af-c1d994afcca1",
+    "classNotesCode": "84106960-67bf-4d9a-a83d-b88eec240a2b.pdf",
+    "dppsPdfCode": "84106960-67bf-4d9a-a83d-b88eec240a2b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Rotational Motion 03 : Parallel Axis ...",
+    "lectureCode": "f018c169-fafe-4af4-a2dd-4572ce83c2c3",
+    "classNotesCode": "99b5f30a-7d12-42f8-a1f5-f0072cb7f27f.pdf",
+    "dppsPdfCode": "99b5f30a-7d12-42f8-a1f5-f0072cb7f27f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Rotational Motion 02 : Kinematics of ...",
+    "lectureCode": "7335f2ce-5b66-4383-ad39-9543f616e1bc",
+    "classNotesCode": "62d6c5c4-0a5e-4953-a9cc-1d3534f894c8.pdf",
+    "dppsPdfCode": "62d6c5c4-0a5e-4953-a9cc-1d3534f894c8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Rotational Motion 01 : Collision in 2...",
+    "lectureCode": "79cabda5-639a-4fc0-a317-349416ea924e",
+    "classNotesCode": "ba83bcc5-c96e-4a0c-8569-4c0862826eb0.pdf",
+    "dppsPdfCode": "ba83bcc5-c96e-4a0c-8569-4c0862826eb0.pdf",
+    "dppsSolutionCode": ""
+  }
+]

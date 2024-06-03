@@ -1,0 +1,66 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "States of Matter 08 : Application of ...",
+    "lectureCode": "d67aa1b2-53f3-42b4-8ceb-99135c01230a",
+    "classNotesCode": "ebc326fa-3fca-4669-a362-e8e45133e38f.pdf",
+    "dppsPdfCode": "ebc326fa-3fca-4669-a362-e8e45133e38f.pdf",
+    "dppsSolutionCode": "ca9ef815-7ca6-406e-864e-8019ce8efa7d"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "States of Matter 07 : Graham's law Of...",
+    "lectureCode": "88484f69-59c7-4697-8a4b-a1b02921551b",
+    "classNotesCode": "e2275a7b-b5b1-4bdd-8a4b-d79cbe1c2ec7.pdf",
+    "dppsPdfCode": "e2275a7b-b5b1-4bdd-8a4b-d79cbe1c2ec7.pdf",
+    "dppsSolutionCode": "b8a0bda5-359e-4d70-bfda-c3814628e82e"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "States of Matter 06 : Dalton's law of...",
+    "lectureCode": "1f41d84c-d55b-4448-90d7-86c602634fea",
+    "classNotesCode": "b61d3976-79d1-45b3-af5a-4687b9b215a2.pdf",
+    "dppsPdfCode": "b61d3976-79d1-45b3-af5a-4687b9b215a2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "States of Matter 05 : STP vs NTP || D...",
+    "lectureCode": "6b6c5447-fb13-4807-9083-3a8fbdbe1340",
+    "classNotesCode": "26d3aeca-e6dc-46e1-a9ed-11bb7d806d0b.pdf",
+    "dppsPdfCode": "26d3aeca-e6dc-46e1-a9ed-11bb7d806d0b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "States of Matter 04 : Charles law || ...",
+    "lectureCode": "f0ed4382-e21f-4f85-b533-c56dde116b75",
+    "classNotesCode": "9a3fe119-97aa-4a3b-b023-956af271efc5.pdf",
+    "dppsPdfCode": "9a3fe119-97aa-4a3b-b023-956af271efc5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "States of Matter 03 : Boyle's law || ...",
+    "lectureCode": "bd352cec-acea-421a-969a-c348c71eb677",
+    "classNotesCode": "0166629f-c0eb-4fdf-bd05-a0674d99503c.pdf",
+    "dppsPdfCode": "0166629f-c0eb-4fdf-bd05-a0674d99503c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "States of Matter 02 : Ideal Gas equat...",
+    "lectureCode": "9b1df4ca-510e-48bf-8a1d-9354c4d47ea9",
+    "classNotesCode": "0840c7c0-3890-4fe0-ae3f-a4513b91feab.pdf",
+    "dppsPdfCode": "0840c7c0-3890-4fe0-ae3f-a4513b91feab.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "States of Matter 01 : Introduction ||...",
+    "lectureCode": "1fce81e2-739f-4461-84f9-0289a842db3b",
+    "classNotesCode": "e63850c6-cffa-470b-a5eb-351562286144.pdf",
+    "dppsPdfCode": "e63850c6-cffa-470b-a5eb-351562286144.pdf",
+    "dppsSolutionCode": ""
+  }
+]

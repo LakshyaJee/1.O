@@ -1,0 +1,66 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Complex Number 08 : nth root of unity...",
+    "lectureCode": "30613708-fc7e-4a4f-b1c6-f8ab15cc53c9",
+    "classNotesCode": "93d76f6e-3b51-420b-bcc7-141710346bc0.pdf",
+    "dppsPdfCode": "93d76f6e-3b51-420b-bcc7-141710346bc0.pdf",
+    "dppsSolutionCode": "8c7bce34-5956-4abc-9acb-7ddfd13788d3"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Complex Number 07 : nth root of unity...",
+    "lectureCode": "991e71e5-7b10-4e36-9187-a80e1636c0ae",
+    "classNotesCode": "2b26ef46-5511-4277-8dfc-1d2fd39de36f.pdf",
+    "dppsPdfCode": "2b26ef46-5511-4277-8dfc-1d2fd39de36f.pdf",
+    "dppsSolutionCode": "deb0c67d-3dcf-4fcb-bed1-561366a5ca6a"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Complex Number 06 : Cubic Root of Unity",
+    "lectureCode": "4a88ffe3-8c6c-4538-bb99-7bcef35ef02c",
+    "classNotesCode": "41963fa4-7c99-41a5-82a3-18ce371a6641.pdf",
+    "dppsPdfCode": "41963fa4-7c99-41a5-82a3-18ce371a6641.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Complex Number 05 : Demoviers Therom ...",
+    "lectureCode": "a17a45b1-50ca-424b-8d3a-ae2eecdd68d1",
+    "classNotesCode": "75a56800-7f91-4be4-8fd5-dcd37a3cb50d.pdf",
+    "dppsPdfCode": "75a56800-7f91-4be4-8fd5-dcd37a3cb50d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Complex Number 04 : Argument Properti...",
+    "lectureCode": "61c6ef7d-73a1-431b-82aa-3ebf1994b312",
+    "classNotesCode": "28d39474-b34f-4527-9d20-a3286a87475f.pdf",
+    "dppsPdfCode": "28d39474-b34f-4527-9d20-a3286a87475f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Complex Number 03 : Different Forms o...",
+    "lectureCode": "1400c34b-f9a4-4d14-a620-f392df456149",
+    "classNotesCode": "40f473df-158d-447f-b7fc-528d2cc83ff6.pdf",
+    "dppsPdfCode": "40f473df-158d-447f-b7fc-528d2cc83ff6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Complex Number 02 : Modulus And Conju...",
+    "lectureCode": "7320e82d-e318-412d-a7f3-77a8048bcbc1",
+    "classNotesCode": "eb04ecca-eced-40da-9edb-7d225132205b.pdf",
+    "dppsPdfCode": "eb04ecca-eced-40da-9edb-7d225132205b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Complex?Number 01: Introduction, Alge...",
+    "lectureCode": "1e4cc554-4ac7-4d3e-94bf-d792e100be34",
+    "classNotesCode": "3fe865b3-3773-47cf-b135-266164798374.pdf",
+    "dppsPdfCode": "3fe865b3-3773-47cf-b135-266164798374.pdf",
+    "dppsSolutionCode": ""
+  }
+]

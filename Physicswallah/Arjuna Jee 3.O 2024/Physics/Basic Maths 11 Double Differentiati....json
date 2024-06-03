@@ -1,0 +1,90 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Basic Maths 11 : Double Differentiati...",
+    "lectureCode": "e85a021a-8c3c-43eb-9cf4-9b4d979f7e1c",
+    "classNotesCode": "356362d0-cad3-4ed8-a226-8ec084c14d6b.pdf",
+    "dppsPdfCode": "356362d0-cad3-4ed8-a226-8ec084c14d6b.pdf",
+    "dppsSolutionCode": "18db9c24-7854-4ed7-b561-83b74a8d9c81"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Basic Maths 10 : Basic Maths 10 : Dif...",
+    "lectureCode": "03aecf3f-aa1f-4618-8797-b22de05bdffb",
+    "classNotesCode": "7dc4b675-d9a8-4706-ae57-487c6a9b788f.pdf",
+    "dppsPdfCode": "7dc4b675-d9a8-4706-ae57-487c6a9b788f.pdf",
+    "dppsSolutionCode": "fa513da2-da92-4eab-ae8a-6f07876ed350"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Basic Maths 09 : Slope || Function ||...",
+    "lectureCode": "11e22488-b7c5-48ac-b5f9-bf1c775bace9",
+    "classNotesCode": "1eb6411b-f154-4dec-8282-2900f345e2d2.pdf",
+    "dppsPdfCode": "1eb6411b-f154-4dec-8282-2900f345e2d2.pdf",
+    "dppsSolutionCode": "fb408bf2-993e-4a9c-9c30-8f279e4224e9"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Basic Maths 08 : Cross Product || App...",
+    "lectureCode": "98212d31-4c17-4e72-9806-02d3ff479cf0",
+    "classNotesCode": "e4330f29-1962-4f22-a391-bfb3782e9e63.pdf",
+    "dppsPdfCode": "e4330f29-1962-4f22-a391-bfb3782e9e63.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Basic Maths 07 : Dot Product || Proje...",
+    "lectureCode": "ddbe80a2-9c5f-42a4-a63f-e88360fe3c31",
+    "classNotesCode": "a6047d60-8177-42f9-893e-d6245494830b.pdf",
+    "dppsPdfCode": "a6047d60-8177-42f9-893e-d6245494830b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Basic Maths 06 : Components/Resolutio...",
+    "lectureCode": "c65a5727-1899-4f73-9a54-0dfd413a71c7",
+    "classNotesCode": "02ce42f7-f704-4cda-af0b-611fced5fd92.pdf",
+    "dppsPdfCode": "02ce42f7-f704-4cda-af0b-611fced5fd92.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Basic Maths 05 : Parallelogram Law ||...",
+    "lectureCode": "f73dec55-19de-404b-9f47-01dfe75d1abe",
+    "classNotesCode": "7e98d861-08b6-4d8e-9cd6-d2e532ccea8c.pdf",
+    "dppsPdfCode": "7e98d861-08b6-4d8e-9cd6-d2e532ccea8c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Basic Maths 04 : Recap || Parallelogr...",
+    "lectureCode": "16beb6b2-b101-42ad-ad73-f180e612e34f",
+    "classNotesCode": "372c7e4a-7669-437a-be2b-6c07646b5f63.pdf",
+    "dppsPdfCode": "372c7e4a-7669-437a-be2b-6c07646b5f63.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Basic Maths 03 : Vector law of Additi...",
+    "lectureCode": "c6083a42-1b52-4e02-aac1-6c43d023fe54",
+    "classNotesCode": "faf15532-3866-4f3a-8784-71e3338f39bc.pdf",
+    "dppsPdfCode": "faf15532-3866-4f3a-8784-71e3338f39bc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Basic Maths 02 : Basic Trigonometry |...",
+    "lectureCode": "83b063f8-bd5e-4463-843a-e65e49672951",
+    "classNotesCode": "83df9a02-5c84-4e4b-8e17-692f7b011db8.pdf",
+    "dppsPdfCode": "83df9a02-5c84-4e4b-8e17-692f7b011db8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Basic Maths 01 : Error (Remaining par...",
+    "lectureCode": "04861363-87ca-4dc3-b524-7115f1d02a74",
+    "classNotesCode": "6c6b1c41-424e-4c46-a149-246c2ae957d7.pdf",
+    "dppsPdfCode": "6c6b1c41-424e-4c46-a149-246c2ae957d7.pdf",
+    "dppsSolutionCode": ""
+  }
+]

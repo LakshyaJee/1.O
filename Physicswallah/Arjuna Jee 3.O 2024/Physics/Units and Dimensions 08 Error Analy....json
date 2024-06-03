@@ -1,0 +1,66 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Units and Dimensions 08 : Error Analy...",
+    "lectureCode": "3928cd3f-c2e9-4f88-aa62-f80d9ac66416",
+    "classNotesCode": "ea2053df-b70e-4497-bd97-13a3aada1ed1.pdf",
+    "dppsPdfCode": "ea2053df-b70e-4497-bd97-13a3aada1ed1.pdf",
+    "dppsSolutionCode": "2074c0c0-2181-48ac-b94b-bcfede2d2fd8"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Units and Dimensions 07 : Questions |...",
+    "lectureCode": "ff428d35-5b11-4cc4-8355-63f1b25f94e7",
+    "classNotesCode": "b436b848-4f98-4ad1-b8e9-f43f1e6bf5c6.pdf",
+    "dppsPdfCode": "b436b848-4f98-4ad1-b8e9-f43f1e6bf5c6.pdf",
+    "dppsSolutionCode": "0b5d5df1-785e-428a-a61b-fca8d975fe11"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Units and Dimensions 06 : Vernier Cal...",
+    "lectureCode": "6d69d74e-ff0c-4612-8d4a-94de51d250e3",
+    "classNotesCode": "17d2ca9a-b319-4404-8f0a-8942b34ff37f.pdf",
+    "dppsPdfCode": "17d2ca9a-b319-4404-8f0a-8942b34ff37f.pdf",
+    "dppsSolutionCode": "bff494c2-4d4f-4bc3-bd43-f5dd65d15d12"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Units and Dimensions 05 : Significant...",
+    "lectureCode": "2a914b68-b844-45a3-91a3-ab270c95a399",
+    "classNotesCode": "d8c7b0cf-97c6-46d4-9b42-6cf1f185db89.pdf",
+    "dppsPdfCode": "d8c7b0cf-97c6-46d4-9b42-6cf1f185db89.pdf",
+    "dppsSolutionCode": "a54e8dbb-f57c-4e12-ab55-438571f3f993"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Units and Dimensions 04 : Rounding of...",
+    "lectureCode": "ec422d1b-d4d7-4d1e-b20b-4366fdf7bc2d",
+    "classNotesCode": "c3702fab-21f0-4d0f-94a9-569191b8804d.pdf",
+    "dppsPdfCode": "c3702fab-21f0-4d0f-94a9-569191b8804d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Units and Dimensions 03 : Application...",
+    "lectureCode": "4297577d-4ea2-421b-9695-288a734b1b21",
+    "classNotesCode": "af21f61e-0261-404d-b252-549e6636c375.pdf",
+    "dppsPdfCode": "af21f61e-0261-404d-b252-549e6636c375.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Units and Dimensions 02 : Dimensions ...",
+    "lectureCode": "a7789f24-90f7-477d-b7cf-9483285f9d44",
+    "classNotesCode": "d445929b-42bd-40df-a41d-9753a6260b7c.pdf",
+    "dppsPdfCode": "d445929b-42bd-40df-a41d-9753a6260b7c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Units and Dimensions 01 : Introductio...",
+    "lectureCode": "27f00de6-71b8-45b9-916f-cb453f84a92c",
+    "classNotesCode": "5e2f2831-2cfe-4755-9adf-5c481d3f2d5d.pdf",
+    "dppsPdfCode": "5e2f2831-2cfe-4755-9adf-5c481d3f2d5d.pdf",
+    "dppsSolutionCode": ""
+  }
+]

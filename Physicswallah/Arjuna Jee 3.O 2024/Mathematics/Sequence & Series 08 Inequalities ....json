@@ -1,0 +1,66 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Sequence & Series 08 : Inequalities |...",
+    "lectureCode": "1a6e4b15-2cf1-4a80-82dd-d2c4b37a0f52",
+    "classNotesCode": "7fc32666-ee15-438d-b746-d1278a3ab04b.pdf",
+    "dppsPdfCode": "7fc32666-ee15-438d-b746-d1278a3ab04b.pdf",
+    "dppsSolutionCode": "da3c0f36-2717-48bc-9fff-422459bac06f"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Sequence & Series 07 :  Method of Dif...",
+    "lectureCode": "698291c5-1abd-48d7-9b2e-8ad6f6723cde",
+    "classNotesCode": "53296253-25cb-4aed-bedc-f8a765114952.pdf",
+    "dppsPdfCode": "53296253-25cb-4aed-bedc-f8a765114952.pdf",
+    "dppsSolutionCode": "697fb6c2-e431-4ae0-8e20-fe2d002c44f0"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Sequence & Series 06 :  Miscellaneous...",
+    "lectureCode": "60f32bbb-58d8-457a-b6cc-44eaca7b1d5d",
+    "classNotesCode": "87cfc950-8ded-41fb-8711-25190ded1e38.pdf",
+    "dppsPdfCode": "87cfc950-8ded-41fb-8711-25190ded1e38.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Sequence & Series 05 :  AGP SERIES",
+    "lectureCode": "142f0988-4117-40a4-a189-b4b63ce6d591",
+    "classNotesCode": "95e7988b-44b7-468e-a882-2d83813232ab.pdf",
+    "dppsPdfCode": "95e7988b-44b7-468e-a882-2d83813232ab.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Sequence & Series 04 : Harmonic progr...",
+    "lectureCode": "719f3222-a423-4257-abe6-4671e1a2d92a",
+    "classNotesCode": "10c1a64c-7c25-4686-b551-4cc59243c4a1.pdf",
+    "dppsPdfCode": "10c1a64c-7c25-4686-b551-4cc59243c4a1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Sequence & Series 03 : Geometric Prog...",
+    "lectureCode": "88f8d310-4d9a-4e4a-9a14-043fd64fed53",
+    "classNotesCode": "eb664dda-a1f8-43a7-bcf2-ccb10b9d16ae.pdf",
+    "dppsPdfCode": "eb664dda-a1f8-43a7-bcf2-ccb10b9d16ae.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Sequence & Series 02 : Problem Practi...",
+    "lectureCode": "607e01d1-1bc7-41bc-ae12-97490651dbec",
+    "classNotesCode": "72d2cfe3-9615-476b-bb76-165d5548d587.pdf",
+    "dppsPdfCode": "72d2cfe3-9615-476b-bb76-165d5548d587.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Sequence & Series 01 : Arithmetic Pro...",
+    "lectureCode": "6399de81-2f1e-4d16-a318-7d4d50a57a7d",
+    "classNotesCode": "5594cf70-3034-41bc-87a7-f4fe168f403f.pdf",
+    "dppsPdfCode": "5594cf70-3034-41bc-87a7-f4fe168f403f.pdf",
+    "dppsSolutionCode": ""
+  }
+]
