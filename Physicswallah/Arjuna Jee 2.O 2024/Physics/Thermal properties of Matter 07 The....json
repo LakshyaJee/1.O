@@ -1,0 +1,58 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Thermal properties of Matter 07 : The...",
+    "lectureCode": "2f2207bd-1f73-4871-9c3a-d4138af393e4",
+    "classNotesCode": "e1f5e50d-e11e-47a9-bbab-b02bf1098510.pdf",
+    "dppsPdfCode": "e1f5e50d-e11e-47a9-bbab-b02bf1098510.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Thermal properties of Matter 06 : Dif...",
+    "lectureCode": "38784cd5-a997-4387-abd6-7e48957933f8",
+    "classNotesCode": "51ec8776-1e63-425c-971f-5f7e5ad01eeb.pdf",
+    "dppsPdfCode": "51ec8776-1e63-425c-971f-5f7e5ad01eeb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Thermal properties of Matter 05 : The...",
+    "lectureCode": "9e67578d-19bf-4353-8a44-d4cce806d160",
+    "classNotesCode": "a1c567df-7959-423a-911d-c9c942a689f1.pdf",
+    "dppsPdfCode": "a1c567df-7959-423a-911d-c9c942a689f1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Thermal properties of Matter 04 : Pra...",
+    "lectureCode": "f01c7a84-cfde-402a-bc64-df0e537ab75a",
+    "classNotesCode": "6481188d-2936-491b-bc8f-047fdccaae00.pdf",
+    "dppsPdfCode": "6481188d-2936-491b-bc8f-047fdccaae00.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Thermal properties of Matter 03 : Cal...",
+    "lectureCode": "e6bff6f1-1d59-4c4c-9498-e512da5472ab",
+    "classNotesCode": "45ec29a1-d0f7-4c42-951f-20c0a5edff2d.pdf",
+    "dppsPdfCode": "45ec29a1-d0f7-4c42-951f-20c0a5edff2d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Thermal properties of Matter 02 : The...",
+    "lectureCode": "fb236a56-3c9f-4772-a42d-59bb88a01cce",
+    "classNotesCode": "3206d9f8-37ab-479e-9b28-bce938a35607.pdf",
+    "dppsPdfCode": "3206d9f8-37ab-479e-9b28-bce938a35607.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Thermal properties of Matter 01 : Pre...",
+    "lectureCode": "c9383a55-f880-4135-827c-7d3a31d84ade",
+    "classNotesCode": "90acbb2c-ff2b-45cd-b35f-ec4261993f2e.pdf",
+    "dppsPdfCode": "90acbb2c-ff2b-45cd-b35f-ec4261993f2e.pdf",
+    "dppsSolutionCode": ""
+  }
+]

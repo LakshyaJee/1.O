@@ -1,0 +1,98 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Function 12 : Graphical Transformatio...",
+    "lectureCode": "67d7ede7-a428-4857-9754-cbdbdd1c3955",
+    "classNotesCode": "1ec0c689-baa2-40f8-8e54-38de10bddc2e.pdf",
+    "dppsPdfCode": "1ec0c689-baa2-40f8-8e54-38de10bddc2e.pdf",
+    "dppsSolutionCode": "08ec8ee0-1d50-43e5-82d6-545676cf0643"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Function 11 : Solving Functional Equa...",
+    "lectureCode": "c0d4011d-5923-43e8-a114-5b4d817e4b56",
+    "classNotesCode": "5ed9ad51-ae7f-4b52-ae47-9a6aa758b8f3.pdf",
+    "dppsPdfCode": "5ed9ad51-ae7f-4b52-ae47-9a6aa758b8f3.pdf",
+    "dppsSolutionCode": "8d9404bc-0d68-4e82-91fd-14b3e762ffe4"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Function 10 : Range of Composite Func...",
+    "lectureCode": "c8796e98-d2c8-448e-ad66-83c24659c940",
+    "classNotesCode": "5c0e846a-1449-476b-a036-ea53009ffa26.pdf",
+    "dppsPdfCode": "5c0e846a-1449-476b-a036-ea53009ffa26.pdf",
+    "dppsSolutionCode": "44b96048-cdc6-4dbd-bfa4-047215f966a0"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Function 09 : Methods of Finding Rang...",
+    "lectureCode": "82e9f7d6-755c-4843-8d4d-ac89dd677f15",
+    "classNotesCode": "21125f0e-0250-4b1c-8814-d81cb0f7156d.pdf",
+    "dppsPdfCode": "21125f0e-0250-4b1c-8814-d81cb0f7156d.pdf",
+    "dppsSolutionCode": "5a47d982-4904-4809-af60-4de8406ab7f9"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Function 08 : Methods of Finding Rang...",
+    "lectureCode": "d3a34d55-2a71-40a3-8248-f1c1a75311ea",
+    "classNotesCode": "0703cf92-040c-463e-a79a-e4348b11ac6d.pdf",
+    "dppsPdfCode": "0703cf92-040c-463e-a79a-e4348b11ac6d.pdf",
+    "dppsSolutionCode": "525b312f-26ce-4750-b7b9-44277874b92c"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Function 07 : Signum Function || Cons...",
+    "lectureCode": "fd53bebb-f30a-42c9-82ea-04d5fa351c22",
+    "classNotesCode": "9d836f07-4e8c-4489-81ed-48aaf1f53e04.pdf",
+    "dppsPdfCode": "9d836f07-4e8c-4489-81ed-48aaf1f53e04.pdf",
+    "dppsSolutionCode": "5a2117ec-781d-4cf8-812a-b957e2298da8"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Function 06 : Fractional Part Functio...",
+    "lectureCode": "573214bd-e615-4355-8cca-97c7407b96fb",
+    "classNotesCode": "72144534-328b-4bac-8fc6-020bbb935f0e.pdf",
+    "dppsPdfCode": "72144534-328b-4bac-8fc6-020bbb935f0e.pdf",
+    "dppsSolutionCode": "1bb3eea1-d015-421b-97b1-09adb21d02f9"
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Function 05 : Different Types of Func...",
+    "lectureCode": "c38e0af2-877f-4608-a3cf-ba0ebf7551ea",
+    "classNotesCode": "b6838f46-8ffd-4a01-9b09-93badb77481f.pdf",
+    "dppsPdfCode": "b6838f46-8ffd-4a01-9b09-93badb77481f.pdf",
+    "dppsSolutionCode": "54774ce5-0149-48be-aebd-1d244cb8d97b"
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Function 04 : Questions on Finding Do...",
+    "lectureCode": "ba89f9df-1905-4318-99ac-7903fde3e26f",
+    "classNotesCode": "8c7ad115-bbae-4e01-ae89-33866d78343d.pdf",
+    "dppsPdfCode": "8c7ad115-bbae-4e01-ae89-33866d78343d.pdf",
+    "dppsSolutionCode": "c6126348-e881-404d-a637-3f8f21352453"
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Function 03 : Introduction to Functio...",
+    "lectureCode": "3fb4c0f3-c1ac-47ae-9545-1a7389149358",
+    "classNotesCode": "06e82222-0dd2-45c9-9809-2e2aed7bc73e.pdf",
+    "dppsPdfCode": "06e82222-0dd2-45c9-9809-2e2aed7bc73e.pdf",
+    "dppsSolutionCode": "8367ae31-ae4e-4445-9ccf-361161801f5b"
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Function 02 : Relation || Introductio...",
+    "lectureCode": "80ec74fb-836d-4896-accd-3ef1ee6fba98",
+    "classNotesCode": "a7aac53b-245d-4274-813d-c2017ad474f5.pdf",
+    "dppsPdfCode": "a7aac53b-245d-4274-813d-c2017ad474f5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Function 01 : Practical Problems || C...",
+    "lectureCode": "3d92c0c3-c702-4b0e-8a0f-39e52f519396",
+    "classNotesCode": "de19a87a-e2d2-4bd2-80ce-247e623f4374.pdf",
+    "dppsPdfCode": "de19a87a-e2d2-4bd2-80ce-247e623f4374.pdf",
+    "dppsSolutionCode": ""
+  }
+]

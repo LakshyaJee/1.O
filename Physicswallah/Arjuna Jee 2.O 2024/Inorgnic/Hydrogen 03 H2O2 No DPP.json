@@ -1,0 +1,26 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Hydrogen 03 :  H2O2 || No DPP",
+    "lectureCode": "29216e8c-2d9f-47c9-85ae-9c2ffe48218d",
+    "classNotesCode": "b335bbe9-e065-4424-805d-0a316f84f4b9.pdf",
+    "dppsPdfCode": "b335bbe9-e065-4424-805d-0a316f84f4b9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Hydrogen 02 : Hard and Soft Water",
+    "lectureCode": "e857a768-ce6c-428f-9f47-584dcc4b0218",
+    "classNotesCode": "115d14df-3985-4c0b-a510-f3ae951b4322.pdf",
+    "dppsPdfCode": "115d14df-3985-4c0b-a510-f3ae951b4322.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Hydrogen 01 : Introduction",
+    "lectureCode": "1fd2e2a5-6c75-49eb-ada2-66e48516dca6",
+    "classNotesCode": "9e4286f8-4c95-4997-867d-046d37a556d5.pdf",
+    "dppsPdfCode": "9e4286f8-4c95-4997-867d-046d37a556d5.pdf",
+    "dppsSolutionCode": ""
+  }
+]

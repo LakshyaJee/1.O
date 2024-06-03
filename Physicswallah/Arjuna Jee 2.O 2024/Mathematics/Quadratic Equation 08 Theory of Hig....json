@@ -1,0 +1,66 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Quadratic Equation 08 : Theory of Hig...",
+    "lectureCode": "854a0f7c-a730-47c4-93ad-0cd45ca3fd7a",
+    "classNotesCode": "5f75826a-9ea0-4150-927b-be22f24d77a5.pdf",
+    "dppsPdfCode": "5f75826a-9ea0-4150-927b-be22f24d77a5.pdf",
+    "dppsSolutionCode": "592f5fb9-ce48-45cd-a830-741a2fada8b2"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Quadratic Equations 07 : Location of ...",
+    "lectureCode": "da67f66e-957d-4ec0-886e-13605303236c",
+    "classNotesCode": "49369d98-f32e-40cc-8366-a7be90117caa.pdf",
+    "dppsPdfCode": "49369d98-f32e-40cc-8366-a7be90117caa.pdf",
+    "dppsSolutionCode": "b1e64476-0bf2-4f5f-8146-2783e1121ecb"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Quadratic Equations 06 : Common Root ...",
+    "lectureCode": "12d3b895-53ce-4718-823d-c1c1d54e3d4a",
+    "classNotesCode": "2ad666d8-880e-4c97-836c-103cc6674f26.pdf",
+    "dppsPdfCode": "2ad666d8-880e-4c97-836c-103cc6674f26.pdf",
+    "dppsSolutionCode": "dd49c380-8fea-4cd7-ac3f-f48bcb13dd5d"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Quadratic Equations 05 : Common Root ...",
+    "lectureCode": "95b8ff0c-30c5-4213-9db2-6710c907685b",
+    "classNotesCode": "78d47be9-311e-44b5-8b75-251e4bf3adab.pdf",
+    "dppsPdfCode": "78d47be9-311e-44b5-8b75-251e4bf3adab.pdf",
+    "dppsSolutionCode": "906782d7-8ad8-4194-8546-447c22b413e3"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Quadratic Equations 04 : Graph Of Qua...",
+    "lectureCode": "06c3c79e-e7f2-47d8-ac29-93acfea7e649",
+    "classNotesCode": "da5fb2ea-14b2-4b42-86ec-85c23b626fc0.pdf",
+    "dppsPdfCode": "da5fb2ea-14b2-4b42-86ec-85c23b626fc0.pdf",
+    "dppsSolutionCode": "3a58e2de-d0fc-4756-bba4-c52b3abac9bc"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Quadratic Equations 03 : Nature of Roots",
+    "lectureCode": "15337f25-9175-4630-b25a-98953e70c4e5",
+    "classNotesCode": "e8e7bae3-e6f7-4e5b-bafb-0cfc4091e77b.pdf",
+    "dppsPdfCode": "e8e7bae3-e6f7-4e5b-bafb-0cfc4091e77b.pdf",
+    "dppsSolutionCode": "4147527a-e59c-4e79-89fd-0fe6852dad8e"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Quadratic Equations 02 : Important Po...",
+    "lectureCode": "7645a4d0-2057-4c50-ad5b-e9d89bab7bb8",
+    "classNotesCode": "3d1e6962-cc23-44df-b4b2-e2320cef3f3c.pdf",
+    "dppsPdfCode": "3d1e6962-cc23-44df-b4b2-e2320cef3f3c.pdf",
+    "dppsSolutionCode": "30235638-4a52-4424-91d2-ab2ba05fbc9e"
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Quadratic Equations 01 : Equation & I...",
+    "lectureCode": "efd78c01-16d6-4d8e-b24a-ef53aa5c3c64",
+    "classNotesCode": "c302b7d1-8aec-48b6-b5a3-db1f33624677.pdf",
+    "dppsPdfCode": "c302b7d1-8aec-48b6-b5a3-db1f33624677.pdf",
+    "dppsSolutionCode": "b58f8263-894d-4f3c-bd93-90167cb3c35d"
+  }
+]

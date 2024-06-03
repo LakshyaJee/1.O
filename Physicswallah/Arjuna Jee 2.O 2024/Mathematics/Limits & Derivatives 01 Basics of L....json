@@ -1,0 +1,26 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Limits & Derivatives 01 : Basics of L...",
+    "lectureCode": "2b69658c-0e42-4e10-8a7c-f2bf92d14e53",
+    "classNotesCode": "b62c04d7-b8e9-490e-ada3-8a59bacb0594.pdf",
+    "dppsPdfCode": "b62c04d7-b8e9-490e-ada3-8a59bacb0594.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Limits & Derivatives 03 : Questions o...",
+    "lectureCode": "a02358e7-3988-4da9-9f7f-e1ca02632a65",
+    "classNotesCode": "a132c4dd-417a-495f-9dde-bbeb4d7db578.pdf",
+    "dppsPdfCode": "a132c4dd-417a-495f-9dde-bbeb4d7db578.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Limits & Derivatives 02 : Questions O...",
+    "lectureCode": "95be838e-2d28-46b9-be6d-09d78631bb14",
+    "classNotesCode": "9074617d-55f7-4426-b338-293b02a580bd.pdf",
+    "dppsPdfCode": "9074617d-55f7-4426-b338-293b02a580bd.pdf",
+    "dppsSolutionCode": ""
+  }
+]

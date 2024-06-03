@@ -1,0 +1,106 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Thermodynamics 13 : Gibbs Free Energy...",
+    "lectureCode": "77504c95-4a76-455e-b04d-50cafd69720f",
+    "classNotesCode": "6f858946-5987-4bf4-99eb-561ff574da8d.pdf",
+    "dppsPdfCode": "6f858946-5987-4bf4-99eb-561ff574da8d.pdf",
+    "dppsSolutionCode": "a06a54f2-2bfe-47e8-9aff-652fc4d4deec"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Thermodynamics 12 : Entropy & its Num...",
+    "lectureCode": "14125509-8ca8-4fb0-ab99-c17c479cdf99",
+    "classNotesCode": "23774a48-1e29-49c3-9e68-b48ac1af0805.pdf",
+    "dppsPdfCode": "23774a48-1e29-49c3-9e68-b48ac1af0805.pdf",
+    "dppsSolutionCode": "df07610d-ce36-4122-8541-06b33411940e"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Entropy || Entropy changes in Differe...",
+    "lectureCode": "5edeb907-9654-45bc-a8bf-8781c0ea71cf",
+    "classNotesCode": "0e433f5d-0cf4-46bc-8f3c-6047a459c5b2.pdf",
+    "dppsPdfCode": "0e433f5d-0cf4-46bc-8f3c-6047a459c5b2.pdf",
+    "dppsSolutionCode": "72cae65b-89ba-4998-aa47-6ea64b9a298c"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Thermodynamics 10: Revision of Last C...",
+    "lectureCode": "c4fb1c46-e325-494b-a5fc-dc47d4ad03b2",
+    "classNotesCode": "1710db76-8cff-4490-99bd-bca01f43b890.pdf",
+    "dppsPdfCode": "1710db76-8cff-4490-99bd-bca01f43b890.pdf",
+    "dppsSolutionCode": "7ef68225-5f54-4683-b011-2d1dd3f79e62"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Thermodynamics 09 : Revision of Last ...",
+    "lectureCode": "8bedbde9-29d1-4c63-a066-818c464c5c66",
+    "classNotesCode": "99ad377d-92ba-4137-be2c-c8849f3372e1.pdf",
+    "dppsPdfCode": "99ad377d-92ba-4137-be2c-c8849f3372e1.pdf",
+    "dppsSolutionCode": "a97eea66-ca8f-40b2-9584-babefc950b69"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Thermodynamics 08 : Revision of Last ...",
+    "lectureCode": "3253d8bb-e395-4901-bb46-b9425e1cb9e4",
+    "classNotesCode": "c74c780f-9b01-4918-9bb9-559e0e564c54.pdf",
+    "dppsPdfCode": "c74c780f-9b01-4918-9bb9-559e0e564c54.pdf",
+    "dppsSolutionCode": "cd42125e-583c-4ef4-9ede-75665a3ad25f"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Thermodynamics 07 : Revision of Last ...",
+    "lectureCode": "8ff2681e-aa4a-47a1-9ec4-c9d795771e00",
+    "classNotesCode": "203fb017-e9eb-41fa-858e-971d23992e49.pdf",
+    "dppsPdfCode": "203fb017-e9eb-41fa-858e-971d23992e49.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Thermodynamics 06 : Energy changes in...",
+    "lectureCode": "b59b59bd-4de7-4c38-a4ff-ab9cfc390dea",
+    "classNotesCode": "828d6314-d3b2-40ac-825d-c81823c2d357.pdf",
+    "dppsPdfCode": "828d6314-d3b2-40ac-825d-c81823c2d357.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Thermodynamics 05 : Energy changes in...",
+    "lectureCode": "5607c890-2792-4c46-b1e2-51fccd00fcf0",
+    "classNotesCode": "65d84023-f0fd-4b85-923e-c1f625146024.pdf",
+    "dppsPdfCode": "65d84023-f0fd-4b85-923e-c1f625146024.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Thermodynamics 04 : Revision of Last ...",
+    "lectureCode": "dd8fd023-411c-4799-830b-48a31f438f64",
+    "classNotesCode": "271ec4ee-ba4a-4f58-a8dc-9899669bc2d9.pdf",
+    "dppsPdfCode": "271ec4ee-ba4a-4f58-a8dc-9899669bc2d9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Thermodynamics 03 : Revision of last ...",
+    "lectureCode": "01bb8e77-1207-4afb-9e0b-9893bb03b64f",
+    "classNotesCode": "370cd61f-3fab-4f9e-95f2-86eb1ca9bfad.pdf",
+    "dppsPdfCode": "370cd61f-3fab-4f9e-95f2-86eb1ca9bfad.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Thermodynamics 02 : Revision of Last ...",
+    "lectureCode": "a79510ce-976c-4ce8-8e59-36dfc3d13865",
+    "classNotesCode": "74ecb23b-0a95-47b5-991e-2b8dfa59db0b.pdf",
+    "dppsPdfCode": "74ecb23b-0a95-47b5-991e-2b8dfa59db0b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Thermodynamics 01 : System its Types ...",
+    "lectureCode": "94da6ffd-ec36-412b-ac66-c08ec89160b8",
+    "classNotesCode": "4eef7dfd-095b-45f8-b0e2-0dfb964f3545.pdf",
+    "dppsPdfCode": "4eef7dfd-095b-45f8-b0e2-0dfb964f3545.pdf",
+    "dppsSolutionCode": ""
+  }
+]

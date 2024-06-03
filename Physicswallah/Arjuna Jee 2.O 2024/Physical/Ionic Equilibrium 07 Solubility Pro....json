@@ -1,0 +1,58 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Ionic Equilibrium 07 : Solubility Pro...",
+    "lectureCode": "39a88153-7903-43f9-a95b-d38784fa155d",
+    "classNotesCode": "9333f71c-825e-4f39-804b-3f50fc978727.pdf",
+    "dppsPdfCode": "9333f71c-825e-4f39-804b-3f50fc978727.pdf",
+    "dppsSolutionCode": "46e815c3-2c8a-43a7-9d27-279911de7959"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Ionic Equilibrium 06: Salt Hydrolysis...",
+    "lectureCode": "7195b47c-82eb-4aa7-ad17-1031ab144726",
+    "classNotesCode": "32202c62-714b-4d2b-854e-f853e27560f3.pdf",
+    "dppsPdfCode": "32202c62-714b-4d2b-854e-f853e27560f3.pdf",
+    "dppsSolutionCode": "6a2eddca-f614-4621-a353-599ad516701b"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Ionic Equilibrium 05 : Salt Hydrolysi...",
+    "lectureCode": "b1ad0545-df04-480f-9883-3ab050aab2ad",
+    "classNotesCode": "19f4b7c3-a675-4c25-9cbc-408d7dd63e33.pdf",
+    "dppsPdfCode": "19f4b7c3-a675-4c25-9cbc-408d7dd63e33.pdf",
+    "dppsSolutionCode": "3c3d75c7-ac1e-469c-bc4c-b0564e34a5ba"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Ionic Equilibrium 04 : pH of substanc...",
+    "lectureCode": "3017ab29-6445-47c1-98cb-b094ee2de989",
+    "classNotesCode": "d5230b52-f391-45df-b176-997244da299a.pdf",
+    "dppsPdfCode": "d5230b52-f391-45df-b176-997244da299a.pdf",
+    "dppsSolutionCode": "2181234b-ff31-4362-a74e-bf8c39dd1b7e"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Ionic Equilibrium 03 : MIT of Log Tab...",
+    "lectureCode": "72c4e0fd-a130-4031-8ba2-7e3260c4a54b",
+    "classNotesCode": "314afdd6-f5cc-4299-bdf0-b11462b9a259.pdf",
+    "dppsPdfCode": "314afdd6-f5cc-4299-bdf0-b11462b9a259.pdf",
+    "dppsSolutionCode": "3a694303-2e17-42c2-909b-e4102d1f610a"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Ionic Equilibrium 02 : Ionic Product ...",
+    "lectureCode": "2269e874-95dd-4d7a-95e9-8bd8b2aeb43c",
+    "classNotesCode": "3236a615-50d1-4638-b9e5-b9dd6997ca6a.pdf",
+    "dppsPdfCode": "3236a615-50d1-4638-b9e5-b9dd6997ca6a.pdf",
+    "dppsSolutionCode": "e44c1c48-e72d-4c1a-b68d-1580cef2c9ad"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Ionic Equillibrium 01: Lewis Acid & B...",
+    "lectureCode": "317d392f-f389-40cd-9be6-f0a94e4554ca",
+    "classNotesCode": "b90b2596-0a90-41e0-9953-0ccd567135ff.pdf",
+    "dppsPdfCode": "b90b2596-0a90-41e0-9953-0ccd567135ff.pdf",
+    "dppsSolutionCode": ""
+  }
+]

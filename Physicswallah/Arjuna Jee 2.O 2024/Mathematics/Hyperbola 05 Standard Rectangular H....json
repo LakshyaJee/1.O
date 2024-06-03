@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Hyperbola 05 : Standard Rectangular H...",
+    "lectureCode": "b5b56e68-3b80-4118-9460-8e56c4fb5a7a",
+    "classNotesCode": "cc4bd99d-43d5-46e7-88da-9ea408649970.pdf",
+    "dppsPdfCode": "cc4bd99d-43d5-46e7-88da-9ea408649970.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Hyperbola 04 : Questions on Tangent &...",
+    "lectureCode": "fc5813ac-076d-4679-a073-fe42ceb1a077",
+    "classNotesCode": "26f45fbf-f97a-4e5f-9247-f9eb4e5e184a.pdf",
+    "dppsPdfCode": "26f45fbf-f97a-4e5f-9247-f9eb4e5e184a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Hyperbola 03 : Position of Point || A...",
+    "lectureCode": "49adc533-0794-4017-abc9-66dc87f80db2",
+    "classNotesCode": "f825d1c2-19df-4c1e-b61c-65ecce031365.pdf",
+    "dppsPdfCode": "f825d1c2-19df-4c1e-b61c-65ecce031365.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Hyperbola 02 : Conjugate Hyperbola ||...",
+    "lectureCode": "d4b88197-dc32-448c-ace8-6a34225023ce",
+    "classNotesCode": "4c3f3ed8-c1d8-444f-b8d1-93573599c656.pdf",
+    "dppsPdfCode": "4c3f3ed8-c1d8-444f-b8d1-93573599c656.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Hyperbola 01 : Properties of Ellipse ...",
+    "lectureCode": "20d9f566-162a-476b-b824-68e0f99837f6",
+    "classNotesCode": "725da7c7-f949-430b-be82-24bfc7468bce.pdf",
+    "dppsPdfCode": "725da7c7-f949-430b-be82-24bfc7468bce.pdf",
+    "dppsSolutionCode": ""
+  }
+]

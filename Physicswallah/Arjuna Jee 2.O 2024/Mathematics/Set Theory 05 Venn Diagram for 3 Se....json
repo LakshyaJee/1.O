@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Set Theory 05 : Venn Diagram for 3 Se...",
+    "lectureCode": "c5523333-f02b-4ff6-a9ac-020e3eb2b26d",
+    "classNotesCode": "0aa118cb-7573-43cc-a7f1-4d50487c0bfe.pdf",
+    "dppsPdfCode": "0aa118cb-7573-43cc-a7f1-4d50487c0bfe.pdf",
+    "dppsSolutionCode": "ba4bb94d-e714-4ddc-8c4f-5cea36685778"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Set Theory 04 : Operations On Sets ||...",
+    "lectureCode": "4db10580-117e-44ea-84dd-d814c3ca6b4f",
+    "classNotesCode": "e48cd67f-07ba-4bf0-b2f6-ef995f98dc82.pdf",
+    "dppsPdfCode": "e48cd67f-07ba-4bf0-b2f6-ef995f98dc82.pdf",
+    "dppsSolutionCode": "76905096-59a0-432b-bb84-ca19bbb97be5"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Set Theory 03 : Subset || Power Set a...",
+    "lectureCode": "2b96a479-8487-4b71-9b2b-a5a3274e8819",
+    "classNotesCode": "5a1a2241-7e94-475b-93f7-afbf3d7d27db.pdf",
+    "dppsPdfCode": "5a1a2241-7e94-475b-93f7-afbf3d7d27db.pdf",
+    "dppsSolutionCode": "5b4becb7-1b2b-4c8d-9e62-dbd9efb54b61"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Set Theory 02 : Representation Of Set...",
+    "lectureCode": "432ff6bb-6811-4562-9720-28a799a2d514",
+    "classNotesCode": "d61dbc42-d35c-4731-beee-a587b9c642ad.pdf",
+    "dppsPdfCode": "d61dbc42-d35c-4731-beee-a587b9c642ad.pdf",
+    "dppsSolutionCode": "ef5880d6-5076-4491-83b2-a8dbd94f83ce"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Set Theory 01 : Introduction To Sets,...",
+    "lectureCode": "a539e809-20a8-49d8-89f2-655cb15a8e1f",
+    "classNotesCode": "b83d7ec2-34ee-4ce8-b43a-946627a3c1ac.pdf",
+    "dppsPdfCode": "b83d7ec2-34ee-4ce8-b43a-946627a3c1ac.pdf",
+    "dppsSolutionCode": "4c3704ad-5fa4-464a-87b3-c9f6370309c8"
+  }
+]
