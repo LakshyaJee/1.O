@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Ionic Equilibrium 05 : Quick Recap ||...",
+    "lectureCode": "5d0f9e28-54d5-4648-9af0-885168087e2e",
+    "classNotesCode": "54d2c3b3-f554-41fc-9571-c6eabfc4fa82.pdf",
+    "dppsPdfCode": "54d2c3b3-f554-41fc-9571-c6eabfc4fa82.pdf",
+    "dppsSolutionCode": "47ee9c85-8a5c-4de3-8d32-b7cf8c1521bb"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Ionic Equilibrium 04 : Salt Analysis ...",
+    "lectureCode": "9a3885a7-7ea7-4e43-9431-01249c8d15ed",
+    "classNotesCode": "80297961-8c40-4a8a-ba87-fe3771a18dff.pdf",
+    "dppsPdfCode": "80297961-8c40-4a8a-ba87-fe3771a18dff.pdf",
+    "dppsSolutionCode": "ac757414-1be3-4a8b-a199-712bbb52963f"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Ionic Equilibrium 03 : pH Calculation...",
+    "lectureCode": "3f0c2e24-c703-459d-9818-3249b280ae22",
+    "classNotesCode": "396d1d45-6b59-454c-b9dd-ef723e2f528d.pdf",
+    "dppsPdfCode": "396d1d45-6b59-454c-b9dd-ef723e2f528d.pdf",
+    "dppsSolutionCode": "a824a459-11c1-4b13-a0e5-8cd6126e228f"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Ionic Equilibrium 02 : Home Work Disc...",
+    "lectureCode": "119a516a-72c8-4fe7-baac-339834b5ed84",
+    "classNotesCode": "3296f4d7-d601-4f3b-a6dd-417fde25e766.pdf",
+    "dppsPdfCode": "3296f4d7-d601-4f3b-a6dd-417fde25e766.pdf",
+    "dppsSolutionCode": "605b269a-9e33-485c-92a6-16a0eae70b71"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Ionic Equilibrium 01 : Le -Chaterlier...",
+    "lectureCode": "fa4e905e-328c-4f93-9ab5-b81e0803e451",
+    "classNotesCode": "3e4e49e8-113b-41af-b837-c251256aafa9.pdf",
+    "dppsPdfCode": "3e4e49e8-113b-41af-b837-c251256aafa9.pdf",
+    "dppsSolutionCode": "1e6c1e90-49f9-4e42-98fc-7b5cb0c2e6b9"
+  }
+]

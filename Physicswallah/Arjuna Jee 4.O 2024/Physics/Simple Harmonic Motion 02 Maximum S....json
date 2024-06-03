@@ -1,0 +1,34 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Simple Harmonic Motion 02 : Maximum S...",
+    "lectureCode": "45e8dda1-63c0-484c-84bb-ec3d959f237a",
+    "classNotesCode": "b94c3712-821f-453f-b65f-e476b0380f07.pdf",
+    "dppsPdfCode": "b94c3712-821f-453f-b65f-e476b0380f07.pdf",
+    "dppsSolutionCode": "17e234f2-4027-4507-ad5e-1f2ef405c6b5"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Simple Harmonic Motion 01 : Periodic ...",
+    "lectureCode": "935ca57a-06b0-42b9-86cf-c201ef0929fc",
+    "classNotesCode": "ea3129d6-e0c2-411e-b1cb-2d8a882c59ae.pdf",
+    "dppsPdfCode": "ea3129d6-e0c2-411e-b1cb-2d8a882c59ae.pdf",
+    "dppsSolutionCode": "2ff409cf-ad3a-434f-9e90-6f91bc32c45d"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Simple Harmonic Motion 04 :  Superpos...",
+    "lectureCode": "86b78533-c241-4a08-b8a7-efa313df8903",
+    "classNotesCode": "5fad7d57-bebe-4d67-a44d-11df48cd6d8f.pdf",
+    "dppsPdfCode": "5fad7d57-bebe-4d67-a44d-11df48cd6d8f.pdf",
+    "dppsSolutionCode": "39126eb2-a3f9-4ea8-b5b3-64011871e349"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Simple Harmonic Motion 03 : Spring Bl...",
+    "lectureCode": "88b6ac0c-973e-4f20-b615-01790b337b23",
+    "classNotesCode": "e1aa5108-3c45-453d-a028-760874ab9ec0.pdf",
+    "dppsPdfCode": "e1aa5108-3c45-453d-a028-760874ab9ec0.pdf",
+    "dppsSolutionCode": "88ba2493-257c-4e9e-9f72-43007640cef4"
+  }
+]

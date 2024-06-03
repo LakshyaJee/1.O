@@ -1,0 +1,34 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Newton's Law Of Motion 04 : Translati...",
+    "lectureCode": "43a54197-8290-40e9-b52d-a629cef65f8c",
+    "classNotesCode": "db2491b8-a200-4b97-a5c3-37fe271c98e9.pdf",
+    "dppsPdfCode": "db2491b8-a200-4b97-a5c3-37fe271c98e9.pdf",
+    "dppsSolutionCode": "5683e21a-222a-4bf7-b53f-97337b6ab976"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Newton's Law Of Motion 03 : Pulley Bl...",
+    "lectureCode": "833293cc-60f0-4d2b-bde2-eccc6348a07e",
+    "classNotesCode": "4323bcd1-9019-4167-9a63-4c10a0f3a3bf.pdf",
+    "dppsPdfCode": "4323bcd1-9019-4167-9a63-4c10a0f3a3bf.pdf",
+    "dppsSolutionCode": "6d397a7b-1ffc-47a1-82c4-0e0e92cac2df"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Newton's Law Of Motion 02 : Free Body...",
+    "lectureCode": "7eff96d1-7c91-47d3-ae53-0f3118731395",
+    "classNotesCode": "43a49d91-120e-4200-b68c-79dc3e2b02d3.pdf",
+    "dppsPdfCode": "43a49d91-120e-4200-b68c-79dc3e2b02d3.pdf",
+    "dppsSolutionCode": "da3490cc-5317-4888-9785-0b4fa63a48e7"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Newton's Law Of Motion 01 : Newton's ...",
+    "lectureCode": "a85f2df7-3c8b-4b6d-80c2-efd96241421f",
+    "classNotesCode": "72fd5b4e-6633-4dc6-8869-b8031caf9d0e.pdf",
+    "dppsPdfCode": "72fd5b4e-6633-4dc6-8869-b8031caf9d0e.pdf",
+    "dppsSolutionCode": "00052351-ddd2-4983-85ab-7458d1324c6b"
+  }
+]

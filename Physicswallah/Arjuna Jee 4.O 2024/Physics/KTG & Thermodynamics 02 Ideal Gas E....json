@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "KTG & Thermodynamics 02 : Ideal Gas E...",
+    "lectureCode": "88d1c575-9f7d-417c-94be-5e99b3b59bcf",
+    "classNotesCode": "b6faf6e6-c379-4d64-afa3-bb14e098c1de.pdf",
+    "dppsPdfCode": "b6faf6e6-c379-4d64-afa3-bb14e098c1de.pdf",
+    "dppsSolutionCode": "ecaf171f-a23e-40f8-93e9-e71d4eb5bf49"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "KTG & Thermodynamics 01 : Postulates ...",
+    "lectureCode": "ccd37b38-d6df-4520-88ae-d8b458764498",
+    "classNotesCode": "89421e7b-a5ea-416c-a45c-f5932477f013.pdf",
+    "dppsPdfCode": "89421e7b-a5ea-416c-a45c-f5932477f013.pdf",
+    "dppsSolutionCode": "935ea6af-819e-4ab3-8638-759b8d756612"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "KTG & Thermodynamics 03 : Work Done B...",
+    "lectureCode": "7675ea9e-92cc-45f3-94cd-d9a8c5d4272b",
+    "classNotesCode": "e174ad9f-3ea1-457e-a3c7-c341a2a53ad6.pdf",
+    "dppsPdfCode": "e174ad9f-3ea1-457e-a3c7-c341a2a53ad6.pdf",
+    "dppsSolutionCode": "30598215-6fb4-444d-bf42-ed66d66ae393"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "KTG & Thermodynamics 05 : Polytropic ...",
+    "lectureCode": "db627e70-32a8-4803-a8a7-d9ed18003f62",
+    "classNotesCode": "6fb583ed-cecc-4a43-a9a5-beb8e852451d.pdf",
+    "dppsPdfCode": "6fb583ed-cecc-4a43-a9a5-beb8e852451d.pdf",
+    "dppsSolutionCode": "5d00024c-e445-46ff-8ace-c5d95c2ce367"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "KTG & Thermodynamics 04 : Isochoric P...",
+    "lectureCode": "249a103c-2343-41b2-9453-aa26dda0fd36",
+    "classNotesCode": "d39882e1-cc88-460d-981e-dfffb84d31d4.pdf",
+    "dppsPdfCode": "d39882e1-cc88-460d-981e-dfffb84d31d4.pdf",
+    "dppsSolutionCode": "33b22055-83f4-4996-8907-9c4aec37fd52"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Chemical Equilibrium 01 : Basic Defin...",
+    "lectureCode": "2f49c2fd-3c59-4802-af09-b03ee458a413",
+    "classNotesCode": "e39fad63-793e-4dee-abc5-1813125fbc66.pdf",
+    "dppsPdfCode": "e39fad63-793e-4dee-abc5-1813125fbc66.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Chemical Equilibrium 03 : Calculation...",
+    "lectureCode": "9c7ce973-985b-4314-bc83-1e4e39be5987",
+    "classNotesCode": "12168e4a-7c87-4070-86d6-8cf5557e4520.pdf",
+    "dppsPdfCode": "12168e4a-7c87-4070-86d6-8cf5557e4520.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Chemical Equilibrium 02 : Characteris...",
+    "lectureCode": "9a4e79e0-9c15-44ae-8489-b06580fd7bda",
+    "classNotesCode": "81b0b711-5f77-4e79-aca2-03139d6f96fe.pdf",
+    "dppsPdfCode": "81b0b711-5f77-4e79-aca2-03139d6f96fe.pdf",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Newton's Law Of Motion 02 : NCERT Dis...",
+    "lectureCode": "1690a115-bf45-4dc4-8452-4b0570b11734",
+    "classNotesCode": "bf975ddb-2d7e-4555-bdf9-07f4809260c3.pdf",
+    "dppsPdfCode": "bf975ddb-2d7e-4555-bdf9-07f4809260c3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Newton's Law Of Motion 01 : NCERT Dis...",
+    "lectureCode": "281a70b0-1421-44dc-a91a-44dd07ff957a",
+    "classNotesCode": "a5c0dbdf-eeb0-42c8-9df9-1137ebc7706a.pdf",
+    "dppsPdfCode": "a5c0dbdf-eeb0-42c8-9df9-1137ebc7706a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Atomic Structure 02 : NCERT Discussion",
+    "lectureCode": "7cce3398-cbb1-4ba2-b047-1eb6337097e6",
+    "classNotesCode": "24a9e4eb-bf81-417a-9a0f-ff66a90b9d2c.pdf",
+    "dppsPdfCode": "24a9e4eb-bf81-417a-9a0f-ff66a90b9d2c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Atomic Structure 01 : NCERT Discussion",
+    "lectureCode": "f7db8d90-21d7-4e4d-bcd4-af757c03c62c",
+    "classNotesCode": "9f36414a-6bd0-4d47-9953-b084461cee6e.pdf",
+    "dppsPdfCode": "9f36414a-6bd0-4d47-9953-b084461cee6e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Some Basic Concepts of Chemistry 01 :...",
+    "lectureCode": "3b98111f-433e-442c-b922-e95016dd3730",
+    "classNotesCode": "3993c87e-6092-43f9-946c-fadde004c572.pdf",
+    "dppsPdfCode": "3993c87e-6092-43f9-946c-fadde004c572.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Some Basic Concept Of Chemistry 01 : ...",
+    "lectureCode": "1a11d827-97f5-4911-8c88-c763581831bf",
+    "classNotesCode": "def7c494-cc33-4651-808c-1bd924d5fa16.pdf",
+    "dppsPdfCode": "def7c494-cc33-4651-808c-1bd924d5fa16.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Wave Motion 02 : NCERT Discussion || ...",
+    "lectureCode": "e9859070-3aa7-4f8f-8493-382f54dc1d0b",
+    "classNotesCode": "7915903f-1434-464c-b567-5cc2e10a7288.pdf",
+    "dppsPdfCode": "7915903f-1434-464c-b567-5cc2e10a7288.pdf",
+    "dppsSolutionCode": ""
+  }
+]

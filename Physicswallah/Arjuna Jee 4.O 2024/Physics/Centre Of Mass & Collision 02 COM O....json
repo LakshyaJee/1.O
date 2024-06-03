@@ -1,0 +1,50 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Centre Of Mass & Collision 02 : COM O...",
+    "lectureCode": "24cf29f9-582c-4ab5-bdbd-6fece983ed90",
+    "classNotesCode": "582db548-f897-4bc8-a5d4-7e7e17bf17b2.pdf",
+    "dppsPdfCode": "582db548-f897-4bc8-a5d4-7e7e17bf17b2.pdf",
+    "dppsSolutionCode": "53a9d63b-88d2-4bfe-937e-5e8199c51d7e"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Centre Of Mass & Collision 01 : Calcu...",
+    "lectureCode": "0b92fcfa-c06c-4d0a-b271-f87cd2172ff8",
+    "classNotesCode": "4167138c-abde-4ace-9825-d5249b3c8444.pdf",
+    "dppsPdfCode": "4167138c-abde-4ace-9825-d5249b3c8444.pdf",
+    "dppsSolutionCode": "73f91731-cd10-49ad-aa5b-a84051b43c54"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Centre Of Mass & Collision 06 : Inela...",
+    "lectureCode": "cf58c9f6-c2c8-4499-8a0b-8db4eec91a01",
+    "classNotesCode": "bcb719d1-c2bd-4ac8-8a4d-d9fa2cbc3ae1.pdf",
+    "dppsPdfCode": "bcb719d1-c2bd-4ac8-8a4d-d9fa2cbc3ae1.pdf",
+    "dppsSolutionCode": "814eeebb-8388-4869-b431-0f185de32bfb"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Centre Of Mass & Collision 05 : Impul...",
+    "lectureCode": "666dc40b-388c-4c56-af60-1a9a21b7b778",
+    "classNotesCode": "126fa783-854f-4e2a-b436-7566be1381c8.pdf",
+    "dppsPdfCode": "126fa783-854f-4e2a-b436-7566be1381c8.pdf",
+    "dppsSolutionCode": "1ace909f-c13e-4d53-ac58-c8d6c0394e07"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Centre Of Mass & Collision 04 : Conse...",
+    "lectureCode": "f1a3d899-d604-4446-a82b-3a54d514a21f",
+    "classNotesCode": "40f5a0a3-7c37-4b54-9957-56905c011180.pdf",
+    "dppsPdfCode": "40f5a0a3-7c37-4b54-9957-56905c011180.pdf",
+    "dppsSolutionCode": "9b5c2002-d80d-4ad6-a93e-acf88638bbc7"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Centre Of Mass & Collision 03 : Motio...",
+    "lectureCode": "22ea4afc-3dd5-4adc-950d-4626ad14897d",
+    "classNotesCode": "dba5903a-aaf4-4884-9fc6-b31870e7f898.pdf",
+    "dppsPdfCode": "dba5903a-aaf4-4884-9fc6-b31870e7f898.pdf",
+    "dppsSolutionCode": "a9e462f6-b4f5-4bcc-987a-ffa0ef3ad5eb"
+  }
+]

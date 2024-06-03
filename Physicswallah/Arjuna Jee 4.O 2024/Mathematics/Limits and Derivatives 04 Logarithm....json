@@ -1,0 +1,34 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Limits and Derivatives 04 : Logarithm...",
+    "lectureCode": "9a9f09ad-456b-4ee8-9c61-816c92eea882",
+    "classNotesCode": "6ffb4253-c7df-46d8-9272-6ad4cfddeb42.pdf",
+    "dppsPdfCode": "6ffb4253-c7df-46d8-9272-6ad4cfddeb42.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Limits and Derivatives 03 : Rationali...",
+    "lectureCode": "647a57cc-ab7c-4381-8121-5909c4824522",
+    "classNotesCode": "54ea7653-b366-43ec-8d69-a7e1fe5e0fe8.pdf",
+    "dppsPdfCode": "54ea7653-b366-43ec-8d69-a7e1fe5e0fe8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Limits and Derivatives 02 : Basic Of ...",
+    "lectureCode": "25c77282-81b0-4775-b62f-a2a7b023b981",
+    "classNotesCode": "19aedfe7-7bf1-43b8-993f-1197d16181a9.pdf",
+    "dppsPdfCode": "19aedfe7-7bf1-43b8-993f-1197d16181a9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Limits and Derivatives 01 : Transform...",
+    "lectureCode": "427996f5-db94-4ddf-851a-07043c34fe00",
+    "classNotesCode": "92aa7d55-ed9d-4db3-b98f-4e54affae0ca.pdf",
+    "dppsPdfCode": "92aa7d55-ed9d-4db3-b98f-4e54affae0ca.pdf",
+    "dppsSolutionCode": ""
+  }
+]

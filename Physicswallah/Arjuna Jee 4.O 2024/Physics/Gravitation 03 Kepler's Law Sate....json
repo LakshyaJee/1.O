@@ -1,0 +1,26 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Gravitation 03 : Kepler's Law || Sate...",
+    "lectureCode": "996d45cd-bab1-4209-8990-8b14f2631bd7",
+    "classNotesCode": "e42b2c1b-c492-44e9-9d2b-ba2928cb0269.pdf",
+    "dppsPdfCode": "e42b2c1b-c492-44e9-9d2b-ba2928cb0269.pdf",
+    "dppsSolutionCode": "5afb1c58-2d96-4841-89ce-0d4b1daf68e5"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Gravitation 02 : Gravitational Potent...",
+    "lectureCode": "b898a715-fd72-4fca-b75e-28ff7f1894b4",
+    "classNotesCode": "d1326a10-051e-4bf8-97b7-33e3b3814887.pdf",
+    "dppsPdfCode": "d1326a10-051e-4bf8-97b7-33e3b3814887.pdf",
+    "dppsSolutionCode": "b1699b86-660e-4b3a-b85f-6ac76ec5e969"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Gravitation 01 : Newton's Law Of Grav...",
+    "lectureCode": "762be776-4cdb-4a15-aee9-bce9de4107c2",
+    "classNotesCode": "c1034d13-1b4e-45ff-b8c2-65c20439e878.pdf",
+    "dppsPdfCode": "c1034d13-1b4e-45ff-b8c2-65c20439e878.pdf",
+    "dppsSolutionCode": "dcabcd2a-1f9c-43c6-9847-ba6b4a690e98"
+  }
+]

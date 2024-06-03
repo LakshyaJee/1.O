@@ -1,0 +1,34 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Units and Measurement 04 : Least Coun...",
+    "lectureCode": "406f18da-edfa-4f8c-a1f7-4e1a117442a5",
+    "classNotesCode": "27f66ad4-3aa9-4a44-88a7-d45833cf3b21.pdf",
+    "dppsPdfCode": "27f66ad4-3aa9-4a44-88a7-d45833cf3b21.pdf",
+    "dppsSolutionCode": "d5797efc-faeb-4268-81b9-535805aa352f"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Units and Measurement 03 : Significan...",
+    "lectureCode": "741cfc2d-0e03-4f79-b5f0-29f268c85792",
+    "classNotesCode": "90b38fcd-5659-4143-ab4c-92680b7fd127.pdf",
+    "dppsPdfCode": "90b38fcd-5659-4143-ab4c-92680b7fd127.pdf",
+    "dppsSolutionCode": "cc50727a-7f4a-4b40-8a5e-bd6df2605bf6"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Units and Measurement 02 : Principle ...",
+    "lectureCode": "7a1dace7-48cc-4cbd-a9c7-6fb434a4b92c",
+    "classNotesCode": "9ad42578-88d9-4f8a-a776-1b61037c45bf.pdf",
+    "dppsPdfCode": "9ad42578-88d9-4f8a-a776-1b61037c45bf.pdf",
+    "dppsSolutionCode": "afc8d9d0-4acf-42db-9724-8c581ff32ebf"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Units and Measurement 01 : Physical Q...",
+    "lectureCode": "7d84e75b-c73c-4a58-b207-7936adb23ea6",
+    "classNotesCode": "6d66c643-5c61-4878-8277-043f95d555df.pdf",
+    "dppsPdfCode": "6d66c643-5c61-4878-8277-043f95d555df.pdf",
+    "dppsSolutionCode": "3882485e-7a9b-473a-9cc5-6fdefe333e08"
+  }
+]

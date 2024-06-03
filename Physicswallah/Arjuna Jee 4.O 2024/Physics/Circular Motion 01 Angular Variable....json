@@ -1,0 +1,26 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Circular Motion 01 : Angular Variable...",
+    "lectureCode": "6dc54ef6-2dd4-45bc-b405-15e30f3515b8",
+    "classNotesCode": "4872efdb-48ba-4dd9-8d64-2455edba1ab7.pdf",
+    "dppsPdfCode": "4872efdb-48ba-4dd9-8d64-2455edba1ab7.pdf",
+    "dppsSolutionCode": "e724833c-ea89-4062-8baf-a1c06dc6b42f"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Circular Motion 03 : Conical Pendulum...",
+    "lectureCode": "5a87dd38-997c-44a5-84d6-8bee730e69c1",
+    "classNotesCode": "31c3f7ea-e1d9-42f8-bcc9-8a616f0b6a2c.pdf",
+    "dppsPdfCode": "31c3f7ea-e1d9-42f8-bcc9-8a616f0b6a2c.pdf",
+    "dppsSolutionCode": "63e1730d-a41c-4860-bd31-d8d9ad6d90ad"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Circular Motion 02 : Acceleration In ...",
+    "lectureCode": "c8c97159-a83e-49f7-be3c-0370a9d2639f",
+    "classNotesCode": "39831162-d3bf-4e4d-b4ab-7eb5c19519e9.pdf",
+    "dppsPdfCode": "39831162-d3bf-4e4d-b4ab-7eb5c19519e9.pdf",
+    "dppsSolutionCode": "32f14ed7-e81b-49bc-a247-14aac04b7042"
+  }
+]

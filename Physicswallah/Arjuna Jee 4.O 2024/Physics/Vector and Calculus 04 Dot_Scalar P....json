@@ -1,0 +1,34 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Vector and Calculus 04 : Dot/Scalar P...",
+    "lectureCode": "1d82607c-f59a-4eb9-a7bf-4e609324dc7e",
+    "classNotesCode": "01e6a74b-d211-4f8c-83db-11611cf5eb10.pdf",
+    "dppsPdfCode": "01e6a74b-d211-4f8c-83db-11611cf5eb10.pdf",
+    "dppsSolutionCode": "8ff14fc5-329b-4db2-baeb-60c36d18141f"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Vector and Calculus 03 : Components O...",
+    "lectureCode": "b7b5ddf6-d5fc-49f6-9077-32af5390962a",
+    "classNotesCode": "d81a7ffb-9e49-4ecf-91cc-9b06840ab80d.pdf",
+    "dppsPdfCode": "d81a7ffb-9e49-4ecf-91cc-9b06840ab80d.pdf",
+    "dppsSolutionCode": "f665ca7e-e812-4253-be25-9f7d5663ef8b"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Vector and Calculus 02 : Parallelogra...",
+    "lectureCode": "6f5627f3-39d2-43bd-abff-af9dfa998e4a",
+    "classNotesCode": "136429dd-737f-458f-80a4-fd2795eb5f35.pdf",
+    "dppsPdfCode": "136429dd-737f-458f-80a4-fd2795eb5f35.pdf",
+    "dppsSolutionCode": "fee53d4a-a15d-4385-a45a-b4332ca27869"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Vector and Calculus 01 : Physical Qua...",
+    "lectureCode": "e5ebf469-f4ef-4461-94fa-74d2d7d87287",
+    "classNotesCode": "a8adbbab-d66b-4ce7-8d58-79bb359a0053.pdf",
+    "dppsPdfCode": "a8adbbab-d66b-4ce7-8d58-79bb359a0053.pdf",
+    "dppsSolutionCode": "caea724b-3e16-464c-9105-a3eac755772d"
+  }
+]

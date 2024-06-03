@@ -1,0 +1,34 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Binomial Theorem 02 : General Term ||...",
+    "lectureCode": "f06ab8a4-ebb2-48f6-ad1e-81348141eb7f",
+    "classNotesCode": "6b01ce43-f23c-44f1-92d1-eb59498d4be6.pdf",
+    "dppsPdfCode": "6b01ce43-f23c-44f1-92d1-eb59498d4be6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "!! Binomial Theorem 01 : Introduction...",
+    "lectureCode": "7e73b200-067f-4819-85fd-7184b893f510",
+    "classNotesCode": "794d75c5-ecda-495d-acd9-2367eed4344d.pdf",
+    "dppsPdfCode": "794d75c5-ecda-495d-acd9-2367eed4344d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Binomial Theorem 04 : Multinomial The...",
+    "lectureCode": "a84e8caa-7eff-4b8d-835c-2629eabe9f65",
+    "classNotesCode": "750d0a20-0ad5-4914-a87b-97d70807f5ba.pdf",
+    "dppsPdfCode": "750d0a20-0ad5-4914-a87b-97d70807f5ba.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Binomial Theorem 03 : Summation Serie...",
+    "lectureCode": "e7da2462-ae39-482e-bc9d-56fe0c36b4d8",
+    "classNotesCode": "f82d0374-cd3e-41c4-8fae-8fc524ad0321.pdf",
+    "dppsPdfCode": "f82d0374-cd3e-41c4-8fae-8fc524ad0321.pdf",
+    "dppsSolutionCode": ""
+  }
+]

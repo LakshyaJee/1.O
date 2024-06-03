@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Complex Numbers 02 : Iota || Algebra ...",
+    "lectureCode": "7e080671-8011-4cb5-8b16-e31e3320c22f",
+    "classNotesCode": "44c0da96-4356-46d8-8e1d-14857ca3e551.pdf",
+    "dppsPdfCode": "44c0da96-4356-46d8-8e1d-14857ca3e551.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Complex Numbers 01 : Iota & Its Prope...",
+    "lectureCode": "32602317-3455-4d2f-b099-57edc51866d3",
+    "classNotesCode": "874f7855-5dc1-47c6-806c-7cd637bb8707.pdf",
+    "dppsPdfCode": "874f7855-5dc1-47c6-806c-7cd637bb8707.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Complex Numbers 05 : Euler Form || De...",
+    "lectureCode": "afb27533-7373-43fc-b47d-5294a3a2b184",
+    "classNotesCode": "931042de-af0c-42f8-aa22-1c18a7f13f47.pdf",
+    "dppsPdfCode": "931042de-af0c-42f8-aa22-1c18a7f13f47.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Complex Numbers 04 : Problems || Pola...",
+    "lectureCode": "fd903d6d-1373-4310-8711-5de18ec54bad",
+    "classNotesCode": "333ec98b-ee93-42a1-949b-123d34432041.pdf",
+    "dppsPdfCode": "333ec98b-ee93-42a1-949b-123d34432041.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Complex Numbers 03 : Modulus || Argum...",
+    "lectureCode": "476a5c3d-edaf-4b21-938e-4e72897e9a05",
+    "classNotesCode": "ea040984-7125-4d30-9db3-2c3d06a0d5e0.pdf",
+    "dppsPdfCode": "ea040984-7125-4d30-9db3-2c3d06a0d5e0.pdf",
+    "dppsSolutionCode": ""
+  }
+]

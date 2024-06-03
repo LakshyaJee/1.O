@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Motion in a Straight Line 05 : Motion...",
+    "lectureCode": "29d6181c-947f-4a36-8ee3-5eb44e487aeb",
+    "classNotesCode": "74f03149-0714-4a17-86df-f4d466ae95b6.pdf",
+    "dppsPdfCode": "74f03149-0714-4a17-86df-f4d466ae95b6.pdf",
+    "dppsSolutionCode": "86517718-ba12-473a-bc74-dd9064f7df73"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Motion in a Straight Line 04 : x - t ...",
+    "lectureCode": "84c0ad1e-a68f-4c1e-99cf-286d608c4f39",
+    "classNotesCode": "41557d31-95e0-4afc-8345-248b8148fca7.pdf",
+    "dppsPdfCode": "41557d31-95e0-4afc-8345-248b8148fca7.pdf",
+    "dppsSolutionCode": "a4fec7c5-41b5-4c4f-8d5a-0bd3dbc1165f"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Motion in a Straight Line 03 : Unifor...",
+    "lectureCode": "962eb254-bf44-48a1-afa8-d20bb9ded449",
+    "classNotesCode": "a7869fd2-eb70-450f-b0e1-10fe39444038.pdf",
+    "dppsPdfCode": "a7869fd2-eb70-450f-b0e1-10fe39444038.pdf",
+    "dppsSolutionCode": "22f041d9-9c74-476e-9df4-c45daf500cde"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Motion in a Straight Line 02 : Instan...",
+    "lectureCode": "1f4769fd-cab9-4d77-b6b3-638528a286db",
+    "classNotesCode": "18c2f7aa-d473-46ee-bffb-2ffbbeb51372.pdf",
+    "dppsPdfCode": "18c2f7aa-d473-46ee-bffb-2ffbbeb51372.pdf",
+    "dppsSolutionCode": "d6105cc3-6aeb-4009-b8c4-b4fb0f7ea741"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Motion in a Straight Line 01 : Motion...",
+    "lectureCode": "3686b2b3-4e92-4a18-9c75-a769a0b2bd90",
+    "classNotesCode": "83742eea-301a-4eb7-b3ed-0fe934b9b914.pdf",
+    "dppsPdfCode": "83742eea-301a-4eb7-b3ed-0fe934b9b914.pdf",
+    "dppsSolutionCode": "14463d2d-5d95-4e44-9903-a02ddd8319c3"
+  }
+]

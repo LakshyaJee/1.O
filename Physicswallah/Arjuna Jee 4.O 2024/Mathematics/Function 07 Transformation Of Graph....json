@@ -1,0 +1,58 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Function 07 : Transformation Of Graph...",
+    "lectureCode": "3e69db3d-04d2-497b-8bbb-efeb0971337c",
+    "classNotesCode": "06d125cb-4e10-4f61-9f61-4a089540903c.pdf",
+    "dppsPdfCode": "06d125cb-4e10-4f61-9f61-4a089540903c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Function 06 : Range || Graphs Of Basi...",
+    "lectureCode": "ffb927bd-b027-4b13-9d37-fd245547afec",
+    "classNotesCode": "53700446-9682-4f91-9215-d2b779fc65f9.pdf",
+    "dppsPdfCode": "53700446-9682-4f91-9215-d2b779fc65f9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Function 05 : Range",
+    "lectureCode": "16968f0b-5fb1-4caf-966f-f73fc58848fd",
+    "classNotesCode": "6407fdb7-e611-4c48-9e24-915198ac3b6d.pdf",
+    "dppsPdfCode": "6407fdb7-e611-4c48-9e24-915198ac3b6d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Function 04 : Domain of a Function",
+    "lectureCode": "40ae50a1-09a4-46f0-8ee2-020bfc4ebd4d",
+    "classNotesCode": "706c5a6b-9d85-464e-9844-ed162f4ed782.pdf",
+    "dppsPdfCode": "706c5a6b-9d85-464e-9844-ed162f4ed782.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Function 03 : Domain of a Function ||...",
+    "lectureCode": "a71b134d-d050-454b-b136-2c4a245afd59",
+    "classNotesCode": "510acb45-47b3-48bf-8b47-d6f297e22908.pdf",
+    "dppsPdfCode": "510acb45-47b3-48bf-8b47-d6f297e22908.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Function 02 : Introduction to Functio...",
+    "lectureCode": "0297633d-8c4c-4c68-a397-acd3a6d3ae43",
+    "classNotesCode": "746cec23-e89b-4f24-8d1a-af78004c21c3.pdf",
+    "dppsPdfCode": "746cec23-e89b-4f24-8d1a-af78004c21c3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Function 01 : Cartesian Product || In...",
+    "lectureCode": "5fc3c666-1aa5-4a99-af7d-873644be333c",
+    "classNotesCode": "4ee2d07a-b4ec-4fa5-bb55-8673a1b59949.pdf",
+    "dppsPdfCode": "4ee2d07a-b4ec-4fa5-bb55-8673a1b59949.pdf",
+    "dppsSolutionCode": ""
+  }
+]

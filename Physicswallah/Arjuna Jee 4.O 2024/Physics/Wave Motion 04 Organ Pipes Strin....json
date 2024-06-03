@@ -1,0 +1,34 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Wave Motion 04 : Organ Pipes || Strin...",
+    "lectureCode": "c9187dc4-1eb8-4244-a99f-790949e3eeb8",
+    "classNotesCode": "e52abacc-1046-4fe9-ba8c-5759315df858.pdf",
+    "dppsPdfCode": "e52abacc-1046-4fe9-ba8c-5759315df858.pdf",
+    "dppsSolutionCode": "9a8406b1-562d-4017-97a6-296a971b689a"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Wave Motion 03 : Superposition Of Wav...",
+    "lectureCode": "03219bdf-29bd-4bfa-8997-a2d2273df200",
+    "classNotesCode": "aa68a84f-c482-4bbf-bdc1-747e98ca3fd5.pdf",
+    "dppsPdfCode": "aa68a84f-c482-4bbf-bdc1-747e98ca3fd5.pdf",
+    "dppsSolutionCode": "73707b71-453f-4708-9a10-63a96e2ac12f"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Wave Motion 02 : Differential Form Of...",
+    "lectureCode": "13f26e16-2c01-4a49-ae20-e07f5b538bee",
+    "classNotesCode": "ef742b0e-b52a-46e7-b4e4-0f4fa6d13c80.pdf",
+    "dppsPdfCode": "ef742b0e-b52a-46e7-b4e4-0f4fa6d13c80.pdf",
+    "dppsSolutionCode": "04993e4a-de6b-48f8-ba27-d6aed65e7a02"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Wave Motion 01 : Classification Of Wa...",
+    "lectureCode": "8c86dc3c-b740-48c7-a28a-cbaf57289a95",
+    "classNotesCode": "5de74190-74b7-43c8-bde5-a20ef2696689.pdf",
+    "dppsPdfCode": "5de74190-74b7-43c8-bde5-a20ef2696689.pdf",
+    "dppsSolutionCode": "846049f7-c579-4f94-b4fd-6b43bdf10b4d"
+  }
+]

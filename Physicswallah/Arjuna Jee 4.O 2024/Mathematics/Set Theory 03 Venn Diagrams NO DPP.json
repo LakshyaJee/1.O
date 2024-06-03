@@ -1,0 +1,26 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Set Theory 03 : Venn Diagrams || NO DPP",
+    "lectureCode": "17ab77bd-52e2-41e5-a9b9-25c5fe027545",
+    "classNotesCode": "71402876-4cd7-4ed2-936f-a9cdbadbdda1.pdf",
+    "dppsPdfCode": "71402876-4cd7-4ed2-936f-a9cdbadbdda1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Set Theory 02 : Subset || Power Set |...",
+    "lectureCode": "b4bd5fcd-e625-47c5-9c8f-06a9f691a608",
+    "classNotesCode": "38166727-06e3-4b85-993c-9b3c0d258b5d.pdf",
+    "dppsPdfCode": "38166727-06e3-4b85-993c-9b3c0d258b5d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Set Theory 01 : Complete Theory || LIVE",
+    "lectureCode": "3b94f866-ab82-49dc-9cad-7b417c474d99",
+    "classNotesCode": "c892a7b4-59e1-4507-b7d5-b7f34c5e6fc2.pdf",
+    "dppsPdfCode": "c892a7b4-59e1-4507-b7d5-b7f34c5e6fc2.pdf",
+    "dppsSolutionCode": ""
+  }
+]

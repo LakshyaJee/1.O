@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Motion in a plane by Chetan Sir",
+    "lectureCode": "369b19dc-2b28-4651-b5f6-29291b828668",
+    "classNotesCode": "1e91d7ef-5a4e-4011-acf3-dd1dc9190b70.pdf",
+    "dppsPdfCode": "1e91d7ef-5a4e-4011-acf3-dd1dc9190b70.pdf",
+    "dppsSolutionCode": "62cf6fa0-6bee-4528-932c-26616107ccc8"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Motion in Plane 04 : Relative Motion ...",
+    "lectureCode": "deab6d9d-fcfc-4df0-979b-65fdcaf08923",
+    "classNotesCode": "9042fd3f-5981-4d5e-89d9-f4f8f572844d.pdf",
+    "dppsPdfCode": "9042fd3f-5981-4d5e-89d9-f4f8f572844d.pdf",
+    "dppsSolutionCode": "8bbcb76f-6bf0-4462-b63e-dc1c4af11cb2"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Motion in Plane 03 : Projectile On An...",
+    "lectureCode": "e2df6964-a279-4914-812a-e31aa026ba57",
+    "classNotesCode": "aadf158e-b010-4f51-b140-cba749b39c0f.pdf",
+    "dppsPdfCode": "aadf158e-b010-4f51-b140-cba749b39c0f.pdf",
+    "dppsSolutionCode": "7c75fbf9-a348-439f-94e8-eb70bddbe9fe"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Motion in Plane 02 : T, H, R in Proje...",
+    "lectureCode": "06ad12a3-6bca-47cb-aea5-e0583e135f87",
+    "classNotesCode": "44fa8fb6-7e88-4900-addb-dbbc10c8e16d.pdf",
+    "dppsPdfCode": "44fa8fb6-7e88-4900-addb-dbbc10c8e16d.pdf",
+    "dppsSolutionCode": "54e2e080-d2fc-43b6-bf9f-ff0b1bf80b23"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Motion in Palne 01 : General 2D Motio...",
+    "lectureCode": "cc59846f-2529-4f2e-a8b3-561834b9f164",
+    "classNotesCode": "a1a998ad-d34f-4260-9e18-a4d8c1ae13ea.pdf",
+    "dppsPdfCode": "a1a998ad-d34f-4260-9e18-a4d8c1ae13ea.pdf",
+    "dppsSolutionCode": ""
+  }
+]

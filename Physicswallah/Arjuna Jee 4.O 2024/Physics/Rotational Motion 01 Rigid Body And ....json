@@ -1,0 +1,58 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Rotational Motion 01 :Rigid Body And ...",
+    "lectureCode": "a52df932-3fa5-405c-b0a6-48bb755c7944",
+    "classNotesCode": "463f4894-8351-47ee-a30c-f0adb553bc92.pdf",
+    "dppsPdfCode": "463f4894-8351-47ee-a30c-f0adb553bc92.pdf",
+    "dppsSolutionCode": "377ee8c4-e6ef-4458-b976-5de1666adbac"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Rotational Motion 02 : Perpendicular ...",
+    "lectureCode": "37986987-f648-4b88-bd18-8c2ab427698b",
+    "classNotesCode": "7b7e554c-e55d-47e6-bc75-78531bcbca99.pdf",
+    "dppsPdfCode": "7b7e554c-e55d-47e6-bc75-78531bcbca99.pdf",
+    "dppsSolutionCode": "b7a34a5e-c95e-4925-84a3-fa9a6bd00612"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Rotational Motion 07 : Acceleration I...",
+    "lectureCode": "1a03d7e7-5678-41b5-9fba-5a5936201464",
+    "classNotesCode": "463f4894-8351-47ee-a30c-f0adb553bc92.pdf",
+    "dppsPdfCode": "463f4894-8351-47ee-a30c-f0adb553bc92.pdf",
+    "dppsSolutionCode": "621cd260-a0ac-4412-ab22-b795612f8fd5"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "otational Motion 06 : Angular Momentu...",
+    "lectureCode": "f3d6fad5-bf27-448e-9e6c-30296fc11dc0",
+    "classNotesCode": "7b7e554c-e55d-47e6-bc75-78531bcbca99.pdf",
+    "dppsPdfCode": "7b7e554c-e55d-47e6-bc75-78531bcbca99.pdf",
+    "dppsSolutionCode": "ac6f29d5-b435-4eb9-be31-5d876c5aa76a"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Rotational Motion 05 : Angular Moment...",
+    "lectureCode": "c8613130-894f-422d-b1a3-014d9625a614",
+    "classNotesCode": "463f4894-8351-47ee-a30c-f0adb553bc92.pdf",
+    "dppsPdfCode": "463f4894-8351-47ee-a30c-f0adb553bc92.pdf",
+    "dppsSolutionCode": "5a21df26-1fca-4701-8352-4c1714640679"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Rotational Motion 04 : Torque About A...",
+    "lectureCode": "eb9f75e2-00ab-4ef0-bfde-c0d35db037a5",
+    "classNotesCode": "bf11540a-7dac-47c3-8706-ff6f427cf9d9.pdf",
+    "dppsPdfCode": "bf11540a-7dac-47c3-8706-ff6f427cf9d9.pdf",
+    "dppsSolutionCode": "b4bae7e5-eba8-44dc-a148-d28b268cc5c5"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Rotational Motion 03 : Cavity Problem...",
+    "lectureCode": "add68a35-8a13-4b2c-9bd2-c0c4791bab63",
+    "classNotesCode": "8d1a8ac8-e990-44b2-867b-bb4e35343161.pdf",
+    "dppsPdfCode": "8d1a8ac8-e990-44b2-867b-bb4e35343161.pdf",
+    "dppsSolutionCode": "a9ee3fb6-4f69-438c-8ade-8a6742d1c42a"
+  }
+]

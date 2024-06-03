@@ -1,0 +1,50 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Basic Maths and Logarithm 06 : Logari...",
+    "lectureCode": "0bc8eed1-fedc-4759-83d8-b101dafa9ae9",
+    "classNotesCode": "598d28f0-0a25-4a54-a7b7-0de97fbc9735.pdf",
+    "dppsPdfCode": "598d28f0-0a25-4a54-a7b7-0de97fbc9735.pdf",
+    "dppsSolutionCode": "71536c40-7a52-4720-a4d0-e30e1b56546b"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Basic Maths and Logarithm 05 : Modulu...",
+    "lectureCode": "3b8f4349-d02d-4214-8d64-caab3961f754",
+    "classNotesCode": "3ae8805d-01df-4d91-a52b-f51d8f8e3c6c.pdf",
+    "dppsPdfCode": "3ae8805d-01df-4d91-a52b-f51d8f8e3c6c.pdf",
+    "dppsSolutionCode": "b0286289-29bf-4efd-be63-942ecbb990bf"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Basic Maths and Logarithm 04 : Modulu...",
+    "lectureCode": "3243caa6-6ff1-4092-bff9-7091fce6f2b2",
+    "classNotesCode": "062a6666-478c-43b7-b0d9-5fb2cf18bffb.pdf",
+    "dppsPdfCode": "062a6666-478c-43b7-b0d9-5fb2cf18bffb.pdf",
+    "dppsSolutionCode": "77a0fb7d-5542-4a10-98f5-7705a18ec8dc"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Basic Maths and Logarithm 03 : Inequa...",
+    "lectureCode": "22d8e31a-3f31-4f86-9186-810c8d731879",
+    "classNotesCode": "3b4a8051-360e-4cd4-a753-0648b594769b.pdf",
+    "dppsPdfCode": "3b4a8051-360e-4cd4-a753-0648b594769b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Basic Maths and Logarithm 02 : Basic ...",
+    "lectureCode": "8e6212a3-4f8a-4de6-a5cb-e7220cc9faf4",
+    "classNotesCode": "bb9b9aeb-79f6-4b92-9dbb-1cb7ee2065f8.pdf",
+    "dppsPdfCode": "bb9b9aeb-79f6-4b92-9dbb-1cb7ee2065f8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Basic Maths and Logarithm 01 : Basic ...",
+    "lectureCode": "dced5266-fe48-4096-aa17-fc7be9637bb6",
+    "classNotesCode": "396ba7d1-933b-4d1b-8f63-0d02f6bd67b4.pdf",
+    "dppsPdfCode": "396ba7d1-933b-4d1b-8f63-0d02f6bd67b4.pdf",
+    "dppsSolutionCode": ""
+  }
+]

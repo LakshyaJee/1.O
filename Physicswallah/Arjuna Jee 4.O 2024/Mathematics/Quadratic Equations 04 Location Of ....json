@@ -1,0 +1,34 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Quadratic Equations 04 : Location Of ...",
+    "lectureCode": "8f98e991-4e2a-4172-8a47-fb8b34784b07",
+    "classNotesCode": "49e64efb-d026-4826-9718-3b47afc7c1b7.pdf",
+    "dppsPdfCode": "49e64efb-d026-4826-9718-3b47afc7c1b7.pdf",
+    "dppsSolutionCode": "1f5e54ff-e0c2-402a-bcb9-2df0f4c4872d"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Quadratic Equations 03 : Graph Of Qua...",
+    "lectureCode": "6a2d41aa-6f70-46fb-b835-30dbc416bbe5",
+    "classNotesCode": "286cc9dc-05a8-414f-92e5-497c47c5fec3.pdf",
+    "dppsPdfCode": "286cc9dc-05a8-414f-92e5-497c47c5fec3.pdf",
+    "dppsSolutionCode": "53be2dde-df5c-40bc-b955-5bf3f5b7cc6b"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Quadratic Equations 02 : Transformati...",
+    "lectureCode": "98f57baf-0e63-48b0-9c4d-24935559c38a",
+    "classNotesCode": "ef3e4c02-933a-4874-86c0-a89459042bea.pdf",
+    "dppsPdfCode": "ef3e4c02-933a-4874-86c0-a89459042bea.pdf",
+    "dppsSolutionCode": "83e4b246-65a9-4e6b-ad55-6d27bc542960"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Quadratic Equations 01 : Introduction...",
+    "lectureCode": "d0c27f1f-b136-453b-a76c-8994d21515dd",
+    "classNotesCode": "b8cabd22-1bea-4d3e-a8d2-f0dbeb977469.pdf",
+    "dppsPdfCode": "b8cabd22-1bea-4d3e-a8d2-f0dbeb977469.pdf",
+    "dppsSolutionCode": "0527c133-243d-4eea-9cb3-c946fd68881f"
+  }
+]
