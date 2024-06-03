@@ -1,0 +1,74 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Wave Motion 01 : Wave Introduction & ...",
+    "lectureCode": "48cd950d-d5ea-42bd-8e89-66007a560337",
+    "classNotesCode": "b47b49b0-c2e4-43fc-a08f-a13edbd91412.pdf",
+    "dppsPdfCode": "b47b49b0-c2e4-43fc-a08f-a13edbd91412.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Wave Motion 02 :  Equation of Wave ||...",
+    "lectureCode": "94658827-8f72-47e7-9b9a-c3eb2910f886",
+    "classNotesCode": "171fe93c-f945-4b09-b910-d3750e06720e.pdf",
+    "dppsPdfCode": "171fe93c-f945-4b09-b910-d3750e06720e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Wave Motion 04 :  Power Transfer || W...",
+    "lectureCode": "27e406ba-cc2f-492b-abef-da83a687ed9a",
+    "classNotesCode": "683d55f8-5af8-4fac-b8ce-28a176555983.pdf",
+    "dppsPdfCode": "683d55f8-5af8-4fac-b8ce-28a176555983.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Wave Motion 03 : Velocity of Wave in ...",
+    "lectureCode": "d5796920-7772-4c7b-b79a-777a318398ea",
+    "classNotesCode": "47283caf-05e8-4627-8695-b8995640d6de.pdf",
+    "dppsPdfCode": "47283caf-05e8-4627-8695-b8995640d6de.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Wave Motion 06 : Standing Wave || Mod...",
+    "lectureCode": "65764707-def0-48a0-8895-116505acfe64",
+    "classNotesCode": "77d5048b-9e5b-4d59-bd70-ae789dc89800.pdf",
+    "dppsPdfCode": "77d5048b-9e5b-4d59-bd70-ae789dc89800.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Wave Motion 05 : Superposition of Wav...",
+    "lectureCode": "f74a5888-46c0-485e-ba66-1c001411dc44",
+    "classNotesCode": "a178502e-b5ab-464f-b9f0-de752c4ea745.pdf",
+    "dppsPdfCode": "a178502e-b5ab-464f-b9f0-de752c4ea745.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Wave Motion 08 : Standing Wave in Sou...",
+    "lectureCode": "a87c9e50-3987-4b4c-b4a6-ca1b7f1e8509",
+    "classNotesCode": "fcc53ac5-6eac-48d5-bc33-def1811d8b32.pdf",
+    "dppsPdfCode": "fcc53ac5-6eac-48d5-bc33-def1811d8b32.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Wave Motion 07 : String Free at one E...",
+    "lectureCode": "c3b0d1e1-2bb6-47f5-833b-765eed2f46b5",
+    "classNotesCode": "370c5438-c0da-4516-b4c7-d2af1fe3858e.pdf",
+    "dppsPdfCode": "370c5438-c0da-4516-b4c7-d2af1fe3858e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Wave Motion 09 : Interference & Quest...",
+    "lectureCode": "af5a3438-9fcf-4122-8241-9a907411caf0",
+    "classNotesCode": "137b5b8e-43e2-48b9-a3f7-83d8fc3a636c.pdf",
+    "dppsPdfCode": "137b5b8e-43e2-48b9-a3f7-83d8fc3a636c.pdf",
+    "dppsSolutionCode": ""
+  }
+]

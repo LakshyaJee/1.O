@@ -1,0 +1,58 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "gravitation 06 arjuna",
+    "lectureCode": "5afdc760-e1ff-4b96-affc-07d6dea07595",
+    "classNotesCode": "211c97e0-7a16-4c22-80ce-39aa6305976b.pdf",
+    "dppsPdfCode": "211c97e0-7a16-4c22-80ce-39aa6305976b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Gravitation 05 : Solid Sphere || NO D...",
+    "lectureCode": "69cfc835-b8fa-4d48-b4fb-33179034e1b3",
+    "classNotesCode": "eb66f28e-5942-47a0-96c4-1e4e5f500200.pdf",
+    "dppsPdfCode": "eb66f28e-5942-47a0-96c4-1e4e5f500200.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Gravitation 04 : Satellite Motion & G...",
+    "lectureCode": "835238b6-13b3-468a-b90a-12880f6c7298",
+    "classNotesCode": "9d730fb0-508b-4a40-9f66-4ecbdcab4d62.pdf",
+    "dppsPdfCode": "9d730fb0-508b-4a40-9f66-4ecbdcab4d62.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Gravitation 03 : Gravitational Field ...",
+    "lectureCode": "20943db3-e933-481c-a77b-30e99be0624c",
+    "classNotesCode": "b533ae45-e59c-4771-9477-fa6c185d3143.pdf",
+    "dppsPdfCode": "b533ae45-e59c-4771-9477-fa6c185d3143.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Gravitation 02 : Gravitational Force ...",
+    "lectureCode": "a90bfb9d-b52a-427b-8f3e-087a7a90bb72",
+    "classNotesCode": "6114578b-54cc-4abb-9171-f812f7701e68.pdf",
+    "dppsPdfCode": "6114578b-54cc-4abb-9171-f812f7701e68.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Gravitation 01 : Hollow Sphere || PYQ...",
+    "lectureCode": "959046a6-66d3-4b8c-b537-027df975433c",
+    "classNotesCode": "51e963f8-d85b-4702-9739-bc612710d2f0.pdf",
+    "dppsPdfCode": "51e963f8-d85b-4702-9739-bc612710d2f0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Gravitation 07 : Relationship Between...",
+    "lectureCode": "27d8c7ea-1d29-4534-ab6b-a669b4b44a3d",
+    "classNotesCode": "71ba3c73-940a-4e93-b6e3-2beb30c48e07.pdf",
+    "dppsPdfCode": "71ba3c73-940a-4e93-b6e3-2beb30c48e07.pdf",
+    "dppsSolutionCode": ""
+  }
+]

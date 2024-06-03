@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Trigonometric Identities 10 : Range O...",
+    "lectureCode": "a91b6b26-bca7-44d7-b5ae-cc4a8447d4d6",
+    "classNotesCode": "af33736f-47cc-43e0-b0f0-c12f1b2424bb.pdf",
+    "dppsPdfCode": "af33736f-47cc-43e0-b0f0-c12f1b2424bb.pdf",
+    "dppsSolutionCode": "98d257e7-4ad7-48ac-ab28-e096e18e4c0f"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Trigonometric Identities 09 : Identit...",
+    "lectureCode": "0967ee83-6a2b-4d5a-998e-bf3bc0e812b4",
+    "classNotesCode": "d48853d0-4b56-470a-9ae8-4ef2be99689b.pdf",
+    "dppsPdfCode": "d48853d0-4b56-470a-9ae8-4ef2be99689b.pdf",
+    "dppsSolutionCode": "57ef6aaf-8cbb-44db-9b55-6a1a909abd5b"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Trigonometric Identities 08 : Graphs ...",
+    "lectureCode": "9af3b28c-3dc4-43e1-bdd4-4567f5c5b625",
+    "classNotesCode": "74121899-23c0-4dd1-8aba-9bdc4078a5d0.pdf",
+    "dppsPdfCode": "74121899-23c0-4dd1-8aba-9bdc4078a5d0.pdf",
+    "dppsSolutionCode": "724601a0-bc86-41ac-b68c-6ecc70d75e6a"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Trigonometric Identities 07 : Some Ex...",
+    "lectureCode": "9ee7cb73-835d-4dd8-90c8-93c297160025",
+    "classNotesCode": "f3461832-3db1-4486-9f00-02a6534fba3f.pdf",
+    "dppsPdfCode": "f3461832-3db1-4486-9f00-02a6534fba3f.pdf",
+    "dppsSolutionCode": "5f2db670-6378-4d99-b5c4-32a73eb6635c"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Trigonometric Identities 06 : Factori...",
+    "lectureCode": "ac6c60cc-202d-443e-8a01-0d8031b3adf3",
+    "classNotesCode": "c4930c0f-dee0-45d4-91ef-602c2add1a3e.pdf",
+    "dppsPdfCode": "c4930c0f-dee0-45d4-91ef-602c2add1a3e.pdf",
+    "dppsSolutionCode": "53bea087-7b72-46ff-887c-621a3676928e"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Trigonometric Identities 05 : Formula...",
+    "lectureCode": "f03e0fcd-6a0b-43b6-88d0-63f6a0848068",
+    "classNotesCode": "ca710780-faa4-41bb-93f5-904bff375841.pdf",
+    "dppsPdfCode": "ca710780-faa4-41bb-93f5-904bff375841.pdf",
+    "dppsSolutionCode": "d13387be-fc21-4f3a-8ea4-a5159cbcbfca"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Trigonometric Identities 04 : Problem...",
+    "lectureCode": "a4f53eec-8215-4f89-94d8-89f41ae2f032",
+    "classNotesCode": "69da26d3-bc6b-4e7d-bcc0-49442cdff313.pdf",
+    "dppsPdfCode": "69da26d3-bc6b-4e7d-bcc0-49442cdff313.pdf",
+    "dppsSolutionCode": "e4ae4df6-8631-44fe-9436-c1a7c1b08b7b"
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Trigonometric Identities 03 : Trigono...",
+    "lectureCode": "1e40be86-7b4e-429b-8dce-5a7c1aff8d59",
+    "classNotesCode": "f803defb-36fe-48a1-828f-bda268e30328.pdf",
+    "dppsPdfCode": "f803defb-36fe-48a1-828f-bda268e30328.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Trigonometric Identities 02 : Radian ...",
+    "lectureCode": "f4f253a0-e57c-4a9c-8b0c-9260de8001c3",
+    "classNotesCode": "cc3e7851-d4a2-4c22-a2b0-5dedf943363f.pdf",
+    "dppsPdfCode": "cc3e7851-d4a2-4c22-a2b0-5dedf943363f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Trigonometric Identities 01 : Revisio...",
+    "lectureCode": "76915363-4359-490e-8bf0-17bbe44dba02",
+    "classNotesCode": "5713c69a-31d0-4037-91b0-fd2db47681b0.pdf",
+    "dppsPdfCode": "5713c69a-31d0-4037-91b0-fd2db47681b0.pdf",
+    "dppsSolutionCode": ""
+  }
+]

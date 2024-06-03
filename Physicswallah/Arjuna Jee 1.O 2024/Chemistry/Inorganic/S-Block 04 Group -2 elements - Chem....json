@@ -1,0 +1,34 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "S-Block 04 : Group -2 elements - Chem...",
+    "lectureCode": "e018df8b-5bdb-4070-bea1-dd9497d271e7",
+    "classNotesCode": "097cea23-6cb9-4daf-9e5f-d5cf7fa2a55e.pdf",
+    "dppsPdfCode": "097cea23-6cb9-4daf-9e5f-d5cf7fa2a55e.pdf",
+    "dppsSolutionCode": "0e926572-c0d5-4b03-a80b-0eee6f9c9271"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "S-Block 03 : Anomalous Properties of ...",
+    "lectureCode": "691c8a0f-bcd8-4e02-aaf2-82f3db541c27",
+    "classNotesCode": "371f2ad0-202e-446b-b92f-a3b8a2fc1944.pdf",
+    "dppsPdfCode": "371f2ad0-202e-446b-b92f-a3b8a2fc1944.pdf",
+    "dppsSolutionCode": "6744513b-8982-4001-bd3e-8a2c41f04c2a"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "S-Block 02 : Chemical Properties of G...",
+    "lectureCode": "e7d26339-00d8-4604-b2a2-87bc6f3f611d",
+    "classNotesCode": "e5e02e04-d54f-4329-b217-d27fe7223643.pdf",
+    "dppsPdfCode": "e5e02e04-d54f-4329-b217-d27fe7223643.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "S-Block 01 :Introduction || Group 1 E...",
+    "lectureCode": "80ca2313-e8c1-4614-a160-d85c6bffb180",
+    "classNotesCode": "47500e7b-78b0-40d5-9942-b9527056616d.pdf",
+    "dppsPdfCode": "47500e7b-78b0-40d5-9942-b9527056616d.pdf",
+    "dppsSolutionCode": ""
+  }
+]

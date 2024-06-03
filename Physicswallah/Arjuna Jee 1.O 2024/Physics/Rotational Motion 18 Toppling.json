@@ -1,0 +1,146 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Rotational Motion 18 : Toppling",
+    "lectureCode": "4d5a79ce-c7b3-4937-a0ac-869ab3a3f1df",
+    "classNotesCode": "30151f53-7707-4427-8dd6-242e794bbbf2.pdf",
+    "dppsPdfCode": "30151f53-7707-4427-8dd6-242e794bbbf2.pdf",
+    "dppsSolutionCode": "ef6fc53b-1376-4252-ab69-680a4893e8cb"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Rotational Motion 17 : Angular Moment...",
+    "lectureCode": "d65cf193-0531-43f1-a7d6-44ae96507aef",
+    "classNotesCode": "2b436910-5d6e-4a73-b14b-3b95807b92ef.pdf",
+    "dppsPdfCode": "2b436910-5d6e-4a73-b14b-3b95807b92ef.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Rotational Motion 16 : Pulling & CRTM...",
+    "lectureCode": "1bd1c31f-a97c-49c5-9b95-434ec4cfe4e0",
+    "classNotesCode": "21f31741-8eb2-4ff7-8dfb-21a3d9040833.pdf",
+    "dppsPdfCode": "21f31741-8eb2-4ff7-8dfb-21a3d9040833.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Rotational Motion 15 : Rolling || Rol...",
+    "lectureCode": "66756116-9d43-44e4-a7ac-07a210a7431d",
+    "classNotesCode": "da61f3cc-255f-4fff-ac2a-736052a1fe3f.pdf",
+    "dppsPdfCode": "da61f3cc-255f-4fff-ac2a-736052a1fe3f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Rotational Motion 14 : CRTM (Velocity...",
+    "lectureCode": "2c4000e2-8b68-415e-a40b-61825bb44ce7",
+    "classNotesCode": "a51f4570-96d9-4821-8ef5-a1907f6ce539.pdf",
+    "dppsPdfCode": "a51f4570-96d9-4821-8ef5-a1907f6ce539.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Rotational Motion 13 : Impulse & Angu...",
+    "lectureCode": "dc067c55-4273-4cc5-a9c6-4ebd5ee69169",
+    "classNotesCode": "4e90a92c-40d3-4bbb-8b1d-2f1d51f81e48.pdf",
+    "dppsPdfCode": "4e90a92c-40d3-4bbb-8b1d-2f1d51f81e48.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Rotational Motion 12 : Conservation o...",
+    "lectureCode": "aab12a19-e41f-4487-888a-002980f8e424",
+    "classNotesCode": "f317b9e5-75ed-4906-909c-c9435fedb04f.pdf",
+    "dppsPdfCode": "f317b9e5-75ed-4906-909c-c9435fedb04f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Rotational Motion 11 : Question Based...",
+    "lectureCode": "b03c6066-3e69-4cc5-ab74-26f5f4427512",
+    "classNotesCode": "18b31c6e-c784-4b03-9872-9f08b1d38f5b.pdf",
+    "dppsPdfCode": "18b31c6e-c784-4b03-9872-9f08b1d38f5b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Rotational Motion 10 : Angular Moment...",
+    "lectureCode": "590a026f-0a59-4406-b7aa-9b00252bee82",
+    "classNotesCode": "98f48411-8966-4b21-aab4-78b6f5b8c199.pdf",
+    "dppsPdfCode": "98f48411-8966-4b21-aab4-78b6f5b8c199.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Rotational Motion 09 : Fix Axis Rotat...",
+    "lectureCode": "40b01c8e-ce19-470e-9417-819ba2f611a5",
+    "classNotesCode": "a02130cc-38e4-44f9-8ca3-81bcf3af792f.pdf",
+    "dppsPdfCode": "a02130cc-38e4-44f9-8ca3-81bcf3af792f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Rotational Motion 08 : Fix Axis Rotat...",
+    "lectureCode": "fe298651-0017-4588-a9ef-18e800e54461",
+    "classNotesCode": "ed8af41d-cd6b-4af6-854b-8ca1658c7a04.pdf",
+    "dppsPdfCode": "ed8af41d-cd6b-4af6-854b-8ca1658c7a04.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Rotational Motion 07 : Torque Calcula...",
+    "lectureCode": "2b3829f2-6fdb-4e7e-81d5-85b71c2e330e",
+    "classNotesCode": "84011916-081f-4a17-aeba-34167eb18420.pdf",
+    "dppsPdfCode": "84011916-081f-4a17-aeba-34167eb18420.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Rotational Motion 06 : Cross Product ...",
+    "lectureCode": "ba2f17ff-7f3d-4007-b764-faeb950eb32d",
+    "classNotesCode": "cbbac10d-3a6f-4266-b104-240e1f894461.pdf",
+    "dppsPdfCode": "cbbac10d-3a6f-4266-b104-240e1f894461.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Rotational Motion 05 : Question Pract...",
+    "lectureCode": "e64b417a-3776-4e21-ba60-8bf8a65a9515",
+    "classNotesCode": "f24b0596-0aa9-4c89-aa6b-4dfd40906e98.pdf",
+    "dppsPdfCode": "f24b0596-0aa9-4c89-aa6b-4dfd40906e98.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Rotational Motion 04 : Moment LEC",
+    "lectureCode": "d3ffb155-371f-461c-a2ca-9513d2a0b0bc",
+    "classNotesCode": "43ddd9ea-80a1-4c14-a594-331d4a933c62.pdf",
+    "dppsPdfCode": "43ddd9ea-80a1-4c14-a594-331d4a933c62.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Rotational Motion 03 : Parallel Axis ...",
+    "lectureCode": "32a87c93-3afd-44a9-af9a-20f6ad29077d",
+    "classNotesCode": "6a5ba931-49ca-48b1-bea6-bb9c4abaef56.pdf",
+    "dppsPdfCode": "6a5ba931-49ca-48b1-bea6-bb9c4abaef56.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Rotational Motion 02 : Moment of Iner...",
+    "lectureCode": "04aaf3b7-9bf7-4429-bb05-7d9646bba68b",
+    "classNotesCode": "0deb4085-ed9c-41fc-9cc1-0efd76708de1.pdf",
+    "dppsPdfCode": "0deb4085-ed9c-41fc-9cc1-0efd76708de1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Rotational Motion 01 : Moment of Iner...",
+    "lectureCode": "9a0b7f6a-c5d5-4633-b8b6-54de6cd49741",
+    "classNotesCode": "0b1d9a41-c337-4eb5-ae09-43aef3daeddd.pdf",
+    "dppsPdfCode": "0b1d9a41-c337-4eb5-ae09-43aef3daeddd.pdf",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Circle 11 : More on Tangent Secant Th...",
+    "lectureCode": "3be6252d-d304-4f7d-afb7-a990668ab5ea",
+    "classNotesCode": "fa23c733-4345-4e90-ab4a-bb293930e633.pdf",
+    "dppsPdfCode": "fa23c733-4345-4e90-ab4a-bb293930e633.pdf",
+    "dppsSolutionCode": "57af80da-4c2a-4b48-9936-caee03f1da8c"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Circle 10 : Properties of Radical Cen...",
+    "lectureCode": "f03b3ae4-1ad6-4d8a-ad06-318ae313f88b",
+    "classNotesCode": "ce036f97-53e4-4e90-8170-0e4f6393e443.pdf",
+    "dppsPdfCode": "ce036f97-53e4-4e90-8170-0e4f6393e443.pdf",
+    "dppsSolutionCode": "72c06ba2-cad2-4ece-b2bd-2f9b3ca94fdc"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Circle 09 : Radical Axis and its Prop...",
+    "lectureCode": "285babb4-995d-40ab-a42c-484d0d1aa8d8",
+    "classNotesCode": "8ad563cf-10c8-444a-80e2-90735b51e204.pdf",
+    "dppsPdfCode": "8ad563cf-10c8-444a-80e2-90735b51e204.pdf",
+    "dppsSolutionCode": "e095936f-a66a-407b-89ad-f185ba84a251"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Circle 08 : Family of Circles || Angl...",
+    "lectureCode": "781b790f-b868-47af-b86b-8d44bf1cd394",
+    "classNotesCode": "96087510-789c-43dc-bb75-e98bb065f7e0.pdf",
+    "dppsPdfCode": "96087510-789c-43dc-bb75-e98bb065f7e0.pdf",
+    "dppsSolutionCode": "c2855f6c-1e6f-48e4-a938-00b081a5104a"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Circle 07 : Equation of Common Tangen...",
+    "lectureCode": "78312321-4f4b-4d7e-a7cf-40dda1cc3c83",
+    "classNotesCode": "1f58963d-e418-4a3e-8797-f0b18db7d29c.pdf",
+    "dppsPdfCode": "1f58963d-e418-4a3e-8797-f0b18db7d29c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Circle 06 : Recap || Length of Common...",
+    "lectureCode": "a0fda6c5-d34c-469c-81d2-59291222b044",
+    "classNotesCode": "904bbf42-0725-4fe3-b29e-ab6931a6bc1b.pdf",
+    "dppsPdfCode": "904bbf42-0725-4fe3-b29e-ab6931a6bc1b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Circle 05 : Chords of a Circle || Cho...",
+    "lectureCode": "3346ab94-8d96-42eb-a268-5b34e9592024",
+    "classNotesCode": "bbaf7ebf-8cb0-4b42-a023-2d37f5f0c2ce.pdf",
+    "dppsPdfCode": "bbaf7ebf-8cb0-4b42-a023-2d37f5f0c2ce.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Circle 04 : More concept of Tangents ...",
+    "lectureCode": "f53ddcdc-8d90-49dc-b93e-77705e04a6d9",
+    "classNotesCode": "a20679a3-d4ec-47fa-813b-4e5cc6d996e4.pdf",
+    "dppsPdfCode": "a20679a3-d4ec-47fa-813b-4e5cc6d996e4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Circle 03 : More Problems on Intercep...",
+    "lectureCode": "bcb61f28-d0f8-405c-8458-e4dc211738e9",
+    "classNotesCode": "b32baed1-742f-44a5-a97c-ba8578708131.pdf",
+    "dppsPdfCode": "b32baed1-742f-44a5-a97c-ba8578708131.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Lec-02_Circles_Arjuna JEE 2024_Maths_...",
+    "lectureCode": "9cfb1b90-f1a4-4a4f-9a81-9d38b58e46d2",
+    "classNotesCode": "c17fcd70-c315-42df-88d7-8dc88a643f9d.pdf",
+    "dppsPdfCode": "c17fcd70-c315-42df-88d7-8dc88a643f9d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Circle 01 : Introduction || Various F...",
+    "lectureCode": "84866355-146e-46f3-93f5-b1dec08b6abb",
+    "classNotesCode": "fefc962d-06f3-40ac-9560-433045a75cc1.pdf",
+    "dppsPdfCode": "fefc962d-06f3-40ac-9560-433045a75cc1.pdf",
+    "dppsSolutionCode": ""
+  }
+]

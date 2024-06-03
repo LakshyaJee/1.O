@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Relations & Functions 05 : Graph of G...",
+    "lectureCode": "3d74be61-e248-4ef8-b146-8169c4dd3a7c",
+    "classNotesCode": "2ea3fe9f-4b80-43f2-b14b-cca2bc37473a.pdf",
+    "dppsPdfCode": "2ea3fe9f-4b80-43f2-b14b-cca2bc37473a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Relations & Functions 04 : Finding Ra...",
+    "lectureCode": "acda5b48-5a56-4254-9027-dd8fe9716529",
+    "classNotesCode": "28f40f6d-8aca-41a9-a822-d60fe234aabe.pdf",
+    "dppsPdfCode": "28f40f6d-8aca-41a9-a822-d60fe234aabe.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Relations & Functions 03 : Range of S...",
+    "lectureCode": "7f13678b-d2d9-4d45-9033-6719eb97df5f",
+    "classNotesCode": "1f810538-2365-4b00-add9-de7efe1244b4.pdf",
+    "dppsPdfCode": "1f810538-2365-4b00-add9-de7efe1244b4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Relations & Functions 02 : Function D...",
+    "lectureCode": "ff97cccc-5a4c-434e-85c2-c2471cb587e1",
+    "classNotesCode": "3468eb6a-64c2-48ca-99cf-c0e4d9bc85ae.pdf",
+    "dppsPdfCode": "3468eb6a-64c2-48ca-99cf-c0e4d9bc85ae.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Relations & Functions 01 : What Is A ...",
+    "lectureCode": "69f153f3-48f5-40d4-9d3b-c2528195724c",
+    "classNotesCode": "2842f2a0-07e1-46be-a8c2-b52578b27bbe.pdf",
+    "dppsPdfCode": "2842f2a0-07e1-46be-a8c2-b52578b27bbe.pdf",
+    "dppsSolutionCode": ""
+  }
+]

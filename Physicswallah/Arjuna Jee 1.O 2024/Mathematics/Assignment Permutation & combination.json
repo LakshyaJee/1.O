@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Assignment : Permutation & combination",
+    "lectureCode": "ca61f045-ecf2-4fd4-9fc8-d4fe26e02e7d",
+    "classNotesCode": "b86ee969-e367-40c3-aa28-0795aa07f026.pdf",
+    "dppsPdfCode": "b86ee969-e367-40c3-aa28-0795aa07f026.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Assignment : Quadratic Equations",
+    "lectureCode": "331ab3c0-3de9-439f-9f8d-ed040e3c5e6e",
+    "classNotesCode": "ee426727-a24b-4241-9917-996fae9c0c7e.pdf",
+    "dppsPdfCode": "ee426727-a24b-4241-9917-996fae9c0c7e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Assignment : Trigonometric Ratios & I...",
+    "lectureCode": "d706c0ca-3bd7-4883-a643-a50895bd0ef1",
+    "classNotesCode": "033ff906-c511-4eee-911b-8dfe550b835a.pdf",
+    "dppsPdfCode": "033ff906-c511-4eee-911b-8dfe550b835a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Assignment : Straight Lines",
+    "lectureCode": "e33c0dfc-55d8-41b8-9242-51d415c707aa",
+    "classNotesCode": "b86ee969-e367-40c3-aa28-0795aa07f026.pdf",
+    "dppsPdfCode": "b86ee969-e367-40c3-aa28-0795aa07f026.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Assignment : Circle",
+    "lectureCode": "d9e7baaa-1e74-4169-bc50-c93532b0b3b6",
+    "classNotesCode": "ee426727-a24b-4241-9917-996fae9c0c7e.pdf",
+    "dppsPdfCode": "ee426727-a24b-4241-9917-996fae9c0c7e.pdf",
+    "dppsSolutionCode": ""
+  }
+]

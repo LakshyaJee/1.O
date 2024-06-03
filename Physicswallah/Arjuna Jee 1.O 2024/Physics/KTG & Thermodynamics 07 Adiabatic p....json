@@ -1,0 +1,58 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "KTG & Thermodynamics 07 : Adiabatic p...",
+    "lectureCode": "cbe6795f-bc68-4816-a9cc-67114c29e8ee",
+    "classNotesCode": "e21f2a87-aeeb-4554-8014-02de24a817ac.pdf",
+    "dppsPdfCode": "e21f2a87-aeeb-4554-8014-02de24a817ac.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "KTG & Thermodynamics 06 : Question Pr...",
+    "lectureCode": "eb54c23a-2253-466a-a7e4-05b5024c3ecd",
+    "classNotesCode": "8e68cf1f-b522-4bd8-83bd-2f0290ed151c.pdf",
+    "dppsPdfCode": "8e68cf1f-b522-4bd8-83bd-2f0290ed151c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "KTG & Thermodynamics 05 : Molar Speci...",
+    "lectureCode": "1ce4befa-2381-46de-aa75-1dab2a2ad158",
+    "classNotesCode": "64822e01-2235-440f-ab0a-28da35c396bf.pdf",
+    "dppsPdfCode": "64822e01-2235-440f-ab0a-28da35c396bf.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "KTG & Thermodynamics 04 : (WD)by gas ...",
+    "lectureCode": "2918fa2c-1067-4c5b-87e9-d0eb74982874",
+    "classNotesCode": "c0be8aeb-df65-40b8-91b2-b47ff8ea5511.pdf",
+    "dppsPdfCode": "c0be8aeb-df65-40b8-91b2-b47ff8ea5511.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "KTG & Thermodynamics 03 : Question Pr...",
+    "lectureCode": "79eac03e-b33c-4f21-bc86-5e82e8dbad5f",
+    "classNotesCode": "6df2092b-87e4-45c0-884f-aa58d805cd01.pdf",
+    "dppsPdfCode": "6df2092b-87e4-45c0-884f-aa58d805cd01.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "KTG & Thermodynamics 02 : Internal En...",
+    "lectureCode": "71f34b44-5abb-4378-987c-498f8f3c1867",
+    "classNotesCode": "14fda8ce-03dd-4e8e-8aa0-661662c39e62.pdf",
+    "dppsPdfCode": "14fda8ce-03dd-4e8e-8aa0-661662c39e62.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "KTG & Thermodynamics 01 : KTG Assumpt...",
+    "lectureCode": "4bd1a909-a082-4329-a781-97d0da0c3462",
+    "classNotesCode": "09157565-fd4f-473e-88af-bac1d01ff488.pdf",
+    "dppsPdfCode": "09157565-fd4f-473e-88af-bac1d01ff488.pdf",
+    "dppsSolutionCode": ""
+  }
+]

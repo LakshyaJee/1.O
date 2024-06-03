@@ -1,0 +1,50 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Simple Harmonic Motion 01 : Equation ...",
+    "lectureCode": "9ba2415c-1743-4e17-b919-508fc77218fe",
+    "classNotesCode": "f6e0b64a-3c4f-414b-85f7-9f2b74f1aff9.pdf",
+    "dppsPdfCode": "f6e0b64a-3c4f-414b-85f7-9f2b74f1aff9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Simple Harmonic Motion 06 : JA Questi...",
+    "lectureCode": "814d37d7-8577-47e2-ad32-7425dd3b2d58",
+    "classNotesCode": "95d88ea3-8c2f-4ed2-85ed-57de9d62964d.pdf",
+    "dppsPdfCode": "95d88ea3-8c2f-4ed2-85ed-57de9d62964d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Angular SHM (Compound Pendulum, Torsi...",
+    "lectureCode": "5f6f3250-ae0f-48e4-953c-8460be654267",
+    "classNotesCode": "dcdf111e-f103-4b20-b45f-d43162847c48.pdf",
+    "dppsPdfCode": "dcdf111e-f103-4b20-b45f-d43162847c48.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Simple Harmonic Motion 04 : Energy An...",
+    "lectureCode": "e8c258d0-4fa4-4e19-84dd-9e233f91c026",
+    "classNotesCode": "56d2efc2-d4f7-491a-989c-e7cf8f17d4f7.pdf",
+    "dppsPdfCode": "56d2efc2-d4f7-491a-989c-e7cf8f17d4f7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Simple Harmonic Motion 03 : Relation ...",
+    "lectureCode": "d7970fdf-941d-4577-87e3-53640337ad94",
+    "classNotesCode": "4991d4e3-6ed4-4b49-a80b-d6a7da56d116.pdf",
+    "dppsPdfCode": "4991d4e3-6ed4-4b49-a80b-d6a7da56d116.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Simple Harmonic Motion 02 : Equation ...",
+    "lectureCode": "b3b45aa6-cf07-46ce-aa34-733f65236f7e",
+    "classNotesCode": "366802f0-4f1a-4648-9dbd-f807e9ff394c.pdf",
+    "dppsPdfCode": "366802f0-4f1a-4648-9dbd-f807e9ff394c.pdf",
+    "dppsSolutionCode": ""
+  }
+]
