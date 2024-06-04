@@ -1,0 +1,44 @@
+[
+    {
+        "lectureNumber": 1,
+        "lectureName": "Redox Reaction 01 : Oxidation Number",
+        "lectureCode": "69d7ea3e-3e92-4907-bbf6-815bcad7919f",
+        "classNotesCode": "",
+        "dppsPdfCode": ""
+      },
+      {
+        "lectureNumber": 2,
+        "lectureName": "Redox Reaction 02 : Equivalent Weight",
+        "lectureCode": "a97dc7fe-ad4d-4669-bce2-0233db580f70",
+        "classNotesCode": "",
+        "dppsPdfCode": ""
+      },
+      {
+        "lectureNumber": 3,
+        "lectureName": "Redox Reaction 03 : Balancing Of Redox Reaction",
+        "lectureCode": "21527fcf-c0cb-4542-88fd-dd5f91e58f79",
+        "classNotesCode": "",
+        "dppsPdfCode": ""
+      },
+      {
+        "lectureNumber": 4,
+        "lectureName": "Redox Reaction 04 : Balancing Of Redox Reaction (Part 02)",
+        "lectureCode": "590d4c25-e57e-420e-81bb-51f85fb9437a",
+        "classNotesCode": "",
+        "dppsPdfCode": ""
+      },
+      {
+        "lectureNumber": 5,
+        "lectureName": "Redox Reaction 05 : Redox Titration",
+        "lectureCode": "71ba0529-37c7-47e7-b291-d89e27e600da",
+        "classNotesCode": "",
+        "dppsPdfCode": ""
+      },
+      {
+        "lectureNumber": 6,
+        "lectureName": "Redox Reaction 06 : Iodometry and Iodimetry || NO DPP",
+        "lectureCode": "00813a0c-e81b-4119-8e8e-e75d8f2278e4",
+        "classNotesCode": "",
+        "dppsPdfCode": ""
+      }
+    ]
