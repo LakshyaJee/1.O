@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "S-Block 05 : Important Compounds of G...",
+    "lectureCode": "5c510c10-2d5a-4dc4-bd84-152392beb1b9",
+    "classNotesCode": "fe0b5300-7808-455a-9223-bd2bd262ba27.pdf",
+    "dppsPdfCode": "fe0b5300-7808-455a-9223-bd2bd262ba27.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "S-Block 04 : Reaction with Halogens |...",
+    "lectureCode": "f70bdfb7-da0f-455e-a766-626cf3e27076",
+    "classNotesCode": "49fb357b-6afc-4110-a4ca-6f2b22d35f8e.pdf",
+    "dppsPdfCode": "49fb357b-6afc-4110-a4ca-6f2b22d35f8e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "S-Block 03 : General Reaction of S-Bl...",
+    "lectureCode": "30ef2320-c169-4b87-8e69-c1d64047632d",
+    "classNotesCode": "521264bb-50b7-43f1-9cc3-a66d5fb819b6.pdf",
+    "dppsPdfCode": "521264bb-50b7-43f1-9cc3-a66d5fb819b6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "S-Block 02 : Thermal Stability || Sol...",
+    "lectureCode": "e28a4a96-f6ee-4e45-8acd-b9e5a632e89b",
+    "classNotesCode": "3fdcb598-a2cc-46b7-9abb-60c0777eff99.pdf",
+    "dppsPdfCode": "3fdcb598-a2cc-46b7-9abb-60c0777eff99.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "S-Block 01 : Introduction to S-Block ...",
+    "lectureCode": "6fc338a1-c7bb-49e1-9c4c-04b67e7c00e6",
+    "classNotesCode": "741153cf-e9ff-45f2-b36a-db84c00238ca.pdf",
+    "dppsPdfCode": "741153cf-e9ff-45f2-b36a-db84c00238ca.pdf",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Hydrogen 03 : Chemistry of H2O || Che...",
+    "lectureCode": "3f6fdca1-806e-41d7-9068-d025b46c5051",
+    "classNotesCode": "f21a7a5e-5ea8-4f27-aa81-96fc62045613.pdf",
+    "dppsPdfCode": "f21a7a5e-5ea8-4f27-aa81-96fc62045613.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Hydrogen 02 : Chemistry of H2 || Hydr...",
+    "lectureCode": "82e71d27-11f3-46fc-9c5b-4fce755832c2",
+    "classNotesCode": "e5ba9164-94ea-4c5c-b363-ad3de770accb.pdf",
+    "dppsPdfCode": "e5ba9164-94ea-4c5c-b363-ad3de770accb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Hydrogen 01 : Position of H-Atom || I...",
+    "lectureCode": "ebc17da5-b60a-49e6-b5f7-46505af23cf7",
+    "classNotesCode": "f5498904-5e5c-4ace-ac7d-3cc186d29bad.pdf",
+    "dppsPdfCode": "f5498904-5e5c-4ace-ac7d-3cc186d29bad.pdf",
+    "dppsSolutionCode": ""
+  }
+]

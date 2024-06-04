@@ -1,0 +1,106 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Atomic structure 13 : Quantum Number ...",
+    "lectureCode": "279dfbfc-19a9-4d2e-89bc-8be2f6d66099",
+    "classNotesCode": "d22d5d94-237d-4884-945e-f1bb75d7d86d.pdf",
+    "dppsPdfCode": "d22d5d94-237d-4884-945e-f1bb75d7d86d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Atomic structure 12 : Hund's Rule || ...",
+    "lectureCode": "8ed2337b-2ec7-4eff-8a77-5df77a94adcc",
+    "classNotesCode": "15d14ac3-55a2-4ea8-852c-84ef10979165.pdf",
+    "dppsPdfCode": "15d14ac3-55a2-4ea8-852c-84ef10979165.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Atomic structure 11 : Quantum Number",
+    "lectureCode": "854002f3-0f85-4b62-bf95-c23737a6371b",
+    "classNotesCode": "a24aba7a-4f07-4e1c-9732-da90301773fd.pdf",
+    "dppsPdfCode": "a24aba7a-4f07-4e1c-9732-da90301773fd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Atomic structure 10 : Uncertainty Pri...",
+    "lectureCode": "2f453535-f2a8-419d-89d0-5bb164f87a80",
+    "classNotesCode": "33b94f45-abcc-477f-96df-a059bcf67b1b.pdf",
+    "dppsPdfCode": "33b94f45-abcc-477f-96df-a059bcf67b1b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Atomic structure 09 : Hydrogen Spectr...",
+    "lectureCode": "54d0a127-2e81-41aa-a52a-71091082f960",
+    "classNotesCode": "ba77d4b9-e502-45e5-9989-3a86bf1c6136.pdf",
+    "dppsPdfCode": "ba77d4b9-e502-45e5-9989-3a86bf1c6136.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Atomic structure 08 : Type of Spectru...",
+    "lectureCode": "c2942854-e61f-4bc9-9738-9eefa179f4cd",
+    "classNotesCode": "dcb26dc2-047e-411d-acd7-7fd9150e69bb.pdf",
+    "dppsPdfCode": "dcb26dc2-047e-411d-acd7-7fd9150e69bb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Atomic structure 07 : Bohr's Theory [...",
+    "lectureCode": "ca2fee97-3003-4988-9f92-907ded79c8a1",
+    "classNotesCode": "bfa25a1d-dbc0-4782-9a1a-205e0c54816f.pdf",
+    "dppsPdfCode": "bfa25a1d-dbc0-4782-9a1a-205e0c54816f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Atomic structure 06 : Borh's Theory (...",
+    "lectureCode": "866df12c-e2a0-4d8b-8456-6e191e85682c",
+    "classNotesCode": "d51b78f7-7b37-4261-b267-aa55e6cef3f1.pdf",
+    "dppsPdfCode": "d51b78f7-7b37-4261-b267-aa55e6cef3f1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Atomic structure 05 : Bohr's theory",
+    "lectureCode": "0158dd67-a5fa-4cf8-b8f5-e1217c85a5ac",
+    "classNotesCode": "e094faa6-6002-4b64-a2a1-3873d14d1769.pdf",
+    "dppsPdfCode": "e094faa6-6002-4b64-a2a1-3873d14d1769.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Atomic Structure 04 : Photo Electric ...",
+    "lectureCode": "0db72362-200a-4cc2-a047-fcb2a414d347",
+    "classNotesCode": "b2d0aabd-5a65-4a14-bc53-62f349bdb3ed.pdf",
+    "dppsPdfCode": "b2d0aabd-5a65-4a14-bc53-62f349bdb3ed.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Atomic Structure 03 : Photo Electric ...",
+    "lectureCode": "7491579b-2e1c-4dab-8e4d-344e8dcbd952",
+    "classNotesCode": "73731025-c1f8-4eca-b3da-2127f66d691d.pdf",
+    "dppsPdfCode": "73731025-c1f8-4eca-b3da-2127f66d691d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Atomic Structure 02 : Discovery of Nu...",
+    "lectureCode": "aa79c020-db6f-4f20-8e37-5f4ab95c529a",
+    "classNotesCode": "043d3a37-b137-4510-8aee-ecd7df1f2533.pdf",
+    "dppsPdfCode": "043d3a37-b137-4510-8aee-ecd7df1f2533.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Atomic Structure 01 : Discovery of El...",
+    "lectureCode": "9cbc02f1-7c91-4478-8e13-83c972e70d75",
+    "classNotesCode": "900ea4d8-3f0d-4c27-a30f-e1cc41014da1.pdf",
+    "dppsPdfCode": "900ea4d8-3f0d-4c27-a30f-e1cc41014da1.pdf",
+    "dppsSolutionCode": ""
+  }
+]

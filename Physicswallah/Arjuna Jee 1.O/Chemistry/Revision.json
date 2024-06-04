@@ -1,0 +1,299 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Revision - 17 : Preparation || Proper...",
+    "lectureCode": "423ea233-68fb-4882-94a9-7782234f48f0",
+    "classNotesCode": "5bc33af6-92d3-45a5-aca4-eff4672ec21d.pdf",
+    "dppsPdfCode": "5bc33af6-92d3-45a5-aca4-eff4672ec21d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Revision - 16 : Alkenes",
+    "lectureCode": "34606a1a-e362-48ab-af63-0146e2eee06c",
+    "classNotesCode": "4cf8a40c-848b-46d9-ba6d-3528fb387d93.pdf",
+    "dppsPdfCode": "4cf8a40c-848b-46d9-ba6d-3528fb387d93.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Revision - 15 : Preparation || Proper...",
+    "lectureCode": "c73cdb79-5031-460b-831b-3de15cca3f56",
+    "classNotesCode": "9e22e6dc-d45e-483d-9b35-8ef164cee69d.pdf",
+    "dppsPdfCode": "9e22e6dc-d45e-483d-9b35-8ef164cee69d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Revision - 14 : Ioinc Equilibrium",
+    "lectureCode": "7b62cdb3-f096-4767-bd22-20c6f7779dd3",
+    "classNotesCode": "55c2588a-ac86-4dca-88f0-e9585ca712cd.pdf",
+    "dppsPdfCode": "55c2588a-ac86-4dca-88f0-e9585ca712cd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Revision - 13 : Chemical Equilibrium ...",
+    "lectureCode": "95a4c749-0f65-4011-afe7-0a54d143aaac",
+    "classNotesCode": "1abf2f1d-a95c-432b-a507-01fe277c5521.pdf",
+    "dppsPdfCode": "1abf2f1d-a95c-432b-a507-01fe277c5521.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Revision - 12 : Chemical Equilibrium",
+    "lectureCode": "5965f85d-d822-4e0b-b863-0e70461ea868",
+    "classNotesCode": "ad08cb4a-f9fc-478a-ad62-5344d9ecfbb7.pdf",
+    "dppsPdfCode": "ad08cb4a-f9fc-478a-ad62-5344d9ecfbb7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Revision - 11 : Thermodynamics || PYQ...",
+    "lectureCode": "32f9611d-279c-4099-b9ce-cf79f8cf2bab",
+    "classNotesCode": "c2682538-6df9-49b0-82cf-f95f37f3f329.pdf",
+    "dppsPdfCode": "c2682538-6df9-49b0-82cf-f95f37f3f329.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Revision - 10 : Thermodynamics",
+    "lectureCode": "8d359525-4f90-4e29-bb7e-17247c472eeb",
+    "classNotesCode": "e6f4a5af-47a6-43da-ad2d-39370dd277e5.pdf",
+    "dppsPdfCode": "e6f4a5af-47a6-43da-ad2d-39370dd277e5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Revision - 09 : Thermodynamics",
+    "lectureCode": "dc354f5d-b498-4d98-93e6-c701c6e6d1e2",
+    "classNotesCode": "8e564359-1019-4197-859c-0ebe4c4405f6.pdf",
+    "dppsPdfCode": "8e564359-1019-4197-859c-0ebe4c4405f6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Revision 08 : Thermodynamics",
+    "lectureCode": "145f742a-ad3c-44a3-95d4-efde8954116c",
+    "classNotesCode": "2bb05aa4-4eb7-4dae-bbd2-45b5aacde335.pdf",
+    "dppsPdfCode": "2bb05aa4-4eb7-4dae-bbd2-45b5aacde335.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Revision 06 : Gaseous State",
+    "lectureCode": "ac88df62-975a-4236-82c2-43f36906d312",
+    "classNotesCode": "50b4ebff-ef55-4847-99c7-dc49a2e488de.pdf",
+    "dppsPdfCode": "50b4ebff-ef55-4847-99c7-dc49a2e488de.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Revision 05 : Gaseous State",
+    "lectureCode": "b2db2469-a909-4374-9703-4e9d7e2ab776",
+    "classNotesCode": "ad127fda-dbdf-4903-80f4-a0a4d65dc2da.pdf",
+    "dppsPdfCode": "ad127fda-dbdf-4903-80f4-a0a4d65dc2da.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Revision 04 : Mole Concept || PYQ 202...",
+    "lectureCode": "01155e20-91e5-4be1-95c2-1daa5f0f2ebe",
+    "classNotesCode": "083e8385-2e45-4fd9-aa30-7b3b9ef3d083.pdf",
+    "dppsPdfCode": "083e8385-2e45-4fd9-aa30-7b3b9ef3d083.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Revision 03 : Mole Concept",
+    "lectureCode": "adb7c0c5-b129-4ffc-852e-114ba8e761da",
+    "classNotesCode": "479288de-33d3-4417-be0b-9adf42dfa160.pdf",
+    "dppsPdfCode": "479288de-33d3-4417-be0b-9adf42dfa160.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Revision 02 : Mole Concept",
+    "lectureCode": "afab8843-b53d-4850-9e93-d2efeba5cc04",
+    "classNotesCode": "d6deb93d-d3ad-4cfc-a40d-61b41fd162bc.pdf",
+    "dppsPdfCode": "d6deb93d-d3ad-4cfc-a40d-61b41fd162bc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Revision 01 : Mole Concept",
+    "lectureCode": "bbd47860-7b6e-4b90-85d9-faad720a4254",
+    "classNotesCode": "7e0fd1a9-678a-4b0c-a92c-02ffdad2eb04.pdf",
+    "dppsPdfCode": "7e0fd1a9-678a-4b0c-a92c-02ffdad2eb04.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Thermal Properties Of Matter 01: Heat...",
+    "lectureCode": "698a21b6-3820-481b-8097-0787362d9290",
+    "classNotesCode": "deca310d-9bd8-4db4-84ac-98cf9c1ab694.pdf",
+    "dppsPdfCode": "deca310d-9bd8-4db4-84ac-98cf9c1ab694.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Oscillation 01 : Equation Of SHM || S...",
+    "lectureCode": "9292b860-f170-4cbc-9207-51c21827a1ed",
+    "classNotesCode": "d9a67d59-5b8c-4b4c-a53a-56a4c5bdb9ce.pdf",
+    "dppsPdfCode": "d9a67d59-5b8c-4b4c-a53a-56a4c5bdb9ce.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Fluid Statics & Dynamics 03 : Questions",
+    "lectureCode": "eedf3c1e-4a82-4aba-99c8-222fc1463e58",
+    "classNotesCode": "15630393-e1b1-4df0-9862-52726a26bbef.pdf",
+    "dppsPdfCode": "15630393-e1b1-4df0-9862-52726a26bbef.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "Fluid Statics & Dynamics 02 : Equatio...",
+    "lectureCode": "d83e37a3-fc2c-476f-936a-8270a553d210",
+    "classNotesCode": "45147338-71fc-4a45-ad9d-aaefa02dc352.pdf",
+    "dppsPdfCode": "45147338-71fc-4a45-ad9d-aaefa02dc352.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "Fluid Statics & Dynamics 01 : Fluids ...",
+    "lectureCode": "6db49631-a119-460d-96ed-9d2b38c42c14",
+    "classNotesCode": "13457762-0ce9-4237-b050-ef10b55f486c.pdf",
+    "dppsPdfCode": "13457762-0ce9-4237-b050-ef10b55f486c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "Mechanical Properties of Solids 01 : ...",
+    "lectureCode": "39406add-ef40-4fe8-b6f4-9f3a7d7cc0b8",
+    "classNotesCode": "2afcda32-d038-4371-9a5a-88252848e30a.pdf",
+    "dppsPdfCode": "2afcda32-d038-4371-9a5a-88252848e30a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 23,
+    "lectureName": "Instrument 01 : Vernier Calliper, Scr...",
+    "lectureCode": "7838e362-31ad-4752-a2d9-40c01e56b9ac",
+    "classNotesCode": "0cb559af-3e20-4cd7-9edd-d1db1942a3ea.pdf",
+    "dppsPdfCode": "0cb559af-3e20-4cd7-9edd-d1db1942a3ea.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 24,
+    "lectureName": "Gravitation 02 : Questions on Gravita...",
+    "lectureCode": "244b616f-14e0-45fd-9989-1ce0204ef1a4",
+    "classNotesCode": "4c6a4c4b-3b65-4abf-b02a-cac34fe40677.pdf",
+    "dppsPdfCode": "4c6a4c4b-3b65-4abf-b02a-cac34fe40677.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 25,
+    "lectureName": "Gravitation 01 : Gravitational Force,...",
+    "lectureCode": "ccd732dd-7579-4d6d-80a9-0264112735c5",
+    "classNotesCode": "aecfbfee-46ac-4b58-b108-c29628bc7b48.pdf",
+    "dppsPdfCode": "aecfbfee-46ac-4b58-b108-c29628bc7b48.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 26,
+    "lectureName": "Rotational Motion 02 : Angular Moment...",
+    "lectureCode": "f47b7c2c-ff00-4821-9e51-38b60c99af44",
+    "classNotesCode": "244e7c1e-8a56-4aa2-bc85-8b74af82328c.pdf",
+    "dppsPdfCode": "244e7c1e-8a56-4aa2-bc85-8b74af82328c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 27,
+    "lectureName": "Rotational Motion 01 : Moment of Iner...",
+    "lectureCode": "fb5dfae1-63ed-45d7-9051-03d573696a48",
+    "classNotesCode": "58402020-a4f3-4c45-976a-1a2db4284d0b.pdf",
+    "dppsPdfCode": "58402020-a4f3-4c45-976a-1a2db4284d0b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 28,
+    "lectureName": "Centre of Mass & Collisions 03 : Ques...",
+    "lectureCode": "c24af9e7-2462-4f44-aced-a4bd675a5f20",
+    "classNotesCode": "e9bdcd2f-4308-419d-9cc3-71cef5df930b.pdf",
+    "dppsPdfCode": "e9bdcd2f-4308-419d-9cc3-71cef5df930b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 29,
+    "lectureName": "Centre of Mass & Collisions 02 : Shif...",
+    "lectureCode": "6ddee53e-643a-4e35-8e4e-cf59c2dee49c",
+    "classNotesCode": "a82018ab-d258-44c7-9009-ea02595407b3.pdf",
+    "dppsPdfCode": "a82018ab-d258-44c7-9009-ea02595407b3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 30,
+    "lectureName": "Centre of Mass & Collisions 01 : Cent...",
+    "lectureCode": "2ebc59b1-6c36-4e55-8cf6-2a09ba5dbda4",
+    "classNotesCode": "5bb74615-c484-4fe9-b563-c7af734fa200.pdf",
+    "dppsPdfCode": "5bb74615-c484-4fe9-b563-c7af734fa200.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 31,
+    "lectureName": "Work, Energy & Power 03 : Question Pr...",
+    "lectureCode": "26cef62e-02ab-43c1-b349-04ec6047d757",
+    "classNotesCode": "22c9549e-7b1f-4e93-9bb0-cae41ab2436e.pdf",
+    "dppsPdfCode": "22c9549e-7b1f-4e93-9bb0-cae41ab2436e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 32,
+    "lectureName": "Work, Energy & Power 02 : Potential E...",
+    "lectureCode": "6b269d7d-019c-4f1a-8581-09ea3cb12d82",
+    "classNotesCode": "fa1757b2-634b-47e0-8aa5-80c77cc6f4de.pdf",
+    "dppsPdfCode": "fa1757b2-634b-47e0-8aa5-80c77cc6f4de.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 33,
+    "lectureName": "Work, Energy & Power 01 : Work Of Its...",
+    "lectureCode": "f4239a51-1ae1-4181-963c-e6afb8610f13",
+    "classNotesCode": "9bf104f0-bb32-406b-94c0-08ffb9ef884e.pdf",
+    "dppsPdfCode": "9bf104f0-bb32-406b-94c0-08ffb9ef884e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 34,
+    "lectureName": "Newton Laws of Motion 04 : Questions ...",
+    "lectureCode": "b488d73b-f8b6-4b00-b12c-96d6d038ee31",
+    "classNotesCode": "c91b88f6-a058-4a9c-ae8f-58c16a24f5e1.pdf",
+    "dppsPdfCode": "c91b88f6-a058-4a9c-ae8f-58c16a24f5e1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 35,
+    "lectureName": "Newton Laws of Motion 03 : Questions ...",
+    "lectureCode": "72a8009f-0e30-45ad-b327-da47f92bd0db",
+    "classNotesCode": "7d60e50a-4b38-4cc1-b2ef-b741e84b4970.pdf",
+    "dppsPdfCode": "7d60e50a-4b38-4cc1-b2ef-b741e84b4970.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 36,
+    "lectureName": "Newton Laws of Motion 02 : Friction, ...",
+    "lectureCode": "bf0516f7-ade8-41a5-94d4-c0749e31a7d2",
+    "classNotesCode": "ad925388-d08b-40f4-925e-9b56aebbdd7b.pdf",
+    "dppsPdfCode": "ad925388-d08b-40f4-925e-9b56aebbdd7b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 37,
+    "lectureName": "Revision 07 : Gaseous State || PYQ - ...",
+    "lectureCode": "63fdb484fa19cf001898c831",
+    "classNotesCode": "59427d45-9933-4659-9561-3068f984a803.pdf",
+    "dppsPdfCode": "59427d45-9933-4659-9561-3068f984a803.pdf",
+    "dppsSolutionCode": "",
+    "videoId": ""
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Thermodynamics 12 : Bond Enthalpy",
+    "lectureCode": "8069a92c-b863-48c3-810b-aaa34ea9ba5b",
+    "classNotesCode": "ac02563b-3b6a-4c9b-b45d-02fcb1fe84bc.pdf",
+    "dppsPdfCode": "ac02563b-3b6a-4c9b-b45d-02fcb1fe84bc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Thermodynamics 11 : Heat of Combustio...",
+    "lectureCode": "e6729a4c-5920-4f64-825c-8ea859d4cf29",
+    "classNotesCode": "900a8a52-8077-4418-8f39-e5dc291ea6c8.pdf",
+    "dppsPdfCode": "900a8a52-8077-4418-8f39-e5dc291ea6c8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Thermodynamics 10 : Gibbs Free Energy...",
+    "lectureCode": "88f86f79-bea6-4f36-8a6f-099b3aa51366",
+    "classNotesCode": "44b85e09-8500-4c3b-bd55-5b457fd866e9.pdf",
+    "dppsPdfCode": "44b85e09-8500-4c3b-bd55-5b457fd866e9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Thermodynamics 09 : Introduction To T...",
+    "lectureCode": "dad8cadb-a10a-4fe8-a7b8-1a8314d4bdfb",
+    "classNotesCode": "027983b9-e27b-4571-a7f5-9b4ed5f4434c.pdf",
+    "dppsPdfCode": "027983b9-e27b-4571-a7f5-9b4ed5f4434c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Thermodynamics 08  Gibbs Free Energy ...",
+    "lectureCode": "32a5c4af-5879-4e88-9fc4-a117ef02846c",
+    "classNotesCode": "a19621c5-7578-4e75-9416-ab91515e0574.pdf",
+    "dppsPdfCode": "a19621c5-7578-4e75-9416-ab91515e0574.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Thermodynamics 07 : Entropy",
+    "lectureCode": "fc12a9c2-38c0-4c03-ad8f-a1aa7ba0c755",
+    "classNotesCode": "d1a199bf-e026-4bbf-8d0e-63743e8be639.pdf",
+    "dppsPdfCode": "d1a199bf-e026-4bbf-8d0e-63743e8be639.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Thermodynamics 06 : Work (Part 02)",
+    "lectureCode": "d61838e3-bdc0-42b5-aca8-bc8fc5e77d7d",
+    "classNotesCode": "e928dfd4-f385-4cdb-8e79-aaca7858f224.pdf",
+    "dppsPdfCode": "e928dfd4-f385-4cdb-8e79-aaca7858f224.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Thermodynamics 05 : Work",
+    "lectureCode": "10404b35-6b72-4b6b-87ac-7d62ea8bebcd",
+    "classNotesCode": "d3d770f6-088e-4da5-9339-c771a6a21f01.pdf",
+    "dppsPdfCode": "d3d770f6-088e-4da5-9339-c771a6a21f01.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Thermodynamics 04 : Heat Capacity || ...",
+    "lectureCode": "3f373616-cd67-4147-b98c-1dede497435e",
+    "classNotesCode": "442a75ec-3fd1-497f-bcdb-7282813316ec.pdf",
+    "dppsPdfCode": "442a75ec-3fd1-497f-bcdb-7282813316ec.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Thermodynamics 03 : Internal Energy |...",
+    "lectureCode": "22e148c0-708d-4476-be58-59f8c6f3fe96",
+    "classNotesCode": "0691097a-a8b0-4d08-94dd-cb77b67277af.pdf",
+    "dppsPdfCode": "0691097a-a8b0-4d08-94dd-cb77b67277af.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Thermodynamics 02 : State Function & ...",
+    "lectureCode": "31a4791b-0bfd-4b10-9616-72d7148e1d4c",
+    "classNotesCode": "f46ca37a-4e90-47b5-a7d6-57478b56972c.pdf",
+    "dppsPdfCode": "f46ca37a-4e90-47b5-a7d6-57478b56972c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Thermodynamics 01 : Terminology (NO DPP)",
+    "lectureCode": "85135f03-f223-43c4-b09a-6868d974616f",
+    "classNotesCode": "2098255a-3b68-4ee3-ba17-39f44ec45f9c.pdf",
+    "dppsPdfCode": "2098255a-3b68-4ee3-ba17-39f44ec45f9c.pdf",
+    "dppsSolutionCode": ""
+  }
+]
