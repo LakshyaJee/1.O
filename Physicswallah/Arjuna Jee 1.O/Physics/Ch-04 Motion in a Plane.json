@@ -1,0 +1,106 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Motion in a Plane 13 : DOT and CROSS ...",
+    "lectureCode": "aa9bd13a-92a8-4bd2-927e-6904b8f0a405",
+    "classNotesCode": "f22a606f-a8de-41a3-b4cd-b69dac9d5c61.pdf",
+    "dppsPdfCode": "f22a606f-a8de-41a3-b4cd-b69dac9d5c61.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Motion in a Plane 12 : Questions on p...",
+    "lectureCode": "774de6c2-4280-4ca8-a512-652e3d68e398",
+    "classNotesCode": "6fc6edc0-6cf0-4ce8-96a2-013b4782af34.pdf",
+    "dppsPdfCode": "6fc6edc0-6cf0-4ce8-96a2-013b4782af34.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Motion in a Plane 11 : Horizontal pro...",
+    "lectureCode": "8ddcbc4b-9ff1-4b8e-bb3d-e770ec93aafc",
+    "classNotesCode": "96348d6d-4e0e-4de8-951c-f9ed90a2edc8.pdf",
+    "dppsPdfCode": "96348d6d-4e0e-4de8-951c-f9ed90a2edc8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Motion in a Plane 10 : Oblique projec...",
+    "lectureCode": "29c42373-d86c-49f0-b36a-3538a2c7c8ea",
+    "classNotesCode": "03b582e8-a961-4a7e-9737-1c11eb663161.pdf",
+    "dppsPdfCode": "03b582e8-a961-4a7e-9737-1c11eb663161.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Motion in a Plane 09 : Projectile Int...",
+    "lectureCode": "abc36304-dbcd-4570-aafd-5eccb55e32e9",
+    "classNotesCode": "3d3a3696-2477-4bcf-a7dd-14af96f75def.pdf",
+    "dppsPdfCode": "3d3a3696-2477-4bcf-a7dd-14af96f75def.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Motion in a Plane 08 : River boat pro...",
+    "lectureCode": "a874666d-7b0d-43f8-9c9b-2d743d349031",
+    "classNotesCode": "96424636-d37a-4ef1-8f1f-8bb24fa143bf.pdf",
+    "dppsPdfCode": "96424636-d37a-4ef1-8f1f-8bb24fa143bf.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Motion in a Plane 07 : Relative Veloc...",
+    "lectureCode": "3864bf88-25c3-46fd-ad98-9990aa1956c5",
+    "classNotesCode": "9ebffca2-a01e-4623-ae83-909bab18be47.pdf",
+    "dppsPdfCode": "9ebffca2-a01e-4623-ae83-909bab18be47.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Motion in a Plane 06 : Relative Veloc...",
+    "lectureCode": "2416bb52-9f69-4078-9dfd-c65e962b08ef",
+    "classNotesCode": "c0a9fb90-758e-4e76-83cb-602688c92d44.pdf",
+    "dppsPdfCode": "c0a9fb90-758e-4e76-83cb-602688c92d44.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Motion in a Plane 05 : Homework on Ad...",
+    "lectureCode": "d4cb39e2-c968-47b6-8212-2548191159c3",
+    "classNotesCode": "1ac9f334-22cb-411f-ad85-88bbc976c6c0.pdf",
+    "dppsPdfCode": "1ac9f334-22cb-411f-ad85-88bbc976c6c0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Motion in a Plane 04 : Questions on V...",
+    "lectureCode": "05acc212-f475-4484-83bd-9680373f21ea",
+    "classNotesCode": "1a50518e-7d54-4ff6-b8ac-1fe8fa44449a.pdf",
+    "dppsPdfCode": "1a50518e-7d54-4ff6-b8ac-1fe8fa44449a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Motion in a Plane 03 : Vector Addition",
+    "lectureCode": "98b95a43-ceb4-4a1f-a766-c830b67e9013",
+    "classNotesCode": "af7af062-130b-463f-8a19-9ee272ba4bae.pdf",
+    "dppsPdfCode": "af7af062-130b-463f-8a19-9ee272ba4bae.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Motion in a Plane 02 : Unit Vector ||...",
+    "lectureCode": "b362e6e1-c893-4d4a-911a-7278f7a74799",
+    "classNotesCode": "417da29f-19ca-4f4d-ac96-35c76f0e6da6.pdf",
+    "dppsPdfCode": "417da29f-19ca-4f4d-ac96-35c76f0e6da6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Motion in a Plane 01 : Vectors Introd...",
+    "lectureCode": "8ba9a32f-1eb7-4cb6-a4e8-0e7775d4c680",
+    "classNotesCode": "e5223f6b-ebbb-48c3-8e41-916f519fcb71.pdf",
+    "dppsPdfCode": "e5223f6b-ebbb-48c3-8e41-916f519fcb71.pdf",
+    "dppsSolutionCode": ""
+  }
+]

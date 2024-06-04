@@ -1,0 +1,58 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Thermodynamics 07 : Polytropic Proces...",
+    "lectureCode": "2b8c638e-7c04-40cf-a705-03efbb14a071",
+    "classNotesCode": "c295e0c3-d4ac-4c1d-8d9f-58773d7ec399.pdf",
+    "dppsPdfCode": "c295e0c3-d4ac-4c1d-8d9f-58773d7ec399.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Thermodynamics 06 : Carnot Engine & R...",
+    "lectureCode": "8c994e6f-cfb8-4c5c-873a-94a0caad2cda",
+    "classNotesCode": "29b34f9c-5cc0-4733-9e06-a397e65d500b.pdf",
+    "dppsPdfCode": "29b34f9c-5cc0-4733-9e06-a397e65d500b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Thermodynamics 05 : Second Law of The...",
+    "lectureCode": "0bc7370b-3402-41f9-94c1-e5678c9fbd31",
+    "classNotesCode": "4245a9a6-9cad-4ac3-aa3f-aa735578640d.pdf",
+    "dppsPdfCode": "4245a9a6-9cad-4ac3-aa3f-aa735578640d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Thermodynamics 04 : Questions on Firs...",
+    "lectureCode": "1b115f36-4bc3-4f45-aa19-30741fa6383d",
+    "classNotesCode": "a62b5abe-25b1-420c-9c49-028ebbf27f88.pdf",
+    "dppsPdfCode": "a62b5abe-25b1-420c-9c49-028ebbf27f88.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Thermodynamics 03 : Work Done in Ther...",
+    "lectureCode": "1e8133f9-a116-4133-b315-4189aa9b8a7b",
+    "classNotesCode": "7df55167-fef8-4d2a-8228-1c0e404b6653.pdf",
+    "dppsPdfCode": "7df55167-fef8-4d2a-8228-1c0e404b6653.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Thermodynamics 02 : Indicator Diagram...",
+    "lectureCode": "4a5b248d-4b83-4305-a864-59f057a686de",
+    "classNotesCode": "1362da36-bcaf-4be5-8e56-30af04c7ff5a.pdf",
+    "dppsPdfCode": "1362da36-bcaf-4be5-8e56-30af04c7ff5a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Thermodynamics 01 : First Law of Ther...",
+    "lectureCode": "d32e52fc-ccbe-453e-8e0d-931f8724a0e2",
+    "classNotesCode": "1c431bfc-cc04-48c1-a1ed-118b09b46866.pdf",
+    "dppsPdfCode": "1c431bfc-cc04-48c1-a1ed-118b09b46866.pdf",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Experimental physics 05 : Centre of M...",
+    "lectureCode": "b9c10f68-a178-478b-866a-70c4c7ff5d61",
+    "classNotesCode": "6b972f07-989f-40d9-974b-3d2ca0e912f4.pdf",
+    "dppsPdfCode": "6b972f07-989f-40d9-974b-3d2ca0e912f4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Experimental physics 04 : Incline Pro...",
+    "lectureCode": "b8b39f2a-5e58-4715-b2e6-f6e507ca6f23",
+    "classNotesCode": "ab49063d-7af8-41da-9baf-3bc1b4a24f00.pdf",
+    "dppsPdfCode": "ab49063d-7af8-41da-9baf-3bc1b4a24f00.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Experimental physics 03 : Question on...",
+    "lectureCode": "45e6cb0f-b6d2-45fb-ba17-738faaa72eec",
+    "classNotesCode": "6d45e289-79eb-4eb7-ba30-e1dabed58b4b.pdf",
+    "dppsPdfCode": "6d45e289-79eb-4eb7-ba30-e1dabed58b4b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Experimental physics 02 : Vernier Cal...",
+    "lectureCode": "1a41c458-a8b7-4055-a8a3-eb9f509eee6f",
+    "classNotesCode": "186c13ff-0ac2-4baf-92b0-d0e97d4af4d1.pdf",
+    "dppsPdfCode": "186c13ff-0ac2-4baf-92b0-d0e97d4af4d1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Experimental physics 01 : Measuring I...",
+    "lectureCode": "aa1a57f0-499b-4a8a-ae55-594cb59be91b",
+    "classNotesCode": "2a9c7e8a-d921-4c11-a874-f4ad7a7050ef.pdf",
+    "dppsPdfCode": "2a9c7e8a-d921-4c11-a874-f4ad7a7050ef.pdf",
+    "dppsSolutionCode": ""
+  }
+]
