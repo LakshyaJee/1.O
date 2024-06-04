@@ -1,0 +1,23 @@
+[
+    {
+        "lectureNumber": 1,
+        "lectureName": "Hydrogen 01 : Position of H-Atom || Isotopes of Hydrogen || Allotropes of H || Types of H (NO DPP)",
+        "lectureCode": "ebc17da5-b60a-49e6-b5f7-46505af23cf7",
+        "classNotesCode": "",
+        "dppsPdfCode": ""
+      },
+      {
+        "lectureNumber": 2,
+        "lectureName": "Hydrogen 02 : Chemistry of H2 || Hydrides || Chemistry of H2O2 || PYQ's",
+        "lectureCode": "82e71d27-11f3-46fc-9c5b-4fce755832c2",
+        "classNotesCode": "",
+        "dppsPdfCode": ""
+      },
+      {
+        "lectureNumber": 3,
+        "lectureName": "Hydrogen 03 : Chemistry of H2O || Chemistry of D2O || Hardness of Water PYQ's",
+        "lectureCode": "3f6fdca1-806e-41d7-9068-d025b46c5051",
+        "classNotesCode": "",
+        "dppsPdfCode": ""
+      }
+    ]
