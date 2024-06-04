@@ -1,0 +1,66 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Set Theory 08 : Set theory HW Discuss...",
+    "lectureCode": "b0422b92-5d8e-465c-beda-3334d782d23d",
+    "classNotesCode": "f0aa2756-5c92-4c0d-aa7e-14177afd86ac.pdf",
+    "dppsPdfCode": "f0aa2756-5c92-4c0d-aa7e-14177afd86ac.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Set Theory 07 : Practice on Venn Diag...",
+    "lectureCode": "6ea589d0-97ff-4331-b462-6bdc36166b11",
+    "classNotesCode": "96bd6b90-a446-4753-9507-f739fc3522d3.pdf",
+    "dppsPdfCode": "96bd6b90-a446-4753-9507-f739fc3522d3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Set Theory 06 : Venn Diagrams Practic...",
+    "lectureCode": "47340cb4-9605-4d3e-b02d-e1a42573fe65",
+    "classNotesCode": "8cf027f6-ae52-4927-8cb3-cf5280114d11.pdf",
+    "dppsPdfCode": "8cf027f6-ae52-4927-8cb3-cf5280114d11.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Set Theory 05 : Operations on Sets an...",
+    "lectureCode": "dc85b88f-363f-4467-a071-d93a6ac4fe93",
+    "classNotesCode": "856e069b-8474-4f4c-bc93-232347deeadd.pdf",
+    "dppsPdfCode": "856e069b-8474-4f4c-bc93-232347deeadd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Set Theory 04 : Subsets and Superset ...",
+    "lectureCode": "bdcf4e0d-bc13-4c44-adf8-4c881168649e",
+    "classNotesCode": "26429b34-7447-406b-b00f-fe3239613cbd.pdf",
+    "dppsPdfCode": "26429b34-7447-406b-b00f-fe3239613cbd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Set Theory 03 : HW Discussion || Subs...",
+    "lectureCode": "bcce2ad1-20f1-4b7a-b1a8-cafdcdb89a67",
+    "classNotesCode": "86a99739-6347-4395-a2a7-9a18ebc4bc2e.pdf",
+    "dppsPdfCode": "86a99739-6347-4395-a2a7-9a18ebc4bc2e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Set Theory 02 : More Logarithm Practi...",
+    "lectureCode": "b0c72332-087b-4b7b-a028-80fd0e868547",
+    "classNotesCode": "03aab487-70ee-405c-baa6-6fb21be461aa.pdf",
+    "dppsPdfCode": "03aab487-70ee-405c-baa6-6fb21be461aa.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Set Theory 01 : Remaining Logarithm a...",
+    "lectureCode": "491ad751-1e96-4a78-a40c-065f3dec1a96",
+    "classNotesCode": "6c47dd92-98ab-4d29-9504-4416cfc2237e.pdf",
+    "dppsPdfCode": "6c47dd92-98ab-4d29-9504-4416cfc2237e.pdf",
+    "dppsSolutionCode": ""
+  }
+]
