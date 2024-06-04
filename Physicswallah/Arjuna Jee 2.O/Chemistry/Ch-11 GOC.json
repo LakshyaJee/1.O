@@ -1,0 +1,90 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "GOC 11 : Ortho Effect",
+    "lectureCode": "c2b041cb-492e-4077-b115-a8fde8eb5459",
+    "classNotesCode": "efc87155-552d-4896-8a27-d54471bc7038.pdf",
+    "dppsPdfCode": "efc87155-552d-4896-8a27-d54471bc7038.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "GOC 10 : Aromatic Effect",
+    "lectureCode": "667ac102-1e9a-4ffa-9a4d-9f4ee0464a7d",
+    "classNotesCode": "a757a90d-d059-455c-b3ae-b4f41961e27e.pdf",
+    "dppsPdfCode": "a757a90d-d059-455c-b3ae-b4f41961e27e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "GOC 09 : Hyperconjugation",
+    "lectureCode": "d3f884fc-a7e9-4752-988f-3ed5ce263a9b",
+    "classNotesCode": "a69aaf9e-4d11-42eb-8c0c-e78860005e9d.pdf",
+    "dppsPdfCode": "a69aaf9e-4d11-42eb-8c0c-e78860005e9d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "GOC 08 : Mesomeric Effect",
+    "lectureCode": "26db1f00-8fde-4554-bdc2-b206906d02e4",
+    "classNotesCode": "9812a198-d94c-4bc0-bccf-b3a5443caf80.pdf",
+    "dppsPdfCode": "9812a198-d94c-4bc0-bccf-b3a5443caf80.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "GOC 07 : Application of Resonance",
+    "lectureCode": "40995259-3e5b-45a8-abc8-1311ac3161f9",
+    "classNotesCode": "aa2c3ddf-072d-47a7-aa25-dc124b582804.pdf",
+    "dppsPdfCode": "aa2c3ddf-072d-47a7-aa25-dc124b582804.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "GOC 06 : Resonance 3",
+    "lectureCode": "b663d5df-c449-4ccd-90ef-b7a53f7d518d",
+    "classNotesCode": "f6481569-85f4-48ea-b2ec-c855f8e3379b.pdf",
+    "dppsPdfCode": "f6481569-85f4-48ea-b2ec-c855f8e3379b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "GOC 05 : Resonance 2",
+    "lectureCode": "6a29b0e1-334f-4d94-b96a-717c665cb1c7",
+    "classNotesCode": "182d5c83-c785-4f80-9983-b526a8c8d62b.pdf",
+    "dppsPdfCode": "182d5c83-c785-4f80-9983-b526a8c8d62b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "GOC 04 : Resonance",
+    "lectureCode": "7a7997e1-c05d-4176-a802-96629af20d1c",
+    "classNotesCode": "1796345d-b83c-4204-9c10-aa90bc19e801.pdf",
+    "dppsPdfCode": "1796345d-b83c-4204-9c10-aa90bc19e801.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "GOC 03 : Application Of Inductive-2",
+    "lectureCode": "c0656a2c-abd1-4277-a2f6-513b752aae8a",
+    "classNotesCode": "254625fb-e36f-44c3-8bb4-1218adec1e12.pdf",
+    "dppsPdfCode": "254625fb-e36f-44c3-8bb4-1218adec1e12.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "GOC 02 : Inductive Effect",
+    "lectureCode": "c5719825-b38c-4aad-8142-d122e2e1cb31",
+    "classNotesCode": "3edbcf9a-e5aa-4b2b-b016-85edd0f8648d.pdf",
+    "dppsPdfCode": "3edbcf9a-e5aa-4b2b-b016-85edd0f8648d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "GOC 01 : Introduction",
+    "lectureCode": "781d5a4b-1919-42b4-8d34-65f2a36fb596",
+    "classNotesCode": "6fe4ecfb-aa7b-47a8-b6a2-193c21ce9e31.pdf",
+    "dppsPdfCode": "6fe4ecfb-aa7b-47a8-b6a2-193c21ce9e31.pdf",
+    "dppsSolutionCode": ""
+  }
+]

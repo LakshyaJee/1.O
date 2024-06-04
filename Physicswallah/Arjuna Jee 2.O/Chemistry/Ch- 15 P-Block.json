@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "P-Block 05 : Carbon Family",
+    "lectureCode": "842f0a68-c0bf-4a65-88db-06ac764c8fb9",
+    "classNotesCode": "fc2aa0c7-403d-4b52-bc4c-68b5778e0d0c.pdf",
+    "dppsPdfCode": "fc2aa0c7-403d-4b52-bc4c-68b5778e0d0c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "P-Block 04 : Boron Family || (NO DPP )",
+    "lectureCode": "60f7e714-fb09-4cdb-9d20-33b9dd0bd9f5",
+    "classNotesCode": "d71a4483-eb4b-4a13-935f-641458c4e92e.pdf",
+    "dppsPdfCode": "d71a4483-eb4b-4a13-935f-641458c4e92e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "P-Block 03 : Carbon Family",
+    "lectureCode": "8504e5c7-6046-46b3-b196-9edf91d9ef41",
+    "classNotesCode": "78daad90-a261-414c-92bf-b7940cf4444b.pdf",
+    "dppsPdfCode": "78daad90-a261-414c-92bf-b7940cf4444b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "P-Block 02 : Boron Family",
+    "lectureCode": "6544ee25-3f10-42a8-a657-30138ad59cc2",
+    "classNotesCode": "96171f24-e59c-4b63-be52-47b4f3896951.pdf",
+    "dppsPdfCode": "96171f24-e59c-4b63-be52-47b4f3896951.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "P-Block 01 : Oxyacid || (NO DPP) || (...",
+    "lectureCode": "64615787-47f3-455f-afef-64f4b4997eb8",
+    "classNotesCode": "8ed657a4-16f5-46a5-a2b6-cbc1859d0e9e.pdf",
+    "dppsPdfCode": "8ed657a4-16f5-46a5-a2b6-cbc1859d0e9e.pdf",
+    "dppsSolutionCode": ""
+  }
+]
