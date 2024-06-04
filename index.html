@@ -1491,24 +1491,24 @@ function showLessons(batchName, subject, lessons) {
 
 
         // ...
-function showContent(batchName, subject, lesson) {
+        function showContent(batchName, subject, lesson) {
     // Define the content paths
     const contentPaths = {
         "Prayas Jee 2.O": {
             Mathematics: {
                 // Update these URLs with the actual content URLs
-                "Basics Mathematics": "Physicswallah/Prayas Jee 2.O/Mathematics/Basics Mathematics.js",
-                "Quadratic Equations": "Physicswallah/Sachin Sir Khazana/Quadratic Equations.js",
-                "Sequences and Series": "Physicswallah/Sachin Sir Khazana/Sequences and Series.js",
-                "Binomial Theorem": "Physicswallah/Prayas Jee 2.O/Mathematics/Binomial Theorem.js",
-                "Circles": "Physicswallah/Prayas Jee 2.O/Mathematics/Circles.js",
-                "Complex Numbers": "Physicswallah/Prayas Jee 2.O/Mathematics/Complex Numbers.js",
-                "Ellipse": "Physicswallah/Prayas Jee 2.O/Mathematics/Ellipse.js",
-                "Hyperbola": "Physicswallah/Prayas Jee 2.O/Mathematics/Hyperbola.js",
-                "Parabola": "Physicswallah/Prayas Jee 2.O/Mathematics/Parabola.js",
-                "Straight Line": "Physicswallah/Prayas Jee 2.O/Mathematics/Straight Line.js",
-                "Trigonometric Equations": "Physicswallah/Prayas Jee 2.O/Mathematics/Trigonometric Equations.js",
-                "Trigonometric Ratios & Identities": "Physicswallah/Prayas Jee 2.O/Mathematics/Trigonometric Ratios & Identities.js",
+                "Basics Mathematics": "Physicswallah/Prayas Jee 2.O/Mathematics/Basics Mathematics.json",
+                "Quadratic Equations": "Physicswallah/Sachin Sir Khazana/Quadratic Equations.json",
+                "Sequences and Series": "Physicswallah/Sachin Sir Khazana/Sequences and Series.json",
+                "Binomial Theorem": "Physicswallah/Prayas Jee 2.O/Mathematics/Binomial Theorem.json",
+                "Circles": "Physicswallah/Prayas Jee 2.O/Mathematics/Circles.json",
+                "Complex Numbers": "Physicswallah/Prayas Jee 2.O/Mathematics/Complex Numbers.json",
+                "Ellipse": "Physicswallah/Prayas Jee 2.O/Mathematics/Ellipse.json",
+                "Hyperbola": "Physicswallah/Prayas Jee 2.O/Mathematics/Hyperbola.json",
+                "Parabola": "Physicswallah/Prayas Jee 2.O/Mathematics/Parabola.json",
+                "Straight Line": "Physicswallah/Prayas Jee 2.O/Mathematics/Straight Line.json",
+                "Trigonometric Equations": "Physicswallah/Prayas Jee 2.O/Mathematics/Trigonometric Equations.json",
+                "Trigonometric Ratios & Identities": "Physicswallah/Prayas Jee 2.O/Mathematics/Trigonometric Ratios & Identities.json",
             }
         }
     };
@@ -1517,27 +1517,36 @@ function showContent(batchName, subject, lesson) {
     const contentPath = contentPaths[batchName]?.[subject]?.[lesson];
 
     if (contentPath) {
-        // Dynamically create a script element to fetch and execute the JavaScript file
-        const script = document.createElement('script');
-        script.src = contentPath;
-        script.onload = () => {
-            // The lecture data will be available after the script is loaded
-            console.log(lectureData);
+        // Fetch the JSON file
+        fetch(contentPath)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(lectureData => {
+                // The lecture data is now available
+                console.log(lectureData);
 
-            // Save the lectureData to localStorage
-            sessionStorage.setItem('lectureData', JSON.stringify(lectureData));
+                // Save the lectureData to sessionStorage
+                sessionStorage.setItem('lectureData', JSON.stringify(lectureData));
 
-            // Trigger a custom event to notify other tabs
-    window.dispatchEvent(new Event('myStorageEvent'));
+                // Trigger a custom event to notify other tabs
+                window.dispatchEvent(new Event('myStorageEvent'));
 
-            // Navigate to the index.html file in the same tab
-            window.location.href = 'lectureData.html';
-        };
-        document.head.appendChild(script);
+                // Navigate to the lectureData.html file in the same tab
+                window.location.href = 'lectureData.html';
+            })
+            .catch(error => {
+                console.error('Error fetching the lecture data:', error);
+                alert('Error fetching the lecture data.');
+            });
     } else {
         alert('Content not found.');
     }
 }
+
 
 // Listen for changes to localStorage
 window.addEventListener('storage', function(event) {
