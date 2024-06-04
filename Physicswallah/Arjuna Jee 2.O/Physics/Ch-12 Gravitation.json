@@ -1,0 +1,50 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Gravitation 06 : Planetary Motion And...",
+    "lectureCode": "6c29cd32-3ef2-4ccc-ab1f-5bb1a749c583",
+    "classNotesCode": "9ce33f50-25a1-4c82-8414-c0c096d45dd3.pdf",
+    "dppsPdfCode": "9ce33f50-25a1-4c82-8414-c0c096d45dd3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Gravitation 05 : Satellite Motion",
+    "lectureCode": "b7795cf9-457d-4ad6-bada-1c429edd2aec",
+    "classNotesCode": "087e08de-2e4b-4c5e-9a6a-8cde80de5014.pdf",
+    "dppsPdfCode": "087e08de-2e4b-4c5e-9a6a-8cde80de5014.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Gravitation 04 : Calculation Of Gravi...",
+    "lectureCode": "8ef69725-46ac-4add-873d-dc4887b60e8b",
+    "classNotesCode": "ae4ea564-1f48-42bd-8b0e-a8ae3026efe7.pdf",
+    "dppsPdfCode": "ae4ea564-1f48-42bd-8b0e-a8ae3026efe7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Gravitation 03 : Calculation Of Gravi...",
+    "lectureCode": "de005f77-2200-4a8c-9081-8a3fd08d5616",
+    "classNotesCode": "1c732926-4d08-404b-8e8e-19d9329b5d0e.pdf",
+    "dppsPdfCode": "1c732926-4d08-404b-8e8e-19d9329b5d0e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Gravitation 02 : Calculation Of Gravi...",
+    "lectureCode": "3fb29f4f-d780-441e-88ac-2b79560b51e1",
+    "classNotesCode": "0cc972a2-15c6-4025-9f79-7b1db7f5f3b4.pdf",
+    "dppsPdfCode": "0cc972a2-15c6-4025-9f79-7b1db7f5f3b4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Gravitation 01 : Gravitation , Gravit...",
+    "lectureCode": "e471c272-3cc3-42f4-8e87-cc71555aac40",
+    "classNotesCode": "e1f22bb1-8c6d-4bd9-a53f-b779826369fa.pdf",
+    "dppsPdfCode": "e1f22bb1-8c6d-4bd9-a53f-b779826369fa.pdf",
+    "dppsSolutionCode": ""
+  }
+]

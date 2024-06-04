@@ -1,0 +1,58 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Basic Mathematics -07 : Position & Di...",
+    "lectureCode": "676de1a5-21a0-4b68-84d4-bca1f58e232c",
+    "classNotesCode": "59eefe5f-0620-4bb1-ae3b-47b92cbdc953.pdf",
+    "dppsPdfCode": "59eefe5f-0620-4bb1-ae3b-47b92cbdc953.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Basic Mathematics -06 : Addition & Su...",
+    "lectureCode": "82cc2a5e-7cd0-43f2-b07a-2b80f22e3a52",
+    "classNotesCode": "43edb78c-781f-4796-8b11-aa7a21e9195b.pdf",
+    "dppsPdfCode": "43edb78c-781f-4796-8b11-aa7a21e9195b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Basic Mathematics -05 : Introduction ...",
+    "lectureCode": "4c13a478-3e2e-4933-875d-ef60c36dc0e2",
+    "classNotesCode": "f28cef9c-7cb8-4ebe-b7ca-3c151a9fabb5.pdf",
+    "dppsPdfCode": "f28cef9c-7cb8-4ebe-b7ca-3c151a9fabb5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Basic Mathematics -04 : Basic Algebra...",
+    "lectureCode": "5695dc48-dad8-4caf-a328-358951d0f05c",
+    "classNotesCode": "5226a61b-4148-491d-bcd4-22f1a7691e6e.pdf",
+    "dppsPdfCode": "5226a61b-4148-491d-bcd4-22f1a7691e6e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Basic Mathematics -03 : Graphs",
+    "lectureCode": "437586a8-779e-4c6e-a83d-329374ecc096",
+    "classNotesCode": "46b182b3-b79e-443d-81ac-298d8658f6da.pdf",
+    "dppsPdfCode": "46b182b3-b79e-443d-81ac-298d8658f6da.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Basic Mathematics -02 : Trigonometry ...",
+    "lectureCode": "2a961d86-523b-4a59-9e46-14fdb6b4aef7",
+    "classNotesCode": "858aff99-cd59-44a0-9b50-725dadf556d2.pdf",
+    "dppsPdfCode": "858aff99-cd59-44a0-9b50-725dadf556d2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Basic Mathematics -01 : Trigonometry ...",
+    "lectureCode": "16e37e64-f713-4e01-89bb-884c6db06554",
+    "classNotesCode": "98594176-5550-4789-8370-d422dbd599e8.pdf",
+    "dppsPdfCode": "98594176-5550-4789-8370-d422dbd599e8.pdf",
+    "dppsSolutionCode": ""
+  }
+]
