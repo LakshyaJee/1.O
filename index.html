@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -1490,665 +1492,75 @@ function showLessons(batchName, subject, lessons) {
 
         // ...
 function showContent(batchName, subject, lesson) {
+    // Define the content paths
     const contentPaths = {
         "Prayas Jee 2.O": {
             Mathematics: {
                 // Update these URLs with the actual content URLs
-                "Basics Mathematics": "Physicswallah/Sachin Sir Khazana/Basics Mathematics.html",
-                "Quadratic Equations": "Physicswallah/Sachin Sir Khazana/Quadratic Equations.html",
-                "Sequences and Series": "Physicswallah/Sachin Sir Khazana/Sequences and Series.html",
-                "Binomial Theorem": "Physicswallah/Prayas Jee 2.O/Mathematics/Binomial Theorem.html",
-                "Circles": "Physicswallah/Prayas Jee 2.O/Mathematics/Circles.html",
-                "Complex Numbers": "Physicswallah/Prayas Jee 2.O/Mathematics/Complex Numbers.html",
-                "Ellipse": "Physicswallah/Prayas Jee 2.O/Mathematics/Ellipse.html",
-                "Hyperbola": "Physicswallah/Prayas Jee 2.O/Mathematics/Hyperbola.html",
-                "Parabola": "Physicswallah/Prayas Jee 2.O/Mathematics/Parabola.html",
-                "Straight Line": "Physicswallah/Prayas Jee 2.O/Mathematics/Straight Line.html",
-                "Trigonometric Equations": "Physicswallah/Prayas Jee 2.O/Mathematics/Trigonometric Equations.html",
-                "Trigonometric Ratios & Identities": "Physicswallah/Prayas Jee 2.O/Mathematics/Trigonometric Ratios & Identities.html",
-                
-            },
-            OrganicChemistry: {
-                "IUPAC": "Physicswallah/Prayas Jee 2.O/Organic Chemistry/IUPAC.html",
-                "GOC": "Physicswallah/Prayas Jee 2.O/Organic Chemistry/GOC.html",
-                "Isomerism": "Physicswallah/Prayas Jee 2.O/Organic Chemistry/Isomerism.html",
+                "Basics Mathematics": "Basics Mathematics.js",
+                "Quadratic Equations": "Physicswallah/Sachin Sir Khazana/Quadratic Equations.js",
+                "Sequences and Series": "Physicswallah/Sachin Sir Khazana/Sequences and Series.js",
+                "Binomial Theorem": "Physicswallah/Prayas Jee 2.O/Mathematics/Binomial Theorem.js",
+                "Circles": "Physicswallah/Prayas Jee 2.O/Mathematics/Circles.js",
+                "Complex Numbers": "Physicswallah/Prayas Jee 2.O/Mathematics/Complex Numbers.js",
+                "Ellipse": "Physicswallah/Prayas Jee 2.O/Mathematics/Ellipse.js",
+                "Hyperbola": "Physicswallah/Prayas Jee 2.O/Mathematics/Hyperbola.js",
+                "Parabola": "Physicswallah/Prayas Jee 2.O/Mathematics/Parabola.js",
+                "Straight Line": "Physicswallah/Prayas Jee 2.O/Mathematics/Straight Line.js",
+                "Trigonometric Equations": "Physicswallah/Prayas Jee 2.O/Mathematics/Trigonometric Equations.js",
+                "Trigonometric Ratios & Identities": "Physicswallah/Prayas Jee 2.O/Mathematics/Trigonometric Ratios & Identities.js",
             }
-        },
-        "Sachin Sir Khazana Standard XI": {
-            Mathematics: {
-                // Update these URLs with the actual content URLs
-                "Basics Mathematics": "Physicswallah/Sachin Sir Khazana/Basics Mathematics.html",
-                "Quadratic Equations": "Physicswallah/Sachin Sir Khazana/Quadratic Equations.html",
-                "Sequences and Series":"Physicswallah/Sachin Sir Khazana/Sequences and Series.html",
-                
-            }
-        },
-        "Sachin Sir Khazana Standard XII": {
-            Mathematics: {
-                // Update these URLs with the actual content URLs
-                
-                "XI Ki Dose": "Physicswallah/Sachin Sir Khazana/XI Ki Dose.html",
-                "Relation and Functions": "Physicswallah/Sachin Sir Khazana/Relation and Functions.html",
-                "Inverse Trigonometric Function": "Physicswallah/Sachin Sir Khazana/Inverse Trigonometric Function.html",
-                "Matrices": "Physicswallah/Sachin Sir Khazana/Matrices.html",
-                "Determinants": "Physicswallah/Sachin Sir Khazana/Determinants.html",
-                "Limits, Continuity and Differentiability": "Physicswallah/Sachin Sir Khazana/Limits, Continuity and Differentiability.html",
-                "Application of Derivative": "Physicswallah/Sachin Sir Khazana/Application of Derivatives.html",
-                "Definite Integration": "Physicswallah/Sachin Sir Khazana/Definite Integration.html",
-                "Indefinite Integration": "Physicswallah/Sachin Sir Khazana/Indefinite Integration.html",
-                "Application of Integral": "Physicswallah/Sachin Sir Khazana/Application of Integral.html",
-                "Methods of Differentiation": "Physicswallah/Sachin Sir Khazana/Methods of Differentiation.html",
-                "Differential Equation": "Physicswallah/Sachin Sir Khazana/Differential Equation.html",
-                "Vectors": "Physicswallah/Sachin Sir Khazana/Vectors.html",
-                "3D Geometry": "Physicswallah/Sachin Sir Khazana/3D Geometry.html",
-                "Probability": "Physicswallah/Sachin Sir Khazana/Probability.html",
-                "Linear Programming": "Physicswallah/Sachin Sir Khazana/Linear Programming.html",
-            }
-        },
-        "Arjuna Jee 1.0": {
-            Mathematics: {
-                // Update these URLs with the actual content URLs
-                "Basics Mathematics": "https://example.com/home8.html",
-                "Sets theory": "https://example.com/home3.html",
-                "Relation and Function": "https://example.com/home4.html",
-            },
-            Chemistry: {
-                // Update these URLs with the actual content URLs
-                "Mole Concept": "Physicswallah/Arjuna Jee 1.O/Chemistry/Mole Concept.html",
-                "Atomic Structure": "Physicswallah/Arjuna Jee 1.O/Chemistry/Atomic Structure.html",
-                "Periodic Table": "Physicswallah/Arjuna Jee 1.O/Chemistry/Periodic Table.html",
-                "Chemical Bonding": "Physicswallah/Arjuna Jee 1.O/Chemistry/Chemical Bonding.html",
-                "States of Matter": "Physicswallah/Arjuna Jee 1.O/Chemistry/States of Matter.html",
-                "Nomenclature": "Physicswallah/Arjuna Jee 1.O/Chemistry/Nomenclature.html",
-                "G.O.C and Isomerism": "Physicswallah/Arjuna Jee 1.O/Chemistry/G.O.C and Isomerism.html",
-                "S Block": "Physicswallah/Arjuna Jee 1.O/Chemistry/S Block.html",
-                "P Block": "Physicswallah/Arjuna Jee 1.O/Chemistry/P Block.html",
-                "Alkanes and Aromatic Hydrocarbons": "Physicswallah/Arjuna Jee 1.O/Chemistry/Alkanes and Aromatic Hydrocarbons.html",
-                "Hydrogen": "Physicswallah/Arjuna Jee 1.O/Chemistry/Hydrogen.html",
-                "Thermodynamics": "Physicswallah/Arjuna Jee 1.O/Chemistry/Thermodynamics.html",
-                "Chemical Equilirium": "Physicswallah/Arjuna Jee 1.O/Chemistry/Chemical Equilirium.html",
-                "Equilibrium Ionic": "Physicswallah/Arjuna Jee 1.O/Chemistry/Equilibrium - Ionic.html",
-                "Redox Reaction": "Physicswallah/Arjuna Jee 1.O/Chemistry/Redox Reaction.html",
+        }
+    };
 
-            },
-            Physics: {
-                // Update these URLs with the actual content URLs
-                "Units and Dimensions": "Physicswallah/Arjuna Jee 1.O/Physics/Units and Dimensions.html",
-                "Basics Mathematics": "Physicswallah/Arjuna Jee 1.O/Physics/Basics Mathematics.html",
-                "Motion in 1 Dimensions": "Physicswallah/Arjuna Jee 1.O/Physics/Motion in 1 Dimensions.html",
-                "Motion in 2 Dimensions": "Physicswallah/Arjuna Jee 1.O/Physics/Motion in 2 Dimensions.html",
-                "Newton Laws of Motion": "Physicswallah/Arjuna Jee 1.O/Physics/Newton Laws of Motion.html",
-                "Work, Power and Energy": "Physicswallah/Arjuna Jee 1.O/Physics/Work, Power and Energy.html",
-                "Center of Mass": "Physicswallah/Arjuna Jee 1.O/Physics/Center of Mass.html",
-                "Rotational Motion": "Physicswallah/Arjuna Jee 1.O/Physics/Rotational Motion.html",
-                "Gravitation": "Physicswallah/Arjuna Jee 1.O/Physics/Gravitation.html",
-                "Mechanical Properties of fluids": "Physicswallah/Arjuna Jee 1.O/Physics/Mechanical Properties of fluids.html",
-                "Thermal Properties of Matter": "Physicswallah/Arjuna Jee 1.O/Physics/Thermal Properties of Matter.html",
-                "Kinetic Theory of Gaseous": "Physicswallah/Arjuna Jee 1.O/Physics/Kinetic Theory of Gaseous.html",
-                "Thermodynamics": "Physicswallah/Arjuna Jee 1.O/Physics/Thermodynamics.html",
-                "Mechanical Properties of Solids": "Physicswallah/Arjuna Jee 1.O/Physics/Mechanical Properties of Solids.html",
-                "Simple Harmonic Motion": "Physicswallah/Arjuna Jee 1.O/Physics/Simple Harmonic Motion.html",
-                "Waves": "Physicswallah/Arjuna Jee 1.O/Physics/Waves.html",
-            }
-        },
-        "Arjuna Jee 2.O": {
-            Mathematics: {
-                // Update these URLs with the actual content URLs
-                "Basics Mathematics": "Physicswallah/Arjuna Jee 2.O/Mathematics/Basics.html",
-                "Sets theory": "Physicswallah/Arjuna Jee 2.O/Mathematics/Sets.html",
-                "Relation and Function": "Physicswallah/Arjuna Jee 2.O/Mathematics/Relation.html",
-                "Trigonometry": "Physicswallah/Arjuna Jee 2.O/Mathematics/Trigonometry.html",
-                "Logarithm": "Physicswallah/Arjuna Jee 2.O/Mathematics/Logarithm.html",
-            },
-            Chemistry: {
-                // Update these URLs with the actual content URLs
-                "Mole Concept": "https://example.com/home5.html",
-                "Some Basics Concept of Chemistry": "Physicswallah/Arjuna Jee 2.O/Chemistry/Some Basics Concept of Chemistry.html",
-                "Chemical Bonding": "https://example.com/home7.html",
-            },
-            Physics: {
-                // Update these URLs with the actual content URLs
-                "Units and Dimensions": "Physicswallah/Arjuna Jee 2.O/Physics/Units and Dimensions.html",
-                "Basics Mathematics": "Physicswallah/Arjuna Jee 2.O/Physics/Basics Mathematics.htmll",
-                "Motion in 1 Dimensions": "Physicswallah/Arjuna Jee 2.O/Physics/Motion in 1 Dimensions.html",
-                "Motion in 2 Dimensions" : "Physicswallah/Arjuna Jee 2.O/Physics/Motion in 2 Dimensions.html",
-                "Newton Laws of Motion": "https://example.com/home12.html",
-                "Work, Power and Energy": "https://example.com/home13.html",
-                "Rotational Motion": "https://example.com/home14.html",
-                "Center of Mass" : "Physicswallah/Arjuna Jee 1.O/Physics/Center of Mass.html"
-            }
-        },
-        "Board Booster (Standard 12 Maharashtra Board)": {
-            Mathematics: {
-                // Update these URLs with the actual content URLs
-                "Application of Derivatives" : "Physicswallah/MSBSHSE Standard 12/Mathematics/Application of Derivatives.html",
-                "Indefinite Integration" : "Physicswallah/MSBSHSE Standard 12/Mathematics/Indefinite Integration.html",
-                "Definite Integration" : "Physicswallah/MSBSHSE Standard 12/Mathematics/Definite Integration.html",
-                "Mathematical Logic" : "Physicswallah/MSBSHSE Standard 12/Mathematics/Mathematical Logic.html",
-                "Matrices" : "Physicswallah/MSBSHSE Standard 12/Mathematics/Matrices.html",
-                "Trigonometric Functions" : "Physicswallah/MSBSHSE Standard 12/Mathematics/Trigonometric Functions.html",
-                "Pair of Straight Lines" : "Physicswallah/MSBSHSE Standard 12/Mathematics/Pair of Straight Lines.html",
-                "Linear Programming Problems" : "Physicswallah/MSBSHSE Standard 12/Mathematics/Linear Programming Problems.html",
-                "Differentiation" : "Physicswallah/MSBSHSE Standard 12/Mathematics/Differentiation.html",
-                "Application of Definite Integration" : "Physicswallah/MSBSHSE Standard 12/Mathematics/Application of Definite Integration.html",
-                "Differential Equation" : "Physicswallah/MSBSHSE Standard 12/Mathematics/Differential Equation.html",
-                "Vectors" : "Physicswallah/MSBSHSE Standard 12/Mathematics/Vectors.html",
-                "Three Dimensional Geometry ( Line and Plane)" : "Physicswallah/MSBSHSE Standard 12/Mathematics/Three Dimensional Geometry.html",
-                "Probability and Binomial Distribution" : "Physicswallah/MSBSHSE Standard 12/Mathematics/Probability and Binomial Distribution.html",
-                "PYQ's Discussion" : "Physicswallah/MSBSHSE Standard 12/Mathematics/PYQ's Discussion.html",
-            },
-            Chemistry: {
-                // Update these URLs with the actual content URLs
-                "Chemical Kinetics" : "Physicswallah/MSBSHSE Standard 12/Chemistry/Chemical Kinetics.html",
-                "Solid States" : "Physicswallah/MSBSHSE Standard 12/Chemistry/Solid State.html",
-                "Solutions and Colligative Properties" : "Physicswallah/MSBSHSE Standard 12/Chemistry/Solutions and Colligative Properties.html",
-                "Ionic Equilibria" : "Physicswallah/MSBSHSE Standard 12/Chemistry/Ionic Equilibria.html",
-                "Chemical Thermodynamics" : "Physicswallah/MSBSHSE Standard 12/Chemistry/Chemical Thermodynamics.html",
-                "Electro Chemistry" : "Physicswallah/MSBSHSE Standard 12/Chemistry/Electro Chemistry.html",
-                "P Block" : "Physicswallah/MSBSHSE Standard 12/Chemistry/P Block.html",
-                "d and f block" : "Physicswallah/MSBSHSE Standard 12/Chemistry/d and f block.html",
-                "Co-ordination Compounds" : "Physicswallah/MSBSHSE Standard 12/Chemistry/Co-ordination Compounds.html",
-                "Haloalkenes and Haloerenes" : "Physicswallah/MSBSHSE Standard 12/Chemistry/Haloalkenes and Haloerenes.html",
-                "Alchol, Phenols and Ether" : "Physicswallah/MSBSHSE Standard 12/Chemistry/Alchols, Phenols and Ether.html",
-                "Aldehydes Ketones and Carboxylic Acid" : "Physicswallah/MSBSHSE Standard 12/Chemistry/Aldehydes, Ketones and Carboxylic Acid.html",
-                "Amines" : "Physicswallah/MSBSHSE Standard 12/Chemistry/Amines.html",
-                "Biomolecules" : "Physicswallah/MSBSHSE Standard 12/Chemistry/Biomolecules.html",
-                "Polymers" : "Physicswallah/MSBSHSE Standard 12/Chemistry/Polymers.html",
-                "Green and Nano Chemistry" : "Physicswallah/MSBSHSE Standard 12/Chemistry/Green and Nano Chemistry.html",
-                "PYQ's Discussion" : "Physicswallah/MSBSHSE Standard 12/Chemistry/PYQ's Discussion.html",
-            },
-            Physics: {
-                // Update these URLs with the actual content URLs
-                "Rotational Dynamics" : "Physicswallah/MSBSHSE Standard 12/Physics/Rotational Dynamics.html",
-                "Oscillations" : "Physicswallah/MSBSHSE Standard 12/Physics/Oscillations.html",
-                "Superposition of Waves" : "Physicswallah/MSBSHSE Standard 12/Physics/Superposition of Waves.html", 
-                "Wave Optics" : "Physicswallah/MSBSHSE Standard 12/Physics/Wave Optics.html",
-                "PYQ's Discussion" : "Physicswallah/MSBSHSE Standard 12/Physics/PYQ's Discussion.html",
-                "Electrostatics" : "Physicswallah/MSBSHSE Standard 12/Physics/Electrostatics.html",
-                "Current Electricity" : "Physicswallah/MSBSHSE Standard 12/Physics/Current Electricity.html",
-                "Magnetic Field Due to Electric Current" : "Physicswallah/MSBSHSE Standard 12/Physics/Magnetic Field Due to Electric Current.html",
-                "Magnetism and Matter" : "Physicswallah/MSBSHSE Standard 12/Physics/Magnetism and Matter.html",
-                "ElectroMagnetic Induction" : "Physicswallah/MSBSHSE Standard 12/Physics/ElectroMagnetic Induction.html",
-                "Alternating Circuit" : "Physicswallah/MSBSHSE Standard 12/Physics/Alternating Circuit.html",
-                "Dual Nature of Radiation and Matter" : "Physicswallah/MSBSHSE Standard 12/Physics/Dual Nature of Radiation and Matter.html",
-                "Structure of Atoms and Nuclei" : "Physicswallah/MSBSHSE Standard 12/Physics/Structure of Atoms and Nuclei.html",
-                "Semiconductor Devices" : "Physicswallah/MSBSHSE Standard 12/Physics/Semiconductor Devices.html",
-                "Mechanical Properties of Fluids" : "Physicswallah/MSBSHSE Standard 12/Physics/Mechanical Properties of Fluids.html",
-                "Kinetic Theory of Gases and Radiation" : "Physicswallah/MSBSHSE Standard 12/Physics/Kinetic Theory of Gases and Radiation.html",
-                "Thermodynamics" : "Physicswallah/MSBSHSE Standard 12/Physics/Thermodynamics.html",
-            },
-            Botany: {
-                "Reproduction in Plants" : "Physicswallah/MSBSHSE Standard 12/Botany/Reproduction in Plants.html",
-                "PYQ's Discussion" : "Physicswallah/MSBSHSE Standard 12/Botany/PYQ's Discussion.html",
-                "Enhancement in Food Production" : "Physicswallah/MSBSHSE Standard 12/Botany/Enhancement in Food Production.html",
-                "Microbes in Human Welfare" : "Physicswallah/MSBSHSE Standard 12/Botany/Microbes in Human Welfare.html",
-                "Biodiversity Conservation and Environmental Issues" : "Physicswallah/MSBSHSE Standard 12/Botany/Biodiversity Conservation and Evironmental Issues.html",
-                "Plant Water Relation" : "Physicswallah/MSBSHSE Standard 12/Botany/Plant Water Relation.html",
-                "Plant Growth and Mineral Nutrition" : "Physicswallah/MSBSHSE Standard 12/Botany/Plant Growth and Mineral Nutrition.html",
-                "PYQ's Discussion" : "Physicswallah/MSBSHSE Standard 12/Botany/PYQ's Discussion.html",
-            },
-            Zoology: {
-                "Organism and Population" : "Physicswallah/MSBSHSE Standard 12/Zoology/Organism and Population.html",
-                "Ecosystem and Energy Flow" : "Physicswallah/MSBSHSE Standard 12/Zoology/Ecosystem and Energy Flow.html",
-                "Animal Husbandry" : "Physicswallah/MSBSHSE Standard 12/Zoology/Animal Husbandry.html",
-                "PYQ's Discussion" : "Physicswallah/MSBSHSE Standard 12/Zoology/PYQ's Discussion.html",
-                "Biotechnology" : "Physicswallah/MSBSHSE Standard 12/Zoology/Biotechnology.html",
-                "Application of Biotechnology" : "Physicswallah/MSBSHSE Standard 12/Zoology/Application of Biotechnology.html",
-                "Immune System" : "Physicswallah/MSBSHSE Standard 12/Zoology/Immune System.html",
-                "Human Health and Diseases" : "Physicswallah/MSBSHSE Standard 12/Zoology/Human Health and Diseases.html",
-                "Origin and Evolution of Life" : "Physicswallah/MSBSHSE Standard 12/Zoology/Origin and Evolution of Life.html",
-                "Molecular Basis of Inheritance" : "Physicswallah/MSBSHSE Standard 12/Zoology/Molecular Basis of Inheritance.html",
-                "Chromosomal Basis of Inheritance" : "Physicswallah/MSBSHSE Standard 12/Zoology/Chromosomal Basis of Inheritance.html",
-                "Human Genome Project" : "Physicswallah/MSBSHSE Standard 12/Zoology/Human Genome Project.html",
-                "Respiration": "Physicswallah/MSBSHSE Standard 12/Zoology/Respiration.html",
-                "PYQ's Discussion" : "Physicswallah/MSBSHSE Standard 12/Zoology/PYQ's Discussion.html",
-                "Circulation" : "Physicswallah/MSBSHSE Standard 12/Zoology/Circulation.html",
-                "Neural Control" : "Physicswallah/MSBSHSE Standard 12/Zoology/Neural Control.html",
-                "Chemical Control" : "Physicswallah/MSBSHSE Standard 12/Zoology/Chemical Control.html",
-                "Reproduction in lower and higher Animals" : "Physicswallah/MSBSHSE Standard 12/Zoology/Reproduction in lower and higher Animals.html",
-                "Preproductive Health" : "Physicswallah/MSBSHSE Standard 12/Zoology/Reproductive Health.html",
-            }
-        },
-        "Lakshya Jee 1.0": {
-            Physics: {
-                // Update these URLs with the actual content URLs
-               "Electrostatics" : "Physicswallah/Lakshya Jee 1.O/Physics/Electric Charges.html",
-               "Electro Potential and Capacitance" : "Physicswallah/Lakshya Jee 1.O/Physics/Electrostatic Potiential and Capacitance.html",
-               "Current Electricity" : "Physicswallah/Lakshya Jee 1.O/Physics/Current Electricity.html",
-               "Moving Charge and Magnetism" : "Physicswallah/Lakshya Jee 1.O/Physics/Moving Charge and Magnetism.html", 
-               "Magnetism and Matter" : "Physicswallah/Lakshya Jee 1.O/Physics/Magnetism and Matter.html",
-               "ElectroMagnetic Induction" : "Physicswallah/Lakshya Jee 1.O/Physics/ElectroMagnetic Induction.html",
-               "ElectroMagnetic Waves" : "Physicswallah/Lakshya Jee 1.O/Physics/ElectroMagnetic Waves.html",
-               "Alternating Current" : "Physicswallah/Lakshya Jee 1.O/Physics/Alternating Current.html",
-               "Ray Optic & Optical Instruments" : "Physicswallah/Lakshya Jee 1.O/Physics/Ray Optics and Optical Instruments.html",
-               "Wave Optics" : "Physicswallah/Lakshya Jee 1.O/Physics/Wave Optics.html",
-               "Communication" : "Physicswallah/Lakshya Jee 1.O/Physics/Communications.html",
-               "Dual Nature & Matter Radiation" : "Physicswallah/Lakshya Jee 1.O/Physics/Dual Nature and Matter Radiation.html",
-               "Ncert Discussion" : "Physicswallah/Lakshya Jee 1.O/Physics/Ncert Discussion.html",
-               "Advance Lectures" : "Physicswallah/Lakshya Jee 1.O/Physics/Advance Lectures.html",
-               "Atoms" : "Physicswallah/Lakshya Jee 1.O/Physics/Atoms.html",
-               "Semi Conductors" : "Physicswallah/Lakshya Jee 1.O/Physics/Semi Conductors.html",
-               "Nuclei" : "Physicswallah/Lakshya Jee 1.O/Physics/Nuclei.html",
-               "Revision" :  "Physicswallah/Lakshya Jee 1.O/Physics/Revision.html",
- },
-            Mathematics: {
-                // Update these URLs with the actual content URLs
-                            "Limits, Continuity and Differentiability" : "Physicswallah/Lakshya Jee 1.O/Mathematics/Limits Continuity and Differentiability.html",
-                            "Application of Derivative" : "Physicswallah/Lakshya Jee 1.O/Mathematics/Application of Derivative.html",
-                            "Definite Integration" : "Physicswallah/Lakshya Jee 1.O/Mathematics/Definite Integration.html",
-                            "Indefinite Integration" : "Physicswallah/Lakshya Jee 1.O/Mathematics/Indefinite Integration.html",
-                            "Methods of Differentiation" : "Physicswallah/Lakshya Jee 1.O/Mathematics/Methods of Differentiation.html",
-                            "Differential Equation" : "Physicswallah/Lakshya Jee 1.O/Mathematics/Differential Equation.html",
-                            "Methods of Differnetiation" : "Physicswallah/Lakshya Jee 1.O/Mathematics/Methods of Differenetiation.html",
-                            "Application of Integral": "Physicswallah/Lakshya Jee 1.O/Mathematics/Application of Integral.html",
-                            "Vectors" : "Physicswallah/Lakshya Jee 1.O/Mathematics/Vectors.html",
-                            "3D Geometry" : "Physicswallah/Lakshya Jee 1.O/Mathematics/3D Geometry.html",
-                            "Probability" : "Physicswallah/Lakshya Jee 1.O/Mathematics/Probability.html",
-                            "Ncert Discussion" : "Physicswallah/Lakshya Jee 1.O/Mathematics/Ncert Discussion.html",
-                            "Relation and Functions" : "Physicswallah/Lakshya Jee 1.O/Mathematics/Relation and Function.html",
-                            "Revising Basics" : "",
-                            "Inverse Trigonometric Function" : "Physicswallah/Lakshya Jee 1.O/Mathematics/Inverse.html",
-                            "Matrices" : "Physicswallah/Lakshya Jee 1.O/Mathematics/Matrices.html",
-                            "Determinants" : "Physicswallah/Lakshya Jee 1.O/Mathematics/Determinants.html",
-                            "11 th Revision" : "Physicswallah/Lakshya Jee 1.O/Mathematics/11 th Revision.html",
-                        
-            },
-            Chemistry: {
-                // Update these URLs with the actual content URLs
-            
-                "Solutions" : "Physicswallah/Lakshya Jee 1.O/Chemistry/Vectors.html",
-                "Chemical Kinematics" : "Physicswallah/Lakshya Jee 1.O/Chemistry/Chemical Kinetics.html",
-                "Solid States" : "Physicswallah/Lakshya Jee 1.O/Chemistry/Solid States.html", 
-                "Electro Chemistry" : "Physicswallah/Lakshya Jee 1.O/Chemistry/ElectroChemistry.html", 
-                "Surface Chemistry" : "Physicswallah/Lakshya Jee 1.O/Chemistry/Surface Chemistry.html",
-                "Co-ordination Chemistry" : "Physicswallah/Lakshya Jee 1.O/Chemistry/Coordination Chemistry.html",
-                "D and f block" : "Physicswallah/Lakshya Jee 1.O/Chemistry/d and f block.html",
-                "Chemistry in EveryDay's Life" : "Physicswallah/Lakshya Jee 1.O/Chemistry/Chemistry in EveryDay Life.html",
-                "Alchol, Phenol and Ether" : "Physicswallah/Lakshya Jee 1.O/Chemistry/Alchol, Phenol and Ether.html",
-                "Aldehyde, Ketones and Carboxylic Acid" : "Physicswallah/Lakshya Jee 1.O/Chemistry/Aldehyde, Ketones and Carboxylic Acid.html",
-                "Amines" : "Physicswallah/Lakshya Jee 1.O/Chemistry/Amines.html",
-                "Dpps Solutions" : "Physicswallah/Lakshya Jee 1.O/Chemistry/Dpps Solutions.html",
-                "Extra Lectures" : "Physicswallah/Lakshya Jee 1.O/Chemistry/Extra Lectures.html",
-                "Haloalkanes and Haloerenes" : "Physicswallah/Lakshya Jee 1.O/Chemistry/Haloalkanes and Haloerenes.html",
-                "P Block" : "Physicswallah/Lakshya Jee 1.O/Chemistry/P Block.html",
-                "Polymers" : "Physicswallah/Lakshya Jee 1.O/Chemistry/Polymers.html",
-                "Revision by Amit Sir" : "Physicswallah/Lakshya Jee 1.O/Chemistry/Revision by Amit Sir.html",
-                "Salt Analysis" : "Physicswallah/Lakshya Jee 1.O/Chemistry/Salt Analysis",
-            }
-        },
-        "Sarthak MHT Cet Crash Course 2024": {
-            Physics: {
-                "Motion in a Plane" : "Physicswallah/Sarthak MHT Cet Crash Course /Physics/Motion in a Plane.html",
-                "Laws of Motion" : "Physicswallah/Sarthak MHT Cet Crash Course /Physics/Laws of Motion.html",
-                "Gravitation" : "Physicswallah/Sarthak MHT Cet Crash Course /Physics/Gravitation.html",
-                "Rotational Dynamics" : "Physicswallah/Sarthak MHT Cet Crash Course /Physics/Rotational Dynamics.html",
-                "Electrostatics" : "Physicswallah/Sarthak MHT Cet Crash Course /Physics/Electrostatics.html",
-                "Current Electricity" : "Physicswallah/Sarthak MHT Cet Crash Course /Physics/Current Electricity.html",
-                "PYQ's Discssion" : "Physicswallah/Sarthak MHT Cet Crash Course /Physics/PYQ's Discussion.html",
-                "Thermodynamics" : "Physicswallah/Sarthak MHT Cet Crash Course /Physics/Thermodynamics.html",
-                "Thermal Properties of Matter" : "Physicswallah/Sarthak MHT Cet Crash Course /Physics/Thermal Properties of Matter.html",
-                "Kinetic Theoty of Gases" : "Physicswallah/Sarthak MHT Cet Crash Course /Physics/Kinetic Theory of Geses.html",
-                "Sound" : "Physicswallah/Sarthak MHT Cet Crash Course /Physics/Sound.html",
-                "Optics and Wave Optics" : "Physicswallah/Sarthak MHT Cet Crash Course /Physics/Optics and Waves Optics.html",
-                "ElectroMagnetic Induction" : "Physicswallah/Sarthak MHT Cet Crash Course /Physics/ElectroMagnetic Induction.html",
-            },
-            "Mathematics": {
-                "Matrices" : "Physicswallah/Sarthak MHT Cet Crash Course /Mathematics/Matrices.html",
-                "Straight Lines" : "Physicswallah/Sarthak MHT Cet Crash Course /Mathematics/Straight Lines.html",
-                "Circles" : "Physicswallah/Sarthak MHT Cet Crash Course /Mathematics/Circles.html",
-                "Pair of Straight Lines" : "Physicswallah/Sarthak MHT Cet Crash Course /Mathematics/Pairs of Straight Lines.html",
-                "Trigonometry" : "Physicswallah/Sarthak MHT Cet Crash Course /Mathematics/Trigonometry.html",
-                "Trigonometric Functions" : "Physicswallah/Sarthak MHT Cet Crash Course /Mathematics/Trigonometric Functions.html",
-                "Functions" : "Physicswallah/Sarthak MHT Cet Crash Course /Mathematics/Functions.html",
-                "Limits and Continuity" : "Physicswallah/Sarthak MHT Cet Crash Course /Mathematics/Limits and Continuity.html",
-                "PYQ's Discussion" : "Physicswallah/Sarthak MHT Cet Crash Course /Mathematics/PYQ's Discussion.html",
-                "Differentiaition" : "Physicswallah/Sarthak MHT Cet Crash Course /Mathematics/Differentiaition.html",
-                "Application of Derivatives" : "Physicswallah/Sarthak MHT Cet Crash Course /Mathematics/Aod.html", 
-                "Vector" : "Physicswallah/Sarthak MHT Cet Crash Course /Mathematics/Vectors.html",
-                "Line and Plane" : "Physicswallah/Sarthak MHT Cet Crash Course /Mathematics/Line and Plane.html",
-            },
-            "Chemistry": {
-                "Some Basics Concept of Chemistry" : "Physicswallah/Sarthak MHT Cet Crash Course /Chemistry/Some Basics Concept of Chemistry.html",
-                "Structure of Atom" : "Physicswallah/Sarthak MHT Cet Crash Course /Chemistry/Stucture of Atom.html",
-                "Chemical Bonding" : "Physicswallah/Sarthak MHT Cet Crash Course /Chemistry/Chemical Bonding.html",
-                "Elements of Group I and II" : "Physicswallah/Sarthak MHT Cet Crash Course /Chemistry/Elements of Group I and II.html",
-                "Basic Priciples of Organic Chemistry" : "Physicswallah/Sarthak MHT Cet Crash Course /Chemistry/Basics Principle of Organic Chemistry.html",
-                "Hydrocarbons" : "Physicswallah/Sarthak MHT Cet Crash Course /Chemistry/HydroCarbons.html",
-                "Solid States" : "Physicswallah/Sarthak MHT Cet Crash Course /Chemistry/Solid States.html",
-                "States of Matter" : "Physicswallah/Sarthak MHT Cet Crash Course /Chemistry/States of Matter.html",
-                "PYQ's Discussion" : "Physicswallah/Sarthak MHT Cet Crash Course /Chemistry/PYQ's Discussion.html",
-                "Solution and Colligative Propertires" : "Physicswallah/Sarthak MHT Cet Crash Course /Chemistry/Solutions.html",
-                "Ionic Equilibria" : "Physicswallah/Sarthak MHT Cet Crash Course /Chemistry/Ionic Equilibria.html",
-                "Chemical Thermodynamics" : "Physicswallah/Sarthak MHT Cet Crash Course /Chemistry/Chemical Thermo.html",
-                "ElectroChemsitry" : "Physicswallah/Sarthak MHT Cet Crash Course /Chemistry/Electrochemistry.html",
-            },
-            "Botany": {
-                "Inheritance and Variance" : "Physicswallah/Sarthak MHT Cet Crash Course /Botany/Inheritance and Variance.html",
-                "Molecular Basis of Inheritance" : "Physicswallah/Sarthak MHT Cet Crash Course /Botany/Molecular Basis of Inheritance.html",
-                "Biotenchnolgy" : "Physicswallah/Sarthak MHT Cet Crash Course /Botany/Biotechnology.html",
-                "Plant Growth and Mineral Nutrition" : "Physicswallah/Sarthak MHT Cet Crash Course /Botany/Plants Growth.html",
-                "Plant Water Relation" : "Physicswallah/Sarthak MHT Cet Crash Course /Botany/Plants Water Relation.html",
-                "PYQ's Discussion" : "Physicswallah/Sarthak MHT Cet Crash Course /Botany/PYQ's Discussion.html",
-            },
-            "Zoology": {
-                "Human Helath and Diseases" : "Physicswallah/Sarthak MHT Cet Crash Course /Zoology/Human Helath and Diseases.html",
-                "Organism and Population" : "Physicswallah/Sarthak MHT Cet Crash Course /Zoology/Organisms and Population.html",
-                "Animal Husbandry" : "Physicswallah/Sarthak MHT Cet Crash Course /Zoology/Animal Husbandry.html",
-                "Chromosomal Basis of Inheritance" : "Physicswallah/Sarthak MHT Cet Crash Course /Zoology/Chromosomal Basis of Inheritance.html",
-                "Ecosystem and Energy Flow" : "Physicswallah/Sarthak MHT Cet Crash Course /Zoology/Ecosystema and Energy Flow.html",
-                "Origin and Evolution of Life" : "Physicswallah/Sarthak MHT Cet Crash Course /Zoology/Origin and Evolution of Life.html",
-                "PYQ's Discussion" : "Physicswallah/Sarthak MHT Cet Crash Course /Zoology/PYQ's Discussion.html",
-            }
-        },
-        "Sarthak MHT Cet Crash Course 2.O 2024": {
-            Physics: {
-                "Motion in a Plane" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Physics/Motion in a Plane.html",
-                "Laws of Motion" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Physics/Laws of Motion.html",
-                "Gravitation" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Physics/Gravitation.html",
-                "Rotational Dynamics" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Physics/Rotational Dynamics.html",
-                "Electrostatics" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Physics/Electrostatics.html",
-                "Current Electricity" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Physics/Current Electricity.html",
-                "PYQ's Discssion" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Physics/PYQ's Discussion.html",
-                "Thermodynamics" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Physics/Thermodynamics.html",
-                "Thermal Properties of Matter" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Physics/Thermal Properties of Matter.html",
-                "Kinetic Theoty of Gases" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Physics/Kinetic Theory of Geses.html",
-                "Sound" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Physics/Sound.html",
-                "Optics and Wave Optics" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Physics/Optics and Waves Optics.html",
-                "ElectroMagnetic Induction" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Physics/ElectroMagnetic Induction.html",
-            },
-            "Mathematics": {
-                "Matrices" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Mathematics/Matrices.html",
-                "Straight Lines" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Mathematics/Straight Lines.html",
-                "Circles" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Mathematics/Circles.html",
-                "Pair of Straight Lines" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Mathematics/Pairs of Straight Lines.html",
-                "Trigonometry" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Mathematics/Trigonometry.html",
-                "Trigonometric Functions" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Mathematics/Trigonometric Functions.html",
-                "Functions" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Mathematics/Functions.html",
-                "Limits and Continuity" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Mathematics/Limits and Continuity.html",
-                "PYQ's Discussion" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Mathematics/PYQ's Discussion.html",
-                "Differentiaition" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Mathematics/Differentiaition.html",
-                "Application of Derivatives" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Mathematics/Aod.html", 
-                "Vector" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Mathematics/Vectors.html",
-                "Line and Plane" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Mathematics/Line and Plane.html",
-            },
-            "Chemistry": {
-                "Some Basics Concept of Chemistry" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Chemistry/Some Basics Concept of Chemistry.html",
-                "Structure of Atom" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Chemistry/Stucture of Atom.html",
-                "Chemical Bonding" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Chemistry/Chemical Bonding.html",
-                "Elements of Group I and II" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Chemistry/Elements of Group I and II.html",
-                "Basic Priciples of Organic Chemistry" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Chemistry/Basics Principle of Organic Chemistry.html",
-                "Hydrocarbons" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Chemistry/HydroCarbons.html",
-                "Solid States" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Chemistry/Solid States.html",
-                "States of Matter" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Chemistry/States of Matter.html",
-                "PYQ's Discussion" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Chemistry/PYQ's Discussion.html",
-                "Solution and Colligative Propertires" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Chemistry/Solutions.html",
-                "Ionic Equilibria" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Chemistry/Ionic Equilibria.html",
-                "Chemical Thermodynamics" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Chemistry/Chemical Thermo.html",
-                "ElectroChemsitry" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Chemistry/Electrochemistry.html",
-            },
-            "Botany": {
-                "Inheritance and Variance" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Botany/Inheritance and Variance.html",
-                "Molecular Basis of Inheritance" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Botany/Molecular Basis of Inheritance.html",
-                "Biotenchnolgy" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Botany/Biotechnology.html",
-                "Plant Growth and Mineral Nutrition" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Botany/Plants Growth.html",
-                "Plant Water Relation" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Botany/Plants Water Relation.html",
-                "PYQ's Discussion" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Botany/PYQ's Discussion.html",
-            },
-            "Zoology": {
-                "Human Helath and Diseases" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Zoology/Human Helath and Diseases.html",
-                "Organism and Population" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Zoology/Organisms and Population.html",
-                "Animal Husbandry" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Zoology/Animal Husbandry.html",
-                "Chromosomal Basis of Inheritance" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Zoology/Chromosomal Basis of Inheritance.html",
-                "Ecosystem and Energy Flow" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Zoology/Ecosystema and Energy Flow.html",
-                "Origin and Evolution of Life" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Zoology/Origin and Evolution of Life.html",
-                "PYQ's Discussion" : "Physicswallah/Sarthak MHt Cet Crash Course 2.O/Zoology/PYQ's Discussion.html",
-            }
-        },
-        "Pragati Marathi ( PCM )": {
-            Physics: {
-                "Rotational Dynamics" : "Physicswallah/Pragati Marathi ( PCM )/Physics/Rotational Dynamics.html",
-                "Oscillations" : "Physicswallah/Pragati Marathi ( PCM )/Physics/Oscillations.html",
-                "Superposition of Waves" : "Physicswallah/Pragati Marathi ( PCM )/Physics/Superposition of Waves.html",
-                "Wave Optics" : "Physicswallah/Pragati Marathi ( PCM )/Physics/Wave Optics.html",
-                "Mechanical Properties of Fluids" : "Physicswallah/Pragati Marathi ( PCM )/Physics/Mechanical Properties of Fluids.html",
-                "Thermodynamics" : "Physicswallah/Pragati Marathi ( PCM )/Physics/Thermodynamics.html",
-                "Electrostatics" : "Physicswallah/Pragati Marathi ( PCM )/Physics/Electrostatics.html",
-                "Current Electricity" : "Physicswallah/Pragati Marathi ( PCM )/Physics/Current Electricity.html",
-                "Magnetic Fields Due to Electric Current" : "Physicswallah/Pragati Marathi ( PCM )/Physics/Magnetic Field Due to Electric Current.html",
-                "Magnetic Materials" : "Physicswallah/Pragati Marathi ( PCM )/Physics/Magnetic Materials.html",
-                "Electromagnetic Induction" : "Physicswallah/Pragati Marathi ( PCM )/Physics/Electromagnetic Induction.html",
-                "Ac Circuits" : "Physicswallah/Pragati Marathi ( PCM )/Physics/Ac Circuits.html",
-                "Dual Nature of Radiation and Matter" : "Physicswallah/Pragati Marathi ( PCM )/Physics/Dual Nature and Radiation and Matter.html",
-                "Structure of Atoms and Nuclei" : "Physicswallah/Pragati Marathi ( PCM )/Physics/Structure of Atoms and Nuclei.html",
-                "Semiconductors and Devices" : "Physicswallah/Pragati Marathi ( PCM )/Physics/Semiconductors and Devices.html",
-                "Kinetic Theory of Gases and Radiation" : "Physicswallah/Pragati Marathi ( PCM )/Physics/Kinetic theory of Gases and Radiation.html",
-                "11th Revision" : "Physicswallah/Pragati Marathi ( PCM )/Physics/11th Revision.html",
-             },
-            Chemistry: {
-                "Halogen Derivative" : "Physicswallah/Pragati Marathi ( PCM )/Chemistry/Halogen Derivative.html",
-                "Basics of Organic Chemistry" : "Physicswallah/Pragati Marathi ( PCM )/Chemistry/Basics of Organic Chemistry.html",
-                "Alchol, Phenols and Ether" : "Physicswallah/Pragati Marathi ( PCM )/Chemistry/Alchols, Phenols and Ether.html",
-                "Aldehydes, Ketones and Carboxylic Acid" : "Physicswallah/Pragati Marathi ( PCM )/Chemistry/Aldehydes, Ketones and Carboxylic Acid.html",
-                "Amines" : "Physicswallah/Pragati Marathi ( PCM )/Chemistry/Amines.html",
-                "Biomolecules" : "Physicswallah/Pragati Marathi ( PCM )/Chemistry/Biomolecules.html",
-                "Polymers" : "Physicswallah/Pragati Marathi ( PCM )/Chemistry/Polymers.html",
-                "Chemistry in EveryDay Life" : "Physicswallah/Pragati Marathi ( PCM )/Chemistry/Chemistry in EveryDay Life.html",
-                "Green Chemistry and Nano Chemistry" : "Physicswallah/Pragati Marathi ( PCM )/Chemistry/Green Chemistry and Nano Chemistry.html",
-                "Metallurgy" : "Physicswallah/Pragati Marathi ( PCM )/Chemistry/Metallurgy.html",
-                "P-Block Element" : "Physicswallah/Pragati Marathi ( PCM )/Chemistry/P-Block Element.html",
-                "Transition and Inner Transition Elements" : "Physicswallah/Pragati Marathi ( PCM )/Chemistry/Transition and Inner Trantion.html",
-                "Coordination Compound" : "Physicswallah/Pragati Marathi ( PCM )/Chemistry/Coordination Compound.html",
-                "Salt Analysis" : "Physicswallah/Pragati Marathi ( PCM )/Chemistry/Salt Analysis.html",
-                "Solid State" : "Physicswallah/Pragati Marathi ( PCM )/Chemistry/Solid State.html",
-                "Solutions" : "Physicswallah/Pragati Marathi ( PCM )/Chemistry/Solutions.html",
-                "Ionic Equilibrium" : "Physicswallah/Pragati Marathi ( PCM )/Chemistry/Ionic Equilibrium.html",
-                "Chemical Thermodynamics" : "Physicswallah/Pragati Marathi ( PCM )/Chemistry/Chemical Thermodynamics.html",
-                "ElectroChemistry" : "Physicswallah/Pragati Marathi ( PCM )/Chemistry/ElectroChemistry.html",
-                "Chemical Kinetics" : "Physicswallah/Pragati Marathi ( PCM )/Chemistry/Chemical Kinetics.html",
-                "11th Revision" : "Physicswallah/Pragati Marathi ( PCM )/Chemistry/11th Revision.html",
-            },
-            Mathematics: {
-                "Trigonometry" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/Trigonometry.html",
-                "Trigonometric Functions" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/Trigonometric Functions.html",
-                "Coordinate System" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/Coordinate System.html",
-                "Pair of Straight Lines" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/Pair of Straight Lines.html",
-                "Matrices" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/Matrices.html",
-                "Mathematical Logic" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/Mathematical Logic.html",
-                "Probability" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/Probability.html",
-                "Probability Distribution" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/Probability Distrubution.html",
-                "Binomial Distribution" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/Binomial Distribution.html",
-                "Linear Programming Problem" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/Linear Programming.html",
-                "Function" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/Function.html",
-                "Differentiation" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/Differentiation.html",
-                "Differentiation Question Bank" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/Differentiation Question Bank.html",
-                "Application of Derivatives" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/Application of Derivatives.html",
-                "Application of Derivatives: Question Bank" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/AOD Question Bank.html",
-                "Indefinite Integration" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/Indefinite Integration.html",
-                "Definite Integration" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/Definite Integration.html",
-                "Indefinite Integration: Question Bank" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/Indefinite Integration (Question).html",
-                "Application of Definte Integration" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/Application of Definite Integration.html",
-                "Differential Equation" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/Differential Rquation.html",
-                "Vectors" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/Vectors.html",
-                "Diffferential Equation: Question Bank" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/Differential Equation ( Question).html",
-                "Line and Plane" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/Line and Plane.html",
-                "11th Revision" : "Physicswallah/Pragati Marathi ( PCM )/Mathematics/11th  Revision.html",
-            } 
-
-        },
-        "Lakshya Jee 2.0": {
-            Physics: {
-                // Update these URLs with the actual content URLs
-               
-               "Electrostatics" : "Physicswallah/Lakshya Jee 2.O/Physics/Electrostatics.html",
-                "Electro Potential and Capacitance" : "Physicswallah/Lakshya Jee 2.O/Physics/Electro Potential and Capacitance.html",
-                "Current Electricity" : "Physicswallah/Lakshya Jee 2.O/Physics/Current Electricity.html",
-                "Moving Charge and Magnetism" : "Physicswallah/Lakshya Jee 2.O/Physics/Moving Charge and Magnetism.html",
-                "Magnetism and Matter" : "Physicswallah/Lakshya Jee 2.O/Physics/Magnetism and Matter.html",
-                "Electromagnetic Induction" : "Physicswallah/Lakshya Jee 2.O/Physics/Electromagnetic Induction.html",
-                "Electromagnetic Waves" : "Physicswallah/Lakshya Jee 2.O/Physics/Electromagnetic Waves.html",
-                "Alternating Current" : "Physicswallah/Lakshya Jee 2.O/Physics/Alternating Current.html",
-                "Ray Optic & Optical Instruments" : "Physicswallah/Lakshya Jee 2.O/Physics/Ray Optics and Optical Instruments.html",
-                "Wave Optics" : "Physicswallah/Lakshya Jee 2.O/Physics/Wave Optics.html",
-                "Communication" : "Physicswallah/Lakshya Jee 2.O/Physics/Communication.html",
-                "Semiconductors" : "Physicswallah/Lakshya Jee 2.O/Physics/Semiconductors.html",
-                "Atomic Physics" : "Physicswallah/Lakshya Jee 2.O/Physics/Atomic Physics.html",
-                "Dual Nature & Matter Radiation" : "Physicswallah/Lakshya Jee 2.O/Physics/Dual Nature of Radiation and Matter.html",
-                "Ncert Discussion" : "Physicswallah/Lakshya Jee 2.O/Physics/Ncert Discussion.html",
- },
-            Mathematics: {
-                // Update these URLs with the actual content URLs
-                            "Limits, Continuity and Differentiability" : "Physicswallah/Lakshya Jee 2.O/Mathematics/Limits, Continuity and Differentiability.html",
-                            "Application of Derivative" : "Physicswallah/Lakshya Jee 2.O/Mathematics/Application of Derivatives.html",
-                            "Definite Integration" : "Physicswallah/Lakshya Jee 2.O/Mathematics/Definite Integration.html",
-                            "Indefinite Integration" : "Physicswallah/Lakshya Jee 2.O/Mathematics/Indefinite Integration.html",
-                            "Methods of Differentiation" : "Physicswallah/Lakshya Jee 2.O/Mathematics/Methods of Differentiation.html",
-                            "Differential Equation" : "Physicswallah/Lakshya Jee 2.O/Mathematics/Differential Equation.html",
-                            "Methods of Differnetiation" : "Physicswallah/Lakshya Jee 2.O/Mathematics/Methods of Differenetiation.html",
-                            "Area Under Curve": "Physicswallah/Lakshya Jee 2.O/Mathematics/Area Under Curve.html",
-                            "Vectors" : "Physicswallah/Lakshya Jee 2.O/Mathematics/Vectors.html",
-                            "3D Geometry" : "Physicswallah/Lakshya Jee 2.O/Mathematics/3D Geometry.html",
-                            "Probability" : "Physicswallah/Lakshya Jee 2.O/Mathematics/Probability.html",
-                            "Ncert Discussion" : "Physicswallah/Lakshya Jee 2.O/Mathematics/Ncert Discussion.html",
-                            "Determinants" : "Physicswallah/Lakshya Jee 2.O/Mathematics/Determinants.html",
-                            "Revising Basics" : "Physicswallah/Lakshya Jee 2.O/Mathematics/Revising Basics.html", 
-                            "Relation and Function" : "Physicswallah/Lakshya Jee 2.O/Mathematics/Relation and Function.html",
-                            "Inverse Trigonometric Function" : "Physicswallah/Lakshya Jee 2.O/Mathematics/Inverse Trigonometric Function.html",
-                            "Matrices" : "Physicswallah/Lakshya Jee 2.O/Mathematics/Matrices.html",
-                        
-            },
-            Chemistry: {
-                // Update these URLs with the actual content URLs
-            
-                "Solutions" : "Physicswallah/Lakshya Jee 2.O/Chemistry/Vectors.html",
-                "Chemical Kinematics" : "Physicswallah/Lakshya Jee 2.O/Chemistry/Chemical Kinetics.html",
-                "Solid States" : "Physicswallah/Lakshya Jee 2.O/Chemistry/Solid States.html", 
-                "Electro Chemistry" : "Physicswallah/Lakshya Jee 2.O/Chemistry/ElectroChemistry.html", 
-                "Surface Chemistry" : "Physicswallah/Lakshya Jee 2.O/Chemistry/Surface Chemistry.html",
-                "Co-ordination Chemistry" : "Physicswallah/Lakshya Jee 2.O/Chemistry/Coordination Chemistry.html",
-                "D and f block" : "Physicswallah/Lakshya Jee 2.O/Chemistry/d and f block.html",
-                "Chemistry in EveryDay's Life" : "Physicswallah/Lakshya Jee 2.O/Chemistry/Chemistry in EveryDay Life.html",
-            }
-        },
-        "Yakeen Neet 2.O 2024 Legend": {
-            Physics: {
-                "Basics of Mathematics" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Basics of Mathematics.html",
-                "Vectors" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Vectors.html",
-                "Units and Dimesions" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Units and Dimensions.html",
-            "Motion in 1 Dimension" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Motion in 1D.html",
-            "Motion in 2 Dimesions" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Motion in 2 D.html",
-            "Laws of Motion" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Newton Laws of Motions.html",
-            "Work, Power and Energy" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Kinetic Theory of Gaseous.html",
-            "Gravitation" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Gravitation.html",
-            "System of Particles" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/SOP.html",
-            "Mechanical Prop of Fluids" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Mecha Prop.html",
-            "Mech Solids" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Solids.html",
-            "Thermal Prop" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Theraml.html",
-            "KTG" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/KTG.html",
-            "Oscillations" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Oscillatn.html",
-            "Waves" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Waves.html",
-            "Electric Charge and Field" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Electric charges.html",
-            "Electro Potential and Caacitance" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Electrostatic.html",
-            "Current Electricity" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Current.html",
-            "Moving Charge and Magnetism" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Moving charge.html",
-            "Magnetism and Matter" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Magnetism.html",
-            "ElectroMagnetic Induction" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Induction.html",
-            "ElectroMagnetic Waves" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/EMW.html",
-            "Alternating Current" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/AC.html",
-            "Ray Optic & Optical Instruments" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Ray.html",
-            "Wave Optics" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Wave optics.html",
-            
-            "Atoms" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Atoms.html",
-            "Nuclei" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Nuclei.html",
-            "Semi Conductors" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Semicond.html",
-            "Dual Nature & Matter Radiation" : "Physicswallah/Yakeen Neet 2.O/Legend/Physics/Dual.html",
-            }
-        },
-        "Sarthak KCet Crash Course": {
-            Demo: {
-                "Demo Lecture" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Demo Lectures.html",
-            },
-            Mathematics: {
-            "Relation and Function" : "Physicswallah/Sarthak Kcet Crash Course/Mathematics/Relation.html",
-            "Sets, Relation and Functions" : "Physicswallah/Sarthak Kcet Crash Course/Mathematics/Sets.html",
-            "Linear Inequalities" : "Physicswallah/Sarthak Kcet Crash Course/Mathematics/Linear Inequat.html",
-            "Trigonometry" : "Physicswallah/Sarthak Kcet Crash Course/Mathematics/Trigono.html",
-            "Inverse Trigonometric Functions" : "Physicswallah/Sarthak Kcet Crash Course/Mathematics/Inverse.html",
-        },
-        
-        Chemistry: {
-            "Some Basics Concept of Chemistry" : "Physicswallah/Sarthak Kcet Crash Course/Chemistry/Some Basics.html",
-            "Solution" : "Physicswallah/Sarthak Kcet Crash Course/Chemistry/Solutn.html",
-            "ElectroChemistry" : "Physicswallah/Sarthak Kcet Crash Course/Chemistry/Electrochem.html",
-            "Isomerism" : "Physicswallah/Sarthak Kcet Crash Course/Chemistry/Isomerism.html",
-        },
-        Biology: {
-            "The Living World + Biological Classification" : "Physicswallah/Sarthak Kcet Crash Course/Biology/The Living World + Biological Classification.html",
-            "Plant Kingdom" : "Physicswallah/Sarthak Kcet Crash Course/Biology/Plant Kingdom.html",
-            "Animal Kingdom" : "Physicswallah/Sarthak Kcet Crash Course/Biology/Animal Kingdom.html",
-            "Morphology of Flowering Plants" : "Physicswallah/Sarthak Kcet Crash Course/Biology/Morphology of flowering plants.html",
-            "Anatomy of Flowering Plants" : "Physicswallah/Sarthak Kcet Crash Course/Biology/Anatomy of Flowering Plants.html",
-            "Structural Organisation of Animals Frog" : "Physicswallah/Sarthak Kcet Crash Course/Biology/Structural Org.html",
-            "Cell: The Unit of Life" : "Physicswallah/Sarthak Kcet Crash Course/Biology/Cell.html",
-            "Biomolecules" : "Physicswallah/Sarthak Kcet Crash Course/Biology/Bio.html",
-            "Cell Cycle and Cell Division" : "Physicswallah/Sarthak Kcet Crash Course/Biology/Cell Cycle.html",
-            "Photosynthesis in Higher Plants" : "Physicswallah/Sarthak Kcet Crash Course/Biology/Photosynt.html",
-            "Respiration in Plants" : "Physicswallah/Sarthak Kcet Crash Course/Biology/Respiration.html",
-            "Plant Growth and Development" : "Physicswallah/Sarthak Kcet Crash Course/Biology/Plant Growth.html",
-            "Breathing and Exchange of Gases" : "Physicswallah/Sarthak Kcet Crash Course/Biology/Breathing.html",
-            "Bofy Fluids and Circulation" : "Physicswallah/Sarthak Kcet Crash Course/Biology/Body Fluids.html",
-            "Ecreatory Products and their Eleminations" : "Physicswallah/Sarthak Kcet Crash Course/Biology/Excreatory.html",
-            "Locpmotion and Movement" : "Physicswallah/Sarthak Kcet Crash Course/Biology/Locomotion.html",
-            "Neural Control and Coordination" : "Physicswallah/Sarthak Kcet Crash Course/Biology/Neural.html",
-            "Chemical Coordination and Integration" : "Physicswallah/Sarthak Kcet Crash Course/Biology/Chemical.html",
-            "Sexual Reproduction in Flowering Plants" : "Physicswallah/Sarthak Kcet Crash Course/Biology/Sexual.html",
-            "Human Reproduction" : "Physicswallah/Sarthak Kcet Crash Course/Biology/Human Reproductn.html",
-        },
-        Physics: {
-            "Units and Dimesions" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Units and Dimensions.html",
-            "Motion in 1 Dimension" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Motion in 1D.html",
-            "Motion in 2 Dimesions" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Motion in 2 D.html",
-            "Laws of Motion" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Newton Laws of Motions.html",
-            "Work, Power and Energy" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Kinetic Theory of Gaseous.html",
-            "Gravitation" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Gravitation.html",
-            "System of Particles" : "Physicswallah/Sarthak Kcet Crash Course/Physics/SOP.html",
-            "Mechanical Prop of Fluids" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Mecha Prop.html",
-            "Mech Solids" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Solids.html",
-            "Thermal Prop" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Theraml.html",
-            "KTG" : "Physicswallah/Sarthak Kcet Crash Course/Physics/KTG.html",
-            "Oscillations" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Oscillatn.html",
-            "Waves" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Waves.html",
-            "Electric Charge and Field" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Electric charges.html",
-            "Electro Potential and Caacitance" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Electrostatic.html",
-            "Current Electricity" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Current.html",
-            "Moving Charge and Magnetism" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Moving charge.html",
-            "Magnetism and Matter" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Magnetism.html",
-            "ElectroMagnetic Induction" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Induction.html",
-            "ElectroMagnetic Waves" : "Physicswallah/Sarthak Kcet Crash Course/Physics/EMW.html",
-            "Alternating Current" : "Physicswallah/Sarthak Kcet Crash Course/Physics/AC.html",
-            "Ray Optic & Optical Instruments" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Ray.html",
-            "Wave Optics" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Wave optics.html",
-            
-            "Atoms" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Atoms.html",
-            "Nuclei" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Nuclei.html",
-            "Semi Conductors" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Semicond.html",
-            "Dual Nature & Matter Radiation" : "Physicswallah/Sarthak Kcet Crash Course/Physics/Dual.html",
-        }    
-        
-    }
-    
-};
-
-
+    // Get the content path for the specified batchName, subject, and lesson
     const contentPath = contentPaths[batchName]?.[subject]?.[lesson];
 
     if (contentPath) {
-        // Open the content in a new tab
-        window.open(contentPath, '_blank');
+        // Dynamically create a script element to fetch and execute the JavaScript file
+        const script = document.createElement('script');
+        script.src = contentPath;
+        script.onload = () => {
+            // The lecture data will be available after the script is loaded
+            console.log(lectureData);
+
+            // Save the lectureData to localStorage
+            sessionStorage.setItem('lectureData', JSON.stringify(lectureData));
+
+            // Trigger a custom event to notify other tabs
+    window.dispatchEvent(new Event('myStorageEvent'));
+
+            // Navigate to the index.html file in the same tab
+            window.location.href = 'index1.html';
+        };
+        document.head.appendChild(script);
     } else {
         alert('Content not found.');
     }
- addBackButton();
-};
+}
+
+// Listen for changes to localStorage
+window.addEventListener('storage', function(event) {
+    // Check if the specific key-value pair has been updated
+    if (event.key === 'newDataAvailable' && event.newValue === 'true') {
+        // Send the data stored in localStorage to the other tab
+        const dataToSend = localStorage.getItem('myData');
+        localStorage.setItem('myDataToSend', dataToSend);
+
+        // Reset the flag indicating new data is available
+        localStorage.setItem('newDataAvailable', 'false');
+    }
+});
+
+// Function to update localStorage with new data
+function updateLocalStorageWithData(newData) {
+    localStorage.setItem('myData', newData);
+    // Set a flag to indicate that new data is available
+    localStorage.setItem('newDataAvailable', 'true');
+}
+
+
+
   function addBackButton() {
             const backButtonDiv = document.createElement('div');
             backButtonDiv.classList.add('back-button');
@@ -2181,6 +1593,7 @@ function showContent(batchName, subject, lesson) {
         showSubjects(currentBatchName, currentBatchSubjects);
   }
    }
+
 
 
         function toggleMenu() {
