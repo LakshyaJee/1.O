@@ -1,0 +1,106 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Trigonometry 13 : Optimization || Pra...",
+    "lectureCode": "07dbc018-be56-4a7c-8142-461011fe4cfb",
+    "classNotesCode": "5bdbaefa-02c1-4538-9315-0f11972a0585.pdf",
+    "dppsPdfCode": "5bdbaefa-02c1-4538-9315-0f11972a0585.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Trigonometry 12 : Graph Of Trigonomet...",
+    "lectureCode": "1a0b9f42-485b-449b-b913-22d12374fbfc",
+    "classNotesCode": "97bebb7a-5242-4e1a-83b7-c833029cc8f9.pdf",
+    "dppsPdfCode": "97bebb7a-5242-4e1a-83b7-c833029cc8f9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Trigonometry 11 : Summation Of Trigon...",
+    "lectureCode": "b719376b-00cb-43c2-b58d-444b0f752297",
+    "classNotesCode": "9e00d0ca-d063-488c-b2c8-c0243b3b619b.pdf",
+    "dppsPdfCode": "9e00d0ca-d063-488c-b2c8-c0243b3b619b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Trigonometry 10 : Conditional Identit...",
+    "lectureCode": "32b446bf-e0a2-4420-ae4d-ef4063441495",
+    "classNotesCode": "9f25a192-f8bb-458a-aad1-0ff62cef2182.pdf",
+    "dppsPdfCode": "9f25a192-f8bb-458a-aad1-0ff62cef2182.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Trigonometry 09 : Value Of sin18 & co...",
+    "lectureCode": "71c75b7b-f453-451b-bd5d-4f8f74b413a6",
+    "classNotesCode": "56e06bb6-85c9-4add-8b7f-6061cbad30b0.pdf",
+    "dppsPdfCode": "56e06bb6-85c9-4add-8b7f-6061cbad30b0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Trigonometry 08 : T-Ratios of Multipl...",
+    "lectureCode": "f1c47a47-e736-410f-92df-ba257ebbd4a2",
+    "classNotesCode": "104ea4a6-dd7f-4fbf-b0d9-e56e08e576bd.pdf",
+    "dppsPdfCode": "104ea4a6-dd7f-4fbf-b0d9-e56e08e576bd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Trigonometry 07 : C & D Formulae || P...",
+    "lectureCode": "316bd617-342c-4d3c-bbb7-44bba5612bfe",
+    "classNotesCode": "dfc24f7d-1982-43af-97a1-e0c0da2eb556.pdf",
+    "dppsPdfCode": "dfc24f7d-1982-43af-97a1-e0c0da2eb556.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Trigonometry 06 : Compound Angle Form...",
+    "lectureCode": "ae801917-98dc-4431-a790-3ddcc1ff7ab8",
+    "classNotesCode": "82672374-b959-46ad-870d-aa28becd9d7f.pdf",
+    "dppsPdfCode": "82672374-b959-46ad-870d-aa28becd9d7f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Trigonometry 05 : Practice Problems o...",
+    "lectureCode": "fc291f86-571d-43f1-8464-89ea5b6c685f",
+    "classNotesCode": "58322e1f-05d2-4900-9d4d-0c096f441a27.pdf",
+    "dppsPdfCode": "58322e1f-05d2-4900-9d4d-0c096f441a27.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Trigonometry 04 : Reduction Formula (...",
+    "lectureCode": "cfd3ddee-9556-4bae-af94-a6549ff43641",
+    "classNotesCode": "dc0a13dd-64aa-4367-85a6-844a997bff44.pdf",
+    "dppsPdfCode": "dc0a13dd-64aa-4367-85a6-844a997bff44.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Trigonometry 03 : Value Of T-ratios A...",
+    "lectureCode": "e912282e-9580-4495-b3c0-d154139c5e09",
+    "classNotesCode": "03b2d2ac-0c04-4aaf-8720-6a0a47be5df9.pdf",
+    "dppsPdfCode": "03b2d2ac-0c04-4aaf-8720-6a0a47be5df9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Trigonometry 02 : Radian Measure || R...",
+    "lectureCode": "a16d5c62-6372-4684-b8ad-64f05a003df9",
+    "classNotesCode": "52ab6178-9503-47f4-b777-b3b9daba9d5d.pdf",
+    "dppsPdfCode": "52ab6178-9503-47f4-b777-b3b9daba9d5d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Trigonometry 01 : Introduction To Tri...",
+    "lectureCode": "36cb8417-df9c-481b-ab71-b394e2942329",
+    "classNotesCode": "60abd64d-8ee3-45e0-89d1-2c8745f5011c.pdf",
+    "dppsPdfCode": "60abd64d-8ee3-45e0-89d1-2c8745f5011c.pdf",
+    "dppsSolutionCode": ""
+  }
+]
