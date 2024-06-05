@@ -1,0 +1,34 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Simple Harmonic Motion 04 : SHM Examp...",
+    "lectureCode": "c22412a1-bf65-47d0-a1c7-d5e95443fc1a",
+    "classNotesCode": "aba3ef9e-742c-484d-ae8e-a0d8d4850e6e.pdf",
+    "dppsPdfCode": "aba3ef9e-742c-484d-ae8e-a0d8d4850e6e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Simple Harmonic Motion 03 : Graphs ||...",
+    "lectureCode": "914dc127-7d81-4066-b453-a75f5295b1fd",
+    "classNotesCode": "d5fb5382-b5b6-4050-b9a7-cbe36b5dcc3d.pdf",
+    "dppsPdfCode": "d5fb5382-b5b6-4050-b9a7-cbe36b5dcc3d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Simple Harmonic Motion 02 : Phasor Di...",
+    "lectureCode": "1e10b60f-9c12-48c8-894f-79ef5a95bf77",
+    "classNotesCode": "ec460037-5afb-464a-a4c0-69647a4c6f2a.pdf",
+    "dppsPdfCode": "ec460037-5afb-464a-a4c0-69647a4c6f2a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Simple Harmonic Motion - 01 : Simple ...",
+    "lectureCode": "a742e31c-72c4-4c81-b6ac-82510a9b1d89",
+    "classNotesCode": "14867c46-f5a1-49d4-8264-26d5298d4573.pdf",
+    "dppsPdfCode": "14867c46-f5a1-49d4-8264-26d5298d4573.pdf",
+    "dppsSolutionCode": ""
+  }
+]

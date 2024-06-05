@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Center of Mass 05 : Collision in Two ...",
+    "lectureCode": "d6c936cc-99e1-4c30-8039-f2028d745099",
+    "classNotesCode": "18fb537a-c025-4a1a-95e2-2644a2f87f70.pdf",
+    "dppsPdfCode": "18fb537a-c025-4a1a-95e2-2644a2f87f70.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Center of Mass 04 : Collision in One ...",
+    "lectureCode": "2fd86f99-9a5a-413b-b908-1db7feaadb62",
+    "classNotesCode": "988d20d6-2e57-4c37-bd4d-4c6feebeed5d.pdf",
+    "dppsPdfCode": "988d20d6-2e57-4c37-bd4d-4c6feebeed5d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Center of Mass 03 : Practice Question...",
+    "lectureCode": "2f4bdd0f-f136-4aed-98e1-5b6a5fd6be43",
+    "classNotesCode": "232cc43d-d1a3-4db6-99c9-68f9b710f385.pdf",
+    "dppsPdfCode": "232cc43d-d1a3-4db6-99c9-68f9b710f385.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Center of Mass 02 : Center of Mass fo...",
+    "lectureCode": "503cd035-6b72-4c66-8d81-a842a52374ac",
+    "classNotesCode": "1b5fbf07-b4cc-48b2-a92e-13d414cb6584.pdf",
+    "dppsPdfCode": "1b5fbf07-b4cc-48b2-a92e-13d414cb6584.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Center of Mass 01 : Vertical Circular...",
+    "lectureCode": "7070b6c0-9b21-489c-b6e6-ad05f2e37eec",
+    "classNotesCode": "d88fb725-6b3d-4244-8852-dee2b87adc32.pdf",
+    "dppsPdfCode": "d88fb725-6b3d-4244-8852-dee2b87adc32.pdf",
+    "dppsSolutionCode": ""
+  }
+]

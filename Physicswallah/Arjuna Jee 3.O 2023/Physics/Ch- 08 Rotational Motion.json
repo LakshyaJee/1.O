@@ -1,0 +1,66 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Rotational Motion 08 : Rolling on Inc...",
+    "lectureCode": "c406bcf9-0bd9-4148-a803-136bfe6fee66",
+    "classNotesCode": "d1ad5869-91eb-4703-8b8b-c04871069d32.pdf",
+    "dppsPdfCode": "d1ad5869-91eb-4703-8b8b-c04871069d32.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Rotational Motion 07 : Rolling Motion...",
+    "lectureCode": "951a3507-3ef1-4c31-9384-380494b938a3",
+    "classNotesCode": "772ca4ae-93b9-4f7c-9800-23acb9cb3710.pdf",
+    "dppsPdfCode": "772ca4ae-93b9-4f7c-9800-23acb9cb3710.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Rotational Motion 06 : Constraint Rel...",
+    "lectureCode": "7d177861-4bfe-4cc8-b570-5188c058bbd9",
+    "classNotesCode": "7e97948c-e440-4d62-a591-b4359f82348b.pdf",
+    "dppsPdfCode": "7e97948c-e440-4d62-a591-b4359f82348b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Rotational Motion 05 : Pure Rotationa...",
+    "lectureCode": "96841d14-838e-4115-8266-a42be7bfda0d",
+    "classNotesCode": "dbbf803d-7fba-45d2-b568-fd8e564e130e.pdf",
+    "dppsPdfCode": "dbbf803d-7fba-45d2-b568-fd8e564e130e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Rotational Motion 04 : Equilibrium of...",
+    "lectureCode": "859502e2-fbf8-45f2-aab0-e33850dfb432",
+    "classNotesCode": "3cd4337b-08f6-4aa1-aa17-0703835a07e6.pdf",
+    "dppsPdfCode": "3cd4337b-08f6-4aa1-aa17-0703835a07e6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Rotational Motion 03 : Cross Product ...",
+    "lectureCode": "13ce4b8f-2c32-49c4-ac5a-ad86480acbbb",
+    "classNotesCode": "e1497b07-59be-4759-a87e-ec89f65587e4.pdf",
+    "dppsPdfCode": "e1497b07-59be-4759-a87e-ec89f65587e4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Rotational Motion 02 : Radius of Gyra...",
+    "lectureCode": "f91dbf22-f559-4588-a79a-6945bf858f05",
+    "classNotesCode": "4cf8a904-cdc0-41bb-a2f9-a2a9bf3c1271.pdf",
+    "dppsPdfCode": "4cf8a904-cdc0-41bb-a2f9-a2a9bf3c1271.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Rotational Motion 01 : Moment of Iner...",
+    "lectureCode": "c247e4ee-6bf6-4437-847d-a3d4a3c11cc9",
+    "classNotesCode": "caa4e344-d4a9-4018-8cf2-ebf6746ed6fb.pdf",
+    "dppsPdfCode": "caa4e344-d4a9-4018-8cf2-ebf6746ed6fb.pdf",
+    "dppsSolutionCode": ""
+  }
+]

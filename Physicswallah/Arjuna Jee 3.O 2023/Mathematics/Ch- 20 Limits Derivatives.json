@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Limits & Derivatives 05 : Evaluation ...",
+    "lectureCode": "0d2541ab-74eb-4086-868c-17c5963020a6",
+    "classNotesCode": "b61e0771-480c-45e7-8553-d6e601b9f0da.pdf",
+    "dppsPdfCode": "b61e0771-480c-45e7-8553-d6e601b9f0da.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Limits & Derivatives 04 : L'Hospital'...",
+    "lectureCode": "d99fdfbb-7e30-4b37-ad7d-2c3485788d26",
+    "classNotesCode": "c952f3df-f360-4792-9875-941497e840f8.pdf",
+    "dppsPdfCode": "c952f3df-f360-4792-9875-941497e840f8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Limits & Derivatives 03 : Exponential...",
+    "lectureCode": "dd336b3a-2d03-4f5d-9083-f253f28bf0ab",
+    "classNotesCode": "e31fb2d0-279e-4456-a277-d4580fb634a8.pdf",
+    "dppsPdfCode": "e31fb2d0-279e-4456-a277-d4580fb634a8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Limits & Derivatives 02 : Methods to ...",
+    "lectureCode": "e7701d02-9d29-4a47-9435-9d2fc3269db1",
+    "classNotesCode": "5abab452-3256-4214-9ed1-34af96e0c40e.pdf",
+    "dppsPdfCode": "5abab452-3256-4214-9ed1-34af96e0c40e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Limits & Derivatives 01 : Limit of A ...",
+    "lectureCode": "f316e161-0186-4b36-aecd-e97658b45cbe",
+    "classNotesCode": "db46aea0-0d34-4b8b-9a49-c1eb5843adff.pdf",
+    "dppsPdfCode": "db46aea0-0d34-4b8b-9a49-c1eb5843adff.pdf",
+    "dppsSolutionCode": ""
+  }
+]

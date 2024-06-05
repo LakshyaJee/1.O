@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Thermodynamics 05 : Second Law of The...",
+    "lectureCode": "f0b08a5c-3f02-48e2-803b-407e6a7440b5",
+    "classNotesCode": "572546dc-9766-4474-ad9b-84213e2f672b.pdf",
+    "dppsPdfCode": "572546dc-9766-4474-ad9b-84213e2f672b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Thermodynamics 04 : Graphs & Indicato...",
+    "lectureCode": "7c09ddd9-5c41-4eb6-a255-174ca1a5a7f8",
+    "classNotesCode": "20e90734-ee0a-4ed3-8b0c-548ba2f57c7c.pdf",
+    "dppsPdfCode": "20e90734-ee0a-4ed3-8b0c-548ba2f57c7c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Thermodynamics 03 : Thermodynamics Pr...",
+    "lectureCode": "61cb3ed6-45c3-4d87-b191-6e00830d6e28",
+    "classNotesCode": "ead9928a-e2c4-4cb7-aad5-915700c2aeb4.pdf",
+    "dppsPdfCode": "ead9928a-e2c4-4cb7-aad5-915700c2aeb4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Thermodynamics 02 : Thermodynamics Pr...",
+    "lectureCode": "5aebfb25-2928-4953-bf0b-057ee9c95b21",
+    "classNotesCode": "cd321c14-90f5-4ffb-a0fe-6c85ccbca4f2.pdf",
+    "dppsPdfCode": "cd321c14-90f5-4ffb-a0fe-6c85ccbca4f2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Thermodynamics 01 : PYQs - KTG || Deg...",
+    "lectureCode": "d3c9ca6f-e7de-4fee-96a6-ce493066d4b9",
+    "classNotesCode": "b1a3fd7c-e819-4928-89a2-adcd79c8cc74.pdf",
+    "dppsPdfCode": "b1a3fd7c-e819-4928-89a2-adcd79c8cc74.pdf",
+    "dppsSolutionCode": ""
+  }
+]

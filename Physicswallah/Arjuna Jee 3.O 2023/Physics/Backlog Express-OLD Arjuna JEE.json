@@ -1,0 +1,226 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Waves",
+    "lectureCode": "503a2bdc-c153-43d5-8884-a4e819e3185a",
+    "classNotesCode": "664ef892-d89e-4906-8992-784557b8396f.pdf",
+    "dppsPdfCode": "664ef892-d89e-4906-8992-784557b8396f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Oscillations",
+    "lectureCode": "75ce9797-b4a6-4e76-949c-50e8b95f2d90",
+    "classNotesCode": "99f69231-033d-4b91-ab9f-d8322d622c08.pdf",
+    "dppsPdfCode": "99f69231-033d-4b91-ab9f-d8322d622c08.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Thermodynamics",
+    "lectureCode": "da71f87f-3886-4bdc-a7b3-4d52cb34b01f",
+    "classNotesCode": "0603a0aa-3e52-448c-9381-07dc5d2c5577.pdf",
+    "dppsPdfCode": "0603a0aa-3e52-448c-9381-07dc5d2c5577.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Kinetic Theory Of Gases",
+    "lectureCode": "cd259a42-2648-44e1-a32e-9f1ca4c0781e",
+    "classNotesCode": "4ac1f4b7-4313-4c0b-96b1-55909f167abf.pdf",
+    "dppsPdfCode": "4ac1f4b7-4313-4c0b-96b1-55909f167abf.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Thermal Properties Of Matter PART 02",
+    "lectureCode": "cfea69f2-66c3-4da8-a191-49a199a21484",
+    "classNotesCode": "97c49f8a-c853-4ed1-8404-ba15d5280694.pdf",
+    "dppsPdfCode": "97c49f8a-c853-4ed1-8404-ba15d5280694.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Thermal Properties of Matter",
+    "lectureCode": "526bc149-f738-4979-99ad-9915154d532b",
+    "classNotesCode": "ac6c0f94-d136-480e-83c3-b2e0f08602b1.pdf",
+    "dppsPdfCode": "ac6c0f94-d136-480e-83c3-b2e0f08602b1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Mechanical Properties Of Fluids Part 02",
+    "lectureCode": "169fe84b-04e6-438d-86c9-8b93af7a0c2b",
+    "classNotesCode": "2870acfd-846e-4c2c-aabd-047db7e5100d.pdf",
+    "dppsPdfCode": "2870acfd-846e-4c2c-aabd-047db7e5100d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Mechanical Properties Of Fluids",
+    "lectureCode": "a9d00aed-b221-4758-98ea-a3018f8dc862",
+    "classNotesCode": "ffc6f456-348a-4523-a188-cf768122afed.pdf",
+    "dppsPdfCode": "ffc6f456-348a-4523-a188-cf768122afed.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Mechanical Properties Of Solids",
+    "lectureCode": "3588542d-9e2a-4ac4-8cdb-78f5ba1d3615",
+    "classNotesCode": "f6aa935a-47f6-4de6-9522-808fa068bcd3.pdf",
+    "dppsPdfCode": "f6aa935a-47f6-4de6-9522-808fa068bcd3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "System of particles Part 03",
+    "lectureCode": "7b121282-f6ab-41fb-b2d3-692d09e434e6",
+    "classNotesCode": "c06c4be4-5f5c-45c7-abb1-14092f30c2d6.pdf",
+    "dppsPdfCode": "c06c4be4-5f5c-45c7-abb1-14092f30c2d6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "System of Particles Part 02",
+    "lectureCode": "1041e6a4-a620-49a0-93a4-ae2b020e68ca",
+    "classNotesCode": "00b7fcc6-197f-46b3-8d6f-55febbfa64a3.pdf",
+    "dppsPdfCode": "00b7fcc6-197f-46b3-8d6f-55febbfa64a3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "System of Particles PART 01",
+    "lectureCode": "ba88f3c2-4ca9-4459-a21f-20dcba353cac",
+    "classNotesCode": "e9dd3fbd-ad2e-4774-8852-7cb86afe6758.pdf",
+    "dppsPdfCode": "e9dd3fbd-ad2e-4774-8852-7cb86afe6758.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Gravitation",
+    "lectureCode": "c6e436d1-5776-4fdd-84ab-8c0bb950c51d",
+    "classNotesCode": "da3d0a5f-bbb5-491d-82e9-9f46d205f6ba.pdf",
+    "dppsPdfCode": "da3d0a5f-bbb5-491d-82e9-9f46d205f6ba.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Centre of Mass PART 02",
+    "lectureCode": "819b4663-5cd8-475c-9f36-3fe12e655103",
+    "classNotesCode": "e47010d9-226d-4d1f-8348-20ee5f8d9d0d.pdf",
+    "dppsPdfCode": "e47010d9-226d-4d1f-8348-20ee5f8d9d0d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Centre of Mass PART 01",
+    "lectureCode": "f7b410cb-3abf-41d4-8f28-c0e3cbf4104b",
+    "classNotesCode": "67b4c844-e93a-4dce-90e4-5ba56cf5f29f.pdf",
+    "dppsPdfCode": "67b4c844-e93a-4dce-90e4-5ba56cf5f29f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Work Energy & Power PART 02",
+    "lectureCode": "63be0289-b06e-4654-8c2d-327d49f073e0",
+    "classNotesCode": "8e38dbfa-8d47-40fb-b9c3-e848a2b578a2.pdf",
+    "dppsPdfCode": "8e38dbfa-8d47-40fb-b9c3-e848a2b578a2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Work Energy Power PART 01",
+    "lectureCode": "99c654f5-6f15-44e9-b13d-3967e2727c9f",
+    "classNotesCode": "46d4ee8b-721e-4c8e-bc56-127ce4bf54c0.pdf",
+    "dppsPdfCode": "46d4ee8b-721e-4c8e-bc56-127ce4bf54c0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Laws of Motion PART 03",
+    "lectureCode": "141c5788-d923-4a09-9d29-6dd8058145dd",
+    "classNotesCode": "abe4b680-1dca-4f06-92c9-97db35e13906.pdf",
+    "dppsPdfCode": "abe4b680-1dca-4f06-92c9-97db35e13906.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Law of Motion Part 02",
+    "lectureCode": "13e0c1b2-6d35-4a63-870d-38c180c9820b",
+    "classNotesCode": "7d37fcc2-d9fc-4ca0-ac7f-4bf86d766272.pdf",
+    "dppsPdfCode": "7d37fcc2-d9fc-4ca0-ac7f-4bf86d766272.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "Law of Motion Part 01",
+    "lectureCode": "8d657bb3-a05d-4481-9fa5-c9057c27549b",
+    "classNotesCode": "8cfdeb03-4812-43a4-be62-c048e32ba0d2.pdf",
+    "dppsPdfCode": "8cfdeb03-4812-43a4-be62-c048e32ba0d2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "Motion in a Plane Part 03",
+    "lectureCode": "f8a06248-013b-4e9a-852a-f203b4dc1ceb",
+    "classNotesCode": "0932506f-c3e0-4b17-93ad-ea917bd7c4c4.pdf",
+    "dppsPdfCode": "0932506f-c3e0-4b17-93ad-ea917bd7c4c4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "Motion in a Plane Part 02",
+    "lectureCode": "b578e199-877b-45df-b5be-b9ebc24b9e7b",
+    "classNotesCode": "4bba96ea-556d-415e-9373-6d4f555099bb.pdf",
+    "dppsPdfCode": "4bba96ea-556d-415e-9373-6d4f555099bb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 23,
+    "lectureName": "Motion in a Plane 01",
+    "lectureCode": "1a659a9e-7bed-46d7-bb58-d8c7e18c8876",
+    "classNotesCode": "0b1dbbf1-763b-48bf-a3f1-dedc1abae99d.pdf",
+    "dppsPdfCode": "0b1dbbf1-763b-48bf-a3f1-dedc1abae99d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 24,
+    "lectureName": "Motion in a Straight Line Part 3 (Bac...",
+    "lectureCode": "7d947104-d39d-47a3-a68b-4946d19ffa41",
+    "classNotesCode": "6f4f8614-137b-4cf2-9542-d86e792f9c9c.pdf",
+    "dppsPdfCode": "6f4f8614-137b-4cf2-9542-d86e792f9c9c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 25,
+    "lectureName": "Motion in a Straight Line Part 2 (Bac...",
+    "lectureCode": "47d5a864-920e-4204-88d2-2dd08b3c81e0",
+    "classNotesCode": "5248febb-2aa1-48a5-84eb-ad99245ef32e.pdf",
+    "dppsPdfCode": "5248febb-2aa1-48a5-84eb-ad99245ef32e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 26,
+    "lectureName": "Motion in a Straight Line Part 1 (Bac...",
+    "lectureCode": "82fb1f15-8cb1-4109-b406-bec5157af2bc",
+    "classNotesCode": "dae2578a-6729-4f90-84a3-adee2df32083.pdf",
+    "dppsPdfCode": "dae2578a-6729-4f90-84a3-adee2df32083.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 27,
+    "lectureName": "Introduction to Unit & Dimensions PAR...",
+    "lectureCode": "7d947c39-b718-44d5-9abe-9722c6a7b5ce",
+    "classNotesCode": "9b96c38c-6cc8-4798-9004-3b20a73ffa4e.pdf",
+    "dppsPdfCode": "9b96c38c-6cc8-4798-9004-3b20a73ffa4e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 28,
+    "lectureName": "Unit & Dimensions 01 : Introduction P...",
+    "lectureCode": "6de13e9f-6be5-437c-9720-45d588b0f8f1",
+    "classNotesCode": "c508cbf0-6d64-4517-95fc-232a0341ca48.pdf",
+    "dppsPdfCode": "c508cbf0-6d64-4517-95fc-232a0341ca48.pdf",
+    "dppsSolutionCode": ""
+  }
+]

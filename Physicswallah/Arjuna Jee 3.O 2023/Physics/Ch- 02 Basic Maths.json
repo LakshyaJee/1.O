@@ -1,0 +1,66 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Basic Maths 08 : Maxima & Minima || I...",
+    "lectureCode": "f7bd975d-bcf0-45a9-a8e7-c56e926817f9",
+    "classNotesCode": "7186e5de-bd80-433a-a74e-6a3f60506ac7.pdf",
+    "dppsPdfCode": "7186e5de-bd80-433a-a74e-6a3f60506ac7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Basic Maths 07 : Application of Diffe...",
+    "lectureCode": "3c2b2d32-7a6c-4f75-8c4a-8bb4783c65d9",
+    "classNotesCode": "ce751cd4-72e4-40e7-90a4-74ef86cfe27d.pdf",
+    "dppsPdfCode": "ce751cd4-72e4-40e7-90a4-74ef86cfe27d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Basic Maths 06 : Differentiation || A...",
+    "lectureCode": "a7d19f5e-822f-41ce-9ded-197d4f62a7bf",
+    "classNotesCode": "eb180425-7570-41cd-b83a-a9b431b80d5e.pdf",
+    "dppsPdfCode": "eb180425-7570-41cd-b83a-a9b431b80d5e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Basic Maths 05 : Graphs || Differenti...",
+    "lectureCode": "31b93409-03cb-4474-9579-9008ab69b7d8",
+    "classNotesCode": "85407950-9fea-4eb8-a580-cb6d44f21021.pdf",
+    "dppsPdfCode": "85407950-9fea-4eb8-a580-cb6d44f21021.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Basic Maths 04 : Logarithms & Exponen...",
+    "lectureCode": "a6276d59-177a-4a5a-96c5-3b94a0ad9b42",
+    "classNotesCode": "b6ba3e70-b159-4688-a880-6a5965d9f843.pdf",
+    "dppsPdfCode": "b6ba3e70-b159-4688-a880-6a5965d9f843.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Basic Maths 03 : Quadratic Equations ...",
+    "lectureCode": "4a89b10e-106b-4b97-8c8e-b9bcfca88b8f",
+    "classNotesCode": "661a2279-2c28-4667-911d-feb8c314ef34.pdf",
+    "dppsPdfCode": "661a2279-2c28-4667-911d-feb8c314ef34.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Basic Maths 02 : Basic Trigonometry (...",
+    "lectureCode": "bac0fd96-189a-43c6-a10c-54f143317c96",
+    "classNotesCode": "33d21fa1-c160-41a3-bc9c-7724f27f5730.pdf",
+    "dppsPdfCode": "33d21fa1-c160-41a3-bc9c-7724f27f5730.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Basic Maths 01 : Basic Trigonometry (...",
+    "lectureCode": "03aa5b4c-7ae0-4eb6-9c99-ad91d16ead9d",
+    "classNotesCode": "e4a69497-324d-470c-a910-636dc713e339.pdf",
+    "dppsPdfCode": "e4a69497-324d-470c-a910-636dc713e339.pdf",
+    "dppsSolutionCode": ""
+  }
+]

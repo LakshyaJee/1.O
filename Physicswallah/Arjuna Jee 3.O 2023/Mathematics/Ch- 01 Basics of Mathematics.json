@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Basics of Mathematics 10 : Logarithms",
+    "lectureCode": "015ba989-486d-4403-ae0c-8de0ba1b2f85",
+    "classNotesCode": "f49a46ad-7fa0-479e-95df-85d595b55ffe.pdf",
+    "dppsPdfCode": "f49a46ad-7fa0-479e-95df-85d595b55ffe.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Basics of Mathematics 09 : Problems o...",
+    "lectureCode": "f8a79846-b63a-4389-9e28-050a2ef9afd2",
+    "classNotesCode": "8badd1ba-fdb8-4dc1-b07f-a32dfb627110.pdf",
+    "dppsPdfCode": "8badd1ba-fdb8-4dc1-b07f-a32dfb627110.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Basics of Mathematics 08 : Logarithms",
+    "lectureCode": "d916850b-ea21-4727-abb0-bc0ebc7fb053",
+    "classNotesCode": "9885d0b5-287c-4ea2-8d85-1b3ebce6fa45.pdf",
+    "dppsPdfCode": "9885d0b5-287c-4ea2-8d85-1b3ebce6fa45.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Basics of Mathematics 07 : GIF || Fra...",
+    "lectureCode": "ed224964-37a0-4c6d-98c9-c51448695a5d",
+    "classNotesCode": "ff986727-5cfc-4659-94de-1bcb3478bb8e.pdf",
+    "dppsPdfCode": "ff986727-5cfc-4659-94de-1bcb3478bb8e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Basics of Mathematics 06 : Modulus In...",
+    "lectureCode": "29e6c639-6da1-4b3f-810e-f201aa524d91",
+    "classNotesCode": "b1884baf-5cb1-4b3f-8d23-f8fd066f753e.pdf",
+    "dppsPdfCode": "b1884baf-5cb1-4b3f-8d23-f8fd066f753e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Basics of Mathematics 05 : Modulus In...",
+    "lectureCode": "7a27bf3f-9d1f-45dc-bde8-6357937cd3dd",
+    "classNotesCode": "a7d0b94a-c1f2-4518-a654-426b65cb6e15.pdf",
+    "dppsPdfCode": "a7d0b94a-c1f2-4518-a654-426b65cb6e15.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Basics of Mathematics 04 : Modulus ||...",
+    "lectureCode": "5c7dbb7e-a731-4440-9d6d-aab8ee8d3d86",
+    "classNotesCode": "654b39f5-5080-47a1-a5a5-6df856ecf885.pdf",
+    "dppsPdfCode": "654b39f5-5080-47a1-a5a5-6df856ecf885.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Basics of Mathematics 03 : Quick Reca...",
+    "lectureCode": "89cbbcf5-6d65-44e8-98d6-8c07d0a5a5b2",
+    "classNotesCode": "088acb34-b80d-4d8f-981f-fa71833469d6.pdf",
+    "dppsPdfCode": "088acb34-b80d-4d8f-981f-fa71833469d6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Basics of Mathematics 02 : Quick Reca...",
+    "lectureCode": "7e864640-543a-459a-8f5f-c3e820953323",
+    "classNotesCode": "30513b6a-a5cf-495d-8e7b-037acd06f277.pdf",
+    "dppsPdfCode": "30513b6a-a5cf-495d-8e7b-037acd06f277.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Basics of Mathematics 01 : Inequaliti...",
+    "lectureCode": "da32f7b6-0449-4cc1-bf8b-7707ebc18c80",
+    "classNotesCode": "7091eb83-0c52-4b3d-b640-31f77aed300a.pdf",
+    "dppsPdfCode": "7091eb83-0c52-4b3d-b640-31f77aed300a.pdf",
+    "dppsSolutionCode": ""
+  }
+]

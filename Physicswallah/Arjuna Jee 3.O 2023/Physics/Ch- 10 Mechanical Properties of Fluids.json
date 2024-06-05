@@ -1,0 +1,58 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Mechanical Properties of Fluids 07 : ...",
+    "lectureCode": "dcf8ec57-7da1-4f64-af27-905f21778cba",
+    "classNotesCode": "82d4a960-4425-42c4-84b1-675fb6cf4958.pdf",
+    "dppsPdfCode": "82d4a960-4425-42c4-84b1-675fb6cf4958.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Mechanical Properties of Fluids 06 : ...",
+    "lectureCode": "416e1468-dc85-4c3c-89b2-8afb5c341566",
+    "classNotesCode": "e620e98b-b16f-4581-a5a7-99f444e56aee.pdf",
+    "dppsPdfCode": "e620e98b-b16f-4581-a5a7-99f444e56aee.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Mechanical Properties of Fluids 05 : ...",
+    "lectureCode": "625fdfc1-0f4b-4b8d-ac5e-081ce3e0082a",
+    "classNotesCode": "7fe1fd0f-53fb-4b7c-890f-f7c822162b87.pdf",
+    "dppsPdfCode": "7fe1fd0f-53fb-4b7c-890f-f7c822162b87.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Mechanical Properties of Fluids 04 : ...",
+    "lectureCode": "0055dd20-abf0-491f-8c21-d00a8e903efc",
+    "classNotesCode": "15a76fe1-e3b7-48eb-9217-3c007e04aa69.pdf",
+    "dppsPdfCode": "15a76fe1-e3b7-48eb-9217-3c007e04aa69.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Mechanical Properties of Fluids 03 : ...",
+    "lectureCode": "d669a916-d9b1-48fa-bba1-de80e13870ee",
+    "classNotesCode": "7d162e57-2385-45fd-9a21-4c374303bb73.pdf",
+    "dppsPdfCode": "7d162e57-2385-45fd-9a21-4c374303bb73.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Mechanical Properties of Fluids 02 : ...",
+    "lectureCode": "88d3a712-491b-4bdc-86f9-b297a6057172",
+    "classNotesCode": "9a956881-4bd8-4270-9048-274b1207e2a3.pdf",
+    "dppsPdfCode": "9a956881-4bd8-4270-9048-274b1207e2a3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Mechanical Properties of Fluids 01 : ...",
+    "lectureCode": "19ffca24-d402-400a-8b29-1cdfd7290847",
+    "classNotesCode": "c80c2b6a-0ee2-4b4b-bf90-985a46603637.pdf",
+    "dppsPdfCode": "c80c2b6a-0ee2-4b4b-bf90-985a46603637.pdf",
+    "dppsSolutionCode": ""
+  }
+]

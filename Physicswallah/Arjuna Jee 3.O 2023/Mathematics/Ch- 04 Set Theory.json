@@ -1,0 +1,34 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Set Theory 04 : Venn Diagram (Continued)",
+    "lectureCode": "7131ebd4-0bf5-4185-8b83-3f541e7ea5cf",
+    "classNotesCode": "79da0e73-63d0-4383-b92c-21bc527451f1.pdf",
+    "dppsPdfCode": "79da0e73-63d0-4383-b92c-21bc527451f1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Set Theory 03 : Venn Diagram (NO DPP)",
+    "lectureCode": "f1e48885-2e62-4442-a2b2-ff256e01304a",
+    "classNotesCode": "3dfede41-2ec4-4fd2-8a2f-0484e41569c8.pdf",
+    "dppsPdfCode": "3dfede41-2ec4-4fd2-8a2f-0484e41569c8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Set Theory 02 : Recall Previous Lectu...",
+    "lectureCode": "47e1088f-23d9-4e61-b75f-c322262bd3d4",
+    "classNotesCode": "aff63c66-a29c-4c19-b296-a7edf15c8008.pdf",
+    "dppsPdfCode": "aff63c66-a29c-4c19-b296-a7edf15c8008.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Set Theory 01 : Remaining Portion of ...",
+    "lectureCode": "4f48282b-f3ee-475f-b875-5b5ff45606c1",
+    "classNotesCode": "11892b95-f55f-4396-9420-a0ef09971de1.pdf",
+    "dppsPdfCode": "11892b95-f55f-4396-9420-a0ef09971de1.pdf",
+    "dppsSolutionCode": ""
+  }
+]

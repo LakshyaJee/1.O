@@ -1,0 +1,66 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Binomial Theorem 08 : Binomial Coeffi...",
+    "lectureCode": "b9fefdc4-44c7-4396-a6ea-7a07556016b9",
+    "classNotesCode": "f58e12b9-6d28-4dad-ad90-97a72d4cf593.pdf",
+    "dppsPdfCode": "f58e12b9-6d28-4dad-ad90-97a72d4cf593.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Binomial Theorem 07 : Binomial Coeffi...",
+    "lectureCode": "45beb1c2-796d-477c-afa0-bb4f1e2d7fba",
+    "classNotesCode": "c06ab38e-8afd-4041-9b9f-f2d8cd45f08e.pdf",
+    "dppsPdfCode": "c06ab38e-8afd-4041-9b9f-f2d8cd45f08e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Binomial Theorem 06 : Binomial Theore...",
+    "lectureCode": "e9c26dcf-5271-4e22-a627-15af85375e99",
+    "classNotesCode": "e81079d7-d8f4-477f-8c74-e3679703e3f9.pdf",
+    "dppsPdfCode": "e81079d7-d8f4-477f-8c74-e3679703e3f9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Binomial Theorem 05 : Numerically Gre...",
+    "lectureCode": "5eb23749-0757-405a-b70f-d5487010c99a",
+    "classNotesCode": "f83b4479-22e3-4009-b3ce-4fd9ab8d15c8.pdf",
+    "dppsPdfCode": "f83b4479-22e3-4009-b3ce-4fd9ab8d15c8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Binomial Theorem 04 : Problem Practic...",
+    "lectureCode": "7952bcfa-50eb-438d-bf1e-09fb32e08040",
+    "classNotesCode": "00799897-4e65-437d-bcba-3b5f1ede6416.pdf",
+    "dppsPdfCode": "00799897-4e65-437d-bcba-3b5f1ede6416.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Binomial Theorem 03 : Problems on Bin...",
+    "lectureCode": "665a764f-0310-4d51-88e5-0520ec5dee13",
+    "classNotesCode": "6f8c650e-892c-495d-a170-b1e00bb82ec7.pdf",
+    "dppsPdfCode": "6f8c650e-892c-495d-a170-b1e00bb82ec7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Binomial Theorem 02 : Standard Expans...",
+    "lectureCode": "83b72e1b-3c31-47c7-8627-c415f64f9f15",
+    "classNotesCode": "869cb590-fa0e-450d-82b6-400a1ab87818.pdf",
+    "dppsPdfCode": "869cb590-fa0e-450d-82b6-400a1ab87818.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Binomial Theorem 01 : Introduction to...",
+    "lectureCode": "2af6e899-a32e-4480-9602-10b9ceb4c174",
+    "classNotesCode": "687f46ad-93b1-439c-b731-4288c732249e.pdf",
+    "dppsPdfCode": "687f46ad-93b1-439c-b731-4288c732249e.pdf",
+    "dppsSolutionCode": ""
+  }
+]
