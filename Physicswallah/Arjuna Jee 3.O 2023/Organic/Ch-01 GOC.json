@@ -1,0 +1,154 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "GOC 19 : Intermediates || PYQ (NO DPP)",
+    "lectureCode": "cbdfe96e-7dfd-416b-ba2b-e7299b031417",
+    "classNotesCode": "8b0b3918-dc45-451d-a51f-ed84b167cb32.pdf",
+    "dppsPdfCode": "8b0b3918-dc45-451d-a51f-ed84b167cb32.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "GOC 18 : Ortho Effect || Carbocation ...",
+    "lectureCode": "30cc150f-ce16-4097-b894-947227e6916d",
+    "classNotesCode": "ee40502c-018e-4010-afea-adf6f0386cb2.pdf",
+    "dppsPdfCode": "ee40502c-018e-4010-afea-adf6f0386cb2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "GOC 17 : Aromaticity || Ortho Effect ...",
+    "lectureCode": "716cb3ac-f363-412c-acab-5fe93425239b",
+    "classNotesCode": "012991e7-4525-41f4-b42f-b430bb74db4f.pdf",
+    "dppsPdfCode": "012991e7-4525-41f4-b42f-b430bb74db4f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "GOC 16 : Resonance Effect || Hypercon...",
+    "lectureCode": "eac88741-3f48-48f0-8aba-e2fee5c13bb0",
+    "classNotesCode": "30561876-7ae1-4020-a54a-c16df1b941d7.pdf",
+    "dppsPdfCode": "30561876-7ae1-4020-a54a-c16df1b941d7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "GOC 15 : Resonance Effect || Hypercon...",
+    "lectureCode": "a0616f3d-2501-4485-8016-bc23cdb4bd37",
+    "classNotesCode": "2a455972-0bff-480b-8f47-61219119c250.pdf",
+    "dppsPdfCode": "2a455972-0bff-480b-8f47-61219119c250.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "GOC 14 : Inductive Effect || Electrom...",
+    "lectureCode": "ee6df12c-fe54-4450-b96b-a5dc7ceb52ed",
+    "classNotesCode": "646e463f-6465-49cf-88ff-066f0ab92fb2.pdf",
+    "dppsPdfCode": "646e463f-6465-49cf-88ff-066f0ab92fb2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "GOC 13 : Inductive Effect || Electrom...",
+    "lectureCode": "6ef89959-6630-4050-93e0-9eeba4cee8f7",
+    "classNotesCode": "53901667-0b6d-4a4f-8d7f-cfb329352cc3.pdf",
+    "dppsPdfCode": "53901667-0b6d-4a4f-8d7f-cfb329352cc3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "GOC 12 : Optical Isomerism || PYQ",
+    "lectureCode": "2b4165cd-b82d-4e75-884f-02b1406ecdfd",
+    "classNotesCode": "dbbd614b-1603-48ca-bdba-66ee4cde0336.pdf",
+    "dppsPdfCode": "dbbd614b-1603-48ca-bdba-66ee4cde0336.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "GOC 11 : Optical Isomerism || No DPP",
+    "lectureCode": "8aa71f12-75f1-4c3d-8401-c02d182a3cfa",
+    "classNotesCode": "0cb2cf0d-15db-4693-8767-0c7e04315b35.pdf",
+    "dppsPdfCode": "0cb2cf0d-15db-4693-8767-0c7e04315b35.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "GOC 10 : Geometrical Isomerism || Opt...",
+    "lectureCode": "62f5e089-cc35-41cb-b909-7a5e832bd935",
+    "classNotesCode": "9c0f01a5-1b2a-4cf1-905c-423742d9f645.pdf",
+    "dppsPdfCode": "9c0f01a5-1b2a-4cf1-905c-423742d9f645.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "GOC 09 : Conformational Isomerism || ...",
+    "lectureCode": "979a4162-adbd-4f0e-8549-6a6e264a66ab",
+    "classNotesCode": "43169859-38ee-41a1-8745-c8384970c849.pdf",
+    "dppsPdfCode": "43169859-38ee-41a1-8745-c8384970c849.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "GOC 08 : Ring Chain Isomerism || Taut...",
+    "lectureCode": "14374838-aee9-4e4f-98cb-c6dc6226cd7d",
+    "classNotesCode": "ecf9be1c-88bf-4d0a-a5b3-fbae20cd5bac.pdf",
+    "dppsPdfCode": "ecf9be1c-88bf-4d0a-a5b3-fbae20cd5bac.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "GOC 07 : Isomerism || Structural Isom...",
+    "lectureCode": "6e873b1e-d913-4e4e-97b8-e682c9090adb",
+    "classNotesCode": "9d9305b7-bb5c-46df-b51f-158168b8a95d.pdf",
+    "dppsPdfCode": "9d9305b7-bb5c-46df-b51f-158168b8a95d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "GOC 06 : Common Naming || PYQ || Isom...",
+    "lectureCode": "e4dc6192-d34e-410c-91a4-4139a19ffb2f",
+    "classNotesCode": "3fc89719-2ca3-4a14-ae93-284b83b6d516.pdf",
+    "dppsPdfCode": "3fc89719-2ca3-4a14-ae93-284b83b6d516.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "GOC 05 : Polyfunctional Groups || Ter...",
+    "lectureCode": "89dee46b-d83d-426a-89cc-2d460075d2f8",
+    "classNotesCode": "824e07f7-d84b-422b-8da8-bc1207437ea2.pdf",
+    "dppsPdfCode": "824e07f7-d84b-422b-8da8-bc1207437ea2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "GOC 04 : Monofunctional Groups || Pol...",
+    "lectureCode": "0e237f38-e230-47e3-b500-55b77285b8d0",
+    "classNotesCode": "b24c2924-69e2-4ddc-9cf9-5767e151d051.pdf",
+    "dppsPdfCode": "b24c2924-69e2-4ddc-9cf9-5767e151d051.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "GOC 03 : Monofunctional Groups || Pol...",
+    "lectureCode": "6fe85a44-8373-4fde-adf0-a534ebad7156",
+    "classNotesCode": "73c23e6e-9024-45dc-94d5-13d032217238.pdf",
+    "dppsPdfCode": "73c23e6e-9024-45dc-94d5-13d032217238.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "GOC 02 : IUPAC Naming || Saturated Co...",
+    "lectureCode": "7d3155ee-4248-4ddd-9b44-80bc0f8b316b",
+    "classNotesCode": "74e22417-9dea-4af7-a346-d42fc69de235.pdf",
+    "dppsPdfCode": "74e22417-9dea-4af7-a346-d42fc69de235.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "GOC 01 : Introduction || IUPAC Naming...",
+    "lectureCode": "32137b20-f0aa-44bb-af80-ea6f1927454e",
+    "classNotesCode": "875dbf78-486c-42b4-ab84-bfa1fcefe34d.pdf",
+    "dppsPdfCode": "875dbf78-486c-42b4-ab84-bfa1fcefe34d.pdf",
+    "dppsSolutionCode": ""
+  }
+]

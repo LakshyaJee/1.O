@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Atomic Structure 10 : Electronic Conf...",
+    "lectureCode": "e068c176-de73-40f3-aaa9-db6b28385175",
+    "classNotesCode": "83e4e3bb-3507-4226-be57-983635135321.pdf",
+    "dppsPdfCode": "83e4e3bb-3507-4226-be57-983635135321.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Atomic Structure 09 : Quantum Numbers...",
+    "lectureCode": "f22eae3a-be1f-4560-af43-0c283e3173ee",
+    "classNotesCode": "2776af50-a10a-4ed7-a1ab-9291b558e594.pdf",
+    "dppsPdfCode": "2776af50-a10a-4ed7-a1ab-9291b558e594.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Atomic Structure 08 : Homework || Hei...",
+    "lectureCode": "bdb2372d-bc75-41a1-bb61-9d04badf7807",
+    "classNotesCode": "a822a122-f155-4acf-9cf0-a95f87aa3612.pdf",
+    "dppsPdfCode": "a822a122-f155-4acf-9cf0-a95f87aa3612.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Atomic Structure 07 : Home Work || Sp...",
+    "lectureCode": "376794bb-8c3d-4d2d-b3e7-580a225556ba",
+    "classNotesCode": "a9f6f609-0de9-4500-916e-56b0730622bb.pdf",
+    "dppsPdfCode": "a9f6f609-0de9-4500-916e-56b0730622bb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Atomic Structure 06 : Home Work || Sp...",
+    "lectureCode": "45b05bcb-b82b-4656-9ecf-c8ceec517b5e",
+    "classNotesCode": "ad787574-96ca-49c9-9d58-7852d5de5ace.pdf",
+    "dppsPdfCode": "ad787574-96ca-49c9-9d58-7852d5de5ace.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Atomic Structure 05 : Homework || Boh...",
+    "lectureCode": "15f0fd1c-d53f-4bbd-a30c-6f97979184a3",
+    "classNotesCode": "0885ace6-d204-4e6d-9404-4c78a0d077ec.pdf",
+    "dppsPdfCode": "0885ace6-d204-4e6d-9404-4c78a0d077ec.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Atomic Structure 04 : Photoelectric E...",
+    "lectureCode": "9746815a-a56b-4609-a97e-30d031e05a05",
+    "classNotesCode": "a7df2fe0-a6a7-4d9d-b285-a3967e16a1e3.pdf",
+    "dppsPdfCode": "a7df2fe0-a6a7-4d9d-b285-a3967e16a1e3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Atomic Structure 03 : Closest Distanc...",
+    "lectureCode": "32d7b14f-cf96-4056-bf7c-d3ef8c628ae3",
+    "classNotesCode": "842b9f7b-9adf-44f0-9e01-323544246066.pdf",
+    "dppsPdfCode": "842b9f7b-9adf-44f0-9e01-323544246066.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Atomic Structure 02: Thomson Atomic M...",
+    "lectureCode": "91aff97e-c577-4478-bffd-23cea0e4ac84",
+    "classNotesCode": "ea604db7-3f84-4f5d-8ae5-63250a44bd5e.pdf",
+    "dppsPdfCode": "ea604db7-3f84-4f5d-8ae5-63250a44bd5e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Atomic Structure 01: Discovery of Ele...",
+    "lectureCode": "acba5d3b-6885-4173-aa11-9e1db328360a",
+    "classNotesCode": "34e1aaa9-63a4-449f-b82b-489d38090073.pdf",
+    "dppsPdfCode": "34e1aaa9-63a4-449f-b82b-489d38090073.pdf",
+    "dppsSolutionCode": ""
+  }
+]

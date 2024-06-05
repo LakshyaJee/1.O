@@ -1,0 +1,26 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "P-Block 03 : Silicones (NO DPP)",
+    "lectureCode": "51890d3e-bce6-4330-8389-660a1594927f",
+    "classNotesCode": "187f2419-b528-487e-812a-5d7490786914.pdf",
+    "dppsPdfCode": "187f2419-b528-487e-812a-5d7490786914.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "P-Block 02 : Carbon Family",
+    "lectureCode": "525df019-f745-4280-af7e-e5dda8962d50",
+    "classNotesCode": "7f569cc3-a7b3-4115-ad22-39a3395d9a97.pdf",
+    "dppsPdfCode": "7f569cc3-a7b3-4115-ad22-39a3395d9a97.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "P-Block 01 : Boron Family",
+    "lectureCode": "1cb94fe1-b2d1-41e6-ba5f-c9815d356649",
+    "classNotesCode": "d895bb6c-d3ba-4372-8af5-09a3c72b0388.pdf",
+    "dppsPdfCode": "d895bb6c-d3ba-4372-8af5-09a3c72b0388.pdf",
+    "dppsSolutionCode": ""
+  }
+]

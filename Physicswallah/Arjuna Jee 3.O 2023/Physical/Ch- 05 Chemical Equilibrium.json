@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Chemical Equilibrium 05 : Vapour Dens...",
+    "lectureCode": "fefde1ab-49f9-4ae2-9b55-cb3a7b2f2349",
+    "classNotesCode": "dd59145b-968d-4d78-94f0-707e112194e1.pdf",
+    "dppsPdfCode": "dd59145b-968d-4d78-94f0-707e112194e1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Chemical Equilibrium 04 : Le Chaterli...",
+    "lectureCode": "8adcd941-37e1-45c7-af36-f5e91fe523ec",
+    "classNotesCode": "c6f993ae-b5a1-4d45-b4ea-7ef9c994175a.pdf",
+    "dppsPdfCode": "c6f993ae-b5a1-4d45-b4ea-7ef9c994175a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Chemical Equilibrium 03 : Homework Di...",
+    "lectureCode": "39c58a14-9823-4d3b-89da-8c2d4150387b",
+    "classNotesCode": "aafa9348-ef33-4e8e-ba67-4bd78f787eb6.pdf",
+    "dppsPdfCode": "aafa9348-ef33-4e8e-ba67-4bd78f787eb6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Chemical Equilibrium 02 : Law of Mass...",
+    "lectureCode": "e8eed853-f68b-4f6e-93a9-1a2b43b08022",
+    "classNotesCode": "356ace11-27ad-4c94-a679-cb0108217ad6.pdf",
+    "dppsPdfCode": "356ace11-27ad-4c94-a679-cb0108217ad6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Chemical Equilibrium 01 : Type of Rea...",
+    "lectureCode": "495be5db-542d-43fc-a281-d6a942487e0a",
+    "classNotesCode": "b20e6d4b-e3fa-43f6-b2b4-d1264d4deaf7.pdf",
+    "dppsPdfCode": "b20e6d4b-e3fa-43f6-b2b4-d1264d4deaf7.pdf",
+    "dppsSolutionCode": ""
+  }
+]

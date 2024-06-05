@@ -1,0 +1,26 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Hydrogen 03 : H2O2",
+    "lectureCode": "139a816c-5e1b-4704-9ce2-c499aa32adbd",
+    "classNotesCode": "1eb559e6-afc7-423b-807d-ef98705df6f2.pdf",
+    "dppsPdfCode": "1eb559e6-afc7-423b-807d-ef98705df6f2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Hydrogen 02 : Water || H2O2",
+    "lectureCode": "98e0a77a-0fd1-4954-9d9f-bf5e7f445334",
+    "classNotesCode": "96b76b50-a5d3-4ef8-9c01-3f7eddecebe2.pdf",
+    "dppsPdfCode": "96b76b50-a5d3-4ef8-9c01-3f7eddecebe2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Hydrogen 01 : Physical & Chemical Pro...",
+    "lectureCode": "20d9f01e-7078-4a27-9edc-11a3531409cc",
+    "classNotesCode": "7badaefd-6ac9-4ae2-a1eb-8c9d9cb74b4c.pdf",
+    "dppsPdfCode": "7badaefd-6ac9-4ae2-a1eb-8c9d9cb74b4c.pdf",
+    "dppsSolutionCode": ""
+  }
+]

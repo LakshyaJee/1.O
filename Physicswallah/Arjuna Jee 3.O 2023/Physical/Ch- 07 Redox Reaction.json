@@ -1,0 +1,50 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Redox Reaction 06 : Average Oxidation...",
+    "lectureCode": "f39dc7c6-2900-4681-b0f4-84ce95509d98",
+    "classNotesCode": "117efe11-014d-4a7f-9e56-103f47c499ba.pdf",
+    "dppsPdfCode": "117efe11-014d-4a7f-9e56-103f47c499ba.pdf",
+    "dppsSolutionCode": "c60d0394-1f1b-484b-9c46-ceb33c69bf60"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Redox Reaction 05 : Law of Equivalenc...",
+    "lectureCode": "3d3eaf78-1fc3-4722-b9db-e6771afb6bc1",
+    "classNotesCode": "41351511-3744-4c63-b6aa-bd89f0508166.pdf",
+    "dppsPdfCode": "41351511-3744-4c63-b6aa-bd89f0508166.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Redox Reaction 04 : N-Factor || Equiv...",
+    "lectureCode": "a48d150c-11bc-44b9-9c33-cf2d923c41be",
+    "classNotesCode": "a78849f3-db51-4cac-a8d8-dbc4215ec9f7.pdf",
+    "dppsPdfCode": "a78849f3-db51-4cac-a8d8-dbc4215ec9f7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Redox Reaction 03 : Balancing Redox R...",
+    "lectureCode": "c29eb1b7-1b87-49e0-a000-f1b28382a06b",
+    "classNotesCode": "5f1cf70b-e5a5-41bd-9d8c-229dbb1ad0b6.pdf",
+    "dppsPdfCode": "5f1cf70b-e5a5-41bd-9d8c-229dbb1ad0b6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Redox Reaction 02 : Type of Reaction ...",
+    "lectureCode": "7a48235d-0d1e-40a9-adb8-bd13446b51f3",
+    "classNotesCode": "cc305782-269a-4f0e-9a73-380f42190207.pdf",
+    "dppsPdfCode": "cc305782-269a-4f0e-9a73-380f42190207.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Redox Reaction 01: Oxidation || Reduc...",
+    "lectureCode": "2f20aa3e-121e-4d95-b046-15bff35c4146",
+    "classNotesCode": "286026c7-3b97-4227-b26e-9a3c6b024431.pdf",
+    "dppsPdfCode": "286026c7-3b97-4227-b26e-9a3c6b024431.pdf",
+    "dppsSolutionCode": ""
+  }
+]
