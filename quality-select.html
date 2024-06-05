@@ -159,10 +159,10 @@
 
     if (lectureCode) {
         // If lectureCode is present, use it in the redirect URL
-        redirectURL = `plyr.html?key=${lectureCode}`;
+        redirectURL = `plyr_v2.html?key=${lectureCode}`;
     } else if (dppsSolutionCode) {
         // If dppsSolutionCode is present, use it in the redirect URL
-        redirectURL = `plyr.html?key=${dppsSolutionCode}`;
+        redirectURL = `plyr_v2.html?key=${dppsSolutionCode}`;
     } else {
         // Handle the case where neither lectureCode nor dppsSolutionCode is present
         console.error('Neither lectureCode nor dppsSolutionCode found in URL');
