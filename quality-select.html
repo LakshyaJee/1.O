@@ -214,15 +214,15 @@ function MobilePlyr() {
 
     if (isMobile) {
         // Open KiwiBrowser app with the provided intent link
-        window.location.href = `intent://lakshyajee.github.io/1.O/m3u8-player/player/#${secureUrl}&package=com.kiwibrowser.browser#Intent;scheme=https;package=com.kiwibrowser.browser;end`;
+        window.location.href = `intent://lakshyajee.github.io/1.O/m3u8_player/player/#${secureUrl}&package=com.kiwibrowser.browser#Intent;scheme=https;package=com.kiwibrowser.browser;end`;
     } else {
         // Redirect to the plyr.html page with the proper parameter
-        window.location.href = `https://lakshyajee.github.io/1.O/m3u8-player/player/#${secureUrl}`;
+        window.location.href = `https://lakshyajee.github.io/1.O/m3u8_player/player/#${secureUrl}`;
     }
 
     // After the button is clicked, show the player with the secure URL
     document.getElementById("playButton").addEventListener("click", function() {
-        window.location.href = `https://lakshyajee.github.io/1.O/m3u8-player/player/#${secureUrl}`;
+        window.location.href = `https://lakshyajee.github.io/1.O/m3u8_player/player/#${secureUrl}`;
     });
 }
 
