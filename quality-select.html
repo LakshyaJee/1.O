@@ -79,6 +79,8 @@
         
         <button onclick="downloadVideo()">Download Now</button>
         <br><br>
+        <button onclick="MobilePlyr()">Best Player for Mobiles</button>
+        <br><br>
         <button onclick="playOnWeb()">Play on Web</button>
         <br><br>
         <p id="lectureLink"></p>
@@ -182,7 +184,39 @@
     }
 }
 
+function MobilePlyr() {
+    // Add an event listener to the button to trigger the player under the restricted site
+document.getElementById('yourButtonId').addEventListener('click', function() {
+    // Get the lecture code and solution code from the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const lectureCode = urlParams.get('lectureCode');
+    const dppsSolutionCode = urlParams.get('dppsSolutionCode');
 
+    let videoURL;
+    if (lectureCode) {
+        videoURL = `https://pw.pwjarvis.tech/?v=${lectureCode}.m3u8`;
+    } else if (dppsSolutionCode) {
+        videoURL = `https://pw.pwjarvis.tech/?v=${dppsSolutionCode}.m3u8`;
+    } else {
+        console.error('Neither lectureCode nor dppsSolutionCode found in URL');
+        alert('Error: Neither lectureCode nor dppsSolutionCode found in URL');
+        return;
+    }
+
+    // Display the m3u8 player in an iframe within a restricted site
+    const playerURL = `https://bharadwajpro.github.io/m3u8-player/player/#${videoURL}`;
+    const iframe = document.createElement('iframe');
+    iframe.src = playerURL;
+    iframe.width = '100%';
+    iframe.height = '500px'; // Adjust the height as needed
+    iframe.style.border = 'none';
+
+    const playerContainer = document.getElementById('playerContainer');
+    playerContainer.innerHTML = ''; // Clear any previous content
+    playerContainer.appendChild(iframe);
+});
+
+    
         
 
         function goBack() {
