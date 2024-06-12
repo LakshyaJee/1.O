@@ -51,6 +51,18 @@ function vidFullscreen() {
       video.webkitRequestFullscreen();
     }
 }
+function changeQuality() {
+    var qualityOptions = document.getElementById('qualityOptions');
+    var selectedQuality = qualityOptions.value;
+    var currentUrl = window.location.href.split("#")[1];
+    var newUrl = currentUrl.replace(/\/[0-9]+p\//, `/${selectedQuality}p/`);
+    playM3u8(newUrl);
+}
+
+function changeSpeed(speed) {
+    video.playbackRate = speed;
+}
+
 
 playM3u8(window.location.href.split("#")[1])
 $(window).on('load', function () {
