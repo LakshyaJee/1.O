@@ -184,6 +184,59 @@
     }
 }
 
+async function MobilePlyr() {
+    // Get the lecture code and solution code from the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const lectureCode = urlParams.get('lectureCode');
+    const dppsSolutionCode = urlParams.get('dppsSolutionCode');
+
+    let key;
+
+    if (lectureCode) {
+        key = lectureCode;
+    } else if (dppsSolutionCode) {
+        key = dppsSolutionCode;
+    } else {
+        console.error('Neither lectureCode nor dppsSolutionCode found in URL');
+        alert('Error: Neither lectureCode nor dppsSolutionCode found in URL');
+        return;
+    }
+
+    // Fetch the secure URL from the backend
+    let secureUrl;
+    try {
+        const response = await fetch(`http://localhost:5000/get_secure_url?key=${encodeURIComponent(key)}`);
+        const data = await response.json();
+        if (response.ok) {
+            secureUrl = data.secure_url;
+        } else {
+            throw new Error(data.error || 'Failed to fetch secure URL');
+        }
+    } catch (error) {
+        console.error('Error fetching secure URL:', error);
+        alert('Error fetching secure URL');
+        return;
+    }
+
+    // Check if the device is mobile
+    const isMobile = window.innerWidth <= 650;
+
+    if (isMobile) {
+        // Open KiwiBrowser app with the provided intent link
+        window.location.href = `intent://lakshyajee.github.io/1.O/m3u8-player/player/#${secureUrl}&package=com.kiwibrowser.browser#Intent;scheme=https;package=com.kiwibrowser.browser;end`;
+    } else {
+        // Redirect to the plyr.html page with the proper parameter
+        window.location.href = `https://lakshyajee.github.io/1.O/m3u8-player/player/#${secureUrl}`;
+    }
+
+    // After the button is clicked, show the player with the secure URL
+    document.getElementById("playButton").addEventListener("click", function() {
+        window.location.href = `https://lakshyajee.github.io/1.O/m3u8-player/player/#${secureUrl}`;
+    });
+}
+
+// Call the function to ensure it executes
+MobilePlyr();
 
 
         
