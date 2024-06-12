@@ -185,38 +185,50 @@
 }
 
 function MobilePlyr() {
-    // Add an event listener to the button to trigger the player under the restricted site
-document.getElementById('yourButtonId').addEventListener('click', function() {
     // Get the lecture code and solution code from the URL
     const urlParams = new URLSearchParams(window.location.search);
     const lectureCode = urlParams.get('lectureCode');
     const dppsSolutionCode = urlParams.get('dppsSolutionCode');
 
-    let videoURL;
+    // Construct the URL with the proper parameter
+    let key;
+
     if (lectureCode) {
-        videoURL = `https://pw.pwjarvis.tech/?v=${lectureCode}.m3u8`;
+        // If lectureCode is present, use it in the key
+        key = lectureCode;
     } else if (dppsSolutionCode) {
-        videoURL = `https://pw.pwjarvis.tech/?v=${dppsSolutionCode}.m3u8`;
+        // If dppsSolutionCode is present, use it in the key
+        key = dppsSolutionCode;
     } else {
+        // Handle the case where neither lectureCode nor dppsSolutionCode is present
         console.error('Neither lectureCode nor dppsSolutionCode found in URL');
         alert('Error: Neither lectureCode nor dppsSolutionCode found in URL');
         return;
     }
 
-    // Display the m3u8 player in an iframe within a restricted site
-    const playerURL = `https://bharadwajpro.github.io/m3u8-player/player/#${videoURL}`;
-    const iframe = document.createElement('iframe');
-    iframe.src = playerURL;
-    iframe.width = '100%';
-    iframe.height = '500px'; // Adjust the height as needed
-    iframe.style.border = 'none';
+    // Secure the m3u8 URL by obfuscating it
+    const secureUrl = `https://pw.pwjarvis.tech/?v=${encodeURIComponent(key)}.m3u8`;
 
-    const playerContainer = document.getElementById('playerContainer');
-    playerContainer.innerHTML = ''; // Clear any previous content
-    playerContainer.appendChild(iframe);
-});
+    // Check if the device is mobile
+    const isMobile = window.innerWidth <= 650;
 
-    
+    if (isMobile) {
+        // Open KiwiBrowser app with the provided intent link
+        window.location.href = `intent://lakshyajee.github.io/1.O/m3u8-player/player/#${secureUrl}&package=com.kiwibrowser.browser#Intent;scheme=https;package=com.kiwibrowser.browser;end`;
+    } else {
+        // Redirect to the plyr.html page with the proper parameter
+        window.location.href = `https://lakshyajee.github.io/1.O/m3u8-player/player/#${secureUrl}`;
+    }
+
+    // After the button is clicked, show the player with the secure URL
+    document.getElementById("playButton").addEventListener("click", function() {
+        window.location.href = `https://lakshyajee.github.io/1.O/m3u8-player/player/#${secureUrl}`;
+    });
+}
+
+// Call the function to ensure it executes
+MobilePlyr();
+
         
 
         function goBack() {
