@@ -6,19 +6,49 @@ crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 <script src="mousetrap.min.js" charset="utf-8"></script>
 <style>
-  body{
-    background-color:black;
-  }
-  #video{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    margin: auto;
-    max-height: 100%;
-    max-width: 100%;
-  }
+  body {
+            background-color: black;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        video {
+            width: 100%;
+            max-width: 1000px;
+            height: auto;
+        }
+
+        .controls {
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            box-sizing: border-box;
+            z-index: 100;
+        }
+
+        .controls select, .controls button {
+            font-size: 14px;
+            padding: 5px 10px;
+            margin: 0 5px;
+            cursor: pointer;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .controls select:hover, .controls button:hover {
+            background-color: #555;
+        }
+    </style>
 </style>
 <title>M3U8 Player running...</title></head>
 <body>
