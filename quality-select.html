@@ -185,6 +185,7 @@
 }
 
 async function MobilePlyr() {
+    const quality = document.getElementById('qualityOptions').value;
             // Get the lecture code and solution code from the URL
             const urlParams = new URLSearchParams(window.location.search);
             const lectureCode = urlParams.get('lectureCode');
