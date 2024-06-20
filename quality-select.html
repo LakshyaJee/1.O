@@ -206,7 +206,7 @@ async function MobilePlyr() {
             // Embed the video link on the same page
             document.body.innerHTML = ''; // Clear the existing content
             const iframe = document.createElement('iframe');
-            iframe.src = `https://lakshyajee.github.io/1.O/m3u8_player/player/#https://pw.jarviis.workers.dev/?v=${key}&quality=${quality}&ex=.m3u8`;
+            iframe.src = `https://lakshyajee.github.io/1.O/m3u8_player/player/#https://extractapi.xyz/dev/${key}/hls/${quality}/main.m3u8`;
             iframe.style.width = '100%';
             iframe.style.height = '100vh';
             document.body.appendChild(iframe);
