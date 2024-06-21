@@ -251,6 +251,56 @@
             border: none;
         }
 
+        /* Container styles */
+.selection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.selection-box {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.selection-box:hover {
+    transform: scale(1.05);
+    background-color: #e0e0e0;
+}
+
+/* Dropdown styles */
+.select-dropdown {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    font-size: 16px;
+}
+
+/* Button styles */
+.select-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.select-button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+
         #copyright-disclaimer {
             margin-top: 20px;
             text-align: center;
@@ -394,69 +444,128 @@
     <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
    <script>
         let isDarkBackground = false;
-        let currentView = 'batches'; // Initial view
-        let currentBatchName;
-        let currentBatchSubjects;
 
-        function toggleBackground() {
-            isDarkBackground = !isDarkBackground;
-            document.body.style.backgroundColor = isDarkBackground ? '#333' : '#f2f2f2';
-        }
+function toggleBackground() {
+    isDarkBackground = !isDarkBackground;
+    document.body.style.backgroundColor = isDarkBackground ? '#333' : '#f2f2f2';
+}
 
-        function showBatches() {
+function toggleMenu() {
+    const menuBar = document.getElementById('menu-bar');
+    menuBar.classList.toggle('open');
+}
+
+function showBatches() {
+    document.getElementById('content').innerHTML = '';
+
+    const selectionContainer = document.createElement('div');
+    selectionContainer.classList.add('selection-container');
+
+    const streamBox = document.createElement('div');
+    streamBox.classList.add('selection-box');
+    const streamLabel = document.createElement('label');
+    streamLabel.textContent = 'Select Stream:';
+    const streamSelect = document.createElement('select');
+    streamSelect.classList.add('select-dropdown');
+    const streams = ['Medical', 'Engineering', 'Boards', 'UPSC'];
+    streams.forEach(stream => {
+        const option = document.createElement('option');
+        option.value = stream;
+        option.textContent = stream;
+        streamSelect.appendChild(option);
+    });
+
+    streamBox.appendChild(streamLabel);
+    streamBox.appendChild(streamSelect);
+    selectionContainer.appendChild(streamBox);
+
+    const classBox = document.createElement('div');
+    classBox.classList.add('selection-box');
+    const classLabel = document.createElement('label');
+    classLabel.textContent = 'Select Class:';
+    const classSelect = document.createElement('select');
+    classSelect.classList.add('select-dropdown');
+    const classes = ['6', '7', '8', '9', '10', '11', '12', 'Repeater'];
+    classes.forEach(cls => {
+        const option = document.createElement('option');
+        option.value = cls;
+        option.textContent = cls;
+        classSelect.appendChild(option);
+    });
+
+    classBox.appendChild(classLabel);
+    classBox.appendChild(classSelect);
+    selectionContainer.appendChild(classBox);
+
+    const selectButton = document.createElement('button');
+    selectButton.textContent = 'Select';
+    selectButton.classList.add('select-button');
+    selectButton.addEventListener('click', () => {
+        const selectedStream = streamSelect.value;
+        const selectedClass = classSelect.value;
+        displayBatches(selectedStream, selectedClass);
+    });
+
+    selectionContainer.appendChild(selectButton);
+    document.getElementById('content').appendChild(selectionContainer);
+}
+
+function displayBatches(stream, cls) {
     document.getElementById('content').innerHTML = '';
 
     const batchesContainer = document.createElement('div');
     batchesContainer.classList.add('batches-container');
 
-            const batches = [
-            {
-                    name: "Prayas Jee 2.O",
-                    image: "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/10b80b65-fafc-4037-a865-fb700738e581.png",
-                    subjects: {
-                        "Physics": [
-                            "Units and Dimensions",
-                            "Basics Mathematics",
-                            "Motion in 1 Dimensions",
-                            "Motion in 2 Dimensions",
-                            "Newton Laws of Motion",
-                            "Work, Power and Energy",
-                            "Center of Mass",
-                            "Rotational Motion",
-                            "Gravitation",
-                            "Mechanical Properties of fluids",
-                            "Thermal Properties of Matter",
-                            "Kinetic Theory of Gaseous",
-                            "Thermodynamics",
-                            "Mechanical Properties of Solids",
-                            "Simple Harmonic Motion",
-                            "Waves"
-
-                        ],
-                        "OrganicChemistry": [
-                            "IUPAC",
-                            "Isomerism",
-                            "GOC"
-
-                        ],
-                        "Mathematics": [
-                            "Basics Mathematics",
-                            "Quadratic Equation",
-                            "Sequences and Series",
-                            "Binomial Theorem",
-                            "Circles",
-                            "Complex Numbers",
-                            "Ellipse",
-                            "Hyperbola",
-                            "Parabola",
-                            "Straight Line",
-                            "Trigonometric Equations",
-                            "Trigonometric Ratios & Identities"
-                        ]
-                    }
-                },
+    const batches = [
+        {
+            name: "Prayas Jee 2.O",
+            stream: "Engineering",
+            class: "Repeater",
+            image: "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/10b80b65-fafc-4037-a865-fb700738e581.png",
+            subjects: {
+                "Physics": [
+                    "Units and Dimensions",
+                    "Basics Mathematics",
+                    "Motion in 1 Dimensions",
+                    "Motion in 2 Dimensions",
+                    "Newton Laws of Motion",
+                    "Work, Power and Energy",
+                    "Center of Mass",
+                    "Rotational Motion",
+                    "Gravitation",
+                    "Mechanical Properties of fluids",
+                    "Thermal Properties of Matter",
+                    "Kinetic Theory of Gaseous",
+                    "Thermodynamics",
+                    "Mechanical Properties of Solids",
+                    "Simple Harmonic Motion",
+                    "Waves"
+                ],
+                "OrganicChemistry": [
+                    "IUPAC",
+                    "Isomerism",
+                    "GOC"
+                ],
+                "Mathematics": [
+                    "Basics Mathematics",
+                    "Quadratic Equation",
+                    "Sequences and Series",
+                    "Binomial Theorem",
+                    "Circles",
+                    "Complex Numbers",
+                    "Ellipse",
+                    "Hyperbola",
+                    "Parabola",
+                    "Straight Line",
+                    "Trigonometric Equations",
+                    "Trigonometric Ratios & Identities"
+                ]
+            }
+        },
                 {
                     name: "Arjuna Jee 1.0",
+                    stream: "Engineering",
+                    class: "11",
                     image: "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/b6de786f-81d5-46bb-b149-6e3d5f19f228.png",
                     subjects: {
                         "Physics": [
@@ -479,6 +588,8 @@
                 },
                 {
                     name: "Arjuna Jee 1.O 2024",
+                    stream: "Engineering",
+                    class: "11",
                     image: "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/a3bfad56-25e4-4654-b815-6cbaa2afd706.png",
                     subjects: {
                         "Physics": [
@@ -500,6 +611,8 @@
                 },
                 {
                     name: "Arjuna Jee 2.O 2024",
+                    stream: "Engineering",
+                    class: "11",
                     image: "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/694374e4-0951-4217-b4af-5d37355c2a48.png",
                     subjects: {
                         "Physics": [
@@ -1421,7 +1534,9 @@
                 }
             ];
 
-            batches.forEach(batch => {
+            const filteredBatches = batches.filter(batch => batch.stream === stream && batch.class === cls);
+
+    filteredBatches.forEach(batch => {
         const batchContainer = document.createElement('div');
         batchContainer.classList.add('batch-container');
 
@@ -1450,7 +1565,7 @@
     document.getElementById('content').appendChild(batchesContainer);
 }
 
-        function showSubjects(batchName, subjects) {
+function showSubjects(batchName, subjects) {
     document.getElementById('content').innerHTML = '';
 
     // Create a container div for the subjects
@@ -1469,6 +1584,7 @@
     // Create a div for the second row of subjects
     const secondRowDiv = document.createElement('div');
     secondRowDiv.classList.add('subject-row');
+
 
     const subjectImages = {
         Physics: "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/bc2c62dd-a5c5-4da6-93ec-4793a6932071.png",
