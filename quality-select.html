@@ -189,7 +189,6 @@ async function MobilePlyr() {
     const urlParams = new URLSearchParams(window.location.search);
     const lectureCode = urlParams.get('lectureCode');
     const dppsSolutionCode = urlParams.get('dppsSolutionCode');
-    
 
     let key;
 
@@ -203,18 +202,24 @@ async function MobilePlyr() {
         return;
     }
 
-    // Clear the existing content to embed video
+    // Construct the video URL
+    const videoUrl = `https://extractapi.xyz/dev/${key}/hls/${quality}/main.m3u8`;
+
+    // Clear existing content
     document.body.innerHTML = '';
 
-    // Create and configure iframe
-    
+    // Create and append iframe
     const iframe = document.createElement('iframe');
+    iframe.src = videoUrl;
     iframe.style.width = '100%';
     iframe.style.height = '100vh';
-    iframe.src = `https://extractapi.xyz/dev/${key}/hls/${quality}/main.m3u8`;
-
-    // Append iframe to body
     document.body.appendChild(iframe);
+
+    // Handle errors if iframe fails to load
+    iframe.onerror = function() {
+        console.error(`Failed to load video from ${videoUrl}`);
+        alert('Failed to load video. Please check the URL and try again.');
+    };
 }
 
 
