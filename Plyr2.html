@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <link rel="icon" type="image/jpeg" href="https://i.imgur.com/Z52wJgg.jpg">
+    <title>Video Player</title>
+    <link rel="icon" type="image/jpeg" href="https://img.freepik.com/premium-vector/palestine-flag-paint-brush-strokes-palestine-flag-vector-page-symbol-your-web-site-design-vector-illustration_623474-1577.jpg">
     <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Quattrocento+Sans" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <title>Lecture Player</title>
-    <!-- Help use= to earn from your site!, if you dont want then just remove the below line -->
+    <script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
+    <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
     <style type="text/css" media="screen">
-        html, body {
-            font-family: 'Poppins', sans-serif;
+        html {
+            font-family: Poppins;
+            background: rgb(34, 164, 195);
             background: #0A0909;
             margin: 0;
             padding: 0;
+            background-repeat: no-repeat;
             height: 100%;
-            overflow: hidden;
+            width: 100%;
+            --plyr-color-main: #2986cc;
+        }
+
+        .plyr {
+            height: 100%;
+            width: 100%;
         }
 
         .loading {
@@ -27,9 +37,13 @@
             height: 100%;
             background: #000;
             z-index: 9999;
+        }
+
+        .loading {
             display: flex;
             justify-content: center;
             align-items: center;
+            height: 100vh;
         }
 
         .circle {
@@ -60,234 +74,190 @@
                 transform: scale(0);
                 opacity: 0.7;
             }
+
             100% {
                 transform: scale(1);
                 opacity: 0;
             }
         }
-
-        #videoContainer {
-            width: 100vw;
-            height: 100vh;
-            position: relative;
-        }
-
-        .custom-controls {
-            position: absolute;
-            top: 50%;
-            left: 0;
-            right: 0;
-            transform: translateY(-50%);
-            display: flex;
-            justify-content: center;
-            margin-top: 10px;
-            z-index: 999;
-        }
-
-        .custom-controls button {
-            background: transparent;
-            border: none;
-            cursor: pointer;
-            font-size: 24px;
-            color: #FFF;
-            margin: 0 10px;
-        }
-
-        .invisible-button {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 50%;
-            z-index: 1;
-            opacity: 0;
-        }
-
-        .volume-control {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 10%;
-            left: 0;
-            cursor: pointer;
-            z-index: 1;
-        }
     </style>
 </head>
+
 <body>
-<div id="loading" class="loading">
-    <div class="circle"></div>
-    <div class="circle"></div>
-    <div class="circle"></div>
-</div>
-<video controls crossorigin playsinline id="videoContainer" style="background-color: #0A0909;">
-    <source src="https://d1d34p8vz63oiq.cloudfront.net/bf2e55a0-18d1-41d1-827d-7312bf822648/master.mpd">
-</video>
+    <div id="loading" class="loading">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+    <div class="plyr__video-wrapper">
+        <video crossorigin="" playsinline="" id="videoContainer" style="background-color: #0A0909;" preload="auto">
+            <source src="">
+        </video>
 
-<script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/3.1.3/dash.all.min.js"></script>
-<script src="Physicswallah/ProtectionKeyController.js"></script>
-<script src="Physicswallah/streaming_protection_errors_ProtectionErrors.js"></script>
-<script>
-    const video = document.getElementById("videoContainer");
+    </div>
 
-document.addEventListener("DOMContentLoaded", function() {
-    const source = "https://d1d34p8vz63oiq.cloudfront.net/bf2e55a0-18d1-41d1-827d-7312bf822648/master.mpd";
-    const dash = dashjs.MediaPlayer().create();
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+    <script>
+        // Declare clearkeysData as a global variable
+        var clearkeysData;
+        var lectureCodeId;
 
-    video.addEventListener('touchstart', handleTouchStart, false);
-    video.addEventListener('touchmove', handleTouchMove, false);
+        document.addEventListener("DOMContentLoaded", function () {
+    // Get the lecture code from the URL
+    lectureCodeId = new URLSearchParams(window.location.search).get('key');
 
-    let xDown = null;
-    let yDown = null;
-
-    function handleTouchStart(evt) {
-        xDown = evt.touches[0].clientX;
-        yDown = evt.touches[0].clientY;
+    // If lectureCodeId is null, it means the 'lectureCode' parameter is not present in the URL
+    if (!lectureCodeId) {
+        console.error('Lecture code not found in URL');
+        alert("HEY YOU NEED TO GIVE LECTURE CODE TOO OR YOU MIGHT HAVE GIVEN INCORRECT LECTURE CODE");
+        return;
     }
 
-    function handleTouchMove(evt) {
-        if (!xDown || !yDown) {
-            return;
-        }
+    // Proceed with your logic using the lectureCode
+    // For example, you can fetch data or initialize the player using the lectureCode
 
-        let xUp = evt.touches[0].clientX;
-        let yUp = evt.touches[0].clientY;
+    // Construct the URL of the video player page based on the video ID
+    var url = 'https://studyrays.site/drmplayer.php?v=https://d1d34p8vz63oiq.cloudfront.net/' + lectureCodeId + '/master.mpd';
 
-        let xDiff = xDown - xUp;
-        let yDiff = yDown - yUp;
+    // Fetch HTML content from the URL
+    fetch(url)
+        .then(response => response.text())
+        .then(htmlContent => {
+            // Create a temporary div element to parse HTML content
+            var tempDiv = document.createElement('div');
+            tempDiv.innerHTML = htmlContent;
 
-        if (Math.abs(xDiff) > Math.abs(yDiff)) {/*most significant*/
-            if (xDiff > 0) {
-                /* left swipe */
-                rewind();
+            // Find the script tag containing protData
+            var scriptElement = tempDiv.querySelector('script:not([src])');
+
+            if (scriptElement && scriptElement.textContent.includes('const protData')) {
+                // Extract protData object
+                var startIndex = scriptElement.textContent.indexOf('const protData = ') + 'const protData = '.length;
+                var endIndex = scriptElement.textContent.indexOf(';', startIndex);
+                var protDataStr = scriptElement.textContent.substring(startIndex, endIndex);
+                console.log('HTML Content:', htmlContent);
+
+                // Parse protData object
+                var protData = JSON.parse(protDataStr);
+
+                // Extract clearkeys data
+                clearkeysData = protData['org.w3.clearkey'].clearkeys; // Assign to the global variable
+
+                // Log clearkeys data
+                console.log('Clearkeys Data:', clearkeysData);
+
+                // Initialize the player after fetching HTML content
+                initializePlayer();
             } else {
-                /* right swipe */
-                forward();
+                console.error('Script tag containing protData not found');
             }
-        } else {
-            if (yDiff > 0) {
-                /* up swipe */
-                // Increase volume
-                if (video.volume < 2) {
-                    video.volume += 0.1; // Increase volume by 10%
-                }
-            } else {
-                /* down swipe */
-                // Decrease volume
-                if (video.volume > 0) {
-                    video.volume -= 0.1; // Decrease volume by 10%
-                }
-            }
-        }
-        /* reset values */
-        xDown = null;
-        yDown = null;
-    }
-
-    var defaultOptions = {
-        "autoplay": false,
-        "muted": false,
-        "loop": {
-            "active": false
-        },
-        speed: {
-            selected: 1,
-            options: [1,1.25,1.5, 2,2.5, 3, 3.25,3.5, 4]
-        },
-        "captions": {
-            "active": true,
-            "update": true
-        }
-    };
-
-    dash.initialize(video, source, false);
-    dash.updateSettings({
-        streaming: {
-            abr: {
-                autoSwitchBitrate: {
-                    audio: false,
-                    video: false
-                }
-            },
-            fastSwitchEnabled: true,
-            lowLatencyEnabled: true
-        }
-    });
-
-     // Fetch clearkeys data from ProtectionKeysController.js
-     const clearkeysData = ProtectionKeysController.getClearkeys();
-
-    // Integrate clearkeys into Dash.js configuration
-    const protData = {
-        "org.w3.clearkey": {
-            "clearkeys": clearkeysData
-        }
-    };
-
-    dash.initialize(video, source, false);
-    dash.setProtectionData(protData);
-
-    dash.setProtectionData(protData);
-    dash.on("streamInitialized", function() {
-        const bodyElement = document.querySelector("body");
-        const loadingElement = document.getElementById("loading");
-        loadingElement.style.display = "none";
-        bodyElement.style.visibility = "visible";
-        const availableQualities = dash.getBitrateInfoListFor("video").map((l) => l.height);
-        defaultOptions.quality = {
-            default: availableQualities[0].height,
-            options: availableQualities,
-            forced: true,
-            onChange: function(newQuality) {
-                dash.getBitrateInfoListFor("video").forEach((level, levelIndex) => {
-                    if (level.height === newQuality) {
-                        dash.setQualityFor("video", level.qualityIndex);
-                    }
-                });
-            },
-        };
-        defaultOptions.previewThumbnails = {
-            enabled: true,
-            src: 'https://d1d34p8vz63oiq.cloudfront.net/bf2e55a0-18d1-41d1-827d-7312bf822648/master.mpd'
-        };
-        defaultOptions.tooltips = {controls: true, seek:true};
-        const player = new Plyr(video, defaultOptions);
-        window.player = player;
-        window.dash = dash;
-    });
-    dash.attachView(video);
-
-    // Generate key request
-    function generateKeyRequest() {
-        const videoElement = document.getElementById('videoContainer');
-        const mediaKeysPromise = videoElement.setMediaKeys(new MediaKeys());
-        mediaKeysPromise.then(function(mediaKeys) {
-            const keySession = mediaKeys.createSession();
-            const initData = new Uint8Array([0, 1, 2, 3, 4]); // Example initialization data
-            keySession.generateRequest('keySystem', initData).then(function() {
-                // Key request generated successfully
-            }).catch(function(error) {
-                // Error generating key request
-            });
-        }).catch(function(error) {
-            // Error setting media keys
-        });
-    }
+        })
+        .catch(error => console.error('Error fetching HTML:', error));
 });
 
-// Rewind function
-function rewind() {
-    if (!video.paused) {
-        video.currentTime -= 10; // Rewind 10 seconds
-    }
-}
+        function initializePlayer() {
+            // If lectureCodeId is null, it means the 'lectureCode' parameter is not present in the URL
+            if (!lectureCodeId) {
+                console.error('Video ID not found in URL');
+                alert("HEY YOU NEED TO GIVE LECTURE CODE TOO OR YOU MIGHT HAVE GIVEN INCORRECT LECTURE CODE");
+                return;
+            }
 
-// Forward function
-function forward() {
-    if (!video.paused) {
-        video.currentTime += 10; // Forward 10 seconds
-    }
-}
-</script>
+            const video = document.getElementById("videoContainer");
+            const videoSource = document.querySelector("#videoContainer source");
+            const lectureKey = lectureCodeId;
+            const source = `https://d1d34p8vz63oiq.cloudfront.net/${lectureKey}/master.mpd`;
+
+            videoSource.src = source;
+
+            const dash = dashjs.MediaPlayer().create();
+            var defaultOptions = {
+                controls: ['play', 'current-time', 'progress', 'duration', 'settings', 'mute', 'volume', 'fullscreen', 'rewind', 'fast-forward', 'keyboard'],
+                "autoplay": false,
+                "muted": false,
+                "loop": {
+                    "active": false
+                },
+                speed: {
+                    selected: 1,
+                    options: [0.25, 0.5, 1, 1.25, 1.5, 2, 2.5, 3]
+                },
+                "captions": {
+                    "active": false,
+                    "update": false
+                }
+            };
+            dash.initialize(video, source, false);
+            dash.updateSettings({
+                streaming: {
+                    abr: {
+                        autoSwitchBitrate: {
+                            audio: false,
+                            video: false
+                        }
+                    },
+                    fastSwitchEnabled: true,
+                    lowLatencyEnabled: true
+                }
+            });
+            const protData = {
+                "org.w3.clearkey": {
+                    "clearkeys": clearkeysData
+                }
+            };
+            dash.setProtectionData(protData);
+            dash.on("streamInitialized", function () {
+                const bodyElement = document.querySelector("body");
+                const loadingElement = document.getElementById("loading");
+                loadingElement.style.display = "none";
+                bodyElement.style.visibility = "visible";
+                const availableQualities = dash.getBitrateInfoListFor("video").map((l) => l.height);
+                defaultOptions.quality = {
+                    default: availableQualities[0].height,
+                    options: availableQualities,
+                    forced: true,
+                    onChange: function (newQuality) {
+                        dash.getBitrateInfoListFor("video").forEach((level, levelIndex) => {
+                            if (level.height === newQuality) {
+                                dash.setQualityFor("video", level.qualityIndex);
+                            }
+                        });
+                    },
+                };
+                defaultOptions.previewThumbnails = {
+                    enabled: true,
+                    src: `https://d1d34p8vz63oiq.cloudfront.net/${lectureKey}/master.mpd`
+                };
+                defaultOptions.tooltips = {
+                    controls: true,
+                    seek: true
+                };
+                const player = new Plyr(video, defaultOptions);
+                window.player = player;
+                window.dash = dash;
+            });
+            dash.attachView(video);
+        }
+    </script>
+    <script>
+		
+        document.addEventListener("contextmenu", function (e) {e.preventDefault()});
+        document.addEventListener('keydown', function (e) {
+            if (
+                e.key === 'F12' ||
+                (e.ctrlKey && e.shiftKey && e.key === 'I') ||
+                (e.ctrlKey && e.key === 'u') ||
+                (e.ctrlKey && e.key === 'U') ||
+                (e.ctrlKey && e.key === 's') ||
+                (e.ctrlKey && e.key === 'S') ||
+                e.ctrlKey ||
+                e.shiftKey ||
+                e.altKey
+            ) {
+                e.preventDefault();
+            }
+        });
+	</script>
 </body>
+
 </html>
