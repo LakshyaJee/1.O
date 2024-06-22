@@ -2,325 +2,244 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Video Player</title>
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css">
-<link rel="icon" type="image/jpeg" href="https://img.freepik.com/premium-vector/palestine-flag-paint-brush-strokes-palestine-flag-vector-page-symbol-your-web-site-design-vector-illustration_623474-1577.jpg">
-    <style>
+    <link rel="icon" type="image/jpeg" href="https://img.freepik.com/premium-vector/palestine-flag-paint-brush-strokes-palestine-flag-vector-page-symbol-your-web-site-design-vector-illustration_623474-1577.jpg">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Quattrocento+Sans" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
+    <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+    <style type="text/css" media="screen">
         html {
-            font-family: "Poppins", sans-serif;
-            margin: 0;
-            padding: 0;
-            --plyr-color-main: #5a4bda; /* Changed player main color to a blue shade */
-        }
-
-        video {
-            width: 100%;
-        }
-
-        .telegram-popup {
-            display: none;
-            position: fixed;
-            bottom: 10px;
-            right: 10px;
-            padding: 10px;
-            background-color: #0088cc;
-            color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-            z-index: 1002;
-        }
-
-        .telegram-popup i {
-            margin-right: 5px;
-        }
-
-        .card {
-            background-color: #ffffff;
-            border-radius: 15px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .dropdown-toggle::after {
-            display: none;
-        }
-
-        .quality-card,
-        .download-card,
-        .pc-laptop-card {
-            background-color: #f1f1f1;
-            border: 1px solid #dee2e6;
-            border-radius: 8px;
-            padding: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 15px;
-        }
-
-        .quality-title,
-        .pc-laptop-title {
-            font-size: 18px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-        .thumbnail {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-bottom: 10px;
-        }
-
-        .video-title {
-            font-size: 16px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-        .player-dropdown {
-            margin-bottom: 20px;
-        }
-
-        html {
-            font-family: 'Poppins', sans-serif;
+            font-family: Poppins;
+            background: rgb(34, 164, 195);
             background: #0A0909;
             margin: 0;
             padding: 0;
-            --plyr-color-main: #5a4bda;
-            /* Changed player main color to a blue shade */
-        }
-
-        .logo-container {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            width: 60px;
-            height: 60px;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+            --plyr-color-main: #2986cc;
         }
 
         .plyr {
             height: 100%;
             width: 100%;
-            color: #fff;
-            /* Changed player text color to white */
         }
 
-       
-
-        .float {
-            height: 60px;
-            width: 60px;
-            z-index: 10;
-            border-radius: 50%;
-            box-shadow: 2px 2px 3px #999;
-        }
-
-        .label-container {
-            position: relative;
-            top: 5px;
-            left: 70px;
-            display: table;
-            visibility: hidden;
-        }
-
-        .label-text {
-            color: #FFF;
-            background: rgba(51, 51, 51, 0.8);
-            display: table-cell;
-            vertical-align: middle;
-            padding: 10px;
-            border-radius: 3px;
-        }
-
-        .label-arrow {
-            display: table-cell;
-            vertical-align: middle;
-            color: #333;
-            opacity: 0.7;
-            transform: scaleX(-1);
-        }
-
-        a.float+div.label-container {
-            visibility: hidden;
-            opacity: 0;
-            transition: visibility 0s, opacity 0.5s ease;
-        }
-
-        a.float:hover+div.label-container {
-            visibility: visible;
-            opacity: 1;
-        }
-
-        .card-title {
-            font-size: 1rem;
-            font-weight: bold;
-            color: #007bff;
-        }
-
-        .card-subtitle {
-            font-size: 1.2rem;
-            color: #6c757d;
-        }
-
-        .container {
-            margin-top: 50px;
-        }
-
-        .card {
-            border: none;
-            border-radius: 15px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .card-header {
-            background-color: #f8d7da;
-            color: #721c24;
-            border-bottom: none;
-            border-radius: 15px 15px 0 0;
-            font-weight: bold;
-        }
-
-        .card-body {
-            padding: 20px;
-        }
-
-        .btn {
-            border-radius: 20px;
-        }
-
-        .alert-message {
-            color: #721c24;
-            font-weight: bold;
-        }
-
-        .download-btn {
+        .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
             width: 100%;
+            height: 100%;
+            background: #000;
+            z-index: 9999;
+        }
+
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .circle {
+            width: 20px;
+            height: 20px;
+            margin: 10px;
+            border-radius: 50%;
+            animation: loader-animation 0.75s ease infinite;
+        }
+
+        .circle:nth-child(1) {
+            background-color: #D90429;
+            animation-delay: 0s;
+        }
+
+        .circle:nth-child(2) {
+            background-color: #FFA300;
+            animation-delay: 0.15s;
+        }
+
+        .circle:nth-child(3) {
+            background-color: #048BA8;
+            animation-delay: 0.3s;
+        }
+
+        @keyframes loader-animation {
+            0% {
+                transform: scale(0);
+                opacity: 0.7;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 0;
+            }
         }
     </style>
 </head>
 
 <body>
+    <div id="loading" class="loading">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+    <div class="plyr__video-wrapper">
+        <video crossorigin="" playsinline="" id="videoContainer" style="background-color: #0A0909;" preload="auto">
+            <source src="">
+        </video>
 
-    <div class="logo-container">
-        <div id="logo" class="float"></div>
     </div>
 
-    <video id="video" controls></video>
-<script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
-
-    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,Array.prototype.includes,CustomEvent,Object.entries,Object.values,URL"></script>
-    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-    <script src="https://cdn.plyr.io/3.6.8/plyr.polyfilled.js"></script>
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
     <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const video = document.querySelector("video");
-            const controls = [
-                "rewind",
-                "play",
-                "fast-forward",
-                "progress",
-                "current-time",
-                "settings",
-                "fullscreen",
-                'pip',
-                'airplay',
-                "keyboard",
-            ];
-            // Get the value of 'v' from the URL
-const urlParams = new URLSearchParams(window.location.search);
-const key = urlParams.get('key');
+        // Declare clearkeysData as a global variable
+        var clearkeysData;
+        var lectureCodeId;
 
-// Construct sources object with dynamic 'v' value
-const sources = {
-    240: `https://extractapi.xyz/dev/${key}/hls/240/main.m3u8`,
-    360: `https://extractapi.xyz/dev/${key}/hls/360/main.m3u8`,
-    480: `https://extractapi.xyz/dev/${key}/hls/480/main.m3u8`,
-    720: `https://extractapi.xyz/dev/${key}/hls/720/main.m3u8`,
-};
+        document.addEventListener("DOMContentLoaded", function () {
+    // Get the lecture code from the URL
+    lectureCodeId = new URLSearchParams(window.location.search).get('key');
 
+    // If lectureCodeId is null, it means the 'lectureCode' parameter is not present in the URL
+    if (!lectureCodeId) {
+        console.error('Lecture code not found in URL');
+        alert("HEY YOU NEED TO GIVE LECTURE CODE TOO OR YOU MIGHT HAVE GIVEN INCORRECT LECTURE CODE");
+        return;
+    }
 
-            if (typeof Hls !== 'undefined' && Hls.isSupported()) {
-                const hls = new Hls();
-                hls.loadSource(sources[240]);
-                hls.attachMedia(video);
+    // Proceed with your logic using the lectureCode
+    // For example, you can fetch data or initialize the player using the lectureCode
 
-                const player = new Plyr(video, {
-                    controls: controls,
-                    settings: ["quality", "speed"],
-                    autoplay: true,
-                    speed: {
-                        selected: 1,
-                        options: [
-                            0.5, 1, 1.25, 1.5, 1.75, 2, 2.25, 2.5, 2.75, 3
-                        ],
-                    },
-                    quality: {
-                        default: "360",
-                        options: ["240", "360", "480", "720"],
-                        forced: true,
-                        onChange: (newQuality) => {
-                            const sourceUrl = sources[newQuality];
-                            hls.loadSource(sourceUrl);
-                            hls.attachMedia(video);
-                        },
-                    },
-                });
+    // Construct the URL of the video player page based on the video ID
+    var url = 'https://devjisu.com/drmplayer.php?v=https://d1d34p8vz63oiq.cloudfront.net/' + lectureCodeId + '/master.mpd';
 
-                // Expose player so it can be used from the console
-                window.player = player;
+    // Fetch HTML content from the URL
+    fetch(url)
+        .then(response => response.text())
+        .then(htmlContent => {
+            // Create a temporary div element to parse HTML content
+            var tempDiv = document.createElement('div');
+            tempDiv.innerHTML = htmlContent;
 
-            } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
-                video.src = sources[240];
-                const player = new Plyr(video, {
-                    controls: controls,
-                    settings: ["quality", "speed"],
-                    autoplay: true,
-                    speed: {
-                        selected: 1,
-                        options: [
-                            0.5, 1, 1.25, 1.5, 1.75, 2, 2.25, 2.5, 2.75, 3
-                        ],
-                    },
-                    quality: {
-                        default: "240",
-                        options: ["240", "360", "480", "720"],
-                        forced: true,
-                        onChange: (newQuality) => {
-                            const sourceUrl = sources[newQuality];
-                                                      video.src = sourceUrl;
-                        },
-                    },
-                });
+            // Find the script tag containing protData
+            var scriptElement = tempDiv.querySelector('script:not([src])');
 
-                // Expose player so it can be used from the console
-                window.player = player;
+            if (scriptElement && scriptElement.textContent.includes('const protData')) {
+                // Extract protData object
+                var startIndex = scriptElement.textContent.indexOf('const protData = ') + 'const protData = '.length;
+                var endIndex = scriptElement.textContent.indexOf(';', startIndex);
+                var protDataStr = scriptElement.textContent.substring(startIndex, endIndex);
+                console.log('HTML Content:', htmlContent);
+
+                // Parse protData object
+                var protData = JSON.parse(protDataStr);
+
+                // Extract clearkeys data
+                clearkeysData = protData['org.w3.clearkey'].clearkeys; // Assign to the global variable
+
+                // Log clearkeys data
+                console.log('Clearkeys Data:', clearkeysData);
+
+                // Initialize the player after fetching HTML content
+                initializePlayer();
             } else {
-                console.error("HLS.js is not supported and the browser does not support HLS playback.");
+                console.error('Script tag containing protData not found');
             }
-        });
+        })
+        .catch(error => console.error('Error fetching HTML:', error));
+});
 
-        document.addEventListener('DOMContentLoaded', () => {
-            // Listen for the full-screen change event
-            document.addEventListener('fullscreenchange', () => {
-                if (document.fullscreenElement) {
-                    // Entered full-screen mode, try to lock the screen orientation
-                    if (screen.orientation && screen.orientation.lock) {
-                        screen.orientation.lock('landscape').catch(error => {
-                            console.error('Error locking screen orientation:', error);
-                        });
-                    }
-                } else {
-                    // Exited full-screen mode, try to unlock the screen orientation
-                    if (screen.orientation && screen.orientation.unlock) {
-                        screen.orientation.unlock().catch(error => {
-                            console.error('Error unlocking screen orientation:', error);
-                        });
-                    }
+        function initializePlayer() {
+            // If lectureCodeId is null, it means the 'lectureCode' parameter is not present in the URL
+            if (!lectureCodeId) {
+                console.error('Video ID not found in URL');
+                alert("HEY YOU NEED TO GIVE LECTURE CODE TOO OR YOU MIGHT HAVE GIVEN INCORRECT LECTURE CODE");
+                return;
+            }
+
+            const video = document.getElementById("videoContainer");
+            const videoSource = document.querySelector("#videoContainer source");
+            const lectureKey = lectureCodeId;
+            const source = `https://d1d34p8vz63oiq.cloudfront.net/${lectureKey}/master.mpd`;
+
+            videoSource.src = source;
+
+            const dash = dashjs.MediaPlayer().create();
+            var defaultOptions = {
+                controls: ['play', 'current-time', 'progress', 'duration', 'settings', 'mute', 'volume', 'fullscreen', 'rewind', 'fast-forward', 'keyboard'],
+                "autoplay": false,
+                "muted": false,
+                "loop": {
+                    "active": false
+                },
+                speed: {
+                    selected: 1,
+                    options: [0.25, 0.5, 1, 1.25, 1.5, 2, 2.5, 3]
+                },
+                "captions": {
+                    "active": false,
+                    "update": false
+                }
+            };
+            dash.initialize(video, source, false);
+            dash.updateSettings({
+                streaming: {
+                    abr: {
+                        autoSwitchBitrate: {
+                            audio: false,
+                            video: false
+                        }
+                    },
+                    fastSwitchEnabled: true,
+                    lowLatencyEnabled: true
                 }
             });
-        });
+            const protData = {
+                "org.w3.clearkey": {
+                    "clearkeys": clearkeysData
+                }
+            };
+            dash.setProtectionData(protData);
+            dash.on("streamInitialized", function () {
+                const bodyElement = document.querySelector("body");
+                const loadingElement = document.getElementById("loading");
+                loadingElement.style.display = "none";
+                bodyElement.style.visibility = "visible";
+                const availableQualities = dash.getBitrateInfoListFor("video").map((l) => l.height);
+                defaultOptions.quality = {
+                    default: availableQualities[0].height,
+                    options: availableQualities,
+                    forced: true,
+                    onChange: function (newQuality) {
+                        dash.getBitrateInfoListFor("video").forEach((level, levelIndex) => {
+                            if (level.height === newQuality) {
+                                dash.setQualityFor("video", level.qualityIndex);
+                            }
+                        });
+                    },
+                };
+                defaultOptions.previewThumbnails = {
+                    enabled: true,
+                    src: `https://d1d34p8vz63oiq.cloudfront.net/${lectureKey}/master.mpd`
+                };
+                defaultOptions.tooltips = {
+                    controls: true,
+                    seek: true
+                };
+                const player = new Plyr(video, defaultOptions);
+                window.player = player;
+                window.dash = dash;
+            });
+            dash.attachView(video);
+        }
     </script>
-<script>
+    <script>
 		
         document.addEventListener("contextmenu", function (e) {e.preventDefault()});
         document.addEventListener('keydown', function (e) {
@@ -342,5 +261,3 @@ const sources = {
 </body>
 
 </html>
-
-                           
