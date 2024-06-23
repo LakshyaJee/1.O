@@ -1,0 +1,66 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Chemical Kinetics 08 : Practice Of Pr...",
+    "lectureCode": "39f147ca-54e8-4af7-b838-20b3468b1da2",
+    "classNotesCode": "19c132ad-d241-4f95-8426-7edacf21ed98.pdf",
+    "dppsPdfCode": "96947873-dadf-45f0-83bc-abb24b6dcae3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Chemical Kinetics 07 : Mechanism Veri...",
+    "lectureCode": "8f81f736-604b-490c-b76c-eab71eb43869",
+    "classNotesCode": "eab26e67-c95f-4b00-8eb5-08bfa67ed5a7.pdf",
+    "dppsPdfCode": "f99b3cad-3199-46f6-b82f-88f25be9e788.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Chemical Kinetics 06 : Parallel React...",
+    "lectureCode": "c5674418-7646-4774-a8e5-f8dfaeb5d87a",
+    "classNotesCode": "d97cc751-3bd2-49b4-8f2f-f662535339c4.pdf",
+    "dppsPdfCode": "242d99b8-1d14-4c8d-b243-56beef1feabf.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Chemical Kinetics 05 : Complex Cases ...",
+    "lectureCode": "32fcb917-7db0-4b87-bf3e-ca5bbda4c7a9",
+    "classNotesCode": "9cb387cb-e3b5-497b-845c-7a818d2f19ca.pdf",
+    "dppsPdfCode": "a0902fa2-ecf7-4596-82b9-c5226127c8b3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Chemical Kinetics 04 : Simple Cases O...",
+    "lectureCode": "17baf916-38af-4092-b6fb-fe93bb17396d",
+    "classNotesCode": "faccb92f-0c0d-4671-86f2-4974fad07d49.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Chemical Kinetics 03 : First Order Ki...",
+    "lectureCode": "93c99d5f-29e8-4c2a-b583-ed7abe3ba2f4",
+    "classNotesCode": "af332d40-5728-40d2-84a9-c86472c8d3fc.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Chemical Kinetics 02 : Zero Order Kin...",
+    "lectureCode": "ae6b9774-31cb-46f7-ad76-06c9bec67891",
+    "classNotesCode": "7fbd9a50-1da0-4525-8826-bc41a920b5f1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Chemical Kinetics 01 : Rate Of Reacti...",
+    "lectureCode": "cf11158e-c4c6-4096-a7e0-22480c6a69e8",
+    "classNotesCode": "6702c435-dc54-43e8-a7aa-154125ced240.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

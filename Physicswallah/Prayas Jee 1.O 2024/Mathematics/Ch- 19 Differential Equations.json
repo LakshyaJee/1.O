@@ -1,0 +1,34 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Differential Equations 04 : Practice ...",
+    "lectureCode": "1adc56ab-2117-4013-b48e-c36f5df6bfa2",
+    "classNotesCode": "0836e8aa-7d32-48c8-a1b4-83745dd296b5.pdf",
+    "dppsPdfCode": "47e5b806-d65d-414a-beb6-d2032143bd07.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Differential Equations 03 : Linear Di...",
+    "lectureCode": "40e1170d-a5d3-475e-8255-f2be0e8a96ae",
+    "classNotesCode": "53a7bb8a-968d-43a4-8ec0-ba11485dbd96.pdf",
+    "dppsPdfCode": "537bb429-3916-4d7f-b111-7d8aff5a3817.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Differential Equations 02 : Various F...",
+    "lectureCode": "f18e72e6-93ff-4e74-a629-eea866659004",
+    "classNotesCode": "d883d863-72da-4f79-890c-65117b98bbb9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Differential Equations 01 : Definitio...",
+    "lectureCode": "a8e62f96-65fb-40df-8cf0-514807ad18cb",
+    "classNotesCode": "f1d581d0-7538-4be5-8e3d-31bf157f0d74.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

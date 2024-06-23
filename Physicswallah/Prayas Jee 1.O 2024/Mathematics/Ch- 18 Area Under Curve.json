@@ -1,0 +1,34 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Area Under Curve 04 : Determination O...",
+    "lectureCode": "32dc2210-b358-43e9-9060-b3bf0d8ff621",
+    "classNotesCode": "7d1c5e27-fef9-47fd-b31d-23800858b5c6.pdf",
+    "dppsPdfCode": "1718d854-6a00-44ab-ac6d-3e8da1d25435.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Area Under Curve 03 : Shifting Of Ori...",
+    "lectureCode": "98c25c7f-d293-43d5-8563-0e06c710e54b",
+    "classNotesCode": "964c2d03-8393-4771-9e27-dadee4ac7de1.pdf",
+    "dppsPdfCode": "fbca10b7-5dd4-4ea3-81aa-37735b93ce09.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Area Under Curve 02 : Area Between Tw...",
+    "lectureCode": "aab977cb-93be-4ff9-a9c5-26e7292921bc",
+    "classNotesCode": "61b6ea40-bdff-4a72-92c5-4962eb5de706.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Area Under Curve 01 : Estimation Of D...",
+    "lectureCode": "f6548fda-a9c0-4063-a71a-5991e25c8762",
+    "classNotesCode": "428a5a8d-0384-47b9-96d1-90551dbbd87d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

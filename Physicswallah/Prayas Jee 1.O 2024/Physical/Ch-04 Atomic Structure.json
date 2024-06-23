@@ -1,0 +1,58 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Atomic Structure 07 : Electron Wave F...",
+    "lectureCode": "fc5147a8-c31a-4861-8a7b-0de543bb1595",
+    "classNotesCode": "ec9ae5c6-749c-4ef4-bd3f-26d73e9bbd43.pdf",
+    "dppsPdfCode": "d546c69a-94c7-4815-8858-4895cf2d4b17.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Atomic Structure 06 : Quantum Number",
+    "lectureCode": "d2554f0a-1b5f-40eb-871c-f1c2772092c0",
+    "classNotesCode": "b0336cfa-670c-42f5-bb28-97a3d6b7ad2e.pdf",
+    "dppsPdfCode": "78a304e5-9384-4801-8584-87d64857bc60.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Atomic Structure 05 : Photoelectric E...",
+    "lectureCode": "3191c7d6-fed4-4197-9d85-5753020fa180",
+    "classNotesCode": "e6f8e7a3-a987-4725-8fcc-c07193b32932.pdf",
+    "dppsPdfCode": "9c4c6f21-3799-4ac5-93ba-887d120e5889.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Atomic Structure 04 : De Broglie Dual...",
+    "lectureCode": "8cb2e1c5-c76d-4211-a329-ef06cb5a60f0",
+    "classNotesCode": "",
+    "dppsPdfCode": "72527b82-e6b3-4165-a06b-0e8fe635f4f4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Atomic Structure 03 : Absorption & Em...",
+    "lectureCode": "ee7344be-221e-4627-aeca-f13fb767999b",
+    "classNotesCode": "",
+    "dppsPdfCode": "159dba23-b4d1-474f-87a5-b6809cb81c12.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Atomic Structure 02 : Bohr's Model",
+    "lectureCode": "8b76f4da-e676-4d64-893b-4a96bf428730",
+    "classNotesCode": "",
+    "dppsPdfCode": "27b3f770-52ec-4c59-8199-1584edddee1e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Atomic Structure 01 : Atomic Model ||...",
+    "lectureCode": "dfb6f022-0f17-4b16-a9b4-fa14d529e01f",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

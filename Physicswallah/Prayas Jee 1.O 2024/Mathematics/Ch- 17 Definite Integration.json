@@ -1,0 +1,50 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Definite Integration 06 : Reduction F...",
+    "lectureCode": "0249b22b-c605-4621-8c5f-343f3ea39417",
+    "classNotesCode": "156458d5-f4c5-4f28-8503-9796a7b95a3d.pdf",
+    "dppsPdfCode": "09577fce-9318-479d-b988-73c7822cf9ab.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Definite Integration 05 : Practice Pr...",
+    "lectureCode": "1f3b4ca2-99fd-4b2e-8672-83bb47c5ce30",
+    "classNotesCode": "69d07608-8234-4122-9a27-ec8dc0f1b819.pdf",
+    "dppsPdfCode": "4826b066-d45b-41ab-9f3b-66c686f15365.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Definite Integration 04 : Practice Pr...",
+    "lectureCode": "8cc77a37-7277-4b08-ac18-33d5ca8aeb34",
+    "classNotesCode": "ffd39852-fbe9-47ec-8c8d-997d59c2c83f.pdf",
+    "dppsPdfCode": "dcd68bac-5381-47e7-bb62-f4164f82a6cd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Definite Integration 03 : Practice Pr...",
+    "lectureCode": "8afb286e-dc61-4249-876e-df9bc77b70eb",
+    "classNotesCode": "cd3fbfe1-8620-468d-ac0d-99d5cdfc16b7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Definite Integration 02 : Practice Pr...",
+    "lectureCode": "0d52a7ab-ffd6-4eb5-868b-d131c7549cc6",
+    "classNotesCode": "a2034d36-52ef-4ab0-ba79-971fa06d71b9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Definite Integration 01 : Reduction F...",
+    "lectureCode": "31fe136d-106d-47c9-87a4-8944837ef91a",
+    "classNotesCode": "eed47eb2-884a-4e8a-9404-c6bbb2df8209.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

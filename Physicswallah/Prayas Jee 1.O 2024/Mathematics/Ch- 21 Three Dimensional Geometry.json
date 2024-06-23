@@ -1,0 +1,34 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Three Dimensional Geometry 04 : Unsym...",
+    "lectureCode": "824dc9aa-5911-440e-973b-8a2a65759e32",
+    "classNotesCode": "399af87d-6eee-43a2-a9f3-f3d9bad69f52.pdf",
+    "dppsPdfCode": "b0aef083-f729-4925-ada0-1c472435b544.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Three Dimensional Geometry 03 : Equat...",
+    "lectureCode": "bb4f31b1-d7bb-4d60-a49a-0d6f1ebc397d",
+    "classNotesCode": "3e6ed944-ffe0-4620-88c8-b1990439dc61.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Three Dimensional Geometry 02 : Pract...",
+    "lectureCode": "64d61bfa-c704-48ae-a4b1-3afed317c620",
+    "classNotesCode": "3e9bba97-0bb4-4f06-83e9-8cdf256143d7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Three Dimensional Geometry 01 : Intro...",
+    "lectureCode": "45480597-cb76-4fc7-a5ba-99895881e6ac",
+    "classNotesCode": "352759f1-9e2d-455a-8cb2-7e9ffe54c221.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

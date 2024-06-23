@@ -1,0 +1,26 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Statistics 03 : Properties Of Varianc...",
+    "lectureCode": "5f4c08db-b59d-42f3-a364-f09378a7173d",
+    "classNotesCode": "6e3dea97-4c6e-4bed-8e59-cadf28d0f32a.pdf",
+    "dppsPdfCode": "f05e666f-5719-4ec6-804d-5bf8941851d0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Statistics 02 : Mode || Measures Of D...",
+    "lectureCode": "51df0f2c-fde5-46b4-b626-58c3a767f008",
+    "classNotesCode": "a681cbf6-39a7-4548-bd57-8fc5a11de11f.pdf",
+    "dppsPdfCode": "9b775835-f9c8-4932-9bf3-b88bf57b8478.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Statistics 01 : Measures Of Central T...",
+    "lectureCode": "70d50fc8-5a2d-465e-a70b-aeab5d48d40b",
+    "classNotesCode": "265a95f7-a1c3-4e7d-9123-2af84fbeccc2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

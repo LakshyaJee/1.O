@@ -1,0 +1,66 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Vectors 08 : Vector Equation || Linea...",
+    "lectureCode": "95b3d56a-4fbb-4634-ac02-afc2a3795fe2",
+    "classNotesCode": "5f10f7b5-8edb-4790-85da-84750d4e9148.pdf",
+    "dppsPdfCode": "6fb2cc40-b26c-46ed-bd62-8b07e6ac0ef4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Vectors 07 : Scalar & Vector Product ...",
+    "lectureCode": "4fc8d88a-1f3d-486b-bf7c-1d807da329f2",
+    "classNotesCode": "502f1b4d-6bac-451f-8b4a-c0fd16c2ea25.pdf",
+    "dppsPdfCode": "08730638-1112-4387-ab05-6afc20519806.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Vectors 06 : Properties Of STP || Vec...",
+    "lectureCode": "0763b4fa-d689-46d0-b88f-bb5df6fddf1b",
+    "classNotesCode": "2197a535-74e4-4cb9-907f-3bd82ffbc1df.pdf",
+    "dppsPdfCode": "9b9ffdbf-eb49-4607-b2ef-87064dcdf751.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Vectors 05 : Practice Problems || Sca...",
+    "lectureCode": "4fd4d13e-53e0-408a-a799-14b3147eb5b1",
+    "classNotesCode": "3e0b0f17-caf7-4cb8-8643-8a78537bdf09.pdf",
+    "dppsPdfCode": "df8ae7d3-a08e-4f2c-a5bb-49536e8a43e3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Vectors 04 : Practice Problems || Vec...",
+    "lectureCode": "e9c51df8-a719-42c5-9c99-50463a2bfed6",
+    "classNotesCode": "80021899-dfd6-443b-a288-8500be73a507.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Vectors 03 : Scalar Product Of Vector...",
+    "lectureCode": "ba1c7071-d630-41fe-bba5-ed50bae61923",
+    "classNotesCode": "04aa034c-d31f-40c0-82ca-fe0b63ed6ca5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Vectors 02 : Scalar Product Of Vectors",
+    "lectureCode": "734f447a-fb14-4ce2-9b1e-1d233e65fccf",
+    "classNotesCode": "2642b10b-6cad-4135-ae52-dce970276b68.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Vectors 01 : Introduction To Vectors ...",
+    "lectureCode": "2d2d7810-c021-4168-8b82-ff5986a17fbf",
+    "classNotesCode": "d2e40bd5-18d5-4be2-830d-93f984781371.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

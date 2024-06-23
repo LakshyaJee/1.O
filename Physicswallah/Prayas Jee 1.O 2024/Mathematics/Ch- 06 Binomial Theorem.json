@@ -1,0 +1,50 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Binomial Theorem 06 : Binomial Theore...",
+    "lectureCode": "3aa598dc-06a5-4b57-8dc7-f1e0ea115656",
+    "classNotesCode": "9d72223d-98d4-4610-845d-0da90b7bb402.pdf",
+    "dppsPdfCode": "66d656d2-d54b-47ff-abce-f9ca6152611e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Binomial Theorem 05 : Maximizing nCr ...",
+    "lectureCode": "d4baac0e-b341-42ad-ad69-d0d42b14114d",
+    "classNotesCode": "eb20051c-577d-4173-bec2-6beba2d85515.pdf",
+    "dppsPdfCode": "2a5fa33c-3e08-4e39-8817-9c103a295790.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Binomial Theorem 04 : Multinomial The...",
+    "lectureCode": "ee254d1a-cb83-4f66-9b26-74360757e601",
+    "classNotesCode": "5e0c970e-98d1-4c50-a41c-0339081ad736.pdf",
+    "dppsPdfCode": "8c7855c5-6058-44e2-acb4-1bfbd71a1b9f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Binomial Theorem 03 : Number Of Terms...",
+    "lectureCode": "8356cb3f-47b1-49b7-8676-56921c27a3d6",
+    "classNotesCode": "7b531dff-2768-4529-8436-f105384071ac.pdf",
+    "dppsPdfCode": "5e2bbd1a-93a5-4ed4-903c-3daf7c3da0d1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Binomial Theorem 02 : Middle Term & N...",
+    "lectureCode": "5749aec3-f577-4649-ae59-b91a9107c4a2",
+    "classNotesCode": "4b9b16eb-e958-463d-85c6-624fa7eec26a.pdf",
+    "dppsPdfCode": "f599f118-b5ab-417d-825e-635fa4ae2ee1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Binomial Theorem 01 : Introduction To...",
+    "lectureCode": "aa287bb1-d62b-4724-86b1-a8ec567352bb",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

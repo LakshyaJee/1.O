@@ -1,0 +1,106 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Basic Mathematics 13 : Using Graph Of...",
+    "lectureCode": "bbe1937f-640b-4416-b056-41f93a195f97",
+    "classNotesCode": "359c3761-4ace-400f-bb6e-9afe57c83cb9.pdf",
+    "dppsPdfCode": "7cf6a677-57e6-46e4-8707-35da9d8d972d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Basic Mathematics 12 : Exponential In...",
+    "lectureCode": "974274f8-eec8-411c-b493-17d02a0d3685",
+    "classNotesCode": "b335b0c1-d847-47d9-b705-71f3522e2bec.pdf",
+    "dppsPdfCode": "3191e625-5ee0-464b-a270-f6e2ec95407e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Basic Mathematics 11 : Modulus Inequa...",
+    "lectureCode": "b0f1b88c-2933-43ec-92e2-7d88669390bf",
+    "classNotesCode": "22cb3835-2981-41d7-a126-ee7ff3720961.pdf",
+    "dppsPdfCode": "2ab27ae8-3243-41df-8b19-100bd103ceec.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Basic Mathematics 10 : Question Pract...",
+    "lectureCode": "3b32f0be-e74e-4447-90bd-effc6e0eeb72",
+    "classNotesCode": "69b2cb39-acd5-4dbb-9ede-69e2a50c5d90.pdf",
+    "dppsPdfCode": "6b386c19-a90a-46d8-8734-e677a84efb01.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Basic Mathematics 09 : PYQ From Logar...",
+    "lectureCode": "a3d6fd39-8426-418d-8b9b-20381e87c1cf",
+    "classNotesCode": "3a3d0616-ddc4-4c3d-8e23-f93f4c9d515d.pdf",
+    "dppsPdfCode": "ca405b9d-0e55-4116-88ce-9d4a68288389.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Basic Mathematics 08 : Inequalities I...",
+    "lectureCode": "0a59cce6-a53d-4a79-bc3a-a5b8b5ad674d",
+    "classNotesCode": "314a5f88-7ae5-4b2a-82de-bc031822b69b.pdf",
+    "dppsPdfCode": "4a96f9f3-2ccc-41b4-9af9-eb9a550801e8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Basic Mathematics 07 : Logarithmic Eq...",
+    "lectureCode": "5f816ae1-c29b-455d-ba8b-2fe3f970452d",
+    "classNotesCode": "92cd34b9-946d-4978-9013-9a8bef2492ba.pdf",
+    "dppsPdfCode": "524dc317-b36e-497c-a37e-1acd827da48a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Basic Mathematics 06 : Base Changing ...",
+    "lectureCode": "245e22ee-9d0a-4915-8a12-75487a80e005",
+    "classNotesCode": "36d01356-b807-4686-95fb-8eaf34331e01.pdf",
+    "dppsPdfCode": "59e1a61f-a3c7-498e-b74a-6421079c7320.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Basic Mathematics 05 : Logarithm & It...",
+    "lectureCode": "6f6a0b11-dfa2-4e60-a38d-2bac1e78b5aa",
+    "classNotesCode": "248d8fec-81f9-4a6b-8ee6-81c8e7dac737.pdf",
+    "dppsPdfCode": "655f1e09-5656-4ac1-9706-58da11ab7264.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Basic Mathematics 04 : Wavy Curve Method",
+    "lectureCode": "4ad31d4f-39eb-4c02-9bf7-92c2682c6998",
+    "classNotesCode": "d79a95d4-27bd-4799-8f31-df2091a89650.pdf",
+    "dppsPdfCode": "3ebd6f85-c81c-4a43-9562-8aacd2e375a3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Basic Mathematics 03 : Basics Of Ineq...",
+    "lectureCode": "cad1ae41-2f28-465e-8c46-babeae1785c5",
+    "classNotesCode": "3caf3703-8870-4732-9c7f-6e8126719081.pdf",
+    "dppsPdfCode": "5b671aeb-e3b5-45a4-9fcc-66cd49c3784e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Basic Mathematics 02 : Some Important...",
+    "lectureCode": "d44a2ee0-58c7-4b7c-bf6e-640abaeaa5a2",
+    "classNotesCode": "655f1e09-5656-4ac1-9706-58da11ab7264.pdf",
+    "dppsPdfCode": "07227bf7-e1bd-462a-9b57-7c9c9731c887.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Basic Mathematics 01 : Some Important...",
+    "lectureCode": "ae7efc74-5ddb-42ac-a352-6b111a14e520",
+    "classNotesCode": "c31c3d9e-2040-4e9c-98d4-a028b70cf0bf.pdf",
+    "dppsPdfCode": "a87ee80c-31f6-4c93-adb3-5b5f4355a517.pdf",
+    "dppsSolutionCode": ""
+  }
+]

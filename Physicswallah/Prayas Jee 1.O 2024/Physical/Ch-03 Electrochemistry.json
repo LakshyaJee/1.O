@@ -1,0 +1,74 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Electrochemistry 09 : Reduction & Oxi...",
+    "lectureCode": "bb16932b-a333-424f-b715-9a260f23567e",
+    "classNotesCode": "210571ef-70bb-4e76-963e-3ab8a4aa4247.pdf",
+    "dppsPdfCode": "4635d499-3653-4099-adc6-129bbbc387c7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Electrochemistry 08 : Concentration Cell",
+    "lectureCode": "7f6cb602-4a01-40c1-93a4-d60796017432",
+    "classNotesCode": "a54de767-fd01-49f7-8064-db23ec0433ae.pdf",
+    "dppsPdfCode": "34a913d5-1ccf-4d4e-8af5-31792cccfccd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Electrochemistry 07 : Nernst Equation ||",
+    "lectureCode": "5915315c-debb-4d1e-9fc2-530d5ddf3013",
+    "classNotesCode": "65011020-ea5b-47da-adc2-057a1c297e4c.pdf",
+    "dppsPdfCode": "3709e87f-f0be-4a8b-9ef3-dc78f2ba73d4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "LEC-06-ELECTROCHEMISTR BATCH PRAYAS 2...",
+    "lectureCode": "d49b4c18-99ce-42d1-83c3-c0004a71ed42",
+    "classNotesCode": "cfe27e27-a6e4-499a-bb6e-d3f0b432594e.pdf",
+    "dppsPdfCode": "182fd394-c094-4516-b821-0d72ff6e30d2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Electrochemistry 05 : Molar Conductan...",
+    "lectureCode": "242cf568-ca17-4752-8af1-552660a13fae",
+    "classNotesCode": "6047b187-dbfa-42c7-b7b8-6516e717844d.pdf",
+    "dppsPdfCode": "3c71e9c3-17ca-45e9-b55b-ee7e6bc4a880.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Electrochemistry 04 : Electrolytic Co...",
+    "lectureCode": "76a7a261-a4f2-4660-8abe-f2a51305eae3",
+    "classNotesCode": "58a37ea6-c105-4fb7-abe3-16cc24a33a23.pdf",
+    "dppsPdfCode": "6ae8f0e7-4473-43f2-9bdc-247ad3e70c25.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Electrochemistry 03 : Faraday Combine...",
+    "lectureCode": "d2490a36-2048-467b-9bc6-b4ec61c832c1",
+    "classNotesCode": "dd587a97-6111-4bdd-ae59-e78a3fb725d1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Electrochemistry 02 : Faraday Law",
+    "lectureCode": "4ecf273c-f14a-4a81-9e8d-85d5a1039753",
+    "classNotesCode": "ea8dc5dc-cc71-413e-b90a-35c5d114dbe5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Electrochemistry 01 : Electrolysis Co...",
+    "lectureCode": "bab4e98b-20d8-4d0d-88f0-1384784477c8",
+    "classNotesCode": "9f1ca546-b4da-4d52-a111-8d869328ec83.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Periodic Table 07 : Electron Negativi...",
+    "lectureCode": "ae5d2b6e-cb40-4106-8bad-48bfe6859f77",
+    "classNotesCode": "59b92eae-414c-49c4-957e-7d47ca2b5d58.pdf",
+    "dppsPdfCode": "093634b9-a175-4a3f-bde4-021d286793d6.pdf",
+    "dppsSolutionCode": "4e8e69cf-2c75-45b8-b964-d9fb0fce9326"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Periodic Table 06 : Ionisation Energy...",
+    "lectureCode": "c8ed2cd9-7d93-4965-a72d-d851a0dd43f1",
+    "classNotesCode": "4d5bfa9d-230a-475a-9507-c7b20fbe96da.pdf",
+    "dppsPdfCode": "af41a93c-e832-4cd4-a5c3-1bcb9b95345c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Periodic Table 05 : Radius & Question...",
+    "lectureCode": "0b845034-efab-42af-90b6-1d6a4c59b1d1",
+    "classNotesCode": "735925ed-645f-40d4-83b8-6689bd54233c.pdf",
+    "dppsPdfCode": "48c78e97-5401-48b7-b217-44cea0452297.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Periodic Table 04 : Radius || NO DPP",
+    "lectureCode": "808aca8a-3710-44a4-b6bb-47637b790047",
+    "classNotesCode": "8678c64e-dd77-48da-9512-529d7f62855a.pdf",
+    "dppsPdfCode": "df09bc87-17f8-49e8-b30f-460b5bec016a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Periodic Table 03 : Zeffect || NO DPP",
+    "lectureCode": "f7579fe3-5f87-4558-a3f5-8c9eca93e329",
+    "classNotesCode": "",
+    "dppsPdfCode": "6b494e17-24d7-4f19-837b-a947141ea769.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Periodic Table 02 : Modern Periodic T...",
+    "lectureCode": "30c9c44c-c31b-496e-99c9-ce313c6aef4e",
+    "classNotesCode": "",
+    "dppsPdfCode": "d78c6b61-1d9e-41af-8958-e63c45ab4eb5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Periodic Table 01 : Introduction || N...",
+    "lectureCode": "a717cb01-782a-4633-b75e-1179695b7284",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

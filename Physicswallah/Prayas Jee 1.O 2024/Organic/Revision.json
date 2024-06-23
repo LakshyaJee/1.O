@@ -1,0 +1,354 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Revision 07 : Center Of Mass & Rotati...",
+    "lectureCode": "24fb974d-12be-47ac-ae4e-cc4953b478ff",
+    "classNotesCode": "25f17121-0503-47ab-88d1-16e07da4409a.pdf",
+    "dppsPdfCode": "701da526-1739-4012-ac33-78ee03a4c58b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Revision 06 : Fluid Mechanics || Elec...",
+    "lectureCode": "409cb6da-d554-4fe0-a1a4-5648c7636e69",
+    "classNotesCode": "e5e0c313-9263-4276-a8ac-b9551f490342.pdf",
+    "dppsPdfCode": "05349af4-aa9f-436e-a8db-6e268100c266.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Revision 05 : Optics || NO DPP || Res...",
+    "lectureCode": "005898ba-1171-4b9b-be06-64a29fa02e28",
+    "classNotesCode": "c38d4985-83df-4678-a773-a86fc8eac850.pdf",
+    "dppsPdfCode": "e9a3a5fd-e185-4c00-91c3-f14a81f7883d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Revision 04 : Semiconductors || NO DPP",
+    "lectureCode": "982a4b30-a477-4a2c-9a67-77f1529289b3",
+    "classNotesCode": "894929b6-889a-455d-b970-4cfe497db11f.pdf",
+    "dppsPdfCode": "9f612331-da62-46bd-8306-745730a9424e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Revision 03 : NLM & Friction || NO DP...",
+    "lectureCode": "6c178b4f-3b1c-47a5-b2b1-0393615b2607",
+    "classNotesCode": "e185a624-f47a-4370-95b4-39e5cc6aa30d.pdf",
+    "dppsPdfCode": "0676ef01-1aba-4786-a923-dcb6e8a199cf.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Revision 02 : Modern Physics & Semico...",
+    "lectureCode": "efb34f3a-407f-49e9-8673-bc1c2b2001d6",
+    "classNotesCode": "ab5e4cbd-9cc7-4378-8768-45e6c6c5a973.pdf",
+    "dppsPdfCode": "8ef504cd-3499-4d17-9abd-7332db1d622d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Revision 01 : Heat & Thermodynamics |...",
+    "lectureCode": "a7a9c019-9b8a-4b5a-a814-150674a7ca75",
+    "classNotesCode": "38a25731-1121-4abe-9f16-b578701d0d23.pdf",
+    "dppsPdfCode": "41fc404e-b7b0-4b0f-b750-d84e3c031922.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Revision 14 : Coordinate Geometry (Pa...",
+    "lectureCode": "9072aad2-1ede-4be2-a57b-8a0e4e3a5698",
+    "classNotesCode": "25f17121-0503-47ab-88d1-16e07da4409a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Revision 13 : Coordinate Geometry (Pa...",
+    "lectureCode": "94f18df5-1717-47a0-987d-4ae5be588471",
+    "classNotesCode": "e5e0c313-9263-4276-a8ac-b9551f490342.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Revision 12 : Coordinate Geometry",
+    "lectureCode": "06bb5843-b98d-42b1-8e34-ee0d47dbfe9c",
+    "classNotesCode": "c38d4985-83df-4678-a773-a86fc8eac850.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Revision 11 : Binomial || P&C || Prob...",
+    "lectureCode": "be41f929-81d0-4ac9-bbcb-132ee3d96351",
+    "classNotesCode": "894929b6-889a-455d-b970-4cfe497db11f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Revision 10 : Binomial || P&C || Prob...",
+    "lectureCode": "3d5c39e5-4a99-4bbf-bedd-6650e4f6795a",
+    "classNotesCode": "e185a624-f47a-4370-95b4-39e5cc6aa30d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Revision 09 : Binomial || P&C || Prob...",
+    "lectureCode": "68d2d8fe-12f6-4e4d-9244-d5db3e4408ce",
+    "classNotesCode": "ab5e4cbd-9cc7-4378-8768-45e6c6c5a973.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Revision 08 : AOD (Part- 02) || NO DPP",
+    "lectureCode": "a98f1dee-cb15-46cc-a405-553589e129c6",
+    "classNotesCode": "38a25731-1121-4abe-9f16-b578701d0d23.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Revision 07 : AOD",
+    "lectureCode": "ff461d43-d02e-4f66-ac6d-9bef6db6d602",
+    "classNotesCode": "c7361a5e-0c62-4ae9-b717-6ffb26f0693f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Revision 06 : LCD || MOD || Function ...",
+    "lectureCode": "97b987b6-ce08-435c-a571-e827bfcfb0b9",
+    "classNotesCode": "bff4c339-711a-4c56-8235-00c11f852165.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Revision 05 : LCD || MOD || Function ...",
+    "lectureCode": "284432c9-19b7-4610-a843-c6b468d1f173",
+    "classNotesCode": "ee5017ee-42f6-4644-a635-48bdbbef8f97.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Revision 04 : Set Theory || Relation ...",
+    "lectureCode": "ea1ddb2b-a199-4ab8-b5c1-5dee5fc81412",
+    "classNotesCode": "3bf839d0-e189-4a6c-8bf9-c4a30f8dc8ab.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Revision 03 : Basic Math || Quadratic...",
+    "lectureCode": "91020624-4309-473d-bb9c-244d20ebfe25",
+    "classNotesCode": "29ed3ef6-216b-49ab-99cc-da7313b26c89.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "Revision 02 : Basic Math || Quadratic...",
+    "lectureCode": "697d160b-8295-4d40-9165-acac051b7754",
+    "classNotesCode": "39033358-eae8-446c-97d9-030a5dc53a1d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "Revision 01 : Basic Math || Quadratic...",
+    "lectureCode": "b3499f76-548c-4d36-903b-ee03e8e4d1ed",
+    "classNotesCode": "322b6c4b-27e0-4a5a-965d-2cc55f2cc633.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "Revision 05 : Aldehyde Ketone and Car...",
+    "lectureCode": "7b1d2e77-2127-44af-9fcc-f7ce8f28a39f",
+    "classNotesCode": "56e7c548-9777-4bd4-b19b-1db0018fed1d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 23,
+    "lectureName": "Revision 04 : Biomolecules || NO DPP ...",
+    "lectureCode": "da40c69f-cfb8-4023-8fcb-d4e697816d0a",
+    "classNotesCode": "610b0360-fcbc-4c40-aa0d-b0b721da2302.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 24,
+    "lectureName": "Revision 03 : Amines || NO DPP || Rec...",
+    "lectureCode": "6a01c8df-1de5-4409-b997-0d2699637070",
+    "classNotesCode": "046d57aa-f765-4b33-bb7e-bf09754a3d6d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 25,
+    "lectureName": "Revision 02 : Alcohol Ether and Pheno...",
+    "lectureCode": "5e27b24f-a5d7-4c6a-ad17-d70dc42137aa",
+    "classNotesCode": "f51ead0c-f153-41f1-9a5b-5befe59b71f7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 26,
+    "lectureName": "Revision 01 : Hydrocarbon and Haloalk...",
+    "lectureCode": "0f969fb2-2498-4c34-bd0e-87ed3becd62a",
+    "classNotesCode": "bfa9053a-2181-4720-a7fa-5a8c439c92e2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 27,
+    "lectureName": "Revision 04 : Salt Analysis || NO DPP...",
+    "lectureCode": "c0845f7b-9f17-4bcf-84de-27d6e398dc64",
+    "classNotesCode": "c5fe064e-7cd1-4292-be10-dfe8c21e69a0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 28,
+    "lectureName": "Revision 03 : Coordination Compounds ...",
+    "lectureCode": "7ed5fe4d-0cc8-4f8b-afa3-f4ddacdb28e9",
+    "classNotesCode": "64ce9023-d66f-419e-b737-5c7f14ba0bee.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 29,
+    "lectureName": "Revision 02 : Chemical Bonding || NO ...",
+    "lectureCode": "9c849774-0349-457d-a38c-f5d63a5d5105",
+    "classNotesCode": "b0ec8a86-6db9-4abe-acb8-cef72455aa21.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 30,
+    "lectureName": "Revision 01 : Periodic Table || NO DPP",
+    "lectureCode": "fc2a009f-0a02-4d1d-b395-228623b68c71",
+    "classNotesCode": "3503184c-4a54-48f1-a1a9-2bddd466b8d3.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 31,
+    "lectureName": "Revision 19 : Vector 3D || Complex ||...",
+    "lectureCode": "04cb6c30-7104-4fd1-9bbb-de4e7a2ddf67",
+    "classNotesCode": "50a81e85-b6f1-441e-b0d1-ccde0f81c03a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 32,
+    "lectureName": "Revision 18 : Vector 3D || Complex ||...",
+    "lectureCode": "fbf0df92-7efa-4bd1-91c1-24d9ae7fa0d9",
+    "classNotesCode": "f4abf1de-f472-4d11-b2ee-6d7325d3a7dc.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 33,
+    "lectureName": "Revision 17 : Integration || DE || Ar...",
+    "lectureCode": "3924e731-d929-4dd8-abb6-5dea52f38fbd",
+    "classNotesCode": "8b294aa3-6983-48ea-a33b-cfe89464956c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 34,
+    "lectureName": "Revision 16 : Integration || DE || Ar...",
+    "lectureCode": "b73d8ee2-a3a1-4f24-a815-167232006820",
+    "classNotesCode": "4cf33b8e-f872-4fbb-9a33-058a8a74bc7c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 35,
+    "lectureName": "Revision 15 : Integration || DE || Ar...",
+    "lectureCode": "ec3aaefe-9970-4228-ad5f-dbc442bb0144",
+    "classNotesCode": "4dba02d4-4e2f-41dd-a7b8-9153e22f29df.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 36,
+    "lectureName": "Revision 09 : Optics (Plane Mirror) |...",
+    "lectureCode": "a394beec-359c-42d2-8227-40a9888cb966",
+    "classNotesCode": "d3e6c835-93c1-477c-8aa0-72d38903c7c8.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 37,
+    "lectureName": "Revision 08 : Electromagnetism || No DPP",
+    "lectureCode": "16069eb0-e7c4-4d4c-8ca8-39bf20d1a209",
+    "classNotesCode": "5d9894bf-71be-4c46-b438-96be476e4a75.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 38,
+    "lectureName": "Revision 06 : d & f Block || NO DPP |...",
+    "lectureCode": "8dead876-3c84-4959-a3e7-0ec2450b3ea9",
+    "classNotesCode": "741829df-a384-44ae-9c19-f81ffb656a34.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 39,
+    "lectureName": "Revision 05 : P-Block || NO DPP || Re...",
+    "lectureCode": "988f0a46-0868-4520-910d-754eac2e4b1a",
+    "classNotesCode": "b1c4a5e8-5d5b-47ca-9217-7497778fc0c9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 40,
+    "lectureName": "Revision 05 : Thermodynamics || No DPP",
+    "lectureCode": "4c7e3387-7f22-4a4d-9f59-0a1a9d3d5c30",
+    "classNotesCode": "25f17121-0503-47ab-88d1-16e07da4409a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 41,
+    "lectureName": "Revision 04 : Atomic Structure and So...",
+    "lectureCode": "3252243d-f1c5-4e61-b6d9-fca7068e7cb9",
+    "classNotesCode": "e5e0c313-9263-4276-a8ac-b9551f490342.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 42,
+    "lectureName": "Revision 03 : Chemical and Ionic Equi...",
+    "lectureCode": "3cde22cf-6240-48d2-9373-3e6589f2b042",
+    "classNotesCode": "c38d4985-83df-4678-a773-a86fc8eac850.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 43,
+    "lectureName": "Revision 02 : Electrochemistry and Ki...",
+    "lectureCode": "9fadcfdc-3c77-40ee-9cfd-24ed27041827",
+    "classNotesCode": "894929b6-889a-455d-b970-4cfe497db11f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 44,
+    "lectureName": "Revision 01 : Mole Concept and Redox ...",
+    "lectureCode": "24e95b5f-0674-45e6-bfcc-0cc4727f675a",
+    "classNotesCode": "e185a624-f47a-4370-95b4-39e5cc6aa30d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

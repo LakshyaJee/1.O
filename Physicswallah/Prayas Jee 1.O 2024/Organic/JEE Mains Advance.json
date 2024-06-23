@@ -1,0 +1,162 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Kinematics 01 : One Shot Question Pra...",
+    "lectureCode": "21dfebfc-e825-400d-8d59-6660d943a412",
+    "classNotesCode": "1252fe1d-9d97-4b0e-9b17-82c27c645e24.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Laws Of Motion 01 : Revision Through ...",
+    "lectureCode": "26e71105-45d9-4bef-9649-3b527999a7e1",
+    "classNotesCode": "0ad22e69-6bda-4d1e-bf10-bdd45a0feb87.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Thermal Properties Of Matter 01 : Rev...",
+    "lectureCode": "d2772c35-63c9-424f-a2bf-1ca9a7328c00",
+    "classNotesCode": "6ff83dd1-7129-4594-b229-77562aca403f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Electrostatics 02 : Electric Charges ...",
+    "lectureCode": "c8667829-2321-4b0d-8f9e-b5db929e0eae",
+    "classNotesCode": "dad18ea8-bb3c-4286-aa32-1bfba42f09e4.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Current Electricity 01 : Current Elec...",
+    "lectureCode": "bb12819f-d1fc-4a2f-bb83-ff95d69e1c95",
+    "classNotesCode": "e9b6f952-f18b-4ee0-94ab-8d1dfc8a03e9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Simple Harmonic Motion 01 : Complete ...",
+    "lectureCode": "e409f5f3-12ea-4083-a295-05d9efce9e00",
+    "classNotesCode": "ff0aca6b-0ff5-4961-a969-03e6d6cd504a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Aldehyde, ketone and Carboxylic Acid ...",
+    "lectureCode": "078137ab-1938-4389-ad50-83ce9c8d0cb9",
+    "classNotesCode": "ad53a996-0a90-47c0-abf4-71835a44dc6e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Current Electricity 02 : Current Elec...",
+    "lectureCode": "fe0c271e-1d02-4b03-955e-9ab0f820bb51",
+    "classNotesCode": "d90bc31b-8804-46cc-9708-edaebf1ceb2c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Rotational Motion 02 : Advance Sessio...",
+    "lectureCode": "4b8ba2c4-7c98-48b8-a0e2-20cfc93d5f48",
+    "classNotesCode": "f08cbf17-8d4a-4e55-b6cb-de8866e87591.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Centre of Mass, Momentum and Impulse ...",
+    "lectureCode": "ad0316fd-a797-4261-86ea-aac22632c5fe",
+    "classNotesCode": "1310aa50-d34f-409b-8e87-0a183cf8a0d2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Aromatic Compounds 01 : Aromatic Comp...",
+    "lectureCode": "54b6e43c-af39-4ab7-a5e9-9183a4d46c99",
+    "classNotesCode": "b4fbc52b-517b-4eda-972c-a677265fd7a2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Amines 02 : Revision (Part 02) || Rec...",
+    "lectureCode": "07491c6a-3434-4d94-858f-99a76893af70",
+    "classNotesCode": "7096e4ad-ed2f-42dd-8942-445a7ed0672c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "EMI + AC + EM Waves 01 : Question Pra...",
+    "lectureCode": "2fed23ed-3363-4f68-a5df-0eb763d5afd1",
+    "classNotesCode": "8b00368e-da1e-4bbc-b33d-8417227147bc.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Magnetism and EMI 01 : Advance Sessio...",
+    "lectureCode": "63ae163e-dd52-406a-a199-792a1a53d94e",
+    "classNotesCode": "350db02b-31e6-49e3-8010-e80aa954eef1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Biomolecule 01 : Biomolecule || Live",
+    "lectureCode": "b720447c-f02a-490f-be7f-13ad1cdca8bc",
+    "classNotesCode": "36dd2a32-6031-4408-98ab-433f927b1b5b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Ray Optics 01 : Question Practice || ...",
+    "lectureCode": "766704f2-205a-4efd-a75f-2f22a1bccad1",
+    "classNotesCode": "d4a7cdfa-d548-4739-8512-b28a1e2e73ee.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Polymer 01 : Polymer || Live",
+    "lectureCode": "d74ce362-af07-458e-8384-34707ff29a83",
+    "classNotesCode": "6e67701c-4674-4bc6-9a22-6af7b93c666c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "D & F Block 01 : Revision || Live",
+    "lectureCode": "2c57e3e7-6524-498e-9fe4-ef791b547e18",
+    "classNotesCode": "4a534f01-839c-4d0d-931c-c1ee8272e36c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Practical Organic Chemistry 01 : POC ...",
+    "lectureCode": "e0c0194c-d03e-41dc-907a-2477301c1379",
+    "classNotesCode": "652b6158-f77e-4e29-a2e1-e2e5b51a31ba.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "Polymer 02 : Polymer (Part 02) || Live",
+    "lectureCode": "4b76c691-c557-49e5-82b5-f7c0d7cfba67",
+    "classNotesCode": "cdb810da-efb5-4fc9-ae29-5a3fffcb994b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Probability 08 : Practice Problems (P...",
+    "lectureCode": "5a75cc29-ad97-4f6f-9cbb-6a50e469acbe",
+    "classNotesCode": "502387b3-b63b-480c-8c7b-2606daa20d18.pdf",
+    "dppsPdfCode": "e04a8e5b-6566-4cfc-8e57-3bd9a789f0a3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Probability 07 : Practice Problems ||...",
+    "lectureCode": "29906f8d-d897-411e-8d86-a4cdf1460f29",
+    "classNotesCode": "56a2f4ab-1143-441f-b694-16bc3a08b2d6.pdf",
+    "dppsPdfCode": "155157da-2231-4a57-8eb3-d7781e57d501.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Probability 06 : Three Event Space & ...",
+    "lectureCode": "6769397a-e736-4a14-8811-6d49a510bb69",
+    "classNotesCode": "31694aff-41dc-4e31-b4c3-a3d6e2fbadcd.pdf",
+    "dppsPdfCode": "61126ab7-737c-4c74-b31d-d68bba9674ff.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Probability 05 : Extended Bayes and M...",
+    "lectureCode": "bdcd2639-2389-4d12-8574-93b0d7175527",
+    "classNotesCode": "576a2c34-f5c7-445e-b2bc-e985aa3311cd.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Probability 04 : Binomial Distributio...",
+    "lectureCode": "89ad794a-54a9-4716-84cf-eaedbb6fd1e3",
+    "classNotesCode": "a2c846b7-b982-4d39-8a40-83b10b6cffbb.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Probability 03 : Law of Total Probabi...",
+    "lectureCode": "087a006a-f7fa-40d8-84f4-b05fa001a352",
+    "classNotesCode": "8f8ebfdc-4773-4328-8df3-cca2024fd3bc.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Probability 02 : Conditional Probabil...",
+    "lectureCode": "b64e92dd-58c7-43b0-ac47-d2af4eff26f4",
+    "classNotesCode": "fb46fde0-7f89-4e7c-b3ee-b8d17fcefc6e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Probability 01 : Introduction To Prob...",
+    "lectureCode": "3c9aa4f3-dcdf-40d7-a0ef-f6eec3d429c3",
+    "classNotesCode": "360cffcd-e11b-4e7c-a9e1-99fe99b1fbf9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

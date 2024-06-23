@@ -1,0 +1,66 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Complex Number 08 : Geometry In Compl...",
+    "lectureCode": "6b2e819f-e379-4832-9fd3-5f66591e02d7",
+    "classNotesCode": "99f959e5-1ca6-4705-809d-8b2e1995b83c.pdf",
+    "dppsPdfCode": "6c8fb56e-8dc5-417a-aa36-3a2921723973.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Complex Number 07 : Practice Problems...",
+    "lectureCode": "083360c9-3803-4f8e-858d-a82703b6afb4",
+    "classNotesCode": "4093192a-4690-46dc-8bf6-299ef6b6ff21.pdf",
+    "dppsPdfCode": "4f9c899a-0192-4f6c-ae6f-7c1257dcf7fe.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Complex Number 06 : DMT & Cube Root O...",
+    "lectureCode": "10748534-0b2a-4f59-bb0d-eae5e1aba4ca",
+    "classNotesCode": "d2676549-9522-471c-ad56-b55298efff5a.pdf",
+    "dppsPdfCode": "ccf87ca7-74c3-46e4-bbdd-be46f66ef3ac.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Complex Number 05 : Practice Problems",
+    "lectureCode": "f49e617a-651e-48c4-b459-678de61f220e",
+    "classNotesCode": "bcce13ac-55d0-4416-a4bb-ce480265d991.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Complex Number 04 : Rotation Of Compl...",
+    "lectureCode": "06c5f932-b4f5-4bb0-a75c-69eddf8daacc",
+    "classNotesCode": "f1cf0179-571a-49e9-a810-36e98592b554.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Complex Number 03 : Representation Of...",
+    "lectureCode": "92de5245-2295-4a71-99f1-9443a2497583",
+    "classNotesCode": "6a1d332e-6793-4044-b2a1-e0e015bc7486.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Complex Number 02 : Argument & It?s P...",
+    "lectureCode": "8cc1f917-70ec-4338-9c25-225e55b12f5d",
+    "classNotesCode": "317a2cb3-0ca7-463d-80ae-55ab07c596a9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Complex Number 01 : Introduction To C...",
+    "lectureCode": "35af898a-2107-45ea-b6a1-127f7cbdc98b",
+    "classNotesCode": "27628aef-3323-4def-9600-a56610a0fcd2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

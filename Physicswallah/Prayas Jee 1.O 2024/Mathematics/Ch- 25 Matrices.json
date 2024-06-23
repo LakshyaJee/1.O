@@ -1,0 +1,50 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Matrices 06 : Cayley Hamilton Theorem...",
+    "lectureCode": "ec46c16b-ca35-4ff6-958a-8d0658a04771",
+    "classNotesCode": "a578ffa4-2b4e-449c-a3fa-fce487dfe9c8.pdf",
+    "dppsPdfCode": "877d21fb-99a8-4d29-b0bc-07045a3b9523.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Matrices 05 : Inverse Of A Matrix || ...",
+    "lectureCode": "c8cc6248-f5c8-4909-aeff-6433bb6b7c7d",
+    "classNotesCode": "c010339a-6951-42ff-9587-7153c712c08b.pdf",
+    "dppsPdfCode": "fd41eec2-9f0a-46d8-858b-6a705eca5454.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Matrices 04 : Adjoint Of A Matrix || ...",
+    "lectureCode": "a0c5d648-45db-4205-90c6-d5443cd9ef30",
+    "classNotesCode": "4cae6e3f-d7b3-41b7-8f2e-f3080e2f7296.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Matrices 03 : Transpose Of A Matrix |...",
+    "lectureCode": "463a8950-61c7-471a-898a-3370ed1ef51d",
+    "classNotesCode": "017e69ff-12f4-443a-949b-1d8301b67e73.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Matrices 02 : Properties Of Matrix Mu...",
+    "lectureCode": "b540c57e-dbf3-4620-b1b4-f348bba493b3",
+    "classNotesCode": "52869e64-f749-4baa-b4b8-f46adc9eae61.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Matrices 01 : Introduction To Matrice...",
+    "lectureCode": "a4141b39-1902-49d6-bdbe-2c604bd92039",
+    "classNotesCode": "7e78e061-8816-404b-a8f3-155b0fa73b57.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

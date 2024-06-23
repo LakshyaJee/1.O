@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Trigonometry 10 : Trigonometric Equat...",
+    "lectureCode": "6fb75931-7208-4174-b256-292b906c07e7",
+    "classNotesCode": "5b875501-c10f-42b4-8172-beeb35d2ca13.pdf",
+    "dppsPdfCode": "cf0d4a11-e2a2-4a2a-8fe5-7e4d1247ccd7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Trigonometry 09 : Trigonometric Equation",
+    "lectureCode": "590eb2ea-183b-4204-a8bb-8d615cdd7137",
+    "classNotesCode": "6a502e94-de4d-474c-8e6f-f6ef903eea02.pdf",
+    "dppsPdfCode": "595b6750-dc91-44c9-98a0-3bc39849e484.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Trigonometry 08 : Optimization || Tri...",
+    "lectureCode": "36b0f0fd-8a74-448c-baab-b5dc0ba42c3e",
+    "classNotesCode": "483a69d3-cc94-4dfe-b4c9-4233eaf20486.pdf",
+    "dppsPdfCode": "7c439639-9bad-4421-ae75-b56ac11a46de.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Trigonometry 07 : Trigonometric Serie...",
+    "lectureCode": "55c775c0-f23f-448e-849a-f5e56813507d",
+    "classNotesCode": "e22695eb-5ed9-49d5-a995-c6a63b686191.pdf",
+    "dppsPdfCode": "f43cb497-2183-4351-b8b2-2a038acbfe56.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Trigonometry 06 : Graph Of Trigonomet...",
+    "lectureCode": "4134c437-162a-4255-9222-8b077364430c",
+    "classNotesCode": "4942af02-81f2-42e5-91a3-27514ea0e7b0.pdf",
+    "dppsPdfCode": "d35d30a8-e41d-42a1-93f1-367eff603e3f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Trigonometry 05 : Practice Problems |...",
+    "lectureCode": "03928350-2485-4758-a921-03b4379a43b3",
+    "classNotesCode": "d470300b-591a-472d-a8cd-1d75e7b48da8.pdf",
+    "dppsPdfCode": "b6c1b980-8903-4967-a486-c6d5c4d42212.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Trigonometry 04 : Practice Problems |...",
+    "lectureCode": "0717bcc2-0678-4c5c-8816-cc35019d6cd9",
+    "classNotesCode": "6b31eb5c-3f5a-4c95-acaf-9219e0deeadf.pdf",
+    "dppsPdfCode": "95295988-b0ab-4a26-b0ef-92e09d008376.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Trigonometry 03 : Practice Problems |...",
+    "lectureCode": "6eb66c09-15f0-44e8-a429-4c7978960554",
+    "classNotesCode": "5a828ada-521b-4684-a342-9d026f27d6b1.pdf",
+    "dppsPdfCode": "930dc622-86b0-432e-b53b-2bab05b8df96.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Trigonometry 02 : Reduction Formulas",
+    "lectureCode": "bf794a0a-a79a-4817-9ae0-a8596d7aa6b2",
+    "classNotesCode": "d53c153f-90b4-46db-a767-8165a4fff53e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Trigonometry 01 : Introduction To Tri...",
+    "lectureCode": "ecb0ad3c-5cc3-47f9-b132-ae62254f4d55",
+    "classNotesCode": "1a518fb7-6cc6-469e-9d2b-545002d865a3.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

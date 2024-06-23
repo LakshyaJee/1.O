@@ -1,0 +1,50 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "States Of Matter 06 : Compressibility...",
+    "lectureCode": "2d4346a7-9db8-410a-a835-1318532586c7",
+    "classNotesCode": "d9d5f2c7-4b2f-43e0-8ee4-40dd6cd6af25.pdf",
+    "dppsPdfCode": "05cb7715-c7de-4de2-b3c9-eedad9bd1c29.pdf",
+    "dppsSolutionCode": "4f374621-44a5-4590-9bea-af89391b7793"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "States Of Matter 05 :",
+    "lectureCode": "4df84891-d414-4e09-95f5-313601cd3ad2",
+    "classNotesCode": "4e46a34f-b3c1-4fdf-a957-121ab781dd7a.pdf",
+    "dppsPdfCode": "110f3de4-0fa7-498d-b26d-b61fe6376b52.pdf",
+    "dppsSolutionCode": "8f10a758-b6e8-454f-985e-49e570f41033"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "States Of Matter 04 : Daltons Law Of ...",
+    "lectureCode": "70f88312-5e45-4eeb-a5bc-a67dbaf2d66b",
+    "classNotesCode": "48d97747-32e2-4c01-9e14-39ddceb8148d.pdf",
+    "dppsPdfCode": "55707546-9fb0-4757-b535-6509aabadad6.pdf",
+    "dppsSolutionCode": "11c8ffe1-66bd-43f8-9534-14883a78fca0"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "States Of Matter 03 : Gas Laws",
+    "lectureCode": "10b8bffe-9bc3-4fd0-8cde-9f0b1f67e12d",
+    "classNotesCode": "24323667-93e2-4410-ac75-f20633fc3f8e.pdf",
+    "dppsPdfCode": "df96196b-2219-4771-8a41-c114fdd3c0a2.pdf",
+    "dppsSolutionCode": "63fa280b-ed41-4e37-9999-b48507a177af"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "States Of Matter 02 : How To Apply Id...",
+    "lectureCode": "3c85a9c7-7f6a-4ec2-b324-749d86808ace",
+    "classNotesCode": "06a449f7-38b0-4414-b2a0-93f4fba63dc5.pdf",
+    "dppsPdfCode": "3c8ceb85-ee94-49bc-9e67-60e00c086ec8.pdf",
+    "dppsSolutionCode": "cd223a03-e077-41b5-adde-16413eaefb1c"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "States Of Matter 01 : Ideal Gas Equat...",
+    "lectureCode": "45b2df6c-f17e-49fd-adc1-9bbb8a3ca1d3",
+    "classNotesCode": "",
+    "dppsPdfCode": "0ff8aa2b-c2c4-4a9f-9c23-f1601953196e.pdf",
+    "dppsSolutionCode": ""
+  }
+]

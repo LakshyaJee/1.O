@@ -1,0 +1,26 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Determinants 03 : Cramer's Rule || In...",
+    "lectureCode": "c39d6de8-5945-40dc-9f5a-ff33d07c7b15",
+    "classNotesCode": "98390f49-9913-4513-87c4-87978a58181f.pdf",
+    "dppsPdfCode": "8daacbec-e85a-4989-b23d-fddc6a775dbb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Determinants 02 : Factor Theorem & Sp...",
+    "lectureCode": "81897e4b-e90f-4da7-8825-ba579b62253b",
+    "classNotesCode": "9f3ae5ba-c285-4743-bd82-f630dca27512.pdf",
+    "dppsPdfCode": "2ebbc1c7-c483-4647-95a4-cab17f6c76af.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Determinants 01 : Cofactor & Minors O...",
+    "lectureCode": "043efb17-73e6-4994-8b5b-138da0723381",
+    "classNotesCode": "8f50e0c6-540d-44fd-939f-b918b82ca3fa.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

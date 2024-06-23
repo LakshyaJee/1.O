@@ -1,0 +1,50 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Chemical Equilibrium 06 : Simultaneou...",
+    "lectureCode": "6fe3b9c4-447f-49c3-958a-258823d3fc45",
+    "classNotesCode": "aa7a412e-c684-4d02-9de0-0089c7602c0d.pdf",
+    "dppsPdfCode": "4eac23c2-bdf2-4de6-91ae-024bb1da1ee7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Chemical Equilibrium 05 : Home Work D...",
+    "lectureCode": "af30309f-f632-400d-985c-53c8168550bb",
+    "classNotesCode": "fc4dd7b6-769a-46be-af8c-77f504ed3eeb.pdf",
+    "dppsPdfCode": "19613f55-85a5-4c04-a190-ea5b8488f374.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Chemical Equilibrium 04 : Home Work D...",
+    "lectureCode": "455677fd-64a1-4965-8084-6acc419ddb01",
+    "classNotesCode": "c9ac7012-c11c-4df0-b2aa-a963de295ab3.pdf",
+    "dppsPdfCode": "9be18acd-e0e5-4b16-a655-3724e601fe73.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Chemical Equilibrium 03 : Home Work D...",
+    "lectureCode": "b3a29b59-ae2d-437c-8537-50b7d5dddc86",
+    "classNotesCode": "c1db17c8-0e9c-4b9f-b074-258a9ceb71fc.pdf",
+    "dppsPdfCode": "2ccb5bce-fbc4-493c-aa9f-c439e31f6a5a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Chemical Equilibrium 02 : Home Work D...",
+    "lectureCode": "e7875679-e2e3-4d10-a952-0a7347f9c38c",
+    "classNotesCode": "32b3c89b-f1e2-4fe7-8a48-a1923c13e5da.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Chemical Equilibrium 01 : Home Work D...",
+    "lectureCode": "9848654c-531b-4619-b237-4fe9f3ee91e5",
+    "classNotesCode": "30c1ae6f-a433-42d6-a789-631af2dbccac.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

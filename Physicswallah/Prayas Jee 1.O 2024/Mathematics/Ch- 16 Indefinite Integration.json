@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Indefinite Integration 05 : Integrati...",
+    "lectureCode": "d72d3df6-7edd-47e8-84c1-0849f2754472",
+    "classNotesCode": "59cd8de1-7594-4616-950d-1843c9a24998.pdf",
+    "dppsPdfCode": "05aabe25-f815-4d10-8f8b-3fde1750c2ad.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Indefinite Integration 04 : Integrati...",
+    "lectureCode": "24f39945-7694-438d-83d3-f2156548b5d4",
+    "classNotesCode": "49dfe6ad-ae1f-44e2-a32c-a705ab75c80c.pdf",
+    "dppsPdfCode": "c9f99277-bfe2-4f0a-8d34-5bc5483255bb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Indefinite Integration 03 : Important...",
+    "lectureCode": "261f4456-451f-4e4e-819a-c0dfbab98bfb",
+    "classNotesCode": "d59f4295-3f92-40b2-bf87-ce95c7b54cca.pdf",
+    "dppsPdfCode": "d98f1164-beae-4d65-8875-59e346d29dcf.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Indefinite Integration 02 : Indefinit...",
+    "lectureCode": "5af12d40-da12-450a-8b5b-9f40a49cbd4e",
+    "classNotesCode": "a603cc47-01a5-4d24-9bca-8e939bdacb28.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Indefinite Integration 01 : Curve Tra...",
+    "lectureCode": "e48b9132-9bb0-4774-8649-bf1a380d0d09",
+    "classNotesCode": "a9721f4e-6244-4897-a5dd-62b77c769df5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]
