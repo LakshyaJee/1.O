@@ -1,0 +1,50 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Capacitor 06 : Questions On R-C Circu...",
+    "lectureCode": "9a34a73a-3a05-4d15-ac94-62d24d542d67",
+    "classNotesCode": "a66d0edd-fdda-4b80-a241-09435db7ff28.pdf",
+    "dppsPdfCode": "4dd91b33-c4fd-459e-8f1f-3cfd61b1aafe.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Capacitor 05 : RC Circuit (Charging &...",
+    "lectureCode": "dcb5f7da-bcb2-4bde-8109-ffc9f84ba54a",
+    "classNotesCode": "0a599852-e98f-45e4-925f-2a1b52c5c29c.pdf",
+    "dppsPdfCode": "83528fe8-5523-41eb-8cea-e6ec9fb77c73.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Capacitor 04 : Circuit Analysis || PY...",
+    "lectureCode": "c8217d52-8a16-4305-aa04-622dd969f578",
+    "classNotesCode": "76eb3d31-5046-4a56-8e66-5922b9774d19.pdf",
+    "dppsPdfCode": "3c5be9db-66fb-400f-86e3-fcb25cb28c16.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Capacitor 03 : Circuit Analysis || Di...",
+    "lectureCode": "3d6d5e79-25aa-4a6f-a4b9-453649a5b68f",
+    "classNotesCode": "85288b1b-0946-4702-9355-a022a9f944f6.pdf",
+    "dppsPdfCode": "3da9dc6c-d376-452e-87b1-54d84df1d20a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Capacitor 02 : Circuit Analysis || P....",
+    "lectureCode": "2593fbe3-7627-4241-a7d2-84d256c8e2c9",
+    "classNotesCode": "659452a8-eb11-418f-bca0-3ea563364261.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Capacitor 01 : Parallel Plate Capacit...",
+    "lectureCode": "67281644-f765-4023-8ffc-698c7fa0ee3d",
+    "classNotesCode": "503d4c15-fa0c-45cc-8558-01bf544da1cb.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

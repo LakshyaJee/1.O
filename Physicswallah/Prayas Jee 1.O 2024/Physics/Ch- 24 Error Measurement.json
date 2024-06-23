@@ -1,0 +1,26 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Error & Measurement 03 : Vernier Call...",
+    "lectureCode": "391ec37c-6cb3-4a89-af83-f8f595339433",
+    "classNotesCode": "fa5bbe3b-f066-467a-9f41-c0f14f6b4e9b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Error & Measurement 02 : Propagation ...",
+    "lectureCode": "5f7a4237-45d0-43e2-a3d9-a4c29aff2c75",
+    "classNotesCode": "a16b028c-9aed-4060-a406-7ea5ce5ecc19.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Error & Measurement 01 : Errors || Si...",
+    "lectureCode": "2e9f7e2c-9e46-440e-96b0-81d5fb41a088",
+    "classNotesCode": "80458ff9-75be-404d-82c7-f4a2f156adb2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

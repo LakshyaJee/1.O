@@ -1,0 +1,58 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Moving Charges & Magnetism 07 : Torqu...",
+    "lectureCode": "04a5ce2b-7813-43ea-b921-fbf5fbd9d2e0",
+    "classNotesCode": "2feaa417-8752-46fc-a47b-a2e938a94c33.pdf",
+    "dppsPdfCode": "b253fd77-e145-49c7-a9f1-6ba64f6a36cc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Moving Charges & Magnetism 06 : Force...",
+    "lectureCode": "a08e9aa6-48e5-4ba6-a8eb-a759f5a2a927",
+    "classNotesCode": "16ae976e-f8a4-4a43-94ab-7e4eb164a20f.pdf",
+    "dppsPdfCode": "3124f5db-6c47-4afe-a944-cb20ce3ad199.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Moving Charges & Magnetism 05 : Motio...",
+    "lectureCode": "06ba1c42-b878-45cf-bced-639697551df7",
+    "classNotesCode": "224a56b2-df74-4e35-a069-96daf0afae60.pdf",
+    "dppsPdfCode": "b932ca71-d690-4a7c-bb51-c87d6231e551.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Moving Charges & Magnetism 04 : Magne...",
+    "lectureCode": "21a29dcc-4b3b-4fcc-85b9-41a9310d5547",
+    "classNotesCode": "3edb27c9-502e-4251-992d-814b73396a14.pdf",
+    "dppsPdfCode": "1944b2ea-5f79-40e8-b97c-de022d46b18d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Moving Charges & Magnetism 03 : Amper...",
+    "lectureCode": "f7548b2b-b909-41a4-8d71-093aeec5e080",
+    "classNotesCode": "5f50a3bb-3898-43ab-b9db-ef9fd4405237.pdf",
+    "dppsPdfCode": "bf0d5a49-8e98-4ab2-a68b-628228555cf6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Moving Charges & Magnetism 02 : Calcu...",
+    "lectureCode": "feeb4513-b8c2-4bbb-a8ab-5825ae52fff5",
+    "classNotesCode": "c5571971-6b0c-4980-a5f2-17a05367f8cf.pdf",
+    "dppsPdfCode": "332319d8-8c18-4c99-a293-5aa61d8b80c9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Moving Charges & Magnetism 01 : Biot-...",
+    "lectureCode": "e4fc6734-38e5-4ff6-b328-9ef067dd03da",
+    "classNotesCode": "99391ffe-5684-4b67-a262-d6cf8f12e27e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

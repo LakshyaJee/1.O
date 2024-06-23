@@ -1,0 +1,66 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "KTG & Thermodynamics 08 : Questions P...",
+    "lectureCode": "d1554d18-3c7d-435b-988e-ad3e1bb29447",
+    "classNotesCode": "0ec24d17-51f3-44d0-88bc-fb7431f0eb47.pdf",
+    "dppsPdfCode": "12f5c4a0-7d2e-4066-8dff-71c07d238d13.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "KTG & Thermodynamics 07 : Cp || Cv Mi...",
+    "lectureCode": "d6901dbf-98ab-4273-a071-dc58d9825777",
+    "classNotesCode": "573be6ac-b19e-44c6-a81e-2990357a87c7.pdf",
+    "dppsPdfCode": "8d4427bd-17cf-4f34-b199-6e8bb7f3f213.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "KTG & Thermodynamics 06 : Adeabatic |...",
+    "lectureCode": "5712e058-303f-4203-bb3b-aa2bca466e91",
+    "classNotesCode": "39cf6ab5-61c8-4d1d-824e-93029f0f58f8.pdf",
+    "dppsPdfCode": "d6e05e41-a46f-4c3c-bc4a-ab2c6e0c6662.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "KTG & Thermodynamics 05 : Adeabatic P...",
+    "lectureCode": "53c82715-af5a-485a-a568-b6357ca4b138",
+    "classNotesCode": "23f1f47f-50f4-4e18-8ef6-41990b3f1908.pdf",
+    "dppsPdfCode": "67e7ec43-7af3-41d0-92fd-683801e4ee73.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "KTG & Thermodynamics 04 : First Law O...",
+    "lectureCode": "7d2aa2f5-abf2-47c3-ad3a-ccc4eb82eeae",
+    "classNotesCode": "0c89e28a-7f13-4d08-a836-356f9c3c22a7.pdf",
+    "dppsPdfCode": "17bb0f06-c54b-4d23-8e26-11dc7ac50a93.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "KTG & Thermodynamics 03 : (WD)by Gas ...",
+    "lectureCode": "a8b8c58c-3168-4024-986d-554a31d92ee1",
+    "classNotesCode": "37a78d58-0bd8-4051-9388-708d8fa692c3.pdf",
+    "dppsPdfCode": "60c3d622-bafa-48b7-97cf-1cd488a60aef.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "KTG & Thermodynamics 02 : Internal En...",
+    "lectureCode": "2762d6e1-7083-4710-941e-c1b051635dda",
+    "classNotesCode": "679436b5-5f49-4345-81cc-7685344345a1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "KTG & Thermodynamics 01 : Spectral Em...",
+    "lectureCode": "e57b2958-beb3-4e12-91a5-47c1399d8ef6",
+    "classNotesCode": "93e32df6-b3fc-4103-a141-319431adfe02.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

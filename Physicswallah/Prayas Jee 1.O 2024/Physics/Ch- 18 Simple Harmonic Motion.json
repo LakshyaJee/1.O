@@ -1,0 +1,66 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Simple Harmonic Motion 08 : JEE Advan...",
+    "lectureCode": "d0990d9c-34f4-4af2-b94f-ee0eb506d85f",
+    "classNotesCode": "c8d7ff27-432e-4dd4-86fb-63b83811bdbd.pdf",
+    "dppsPdfCode": "1e455834-69e7-43f6-8cc6-e2069b776558.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Simple Harmonic Motion 07 : Superposi...",
+    "lectureCode": "ee2b5ecc-8c88-48be-9363-82bbdadfe3b4",
+    "classNotesCode": "462de85d-82f8-40d3-ac70-3670a0fb9937.pdf",
+    "dppsPdfCode": "6c7836e3-7ba0-49ac-9cc1-e1008885fae9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Simple Harmonic Motion 06 : Spring Bl...",
+    "lectureCode": "2036dbdf-982d-4e9b-af1d-506793f15e23",
+    "classNotesCode": "cfdaf09b-1d58-46f3-ada1-a2ddba0aac5d.pdf",
+    "dppsPdfCode": "454d83fc-1add-422e-9fe2-abf166977173.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Simple Harmonic Motion 05 : SHM of Sp...",
+    "lectureCode": "ca1c00da-c2d7-40d4-9c0f-ee2993623ff9",
+    "classNotesCode": "f23acb70-680f-46cb-b2d1-e9499f00bc8b.pdf",
+    "dppsPdfCode": "0aadbdda-68be-45fb-b238-532ae43e1b1d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Simple Harmonic Motion 04 : Graph & R...",
+    "lectureCode": "9f12dd0a-17b7-400d-a26d-f6bfe3ffec14",
+    "classNotesCode": "21ae74c6-1a44-43c1-b247-95126aea236a.pdf",
+    "dppsPdfCode": "8fa92a7c-171f-497c-a9c9-d3160962ad38.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Simple Harmonic Motion 03 : Equation ...",
+    "lectureCode": "9512c1dd-91c3-496e-9e4c-10e9b838aadc",
+    "classNotesCode": "5b45204b-e464-4868-b8ac-02ddcc35d7ed.pdf",
+    "dppsPdfCode": "c6d11dfb-9fb5-4390-855b-96e67437a4b0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Simple Harmonic Motion 02 : Equation ...",
+    "lectureCode": "eff2832d-27b9-4b6b-9cb2-49638acb5361",
+    "classNotesCode": "6480d3c9-774e-4997-a5ed-018a70a24bf5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Simple Harmonic Motion 01 : SHM (Intr...",
+    "lectureCode": "ba314cf6-6e2a-41c1-95bf-66dfd61a9103",
+    "classNotesCode": "3a7ee914-5793-446d-9f74-3f38a7d33d78.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Circular Motion 05 : Circular Motion ...",
+    "lectureCode": "e37f0e11-94d4-4071-b48b-6e117846fb7e",
+    "classNotesCode": "ff9f46be-b97f-4a98-921d-51ac04dfd2fa.pdf",
+    "dppsPdfCode": "75d05080-39b9-4f84-931a-511c747be76b.pdf",
+    "dppsSolutionCode": "be850a98-30a6-4bef-9ec7-00b0cc373a06"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Circular Motion 04 : Circular Motion ...",
+    "lectureCode": "fda3d40c-6ce5-40a5-94d0-fcc6f0fa3250",
+    "classNotesCode": "19b308f9-c2e6-4115-a84e-1f74cfa6c86f.pdf",
+    "dppsPdfCode": "4a21bd74-e377-41a5-94c1-efb797a3aaa6.pdf",
+    "dppsSolutionCode": "ede3fff0-b9a0-4315-9d6b-65c6e4dfbb72"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Circular Motion 03 : Kinematics Of Ci...",
+    "lectureCode": "60ed9c4a-7438-4064-a165-8e08af14563b",
+    "classNotesCode": "fb096e71-26e3-45b2-ae36-cb8f8ff8ca2a.pdf",
+    "dppsPdfCode": "e4ea225e-1ddb-4a11-b8b5-6f3b87b5030d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Circular Motion 02 : Circular Motion ...",
+    "lectureCode": "cd5ac76e-c39e-4df9-9607-02624f70633c",
+    "classNotesCode": "ff9f46be-b97f-4a98-921d-51ac04dfd2fa.pdf",
+    "dppsPdfCode": "f4585a35-a209-4584-810e-9f99e8767b23.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Circular Motion 01 : Introduction To ...",
+    "lectureCode": "bfbe68ed-27c0-4045-a805-38850f879966",
+    "classNotesCode": "19b308f9-c2e6-4115-a84e-1f74cfa6c86f.pdf",
+    "dppsPdfCode": "670d5526-e0f9-4834-964a-30ca2825910c.pdf",
+    "dppsSolutionCode": ""
+  }
+]

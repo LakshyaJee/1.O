@@ -1,0 +1,58 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Waves 07 : Standing Wave In Sound Wav...",
+    "lectureCode": "3be77dc7-ddba-4f84-846f-65e1214adf26",
+    "classNotesCode": "98046847-66f6-4662-ba1d-f91652d42ae7.pdf",
+    "dppsPdfCode": "73b4dcd5-da62-449b-9c3c-541b9553e9c9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Waves 06 : Sound Wave || Velocity Of ...",
+    "lectureCode": "cdcbc84b-9e83-4447-b4ea-a9575499f37e",
+    "classNotesCode": "306a0def-41a0-47c5-aee9-a7700ee776b2.pdf",
+    "dppsPdfCode": "79d48578-1b7f-49ca-97c8-cb3fcc61cee3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Waves 05 : Standing Wave Questions ||...",
+    "lectureCode": "61f14150-8034-4b3f-ab34-e25b1eb88f8f",
+    "classNotesCode": "31539d5e-0309-4947-b8c2-aadf2ac25718.pdf",
+    "dppsPdfCode": "db9e2aba-7ad1-4b75-af42-c78c7167fb72.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Waves 04 : Reflection & Transmission ...",
+    "lectureCode": "36125b16-8e8d-4022-bea2-e0549ba53b71",
+    "classNotesCode": "50567ace-7f2e-455f-925a-b5bd9e9af182.pdf",
+    "dppsPdfCode": "2d459aa2-f8f6-4368-b67b-5998de9a6f5c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Waves 03 : Power Transfer || Equation...",
+    "lectureCode": "f4ffe5b2-5115-44f7-8c9b-d5b597fd750d",
+    "classNotesCode": "2601102c-0935-49f3-a776-8b15043cd985.pdf",
+    "dppsPdfCode": "de637a1e-f581-4f7b-a2ec-e823e16d1680.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Waves 02 : Wave Velocity || Particle ...",
+    "lectureCode": "db5d5d48-6f68-43a2-994c-2a09d6d012ae",
+    "classNotesCode": "bc562769-79df-49c5-91c2-70dfaf12910c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Waves 01 : Wave Introduction & Classi...",
+    "lectureCode": "5c67fad0-28a1-4300-81ae-abeba8ffdeed",
+    "classNotesCode": "5bac3b47-ed12-4ef9-80b8-1db06c95f45b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

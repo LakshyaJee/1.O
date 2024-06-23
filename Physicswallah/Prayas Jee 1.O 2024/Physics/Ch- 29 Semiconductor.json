@@ -1,0 +1,26 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Semiconductor 03 : PN Junction Diode ...",
+    "lectureCode": "fbc447f6-f2be-4111-838f-9880f33d7a67",
+    "classNotesCode": "24196a68-675e-4e85-b8f8-e620e51b38f9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Semiconductor 02 : Semiconductor , En...",
+    "lectureCode": "f1158c83-40a3-417c-a070-af8496c06c13",
+    "classNotesCode": "63fa3f35-c28f-4876-b799-99da1ed2836a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Semiconductor 01 : Logic Gates || NO ...",
+    "lectureCode": "1a6167b0-ef3a-4cdb-93fb-33277fe554a5",
+    "classNotesCode": "b0277a19-4447-4f5b-ba7a-ce622130bea5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

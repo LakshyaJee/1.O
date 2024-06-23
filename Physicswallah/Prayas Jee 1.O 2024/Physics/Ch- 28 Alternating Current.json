@@ -1,0 +1,58 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Alternating Current 07 : Ques Practic...",
+    "lectureCode": "bbcbcf07-c093-4a7e-b285-7408f28ea22d",
+    "classNotesCode": "ee4cab59-28dd-4502-81a7-33a6574d9b1b.pdf",
+    "dppsPdfCode": "ad9e1e8e-d88f-428b-b6db-3cf63a98bc67.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Alternating Current 06 : LC Oscillati...",
+    "lectureCode": "7e271fad-b7d1-43c0-a7e4-a529ada7d867",
+    "classNotesCode": "d4b531e3-6a2e-4a76-b516-3a8640c3d3dc.pdf",
+    "dppsPdfCode": "8685b330-d2af-4d92-9fca-813cfa6836a6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Alternating Current 05 : Resonance Ci...",
+    "lectureCode": "9781346c-aa80-4990-9ab5-a798c4332c6d",
+    "classNotesCode": "95731983-e793-4739-b5a7-08bc3a9c97f7.pdf",
+    "dppsPdfCode": "bd1aee3b-05f9-42a3-9161-40d582b8c5e5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Alternating Current 04 : RLC Circuit ...",
+    "lectureCode": "cc4d395d-4b71-4864-8534-7ca2535dc7c6",
+    "classNotesCode": "8a880880-a0b2-4056-9a0d-2f541ce694fa.pdf",
+    "dppsPdfCode": "4900484d-5f13-4f41-9a88-1e1b6c25015f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Alternating Current 03 : Circuit Anal...",
+    "lectureCode": "eb17a730-42ed-4bf4-98fc-65474d42c32d",
+    "classNotesCode": "a63ba3c2-51c1-45a3-8698-b954a16ebabe.pdf",
+    "dppsPdfCode": "42d466eb-fa05-457a-9bc3-6f4f87dec1b5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Alternating Current 02 : Circuit Anal...",
+    "lectureCode": "35eff7a6-a8d5-440a-bb32-e3dd7113f02d",
+    "classNotesCode": "70bdc667-5fa3-4973-a2c7-a4c90a2f2373.pdf",
+    "dppsPdfCode": "a5d74184-8218-417c-ad8b-9d825aaba649.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Alternating Current 01 : AC , Average...",
+    "lectureCode": "8b801026-f97f-453c-8385-9943e819e10f",
+    "classNotesCode": "83cc8e9a-4c35-4311-92bf-d016803e05ec.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

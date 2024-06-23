@@ -1,0 +1,58 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Electromagnetic Induction 07 : Questi...",
+    "lectureCode": "81627aad-c501-4ab5-9a0e-75797a0b84ac",
+    "classNotesCode": "76fbfd04-af94-49e3-a505-a0b87215da45.pdf",
+    "dppsPdfCode": "ccc00df6-25bb-40df-9ba1-a5d27b70a4e1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Electromagnetic Induction 06 : LR Cir...",
+    "lectureCode": "6328e8ba-35e6-4df3-b227-a2178c7d4c7b",
+    "classNotesCode": "4449c3d6-c289-48d9-a938-d9674c2c105a.pdf",
+    "dppsPdfCode": "5e47afd5-faca-4b62-ba3b-757e84a0ccb7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Electromagnetic Induction 05 : Self I...",
+    "lectureCode": "cb58693b-bb24-4390-81e8-fff14df1ebe4",
+    "classNotesCode": "81edef09-4b13-49c9-b46b-1824e25de29d.pdf",
+    "dppsPdfCode": "54dcf7e6-81ab-4219-8bfa-4452a6a5736c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Electromagnetic Induction 04 : Questi...",
+    "lectureCode": "2c35c5a1-ce00-4327-a990-b04d6cd8ebe2",
+    "classNotesCode": "9ca43d6f-f404-4163-83c1-d4b664588431.pdf",
+    "dppsPdfCode": "175d29b4-711c-4b11-8888-30a540c944cf.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Electromagnetic Induction 03 : Motion...",
+    "lectureCode": "47a60369-1f3f-4d8e-95a1-de76c855d5a1",
+    "classNotesCode": "ad185b63-5a66-440b-a17b-db3a6f0b2bf5.pdf",
+    "dppsPdfCode": "5d4270e2-77b1-4cfa-a3f6-1e99f130c4c1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Electromagnetic Induction 02 : Questi...",
+    "lectureCode": "14e76c51-49cc-403f-ab67-a619033c99cd",
+    "classNotesCode": "a085604e-3120-4808-9e72-52f4b63bef43.pdf",
+    "dppsPdfCode": "12f5372a-1bad-4db5-b64a-c255fae21e25.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Electromagnetic Induction 01 : Magnet...",
+    "lectureCode": "1916c1de-ccbb-46b0-86fb-b3f5dfa03985",
+    "classNotesCode": "f8e31b08-f690-4b67-9fb0-7175a2faa276.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

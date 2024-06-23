@@ -1,0 +1,34 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Wave Optics 04 : Important Question P...",
+    "lectureCode": "58bcfae9-4cdb-40de-91f9-562147d2c011",
+    "classNotesCode": "1e1e3820-066c-4f23-b480-bf57055b532b.pdf",
+    "dppsPdfCode": "6c8b436a-b042-418f-904f-21bfa334ed11.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Wave Optics 03 : YDSE || Modification...",
+    "lectureCode": "0befc15f-01f3-4daf-ba64-d6fcff65662a",
+    "classNotesCode": "cf13e476-8ba8-49f3-bed0-bb8998559676.pdf",
+    "dppsPdfCode": "dffd7fcf-4ac3-48a5-a43c-4a9357010039.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Wave Optics 02 : Interference",
+    "lectureCode": "a25ebd5e-1870-41df-8b13-0fe7e5824c7d",
+    "classNotesCode": "56a3e367-5bdb-4cf9-ab7f-bc9a204d8089.pdf",
+    "dppsPdfCode": "a0373217-0f7c-48e1-be9a-b585881a6890.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Wave Optics 01 : Wavefront , Hygen's ...",
+    "lectureCode": "aa76f718-a418-47b5-a8f6-67050b514039",
+    "classNotesCode": "34e99e2d-d393-48ea-9b61-d4618553ea8a.pdf",
+    "dppsPdfCode": "c9775780-a0bd-490e-bb33-de3873db9c23.pdf",
+    "dppsSolutionCode": ""
+  }
+]

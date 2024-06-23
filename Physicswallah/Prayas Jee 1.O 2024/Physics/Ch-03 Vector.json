@@ -1,0 +1,98 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "KPP 07 : Discussion || Recorded",
+    "lectureCode": "80e3992f-7258-4043-bb3f-f42b85671beb",
+    "classNotesCode": "b28c01d2-6fc3-418e-89c7-4fbf5288a0d4.pdf",
+    "dppsPdfCode": "59b0d3ec-5f60-4227-952b-f10955ea2d43.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "KPP 05 : Discussion",
+    "lectureCode": "4e0cefce-f946-4515-aad2-41002e581365",
+    "classNotesCode": "be771f16-aed3-4a39-9294-4e3c4742c20b.pdf",
+    "dppsPdfCode": "48ddcc84-53a6-428b-93a3-c39b352034fc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Vector 08 : Component of One Vector A...",
+    "lectureCode": "7b798c6f-4524-49e9-9a13-4e908c8df431",
+    "classNotesCode": "b346a296-e201-4c44-9d3d-aca1a77f61a3.pdf",
+    "dppsPdfCode": "df780625-8e9e-45fe-a887-c1956127ac8a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "KPP 04 : Discussion || Recorded",
+    "lectureCode": "a96b489d-7a91-405b-90f3-6a914c7b2a42",
+    "classNotesCode": "b28c01d2-6fc3-418e-89c7-4fbf5288a0d4.pdf",
+    "dppsPdfCode": "98594731-faba-40f4-b8c1-6011beb0312e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Vector 07 : Dot Products || Component...",
+    "lectureCode": "6d0754f9-0d42-4aef-93c0-88fca7529b19",
+    "classNotesCode": "be771f16-aed3-4a39-9294-4e3c4742c20b.pdf",
+    "dppsPdfCode": "b6aeb22b-69ad-4792-a32e-1f71648f4f3b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "KPP 03 : Discussion",
+    "lectureCode": "2a030caa-b255-45c8-a5b3-5d5be0afd19b",
+    "classNotesCode": "b346a296-e201-4c44-9d3d-aca1a77f61a3.pdf",
+    "dppsPdfCode": "124b45bc-f5ec-425e-8e5b-dc536ba61db4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Vector 06 : Unit Vector & Application...",
+    "lectureCode": "9321d9d9-44ef-4151-bfeb-bab1adacd8a6",
+    "classNotesCode": "b28c01d2-6fc3-418e-89c7-4fbf5288a0d4.pdf",
+    "dppsPdfCode": "ec772a42-0e5c-4000-9093-61e8599a1c53.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Vector 05 :  Parallelogram Law || Pol...",
+    "lectureCode": "96cca23e-bbd3-458f-9ab8-11c7a427dd86",
+    "classNotesCode": "be771f16-aed3-4a39-9294-4e3c4742c20b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Vector 04 : Addition & Substraction O...",
+    "lectureCode": "d7d010f8-777b-4dc1-9576-fa19cd8fac90",
+    "classNotesCode": "b346a296-e201-4c44-9d3d-aca1a77f61a3.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Vector 03 :  Vector Laws || NO DPP",
+    "lectureCode": "723c9c41-ef54-4b4c-a313-555068ab3e25",
+    "classNotesCode": "b28c01d2-6fc3-418e-89c7-4fbf5288a0d4.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Vector 02 : Parallel Shifting Of Vect...",
+    "lectureCode": "5f5e39c5-1182-4a50-8d88-cba6101f888c",
+    "classNotesCode": "be771f16-aed3-4a39-9294-4e3c4742c20b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Vector 01 : Vector || Representation ...",
+    "lectureCode": "580eeea2-14e8-441e-bd63-b37719ac517c",
+    "classNotesCode": "b346a296-e201-4c44-9d3d-aca1a77f61a3.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

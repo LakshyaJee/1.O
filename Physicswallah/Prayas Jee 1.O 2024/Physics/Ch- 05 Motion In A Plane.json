@@ -1,0 +1,74 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Motion In A Plane 09 : Projectile Of ...",
+    "lectureCode": "ba66b297-fb18-42f7-a578-a5597168e852",
+    "classNotesCode": "12f2007d-7ecf-4c46-9c2d-d260453895a0.pdf",
+    "dppsPdfCode": "e5ec0cee-2884-42fa-8e84-794a0117e586.pdf",
+    "dppsSolutionCode": "bc00ffb0-c9eb-4a51-93cc-5d7d44cdda58"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Motion In A Plane 08 : Relative Motio...",
+    "lectureCode": "696b01e0-3247-4955-9a1c-5e66addcb2f8",
+    "classNotesCode": "8a43bb5b-831d-49ce-a5d3-d180b6e5deaa.pdf",
+    "dppsPdfCode": "99e25f99-2b34-4aa8-8bcf-3a5923e3454b.pdf",
+    "dppsSolutionCode": "8a8c198d-aece-4983-8c99-cbe228d4920d"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Motion In A Plane 07 : Relative Motio...",
+    "lectureCode": "42095241-0c46-4a80-a77d-ec6347772e99",
+    "classNotesCode": "5442a03a-cdc1-4755-921b-a1f9f608eb6f.pdf",
+    "dppsPdfCode": "ccbdc5db-bf26-4fd3-99ed-4c76985d20ca.pdf",
+    "dppsSolutionCode": "97d8caa1-876d-4e1f-b7e2-143915cd9b42"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Motion In A Plane 06 : Rain Man Problem",
+    "lectureCode": "5627a64b-9b55-41a0-a08a-27a88f4a2862",
+    "classNotesCode": "09dfca28-71b6-4e24-8e1b-a193e1f54ff6.pdf",
+    "dppsPdfCode": "8621d526-0a7e-4d23-9495-4e1994f03bd3.pdf",
+    "dppsSolutionCode": "06947222-c62e-44f8-b59f-24790d0f4c0c"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Motion In A Plane 05 : Question Pract...",
+    "lectureCode": "421bc115-dab2-4a90-9011-fa62f10235ad",
+    "classNotesCode": "5c5fffa6-91d2-4157-83e7-d8299e69269a.pdf",
+    "dppsPdfCode": "e0bfe2f2-5604-4885-99f4-e20779b43986.pdf",
+    "dppsSolutionCode": "008a012f-8520-42f9-81e4-fa577ef8388f"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Motion In A Plane 04 : Question Pract...",
+    "lectureCode": "e5af2730-5931-4859-b976-2d829ebfe0af",
+    "classNotesCode": "12f2007d-7ecf-4c46-9c2d-d260453895a0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Motion In A Plane 03 : Last Class Que...",
+    "lectureCode": "b8d2fd0a-357b-41a9-8c97-1b55ec467f02",
+    "classNotesCode": "8a43bb5b-831d-49ce-a5d3-d180b6e5deaa.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Motion In A Plane 02 : Projectile Mot...",
+    "lectureCode": "ff87a3e9-ac8c-4440-af21-8dc9846e62da",
+    "classNotesCode": "5442a03a-cdc1-4755-921b-a1f9f608eb6f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Motion In A Plane 01 : Projectile Mot...",
+    "lectureCode": "1ccfbc9b-6286-450d-8de6-74a1806d5845",
+    "classNotesCode": "09dfca28-71b6-4e24-8e1b-a193e1f54ff6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

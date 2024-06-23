@@ -1,0 +1,90 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Geometrical Optics 11 : Optical Instr...",
+    "lectureCode": "1f9782f5-531a-4a54-9066-d173eba1c45e",
+    "classNotesCode": "117a1d2e-4fff-4ff8-bc0b-f0a0b897bb8f.pdf",
+    "dppsPdfCode": "58739efd-e718-4f40-ae66-8e692cea2c6b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Geometrical Optics 10 : Prism || Silv...",
+    "lectureCode": "60d44d6f-2705-47d5-a62f-12a5b8338848",
+    "classNotesCode": "781e9126-6ac7-4feb-8732-1849f40d6897.pdf",
+    "dppsPdfCode": "722a941e-2bb0-4830-af5d-7850bdcbbaf2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Geometrical Optics 09 : Slab || Multi...",
+    "lectureCode": "e41b6c55-c227-405d-a7d0-954a52e9cab3",
+    "classNotesCode": "245fc146-2322-4747-a99f-9e3a899c3246.pdf",
+    "dppsPdfCode": "8549e093-f48d-454e-b520-a7adf745e753.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Geometrical Optics 08 : Power || Thin...",
+    "lectureCode": "321345f9-f292-455c-8c2a-7017334ceaf8",
+    "classNotesCode": "ea42281a-b1e9-44d9-b883-9070dc865729.pdf",
+    "dppsPdfCode": "b95fe261-086b-4ce7-a218-4971d96ca476.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Geometrical Optics 07 : Lens Formula ...",
+    "lectureCode": "07f1baf0-c4da-4f9c-bede-743079296a2a",
+    "classNotesCode": "a8cbfb2c-daec-49a5-9af4-c20fd9fab9f6.pdf",
+    "dppsPdfCode": "2f1c796b-f8f2-42b3-83a0-a0f539ab4810.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Geometrical Optics 06 : Refraction Fr...",
+    "lectureCode": "ed944ade-1c0a-41b2-9e34-c83f0f7ca09d",
+    "classNotesCode": "a679b366-74c7-4eca-8d9d-3f794291bda4.pdf",
+    "dppsPdfCode": "ae69ffdb-c201-4f39-9eba-99b6fd11cff6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "PRAYAS 2024 -FOR JEE ASPIRANTS- Lectu...",
+    "lectureCode": "8002842b-6519-459e-999a-c0b6931000e0",
+    "classNotesCode": "60529cec-ecb7-4c8a-86f1-e5ac8982a45c.pdf",
+    "dppsPdfCode": "932d9a6a-26ef-4b58-b6a6-6b94f350e96a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Geometrical Optics 04 : Shifting Of M...",
+    "lectureCode": "e43a2c59-90aa-44bc-a0c7-f864718c2532",
+    "classNotesCode": "b8c1e63e-2719-46ce-afa8-280d81acc1e1.pdf",
+    "dppsPdfCode": "683dc649-5868-43b8-8b87-b0ef84fe608b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Geometrical Optics 03 : Mirror Formul...",
+    "lectureCode": "ebb8bc6a-bf25-464c-9fc7-2f23a09f0675",
+    "classNotesCode": "19377df1-638f-4b28-8e0e-fc8b5dda0233.pdf",
+    "dppsPdfCode": "0c603b79-3d84-4664-9fd8-01e6ec7b5258.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Geometrical Optics 02 : Reflection fr...",
+    "lectureCode": "51e6f4d0-8d9c-4858-9480-f37e38605ebb",
+    "classNotesCode": "56630a71-8fd7-41ff-9d64-8bd9ea23c32a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Geometrical Optics 01 : Wave Optics (...",
+    "lectureCode": "7e7df0d1-3129-4fba-a3f2-d2913e30ff15",
+    "classNotesCode": "5353f636-00b4-4472-9766-e065638d7e30.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

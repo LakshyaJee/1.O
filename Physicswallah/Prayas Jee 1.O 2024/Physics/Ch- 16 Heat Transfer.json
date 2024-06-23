@@ -1,0 +1,50 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Heat Transfer (Radiation) 06 : Newton...",
+    "lectureCode": "082affa0-6123-4732-8377-023925c2dc95",
+    "classNotesCode": "5f6de313-3c77-4521-849a-e19fb911cae3.pdf",
+    "dppsPdfCode": "18142183-d69a-4471-a9d3-6317e4873acb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Heat Transfer (Radiation) 05 : Newton...",
+    "lectureCode": "8bca8909-2617-423f-bd3a-7e66eefe762a",
+    "classNotesCode": "28ae661b-1c2f-4f7d-b19c-381b11303edb.pdf",
+    "dppsPdfCode": "4e5ea08b-b55d-4f7b-a33e-6824f8277234.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Heat Transfer (Radiation) 04 : Radiat...",
+    "lectureCode": "8563f47f-b4f2-4e5d-9af0-825d60665c99",
+    "classNotesCode": "9ceaa76f-0120-4533-ab7b-a286cc36051e.pdf",
+    "dppsPdfCode": "9bf1ef50-44d3-4b3d-b901-44dd2db5fe1f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Heat Transfer (Conduction) 03 : Heat ...",
+    "lectureCode": "f82d45ea-3ed3-469b-95e6-1b3ae61a3c17",
+    "classNotesCode": "ba78f5b9-aa28-4b5d-a630-de0830672a7b.pdf",
+    "dppsPdfCode": "5384ecce-b015-4493-91b4-807232459665.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Heat Transfer (Conduction) 02 : C.E R...",
+    "lectureCode": "02feb0a4-ec9b-402a-ab21-1679fc7dec95",
+    "classNotesCode": "3e34cae8-1f1f-4edf-9298-92b9da58569e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Heat Transfer (Conduction) 01 : Heat ...",
+    "lectureCode": "6979cd60-4122-46ee-9cac-68b2c8b9aa64",
+    "classNotesCode": "0ec20ce9-70e5-4d66-8521-2b273694ede6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

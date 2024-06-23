@@ -1,0 +1,66 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Modern 08 : Revision & Question Pract...",
+    "lectureCode": "2376c90c-9619-4b22-b94c-fad33be88fc5",
+    "classNotesCode": "40161678-7600-4736-bab5-1f07ed6352c0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Modern 07 : Atomic Collision || Nucle...",
+    "lectureCode": "ed81c14c-627d-4f49-a80c-679840a0c2b2",
+    "classNotesCode": "64915946-9b73-4c4f-bb22-cef500cc2337.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Modern 06 : X-Ray (Part- 02) || NO DP...",
+    "lectureCode": "d7b7a9da-f3a6-46c5-ab84-c0b4a3647eaf",
+    "classNotesCode": "d07a1137-8e31-4372-a07a-7251925037bd.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Modern 05 : X-Ray (Part- 01) || NO DP...",
+    "lectureCode": "be9c9b7f-c0a0-48d1-ada4-a5f2af8d3636",
+    "classNotesCode": "71aa6bbc-3751-466b-90db-91d5114784bf.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Modern 04 : JEE Mains PYQ Discussion ...",
+    "lectureCode": "c0f1bc3c-8d8d-4fa7-ba04-5cd2f84236c1",
+    "classNotesCode": "afde645f-27bc-4c00-91ef-55abe89e07be.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Modern 03 : Atomic Structure || Bohr ...",
+    "lectureCode": "0cb38ef3-b592-4746-b44e-1713f1e3b8ca",
+    "classNotesCode": "ea80a1d4-ce18-4b1a-8492-e129dbb68d26.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Modern 02 : Photon Theory , Energy & ...",
+    "lectureCode": "c6be34e4-79bd-409c-92ac-794e9f9ae551",
+    "classNotesCode": "3d69ee24-b0ac-4f28-86c1-db42bc8c4456.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Modern 01 : Photon Theory , Energy & ...",
+    "lectureCode": "fff60659-8c92-429e-b848-4f248da5153a",
+    "classNotesCode": "45f9edf9-d2ea-4898-9acd-25c941f40b87.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]
