@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Solid State 04 : Packing of Spheres i...",
+    "lectureCode": "3895e14d-ded5-41a6-836b-136c079d3bbc",
+    "classNotesCode": "6598d5eb-850f-40aa-a6c5-357d4e0e2489.pdf",
+    "dppsPdfCode": "f729be6d-f44a-47e4-b4e8-7f7e6398f0b8.pdf",
+    "dppsSolutionCode": "47d5062b-06f1-4de5-9d33-0955381d808c"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Solid State 03 : Packing Fraction || ...",
+    "lectureCode": "c082b54a-8b41-4fd2-982d-ecb76d23f48c",
+    "classNotesCode": "cd18d265-a107-4aa0-b450-56da91ab4ba2.pdf",
+    "dppsPdfCode": "02b8c707-2927-4c82-9a54-066ef05e7f1e.pdf",
+    "dppsSolutionCode": "3e404f4d-1492-4d18-98c3-374f968e7720"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Solid State 02 : Space Lattice & Unit...",
+    "lectureCode": "1970a4fc-0a01-4e5d-8a9b-d55f8000c0eb",
+    "classNotesCode": "451af1e3-f99d-439f-a023-127a1fee07e2.pdf",
+    "dppsPdfCode": "a59c3e46-5f3d-4afd-b136-1553ef9e6338.pdf",
+    "dppsSolutionCode": "974ec472-d0f5-4b52-a27d-728f1589adc0"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Solid State 01 : Solids & its Types |...",
+    "lectureCode": "98e257b1-f0db-4775-afd1-a6224cef5bb9",
+    "classNotesCode": "158001e6-b952-4ca6-8c4a-a3d57f867d32.pdf",
+    "dppsPdfCode": "ca9c3b2d-4fd9-4f6b-9721-8a759d838cb1.pdf",
+    "dppsSolutionCode": "5b399288-12d3-4c9e-9b9b-683ab6f5ee60"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Solid State 06 : Electrical and Magne...",
+    "lectureCode": "6dbe0072-c074-4e12-877b-e613febba908",
+    "classNotesCode": "6598d5eb-850f-40aa-a6c5-357d4e0e2489.pdf",
+    "dppsPdfCode": "b882325f-49a4-40d4-b6f3-d154b57e4a86.pdf",
+    "dppsSolutionCode": "a9e7615f-4e82-4aa3-a6d8-9321eb854159"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Solid State 05 : Ionic Crystals || De...",
+    "lectureCode": "7f519310-1b9d-4bbe-b591-d2cb2f753261",
+    "classNotesCode": "cd18d265-a107-4aa0-b450-56da91ab4ba2.pdf",
+    "dppsPdfCode": "2a81830a-d9cb-4480-b522-019a49947956.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Solid State 04 : Close packing in 3D ...",
+    "lectureCode": "dc2464c0-c1f9-49b0-a1e2-e727fe642bc9",
+    "classNotesCode": "451af1e3-f99d-439f-a023-127a1fee07e2.pdf",
+    "dppsPdfCode": "313aea52-5d99-42b8-b68d-a65b396f8dc9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Solid State 03 : Analysis of  Unit Cell",
+    "lectureCode": "6aa91fdf-3efe-477f-8ca3-8c3fe33abe7b",
+    "classNotesCode": "158001e6-b952-4ca6-8c4a-a3d57f867d32.pdf",
+    "dppsPdfCode": "25ac2ff0-906a-4176-bc5c-d8e2e9cb92ef.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Solid State 02 : Crystal lattice || U...",
+    "lectureCode": "b9bcfef4-8808-407c-b3c5-64408e1b1025",
+    "classNotesCode": "4b125ea9-ca4f-48a2-952f-5a71a34b518a.pdf",
+    "dppsPdfCode": "eb038d91-44a6-43d6-a8d6-713a017110ee.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Solid State 01 : Introduction and Cla...",
+    "lectureCode": "11144b34-b64b-4afc-95d0-7c31cd5ebe70",
+    "classNotesCode": "1198bdc9-8f5a-4f14-8c24-6921dac3a15b.pdf",
+    "dppsPdfCode": "96baaca8-7958-408a-ab73-4ed2ce070210.pdf",
+    "dppsSolutionCode": ""
+  }
+]

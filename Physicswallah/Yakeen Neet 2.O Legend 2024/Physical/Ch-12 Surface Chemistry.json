@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Surface chemistry 03 : Coagulation ||...",
+    "lectureCode": "f6ceae05-d03f-4896-9579-6e67c29a542e",
+    "classNotesCode": "0319ae1a-ff24-4b50-ae48-ce543838aa3d.pdf",
+    "dppsPdfCode": "12b3b57b-f585-49f6-b6c4-fb8d5cd13f19.pdf",
+    "dppsSolutionCode": "818f893a-97de-476b-af24-907a1fd5a324"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Surface chemistry 02 : Application of...",
+    "lectureCode": "6b315780-0b35-4a83-af47-0362c198a1ea",
+    "classNotesCode": "35911409-a04b-4b61-9966-a2240e4d6432.pdf",
+    "dppsPdfCode": "88fc4a50-d275-49a4-9641-752804005596.pdf",
+    "dppsSolutionCode": "e6623345-202d-4444-80e6-b376361e4f1f"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Surface chemistry 01 : Adsorption || ...",
+    "lectureCode": "ee9e7136-4f7f-4ec8-9b3a-931a40893671",
+    "classNotesCode": "ed08faac-2ca0-469d-bb82-63e50944dd62.pdf",
+    "dppsPdfCode": "790d1290-92f3-431b-8e7b-ecd4c547183d.pdf",
+    "dppsSolutionCode": "7de162fa-8820-45f5-9ae8-12c25268088d"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Surface Chemistry 02 : Colloids || Re...",
+    "lectureCode": "3b49bcbe-8c11-4b7d-a749-4f66b75cba19",
+    "classNotesCode": "0319ae1a-ff24-4b50-ae48-ce543838aa3d.pdf",
+    "dppsPdfCode": "825ddc56-f590-4665-b628-6b256704e920.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Surface Chemistry 01 : Adsorption || ...",
+    "lectureCode": "10b3fe7f-797b-471d-b0a4-6f5044975ce1",
+    "classNotesCode": "35911409-a04b-4b61-9966-a2240e4d6432.pdf",
+    "dppsPdfCode": "a68fb876-42d2-4a7d-a082-f4d792403ceb.pdf",
+    "dppsSolutionCode": ""
+  }
+]

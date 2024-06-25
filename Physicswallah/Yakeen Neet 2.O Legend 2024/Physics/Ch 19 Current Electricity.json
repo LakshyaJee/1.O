@@ -1,0 +1,90 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Current Electricity 11 : DC - RC circuit",
+    "lectureCode": "c2950940-7016-41ec-ba25-06bb5245e134",
+    "classNotesCode": "bd569dd6-f41b-4926-8b0d-257c674557c1.pdf",
+    "dppsPdfCode": "52f7a742-50fe-456f-9209-0862a71b9b6c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Current Electricity 10 : Metre bridge...",
+    "lectureCode": "b66fe116-5a7e-450a-899e-8dfd9a66776a",
+    "classNotesCode": "0db80ade-1f15-416d-8bba-090d2913c630.pdf",
+    "dppsPdfCode": "666d8ff2-b6a0-403b-983f-8a098324bc8b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Current Electricity 09 : Combination ...",
+    "lectureCode": "53a2b033-a14b-4634-94d8-99fb4807a4fd",
+    "classNotesCode": "8922a14b-56e6-421c-84c3-28a232815f03.pdf",
+    "dppsPdfCode": "0795158d-c66e-4753-bf58-f23f4c452cd8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Current Electricity 08 :  Meter Bridg...",
+    "lectureCode": "63d2f595-143b-4e4c-9d0f-770a78c8594c",
+    "classNotesCode": "7c5ad6df-020c-4396-926b-084144c9ccd7.pdf",
+    "dppsPdfCode": "3944fd1e-22cc-46fb-ae09-e6c3bd1481b7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Current Electricity 07 : Cell",
+    "lectureCode": "fa35b8fd-42dc-4a46-93bc-6b0591e6b85a",
+    "classNotesCode": "b0d7b9aa-b0ef-4df5-9e87-33ff6cba4d0b.pdf",
+    "dppsPdfCode": "4b293336-825b-4fec-b754-f93af1135eb6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Current Electricity 06 : Practice Que...",
+    "lectureCode": "9ec7e586-fdbf-488e-b382-e9dc0c358d2b",
+    "classNotesCode": "fc7273ab-7878-44f1-b1f1-582e213f35b1.pdf",
+    "dppsPdfCode": "92c28757-a65b-44e5-8292-a47d4e8afa03.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Current Electricity 05 : KVL and KCL",
+    "lectureCode": "d820866d-1c85-49ea-89d1-3cc9cfb60413",
+    "classNotesCode": "6f0ace23-2f5f-403a-afd7-9f51b33754ae.pdf",
+    "dppsPdfCode": "c660866f-f668-4d6a-98c0-b1006e800532.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Current Electricity 04 : Circuit Diagram",
+    "lectureCode": "a9070e6c-1f88-49f1-878f-dd63663e0a25",
+    "classNotesCode": "8a2e7f08-20d9-4c08-bcec-db49d7408ed6.pdf",
+    "dppsPdfCode": "7b720df0-f7cc-4fde-8c56-867e5c804120.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "05/01/2024 abhishek varma sir",
+    "lectureCode": "9c79c9a3-839b-455b-b4e7-30495b956424",
+    "classNotesCode": "e48e55a1-ce78-4262-9a2f-896f72193247.pdf",
+    "dppsPdfCode": "52c69a45-6382-4309-b614-2f73f088cdb1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Current Electricity 02 : Drift Velocity",
+    "lectureCode": "4fe6d631-c642-403c-8027-bf3edbb5f635",
+    "classNotesCode": "2f1f20ad-b0f6-4099-8210-0149689bf047.pdf",
+    "dppsPdfCode": "bf25a050-c3b2-4802-9fb4-4d5ab6d9acc1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Current Electricity 01 : Current || N...",
+    "lectureCode": "8170d45a-da92-4251-91d1-ab2ae3617a83",
+    "classNotesCode": "dad41f28-0152-4836-bb9a-5187455aa27f.pdf",
+    "dppsPdfCode": "25f9cacd-c386-4717-819d-c5941eb245c1.pdf",
+    "dppsSolutionCode": ""
+  }
+]

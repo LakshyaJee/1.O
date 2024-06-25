@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Atomic Physics 01 : Heisenberg Princi...",
+    "lectureCode": "a20d5b1a-58bf-47cd-8c75-584fa760e229",
+    "classNotesCode": "f8613e0a-8b5a-446f-8a0a-89d5abc1644d.pdf",
+    "dppsPdfCode": "b2140cb1-6ce2-446c-a158-0ef6ff4876a4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Atomic Physics 02 : Atomic Collision(...",
+    "lectureCode": "b9b36ad2-d096-4e58-bbea-35a63279efcf",
+    "classNotesCode": "5edd1c1d-9f73-4966-a45b-bad7f69edb51.pdf",
+    "dppsPdfCode": "56ca1682-05c2-4771-9b8d-f3a39d2fad28.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Atomic Physics 03 : Practice Question...",
+    "lectureCode": "e025bfeb-7176-497a-b3c2-972197f4f0ba",
+    "classNotesCode": "20480cf8-e2b5-47ed-aaf5-1ee69fef1d97.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Atomic Physics 02 : DPP Will be Provi...",
+    "lectureCode": "e8782306-6426-4f56-891c-e6cae1de7187",
+    "classNotesCode": "62b5f619-b638-4f7f-a2bf-d4d25ffe267e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Atomic Physics 01 : Dalton model",
+    "lectureCode": "8d24f422-350a-414c-a8db-d66c715b4927",
+    "classNotesCode": "56ca1682-05c2-4771-9b8d-f3a39d2fad28.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

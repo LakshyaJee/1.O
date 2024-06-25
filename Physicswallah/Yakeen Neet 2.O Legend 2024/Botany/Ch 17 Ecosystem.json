@@ -1,0 +1,66 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Ecosystem 03 : Ecological Pyramid",
+    "lectureCode": "50bd801d-e1ff-4c00-b465-cae7d5947e02",
+    "classNotesCode": "41385574-5fde-4d8f-9d94-c211c05103e5.pdf",
+    "dppsPdfCode": "86a9e091-254b-46b9-ac67-abb0d4e7dc0b.pdf",
+    "dppsSolutionCode": "4a994030-497f-489a-b0d9-33b2bd01c4ac"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Ecosystem 02 : Decomposition and ener...",
+    "lectureCode": "437b9313-1428-4d8d-a5da-e202b43618f1",
+    "classNotesCode": "8ee8c011-d4c9-4a97-9a63-1a4feace0f4d.pdf",
+    "dppsPdfCode": "8be4fe25-a550-4d65-b368-8fd0edb9c89e.pdf",
+    "dppsSolutionCode": "29e2a778-e3a9-402a-ab9e-53db1c4672cd"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Ecosystem 01 : Productivity",
+    "lectureCode": "39b19278-1318-4d83-9fc6-b2734a9345b8",
+    "classNotesCode": "b7b39a1b-8f62-475a-baa2-3de1a5d4fcac.pdf",
+    "dppsPdfCode": "32e4375c-58e0-4159-9b06-ecd3e04a64b4.pdf",
+    "dppsSolutionCode": "e56b96f4-12c7-4f01-b95f-2ec559b9f489"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Ecosystem : Summary Lecture || NO DPP...",
+    "lectureCode": "472eaa4a-e062-4b11-8265-51d485895671",
+    "classNotesCode": "41385574-5fde-4d8f-9d94-c211c05103e5.pdf",
+    "dppsPdfCode": "2c38b866-8727-4736-869f-8bd3075c4368.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Ecosystem : PYQ Discussion || NO DPP ...",
+    "lectureCode": "65484b3a-9f75-4c65-bbb6-050143db912f",
+    "classNotesCode": "8ee8c011-d4c9-4a97-9a63-1a4feace0f4d.pdf",
+    "dppsPdfCode": "82dc3f88-63a5-424f-bedc-396c5c5369bd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Ecosystem 03 : Food chain || Web || E...",
+    "lectureCode": "30936ccd-7c35-424e-a3e4-3f9f2086830d",
+    "classNotesCode": "b7b39a1b-8f62-475a-baa2-3de1a5d4fcac.pdf",
+    "dppsPdfCode": "ab8f1513-2bc2-4ba3-93a8-2b18c908fead.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Ecosystem 02 : Decomposition || Energ...",
+    "lectureCode": "341ac5b3-cace-424a-aa56-c5e2f6268ade",
+    "classNotesCode": "09074381-b7fd-40fb-a6ac-210a1c1f9f50.pdf",
+    "dppsPdfCode": "2fe91313-64a1-45d3-af03-6fdaa81252ab.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Ecosystem 01 : Ecosystem types || Str...",
+    "lectureCode": "00b87d2b-7281-4246-9686-eb7d7881b6df",
+    "classNotesCode": "cd9090d0-80f6-42b0-8329-10fc81c8b0f9.pdf",
+    "dppsPdfCode": "290efbaa-40a2-4256-8534-39fca75e8bfd.pdf",
+    "dppsSolutionCode": ""
+  }
+]

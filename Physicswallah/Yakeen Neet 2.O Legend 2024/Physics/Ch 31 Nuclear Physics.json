@@ -1,0 +1,50 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Nuclear Physics 04 : (NO DPP) || Resc...",
+    "lectureCode": "d5ebbbea-b269-4bff-bdbe-14fea6414f5e",
+    "classNotesCode": "46c1be32-a554-4deb-9ad4-568c48249864.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Nuclear Physics 03 : Nuclear Force ||...",
+    "lectureCode": "3701ff06-65ce-4975-acb5-87d7eed81bde",
+    "classNotesCode": "217cf6dc-5973-4f22-88d4-145804f27281.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Nuclear Physics 02 : Q Value || NO DPP",
+    "lectureCode": "acff0eeb-53a0-4a8d-a097-d67cdf0c0e09",
+    "classNotesCode": "77d174b7-0a28-4f01-9b9c-1e7047b053bb.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Nuclear Physics 01 : Nuclear Particle...",
+    "lectureCode": "221bbf14-5836-4ed1-8ac4-114b1d721f09",
+    "classNotesCode": "51669562-a9c2-471f-b05f-9916848bfe71.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Nuclear Physics 02 : Fusion and fission",
+    "lectureCode": "f8967fc9-d45c-43ff-840d-4b006d1ddbe4",
+    "classNotesCode": "e56419a5-58d3-4d12-84f6-3f1e961bf701.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Nuclear Physics 01 : || Extra || NO D...",
+    "lectureCode": "837dc445-d02a-4ec3-8845-9e91c3f743e8",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]
