@@ -1,17 +1,17 @@
 <?php
 header('Content-Type: application/json');
 
-// Check if 'key' parameter is present in the URL
-if (!isset($_GET['key'])) {
-    echo json_encode(['error' => 'No key provided']);
+// Check if required parameters are present in the URL
+if (!isset($_GET['key']) || !isset($_GET['type']) || !isset($_GET['slug'])) {
+    echo json_encode(['error' => 'Missing required parameters']);
     exit;
 }
 
 $key = $_GET['key'];
-$type = $_GET['type'] ?? 'lecture';
-$slug = $_GET['slug'] ?? 'null';
+$type = $_GET['type'];
+$slug = $_GET['slug'];
 
-// Construct the URL
+// Construct the URL for the external request
 $apiUrl = "https://devjisu.com/drm/fetch.php?key={$key}&type={$type}&slug={$slug}";
 
 // Initialize cURL session
@@ -38,14 +38,21 @@ curl_close($ch);
 $responseData = json_decode($response, true);
 
 // Check if responseData contains the keys we need
-if (!isset($responseData['k']) || !isset($responseData['kid'])) {
+if (!isset($responseData['k']) || !isset($responseData['kid']) || !isset($responseData['video_url']) || !isset($responseData['image_url']) || !isset($responseData['telegram_link'])) {
     echo json_encode(['error' => 'Invalid response data']);
     exit;
 }
 
 // Return the DRM data as JSON
 echo json_encode([
-    'k' => $responseData['k'],
-    'kid' => $responseData['kid']
+    'keys' => [
+        [
+            'k' => $responseData['k'],
+            'kid' => $responseData['kid'],
+            'video_url' => $responseData['video_url'],
+            'image_url' => $responseData['image_url'],
+            'telegram_link' => $responseData['telegram_link']
+        ]
+    ]
 ]);
 ?>
