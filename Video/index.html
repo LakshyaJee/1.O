@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Devjisu Player v2.0.7</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+</head>
+
+<body>
+
+
+    <style>
+    .custom-embed-responsive {
+        position: relative;
+        display: block;
+        height: 0;
+        padding: 56.25% 0 0 0;
+        /* 16:9 aspect ratio */
+    }
+
+    .custom-embed-responsive iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .timeline {
+        max-width: 800px;
+        margin: 0px auto;
+        overflow-y: auto;
+        height: calc(100vh - 260px);
+        /* Adjust height based on other content */
+        padding-right: 20px;
+        /* For scrollbar space */
+    }
+
+    .timeline h2 {
+        color: #f1c40f;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .thumbnail {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        background-color: #1e1e1e;
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid #2ecc71;
+        /* Outline color */
+        position: relative;
+        cursor: pointer;
+        /* Indicate it's clickable */
+    }
+
+    .thumbnail img {
+        width: 100%;
+        height: auto;
+        /* Maintain 16:9 aspect ratio */
+        border-radius: 4px;
+        object-fit: cover;
+    }
+
+    .thumbnail div {
+        margin-left: 10px;
+        flex-grow: 1;
+    }
+
+    .thumbnail div h3 {
+        margin: 0;
+        color: #e74c3c;
+    }
+
+    .thumbnail div p {
+        margin: 0;
+        color: #bdc3c7;
+    }
+
+    .thumbnail .slide-number {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        background-color: skyblue;
+        color: #000;
+        padding: 5px 10px;
+        border-radius: 3px;
+        font-size: 12px;
+    }
+    </style>
+
+    <div id="player"></div>
+
+
+    
+    <!-- Player -->
+    <div class="container">
+        <div class="video-section">
+            <div class="video-info">
+                <h3>SHM & Sound Waves 02 : Revision || LIVE</h3>
+                <div class="video-controls">
+                    <button data-tab="comments"><i class="fas fa-comments"></i></button>
+                    <!--<button data-tab="playlist"><i class="fas fa-list"></i></button>-->
+                    <button data-tab="timeline"><i class="fas fa-clock"></i></button>
+                    <button data-tab="download" class="active"><i class="fas fa-download"></i></button>
+                    <button data-tab="report"><i class="fas fa-clock"></i></button>
+                </div>
+            </div>
+
+        <!-- Alarm Modal -->
+        <div class="modal fade" id="alarmModal" tabindex="-1" aria-labelledby="alarmModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="alarmModalLabel">Set Study Alarm</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="alarmForm">
+                            <div class="form-group">
+                                <label for="hour">Hours</label>
+                                <input type="number" class="form-control" id="hour" min="0" value="0">
+                            </div>
+                            <div class="form-group">
+                                <label for="minute">Minutes</label>
+                                <input type="number" class="form-control" id="minute" min="0" value="0">
+                            </div>
+                            <div class="form-group">
+                                <label for="second">Seconds</label>
+                                <input type="number" class="form-control" id="second" min="0" value="0">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" onclick="saveAlarm()">Save Alarm</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <audio id="alarmSound" src="alarm.mp3" preload="auto"></audio>
+
+    </div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const tabLinks = document.querySelectorAll('.nav-link');
+        const tabPanes = document.querySelectorAll('.tab-pane');
+
+        tabLinks.forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+
+                tabLinks.forEach(link => link.classList.remove('active'));
+                tabPanes.forEach(pane => pane.classList.remove('show', 'active'));
+
+                this.classList.add('active');
+                const targetPane = document.querySelector(this.getAttribute('href'));
+                targetPane.classList.add('show', 'active');
+            });
+        });
+    });
+    </script>
+
+
+    <div class="tab-content mt-2" id="comments" style="display:none;">
+        <p>Comment Features Coming Soon</p>
+
+    </div>
+
+    <div class="tab-content mt-2" id="playlist" style="display:none;">
+        <!-- Playlist content here -->
+        <p>Playlist content goes here...</p>
+    </div>
+    <div class="tab-content" id="timeline" style="display:none;">
+        <!-- Timeline content here -->
+<div class="timeline">
+              <p>No slides found</p>
+                 </div>
+    </div>
+    <div class="tab-content mt-2" id="download" style="display:none;">
+        <!-- Download content here -->
+        <button type="button" disabled class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#task2"
+            id="openModalBtn2">
+            <i class="fas fa-lock"></i> <b>Download Lecture From Official Application Of StudyRays.</b>
+        </button>
+        <br><br>
+        <b>
+            <font color="green"><a href="https://devuploads.com/xmqmpyd63hft">Click Here</a> To download Android
+                Application Of StudyRays !!</font>
+        </b>
+
+    </div>
+    <div class="tab-content" id="report" style="display:none;">
+        <!-- Report content here -->
+        <center> <button id="setAlarmBtn" class="btn btn-primary" onclick="setAlarm()">
+                <i class="fas fa-clock"></i> Set Timeout Goal<center></center>
+            </button></center>
+        <button id="cancelAlarmBtn" class="btn btn-danger" style="display:none;" onclick="cancelAlarm()">
+            <i class="fas fa-power-off"></i> Cancel Alram
+        </button>
+    </div>
+
+
+
+
+
+    <center><img
+            src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fstudyrays.site&count_bg=%2379C83D&title_bg=%23555555&icon=freecodecamp.svg&icon_color=%23E7E7E7&title=HITS&edge_flat=false">
+    </center>
+    <!-- Task 2 Modal  -->
+
+    <div class="modal fade" id="studyRaysModal" tabindex="-1" role="dialog" aria-labelledby="studyRaysModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="studyRaysModalLabel"><strong>🚨 Important Notice 🚨</strong></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Many users are joining fake Study Rays channels.</strong> Ensure you join the official
+                        channel to receive regular updates about the channel/website. Beware of imitations! 🕵️‍♂️</p>
+                    <p><a href="https://telegram.dog/+PQRH3MJfeacxZWU1" target="_blank" class="btn btn-primary">
+                            <i class="bi bi-telegram"></i> <strong>Join Official Channel</strong>
+                        </a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- ADBlock Modal -->
+
+        <div class="modal">
+            <div class="modal-container">
+                <div class="modal-header">
+                    <img src="https://studio.blender.org/static-studio/films/images/sprite-fright/story.22d84f0a3410.png"
+                        alt="backdrop" class="backdrop" />
+
+                    <strong>ADBlock Detected!</strong>
+
+                    <button type="button" aria-label="Close" id="close">
+                        <img src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij48cGF0aCBmaWxsPSJub25lIiBkPSJNMCAwaDI0djI0SDB6Ii8+PHBhdGggZD0iTTEyIDEwLjU4Nmw0Ljk1LTQuOTUgMS40MTQgMS40MTQtNC45NSA0Ljk1IDQuOTUgNC45NS0xLjQxNCAxLjQxNC00Ljk1LTQuOTUtNC45NSA0Ljk1LTEuNDE0LTEuNDE0IDQuOTUtNC45NS00Ljk1LTQuOTVMNy4wNSA1LjYzNnoiIGZpbGw9InJnYmEoMjQ3LDI0NywyNDcsMSkiLz48L3N2Zz4='
+                            alt="close" />
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <span>Ads do help us to keep website running, so please
+                        support us by whitelisting our site in your Adblocking
+                        software. Apart from your browser adblocker, you may
+                        have to whitelist us in your VPN/Security software's
+                        adblockers as well. Once done, just refresh this web
+                        page.</span>
+                </div>
+            </div>
+        </div>
+        <!-- partial -->
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+        <script src='https://content.jwplatform.com/libraries/KB5zFt7A.js'></script>
+        <script src="./khfkjesg.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+        <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fstudyrays.site&count_bg=%2379C83D&title_bg=%23555555&icon=freecodecamp.svg&icon_color=%23E7E7E7&title=HITS&edge_flat=false"
+            style="display: none;">
+
+        <!-- Include SweetAlert library -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+
+
+
+        <script>
+        $(document).ready(function() {
+            $('#studyRaysModal').modal('show');
+        });
+
+
+
+        document.querySelectorAll('.video-controls button').forEach(button => {
+            button.addEventListener('click', () => {
+                document.querySelectorAll('.tab-content').forEach(tab => tab.style.display = 'none');
+                document.querySelectorAll('.video-controls button').forEach(btn => btn.classList.remove(
+                    'active'));
+                document.getElementById(button.dataset.tab).style.display = 'block';
+                button.classList.add('active');
+            });
+        });
+
+
+        // Initially display comments tab
+        document.getElementById('download').style.display = 'block';
+
+
+        let alarmTime;
+        let countdownInterval;
+        let alarmSound = document.getElementById('alarmSound');
+
+        // Check for existing alarm in cookies on page load
+        window.onload = function() {
+            const storedAlarm = localStorage.getItem('alarm');
+            if (storedAlarm) {
+                alarmTime = new Date(storedAlarm);
+                showCancelAlarmButton();
+                startCountdown();
+            }
+        };
+
+        function setAlarm() {
+            $('#alarmModal').modal('show');
+        }
+
+        function saveAlarm() {
+            const hour = parseInt($('#hour').val()) || 0;
+            const minute = parseInt($('#minute').val()) || 0;
+            const second = parseInt($('#second').val()) || 0;
+
+            if (hour === 0 && minute === 0 && second === 0) {
+                alert('Please enter a valid time.');
+                return;
+            }
+
+            alarmTime = new Date();
+            alarmTime.setHours(alarmTime.getHours() + hour);
+            alarmTime.setMinutes(alarmTime.getMinutes() + minute);
+            alarmTime.setSeconds(alarmTime.getSeconds() + second);
+
+            // Save alarm in cookies
+            localStorage.setItem('alarm', alarmTime);
+
+            $('#alarmModal').modal('hide');
+            startCountdown();
+            showCancelAlarmButton();
+        }
+
+        function showCancelAlarmButton() {
+            $('#setAlarmBtn').prop('disabled', true);
+            $('#cancelAlarmBtn').show();
+        }
+
+        function startCountdown() {
+            countdownInterval = setInterval(updateCountdown, 1000);
+        }
+
+        function updateCountdown() {
+            const now = new Date();
+            const difference = alarmTime - now;
+
+            if (difference <= 0) {
+                clearInterval(countdownInterval);
+                showAlert();
+                resetAlarm();
+                hideCancelAlarmButton();
+                playAlarmSound();
+            } else {
+                const hours = Math.floor(difference / 3600000);
+                const minutes = Math.floor((difference % 3600000) / 60000);
+                const seconds = Math.floor((difference % 60000) / 1000);
+
+                const countdownText = `${hours}h ${minutes}m ${seconds}s`;
+                $('#setAlarmBtn').html(`<i class="fas fa-clock"></i> ${countdownText}`);
+            }
+        }
+
+        function showAlert() {
+            Swal.fire({
+                title: 'Time\'s up!',
+                text: 'Alarm is ringing.',
+                icon: 'success',
+                showConfirmButton: true,
+                confirmButtonText: 'OK',
+                allowOutsideClick: false,
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    // Show forced popup to stop the alarm
+                    showForcedPopup();
+                }
+            });
+        }
+
+        function showForcedPopup() {
+            Swal.fire({
+                title: 'Alarm',
+                text: 'Click OK to stop the alarm.',
+                icon: 'warning',
+                showConfirmButton: true,
+                confirmButtonText: 'OK',
+                allowOutsideClick: false,
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    stopAlarmSound();
+                    resetAlarm();
+                    hideCancelAlarmButton();
+                    // Remove alarm from cookies
+                    localStorage.removeItem('alarm');
+                }
+            });
+        }
+
+        function playAlarmSound() {
+            // Stop any currently playing audio
+            if (!alarmSound.paused) {
+                alarmSound.pause();
+                alarmSound.currentTime = 0;
+            }
+
+            // Play the alarm sound
+            alarmSound.play();
+        }
+
+        function cancelAlarm() {
+            Swal.fire({
+                title: 'Confirm Cancel',
+                text: 'Do you really want to cancel the alarm?',
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonText: 'Yes, cancel it!',
+                cancelButtonText: 'No, keep it'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    clearInterval(countdownInterval);
+                    resetAlarm();
+                    hideCancelAlarmButton();
+                    // Remove alarm from cookies
+                    localStorage.removeItem('alarm');
+                    stopAlarmSound();
+                }
+            });
+        }
+
+        function hideCancelAlarmButton() {
+            $('#setAlarmBtn').prop('disabled', false);
+            $('#setAlarmBtn').html('<i class="bi bi-alarm"></i> Set Timeout Goal');
+            $('#cancelAlarmBtn').hide();
+        }
+
+        function stopAlarmSound() {
+            // Stop the alarm sound
+            alarmSound.pause();
+            alarmSound.currentTime = 0;
+        }
+
+        function resetAlarm() {
+            alarmTime = null;
+            $('#hour').val('');
+            $('#minute').val('');
+            $('#second').val('');
+        }
+        </script>
+</body>
+
+</html>
