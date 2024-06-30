@@ -1,38 +1,51 @@
-Python 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
 <?php
-// Enable CORS if you are accessing this PHP script from a different domain
-header("Access-Control-Allow-Origin: *");
-header("Content-Type: application/json");
+header('Content-Type: application/json');
 
-function fetchDRMData($key) {
-    $url = "https://devjisu.com/drm/fetch.php?key=${key}&type=lecture&slug=null";
-    $ch = curl_init();
+// Check if 'key' parameter is present in the URL
+if (!isset($_GET['key'])) {
+    echo json_encode(['error' => 'No key provided']);
+    exit;
+}
 
-    curl_setopt($ch, CURLOPT_URL, $url);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+$key = $_GET['key'];
+$type = $_GET['type'] ?? 'lecture';
+$slug = $_GET['slug'] ?? 'null';
 
-    $response = curl_exec($ch);
+// Construct the URL
+$apiUrl = "https://devjisu.com/drm/fetch.php?key={$key}&type={$type}&slug={$slug}";
 
-    if (curl_errno($ch)) {
-        $error_msg = curl_error($ch);
-        curl_close($ch);
-        return json_encode(["error" => $error_msg]);
-    }
+// Initialize cURL session
+$ch = curl_init();
 
+// Set the cURL options
+curl_setopt($ch, CURLOPT_URL, $apiUrl);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+// Execute the cURL request
+$response = curl_exec($ch);
+
+// Check for cURL errors
+if (curl_errno($ch)) {
+    echo json_encode(['error' => curl_error($ch)]);
     curl_close($ch);
-    return $response;
+    exit;
 }
 
-if ($_SERVER['REQUEST_METHOD'] === 'GET') {
-    if (isset($_GET['key'])) {
-        $key = $_GET['key'];
-        $drmData = fetchDRMData($key);
-        echo $drmData;
-    } else {
-        echo json_encode(["error" => "Key parameter is missing"]);
-    }
-} else {
-    echo json_encode(["error" => "Invalid request method"]);
+// Close cURL session
+curl_close($ch);
+
+// Decode the JSON response
+$responseData = json_decode($response, true);
+
+// Check if responseData contains the keys we need
+if (!isset($responseData['k']) || !isset($responseData['kid'])) {
+    echo json_encode(['error' => 'Invalid response data']);
+    exit;
 }
+
+// Return the DRM data as JSON
+echo json_encode([
+    'k' => $responseData['k'],
+    'kid' => $responseData['kid']
+]);
 ?>
