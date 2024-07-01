@@ -134,4 +134,4 @@ document.addEventListener("DOMContentLoaded", function() {
       document.querySelector('.comment-form input').value = '';
     }
   });
-});
+
