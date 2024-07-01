@@ -3,80 +3,100 @@
     "lectureNumber": 1,
     "lectureName": "Thermal Properties of Matter 09 : Emi...",
     "lectureCode": "291d088a-7b75-4a43-aa87-f3964783fe4c",
+    "extId": "656ff9b21522470018cc2478",
+    "key": "657095be6408d00018661def",
     "classNotesCode": "22dd16f0-e032-4995-84cc-5152f4b764c7.pdf",
-    "dppsPdfCode": "22dd16f0-e032-4995-84cc-5152f4b764c7.pdf",
+    "dppsPdfCode": "0972dfad-fef8-4a7c-bb1c-e4dba92b6888.pdf",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 2,
     "lectureName": "Thermal Properties of Matter 08 : Rad...",
     "lectureCode": "e4caaec6-f658-43ed-9dc3-db1cca930863",
+    "extId": "656ebb0415dcaf00187120c4",
+    "key": "656f422aa1db7300184995fc",
     "classNotesCode": "eee18faa-7b20-42e3-ba82-a84a492d3dfa.pdf",
-    "dppsPdfCode": "eee18faa-7b20-42e3-ba82-a84a492d3dfa.pdf",
+    "dppsPdfCode": "181e198f-3a3d-4144-a04a-8cbfd317d5bd.pdf",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 3,
     "lectureName": "Thermal Properties of Matter 07 : Hea...",
     "lectureCode": "1d1d6e86-6064-4125-b2eb-42ed907ac4ad",
+    "extId": "656ac808fede0000181d668c",
+    "key": "656985da77f95e001890576e",
     "classNotesCode": "65ba5f7f-5678-49fc-912e-d570b3d278f9.pdf",
-    "dppsPdfCode": "65ba5f7f-5678-49fc-912e-d570b3d278f9.pdf",
+    "dppsPdfCode": "48efd2d9-d373-4de5-9f1b-cc0a4317b2ac.pdf",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 4,
     "lectureName": "Thermal Properties of Matter 06 : C.E...",
     "lectureCode": "a63d4ea8-ec0a-47a6-beec-4794752a537f",
+    "extId": "65663b992a927a0018724f6f",
+    "key": "6566e1088eaa4600181b2b00",
     "classNotesCode": "293b8d1c-6ad3-4d3f-925b-59a33657957b.pdf",
-    "dppsPdfCode": "293b8d1c-6ad3-4d3f-925b-59a33657957b.pdf",
+    "dppsPdfCode": "5b505cc9-e4a1-43fa-9279-9b667e572ae8.pdf",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 5,
     "lectureName": "Thermal Properties of Matter 05 : Con...",
     "lectureCode": "d9949bea-70d2-4b8a-8936-9d4ceded925b",
+    "extId": "6564ba003938d300183d6cfd",
+    "key": "65660ad10e02e700187740c3",
     "classNotesCode": "93cab9d2-ba74-4815-ae05-375f6aba3394.pdf",
-    "dppsPdfCode": "93cab9d2-ba74-4815-ae05-375f6aba3394.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 6,
     "lectureName": "Thermal Properties of Matter : KPP Di...",
     "lectureCode": "cd6b77b6-3a5b-4d81-8e64-d5ae2aeaff91",
+    "extId": "6565a828844e5b001867359b",
+    "key": "6564cfa88f593500181bade6",
     "classNotesCode": "87c9bd7d-70b8-40bd-b819-d17587b7a324.pdf",
-    "dppsPdfCode": "87c9bd7d-70b8-40bd-b819-d17587b7a324.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 7,
     "lectureName": "Thermal Properties of Matter 04 : Hea...",
     "lectureCode": "7c503931-2f06-4b9b-9bdf-5ed0abcaa342",
+    "extId": "65638618f28e0300181349b5",
+    "key": "65644eea97b3a20018bd871e",
     "classNotesCode": "e2da93f9-7e48-45e4-995a-9ce8e91b78e6.pdf",
-    "dppsPdfCode": "e2da93f9-7e48-45e4-995a-9ce8e91b78e6.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 8,
     "lectureName": "Thermal Properties of Matter 03 : Cal...",
     "lectureCode": "11b6777c-62bb-4d02-bd89-00020731aeb2",
+    "extId": "6562e0b87846520018c2e4ac",
+    "key": "656225c263e002001849389f",
     "classNotesCode": "4893c62b-bb06-45a4-a719-f240c999fa16.pdf",
-    "dppsPdfCode": "4893c62b-bb06-45a4-a719-f240c999fa16.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 9,
     "lectureName": "Thermal Properties of Matter 02 : The...",
     "lectureCode": "4c39a9c6-ff05-4e6b-967e-d98c2f0e3e86",
+    "extId": "65617787281a580018819347",
+    "key": "65621a8ffd5d130018a4d4d9",
     "classNotesCode": "f4d7e9b5-7c62-4860-91b5-7e36613e06cb.pdf",
-    "dppsPdfCode": "f4d7e9b5-7c62-4860-91b5-7e36613e06cb.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 10,
     "lectureName": "Thermal Properties of Matter 01 : She...",
     "lectureCode": "7faafa33-84b3-4a62-b234-feffd809f961",
+    "extId": "655cff5af16911001829aca6",
+    "key": "655e23b2bec4bb00182701f6",
     "classNotesCode": "7d7d83ed-0010-4df1-b3bf-4c8460fe4501.pdf",
-    "dppsPdfCode": "7d7d83ed-0010-4df1-b3bf-4c8460fe4501.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   }
 ]

@@ -3,72 +3,120 @@
     "lectureNumber": 1,
     "lectureName": "Circular Motion 09 : Radius of Curvat...",
     "lectureCode": "0037984e-91e6-48ae-b070-03a91e5ef930",
+    "extId": "64ead8fd2003c9001822ac4e",
+    "key": "64ea0629d40b2100188883ed",
     "classNotesCode": "a4cd6389-6bea-4ec6-8d0c-d93b250513d4.pdf",
-    "dppsPdfCode": "a4cd6389-6bea-4ec6-8d0c-d93b250513d4.pdf",
+    "dppsPdfCode": "2e5f9b40-73a6-4549-bae5-def00c572204.pdf",
     "dppsSolutionCode": "d098a912-69ba-4908-b115-d04797874541"
   },
   {
     "lectureNumber": 2,
     "lectureName": "Circular Motion 08 : Circular Motion ...",
     "lectureCode": "7289f9f2-8c13-420e-814b-cd5b2c5a2229",
+    "extId": "64e62d08b313f1001a1bf99e",
+    "key": "64e724f6a3cb1b00184d0e79",
     "classNotesCode": "457696af-1eaf-412f-8e98-f1c8283471d1.pdf",
-    "dppsPdfCode": "457696af-1eaf-412f-8e98-f1c8283471d1.pdf",
+    "dppsPdfCode": "3f4a31ad-f6d4-4a0d-b35e-f31c2a2f5b95.pdf",
     "dppsSolutionCode": "3e22bcf9-b327-4baf-8617-5423494d74b5"
   },
   {
     "lectureNumber": 3,
     "lectureName": "Circular Motion 07 : Dynamics of Circ...",
     "lectureCode": "382b06dc-0425-4877-b9e1-ec0abb02ffa6",
+    "extId": "64e58c18cd00260018602f74",
+    "key": "64e6054985e69e0018605ae6",
     "classNotesCode": "e74ea390-4288-4284-b9b7-43539df7570a.pdf",
-    "dppsPdfCode": "e74ea390-4288-4284-b9b7-43539df7570a.pdf",
+    "dppsPdfCode": "07fb0870-5ad9-4028-8680-1010c6e56728.pdf",
     "dppsSolutionCode": "a310c901-3c34-416b-94da-d3dd1f02e251"
   },
   {
     "lectureNumber": 4,
     "lectureName": "Circular Motion 06 : Circular Motion ...",
     "lectureCode": "2cf5c7e4-d0d7-430d-95da-12693f6e577b",
+    "extId": "64e433fedeb0f0001952e731",
+    "key": "64e4b811dcf8670018031440",
     "classNotesCode": "d9cffcda-cad0-4a4b-be10-4ab3916a35df.pdf",
-    "dppsPdfCode": "d9cffcda-cad0-4a4b-be10-4ab3916a35df.pdf",
+    "dppsPdfCode": "c34e989b-cc48-4bb3-ae02-12e0ca895a7a.pdf",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 5,
     "lectureName": "Circular Motion 05 : Circular Motion ...",
     "lectureCode": "de5802fe-2d43-412c-ae47-b529b19e28b5",
+    "extId": "64e2d71c18225e00187f0093",
+    "key": "64e3671dfcc12c00188dfc61",
     "classNotesCode": "1679a905-9518-4909-8769-68a313df6c2b.pdf",
-    "dppsPdfCode": "1679a905-9518-4909-8769-68a313df6c2b.pdf",
+    "dppsPdfCode": "e823302d-c54b-4cc2-8074-a9ac7f53ffd3.pdf",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 6,
     "lectureName": "Circular Motion 04 : Circular Motion ...",
     "lectureCode": "1408fca5-0acc-42eb-8b75-5bf1559f4c5a",
+    "extId": "64e1a07c1c8af90018e9fbd5",
+    "key": "64e21074cb945600185be4a8",
     "classNotesCode": "794104be-36f3-434e-a6cf-b24aecad6e7d.pdf",
-    "dppsPdfCode": "794104be-36f3-434e-a6cf-b24aecad6e7d.pdf",
+    "dppsPdfCode": "e38d11ac-9f3a-4e50-bfa5-ee8966fe4624.pdf",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 7,
     "lectureName": "Circular Motion 03 : Calculation of A...",
     "lectureCode": "4b269e8f-9e8a-49e7-923b-c997a35dec71",
+    "extId": "64dcea48e88f800018933b90",
+    "key": "64de215a7c552200183f548c",
     "classNotesCode": "98065242-6fa0-47d9-b429-72875d5f97e7.pdf",
-    "dppsPdfCode": "98065242-6fa0-47d9-b429-72875d5f97e7.pdf",
+    "dppsPdfCode": "1aedde57-6c1e-4c69-8304-e52ccd6cced2.pdf",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 8,
     "lectureName": "Circular Motion 02 : Tangential accel...",
     "lectureCode": "3e625803-bb4b-44b6-aca2-2fb11a421352",
+    "extId": "64dc553eb3e65f0018016369",
+    "key": "64dcceee4b5c700018c2e50e",
     "classNotesCode": "4740afc3-7468-48df-982d-fffb363bb690.pdf",
-    "dppsPdfCode": "4740afc3-7468-48df-982d-fffb363bb690.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 9,
     "lectureName": "Circular Motion 01 : Angular Displace...",
     "lectureCode": "db7d186b-29a4-4a05-83cd-3a2e76f47d59",
+    "extId": "64d4674b8cf73400181a5f76",
+    "key": "64d4e2abb14b3c001828127d",
     "classNotesCode": "778ed4bc-a8bd-46be-b473-2fafc315c0fa.pdf",
-    "dppsPdfCode": "778ed4bc-a8bd-46be-b473-2fafc315c0fa.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Circular Motion Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "a4cd6389-6bea-4ec6-8d0c-d93b250513d4.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Circular Motion Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "457696af-1eaf-412f-8e98-f1c8283471d1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Circular Motion Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "e74ea390-4288-4284-b9b7-43539df7570a.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   }
 ]

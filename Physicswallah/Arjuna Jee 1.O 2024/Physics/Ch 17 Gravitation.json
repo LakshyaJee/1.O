@@ -2,57 +2,71 @@
   {
     "lectureNumber": 1,
     "lectureName": "gravitation 06 arjuna",
-    "lectureCode": "5afdc760-e1ff-4b96-affc-07d6dea07595",
+    "lectureCode": "65b4086f70587300185dcfef",
+    "extId": "65b40b2728c40a0018b1b08f",
+    "key": "65b4086f70587300185dcfef",
     "classNotesCode": "211c97e0-7a16-4c22-80ce-39aa6305976b.pdf",
-    "dppsPdfCode": "211c97e0-7a16-4c22-80ce-39aa6305976b.pdf",
+    "dppsPdfCode": "b6b3adc1-8ecc-4c40-8aa9-b72728ec5276.pdf",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 2,
     "lectureName": "Gravitation 05 : Solid Sphere || NO D...",
-    "lectureCode": "69cfc835-b8fa-4d48-b4fb-33179034e1b3",
+    "lectureCode": "65b25f45f60adc0018b00da6",
+    "extId": "65b14409c3256a0018954169",
+    "key": "65b25f45f60adc0018b00da6",
     "classNotesCode": "eb66f28e-5942-47a0-96c4-1e4e5f500200.pdf",
-    "dppsPdfCode": "eb66f28e-5942-47a0-96c4-1e4e5f500200.pdf",
+    "dppsPdfCode": "2eca86ad-f871-4c28-9df4-1b8629df6920.pdf",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 3,
     "lectureName": "Gravitation 04 : Satellite Motion & G...",
-    "lectureCode": "835238b6-13b3-468a-b90a-12880f6c7298",
+    "lectureCode": "65a98190c920d60018bebd70",
+    "extId": "65ababa84fe75c0019b465ce",
+    "key": "65a98190c920d60018bebd70",
     "classNotesCode": "9d730fb0-508b-4a40-9f66-4ecbdcab4d62.pdf",
-    "dppsPdfCode": "9d730fb0-508b-4a40-9f66-4ecbdcab4d62.pdf",
+    "dppsPdfCode": "fa6225ce-35d6-4d33-9507-09277f554485.pdf",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 4,
     "lectureName": "Gravitation 03 : Gravitational Field ...",
-    "lectureCode": "20943db3-e933-481c-a77b-30e99be0624c",
+    "lectureCode": "65a7f5ace332d800187b57a1",
+    "extId": "65a6e2b7e023b40018b47f75",
+    "key": "65a7f5ace332d800187b57a1",
     "classNotesCode": "b533ae45-e59c-4771-9477-fa6c185d3143.pdf",
-    "dppsPdfCode": "b533ae45-e59c-4771-9477-fa6c185d3143.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 5,
     "lectureName": "Gravitation 02 : Gravitational Force ...",
-    "lectureCode": "a90bfb9d-b52a-427b-8f3e-087a7a90bb72",
+    "lectureCode": "65a6a3d5e1557100188caa70",
+    "extId": "65a56f58ecb24f0018148f4b",
+    "key": "65a6a3d5e1557100188caa70",
     "classNotesCode": "6114578b-54cc-4abb-9171-f812f7701e68.pdf",
-    "dppsPdfCode": "6114578b-54cc-4abb-9171-f812f7701e68.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 6,
     "lectureName": "Gravitation 01 : Hollow Sphere || PYQ...",
-    "lectureCode": "959046a6-66d3-4b8c-b537-027df975433c",
+    "lectureCode": "65a5434f882ea807e2780299",
+    "extId": "65a4e1bb35c6da0018bbd337",
+    "key": "65a5434f882ea807e2780299",
     "classNotesCode": "51e963f8-d85b-4702-9739-bc612710d2f0.pdf",
-    "dppsPdfCode": "51e963f8-d85b-4702-9739-bc612710d2f0.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 7,
     "lectureName": "Gravitation 07 : Relationship Between...",
     "lectureCode": "27d8c7ea-1d29-4534-ab6b-a669b4b44a3d",
+    "extId": "65b69128be060e0018d7999e",
+    "key": "65b7d17f46686d001891fae3",
     "classNotesCode": "71ba3c73-940a-4e93-b6e3-2beb30c48e07.pdf",
-    "dppsPdfCode": "71ba3c73-940a-4e93-b6e3-2beb30c48e07.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   }
 ]
