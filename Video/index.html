@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Devjisu Player v2.0.7</title>
+    <title>Video Player</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
+<script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
 
 </head>
 
@@ -99,7 +99,7 @@
         font-size: 12px;
     }
     </style>
-
+    
     <div id="player"></div>
 
 
@@ -108,51 +108,13 @@
     <div class="container">
         <div class="video-section">
             <div class="video-info">
-                <h3>SHM & Sound Waves 02 : Revision || LIVE</h3>
+                <h3>Lecture Would start very soon ! Calm Down !!</h3>
                 <div class="video-controls">
-                    <button data-tab="comments"><i class="fas fa-comments"></i></button>
-                    <!--<button data-tab="playlist"><i class="fas fa-list"></i></button>-->
-                    <button data-tab="timeline"><i class="fas fa-clock"></i></button>
-                    <button data-tab="download" class="active"><i class="fas fa-download"></i></button>
-                    <button data-tab="report"><i class="fas fa-clock"></i></button>
+                    
                 </div>
             </div>
 
-        <!-- Alarm Modal -->
-        <div class="modal fade" id="alarmModal" tabindex="-1" aria-labelledby="alarmModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="alarmModalLabel">Set Study Alarm</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <form id="alarmForm">
-                            <div class="form-group">
-                                <label for="hour">Hours</label>
-                                <input type="number" class="form-control" id="hour" min="0" value="0">
-                            </div>
-                            <div class="form-group">
-                                <label for="minute">Minutes</label>
-                                <input type="number" class="form-control" id="minute" min="0" value="0">
-                            </div>
-                            <div class="form-group">
-                                <label for="second">Seconds</label>
-                                <input type="number" class="form-control" id="second" min="0" value="0">
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" onclick="saveAlarm()">Save Alarm</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <audio id="alarmSound" src="alarm.mp3" preload="auto"></audio>
-
-    </div>
+        <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
 
     <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -175,74 +137,8 @@
     </script>
 
 
-    <div class="tab-content mt-2" id="comments" style="display:none;">
-        <p>Comment Features Coming Soon</p>
-
-    </div>
-
-    <div class="tab-content mt-2" id="playlist" style="display:none;">
-        <!-- Playlist content here -->
-        <p>Playlist content goes here...</p>
-    </div>
-    <div class="tab-content" id="timeline" style="display:none;">
-        <!-- Timeline content here -->
-<div class="timeline">
-              <p>No slides found</p>
-                 </div>
-    </div>
-    <div class="tab-content mt-2" id="download" style="display:none;">
-        <!-- Download content here -->
-        <button type="button" disabled class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#task2"
-            id="openModalBtn2">
-            <i class="fas fa-lock"></i> <b>Download Lecture From Official Application Of StudyRays.</b>
-        </button>
-        <br><br>
-        <b>
-            <font color="green"><a href="https://devuploads.com/xmqmpyd63hft">Click Here</a> To download Android
-                Application Of StudyRays !!</font>
-        </b>
-
-    </div>
-    <div class="tab-content" id="report" style="display:none;">
-        <!-- Report content here -->
-        <center> <button id="setAlarmBtn" class="btn btn-primary" onclick="setAlarm()">
-                <i class="fas fa-clock"></i> Set Timeout Goal<center></center>
-            </button></center>
-        <button id="cancelAlarmBtn" class="btn btn-danger" style="display:none;" onclick="cancelAlarm()">
-            <i class="fas fa-power-off"></i> Cancel Alram
-        </button>
-    </div>
-
-
-
-
-
-    <center><img
-            src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fstudyrays.site&count_bg=%2379C83D&title_bg=%23555555&icon=freecodecamp.svg&icon_color=%23E7E7E7&title=HITS&edge_flat=false">
-    </center>
-    <!-- Task 2 Modal  -->
-
-    <div class="modal fade" id="studyRaysModal" tabindex="-1" role="dialog" aria-labelledby="studyRaysModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="studyRaysModalLabel"><strong>🚨 Important Notice 🚨</strong></h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p><strong>Many users are joining fake Study Rays channels.</strong> Ensure you join the official
-                        channel to receive regular updates about the channel/website. Beware of imitations! 🕵️‍♂️</p>
-                    <p><a href="https://telegram.dog/+PQRH3MJfeacxZWU1" target="_blank" class="btn btn-primary">
-                            <i class="bi bi-telegram"></i> <strong>Join Official Channel</strong>
-                        </a></p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
+    
+    
 
         <!-- ADBlock Modal -->
 
@@ -308,164 +204,7 @@
         });
 
 
-        // Initially display comments tab
-        document.getElementById('download').style.display = 'block';
-
-
-        let alarmTime;
-        let countdownInterval;
-        let alarmSound = document.getElementById('alarmSound');
-
-        // Check for existing alarm in cookies on page load
-        window.onload = function() {
-            const storedAlarm = localStorage.getItem('alarm');
-            if (storedAlarm) {
-                alarmTime = new Date(storedAlarm);
-                showCancelAlarmButton();
-                startCountdown();
-            }
-        };
-
-        function setAlarm() {
-            $('#alarmModal').modal('show');
-        }
-
-        function saveAlarm() {
-            const hour = parseInt($('#hour').val()) || 0;
-            const minute = parseInt($('#minute').val()) || 0;
-            const second = parseInt($('#second').val()) || 0;
-
-            if (hour === 0 && minute === 0 && second === 0) {
-                alert('Please enter a valid time.');
-                return;
-            }
-
-            alarmTime = new Date();
-            alarmTime.setHours(alarmTime.getHours() + hour);
-            alarmTime.setMinutes(alarmTime.getMinutes() + minute);
-            alarmTime.setSeconds(alarmTime.getSeconds() + second);
-
-            // Save alarm in cookies
-            localStorage.setItem('alarm', alarmTime);
-
-            $('#alarmModal').modal('hide');
-            startCountdown();
-            showCancelAlarmButton();
-        }
-
-        function showCancelAlarmButton() {
-            $('#setAlarmBtn').prop('disabled', true);
-            $('#cancelAlarmBtn').show();
-        }
-
-        function startCountdown() {
-            countdownInterval = setInterval(updateCountdown, 1000);
-        }
-
-        function updateCountdown() {
-            const now = new Date();
-            const difference = alarmTime - now;
-
-            if (difference <= 0) {
-                clearInterval(countdownInterval);
-                showAlert();
-                resetAlarm();
-                hideCancelAlarmButton();
-                playAlarmSound();
-            } else {
-                const hours = Math.floor(difference / 3600000);
-                const minutes = Math.floor((difference % 3600000) / 60000);
-                const seconds = Math.floor((difference % 60000) / 1000);
-
-                const countdownText = `${hours}h ${minutes}m ${seconds}s`;
-                $('#setAlarmBtn').html(`<i class="fas fa-clock"></i> ${countdownText}`);
-            }
-        }
-
-        function showAlert() {
-            Swal.fire({
-                title: 'Time\'s up!',
-                text: 'Alarm is ringing.',
-                icon: 'success',
-                showConfirmButton: true,
-                confirmButtonText: 'OK',
-                allowOutsideClick: false,
-            }).then((result) => {
-                if (result.isConfirmed) {
-                    // Show forced popup to stop the alarm
-                    showForcedPopup();
-                }
-            });
-        }
-
-        function showForcedPopup() {
-            Swal.fire({
-                title: 'Alarm',
-                text: 'Click OK to stop the alarm.',
-                icon: 'warning',
-                showConfirmButton: true,
-                confirmButtonText: 'OK',
-                allowOutsideClick: false,
-            }).then((result) => {
-                if (result.isConfirmed) {
-                    stopAlarmSound();
-                    resetAlarm();
-                    hideCancelAlarmButton();
-                    // Remove alarm from cookies
-                    localStorage.removeItem('alarm');
-                }
-            });
-        }
-
-        function playAlarmSound() {
-            // Stop any currently playing audio
-            if (!alarmSound.paused) {
-                alarmSound.pause();
-                alarmSound.currentTime = 0;
-            }
-
-            // Play the alarm sound
-            alarmSound.play();
-        }
-
-        function cancelAlarm() {
-            Swal.fire({
-                title: 'Confirm Cancel',
-                text: 'Do you really want to cancel the alarm?',
-                icon: 'warning',
-                showCancelButton: true,
-                confirmButtonText: 'Yes, cancel it!',
-                cancelButtonText: 'No, keep it'
-            }).then((result) => {
-                if (result.isConfirmed) {
-                    clearInterval(countdownInterval);
-                    resetAlarm();
-                    hideCancelAlarmButton();
-                    // Remove alarm from cookies
-                    localStorage.removeItem('alarm');
-                    stopAlarmSound();
-                }
-            });
-        }
-
-        function hideCancelAlarmButton() {
-            $('#setAlarmBtn').prop('disabled', false);
-            $('#setAlarmBtn').html('<i class="bi bi-alarm"></i> Set Timeout Goal');
-            $('#cancelAlarmBtn').hide();
-        }
-
-        function stopAlarmSound() {
-            // Stop the alarm sound
-            alarmSound.pause();
-            alarmSound.currentTime = 0;
-        }
-
-        function resetAlarm() {
-            alarmTime = null;
-            $('#hour').val('');
-            $('#minute').val('');
-            $('#second').val('');
-        }
+        
         </script>
 </body>
 
