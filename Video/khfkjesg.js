@@ -5,15 +5,17 @@ document.addEventListener("DOMContentLoaded", function() {
   var typeParam = urlParams.get('type');
   var slugParam = urlParams.get('slug');
 
-  // AJAX request
-  var xhr = new XMLHttpRequest();
-  xhr.open('GET', 'fetch.php?key=' + encodeURIComponent(keyParam) + '&type=' + encodeURIComponent(typeParam) + '&slug=' + encodeURIComponent(slugParam), true);
+  // Construct the URL
+  var fetchUrl = `https://devjisu.com/drm/fetch.php?key=${encodeURIComponent(keyParam)}&type=lecture&slug=null`;
 
-  xhr.onreadystatechange = function() {
-    if (xhr.readyState === 4) {
-      if (xhr.status === 200) {
-        // Parse the response
-        var response = JSON.parse(xhr.responseText);
+  // Fetch request
+  fetch(fetchUrl)
+    .then(response => response.blob())
+    .then(blob => {
+      const reader = new FileReader();
+      reader.onload = function() {
+        const responseText = reader.result;
+        const response = JSON.parse(responseText);
 
         // Retrieve key and keyId from the response
         var drmKey = response.keys[0].k;
@@ -103,14 +105,14 @@ document.addEventListener("DOMContentLoaded", function() {
             };
           });
         });
+      };
+      reader.readAsText(blob);
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
+});
 
-      } else {
-        console.error('Error:', xhr.statusText);
-      }
-    }
-  };
-
-  xhr.send();
 
   // Add interactivity for submitting new comments
   document.querySelector('.submit-btn').addEventListener('click', function() {
