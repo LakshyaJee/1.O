@@ -153,7 +153,7 @@
         function playOnWeb() {
     // Get the lecture code and solution code from the URL
     const urlParams = new URLSearchParams(window.location.search);
-    const lectureCode = urlParams.get('lectureCode');
+    const key = urlParams.get('key');
     const dppsSolutionCode = urlParams.get('dppsSolutionCode');
 
     // Construct the URL with the proper parameter
@@ -161,7 +161,7 @@
 
     if (lectureCode) {
         // If lectureCode is present, use it in the redirect URL
-        redirectURL = `plyr_v2.html?key=${lectureCode}`;
+        redirectURL = `Video/index.html?key=${key}`;
     } else if (dppsSolutionCode) {
         // If dppsSolutionCode is present, use it in the redirect URL
         redirectURL = `plyr_v2.html?key=${dppsSolutionCode}`;
