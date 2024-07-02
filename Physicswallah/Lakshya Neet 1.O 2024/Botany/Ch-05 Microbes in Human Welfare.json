@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Microbes in Human Welfare 05 : Revisi...",
+    "lectureCode": "ec917528-abb1-4224-869d-f95ea7b28016",
+    "extId": "651f01d863fb530018869604",
+    "key": "652002e5df42c90012351837",
+    "classNotesCode": "3c80b210-b4fe-438c-b503-bbd0c1c81349.pdf",
+    "dppsPdfCode": "a4f4f1d2-2701-447d-ae78-4872b9c226ff.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Microbes in Human Welfare 04 : Biogas...",
+    "lectureCode": "f6b6a5a5-a8f8-40d8-9409-1883ea9c8526",
+    "extId": "651dafc7f2f2c600186fd2d2",
+    "key": "651eb1ab64bfa000181eb9e7",
+    "classNotesCode": "81c86d20-12eb-4fba-bed6-486799894d2d.pdf",
+    "dppsPdfCode": "bcba1cc2-139a-4a9e-8323-7ceea9dcbde8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Microbes in Human Welfare 03 : Biogas...",
+    "lectureCode": "ceef7870-cb1c-40ff-9a26-f2a1bdf38a5f",
+    "extId": "6518046d3db42d00180235b8",
+    "key": "651836b455784e00129fcf7d",
+    "classNotesCode": "c22b373d-15ee-4266-9bdb-3c17c815118d.pdf",
+    "dppsPdfCode": "0ae550c6-c8cc-4db2-bd22-60fa86be5069.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Microbes in Human Welfare 02 : Microb...",
+    "lectureCode": "8f42fd69-acf9-4737-8ccc-678a002b66db",
+    "extId": "6515e46c88c6bc0019503599",
+    "key": "6516cf4d40b3316c34ee9f23",
+    "classNotesCode": "7a00a4c5-0c93-4689-9e37-a750e20e375d.pdf",
+    "dppsPdfCode": "1deccb24-e781-49f5-bc42-f0438833b1ec.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Microbes in Human Welfare 01 : Introd...",
+    "lectureCode": "3d496b06-455d-4b46-a8bf-bb6a35656a8d",
+    "extId": "6514f8cd814d9b0018a09235",
+    "key": "651573c49b8f3f0018624048",
+    "classNotesCode": "0ae550c6-c8cc-4db2-bd22-60fa86be5069.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

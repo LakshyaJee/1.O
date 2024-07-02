@@ -1,0 +1,282 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Revision 02 : Electric Potential and ...",
+    "lectureCode": "4bab6958-3b38-4113-b8ec-e2a34f7266e7",
+    "extId": "65865f70d1589a0018240c2d",
+    "key": "6586d6ec719da70018e61fc4",
+    "classNotesCode": "f4554918-e628-4e73-bc41-1240480b4c92.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Revision 01 : Electric Potential and ...",
+    "lectureCode": "b86addb9-a675-400d-8a1d-e21153cfdc06",
+    "extId": "6585103e9fccc7001841f687",
+    "key": "6585a6f6cc3226001855355d",
+    "classNotesCode": "eb8f9cbe-61c5-463a-b763-0d749fda7b41.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Revision 01 : Electric Charge and Fie...",
+    "lectureCode": "c59c4578-feb1-43a8-abb8-94dccc6fe748",
+    "extId": "657a8aa95bd32a00183482af",
+    "key": "657b1caeb688a700188a7b09",
+    "classNotesCode": "71d431b6-298a-42c7-9c4e-f324f03d81ed.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Revision 03 : Ray Optics || (NO DPP) ...",
+    "lectureCode": "c067b32d-81d9-4734-8b62-15497dfb95eb",
+    "extId": "6577db2f81e8eb001852c329",
+    "key": "65787985a957170019e306a1",
+    "classNotesCode": "7dd876b4-0f8b-4cef-b5c5-5b2d00f9fba5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Revision 02 : Ray Optics || (NO DPP) ...",
+    "lectureCode": "8df0ec82-5d2d-47a8-9525-24121849b370",
+    "extId": "6571496110a28400182524b2",
+    "key": "6571df951e96660018b4793d",
+    "classNotesCode": "aa2a10d3-a31b-4df6-b0c0-abbfd9b29d54.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Revision 01 : Ray Optics || (NO DPP) ...",
+    "lectureCode": "99c48ebc-49e2-42ab-84c7-7a8822d62fbc",
+    "extId": "656f12fa54aff60019d6f1c6",
+    "key": "656f47bea1ea800018b82e05",
+    "classNotesCode": "843815ab-eea7-4441-8a8d-a8d7608f56e8.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Revision 02 : Molecular Basis of Inhe...",
+    "lectureCode": "aa07d30d-5bcf-483a-8039-c51a7bd9ed6c",
+    "extId": "65869897454d000018c3d2c2",
+    "key": "6586d5f803a099001850103a",
+    "classNotesCode": "8ee9df12-b718-4401-babe-17207e78bab9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Revision 01 : Molecular Basis of Inhe...",
+    "lectureCode": "05a20ac5-e31d-4b53-91f4-45f6bf96841b",
+    "extId": "658510ac2105be0018dbf92b",
+    "key": "65858779ad2b1d001870ce9b",
+    "classNotesCode": "54ed513e-bb57-4b6d-80c7-95ce3098f3ed.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Revision 09 : The Rat Trap || Memory ...",
+    "lectureCode": "e774e46c-b439-48b0-8ffd-33930aba91de",
+    "extId": "65c24a1a53817c0018419bab",
+    "key": "65c0c134adb6a70018d393bb",
+    "classNotesCode": "db6aa5d5-608b-444e-85cc-9667e620d754.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Revision 08 : The Enemy || (NO DPP) |...",
+    "lectureCode": "60ab5860-5a77-4ed4-94ce-14a9bd3242e8",
+    "extId": "65c0ea98efdd900018271b68",
+    "key": "65c0c0e1c0e08a00182f73d4",
+    "classNotesCode": "38b822ff-aca6-4950-a889-1dc3f9261480.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Revision 07 : Poets And Pancakes || I...",
+    "lectureCode": "545a3943-3062-4169-9c26-1061a3ac89c6",
+    "extId": "65bcd370585df30018d82798",
+    "key": "65bcaf99585df30018d73309",
+    "classNotesCode": "5c8490b2-ac92-441b-8b87-49ca911cbb9d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Revision 06 : Deep Water || On the Fa...",
+    "lectureCode": "d99a2ff3-860c-400e-bb2a-5114a2b64740",
+    "extId": "65bb805e2c1427001800b405",
+    "key": "65bb805efad63e00189ab2d4",
+    "classNotesCode": "b97630f7-7497-41bf-8d7d-0f2453ce755b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Revision 05 : Journey To The End Of T...",
+    "lectureCode": "5e7bcb09-3bcf-4c4d-81d6-88172f9a740f",
+    "extId": "65b7a3a16c446e00187f9556",
+    "key": "65b7a2e0cab7ee0018cfc22b",
+    "classNotesCode": "e6230e42-dd6d-46eb-b514-4f8286562ace.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Revision 04 : The Last Lesson || Lost...",
+    "lectureCode": "b8a97aca-cff2-4ed0-a605-0e4b9b1835d9",
+    "extId": "65b4ff8b9533ce001875dba0",
+    "key": "65b4fcdcd2ecc50018f547ea",
+    "classNotesCode": "8791dcfa-916d-4c9b-88c5-db6904637adc.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Revision 03 : Notice Writing || Lette...",
+    "lectureCode": "cef6a0d5-09de-403c-bf6b-1ce60cb462c0",
+    "extId": "65ae698a8b59320018ad5e27",
+    "key": "65ae1d414b0ca00018fd64a3",
+    "classNotesCode": "d0ada37e-8deb-4754-8cfa-8df915ae57e6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Revision 02 : The Third Level || The ...",
+    "lectureCode": "ca51676c-009f-4ba5-9705-989165275653",
+    "extId": "65aa7de989e2cd0018dd992b",
+    "key": "65abadd7e9ba4c0018fad7bb",
+    "classNotesCode": "1084cc95-ca5b-48c4-a365-1a9611c0d9fa.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Revision 01 : A Thing Of Beauty || My...",
+    "lectureCode": "1b71dfd0-8741-441f-920f-cf28afccb0dc",
+    "extId": "65a539c14d1d960018c0ccce",
+    "key": "65abad7de1074e001831452c",
+    "classNotesCode": "132e1dd4-974b-484e-b605-ba08ea24c18d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Revision 01 : Wave Optics || (NO DPP)...",
+    "lectureCode": "54406878-d63b-4a13-8977-b0a99140611b",
+    "extId": "65bbcf3c968aa90018ea8a39",
+    "key": "65bcfaaaf965cf0018b77a23",
+    "classNotesCode": "33595786-6790-4919-a0f6-b98baba2443c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Revision 01 : Electromagnetic Inducti...",
+    "lectureCode": "e562b27a-c7f5-4453-9db0-d002e3db4188",
+    "extId": "65ba7616c8752600181035ee",
+    "key": "65bcd9758d829a001803f2a2",
+    "classNotesCode": "34c90854-65c4-4fc2-a2de-7b84d57679de.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "Revision 01 : Moving Charges and Magn...",
+    "lectureCode": "71ff2f47-cff4-4516-b502-0d3da33c83cc",
+    "extId": "65b13f002bfee2001874aa41",
+    "key": "65b27bb739b55f0018e90091",
+    "classNotesCode": "0e642dee-9cc2-42a2-b64c-534bf9ae4a60.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "Revision 01 : Current Electricity || ...",
+    "lectureCode": "6d6e4422-b98d-4fd7-b83c-448bbdcdbcc8",
+    "extId": "65a8a1ffdd4a85001850a545",
+    "key": "65a943e28425280018a60e60",
+    "classNotesCode": "f10dc985-c8fa-4363-8004-aaa2eca304b5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "Revision 11 : Report Writing || Artic...",
+    "lectureCode": "53961584-a503-490f-b652-c06f989bf911",
+    "extId": "65c624a0bca5c1001808ff93",
+    "key": "65c3911941723c0018b8a373",
+    "classNotesCode": "441568ae-f0b1-4b67-b97d-2d3602bb72c2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 23,
+    "lectureName": "Revision 12 : The Interview || Going ...",
+    "lectureCode": "ebebf19d-68c2-4281-84a4-7e12bca4ecb1",
+    "extId": "65c9f50264d3500018270f80",
+    "key": "65c9f452c572ae0018a05c54",
+    "classNotesCode": "336ae3d5-662b-4226-b7ce-ce17bf65e1a6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 24,
+    "lectureName": "Revision 01 : Sexual Reproduction in ...",
+    "lectureCode": "06bd3581-aa07-487c-9e23-4adfce13e410",
+    "extId": "660b9fb4bcda080018bfe289",
+    "key": "660aebe3ece5bc0019e2fcc8",
+    "classNotesCode": "d7a0cd3e-86f3-474b-b012-1de165970cfb.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 25,
+    "lectureName": "Revision 03 : Molecular Basis of Inhe...",
+    "lectureCode": "7e19bc47-0625-494d-b39f-0cf5d413dbea",
+    "extId": "660a5d380b3c7e0018033111",
+    "key": "660a5975e2317c001812413e",
+    "classNotesCode": "fc56df39-9beb-4b93-80b0-dfcdab696f51.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 26,
+    "lectureName": "Revision 01 : Microbes in Human Welfa...",
+    "lectureCode": "8c87f3b3-8829-491b-bd20-5ccafba7b07e",
+    "extId": "661df8c2a349300019cb57c7",
+    "key": "661e642c74be880018ea6523",
+    "classNotesCode": "4d1cea48-136f-4592-a463-7b90d9fd9874.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 27,
+    "lectureName": "Revision 01 : Ecosystem || (NO DPP) |...",
+    "lectureCode": "6b3c7881-b97c-484a-aeed-a146723acbe3",
+    "extId": "6614b040e3896400182ef08a",
+    "key": "6614f8f403fcfd00189049d6",
+    "classNotesCode": "addb21b4-03e7-4a38-b350-cf9317e54e3c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 28,
+    "lectureName": "Revision 01 : Sexual Reproduction in ...",
+    "lectureCode": "4bd31bfb-fc37-4c19-994f-8bf0793c266a",
+    "extId": "661f683e2c88fe0018d35fdc",
+    "key": "661fb4d11ff0c50018e65051",
+    "classNotesCode": "147ab408-4c3b-4c34-89ad-4ee65377f48d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

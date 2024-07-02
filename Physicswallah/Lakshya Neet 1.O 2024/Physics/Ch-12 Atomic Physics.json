@@ -1,0 +1,22 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Atomic Physics 02 : Hydrogen Emission...",
+    "lectureCode": "d27fe157-25ed-4b91-9006-61db594bbbb0",
+    "extId": "65446b3b0ac1d800181a6471",
+    "key": "6544f6dbc63c320018845f49",
+    "classNotesCode": "e2769d64-bf36-4d72-b0cb-c75dc4bd4fdd.pdf",
+    "dppsPdfCode": "87e57161-1b11-4468-9eec-1d829c1f8711.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Atomic Physics 01 : Compton Effect ||...",
+    "lectureCode": "cec6412a-2632-4c81-9f9d-f484e06b158b",
+    "extId": "6543196c5396cc0018757897",
+    "key": "6543cb4cf186860018ec6243",
+    "classNotesCode": "61ae9b9f-9020-4aab-acf1-3a3f95784bb3.pdf",
+    "dppsPdfCode": "b4f354cd-e813-40f0-93b2-98e6db467746.pdf",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,812 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Electrostatics Lec-07 Part-02 (Manish...",
+    "lectureCode": "3aac3d4f-7e10-49f4-8b9e-69603a65df5f",
+    "extId": "6524059aec0ee300185f7080",
+    "key": "604b1784821883015b7caf1f",
+    "classNotesCode": "99e5d55a-3fd4-469d-a27b-f6f9cc2a799d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Electrostatics Lec-07 (Manish Raj Sir...",
+    "lectureCode": "15f63cab-0be8-40c7-9c2e-2e48f88a36c4",
+    "extId": "6524058283234100183b3bca",
+    "key": "6049c2732df1cd01c4ed3b8c",
+    "classNotesCode": "cb1cc790-af90-40b2-b28a-0cbbb1a61f5a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Electrostatics Lec-06 (Manish Raj Sir...",
+    "lectureCode": "52a9d977-4cb7-47fd-a56f-3cb883172357",
+    "extId": "6524055883234100183b3a8a",
+    "key": "604871e44ad06300336e2bc8",
+    "classNotesCode": "08bb0383-4b5b-4ad6-870e-3eec96a7f5a6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Electrostatics lec-05 (Manish Raj Sir...",
+    "lectureCode": "1a425091-60a5-4245-95fd-75a3539e85fb",
+    "extId": "6524054307be900018cdc4cd",
+    "key": "6045d876b54eef00522f2ecb",
+    "classNotesCode": "0d841f39-cdc1-4df4-813c-baee5f9fc84c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Electrostatics Lec-04 (Manish Raj Sir...",
+    "lectureCode": "de0c968f-4916-4ca2-823a-f1a8402700ef",
+    "extId": "65240514375b8d0018357712",
+    "key": "60431e64f13a4d004a216c64",
+    "classNotesCode": "a9e7a0c1-506b-440d-8803-a91b762c9458.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Electrostatics Lec-03 (Manish Raj Sir...",
+    "lectureCode": "4b46488c-5c9b-4691-a5a0-9c956293cbc1",
+    "extId": "652404f6678afc0018e5ba22",
+    "key": "6041d3ac3180a3004628fbd8",
+    "classNotesCode": "abd7267a-aeb0-42c9-bc87-07e271880540.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Electrostatics Lec-02 (Manish Raj Sir...",
+    "lectureCode": "e3119845-c6cf-4753-b4dc-daa934964838",
+    "extId": "652404dff7639800180a99ac",
+    "key": "60409730a1eb04003fe596bd",
+    "classNotesCode": "a6cb8f20-a1c1-42d0-8cf1-e2bbc57bc34a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Electrostatics Lec-01 (Manish Raj Sir...",
+    "lectureCode": "bdd59389-abde-4692-98e6-3d3f611ebd23",
+    "extId": "652404c0cf49a10018f7dffd",
+    "key": "603f2d83b6151203f3576a73",
+    "classNotesCode": "da2ec743-7370-4673-ad7f-541876e108a5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Thermodynamics Lec-03 (Manish Raj Sir...",
+    "lectureCode": "45b34d48-bdac-408c-af92-aa0b5b05aaf1",
+    "extId": "6569e3fcf6656b0018a32555",
+    "key": "60348dcc55fcac01624c5c3f",
+    "classNotesCode": "10a6c4c5-4cf7-40f6-9bf3-3319e8254138.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Thermodynamics Lec-02 (Manish Raj Sir...",
+    "lectureCode": "f1fd19d2-14c0-4aa2-8eb1-3ebc15423f00",
+    "extId": "6569e3e354bd8f0018e3c6e6",
+    "key": "60328f3bcfe90f04527edd9d",
+    "classNotesCode": "f78ac543-8bdd-45fc-84a7-6f6a33f6f27a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Thermodynamics Lec-01 (Manish Raj Sir...",
+    "lectureCode": "e5f200d8-52a9-47ef-96c4-f2733c1a0ba3",
+    "extId": "6569e3cfe4681f00184ba555",
+    "key": "602f5c2e92f148003959e8b0",
+    "classNotesCode": "affcd6f6-19f4-4c71-9a79-59773394f817.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Thermal Properties of Matter Lec-02 (...",
+    "lectureCode": "14daca7e-93ba-452c-9e9f-5fd0989ca00b",
+    "extId": "654e36c9346f40001817b1f0",
+    "key": "602dfbbf01b0e10011318b62",
+    "classNotesCode": "8da5fcdc-9376-4117-a7d6-777618eb97c8.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Thermal Properties of Matter Lec-01 (...",
+    "lectureCode": "d1fe53fb-af7f-4cae-9143-e45415f28178",
+    "extId": "654e36aaed24d40018a54ea8",
+    "key": "602cac05bbc3220018cccc50",
+    "classNotesCode": "2c30a8d7-8d09-407e-9e9d-ad0ee0d22ce1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Wave Lec-03 (Manish Raj Sir)_English ...",
+    "lectureCode": "ea2fc175-d569-4caa-aa42-f70e9b3cb00f",
+    "extId": "654e363be650f00018028b56",
+    "key": "603dd8efc992b80231de5acb",
+    "classNotesCode": "ba0ab69e-eb2e-4a28-afc3-feec1f06332b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Wave Lec-02 (Manish Raj Sir)_English ...",
+    "lectureCode": "a3f3244b-d50b-4b52-9c64-fae3f3c3289b",
+    "extId": "654e360b51f5b40018d4e246",
+    "key": "603d2288be4c5c02807b40e9",
+    "classNotesCode": "9ef13f94-7311-451a-8566-ed443c499f3b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Current Electricity Lec-05 (Manish Ra...",
+    "lectureCode": "e7104dd1-1c09-4cb5-8b80-1a0cbfc56229",
+    "extId": "6525577caae5c10018f0c720",
+    "key": "605448bc29638000188b85a0",
+    "classNotesCode": "e8b8f216-37f9-4969-97d0-f91227d28251.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Current Electricity Lec-04 (Manish Ra...",
+    "lectureCode": "74b5b13d-672e-489a-ad06-c5156c0cc503",
+    "extId": "652557666460d000184f03f6",
+    "key": "6052fb9eec560100c1caef44",
+    "classNotesCode": "6cebfa05-148a-4fc4-a407-a08d8dc002e7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Current Electricity Lec-03 (Manish Ra...",
+    "lectureCode": "90b4c250-4002-4e60-a692-da33d040d4e2",
+    "extId": "6525575212aca300181d5a75",
+    "key": "60504ae78a83dd04dd96c266",
+    "classNotesCode": "cc3ccc96-9db8-497b-b191-a9cde4370838.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Current Electricity Lec-02 (Manish Ra...",
+    "lectureCode": "7473f2c8-022c-4420-bbbe-6a5f719d9774",
+    "extId": "6525573a4b73e00018ec0227",
+    "key": "604eecf9089970015e0ca237",
+    "classNotesCode": "c398046a-f918-486d-b18e-ce7c9dd1e4c6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "Current Electricity Lec-01 (Manish Ra...",
+    "lectureCode": "55dbbe32-9aba-4496-b616-0c98de05ec13",
+    "extId": "65255725e39fdb0019b91d29",
+    "key": "604c62c47b44590018b594e9",
+    "classNotesCode": "34fad8b8-5d4d-443d-b509-8af22e1d8b65.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "Wave Lec-01 (Manish Raj Sir)_English ...",
+    "lectureCode": "9a9f2994-0b41-4167-aadf-8bb282ebfe3f",
+    "extId": "654e35e6f9c40c0018236c40",
+    "key": "603b45a215c89901df941eeb",
+    "classNotesCode": "af64afe4-cf63-4c13-bc44-fccd402b2089.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "SHM Lec-03 (Manish Raj Sir)_English N...",
+    "lectureCode": "fa4d5bfd-49de-4262-8b87-984aa059b088",
+    "extId": "654e35a84577f40018021450",
+    "key": "6039bad535a65c01ec12893e",
+    "classNotesCode": "2543ebab-6a10-4626-9e54-abd34f572734.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 23,
+    "lectureName": "SHM Lec-02 (Manish Raj Sir)_English N...",
+    "lectureCode": "6b4d4629-a6b1-428f-92bf-08058b87ed17",
+    "extId": "654e358d32cfb700182547f0",
+    "key": "603732a0da02a6003ef8df6f",
+    "classNotesCode": "7c237f36-3395-4886-a79e-28525a5dda96.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 24,
+    "lectureName": "SHM Lec-01 (Manish Raj Sir)_English N...",
+    "lectureCode": "3b23ed46-44da-4aa6-abc0-86e00029da4c",
+    "extId": "654e34f80971650018b3012d",
+    "key": "6035ed99d2e50800a96a84a0",
+    "classNotesCode": "6f177716-b57f-4dc7-b5a7-84eefb2be893.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 25,
+    "lectureName": "Fluid Lec-04 (Manish Raj Sir)_English...",
+    "lectureCode": "087d1a2e-85c6-41ee-b12f-f3c5f0f7b91e",
+    "extId": "653d16dbfdc9840018e10d7b",
+    "key": "602b4ef46ec1bc01b93aaadb",
+    "classNotesCode": "561c694c-951a-43bf-a904-8d4878f04dff.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 26,
+    "lectureName": "Fluid Lec-03 (Manish Raj Sir)_English...",
+    "lectureCode": "e6f49d24-ba64-4946-ba05-d45122332d93",
+    "extId": "653d16c6e9400600183b80b9",
+    "key": "60295665d44438018f822c1a",
+    "classNotesCode": "0541596c-e9f2-41b6-9065-928c6933aac8.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 27,
+    "lectureName": "Fluid Lec-02 (Manish Raj Sir)_English...",
+    "lectureCode": "382e09e1-3a18-4903-ad3f-24163691a9dc",
+    "extId": "653d16ac0e836700186015f5",
+    "key": "60277ace2b6fbc0018b74e14",
+    "classNotesCode": "bf2ab7ad-a534-49aa-93ac-73b587a198d5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 28,
+    "lectureName": "Fluid Lec-01 (Manish Raj Sir)_English...",
+    "lectureCode": "0f104dab-fbad-4f30-8ba7-203866726604",
+    "extId": "653d16978c1a410018afaf52",
+    "key": "60262e070f59b200110f14d2",
+    "classNotesCode": "352e3aca-f0c4-463a-b5c3-cce7e2b16b44.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 29,
+    "lectureName": "Mechanical Properties of Solid Lec-01...",
+    "lectureCode": "754afc32-cac8-4947-9881-9dc0868cd47c",
+    "extId": "653d167e85ca2a00189c4a70",
+    "key": "6024e0ddebe1050018b0bd3f",
+    "classNotesCode": "0011480b-6967-4a00-bd1e-f5eab5b12d3b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 30,
+    "lectureName": "Gravitation Lec-03 (Manish Raj Sir)_E...",
+    "lectureCode": "e94eb726-71ce-4e46-bf0c-b3c162bf91c2",
+    "extId": "653d165d54aa520018fc46d6",
+    "key": "6024f2058d0e7f0012e6546b",
+    "classNotesCode": "b85d3996-3be1-4a13-a6ff-3b5cd3fe4dd5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 31,
+    "lectureName": "Gravitation Lec-02 (Manish Raj Sir)_E...",
+    "lectureCode": "8d9c4f3d-5cd8-41ef-afd7-72906c89330f",
+    "extId": "653d164a7a933c0018cd5707",
+    "key": "602211926c99690011fd32df",
+    "classNotesCode": "656b9372-3c65-4fa0-bec2-0f7775bb05e3.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 32,
+    "lectureName": "Gravitation Lec-01 (Manish Raj Sir)_E...",
+    "lectureCode": "540c50af-4164-4127-80fd-9110fdbbc532",
+    "extId": "653d133ef14be600183d18e2",
+    "key": "602185d42371460011a43656",
+    "classNotesCode": "a61ab2eb-8b28-4b8d-92eb-03a7ea787956.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 33,
+    "lectureName": "EMI Lec-05 (Manish Raj Sir)_English N...",
+    "lectureCode": "fc930759-20d6-4d13-b8ca-9b79897f911c",
+    "extId": "653bcae7d38bb2001863b6e0",
+    "key": "6076aabe10a2640018152284",
+    "classNotesCode": "53c85668-9027-4b14-a34d-69c66112a4db.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 34,
+    "lectureName": "MEC Lec-04 (Manish Raj Sir)_English N...",
+    "lectureCode": "2daa2a44-36db-4b27-8500-ebae8032edb2",
+    "extId": "652aa1aee6a58300151c513e",
+    "key": "605aedc0cc3c57006a531656",
+    "classNotesCode": "c33d7c78-2149-4257-a747-b94b9d4532d8.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 35,
+    "lectureName": "MEC Lec-03 (Manish Raj Sir)_English N...",
+    "lectureCode": "cea87269-ed9a-4974-ba08-dd3eec278056",
+    "extId": "652aa190eb296c001835af1a",
+    "key": "60599d527353330011964c43",
+    "classNotesCode": "38f22007-4425-4f38-9edf-2660767c5a66.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 36,
+    "lectureName": "MEC Lec-02 (Manish Raj Sir)_English N...",
+    "lectureCode": "a5da2c8a-148d-4b25-b304-d8254e0b6cb6",
+    "extId": "652aa167175fbf00181083e0",
+    "key": "60583fc200fb1e02a7776c0d",
+    "classNotesCode": "465968dd-1443-42d0-a2a4-e30b26c4c40a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 37,
+    "lectureName": "MEC Lec-01 (Manish Raj Sir)_English N...",
+    "lectureCode": "c6f1176a-96e2-47b2-93b6-3e789730a289",
+    "extId": "652aa147b4d7220018cf40e3",
+    "key": "6055b57f2e4d99001821390a",
+    "classNotesCode": "d7ea477a-8872-4470-bca6-f20553024c15.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 38,
+    "lectureName": "Semiconductor Lec-04 (Manish Raj Sir)...",
+    "lectureCode": "578a4fb8-6b9b-4a99-b18f-4e4b79a97162",
+    "extId": "65aa5b8c933bc0001860a329",
+    "key": "609e39cb4e55db00114dbbe2",
+    "classNotesCode": "15227c09-5259-4b0f-8925-1ba19639d61d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 39,
+    "lectureName": "Semi Conductor Lec-03 (Manish Raj Sir...",
+    "lectureCode": "819a15f0-0581-4305-ba7c-e885d9a8bf36",
+    "extId": "65aa5b55568ef60018e24613",
+    "key": "609cb3d89d6e950019dd8862",
+    "classNotesCode": "d09cd5e9-1068-4abd-834d-d843e40aa3f7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 40,
+    "lectureName": "Semi Conductor Lec-02 (Manish Raj Sir...",
+    "lectureCode": "b2e24d8c-6f13-42dd-b6e1-ca0188540044",
+    "extId": "65aa5ae49d8a46001886ff08",
+    "key": "609a47b4c4885e0011d618e2",
+    "classNotesCode": "922f1f91-5c53-4501-b2c4-4f0289731b64.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 41,
+    "lectureName": "Semi Conductor Lec-01 (Manish Raj Sir...",
+    "lectureCode": "9c0c7f5b-38f9-4c66-ab70-c5be8da5e7ee",
+    "extId": "65aa5a62521557001894ad76",
+    "key": "60965087a905f60018636489",
+    "classNotesCode": "9b2dc981-93f8-4b09-99c4-947fcf59eb81.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 42,
+    "lectureName": "EMI Lec-04 (Manish Raj Sir)_English N...",
+    "lectureCode": "b05ba212-9721-4d2f-a00d-d366e2c7a51f",
+    "extId": "653bcabd5d974a0018bd1f08",
+    "key": "6075395cd4904800dfe29395",
+    "classNotesCode": "c6fb60c5-65fb-40c1-b7d6-a7c0a5be5ca8.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 43,
+    "lectureName": "EMI Lec-03 (Manish Raj Sir)_English N...",
+    "lectureCode": "d0b5c7c5-7400-4c80-aad0-68b2407397be",
+    "extId": "653bcaa35654140018ff1831",
+    "key": "6073cc18ed598e00f3215352",
+    "classNotesCode": "461f6a18-dc15-4129-9936-51058f64a7a5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 44,
+    "lectureName": "EMI Lec-02 (Manish Raj Sir)_English N...",
+    "lectureCode": "bd4bc8c1-2304-4a9e-845b-5152b3d0dcab",
+    "extId": "653bca635c872600185f1873",
+    "key": "607002f9d8d773005fe2077f",
+    "classNotesCode": "c2619f02-1a27-4d50-890d-5c886e485e9e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 45,
+    "lectureName": "EMI Lec-01 (Manish Raj Sir)_English N...",
+    "lectureCode": "04695150-b79e-4810-b4b2-667d01a35f45",
+    "extId": "652aa340a4d80f0018afd331",
+    "key": "6062c6e2d6c38600ff924a29",
+    "classNotesCode": "ea1ba4f2-a665-4bd4-bce1-981ea95a2317.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 46,
+    "lectureName": "Magnetism & Matter Lec-02 (Manish Raj...",
+    "lectureCode": "1462ef8f-054a-472c-b099-1c7a07d83b95",
+    "extId": "652aa3170617cc0018f35c15",
+    "key": "605ed1d17a956e0041255e4e",
+    "classNotesCode": "7092d6b4-a968-4059-a1a8-e1d356110ab4.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 47,
+    "lectureName": "Magnetism & Matter Lec-01 (Manish Raj...",
+    "lectureCode": "da8a0fdd-8206-4e36-ae8f-6d6457362d37",
+    "extId": "652aa2fbc0a2460018c673b4",
+    "key": "605da266b90696007b232cf7",
+    "classNotesCode": "9faf900b-2268-41eb-be2c-90f59fb22d91.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 48,
+    "lectureName": "COM Lec-03 Center of Mass (Manish Raj...",
+    "lectureCode": "841564c3-79b5-4803-8fc0-d026de42c6f3",
+    "extId": "651fbce9977ca90018d6172d",
+    "key": "60179814efaaeb00112ea84d",
+    "classNotesCode": "a1c18804-5267-49b7-823b-93e9227d811a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 49,
+    "lectureName": "COM Collision Lec-02 Part-02 (Manish ...",
+    "lectureCode": "538bf8cb-a4f1-4ede-b346-7f7e42c06f31",
+    "extId": "651fbcbb456ece00181e5cd0",
+    "key": "6014f5c80950fd0054e2420a",
+    "classNotesCode": "c26f1032-a1b8-4c6b-8525-c703b570eb14.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 50,
+    "lectureName": "COM Collision Lec-02 Part-01 (Manish ...",
+    "lectureCode": "3ca8af79-3273-43da-802d-2e1d339dedf8",
+    "extId": "651fbc4faf2d1e0018a67642",
+    "key": "6014f4114878ef001984e92b",
+    "classNotesCode": "63f0b566-7287-4d7f-ab3e-a15f2934a20c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 51,
+    "lectureName": "Conservation of Momentum Lec-01 (Mani...",
+    "lectureCode": "d2603063-2790-4fdc-ac24-4af51616ceea",
+    "extId": "651fbb1e63fb53001888f27a",
+    "key": "601389892212dc00664bbc62",
+    "classNotesCode": "46b087aa-f9f8-463e-b745-6ef524fe8be7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 52,
+    "lectureName": "Rotation Lec-05 Part-02 (Manish Raj S...",
+    "lectureCode": "bff73697-c3a6-4fa8-abfd-c535b97a5a03",
+    "extId": "651580191d781c00181f1af5",
+    "key": "6020859ddc7f4a0018f57721",
+    "classNotesCode": "755bd6f4-3d14-407e-8d19-1fbe57ff86f8.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 53,
+    "lectureName": "Rotation Lec-05 Part-01 (Manish Raj S...",
+    "lectureCode": "3b2fe73e-d60b-4d2c-aa2c-589865231254",
+    "extId": "65157ff1d1b0060018f7b493",
+    "key": "601e4a8bb9f3fe00523efb93",
+    "classNotesCode": "44b62a1c-502b-4911-aba5-af8b7d4889c0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 54,
+    "lectureName": "Rotation Lec-04 (Manish Raj Sir)_Engl...",
+    "lectureCode": "a6b5a837-5839-4c9d-b15c-7e7808ef189b",
+    "extId": "65157fd754f8a1001830d39b",
+    "key": "601ce77aa0a0470011315cab",
+    "classNotesCode": "42411d6c-d58e-4494-84bb-7d5ee1c64648.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 55,
+    "lectureName": "Rotation Lec-03 (Manish Raj Sir)_Engl...",
+    "lectureCode": "514dfc2f-29b7-431d-bf96-f8cb7e74f086",
+    "extId": "65157fb546863d0018f3d7a3",
+    "key": "601ba828f4072c0011f9e2ab",
+    "classNotesCode": "d9f1b571-0ad1-4221-a264-c1839850c43a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 56,
+    "lectureName": "Rotation Lec-02 Torque (Manish Raj Si...",
+    "lectureCode": "7c7c18fb-a774-4c27-aa72-46d6dddb71ad",
+    "extId": "65157f9e1d781c00181f18f6",
+    "key": "601a3f3e0b5d5f005581e479",
+    "classNotesCode": "5f34c9f7-975b-4ae1-a15f-9bc560b44184.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 57,
+    "lectureName": "Rotation Lec-01 (Manish Raj Sir)_Engl...",
+    "lectureCode": "84a2bd4e-717d-4d57-9e1d-dee470224561",
+    "extId": "65157f83a53b1d0018664233",
+    "key": "6018deeca19ea200716cc52a",
+    "classNotesCode": "de708480-a22b-46d4-855f-f4586eac7f3c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 58,
+    "lectureName": "WEP Lec-03 (Manish Raj Sir)_English N...",
+    "lectureCode": "8691aeb9-27a5-43ed-b0a7-42054f2f720a",
+    "extId": "650f08b992259000180bfbf3",
+    "key": "60123e88176d8d00c2674786",
+    "classNotesCode": "0ffe8af0-7380-407b-ac2f-e4dd5be70567.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 59,
+    "lectureName": "WPE Lec-02 (Manish Raj Sir)_English N...",
+    "lectureCode": "7511d1ff-6798-47dc-b5d0-d875affd5c69",
+    "extId": "650f08a53d25910018b43131",
+    "key": "60103e9e0548fe010cb43a50",
+    "classNotesCode": "7dbde75f-0808-47af-8448-0fd06a9401dd.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 60,
+    "lectureName": "Wep Lec-01 (Manish Raj Sir)_English N...",
+    "lectureCode": "2aaa43e3-4912-4cbe-89ae-cc26ed3c9dda",
+    "extId": "650f088792259000180bfb2c",
+    "key": "600e4bd3bf34390018b7fb8c",
+    "classNotesCode": "7389913c-2269-44fe-8ed8-e56ec78536f2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 61,
+    "lectureName": "Kinematics Lec-09 (Manish Raj Sir)_En...",
+    "lectureCode": "6921b50d-a67d-48d8-9ebf-72bf61fb8985",
+    "extId": "6505a3c278620f00185bad88",
+    "key": "600477d5d6b78200fbad7eef",
+    "classNotesCode": "d54fe1b6-3b9b-4911-bdb4-4a9a502b14eb.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 62,
+    "lectureName": "Kinematics Lec-08 (Manish Raj Sir)_En...",
+    "lectureCode": "0222d98e-fe49-4093-9093-3840560f3f06",
+    "extId": "6505a3b042d0ad0018eca64b",
+    "key": "60026f8bc47e390019e912b2",
+    "classNotesCode": "7e6a3f76-df48-4c10-8e03-b2b2553be541.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 63,
+    "lectureName": "Kinematics Lec-06 (Manish Raj Sir)_En...",
+    "lectureCode": "b71d9858-7fd4-4599-92c8-e8e072b695ad",
+    "extId": "6505a3844798430018023845",
+    "key": "6000108c40fe680018e1ee82",
+    "classNotesCode": "001ce6b5-e910-4c40-b3e7-086ceeff4e1e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 64,
+    "lectureName": "Kinematics Lec-05 Part-02 (Manish Raj...",
+    "lectureCode": "bad03305-e455-4f7d-be46-30ae9a196a13",
+    "extId": "6505a3620fecfd0018091fed",
+    "key": "5ffe976760f04500a4d566df",
+    "classNotesCode": "5a08030d-071d-4fbe-8cb0-a7d29785eda7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 65,
+    "lectureName": "Kinematics Lec-05 Part-01 (Manish Raj...",
+    "lectureCode": "6104df29-c343-4934-becc-18e55d59ba1b",
+    "extId": "6505a34cb6001100184728ca",
+    "key": "5ffe970b892484004b2611e8",
+    "classNotesCode": "f8b96cfd-89bf-41c4-a6e8-2ff6712c387e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 66,
+    "lectureName": "Kinematics Lec-04 (Manish Raj Sir)_En...",
+    "lectureCode": "b9e1b4b0-198d-4354-bda7-f6340a9ccf8d",
+    "extId": "6505a32df1f511001835d72d",
+    "key": "5ffd7fdbcb71510011c1f956",
+    "classNotesCode": "02c86af5-044c-4adf-987a-d9a8b10f4c6c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 67,
+    "lectureName": "Kinematics Lec-03 (Manish Raj Sir)_En...",
+    "lectureCode": "db448986-acd5-42a2-92ee-43a7166d015e",
+    "extId": "6505a30c78620f00185b4096",
+    "key": "5ffbeed8508ad2001131159d",
+    "classNotesCode": "a55e51b0-dafc-46c6-9ede-6d8ba55b51c7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 68,
+    "lectureName": "Kinematics Lec-02 (Manish Raj Sir)_En...",
+    "lectureCode": "436b5b2d-24e8-499b-abe5-866618243172",
+    "extId": "6505a2f7b96347001846cd9f",
+    "key": "5ff9748ff1986900180a2a44",
+    "classNotesCode": "252ab821-1937-48c8-9cc6-efab16c79a16.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 69,
+    "lectureName": "Kinematics Lec-01 (Mansih Raj Sir)_En...",
+    "lectureCode": "bf7c796c-0046-47a0-a0c8-084e8fcc42e4",
+    "extId": "6505a2d5ad119f00188537a7",
+    "key": "5ff7e72b3a2d2400185b9ad9",
+    "classNotesCode": "cf691f28-c24e-41ba-8d98-fd9dc59c9c88.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 70,
+    "lectureName": "NLM Lec-05 (Manish Raj Sir)_English N...",
+    "lectureCode": "c177e816-efef-4c2e-8c4d-72363be78560",
+    "extId": "650f06e47017a10018285409",
+    "key": "600bb9219b254300114b7732",
+    "classNotesCode": "0c9a4bb1-c8e4-4906-9a88-048ba2add2ad.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 71,
+    "lectureName": "NLM Lec-04 (Manish Raj Sir)_English N...",
+    "lectureCode": "7f1fd337-2ebd-4353-b390-7cd256374c05",
+    "extId": "650f06cf09936c0018257f4a",
+    "key": "600a796136af450011e2559c",
+    "classNotesCode": "aec85dff-553b-4ea2-9e00-31c0fa5ab6f6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 72,
+    "lectureName": "NLM Lec-03 (Manish Raj Sir)_English N...",
+    "lectureCode": "51ab9333-e20b-4b46-9250-bea5f57f7188",
+    "extId": "650f06ab84cc5900187d6ba4",
+    "key": "6008fe7a51ad5200119237c2",
+    "classNotesCode": "f049b177-e761-4f2d-a188-7d6efc2d6572.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 73,
+    "lectureName": "NLM Lec-02 (Manish Raj Sir)_English N...",
+    "lectureCode": "1cfa276e-cec0-49f5-bb65-fc880313b10e",
+    "extId": "650f067f3d25910018b42903",
+    "key": "6007d0bebb60d500183b4428",
+    "classNotesCode": "2aa17707-0683-48ae-9b11-354fe7ec8492.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 74,
+    "lectureName": "NLM Lec-01 (Manish Raj Sir)_English N...",
+    "lectureCode": "616fff3b-f307-4319-a3a7-e420f2da9e41",
+    "extId": "650f06297017a100182850de",
+    "key": "6005c7c17596ab0018d82868",
+    "classNotesCode": "88369070-d398-4d5e-b509-7357b09f4d4d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 75,
+    "lectureName": "Nuclear Physics Lec-02 (Manish Raj Si...",
+    "lectureCode": "bcf2fd1f-576f-4a53-99bf-5571249fde4a",
+    "extId": "65a935f89d244a00181fe997",
+    "key": "60962f2ee56def0012b4c94c",
+    "classNotesCode": "1f1ac149-c112-4823-a144-b0517efacb0e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 76,
+    "lectureName": "Nuclear Physics Lec-01 (Manish Raj Si...",
+    "lectureCode": "4778c009-5f72-43ca-bd71-3e89e41db744",
+    "extId": "65a935d90a57730018592651",
+    "key": "6093c773f5ecd90018729508",
+    "classNotesCode": "eb379ab6-b211-41eb-b7b2-08669307ee76.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 77,
+    "lectureName": "Modern Physics Lec-04 (Manish Raj Sir...",
+    "lectureCode": "08d9ca90-922d-4cc4-b5a6-ff16430a266f",
+    "extId": "65a935887f0aed0018e19690",
+    "key": "609257a95adc810018c38616",
+    "classNotesCode": "36ec3b65-7825-4f3c-956b-7772aa64a7ed.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 78,
+    "lectureName": "Modern Physics Lec-03 (Manish Raj Sir...",
+    "lectureCode": "930acc0b-e7f2-419b-8128-aacc2311649b",
+    "extId": "65a935638914ed00184be0ec",
+    "key": "609236d295051700188dae9b",
+    "classNotesCode": "c2007859-745c-4a50-83d6-ffb3558b175f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 79,
+    "lectureName": "Modern Physics Lec-02 (Manish Raj Sir...",
+    "lectureCode": "558ca4d5-1dc7-4c3b-b870-5739772d090e",
+    "extId": "65a9350e21f2d90018a3e008",
+    "key": "608fadf4eb68d90018b0b5d4",
+    "classNotesCode": "4d183340-686f-4190-86a5-71d7e8230323.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 80,
+    "lectureName": "Modern Physics Lec-01 (Manish Raj Sir...",
+    "lectureCode": "b65f878d-bd8f-4e99-9235-f027e744968a",
+    "extId": "65a934d025309500187d3b19",
+    "key": "609130916d460b0011503ff2",
+    "classNotesCode": "ae6338e9-5131-4a3d-8907-e70fd6c76707.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 81,
+    "lectureName": "Kinematics Lec-07 (Manish Raj Sir)_En...",
+    "lectureCode": "a4855c28-b032-47e4-952c-f1a199e86715",
+    "extId": "6505a39dfbf4390018d7cddb",
+    "key": "65019ae56216c00018224a52",
+    "classNotesCode": "82f3c6e5-9733-41e5-a9ae-8768d0c544c2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

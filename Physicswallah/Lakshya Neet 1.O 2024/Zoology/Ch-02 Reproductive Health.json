@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Reproductive Health 06 : STD || Infer...",
+    "lectureCode": "43623969-323f-4433-bc10-95f7e16dbea7",
+    "extId": "647e4609a86f990019868cd0",
+    "key": "647f380dc3db6a001846c079",
+    "classNotesCode": "bf42c525-2949-4dfe-82c0-7566a6925bfb.pdf",
+    "dppsPdfCode": "006746d0-d094-4499-beb1-2eaa77e521cb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Reproductive Health 05 : MTP || STDs ...",
+    "lectureCode": "c350eb6b-3d1e-4641-8b3d-c2182435554f",
+    "extId": "647cf62a014fb900184a4ed5",
+    "key": "647dda6a3cdeef00184b85c7",
+    "classNotesCode": "4a70751f-d52d-4860-a29d-3699f0d96c80.pdf",
+    "dppsPdfCode": "bd5ae35a-1c7e-4315-881f-b17427e36a4c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Reproductive Health 04 : Contraceptiv...",
+    "lectureCode": "88c9b51a-570e-4470-90fc-74e4108b434b",
+    "extId": "6474f027bbf09c0018e60330",
+    "key": "6475edd75fa9230018a97c9c",
+    "classNotesCode": "a0529668-27ab-47eb-9f63-f47b11808e96.pdf",
+    "dppsPdfCode": "d990e1e0-4a7e-441a-a9a1-049d08d77914.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Reproductive Health 03 : Contraceptiv...",
+    "lectureCode": "022ac5b8-9ce2-4ed8-990a-b624ec557f12",
+    "extId": "6473a57ddc25170018601b63",
+    "key": "6474a3f3a8b23d001846813e",
+    "classNotesCode": "b424fc64-5222-42f9-951d-707c42006209.pdf",
+    "dppsPdfCode": "16ab94f3-0f31-4ff9-877f-580be905c350.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Reproductive Health 02 : Population G...",
+    "lectureCode": "8dcfb4df-aa4a-4595-9997-2c3952e28f82",
+    "extId": "646bc00e89ab400018eefe81",
+    "key": "646cb484698d490018f4b03b",
+    "classNotesCode": "8e45c595-5f6b-4c07-8d86-790f5211a2ba.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Reproductive Health 01 : Problems & S...",
+    "lectureCode": "faca0e08-3463-4306-bdf7-83bbe55a9d0d",
+    "extId": "646a8b38a8623d0018dfbfaf",
+    "key": "646b63d33e13190018d4079d",
+    "classNotesCode": "a6f88414-f597-42a5-8175-86e20b85f575.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

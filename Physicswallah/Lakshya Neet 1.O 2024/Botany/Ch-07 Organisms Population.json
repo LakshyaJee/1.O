@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Organisms & Population 06 : Populatio...",
+    "lectureCode": "48d2979f-c491-42ba-9f39-b2ac1e001bd2",
+    "extId": "65456066ad369e0018214f34",
+    "key": "6545af0cdb3c010018d3d090",
+    "classNotesCode": "03d3a5ec-791c-4fe5-9cae-ce1d04123704.pdf",
+    "dppsPdfCode": "44ac0165-2d72-4e88-8416-77fa424f78f5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Organisms & Population 05 : Populatio...",
+    "lectureCode": "001e9400-fa69-41c9-b01d-40c60dc4f572",
+    "extId": "65446b1d48eabd0018b74c1b",
+    "key": "65451446fbbe2a0018a8be48",
+    "classNotesCode": "e2f9e466-904a-43c6-85c7-e70524b36143.pdf",
+    "dppsPdfCode": "45a3f48d-4b02-4db2-a8c7-1c4649fcaa92.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Organisms & Population 04 : Populatio...",
+    "lectureCode": "bfb81fe3-b89a-49ea-ae15-f2aed8671908",
+    "extId": "653c2057ee008a00183b0eca",
+    "key": "653d05a97db6270012b86d24",
+    "classNotesCode": "feb3dc4f-d805-4d57-9cf8-8da47c65e1ae.pdf",
+    "dppsPdfCode": "2d01095e-baac-42ea-bdfb-85acc36303d5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Organisms & Population 03 : Populatio...",
+    "lectureCode": "3a3277ba-27e3-4af3-a308-132fa723290a",
+    "extId": "653ae06974118b00188cae77",
+    "key": "653be70f29163b0018c8043b",
+    "classNotesCode": "25aa4ca6-3aa1-42c1-87fa-6cdeb684f737.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Organisms & Population 02 : Populatio...",
+    "lectureCode": "ccea4f0b-8909-4293-aca8-6ad61a6e0037",
+    "extId": "653344ce0694e90018341078",
+    "key": "6533c86ac119fc0012134cbe",
+    "classNotesCode": "5a062f11-c4ec-47ba-be55-7d0c5e4e4a2a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Organisms & Population 01 : Populatio...",
+    "lectureCode": "ed516a6f-81e8-4df7-ac46-d5623dd7bd93",
+    "extId": "653204b41426ac0018d2ae2b",
+    "key": "65328a60faa9370012186b90",
+    "classNotesCode": "2cd2b896-8a02-4906-9528-2cba993609e2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

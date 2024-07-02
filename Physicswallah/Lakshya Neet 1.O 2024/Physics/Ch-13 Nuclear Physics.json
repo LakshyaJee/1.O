@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Nuclear Physics 04 : Nuclear Decay ||...",
+    "lectureCode": "fa318668-dfe9-48c4-91e4-c4d02b0fe49f",
+    "extId": "6568fa872e5bc10018618b83",
+    "key": "6569f6c256d6b100184d3987",
+    "classNotesCode": "04a6e8fc-5d5a-45d9-add9-7e27eb3f9569.pdf",
+    "dppsPdfCode": "c81ac513-e912-45ee-9481-6bef6c7ca5dc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Nuclear Physics 03 : Proton Neutron G...",
+    "lectureCode": "88f6ec67-aea7-47ac-b126-9d77d0da27d7",
+    "extId": "654c540217d1ba00189879a0",
+    "key": "654cedc07dced90018364550",
+    "classNotesCode": "c9dcbc03-7dfa-468e-a45f-4dd1c41a74f2.pdf",
+    "dppsPdfCode": "7485959b-b186-4bf8-a104-dacf463e9d1b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Nuclear Physics 02 : Q Value of Nucle...",
+    "lectureCode": "4db711e8-f662-4b3b-940a-dbe4d48a8da7",
+    "extId": "654b0deb048a630018279dc7",
+    "key": "654bae036632590018c32b35",
+    "classNotesCode": "a2b529a1-bf3e-4283-b731-fbb7d17b19ab.pdf",
+    "dppsPdfCode": "9cf06cd4-f4b3-4d65-b760-3c78775343c6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Nuclear Physics 01 : Nuclear Particle...",
+    "lectureCode": "c12bb8e5-bf5c-4cba-9b41-0b473e13b598",
+    "extId": "6545607f68a965001825262e",
+    "key": "6545caff5ab47400185ae30c",
+    "classNotesCode": "d946fed9-36cd-4337-9e67-36177a1139f9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

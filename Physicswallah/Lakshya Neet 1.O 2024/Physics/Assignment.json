@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Electrostatic Potential and Capacitan...",
+    "lectureCode": "1e4ecea5-36da-453c-aa48-c986f979b12d",
+    "extId": "64a985eafaacb300187f2d06",
+    "key": "64a97bf943e4ff0018502b6a",
+    "classNotesCode": "3ac17ad1-90b9-4788-b247-8d5b98b4cf91.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Current Electricity : Solution to Ass...",
+    "lectureCode": "35adca80-da71-492c-9539-c4ded3a1ecfc",
+    "extId": "64a3a52276d1d50018481141",
+    "key": "64a38b1891515300187cbc8c",
+    "classNotesCode": "a7d7e945-fc9c-4fd3-8d07-132206f2bfca.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Electric Charges and Field : Solution...",
+    "lectureCode": "6e831366-1769-4656-91f4-16bdd2169557",
+    "extId": "649aa2447924b60018099826",
+    "key": "649ad3c8ce4202001877cd47",
+    "classNotesCode": "0cffc280-e325-437f-b6d8-506ec39389fa.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

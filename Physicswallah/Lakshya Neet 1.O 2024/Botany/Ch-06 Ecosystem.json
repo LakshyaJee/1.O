@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Ecosystem 03 : Pyramids || (Extra Lec...",
+    "lectureCode": "c9e65123-2aa7-41d3-8879-5912440581b5",
+    "extId": "652c2b6d65a9f80018ef61f6",
+    "key": "652d33aa343ff10012274f72",
+    "classNotesCode": "82ab366c-fc95-479f-a4f2-b1756c7ef4be.pdf",
+    "dppsPdfCode": "1f16c545-cbd2-4f40-acc9-c34fbe7dfea4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Ecosystem 02 : Food Chain || Food Web",
+    "lectureCode": "ff252d59-6e8a-4d48-8931-e2325dbc37b2",
+    "extId": "65285054d2cb530018fa91e2",
+    "key": "652944e94036a200125671ee",
+    "classNotesCode": "d13a0dd9-c710-4d85-969e-da4bb54c2d48.pdf",
+    "dppsPdfCode": "9a4ee3bd-62a8-4a1b-a3aa-a5c280db00ee.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Ecosystem 01 : Structure and Function",
+    "lectureCode": "fb14dee5-344b-4dd7-a350-32a489dc6853",
+    "extId": "65270aa1bd8d86001852abf6",
+    "key": "6527f39cb4e699001230f783",
+    "classNotesCode": "8a3ada4a-a159-4aff-ad0b-e54fa871d2a1.pdf",
+    "dppsPdfCode": "2137efbb-8d18-406d-9ae2-1b406c6d2206.pdf",
+    "dppsSolutionCode": ""
+  }
+]

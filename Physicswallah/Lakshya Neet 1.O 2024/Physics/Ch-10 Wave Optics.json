@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Wave Optics 06 : Malus Law || Polaris...",
+    "lectureCode": "c895b99e-41a7-4018-879e-a70538d5c82c",
+    "extId": "65320537ff1c8000187ac27f",
+    "key": "65327f52a5253400128c9a64",
+    "classNotesCode": "bcd39122-4cb7-4fc3-b67f-279cac46dea2.pdf",
+    "dppsPdfCode": "2a9dbf1b-bdd5-4f92-8c31-746a8c41e2b3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Wave Optics 05 : Diffraction and Pola...",
+    "lectureCode": "af196a66-90e6-4dbe-940b-8b14b91c2102",
+    "extId": "6530a0baa9204a00192869c1",
+    "key": "65314ed7091c88001226a40d",
+    "classNotesCode": "e1c7df70-05e9-48ab-b7f6-85ed3780e003.pdf",
+    "dppsPdfCode": "6426331b-d695-4200-ab25-30fac147e83a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Wave Optics 04 : Questions on YDSE",
+    "lectureCode": "2477f6ea-aab0-448f-a78d-5792cc1c01d5",
+    "extId": "652ef4698d52860018f3fd97",
+    "key": "652ffc4e10c12d0012e7c198",
+    "classNotesCode": "cdbd7f30-52d9-4bda-9279-ad4f5e50a191.pdf",
+    "dppsPdfCode": "0645227a-2ba3-4797-bc8f-5c438a453739.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Wave Optics 03 : Young Double Slit Ex...",
+    "lectureCode": "6ca076e7-366e-440c-ae6a-ae7d7a4b5e5d",
+    "extId": "65298a2160efb30018ec2392",
+    "key": "652ac0471902120012520fee",
+    "classNotesCode": "162576e3-eb39-4e49-94ac-26fae3da3f38.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Wave Optics 02 : Interference || (Res...",
+    "lectureCode": "c12c9e1e-c129-4fd8-b1b5-de14f322056a",
+    "extId": "652850bad2cb530018fa922f",
+    "key": "6529626ccbba1d0012310e19",
+    "classNotesCode": "c4cf7343-b6ba-47bb-9352-a460eb5d01c9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Wave Optics 01 : Optical fibre || Wav...",
+    "lectureCode": "41d18ad2-e9b3-4f4f-9621-0c6c238e2819",
+    "extId": "65270abf6ab53b0018e10b23",
+    "key": "65281334bac7f70012d9517b",
+    "classNotesCode": "b35966d0-6524-48a2-8ea1-df840348385a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

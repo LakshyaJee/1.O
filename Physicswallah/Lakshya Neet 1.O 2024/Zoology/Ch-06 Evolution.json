@@ -1,0 +1,92 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Evolution 09 : Human Evolution (Part-...",
+    "lectureCode": "54eca765-c348-4b89-8e2f-46d40b551f8f",
+    "extId": "65355d36ad923600182c4ed3",
+    "key": "65366e28602bc100122b55b8",
+    "classNotesCode": "fd8dbbdb-d708-4f3f-b480-c0f61e858b62.pdf",
+    "dppsPdfCode": "c37515b9-d504-4576-be69-c37a05d82498.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Evolution 08 : Human Evolution || PYQ...",
+    "lectureCode": "12a7e048-d94f-4eb2-8081-3e93db2ab6a2",
+    "extId": "652d8fa93f68180018c253ae",
+    "key": "652e83c134fb300012bb7700",
+    "classNotesCode": "341f8678-0eab-4088-a810-af55f224c602.pdf",
+    "dppsPdfCode": "da2212d0-561a-412e-875c-08978997f4d3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Evolution 07 : Evolution of Different...",
+    "lectureCode": "2187faaf-e471-4cc7-ad03-d4f6cca0b678",
+    "extId": "6524527b6c3b0f0018f88cad",
+    "key": "652545bdce6c7d0018809046",
+    "classNotesCode": "ee0ff4df-9ad7-4e87-a321-a29cc99c063c.pdf",
+    "dppsPdfCode": "055b30e3-885c-4278-8600-286ba2781165.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Evolution 06 : Adaptive Radiation",
+    "lectureCode": "36410e0d-f783-4f5a-baf3-8335f073790d",
+    "extId": "65231aa9eaca9300189cef6e",
+    "key": "6523f73ca1d3b000127f3750",
+    "classNotesCode": "ca3b41ed-eef1-44f1-8b9b-9fcfbed7e944.pdf",
+    "dppsPdfCode": "519465b3-3fc4-48f2-95c3-037d8431a954.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Evolution 05 : Evidences of Evolution...",
+    "lectureCode": "6ca45c67-b573-42d2-97ed-a89d869e2840",
+    "extId": "651b23031b91a80018644663",
+    "key": "651c0f55836e0d00120742ab",
+    "classNotesCode": "31c013c9-417c-47ab-9d78-c6341d242800.pdf",
+    "dppsPdfCode": "ed2e7739-060b-400a-b3f7-59dca20c9c33.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Evolution 04 : Theories of Evolution ...",
+    "lectureCode": "d04bc341-3b29-4959-b9bb-43b71f7d3a74",
+    "extId": "6510448f498f4c00183f3db9",
+    "key": "65118b57bc61f40012fd831c",
+    "classNotesCode": "b6258dee-1a8e-4539-aae9-e6c0a0d47b91.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Evolution 03 : Theories of Evolution ...",
+    "lectureCode": "f4fba542-c5c0-41ea-8c70-f9c8a87aec22",
+    "extId": "65076cbcfa51230018c27efc",
+    "key": "65084812a1af0a001888097d",
+    "classNotesCode": "3f736fd6-b70d-4c3c-aa1e-662d54e53493.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Evolution 02 : Theories of Evolution",
+    "lectureCode": "c1f42ff1-c77b-40d4-b3df-5b53c5f3bf7f",
+    "extId": "64ff6f91cdc2170018c5375e",
+    "key": "65005edba8c0b50018a7cf00",
+    "classNotesCode": "1389bcad-3423-4c24-bec6-ae4b7726ef4c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Evolution 01 : Origin of Universe || ...",
+    "lectureCode": "474b2a82-0e0d-49b6-8ff2-78cdd283c658",
+    "extId": "64fdf9fbf281d400188f4e9b",
+    "key": "64ff0f33a730f7001806597d",
+    "classNotesCode": "c752e776-221f-45a4-8bf2-2d0249943574.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

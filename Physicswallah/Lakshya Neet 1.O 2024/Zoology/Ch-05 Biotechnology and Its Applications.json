@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Biotechnology and Its Applications 05...",
+    "lectureCode": "697050a4-6a82-48e3-8de5-7d9e5c6ce32e",
+    "extId": "64f63b38f9b85000189a77c9",
+    "key": "64f724e2f120e60018043d69",
+    "classNotesCode": "336a0541-63f3-4ddf-826b-57ee3f8dd59d.pdf",
+    "dppsPdfCode": "eeb1236e-dbd7-4c9a-a202-1f94bc717ef7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Biotechnology and Its Applications 04...",
+    "lectureCode": "34a8aaba-d17d-4eef-a575-597f3289cab9",
+    "extId": "64f4cc50fb60a6001815046d",
+    "key": "64f5ed39c3d3ff001804bd1a",
+    "classNotesCode": "dd0b5109-078b-49de-a6d2-bd00d44f04f6.pdf",
+    "dppsPdfCode": "48b63b9b-a4f5-454b-ae01-7cd21a617771.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Biotechnology and Its Applications 03...",
+    "lectureCode": "904e023f-f611-43e3-85df-1b9756471e70",
+    "extId": "64ecfedcfe3dd500182ef978",
+    "key": "64ede8a4b380850018613a7b",
+    "classNotesCode": "7122fcb3-1faf-443b-9ab9-e1006a1b9c74.pdf",
+    "dppsPdfCode": "1f7feb36-0362-4016-81af-ff344633c6d4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Biotechnology and Its Applications 02...",
+    "lectureCode": "57efb16b-980c-47de-aa7f-404179fe10e8",
+    "extId": "64ebb7c250725700189a0543",
+    "key": "64ec9e67883812001889f55c",
+    "classNotesCode": "7f345862-9bd6-4e9b-b5e9-56a331de9f00.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Biotechnology and Its Applications 01...",
+    "lectureCode": "8332192b-a2a1-41bd-a3a8-6ca8a6d7bf91",
+    "extId": "64e3ad8c5f708900180842da",
+    "key": "64e4af8ec85a910018020032",
+    "classNotesCode": "848c7d03-7d0b-4be8-ab73-bfe0229c0dfe.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

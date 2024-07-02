@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Alternating Current 05 : Questions on...",
+    "lectureCode": "cb5f240e-8ddd-411c-8f17-1e14d7ed9c4c",
+    "extId": "64fb82aa59720b001885b45e",
+    "key": "64fc932002b59d00128ebe15",
+    "classNotesCode": "71b71ef1-5075-4bb9-a40b-bdc78c923a95.pdf",
+    "dppsPdfCode": "30c11f0c-69c8-4617-b09b-8d225caac48b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Alternating Current 04 : Series RLC C...",
+    "lectureCode": "5769a0bd-aab1-49d8-9342-e32da27a96e2",
+    "extId": "64fa32ec4a51890019b8fc98",
+    "key": "64fb4195b7b18e0018891a38",
+    "classNotesCode": "656e67c8-509d-4ebb-b42e-7b5208297328.pdf",
+    "dppsPdfCode": "157e0281-9269-43ab-8822-25ab205472c3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Alternating Current 03 : Pure Inducto...",
+    "lectureCode": "e9337572-14ef-4a99-aa2a-c3af30126329",
+    "extId": "64f8bc6022427a0018ad6679",
+    "key": "64f9f2172d361300183ea0fd",
+    "classNotesCode": "e484f182-be53-4256-8524-a002fa144d14.pdf",
+    "dppsPdfCode": "a0cf6692-b1c8-4fb0-8c5e-1748b4e45815.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Alternating Current 02 : Questions on...",
+    "lectureCode": "14503470-2ebd-4c37-a307-7b349051d90f",
+    "extId": "64f78a918ec23900186ea7bb",
+    "key": "64f93dd4457ece00180ecaa4",
+    "classNotesCode": "70cad74c-371b-4c9b-b6ad-aa22b5c8436d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Alternating Current 01 : Mutual Induc...",
+    "lectureCode": "eccb6dcc-e70d-4695-b675-b1310592f479",
+    "extId": "64f5cea264deb10018a766c5",
+    "key": "64f5fb5b3c1fcd0018847e49",
+    "classNotesCode": "f86a788a-633b-462b-91b5-63f8c697bf6a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

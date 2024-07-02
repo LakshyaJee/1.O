@@ -1,0 +1,142 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Human Reproduction 14 : Pregnancy || ...",
+    "lectureCode": "2944c533-55fa-487f-99e3-5e63b0784e0a",
+    "extId": "64628bce3041d30019c6f8d7",
+    "key": "6463799ac7e3200018c6d38e",
+    "classNotesCode": "901010a5-fe93-4c29-bc42-f6aec0506d64.pdf",
+    "dppsPdfCode": "0da4e5c4-b65c-44c7-abb1-1d6574744487.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Human Reproduction 13 : Cleavage || I...",
+    "lectureCode": "55b2b0e5-65b9-48ad-9785-b5625efec5cc",
+    "extId": "64612aebe9237f0018949f41",
+    "key": "6462596756e4940018a10ba5",
+    "classNotesCode": "17d0ceb4-dabc-4125-8fe8-4cf8e4013596.pdf",
+    "dppsPdfCode": "b4a8b6a1-cc1d-4d26-ada7-1d519f8c1934.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Human Reproduction 12 : Cleavage || I...",
+    "lectureCode": "cd61de7c-e4e1-4dc3-aaa4-37340e94e076",
+    "extId": "6459301e8635460018412060",
+    "key": "645a3e53ecaefc0018804010",
+    "classNotesCode": "8daad471-9507-4753-a806-ba826bb5d9b0.pdf",
+    "dppsPdfCode": "2c3faf7c-d584-4667-9507-693935e4044a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Human Reproduction 11 : Fertilization...",
+    "lectureCode": "dd3994cd-8b19-43f7-abd3-fc84609e2136",
+    "extId": "644f680bc1e7bf001850d703",
+    "key": "6458ec5fdc77730018dab2a4",
+    "classNotesCode": "70e999a2-a190-429b-9869-6389c2bec40f.pdf",
+    "dppsPdfCode": "f13d0c32-7469-4c86-a187-3013dc3f5490.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Human Reproduction 10 : Menstrual Cycle",
+    "lectureCode": "58270fee-f58e-449c-a354-10d035d4f820",
+    "extId": "64500924c6159700186fa125",
+    "key": "645134f7c233580018f6388e",
+    "classNotesCode": "a33684e2-5a8c-4a73-99c4-aa3bb8565976.pdf",
+    "dppsPdfCode": "5650595b-e558-42ea-9503-5f27d0e00027.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Human Reproduction 09 : Oogenesis || ...",
+    "lectureCode": "cce0d105-bc04-477c-95b6-f2a099b8f2f4",
+    "extId": "644ec40456df550018150bb2",
+    "key": "644fdabbba87ff0017585891",
+    "classNotesCode": "b31e6fb6-7e34-43f0-bed5-bb18f1577a39.pdf",
+    "dppsPdfCode": "aa029e93-2206-4f6e-a293-854ed2f87ff7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Human Reproduction 08 : Oogenesis || ...",
+    "lectureCode": "5848e7bd-4516-418c-9a81-5ce1a1cdc5c4",
+    "extId": "64479a3177123a0018fcb6ae",
+    "key": "6447f6acc647ce0018d5af4b",
+    "classNotesCode": "3f6cab8e-c4fa-4e78-9607-9595b24df513.pdf",
+    "dppsPdfCode": "c3c383d2-38ca-4de9-89ab-244ac1cca2cd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Human Reproduction 07 : Mammary Gland...",
+    "lectureCode": "ca59f016-8a69-46fb-bdc6-817ace3725e7",
+    "extId": "64458e9df235a90018737d4a",
+    "key": "6446b0847f34650018d3e300",
+    "classNotesCode": "d4d16194-6337-4064-afb3-b1b73fcf7ad8.pdf",
+    "dppsPdfCode": "bf3a0fc2-05cd-4fe9-964e-4b659bc23b6d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Human Reproduction 06 : Female Reprod...",
+    "lectureCode": "2bf9d625-24fd-41f4-b040-27377588b902",
+    "extId": "643d9056d1cbe6001878d9dd",
+    "key": "643ebe1bfa1548001880f3ec",
+    "classNotesCode": "17a261a1-db63-43ea-9132-ce780d2b2317.pdf",
+    "dppsPdfCode": "0de8412c-80f7-4d35-86b4-ad0ea08935c0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Human Reproduction 05 : Sperm Structu...",
+    "lectureCode": "87757432-06a3-498b-ae7c-46d0b0dbda27",
+    "extId": "643c121c2c22d50018d97c39",
+    "key": "643d6901220b78001a6f2d14",
+    "classNotesCode": "ea890898-fdbd-441e-9e17-164eea57c768.pdf",
+    "dppsPdfCode": "e775b9eb-6f0b-4dfa-8f54-8edbb0cd80ea.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Human Reproduction 04 : Spermatogenesis",
+    "lectureCode": "1720c55c-9d93-43cd-9959-a0cb091b6654",
+    "extId": "64344bba87da120018f914f6",
+    "key": "643577287084ce0018483cf9",
+    "classNotesCode": "c212074a-b428-45c0-9620-9e295f8f2252.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Human Reproduction 03 : Accessory Gla...",
+    "lectureCode": "c862d2b4-5be9-407e-b227-e8e2a89f9732",
+    "extId": "64338bd94a5b810018dd27cf",
+    "key": "6434373b13396b0018de7827",
+    "classNotesCode": "74e5f02f-6d01-492d-a1da-c3699383e7b5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Human Reproduction 02: Male Reproduct...",
+    "lectureCode": "bcb1128e-6fe6-42b5-90bb-7b5db69af789",
+    "extId": "642b1ad6e02784001803a62d",
+    "key": "642c3a043e0bdb0018b382c1",
+    "classNotesCode": "e09d8150-fcb3-4a15-abd7-c68c82165202.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Human Reproduction 01 : Introduction ...",
+    "lectureCode": "44311ab2-68e3-4595-801e-dd35eb293c31",
+    "extId": "6429d24adff3340018314bca",
+    "key": "642aeb6652c037001889225b",
+    "classNotesCode": "4694e749-04ee-4735-a74c-f1a8c0344b09.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

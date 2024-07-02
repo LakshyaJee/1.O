@@ -1,0 +1,92 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Solid State 09 : Electrical and Magne...",
+    "lectureCode": "d3c2324c-6b97-465d-94c8-2e98de4f0cc2",
+    "extId": "648f63232b01bc00185a4882",
+    "key": "649039101308e2001894abbc",
+    "classNotesCode": "3d205fbe-de63-42d0-8bd0-65bbce7d19ae.pdf",
+    "dppsPdfCode": "8d32a62f-4431-44b5-aa71-d77f0f1bc9ee.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Solid State 08 : Defects || Electrica...",
+    "lectureCode": "042658d4-cb60-40cf-919f-7bf64556f57e",
+    "extId": "6488e79be2445700188fd9e4",
+    "key": "6489ad5f776da3001881cb03",
+    "classNotesCode": "4d43f616-a12c-41cb-b3c2-5b0b208538e6.pdf",
+    "dppsPdfCode": "5b9bc036-28d1-4e45-910d-62f3c2ea9926.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Solid State 07 : Crystal System and P...",
+    "lectureCode": "747823e7-61d4-46ba-9b2e-538e7183823c",
+    "extId": "648795bac11a8600180a8e92",
+    "key": "64888d7c17f6d70018cc3a80",
+    "classNotesCode": "cb24c299-ea1c-48bb-b7fa-dbb359afd59a.pdf",
+    "dppsPdfCode": "a36fc39a-fb35-438f-a642-0bc2631c3bf5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Solid State 06 : Some Important Ionic...",
+    "lectureCode": "b200a246-8437-47a1-9753-ac1ac1e54306",
+    "extId": "6486251071c6f70018f4e414",
+    "key": "64873955f0b5cb00186d8f43",
+    "classNotesCode": "748ca377-8a4d-4bbb-8795-02546457597f.pdf",
+    "dppsPdfCode": "a0cec665-abe6-49d8-898a-ae89823d22da.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Solid State 05 : Voids and Radius Rat...",
+    "lectureCode": "88b19f7e-b8d5-46bf-bc3e-d0c0a53a2df9",
+    "extId": "647fa89be5490c001856286b",
+    "key": "64807e1608a86e00188eaa77",
+    "classNotesCode": "0c085f20-b972-4c39-92cf-dab910d61057.pdf",
+    "dppsPdfCode": "14b83ff4-1171-47e6-99e2-9383bf539c9c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Solid State 04 : Closed packing in 1D...",
+    "lectureCode": "6f741c03-443c-4782-8aa1-be8ab08705cd",
+    "extId": "647e46c4e02f1e0018bd35d7",
+    "key": "647f55c3d543380018a8af96",
+    "classNotesCode": "fa4766b5-e1fd-4a11-be0e-8a201ec94731.pdf",
+    "dppsPdfCode": "2b6f9b7f-a4ce-4d92-aab9-7e813390ec35.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Solid State 03 : Density of Crystal |...",
+    "lectureCode": "647dfb089084f90017ff7747",
+    "extId": "647cf7340c93780018f2b662",
+    "key": "647dfb089084f90017ff7747",
+    "classNotesCode": "80a960e9-c1bd-4824-80a1-eacf5797c3b3.pdf",
+    "dppsPdfCode": "cfeccddc-7a1d-4c29-85ea-224655dc305d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Solid State 02 : Types of Unit Cells",
+    "lectureCode": "1d5d3a81-63dd-47c6-b343-18d33c249d17",
+    "extId": "64766992940d570018ea7aa3",
+    "key": "647769dc06ba59001880c34c",
+    "classNotesCode": "702e93d8-8bb6-4c4c-9fa0-ada9b307f299.pdf",
+    "dppsPdfCode": "9dbb93e5-c911-461a-8dd8-e71ea45adaa7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Solid State 01 : Types of Solids",
+    "lectureCode": "1576dcbe-bf97-4b17-a2cc-62c60fc1a48f",
+    "extId": "6474f248423dbc00180e9b13",
+    "key": "64760808e05fbe0018feefbb",
+    "classNotesCode": "996c13c3-4e70-4b8a-b1bc-5053f0929964.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

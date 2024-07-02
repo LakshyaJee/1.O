@@ -1,0 +1,612 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Semiconductors : NCERT Discussion Part 2",
+    "lectureCode": "d2fa1cb8-8b2c-4971-a052-fbdbba9361dc",
+    "extId": "6581b7348810c60018424ac9",
+    "key": "656dc10cd416c000186493cd",
+    "classNotesCode": "0022a1e6-0a6c-4ead-ac84-64badfcd0210.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Semiconductors : NCERT Discussion Part 1",
+    "lectureCode": "02b4075e-db95-406b-accb-e2019d1756df",
+    "extId": "6581b6e8a2877f00180b6796",
+    "key": "656dbf301c1ef40018dd5f6d",
+    "classNotesCode": "f116848b-2f9a-4189-ac9a-c5a20cc1be2b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Nuclear Physics : NCERT Discussion (P...",
+    "lectureCode": "8241cfe9-dfe2-4b27-86e2-d4cd01fc6e82",
+    "extId": "65573ced5075170018c7fe63",
+    "key": "65571c243eabf200188cf92e",
+    "classNotesCode": "9ef6a07b-e260-4745-ae27-db92102e8726.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Nuclear Physics : NCERT Discussion (P...",
+    "lectureCode": "105592e8-733c-4709-add8-a5b8c8f21896",
+    "extId": "65573cd63eabf200188e8720",
+    "key": "655729792c64b5001869519b",
+    "classNotesCode": "98750c19-9d79-49a7-b4d9-0add759468ef.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Atomic Physics - 01 : Theory Session ...",
+    "lectureCode": "bbc923d8-f70e-4ec9-8fed-0d3ffe79561c",
+    "extId": "65490debee5cc30018194473",
+    "key": "65462c205494f90018a557fe",
+    "classNotesCode": "40b71b51-6253-4401-977d-61c8265e40cb.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Dual Nature of Radiation and Matter :...",
+    "lectureCode": "c1baab81-28e9-48f6-a173-d0a8f93f43eb",
+    "extId": "6544ac19f4272300183721b7",
+    "key": "65436aaa6877b6001883d2ad",
+    "classNotesCode": "a12eab6d-a7d0-4c8b-ac1d-4e5f88398fd7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Dual Nature of Radiation and Matter :...",
+    "lectureCode": "acaa4c63-f73d-44c0-8374-59b64d5d32ff",
+    "extId": "6544abe6d30ecb00180c1a4f",
+    "key": "65436a653d58f70018eede37",
+    "classNotesCode": "fd01e99c-d097-4513-8f1e-38f75358d994.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Ray Optics and Optical Instruments : ...",
+    "lectureCode": "50c46103-56c4-4528-b47a-ae45b4936b42",
+    "extId": "6527f9f49d737d001879b058",
+    "key": "6527bd90af6ae20018ea2a07",
+    "classNotesCode": "ff42479b-66c7-4638-bbc2-3e07e79b3ec6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Electromagnetic Induction : NCERT Dis...",
+    "lectureCode": "a0c43709-3ca4-4a07-83da-ca630ef57788",
+    "extId": "650a1d063095c4001866726a",
+    "key": "650537f4c96e400018e5a817",
+    "classNotesCode": "f7808184-c354-44a6-8fd5-ff3550d2a898.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Electromagnetic Induction : NCERT Dis...",
+    "lectureCode": "791faf51-935f-4dfa-92bb-3407023b43a1",
+    "extId": "650a1cf12502de0018e156dc",
+    "key": "6505370fa551450018e2f1da",
+    "classNotesCode": "4f6ca92f-c2a4-48e7-8ec8-f27635c751f5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Magnetism and Matter : NCERT Discussi...",
+    "lectureCode": "c9443896-9420-454e-9a28-8c2886550858",
+    "extId": "64dcd372badb000018f458cc",
+    "key": "64dc6eeedd23b50018dbc421",
+    "classNotesCode": "8ba13dd0-5b9b-4703-ae93-7c2d5a78d369.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Magnetism and Matter : NCERT Discussi...",
+    "lectureCode": "b05942bf-2ab0-4937-8321-c7bc0f5c8314",
+    "extId": "64dcd34a561ccf001865abda",
+    "key": "64dc6ea7dd23b50018dbc3df",
+    "classNotesCode": "104a82fa-f65c-47fe-923a-e4d09c3bffce.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Moving Charges and Magnetism : NCERT ...",
+    "lectureCode": "f7923256-9513-4c82-884c-c659f8182fa1",
+    "extId": "64ce06a1586e210018b52e2e",
+    "key": "64cd3337e76b650018b62d5a",
+    "classNotesCode": "b14345c1-7b1a-47fa-9008-f9f5af51e89c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Moving Charges and Magnetism : NCERT ...",
+    "lectureCode": "b6c4150e-d728-4804-9037-63ffbdbd7dd0",
+    "extId": "64ce0665b042940018ce7cc5",
+    "key": "64cd32a2c701b90018ff7a95",
+    "classNotesCode": "7e69c357-67ff-4c40-a6f8-ca27b40c4a32.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Current Electricity : NCERT Discussio...",
+    "lectureCode": "78daab45-7bfc-4878-aead-95615b46c10d",
+    "extId": "64b2619948684f0018dbda39",
+    "key": "64b23e43555ec80018712631",
+    "classNotesCode": "0b319fd6-151a-48bb-b849-b82e9b5e6b8b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Electrostatic Potential and Capacitan...",
+    "lectureCode": "683138dd-b0f9-4c02-b46d-8f367c8f95f8",
+    "extId": "6482ccf74ed3810018b974c5",
+    "key": "64823c2cce514500183def1e",
+    "classNotesCode": "cfb01ab1-4d7a-4893-9663-10b1ba029190.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Electric Charges and Field : NCERT Di...",
+    "lectureCode": "bb88a46d-faeb-4445-aedb-154c8feacc52",
+    "extId": "6467b6a676ec3100183137a4",
+    "key": "64661f9d3983b10018a823b5",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Electric Charges and Field : NCERT Di...",
+    "lectureCode": "34ca3abb-18cf-46af-a801-5fd2b601b9a2",
+    "extId": "6467042540c8e30018267917",
+    "key": "64661ed5340bd40018fd0baf",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Surface Chemistry : NCERT Discussion ...",
+    "lectureCode": "b6a38dfb-6f28-4b04-8287-3bb35925f4a8",
+    "extId": "64a6480949e79d001945bcfb",
+    "key": "649f4558ce2b560019f3df69",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "Surface Chemistry : NCERT Discussion ...",
+    "lectureCode": "ebd753c2-0b7c-43d5-92c4-b5c19576b38d",
+    "extId": "64a647b1e58cbc0018d98ad6",
+    "key": "649f434b4d0f2d00180dde21",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "Solid State : NCERT Discussion (Part-...",
+    "lectureCode": "55f0d979-59a4-46bc-a1d8-7186dd6c8c16",
+    "extId": "6490b6d6801d040018b756c5",
+    "key": "6490b886c17785001804c651",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "Solid State : NCERT Discussion (Part-...",
+    "lectureCode": "dab8a96c-e664-477d-893e-27177c78939c",
+    "extId": "6490b6ba97aaa20018ee9af4",
+    "key": "6490b93297aaa20018ee9bbf",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 23,
+    "lectureName": "Electrochemistry : NCERT Discussion (...",
+    "lectureCode": "3a55fb01-7ae8-4f11-b74b-7322e7b5f02c",
+    "extId": "6479925bd69b710018bf45f9",
+    "key": "6475a53a70ede4001884d4aa",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 24,
+    "lectureName": "Electrochemistry : NCERT Discussion (...",
+    "lectureCode": "fbffd34d-08ac-470d-a759-066d568ab490",
+    "extId": "64799228713fd40018344474",
+    "key": "6475ab2aeba39600186981c4",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 25,
+    "lectureName": "Chemical Kinetics : NCERT Discussion ...",
+    "lectureCode": "f07a561d-28ea-429c-8e19-d0df7514bf2b",
+    "extId": "6469e29733ff800018f014a3",
+    "key": "6466217312765c00189a2902",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 26,
+    "lectureName": "Chemical Kinetics : NCERT Discussion ...",
+    "lectureCode": "2a94a06e-fc7e-45b1-a8e0-c68264a8b474",
+    "extId": "6469e2818148a100186cf8be",
+    "key": "646620c3fde1e00018efa612",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 27,
+    "lectureName": "Solutions : NCERT Discussion (Part-02...",
+    "lectureCode": "d8e600af-2c3a-4f6c-81df-9072920c2b0f",
+    "extId": "6467b7331fdf06001853a990",
+    "key": "64662265db71bc00180f034c",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 28,
+    "lectureName": "Solutions : NCERT Discussion (Part-01...",
+    "lectureCode": "d7eeeff2-07f8-4e28-88ad-d9bafdac1a31",
+    "extId": "646703831dbc4e001800f820",
+    "key": "646621e93d2a5500182aedbb",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 29,
+    "lectureName": "Organisms and Population - 01 : NCERT...",
+    "lectureCode": "56456ab6-6897-4a14-b6da-a533bd71b657",
+    "extId": "654909df61ba5a00183d392b",
+    "key": "6548a86f7522a900183abe29",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 30,
+    "lectureName": "Organisms and Population 01 : Theory ...",
+    "lectureCode": "034bd5a4-929f-4eba-8dc5-c9c4568ee046",
+    "extId": "65490987680ade0018efae57",
+    "key": "6548a73b7522a900183a9c37",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 31,
+    "lectureName": "Ecosystem : NCERT Discussion",
+    "lectureCode": "ff82280a-fc1a-4a74-8e90-5a41a0c3adca",
+    "extId": "65367472217ab50018c91d3a",
+    "key": "65364ff8217ab50018c6c7b1",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 32,
+    "lectureName": "Microbes in Human Welfare : NCERT Dis...",
+    "lectureCode": "0adcad73-5eb1-4419-acb1-c29a77e913a9",
+    "extId": "652807051269c20018c0c3a8",
+    "key": "6527c69eaf6ae20018ea7e4f",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 33,
+    "lectureName": "Molecular Basis of Inheritance : NCER...",
+    "lectureCode": "26b649b1-ac15-4054-ab53-c185714dfc0e",
+    "extId": "650c54e05b16b00018cf245c",
+    "key": "650c14460fa5fd0018cb82cd",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 34,
+    "lectureName": "Molecular Basis of Inheritance : NCER...",
+    "lectureCode": "ec2c1f72-60d3-4159-aec5-e6c246f4d333",
+    "extId": "650c54ae5017b7001824f19e",
+    "key": "650c141a36df1600181855e4",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 35,
+    "lectureName": "Principles of Inheritance and Variati...",
+    "lectureCode": "b0a0ff16-5adb-476c-8a75-6da8b73ad7ec",
+    "extId": "64b9fb2cb7d4e90018634cb0",
+    "key": "64b98de30de8590018f672bd",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 36,
+    "lectureName": "Principles of Inheritance and Variati...",
+    "lectureCode": "b15b4698-33bf-42cc-9687-68563abb4332",
+    "extId": "64b9fabfba44540018484b00",
+    "key": "64b98c959f82730018c088b1",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 37,
+    "lectureName": "Sexual Reproduction in Flowering Plan...",
+    "lectureCode": "d9b1f11c-608a-4b7d-93bb-715364da3dd5",
+    "extId": "6467b6ebb1f93700182f1cdd",
+    "key": "6466238c3983b10018a82835",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 38,
+    "lectureName": "Sexual Reproduction in Flowering Plan...",
+    "lectureCode": "ecb6d536-1c31-44ad-b570-3800f649a4ce",
+    "extId": "6467025f7c58930018ba6556",
+    "key": "6466232d12765c00189a2af5",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 39,
+    "lectureName": "Evolution : NCERT Discussion (Part 02)",
+    "lectureCode": "d6620892-27d9-47fd-b2bd-3066f91513f5",
+    "extId": "6573350192ec5b0018ff00c6",
+    "key": "656e05fead66b700182d7bee",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 40,
+    "lectureName": "Evolution : NCERT Discussion (Part 01)",
+    "lectureCode": "876410f4-bdd0-42fa-bc39-2065fb581463",
+    "extId": "657333d465cd210018ae1947",
+    "key": "656e07a86e36f1001883a728",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 41,
+    "lectureName": "Biotechnology and Its Applications : ...",
+    "lectureCode": "385679ec-6160-45fe-a405-98c0f165864f",
+    "extId": "64feb853a7ce0b00188736fc",
+    "key": "64fe96180e17750018420416",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 42,
+    "lectureName": "Biotechnology - Principles and Proces...",
+    "lectureCode": "6a42e977-e532-4182-888c-4d0d059aa209",
+    "extId": "64e4b2f5f183570018dfea06",
+    "key": "64e4716679308c0018d4f6ea",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 43,
+    "lectureName": "Biotechnology - Principles and Proces...",
+    "lectureCode": "2e50f017-fc2c-4359-b055-4aae0b5034af",
+    "extId": "64e4b2b7d7679a0018e4b80e",
+    "key": "64e47143f95e790018049fe1",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 44,
+    "lectureName": "Human Health & Diseases : NCERT Discu...",
+    "lectureCode": "1b3a14a3-b810-4387-97a0-ae339337abde",
+    "extId": "64b7a7ddef06080018adc4fa",
+    "key": "64b6a0b5d5d83400182c5558",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 45,
+    "lectureName": "Reproductive Health : NCERT Discussio...",
+    "lectureCode": "3479373a-bf58-40e3-b489-a8859eee1321",
+    "extId": "64882cf9cf7255001865e3b6",
+    "key": "648796fcc11a8600180a8ea6",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 46,
+    "lectureName": "Reproductive Health : NCERT Discussio...",
+    "lectureCode": "37bb32d3-1d10-46a1-a823-d3f9deabc695",
+    "extId": "64882cd3377a1f001868ed6a",
+    "key": "648799ae03e4b4001854d492",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 47,
+    "lectureName": "p block NCERT Punch part 3",
+    "lectureCode": "a5a619ca-20d5-4350-98c4-986dcafaab30",
+    "extId": "6585b70b8b162b0018cd98b7",
+    "key": "657621b223ae110018c752c6",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 48,
+    "lectureName": "p block NCERT Punch part 2",
+    "lectureCode": "b830b4c4-dfc7-4d1e-9719-66e41aed76e0",
+    "extId": "6585b6e9d95ced0018125091",
+    "key": "6576200e762f39001886f7e4",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 49,
+    "lectureName": "p block NCERT Punch part 1",
+    "lectureCode": "dd8ccd58-ad27-44d1-82cd-3f22a512c4fe",
+    "extId": "6585b6b7d95ced0018125019",
+    "key": "65761dbb99660f0018e380de",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 50,
+    "lectureName": "d & f Block : NCERT Discussion (Part 02)",
+    "lectureCode": "42e2de82-13e6-46b8-8c58-10e50499715c",
+    "extId": "655c567c33298c00182b92bc",
+    "key": "655c4b2c6cbb630018b0a7cf",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 51,
+    "lectureName": "d & f Block : NCERT Discussion (Part 01)",
+    "lectureCode": "777a32a8-ebf6-4d15-afe3-734168a89c23",
+    "extId": "655c565c43c07b0019b6c257",
+    "key": "655c4a33f872820018e16092",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 52,
+    "lectureName": "Coordination Compounds : NCERT Discus...",
+    "lectureCode": "9dff03b7-3ece-482e-bfbe-2d4410243c79",
+    "extId": "6549f772cc989d0018053970",
+    "key": "6549e1207fb1df0018fc2ff9",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 53,
+    "lectureName": "Biomolecules : NCERT Discussion (Part...",
+    "lectureCode": "3d23d9e8-83ba-4be5-aa7f-88def9bbf025",
+    "extId": "6525b5bd80ec7100186b6de6",
+    "key": "6525b63b976e4f0018715785",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 54,
+    "lectureName": "Biomolecules : NCERT Discussion (Part...",
+    "lectureCode": "7b0e3ce7-8f5f-46d8-a628-1c6691fa582a",
+    "extId": "6525b5a7abe2950018ccf4b8",
+    "key": "6525b6dd976e4f00187157af",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 55,
+    "lectureName": "Amines - Nitrogen Containing Function...",
+    "lectureCode": "05168042-e975-45ed-9815-437071816fab",
+    "extId": "651e5982f5e1e200183a56bb",
+    "key": "651c8d1cee29a2001869b07d",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 56,
+    "lectureName": "Aldehyde, Ketones & Carboxylic Acids ...",
+    "lectureCode": "18b2032f-7814-45f3-8816-f44563aa73b2",
+    "extId": "65129d976a003500182bf311",
+    "key": "651291903ea40e0018ccaf7e",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 57,
+    "lectureName": "Aldehyde, Ketones & Carboxylic Acids ...",
+    "lectureCode": "7fd13790-bb53-4aad-bfb0-fc503e24e1eb",
+    "extId": "65129d6ce98c200018248e6b",
+    "key": "6512911af6556b00189a70a8",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 58,
+    "lectureName": "Alcohol, Phenol and Ether : NCERT Dis...",
+    "lectureCode": "9c136fb7-16de-45f3-b837-04c3bf19f753",
+    "extId": "64f322d4467f6d0018b87952",
+    "key": "64f3097bfb60a6001813aea1",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 59,
+    "lectureName": "Alcohol, Phenol and Ether : NCERT Dis...",
+    "lectureCode": "1bd112c1-dbf5-4cbb-9ded-de09c1c89dbd",
+    "extId": "64f32243467f6d0018b878d7",
+    "key": "64f30882217acc0018d4da76",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 60,
+    "lectureName": "Haloalkanes and Haloarenes : NCERT Di...",
+    "lectureCode": "fe1f8405-9588-4307-b400-a661e011bf52",
+    "extId": "64cb497a1cc40300191e3a3e",
+    "key": "64ca47015cf41e0018295ef2",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 61,
+    "lectureName": "Haloalkanes and Haloarenes : NCERT Di...",
+    "lectureCode": "c407efe6-3a20-458c-80c6-3973d8970832",
+    "extId": "64cb495ded88cd001806d12b",
+    "key": "64ca46232f26140018c650e3",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Surface Chemistry 04 : Purification P...",
+    "lectureCode": "09fd1fe1-94e2-4d74-b92f-8465523a6d0c",
+    "extId": "6499cf09b3a31e001841676e",
+    "key": "649b37e1bb51790018ed8508",
+    "classNotesCode": "ff39ad46-cddb-4906-99a9-ffaca4209d2e.pdf",
+    "dppsPdfCode": "d5cbb43b-4ab6-4416-a22d-16b029a97965.pdf",
+    "dppsSolutionCode": "b9e4c29d-e965-4b17-8ecb-e3a1dbb78df4"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Surface Chemistry 03 : Classification...",
+    "lectureCode": "9f6428b3-c274-4bd5-a24c-ebde8ec21f20",
+    "extId": "64987b7e789c8c00187ae187",
+    "key": "6499bbb805b7530018ef6933",
+    "classNotesCode": "e3ce1204-a15f-4de8-97f1-1c933d9254b2.pdf",
+    "dppsPdfCode": "634927d6-103a-4e51-9745-8a3714527c7f.pdf",
+    "dppsSolutionCode": "de465cf6-7512-4605-af86-722bb7eb5d1d"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Surface Chemistry 02 : Catalysis",
+    "lectureCode": "6938cd8d-8156-4506-a04b-c4438d306c95",
+    "extId": "6492138564c60c0019c6722d",
+    "key": "6492fb7b12695e00186e98a7",
+    "classNotesCode": "2e7546c9-4f79-4a0e-ae8f-11e6b3e6c3c7.pdf",
+    "dppsPdfCode": "a416129a-60cf-4b26-a102-d12bc6a77dfc.pdf",
+    "dppsSolutionCode": "011ae7d4-32df-43bf-8ecb-aa97ddc8363d"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Surface Chemistry 01 : Adsorption",
+    "lectureCode": "b6fc7581-66c8-4241-b687-a8680d56c839",
+    "extId": "6490b641801d040018b756c1",
+    "key": "6491d233bd35d700184816b4",
+    "classNotesCode": "0397c2d5-3e3b-491b-b036-923869be360d.pdf",
+    "dppsPdfCode": "def1966f-8078-4ed7-b7b5-ccde233174e1.pdf",
+    "dppsSolutionCode": "9cca0fea-05e6-4adc-8ea1-8cc2c2dfad3c"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Surface Chemistry Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "572230c7-86e3-434a-b55a-3a97b66cc835.pdf",
+    "dppsPdfCode": "bb5f9c15-60c3-4634-8688-f1d8a6de0a47.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Surface Chemistry Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "abd4236d-e3cf-45c4-b085-95bbf5163742.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Surface Chemistry Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "572230c7-86e3-434a-b55a-3a97b66cc835.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Surface Chemistry Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "4b98de4b-d2c3-4f19-bcda-5b85226e5d1e.pdf",
+    "dppsSolutionCode": ""
+  }
+]

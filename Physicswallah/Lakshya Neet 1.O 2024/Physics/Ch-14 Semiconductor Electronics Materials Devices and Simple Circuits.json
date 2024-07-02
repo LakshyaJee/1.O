@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Semiconductor Electronics Materials, ...",
+    "lectureCode": "037d3bed-f7e9-44d6-98bf-413bc6eb121a",
+    "extId": "656645146bd68d00189122e6",
+    "key": "65675ef4b67f4800183b7da3",
+    "classNotesCode": "e0271c58-b762-4fb3-bba0-43002de2a32f.pdf",
+    "dppsPdfCode": "31080ae6-6154-48e2-bf01-bd0bfe7362ae.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Semiconductor Electronics Materials, ...",
+    "lectureCode": "394d508b-7537-4bba-ad07-bb7172067c6f",
+    "extId": "65601f4b65f3b30018cef0d6",
+    "key": "6560c42d2934f6001896f898",
+    "classNotesCode": "dd49704f-2671-44aa-8f64-adadf5ee895a.pdf",
+    "dppsPdfCode": "a63d29ac-00cc-4109-b176-612c75280591.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Semiconductor Electronics Materials, ...",
+    "lectureCode": "8083339b-45dc-4358-a68d-3f64bf2fcc3b",
+    "extId": "655d16829f47840018b06f15",
+    "key": "655e1cd8327e400018be6e25",
+    "classNotesCode": "2ca4d2bd-afa3-4123-a468-1fa17a3e0cf2.pdf",
+    "dppsPdfCode": "0b688a88-c1b5-4ce6-ad5a-52f59f56f488.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Semiconductor Electronics Materials, ...",
+    "lectureCode": "4d6b188c-0452-4220-aac4-b617547bf742",
+    "extId": "655674b91213e700186e2fa3",
+    "key": "65578d6539ad9500181133f4",
+    "classNotesCode": "79d929c6-2c67-4b08-bfb1-ed431c73f453.pdf",
+    "dppsPdfCode": "a52e4ea2-8629-4094-a97c-72a14bc22c9e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Semiconductor Electronics Materials, ...",
+    "lectureCode": "dde2e80e-a446-4ac8-834d-6d8cda77d0a8",
+    "extId": "655524747d0b610018fe9811",
+    "key": "655632d2cd38d90018ee343f",
+    "classNotesCode": "7b9fcac5-865d-427c-972c-8a78d04382ac.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

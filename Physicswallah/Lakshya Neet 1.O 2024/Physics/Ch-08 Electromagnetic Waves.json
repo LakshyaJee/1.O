@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Electromagnetic Waves 03 : Energy Den...",
+    "lectureCode": "5df9995a-3046-4d39-874b-441fb1e6303b",
+    "extId": "65036928ce6b840018e9a649",
+    "key": "650489eafc67570019287e6e",
+    "classNotesCode": "fae0ff6c-7380-4ce9-9cdd-f961b1cae5f1.pdf",
+    "dppsPdfCode": "325d3ca2-1034-4c0c-8016-864387e0f2e0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Electromagnetic Waves 02 : Maxwell's ...",
+    "lectureCode": "ef425f40-fb27-4c5b-874a-a6a07fd89494",
+    "extId": "650201d8cd323c0018f9d163",
+    "key": "650324856c03340018c59263",
+    "classNotesCode": "91c75a8d-0e16-41f1-8dd4-ef285b13960c.pdf",
+    "dppsPdfCode": "2a1139f5-4656-4dd1-bac6-8d0a23f71ea7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Electromagnetic Waves 01 : LC Oscilla...",
+    "lectureCode": "06373df9-3e0b-402e-940c-871a6e759bc1",
+    "extId": "6500bedbe9db920018dfea6e",
+    "key": "6501d725041c330012a13d3d",
+    "classNotesCode": "89633f56-4311-463d-922a-ee971ca41803.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

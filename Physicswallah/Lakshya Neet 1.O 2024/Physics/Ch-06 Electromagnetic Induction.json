@@ -1,0 +1,92 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Electromagnetic Induction 09 : Discha...",
+    "lectureCode": "441f005c-1caa-4c76-89c2-fab117bbe61d",
+    "extId": "64f23a8e91a3e70018ad3342",
+    "key": "64f59718f694830018816e1b",
+    "classNotesCode": "672ad143-5b14-4013-b895-6010fad18935.pdf",
+    "dppsPdfCode": "4b8f48c7-17f2-45c3-9de6-f8c88edae8aa.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Electromagnetic Induction 08 : DC || ...",
+    "lectureCode": "e2e70106-5bc0-48ad-aa7c-f17021859f94",
+    "extId": "64f0f091a684560018fcb49a",
+    "key": "64f20400e28497001860ffd6",
+    "classNotesCode": "f18a84ae-b368-4e3b-9c85-7775aa94ead3.pdf",
+    "dppsPdfCode": "42800d09-7faf-4d61-8ae9-8e60afb0070c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Electromagnetic Induction 07 : AC Gen...",
+    "lectureCode": "67d392b9-5df8-4e49-9612-aca4663114da",
+    "extId": "64ef99ca1ef12a0018b618d7",
+    "key": "64f0a9b0768de60018a7e291",
+    "classNotesCode": "ea81f53a-a5fa-40bd-9b02-e08a605c1500.pdf",
+    "dppsPdfCode": "64046337-87f9-40a6-84b1-bede71f8c04e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Electromagnetic Induction 06 : Induce...",
+    "lectureCode": "82fd55b0-9301-4226-8084-04ba78db35b8",
+    "extId": "64e8f6dc8e2775001873646b",
+    "key": "64ea1d39cdcf5f0018e6f545",
+    "classNotesCode": "4f93dcc4-fcd2-4372-b522-07b8cb1701b1.pdf",
+    "dppsPdfCode": "a1dce6f2-cbbc-4ec4-ad44-e32838ec5a59.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Electromagnetic Induction 05 : Rotati...",
+    "lectureCode": "8b921c3f-a337-4791-9c69-50fe52fe6e33",
+    "extId": "64e5157089bcae00189f4d6c",
+    "key": "64e6d9223a27d20019d79959",
+    "classNotesCode": "388200ee-8f0e-4169-b0cd-7e6aa2d2768e.pdf",
+    "dppsPdfCode": "1260080d-2a32-4c4f-99c1-a25da796076f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Electromagnetic Induction 04 : Hall E...",
+    "lectureCode": "c6449b16-a421-4895-9564-e03faee884d1",
+    "extId": "64dfe0ff39af840018beb905",
+    "key": "64e0de381382d100185cf22d",
+    "classNotesCode": "4a6e56f9-604d-407b-987e-1fe7e0066a00.pdf",
+    "dppsPdfCode": "9c59dbb5-330b-49ec-94ec-c4c4bdc94b6f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Electromagnetic Induction 03 : Farada...",
+    "lectureCode": "7bc86d4e-9e26-45b0-9a71-2a6e50118a15",
+    "extId": "64de82414cf67e0018ccf1ed",
+    "key": "64df9b6f3ef2350018d35ef9",
+    "classNotesCode": "2d97c064-8c12-42f2-9355-f90937cc424a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Electromagnetic Induction 02 : Questi...",
+    "lectureCode": "98fe3837-21bf-45a4-aab8-a55b3b15206f",
+    "extId": "64dd2ed7dd00e60018cc71b9",
+    "key": "64de217dc43b020018c2729d",
+    "classNotesCode": "5b525ac4-4e59-4e7c-84a2-5d46e65d234b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Electromagnetic Induction 01 : Magnet...",
+    "lectureCode": "3de5f9ee-39c3-4247-ab31-3de38b1ee97f",
+    "extId": "64dbeab7a314e400183bc3cc",
+    "key": "64dcf1d103fd910018cd50f8",
+    "classNotesCode": "49daaf20-5359-4864-bf5c-9575f9459b5c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

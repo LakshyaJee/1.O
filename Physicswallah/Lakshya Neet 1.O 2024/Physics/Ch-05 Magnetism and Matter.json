@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Magnetism and Matter 05 : Properties ...",
+    "lectureCode": "c717e881-db21-4b3f-b972-0c0fe726a647",
+    "extId": "64d6a3b95e15ec001897e91f",
+    "key": "64d7abb6e3aa550018862f21",
+    "classNotesCode": "b518ab58-e5a5-4a0a-a935-88c258688f79.pdf",
+    "dppsPdfCode": "e369a752-1d8c-4fb3-8c32-0626c3c8258f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Magnetism and Matter 04 : Neutral Poi...",
+    "lectureCode": "8bd1e3e9-3fe1-4a86-a82c-9c50f534d589",
+    "extId": "64d54a9452cb6b00183a3545",
+    "key": "64d65a8a12e97200409c834d",
+    "classNotesCode": "3104261e-63ab-4b42-a973-4630261970dc.pdf",
+    "dppsPdfCode": "dfab86ec-845d-46bb-bfa9-aa431d0e7074.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Magnetism and Matter 03 :  Earth's Ma...",
+    "lectureCode": "72ea7193-bb75-41ad-abd2-bd9c06231986",
+    "extId": "64d3dc4954147e0018669316",
+    "key": "64d4ffd4d7ffd20018bb3309",
+    "classNotesCode": "0f948a19-1cde-464b-ae21-110be2d3268b.pdf",
+    "dppsPdfCode": "ada82a78-53e1-4efe-97d8-e45a1eb11d5d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Magnetism and Matter 02 : Oscillation...",
+    "lectureCode": "334b8012-4cc4-4135-affc-877cd5569498",
+    "extId": "64d29ee36499fd0018a36695",
+    "key": "64d3b643b793ed0018ee7a36",
+    "classNotesCode": "5942146f-089c-4c1c-a418-fd3c703bbc50.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Magnetism and Matter 01 : Bar Magnet ...",
+    "lectureCode": "08f20cc8-c1ca-4efd-b8a2-264724bfd5e9",
+    "extId": "64ce8834ca626e0018173f93",
+    "key": "64d0aba268ef06001888ef50",
+    "classNotesCode": "2c88f832-c245-4bbe-8598-1995a4babf60.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]
