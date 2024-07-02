@@ -1,0 +1,152 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Sequence & Series 08 : A.M -G.M-H.M I...",
+    "lectureCode": "1dd7a9b4-836e-4db0-bb16-972b71b447a9",
+    "extId": "65261d0273fb940018127ffe",
+    "key": "65269ba935cb9c0012833272",
+    "classNotesCode": "b335cac1-e342-40c1-a08d-b9936296d6f5.pdf",
+    "dppsPdfCode": "d6f5bbce-42ed-481a-ae6a-6d128b0d35e9.pdf",
+    "dppsSolutionCode": "70c84fe5-39a3-4b9a-9c8a-4ef61616b112"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Sequence & Series 07 : Telescoping Se...",
+    "lectureCode": "b14f56ec-dfa5-46fc-80b3-8df1c1743965",
+    "extId": "6520d5b38971660018cbe792",
+    "key": "6521553f52a08b001294f230",
+    "classNotesCode": "e48a9786-c653-4f15-a342-2f7c075e2c08.pdf",
+    "dppsPdfCode": "d66581ac-dac9-4449-9a4e-75ce1945425a.pdf",
+    "dppsSolutionCode": "9dcdc43e-ac86-4339-af91-60fc9ce43ae2"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Sequence & Series 06 : Properties of ...",
+    "lectureCode": "6e5454d8-4fb2-4cd2-81c1-96bbe880c628",
+    "extId": "651f8bb24715130018b8d267",
+    "key": "652002087c663d0012cad70d",
+    "classNotesCode": "0ecb8766-6a2d-4fe8-a82e-014b573bc1e5.pdf",
+    "dppsPdfCode": "20875001-74ff-4baf-9723-c8907e40a176.pdf",
+    "dppsSolutionCode": "14124da2-1410-4ad6-a6e1-35ad2bae79fc"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Sequence & Series 05 : Insertion of M...",
+    "lectureCode": "53f2e414-4d29-4646-9310-c221043304c7",
+    "extId": "651e32bd39c6870018ca4cda",
+    "key": "651eb192e30d0200127d6d8e",
+    "classNotesCode": "f97c7e4c-4fcf-4901-a6de-f160973257c6.pdf",
+    "dppsPdfCode": "55a7e0e3-fd2c-4f4e-9565-cf115948c89d.pdf",
+    "dppsSolutionCode": "07d6d2ad-f4cf-4178-aa2d-96b61edf7113"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Sequence & Series 04 : Harmonic Progr...",
+    "lectureCode": "7609c288-a110-4807-91f9-65096820d390",
+    "extId": "651ce7fa8f5e6f0018cf00e4",
+    "key": "651d6180418a68001260e8cb",
+    "classNotesCode": "5de6e7c0-8d70-45d3-97dc-fdf8421ff047.pdf",
+    "dppsPdfCode": "70db7cd5-1f29-43de-9f6a-7b7195d28ec0.pdf",
+    "dppsSolutionCode": "61b4811c-ffee-471d-b7da-31abc0151016"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Sequence & Series 03 : More problems ...",
+    "lectureCode": "f037f7fc-1e58-4134-90c5-8c5992d2079e",
+    "extId": "65159ae1a39f7600184a2743",
+    "key": "6516e8c913cb7c00182fe72b",
+    "classNotesCode": "beb4e2e4-d9f1-4c80-83fc-05cc9a64f471.pdf",
+    "dppsPdfCode": "98d344cf-457d-4f36-8b17-b95c328013a9.pdf",
+    "dppsSolutionCode": "00b2d59e-8388-49e2-baec-a6e5253c07e8"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Sequence & Series 02 : More problems ...",
+    "lectureCode": "7bc135e7-9603-46c6-9b2b-c4146fcc7848",
+    "extId": "6514f2ddd1b0060018f01a6b",
+    "key": "65159bd2ffb50b0018e35023",
+    "classNotesCode": "8af1d4db-7689-43fc-9108-914bf17b197f.pdf",
+    "dppsPdfCode": "2bc0ce20-9fcb-4799-92ff-2784392cf307.pdf",
+    "dppsSolutionCode": "502fb9f5-03f0-41a7-aaf9-e98d902049ea"
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Sequence & Series 01 : Arithmetic Pro...",
+    "lectureCode": "61a74ad4-2fa0-43a4-8aac-4fc8e152cc5d",
+    "extId": "6513b007e0f6070018241b62",
+    "key": "65144a31c30ae3001895688a",
+    "classNotesCode": "190ef61d-87a8-4550-bdf9-63e9451488e7.pdf",
+    "dppsPdfCode": "105b8f93-70b8-40ac-ab7d-8db2f2201522.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Sequence Series Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "b335cac1-e342-40c1-a08d-b9936296d6f5.pdf",
+    "dppsPdfCode": "02a8e877-563c-4844-8749-d764a408646b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Sequence Series Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "e48a9786-c653-4f15-a342-2f7c075e2c08.pdf",
+    "dppsPdfCode": "f0addc7b-4a89-4afc-8e60-1490fefe6f05.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Sequence Series Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "0ecb8766-6a2d-4fe8-a82e-014b573bc1e5.pdf",
+    "dppsPdfCode": "361986cf-d882-4e99-a9e4-5243cb51c720.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Sequence Series Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "f97c7e4c-4fcf-4901-a6de-f160973257c6.pdf",
+    "dppsPdfCode": "19a6822b-d96b-4b8b-9c01-0ba1cb185792.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Sequence Series Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "5de6e7c0-8d70-45d3-97dc-fdf8421ff047.pdf",
+    "dppsPdfCode": "565f4c05-da4f-4a42-aaa8-e77ad1e78107.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Sequence Series Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "beb4e2e4-d9f1-4c80-83fc-05cc9a64f471.pdf",
+    "dppsPdfCode": "9ebd11f8-c76f-466c-907f-eec93d7a7395.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Sequence Series Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "8af1d4db-7689-43fc-9108-914bf17b197f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

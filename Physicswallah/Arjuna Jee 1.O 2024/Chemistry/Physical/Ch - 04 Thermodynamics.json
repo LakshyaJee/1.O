@@ -1,0 +1,172 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Thermodynamics 10 : Entropy (S) || ?S...",
+    "lectureCode": "ed133ed2-b701-4272-a2de-cdf54b829e56",
+    "extId": "64e04517085f380018683f43",
+    "key": "64dfb41c3cd7f100187149ce",
+    "classNotesCode": "2021086a-1f1f-4a03-bf97-bffeacd02626.pdf",
+    "dppsPdfCode": "39d2ea59-5a17-4b21-a78a-b11e68de8f55.pdf",
+    "dppsSolutionCode": "e6788e84-e42e-4274-aed8-0bf9ab7027e2"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Thermodynamics 09 : Enthalpy (Other t...",
+    "lectureCode": "6d61a0ae-e5f9-460f-bea4-a40f53f7ba56",
+    "extId": "64dec92a4cf67e0018ccf935",
+    "key": "64df6f81bf892200187b47a8",
+    "classNotesCode": "c807578f-f7e2-461c-a0d6-a4c548eb06a3.pdf",
+    "dppsPdfCode": "8a694f82-1e6a-40cb-83f1-d95baa0ef61d.pdf",
+    "dppsSolutionCode": "d864b9f5-77c6-448b-a99c-15f846e2b42e"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Thermodynamics 08 : Enthalpy of Forma...",
+    "lectureCode": "d57f074c-172d-45b6-b73a-2dc7756bf018",
+    "extId": "64d873b525962b00185be911",
+    "key": "64da4af93dab4200183b50a0",
+    "classNotesCode": "ef0e6237-6a28-4cc7-8b21-8ddeb4dc8e80.pdf",
+    "dppsPdfCode": "e1de8cdd-0285-4afe-9b72-1e08deefb622.pdf",
+    "dppsSolutionCode": "bb1912e4-6eb8-41e2-83c7-ba356679abcc"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Thermodynamics 07 : HW Discussion || ...",
+    "lectureCode": "c29c6cd9-2add-4c23-80ab-a7f9dee22510",
+    "extId": "64d5bcf806d7ba001858f1a9",
+    "key": "64d636deda3291002edce2f4",
+    "classNotesCode": "d0e3c1d3-a776-4cc5-af6d-7e19bcb859f8.pdf",
+    "dppsPdfCode": "24535888-9bd9-4aa8-92fc-0251938faf00.pdf",
+    "dppsSolutionCode": "23a146c5-0fb4-49d2-85ba-381b984b3817"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Thermodynamics 06 : Adiabatic Process...",
+    "lectureCode": "2fce7cae-d067-4a2d-b3ef-14e0d13b6660",
+    "extId": "64d1b9b74100290018741d23",
+    "key": "64d2632da3593b0018ed8022",
+    "classNotesCode": "57be583a-dd7e-4e72-b74f-024f0c8bdfd1.pdf",
+    "dppsPdfCode": "c8b8fbf9-95bb-4418-985e-69d66b246087.pdf",
+    "dppsSolutionCode": "39ff97be-5e4e-4e23-9680-1be3af345f25"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Thermodynamics 05 : Calculation of Wo...",
+    "lectureCode": "8dcade87-7509-4217-aa82-6e4fae12f369",
+    "extId": "64cfd9b8ba8fc500180bfce0",
+    "key": "64d101e2e0d3b10018329cc5",
+    "classNotesCode": "2e366cb9-964c-43b0-80c6-ca0bbd2c910e.pdf",
+    "dppsPdfCode": "6b6b419d-9899-4c91-bd3f-67ecf05d997c.pdf",
+    "dppsSolutionCode": "69784980-0359-4ad2-937d-1d811f6c0000"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Thermodynamics 04 : Work & it's calcu...",
+    "lectureCode": "a069ba97-d142-4d05-9938-4ee2688963c5",
+    "extId": "64ce0a19990c6b0018667d4b",
+    "key": "64ce40775747e6001887a29b",
+    "classNotesCode": "57ea371f-d05d-4798-b288-0693af3333e4.pdf",
+    "dppsPdfCode": "73d649d0-3e18-444b-8a76-527c9cd11367.pdf",
+    "dppsSolutionCode": "5e6caebf-6301-4b65-a13b-c243388683f6"
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Thermodynamics 03 : Reversible & Irre...",
+    "lectureCode": "335b5ad9-933d-4d30-a130-e0a9624f0d89",
+    "extId": "64cbcaadeeb841001896eb79",
+    "key": "64ccfc11e5c75b00188f8dd6",
+    "classNotesCode": "a56ee6a9-5b08-427c-9f9e-409b007f5df1.pdf",
+    "dppsPdfCode": "fcf0dfb9-0fd5-4f0a-bb3a-7a93d6f24bc3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Thermodynamics 02 : Thermodynamic Sta...",
+    "lectureCode": "403b33a2-670d-46a6-af90-6602cb4ba57d",
+    "extId": "64c880649cbc8900182e120a",
+    "key": "64c9263aabadd50018f863d9",
+    "classNotesCode": "0a83ee93-4279-45ba-a725-bccf0dc147f1.pdf",
+    "dppsPdfCode": "0e645c82-e27d-4cea-a337-ff58fc112e2d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Thermodynamics 01 : Basic Definition ...",
+    "lectureCode": "b04425a2-d0f3-41bc-b8d5-81e3390664a4",
+    "extId": "64c7274359b2b1001893fe31",
+    "key": "64c7cfde963504001899183d",
+    "classNotesCode": "2a627255-32b0-4188-9ed2-93f274d2c194.pdf",
+    "dppsPdfCode": "907d571b-1b7f-43a3-b2aa-51451bee3b7d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Thermodynamics Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "2021086a-1f1f-4a03-bf97-bffeacd02626.pdf",
+    "dppsPdfCode": "3891bee1-f0af-4539-8347-48f47e28f1d9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Thermodynamics Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "c807578f-f7e2-461c-a0d6-a4c548eb06a3.pdf",
+    "dppsPdfCode": "edc9e14e-be5d-41af-b520-4a3c7c61626b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Thermodynamics Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "ef0e6237-6a28-4cc7-8b21-8ddeb4dc8e80.pdf",
+    "dppsPdfCode": "8f53fa2d-2536-4048-b5e8-bb0b8c30cabd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Thermodynamics Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "d0e3c1d3-a776-4cc5-af6d-7e19bcb859f8.pdf",
+    "dppsPdfCode": "7d08b310-bf59-4043-855b-a0875abe925f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Thermodynamics Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "57be583a-dd7e-4e72-b74f-024f0c8bdfd1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Thermodynamics Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "2e366cb9-964c-43b0-80c6-ca0bbd2c910e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Thermodynamics Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "57ea371f-d05d-4798-b288-0693af3333e4.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

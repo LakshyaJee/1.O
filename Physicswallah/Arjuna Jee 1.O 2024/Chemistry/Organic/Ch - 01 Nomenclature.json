@@ -3,72 +3,160 @@
     "lectureNumber": 1,
     "lectureName": "Nomenclature 09 : Common Naming || PYQ",
     "lectureCode": "26101f90-55ce-467d-9f5a-1b67a9ba5c6a",
+    "extId": "655ba9b3a2ae05001819af94",
+    "key": "655cafcba27c4200180f6443",
     "classNotesCode": "d08ede40-28ee-4823-a989-c25e8aad2018.pdf",
-    "dppsPdfCode": "d08ede40-28ee-4823-a989-c25e8aad2018.pdf",
+    "dppsPdfCode": "4e603a50-ee81-41e1-b58b-bdeb3972e871.pdf",
     "dppsSolutionCode": "5ac17afc-dd3c-4f73-857e-03aa5fd50733"
   },
   {
     "lectureNumber": 2,
     "lectureName": "Nomenclature 08 : IUPAC of Functional...",
     "lectureCode": "6bfffccd-78d8-4120-8876-bb4169df5811",
+    "extId": "655a3fe9931d190018a23b5c",
+    "key": "655b5e26385a7b0018a30258",
     "classNotesCode": "1760b906-5e0a-4bc9-9daf-743a7fb2ce29.pdf",
-    "dppsPdfCode": "1760b906-5e0a-4bc9-9daf-743a7fb2ce29.pdf",
+    "dppsPdfCode": "3bd86e20-6de5-468d-a0c0-12fb6410ee5e.pdf",
     "dppsSolutionCode": "2e9828b1-f47d-4f08-ae06-861619418d04"
   },
   {
     "lectureNumber": 3,
     "lectureName": "Nomenclature 07 : IUPAC OF BENZENE DE...",
     "lectureCode": "d047e075-7a8d-4c15-bfa7-6d377c15b4c9",
+    "extId": "6555b1563527390018371114",
+    "key": "655637fe742e1c00188f72c4",
     "classNotesCode": "cb43d5db-0e84-4db7-a8e9-63134070d4c1.pdf",
-    "dppsPdfCode": "cb43d5db-0e84-4db7-a8e9-63134070d4c1.pdf",
+    "dppsPdfCode": "0c316757-7aa2-4719-94df-90ecaabcc801.pdf",
     "dppsSolutionCode": "c73376d4-5690-4f8e-8644-a70976ea8e49"
   },
   {
     "lectureNumber": 4,
     "lectureName": "Nomenclature 06 : IUPAC of Hydrocarbo...",
     "lectureCode": "8fb94e1e-dd55-4116-910e-263c4c9556a3",
+    "extId": "654de86f81f5fe00183a9930",
+    "key": "654e527988e42e00189982eb",
     "classNotesCode": "b0b9b51b-2a08-477d-a4a4-b90c7a282a28.pdf",
-    "dppsPdfCode": "b0b9b51b-2a08-477d-a4a4-b90c7a282a28.pdf",
+    "dppsPdfCode": "a901f265-dd1d-430e-b0e7-3fd7c3f60a20.pdf",
     "dppsSolutionCode": "50e725d1-5f95-4660-ba44-11d1203bc054"
   },
   {
     "lectureNumber": 5,
     "lectureName": "Nomenclature 05 : Selection of Parent...",
     "lectureCode": "ec6ef13e-dcc4-4563-80ce-43112c279146",
+    "extId": "654c441f6d168a0018a58654",
+    "key": "654d008093c69b0018931726",
     "classNotesCode": "be033383-9a6b-4e62-98ea-b36755be3369.pdf",
-    "dppsPdfCode": "be033383-9a6b-4e62-98ea-b36755be3369.pdf",
+    "dppsPdfCode": "297e2ab7-a892-4c81-b092-7c48bfa95a0f.pdf",
     "dppsSolutionCode": "f77c7f36-d689-4b5f-92a6-9f847984e4f2"
   },
   {
     "lectureNumber": 6,
     "lectureName": "Nomenclature 04 : Homologous Series |...",
     "lectureCode": "42f6b729-1cfe-499e-83d0-e26d61eb614c",
+    "extId": "6549b7660a21fd00180559e5",
+    "key": "654a3acd43195800182f9b8a",
     "classNotesCode": "79b2b289-51a8-4130-b347-1d5dd021861c.pdf",
-    "dppsPdfCode": "79b2b289-51a8-4130-b347-1d5dd021861c.pdf",
+    "dppsPdfCode": "d4f31593-2b64-4d05-b8cc-6e26f4c1d916.pdf",
     "dppsSolutionCode": "34ca89be-e6f6-41e4-8981-6196f58de325"
   },
   {
     "lectureNumber": 7,
     "lectureName": "Nomenclature 03 : DU in Heteroatom an...",
     "lectureCode": "09f4865b-096a-4867-a040-5b96025466d6",
+    "extId": "65486e042432870018bca109",
+    "key": "6548ec0fc312630018d2c3dd",
     "classNotesCode": "1a5b2d79-fc98-4a46-9bc0-af41659750e3.pdf",
-    "dppsPdfCode": "1a5b2d79-fc98-4a46-9bc0-af41659750e3.pdf",
+    "dppsPdfCode": "8e609a48-5556-4c3e-84bf-d6b8fa7122a7.pdf",
     "dppsSolutionCode": "77c8a322-573c-48b4-a032-96a28ce3d181"
   },
   {
     "lectureNumber": 8,
     "lectureName": "Nomenclature 02 : Degree of Carbon an...",
     "lectureCode": "2b942e34-b46c-47bd-9d7c-93fa331eaf2c",
+    "extId": "65447f7d186482001884419d",
+    "key": "654515c3b69a160018765bb6",
     "classNotesCode": "710350af-916e-4537-8a9d-8508e61bc538.pdf",
-    "dppsPdfCode": "710350af-916e-4537-8a9d-8508e61bc538.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 9,
     "lectureName": "Nomenclature 01 : History of Organic ...",
     "lectureCode": "65cca1c8-4ac7-458d-b57d-823d9b0dd140",
+    "extId": "6543726803fbf50018a5985b",
+    "key": "6543c2591ba6b00018772f61",
     "classNotesCode": "68a8169b-fd46-419a-8db9-2f5cb7d494a9.pdf",
-    "dppsPdfCode": "68a8169b-fd46-419a-8db9-2f5cb7d494a9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "dpp mp...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "d08ede40-28ee-4823-a989-c25e8aad2018.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "dpp mp...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "1760b906-5e0a-4bc9-9daf-743a7fb2ce29.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "dpp mp...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "cb43d5db-0e84-4db7-a8e9-63134070d4c1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "dpp mp...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "b0b9b51b-2a08-477d-a4a4-b90c7a282a28.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "dpp mp...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "be033383-9a6b-4e62-98ea-b36755be3369.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "dpp mp...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "79b2b289-51a8-4130-b347-1d5dd021861c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "dpp mp...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "1a5b2d79-fc98-4a46-9bc0-af41659750e3.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   }
 ]

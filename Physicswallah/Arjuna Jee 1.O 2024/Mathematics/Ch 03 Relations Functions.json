@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Relations & Functions 05 : Graph of G...",
+    "lectureCode": "3d74be61-e248-4ef8-b146-8169c4dd3a7c",
+    "extId": "64701e6bb0fa1500180ce47f",
+    "key": "6470af20247cd900194d6567",
+    "classNotesCode": "2ea3fe9f-4b80-43f2-b14b-cca2bc37473a.pdf",
+    "dppsPdfCode": "1ea11d47-228d-4e25-9834-4a653529c26b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Relations & Functions 04 : Finding Ra...",
+    "lectureCode": "acda5b48-5a56-4254-9027-dd8fe9716529",
+    "extId": "646ee21120a81d00187b61cd",
+    "key": "646f86d6dac00900186df669",
+    "classNotesCode": "28f40f6d-8aca-41a9-a822-d60fe234aabe.pdf",
+    "dppsPdfCode": "2a3734c7-d3b0-4479-964e-18248444ccf8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Relations & Functions 03 : Range of S...",
+    "lectureCode": "7f13678b-d2d9-4d45-9033-6719eb97df5f",
+    "extId": "646d79f4e9e3fd00181eefd9",
+    "key": "646e2685221ca20018da4f0b",
+    "classNotesCode": "1f810538-2365-4b00-add9-de7efe1244b4.pdf",
+    "dppsPdfCode": "ae33ad40-7f3a-42b5-b981-6970264bce1e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Relations & Functions 02 : Function D...",
+    "lectureCode": "ff97cccc-5a4c-434e-85c2-c2471cb587e1",
+    "extId": "646829ff38eb590019815217",
+    "key": "6468c34c56688100183df996",
+    "classNotesCode": "3468eb6a-64c2-48ca-99cf-c0e4d9bc85ae.pdf",
+    "dppsPdfCode": "b828008a-c136-41b2-920c-decb85ef7a16.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Relations & Functions 01 : What Is A ...",
+    "lectureCode": "69f153f3-48f5-40d4-9d3b-c2528195724c",
+    "extId": "646713f578adc20018ed9356",
+    "key": "64677168286f3c0019d5f18b",
+    "classNotesCode": "2842f2a0-07e1-46be-a8c2-b52578b27bbe.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

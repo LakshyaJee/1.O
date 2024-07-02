@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Solution of Triangles 01 : Problems o...",
+    "lectureCode": "094e0b5e-0743-457d-b0cd-c70e9972fc3b",
+    "extId": "65b40c141865280018578081",
+    "key": "65b4fca7b82d0c00181fd7ca",
+    "classNotesCode": "ddd34439-9575-4622-a5cf-98ea6a09438e.pdf",
+    "dppsPdfCode": "b5e2e88e-5352-419c-b448-b6cb470e325a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Solution of Triangle 02 : Half Angle ...",
+    "lectureCode": "db1ba9b8-e429-4fde-8814-e659e4a31460",
+    "extId": "65b690d66632940018d68db2",
+    "key": "65b7a14c432f180018fddb2d",
+    "classNotesCode": "70d3e774-45de-4088-8038-1777ae650382.pdf",
+    "dppsPdfCode": "e7c0c99a-7316-4324-869f-83ad364b60c3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Solution of Triangle 03 : In Radius &...",
+    "lectureCode": "b00bbed5-a046-41de-a033-c33cdb21582c",
+    "extId": "65b7f840c8cbdc00180187b7",
+    "key": "65b8edf44a8c6d0018cbe833",
+    "classNotesCode": "a3f1a2a5-31d7-4a03-bc71-b261c0e855a4.pdf",
+    "dppsPdfCode": "c1752dd0-bc42-4d22-be11-a7f14635d740.pdf",
+    "dppsSolutionCode": ""
+  }
+]

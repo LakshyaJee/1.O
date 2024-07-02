@@ -3,104 +3,240 @@
     "lectureNumber": 1,
     "lectureName": "Isomerism 02 : Deuterium Exchange || ...",
     "lectureCode": "7a046fc6-fbf8-4d70-9ade-796ddd6638fb",
+    "extId": "658122f73ec05700181ce72e",
+    "key": "658194da35f83f00186b8b4a",
     "classNotesCode": "a698bf5a-8aba-4f78-84f4-20f0e7c20eb7.pdf",
-    "dppsPdfCode": "a698bf5a-8aba-4f78-84f4-20f0e7c20eb7.pdf",
+    "dppsPdfCode": "90d473ee-0a64-43f1-af7e-ad3534c7474d.pdf",
     "dppsSolutionCode": "b725044c-8f78-4b44-b5c7-d19fb25141b3"
   },
   {
     "lectureNumber": 2,
     "lectureName": "Isomerism 01 : Tautomerism || Calcula...",
     "lectureCode": "e69cddef-2c08-4d53-8304-f2018b3b24d3",
+    "extId": "657ccec65ced1a0019138f4d",
+    "key": "657dbf5176ed9c00183f5abb",
     "classNotesCode": "2783a125-0078-48f9-acbd-4666bfb11f0e.pdf",
-    "dppsPdfCode": "2783a125-0078-48f9-acbd-4666bfb11f0e.pdf",
+    "dppsPdfCode": "504d0026-6a35-495d-8479-26c8defdb6d5.pdf",
     "dppsSolutionCode": "7c1364c7-c544-415f-99c1-02a264937a9e"
   },
   {
     "lectureNumber": 3,
     "lectureName": "Isomerism 05 : Symmetry Elements || C...",
     "lectureCode": "4817155c-0221-4486-9a55-c731f242cebb",
+    "extId": "6584959a53b1100018b72996",
+    "key": "65858ef22b400b8de63e7036",
     "classNotesCode": "fbd6b42d-f977-497d-a2a4-46da14bcf63d.pdf",
-    "dppsPdfCode": "fbd6b42d-f977-497d-a2a4-46da14bcf63d.pdf",
+    "dppsPdfCode": "7be85408-e00d-4400-9a48-bbf225197729.pdf",
     "dppsSolutionCode": "f76141a1-b3ab-4c3c-bf78-aaa86741b671"
   },
   {
     "lectureNumber": 4,
     "lectureName": "Isomerism 04 : Discussion || Nomencla...",
     "lectureCode": "19ede2c7-58b4-4982-971f-041edac37c32",
+    "extId": "65834293cbe594738b81c54c",
+    "key": "65845f3590fcd50018fcecb2",
     "classNotesCode": "9549c4cd-97a8-44a2-a675-0155c6b557eb.pdf",
-    "dppsPdfCode": "9549c4cd-97a8-44a2-a675-0155c6b557eb.pdf",
+    "dppsPdfCode": "6646f5ea-25a9-4fa1-ab1e-082c3f51f593.pdf",
     "dppsSolutionCode": "b6b08e20-f9cf-4645-a12e-4ae4b16331ed"
   },
   {
     "lectureNumber": 5,
     "lectureName": "Isomerism 03 : Discussion || Geometri...",
     "lectureCode": "060bcc07-9ceb-4ce3-b3b1-98c55c0ff8ce",
+    "extId": "6581e3e429bf740018f71df5",
+    "key": "6582eaa6aacc940018f25b11",
     "classNotesCode": "e68acba4-4579-4405-ab78-c3d254c9f550.pdf",
-    "dppsPdfCode": "e68acba4-4579-4405-ab78-c3d254c9f550.pdf",
+    "dppsPdfCode": "5e924d89-e541-4142-990e-1505071bb108.pdf",
     "dppsSolutionCode": "79f1a12b-9dfd-4cdc-9a21-dcaefafac4c9"
   },
   {
     "lectureNumber": 6,
     "lectureName": "Isomerism 09 : Resolution of Enantiom...",
     "lectureCode": "3d376600-afce-43d5-9ced-e1a296ff5b84",
+    "extId": "658ddc14e2d8e90018c3e661",
+    "key": "658eeb7dea9f48ec7d466543",
     "classNotesCode": "a698bf5a-8aba-4f78-84f4-20f0e7c20eb7.pdf",
-    "dppsPdfCode": "a698bf5a-8aba-4f78-84f4-20f0e7c20eb7.pdf",
+    "dppsPdfCode": "eefcefc3-68b9-4aa3-8f6b-fb64f7b960dc.pdf",
     "dppsSolutionCode": "bc8ebbd4-9674-4f76-ab6e-65a80b9da551"
   },
   {
     "lectureNumber": 7,
     "lectureName": "Isomerism 08 : Nomenclature of Optica...",
     "lectureCode": "658bb9a0-74cc-4e01-a742-6e59278589bb",
+    "extId": "658cf7d77a6d6d00197cdd8f",
+    "key": "658d98b8692a5800189a4327",
     "classNotesCode": "2783a125-0078-48f9-acbd-4666bfb11f0e.pdf",
-    "dppsPdfCode": "2783a125-0078-48f9-acbd-4666bfb11f0e.pdf",
+    "dppsPdfCode": "5311451e-acd6-4fc2-ba75-74114ba7eb1f.pdf",
     "dppsSolutionCode": "295b3954-483a-44d9-b51e-7ac5ee763004"
   },
   {
     "lectureNumber": 8,
     "lectureName": "Isomerism 07 : Calculation based on O...",
     "lectureCode": "5d563882-9bda-49d4-8bb2-e0b30b93ecc6",
+    "extId": "658c0723d5dfb000188a759e",
+    "key": "658c397cabe4e932e082af94",
     "classNotesCode": "dccc9131-b579-4880-9bb5-66746f026820.pdf",
-    "dppsPdfCode": "dccc9131-b579-4880-9bb5-66746f026820.pdf",
+    "dppsPdfCode": "51d84e0f-e657-4744-ad72-dc7949408983.pdf",
     "dppsSolutionCode": "1b4ebfde-97ae-453d-95f5-5111d59148dc"
   },
   {
     "lectureNumber": 9,
     "lectureName": "Isomerism 06 : Optical Experiment || ...",
     "lectureCode": "5ebe9a76-8868-43c5-a0a5-78739e374ddd",
+    "extId": "6589eecfacc76b001885067f",
+    "key": "658adde963f8212ff7e16e35",
     "classNotesCode": "727aaf3c-36d6-4ca8-ae81-ff76159ec794.pdf",
-    "dppsPdfCode": "727aaf3c-36d6-4ca8-ae81-ff76159ec794.pdf",
+    "dppsPdfCode": "20969421-b49c-4808-a757-e6976e828e23.pdf",
     "dppsSolutionCode": "49f9e21f-dbd0-4b8f-8526-bef887f3f5c8"
   },
   {
     "lectureNumber": 10,
     "lectureName": "Isomerism 10 : Calculation of Stereoi...",
     "lectureCode": "00d11051-c270-43fc-b5d4-41f2f4d4c966",
+    "extId": "6593a963520c5000199ce7db",
+    "key": "6594333f12e07900182eefed",
     "classNotesCode": "6c00b716-eba3-4a6d-b7c9-80cb55d4a180.pdf",
-    "dppsPdfCode": "6c00b716-eba3-4a6d-b7c9-80cb55d4a180.pdf",
+    "dppsPdfCode": "f1de71f5-2ef8-42f3-8545-d88a94f8bd93.pdf",
     "dppsSolutionCode": "c65f5373-37ce-422b-a49b-9e3b3e9a8957"
   },
   {
     "lectureNumber": 11,
     "lectureName": "Isomerism 12 : Discussion || Conforma...",
     "lectureCode": "0491967d-8a09-4c82-adb9-16a25c218ba0",
+    "extId": "6595c5ec1219fe0018e52be7",
+    "key": "6596b2689f2bfe001886d036",
     "classNotesCode": "647e4a06-8299-40f7-bba6-4b884c0236fd.pdf",
-    "dppsPdfCode": "647e4a06-8299-40f7-bba6-4b884c0236fd.pdf",
+    "dppsPdfCode": "e07ec521-943c-4196-aa2a-ca1d01ce19c6.pdf",
     "dppsSolutionCode": "1a25d530-3930-4e51-90de-4060000b65a6"
   },
   {
     "lectureNumber": 12,
     "lectureName": "Isomerism 11 : Stability of Gauche & ...",
     "lectureCode": "bdb00482-cb02-4471-b750-a88783c1f690",
+    "extId": "65947aa0646eeb001842023d",
+    "key": "659560de7e81950018c2036f",
     "classNotesCode": "fbd6b42d-f977-497d-a2a4-46da14bcf63d.pdf",
-    "dppsPdfCode": "fbd6b42d-f977-497d-a2a4-46da14bcf63d.pdf",
+    "dppsPdfCode": "f9b3401a-a055-4ddc-8d5b-574719901e8d.pdf",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 13,
     "lectureName": "Isomerism 13 : Discussion || Free Rad...",
     "lectureCode": "c70f3a0b-e6c9-48e1-920c-192477079a8f",
+    "extId": "659adef42f9ee4001865ff29",
+    "key": "659c191dc6b0691364d7227f",
     "classNotesCode": "9549c4cd-97a8-44a2-a675-0155c6b557eb.pdf",
-    "dppsPdfCode": "9549c4cd-97a8-44a2-a675-0155c6b557eb.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Isomerism Solution To DPP Only Video...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "e68acba4-4579-4405-ab78-c3d254c9f550.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Isomerism Solution To DPP Only Video...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "a698bf5a-8aba-4f78-84f4-20f0e7c20eb7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Isomerism Solution To DPP Only Video...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "2783a125-0078-48f9-acbd-4666bfb11f0e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Isomerism Solution To DPP Only Video...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "68aaa574-1716-4b77-8348-656a54ed9dbf.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Isomerism Solution To DPP Only Video...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "dccc9131-b579-4880-9bb5-66746f026820.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Isomerism Solution To DPP Only Video...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "727aaf3c-36d6-4ca8-ae81-ff76159ec794.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "Isomerism Solution To DPP Only Video...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "6c00b716-eba3-4a6d-b7c9-80cb55d4a180.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "Isomerism Solution To DPP Only Video Final Video...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "647e4a06-8299-40f7-bba6-4b884c0236fd.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "Isomerism Solution To DPP Only Video Final Video...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "fbd6b42d-f977-497d-a2a4-46da14bcf63d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 23,
+    "lectureName": "Isomerism Solution To DPP Only Video...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "9549c4cd-97a8-44a2-a675-0155c6b557eb.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 24,
+    "lectureName": "Isomerism Solution To DPP Only Video...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "e68acba4-4579-4405-ab78-c3d254c9f550.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   }
 ]

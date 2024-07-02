@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Limits and Derivatives 04 : Derivativ...",
+    "lectureCode": "962136a0-e23f-44a9-b9bb-3e98c0792199",
+    "extId": "65a97e0c49182b00186cffdd",
+    "key": "65aa9131d9064700186d355d",
+    "classNotesCode": "55b636cd-3f08-4d67-af2f-9f06d7cef896.pdf",
+    "dppsPdfCode": "5375e9e1-dc26-410e-9cd4-0c2e13e15564.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Limits and Derivatives 03 : More Exam...",
+    "lectureCode": "d9115d04-4fad-41dd-938d-11daec16778c",
+    "extId": "65a6e2f0b912d9001892054c",
+    "key": "65a7cf8431c96f64b1e922a8",
+    "classNotesCode": "5f4d7755-69fe-4dc0-b526-291f0bd74ca1.pdf",
+    "dppsPdfCode": "2304670c-545d-4b87-a8dd-251ef194eb89.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Limits and Derivatives 02 : More Exam...",
+    "lectureCode": "a0527489-5b67-4f31-afcd-d036ff7bbe87",
+    "extId": "65a5714f636aa700183e9676",
+    "key": "65a67cd209b3f500182f5749",
+    "classNotesCode": "2b2b89ea-3ac0-4f6a-ae64-6efbb17335ee.pdf",
+    "dppsPdfCode": "2990748e-a9bf-40e4-961c-acf28382bffc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Limits and Derivatives 01 : Limit at ...",
+    "lectureCode": "c078d2ba-50da-4023-b6e6-2009b9f8df92",
+    "extId": "65a43e01af582f001829cbd7",
+    "key": "65a52b826ba1fc0018b7eb6e",
+    "classNotesCode": "dc6cb355-c50d-40cf-977f-28a3e4743f08.pdf",
+    "dppsPdfCode": "2ce7ac71-9ae3-4876-a8fd-7ad0b863c923.pdf",
+    "dppsSolutionCode": ""
+  }
+]

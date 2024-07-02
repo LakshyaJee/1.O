@@ -1,0 +1,142 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Binomial Theorem 07 : B.T for rationa...",
+    "lectureCode": "eb9b6652-ff37-48f3-8c81-d0b06796f4ff",
+    "extId": "650d16e7638b2700186633c0",
+    "key": "650db0b4d629dd0018df8bca",
+    "classNotesCode": "3069b934-0967-4f03-9227-2002f286bfdf.pdf",
+    "dppsPdfCode": "f2d1e012-4023-4811-9bf6-f617da27701e.pdf",
+    "dppsSolutionCode": "6a623bb3-d617-4a1b-b333-77fb0e2c403f"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Binomial Theorem 06 : Binomial Series...",
+    "lectureCode": "21bf8546-a0dc-4f16-96ad-50d44e6d586a",
+    "extId": "650bbede2f57d100187134b6",
+    "key": "650c622b8d72e700188336b7",
+    "classNotesCode": "e3600164-0849-4abe-9a50-410a43ccd9eb.pdf",
+    "dppsPdfCode": "1aa080cf-e0a9-4e41-92b6-4717ada06339.pdf",
+    "dppsSolutionCode": "76871df5-dcf6-4432-bf68-f8f9e94d2b2d"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Binomial Theorem 05 : Binomial Series...",
+    "lectureCode": "82a2f7b8-db33-4f14-b8be-758048885328",
+    "extId": "650a7480d51296001899c5ad",
+    "key": "650b0eed62587c0018ed8ad7",
+    "classNotesCode": "1416c60a-379f-46bb-8aa5-da9c7e3329a4.pdf",
+    "dppsPdfCode": "27097336-7a46-469e-a3fd-074c53832deb.pdf",
+    "dppsSolutionCode": "e8985ece-2529-441d-9247-e6d16a2431a0"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Binomial Theorem 04 : Properties of B...",
+    "lectureCode": "80cd5a10-bbfc-4d25-b33d-78629abf5d4f",
+    "extId": "650316057c15b50018bf6d2b",
+    "key": "650476fc2e864500182019a7",
+    "classNotesCode": "47d4e2e9-a44a-4dd9-b01b-2be5e56a5fb0.pdf",
+    "dppsPdfCode": "6ddcd0b4-bc9e-4570-a2d5-ac71e299ab6a.pdf",
+    "dppsSolutionCode": "1799223d-53c6-44d4-8e5c-062109f1a481"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Binomial Theorem 03 : Finding reminde...",
+    "lectureCode": "98614f6d-9715-4296-86b1-0741facce830",
+    "extId": "6501db99467527001869ed97",
+    "key": "65032510b11ec60012cea625",
+    "classNotesCode": "890aecf0-0918-465f-bdec-cfb4494056a9.pdf",
+    "dppsPdfCode": "fd65eec2-cf4b-41a6-9302-9ef0e4652773.pdf",
+    "dppsSolutionCode": "5373332d-55ec-4719-90ba-8f06989c4976"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Binomial Theorem 02 : More Examples o...",
+    "lectureCode": "22bfa8f2-dfa3-4fd7-a7cd-9519d56f1dbd",
+    "extId": "6500885434eb06001851ed9b",
+    "key": "6501d32930b0a6001230f8af",
+    "classNotesCode": "6eed09df-3f33-4796-9f0c-d9622061f47c.pdf",
+    "dppsPdfCode": "e4f72d92-6957-4854-9c35-f8ead259cc77.pdf",
+    "dppsSolutionCode": "2c84f1b7-bcfa-4b8c-9fd1-d2aee005b871"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Binomial Theorem 01 : De-Arrangement ...",
+    "lectureCode": "27433611-bba9-4ffd-b5b2-6d6a39f4c248",
+    "extId": "64fa9cb40e10e50018a3fa0b",
+    "key": "64fb3ccb3b82880018a1bcd2",
+    "classNotesCode": "c4d0edd7-8721-4b3a-b2e0-86d5b622bba2.pdf",
+    "dppsPdfCode": "04773571-aa38-48df-9996-326df95f1ec8.pdf",
+    "dppsSolutionCode": "ee5ef835-3bb2-42d3-949a-bc7b49700297"
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Binomial Theorem Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "3069b934-0967-4f03-9227-2002f286bfdf.pdf",
+    "dppsPdfCode": "2f6737c2-0017-4e90-abb7-614093ffd600.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Binomial Theorem Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "e3600164-0849-4abe-9a50-410a43ccd9eb.pdf",
+    "dppsPdfCode": "8285c967-1709-496e-bc07-6e657670e334.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Binomial Theorem Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "1416c60a-379f-46bb-8aa5-da9c7e3329a4.pdf",
+    "dppsPdfCode": "88a98e9f-f5b2-4295-a781-03ca7177ad48.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Binomial Theorem Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "47d4e2e9-a44a-4dd9-b01b-2be5e56a5fb0.pdf",
+    "dppsPdfCode": "341939cb-79d4-45fa-a7b1-2461c9ab8542.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Binomial Theorem Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "890aecf0-0918-465f-bdec-cfb4494056a9.pdf",
+    "dppsPdfCode": "caf7fd2f-e477-4798-a98c-089b9d89822b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Binomial Theorem Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "6eed09df-3f33-4796-9f0c-d9622061f47c.pdf",
+    "dppsPdfCode": "73fa0c2f-d5d2-4aae-9fbf-92a51f7551ad.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Binomial Theorem Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "c4d0edd7-8721-4b3a-b2e0-86d5b622bba2.pdf",
+    "dppsPdfCode": "6df5e258-531f-4189-b14a-f7bfea72e03c.pdf",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Statistics 01 : Measures for Central ...",
+    "lectureCode": "a2dfdfe3-f69f-4633-988a-1f4662d56613",
+    "extId": "65b93c4750f586001837cac7",
+    "key": "65b79c2c15cdd20018a65369",
+    "classNotesCode": "ed053a55-18bc-4761-b561-018663dd0a56.pdf",
+    "dppsPdfCode": "058784f4-beb5-4b67-bf92-c4232d02ed54.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Statistics 02 : Measures of Dispersio...",
+    "lectureCode": "307796b9-3ecb-44cf-a968-487e6e474cd0",
+    "extId": "65ba7152e1e7e70018f22c7e",
+    "key": "65b79c636c446e00187f7886",
+    "classNotesCode": "298c7717-652b-44be-8830-5de2d7e34987.pdf",
+    "dppsPdfCode": "ea158f97-fdfe-48ae-86e7-53302600ffa3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Statistics 03 : Short Cut Method or S...",
+    "lectureCode": "c5c8a00c-8ec4-4346-a2b9-75990f7507d8",
+    "extId": "65d435bf811d8a001875460e",
+    "key": "65d4bb39cdd07b00183bebc2",
+    "classNotesCode": "9df1a2ec-fc43-4e78-8e17-49ecf00306d2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

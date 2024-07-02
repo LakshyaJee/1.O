@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Some Basic Concepts Of Chemistry & Re...",
+    "lectureCode": "95c5073d-05f3-4ea8-ac84-7f32b48ae76e",
+    "extId": "65e574de390bdb00183bbd70",
+    "key": "65e5e886658d3c0012bc2b86",
+    "classNotesCode": "0a1a26df-925e-4e85-9e50-c8a125a465a1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Chemical Bonding 01 : Practice Proble...",
+    "lectureCode": "b5b2195e-260f-4b36-8036-f5faca89800d",
+    "extId": "65efc113d942430018412e1c",
+    "key": "65f077a998710c0018ab37c3",
+    "classNotesCode": "a8abbff5-1345-4555-ae89-e8280c0c9fee.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "State Of Matter 01 : Brief Intro || P...",
+    "lectureCode": "6ce779d2-055e-45a7-9f52-02f8aae6d101",
+    "extId": "65f3256049e7190018122b8f",
+    "key": "65f464e0b84416001847b610",
+    "classNotesCode": "19929f2c-f2e7-444a-b1d3-b1b5362d1745.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Some Basic Principles and Techniques ...",
+    "lectureCode": "9d2806d9-8d40-4848-b6b1-4aa6dc806903",
+    "extId": "65fdaba907a7f80018cee99f",
+    "key": "65fef07f28be4c0012c0c2d2",
+    "classNotesCode": "eacfa71c-af41-45f8-9dbc-77e17d8355be.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Isomerism 26 march jee batch common",
+    "lectureCode": "4ba627b3-79a9-443b-8934-05c572032020",
+    "extId": "66026aa58dabce0018b91d13",
+    "key": "6602c6ad07f8b900187ac89f",
+    "classNotesCode": "61aee1ff-3fd2-498b-abab-89ec2ed88451.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "General Organic Chemistry 01 : Revisi...",
+    "lectureCode": "dd67996d-617e-4884-8f07-f76997e36a11",
+    "extId": "660623b7524f290018756336",
+    "key": "66053fa8c282e00018ab0e25",
+    "classNotesCode": "ffa1461a-63a0-4f7e-8d93-461e414933f2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Hydrocarbon & POC 01 : Hydrocarbons &...",
+    "lectureCode": "47f04b79-c79d-43f1-a1ea-a573bdb4dca7",
+    "extId": "660777eec952070018ddf158",
+    "key": "660777a4e8db080018489d48",
+    "classNotesCode": "4cd2d6da-966b-4647-83e2-5d9f32b0b056.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Equilibrium 01 : Chemical Equilibrium...",
+    "lectureCode": "0f65a521-22c3-4434-8bea-345ab20355a9",
+    "extId": "660ff5993d82740018f71636",
+    "key": "660fc01239754b00188d94f3",
+    "classNotesCode": "cb85e482-5c30-45d6-87fa-52bec8c1b741.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

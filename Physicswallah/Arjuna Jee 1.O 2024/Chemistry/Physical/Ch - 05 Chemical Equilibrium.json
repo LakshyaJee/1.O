@@ -1,0 +1,102 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Chemical Equilibrium 06 : Le Chaterli...",
+    "lectureCode": "61340703-38d1-46ae-9ad3-275c73ff8ee2",
+    "extId": "64ed7237fe3dd500182f0f89",
+    "key": "64edefdba8c76c001805e16e",
+    "classNotesCode": "32558515-9f99-46e0-8541-c443cc2fa37c.pdf",
+    "dppsPdfCode": "8490df22-08d0-4875-98c8-b4c962b8f3be.pdf",
+    "dppsSolutionCode": "67a6cc95-570b-405f-9737-7a8aca839718"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Chemical Equilibrium 05 : Application...",
+    "lectureCode": "924faacf-ccee-41e5-beb8-773a1cd1c039",
+    "extId": "64ec215098375a00190e3759",
+    "key": "64eca46149ec0f0019ed8e64",
+    "classNotesCode": "c2c98719-9c09-46f8-a60c-f41c9e0cf5a5.pdf",
+    "dppsPdfCode": "3e30c29c-99bb-4c29-83cb-f6b12445f4e1.pdf",
+    "dppsSolutionCode": "5ea90fc0-f828-4aa7-be89-765493e3f87e"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Chemical Equilibrium 04 : Calculation...",
+    "lectureCode": "5f43e059-30b4-48ec-af8b-bdb1e538f3a1",
+    "extId": "64e97e8216b68c0018809800",
+    "key": "64e9f84aab704400189c465d",
+    "classNotesCode": "6e8b0741-ab97-419e-b673-9f2fc94e565f.pdf",
+    "dppsPdfCode": "a615d1f8-992f-496a-9953-c93c0ae70885.pdf",
+    "dppsSolutionCode": "570ea5dd-d948-4a4e-bbcd-d03c4ac71e46"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Chemical Equilibrium 03 : Characteris...",
+    "lectureCode": "04cb2d2b-1c81-4b20-a4c7-0b8c5e3f5f44",
+    "extId": "64e82f55baaca60018fa674f",
+    "key": "64e8aaaca8539900180c7d81",
+    "classNotesCode": "a80e9919-5b22-4cb8-9cac-97d4c92132d2.pdf",
+    "dppsPdfCode": "9364f9bc-d71e-43b1-a08b-2b33e6bb0373.pdf",
+    "dppsSolutionCode": "8ef2db61-c6ee-4e7d-84a7-324da134a2e2"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Chemical Equilibrium 02 : Characteris...",
+    "lectureCode": "5ce1b4b9-ef82-4eb5-8395-3b403884061f",
+    "extId": "64e43c18f95e790018042c90",
+    "key": "64e4d882f19641001826181b",
+    "classNotesCode": "908e860c-e255-4ab0-8227-9c2449631377.pdf",
+    "dppsPdfCode": "b6762ed7-bffe-4c53-a614-2b7cc725f688.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Chemical Equilibrium 01 : H.W Discuss...",
+    "lectureCode": "f6241339-7f59-4097-9705-8d8007163340",
+    "extId": "64e2d73f0fad710018fd780d",
+    "key": "64e385b57c5a470018bba968",
+    "classNotesCode": "c9f9540e-d39c-4b93-b0a6-84b14bb7a0c3.pdf",
+    "dppsPdfCode": "ea32af99-3b0f-4aec-a81e-0f08fe0ef0c7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Chemical Equilibrium Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "32558515-9f99-46e0-8541-c443cc2fa37c.pdf",
+    "dppsPdfCode": "2e46a209-c18b-47e5-9c23-6929eb8a4540.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Chemical Equilibrium Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "c2c98719-9c09-46f8-a60c-f41c9e0cf5a5.pdf",
+    "dppsPdfCode": "e0e6c39b-4133-4e6b-81db-b6239aa8d652.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Chemical Equilibrium Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "6e8b0741-ab97-419e-b673-9f2fc94e565f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Chemical Equilibrium Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "a80e9919-5b22-4cb8-9cac-97d4c92132d2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

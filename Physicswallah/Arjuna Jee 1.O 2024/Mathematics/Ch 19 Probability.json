@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Probability 03 : More Problems on Pro...",
+    "lectureCode": "c1e32f1d-e5e4-4b87-b60d-85fe6227d94b",
+    "extId": "65b01c42385fec0018f3f9ee",
+    "key": "65b108f527750600183db288",
+    "classNotesCode": "689d90f2-5bf5-4fc2-96ba-fc742afa867f.pdf",
+    "dppsPdfCode": "16749e95-9bd5-4d88-854d-76fb6790142c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Probability 02 : More Problems on Pro...",
+    "lectureCode": "8d9b3768-bcf2-4437-90a1-6b7e15175d38",
+    "extId": "65ae922afd4cb3001816b6ca",
+    "key": "65afb810e0c78c0018b09c4d",
+    "classNotesCode": "e9565a06-91ca-4198-bfb9-d9633119615e.pdf",
+    "dppsPdfCode": "7f2be95a-4527-4d54-9560-6bb69be71a19.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Probability 01 : Sample Space || Prob...",
+    "lectureCode": "812b15d0-acd8-4005-bdc2-f7947a53e66e",
+    "extId": "65aa93ecc52ed70018108de2",
+    "key": "65abc43629d8b40018813a67",
+    "classNotesCode": "51fa7bfa-54f2-490e-8c67-2a82ce5d4189.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

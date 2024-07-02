@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Complex Number (II) 01 : Recap of CN-...",
+    "lectureCode": "8d67646f-127d-4c67-ae34-9da3ad970afa",
+    "extId": "6593b338412e55001849920b",
+    "key": "65943d9c1b5a170018342aa7",
+    "classNotesCode": "a91dbe70-943c-4b6a-a222-92dfd8a3b814.pdf",
+    "dppsPdfCode": "5b2cd89d-894f-4d49-a741-98e753a87057.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Complex Number (II) 02 : Nth Root of ...",
+    "lectureCode": "58ce9d8b-5bbe-4e1f-b0c3-cbf934c5c6a5",
+    "extId": "6596e5e6af8d1100187b9159",
+    "key": "6597fce351d8ec00187b9e5d",
+    "classNotesCode": "a91dbe70-943c-4b6a-a222-92dfd8a3b814.pdf",
+    "dppsPdfCode": "b833889b-273e-444f-a6fc-da4b843ba2ea.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Complex Number (II) 06 : Various Form...",
+    "lectureCode": "0901323d-b91e-4185-820f-d1276e1809da",
+    "extId": "65a174038be8b60018db33fb",
+    "key": "65a13ddd5a8888001808ac07",
+    "classNotesCode": "a91dbe70-943c-4b6a-a222-92dfd8a3b814.pdf",
+    "dppsPdfCode": "761195db-1c99-4ff7-ab65-b139e53ca24e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Complex Number (II) 05 : More Questio...",
+    "lectureCode": "839f2eca-5150-45fa-84e0-bebecce811a7",
+    "extId": "65a0c24a0bed8e0018f8fbff",
+    "key": "65a136f071fd2b00184743f8",
+    "classNotesCode": "a91dbe70-943c-4b6a-a222-92dfd8a3b814.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Complex Number (II) 04 :  Various For...",
+    "lectureCode": "ed138d3e-258e-4320-a67b-1a10ce18bc95",
+    "extId": "659c380624c155001817d5e0",
+    "key": "659d4611f320b00f48dee2ca",
+    "classNotesCode": "a91dbe70-943c-4b6a-a222-92dfd8a3b814.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Complex Number (II) 03 : Introduction...",
+    "lectureCode": "982bfca8-aca5-47aa-b6a4-37f26a61d120",
+    "extId": "659adeb9efadcf001886eacd",
+    "key": "659bf247d09900fc6a584e98",
+    "classNotesCode": "a91dbe70-943c-4b6a-a222-92dfd8a3b814.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Complex Number (II) 01 : Recap of CN-...",
+    "lectureCode": "6ac7634f-a478-49b6-9a19-fb452407166a",
+    "extId": "6593b338412e55001849920b",
+    "key": "6594085645541f0018965bab",
+    "classNotesCode": "a91dbe70-943c-4b6a-a222-92dfd8a3b814.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

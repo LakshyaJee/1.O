@@ -1,0 +1,152 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Ionic Equilibrium 10 : Solubility Pro...",
+    "lectureCode": "7ba8504d-7877-49db-8785-5828f0db32df",
+    "extId": "6509701402f98d0018a90e6a",
+    "key": "65095d821cd9cd001804ac59",
+    "classNotesCode": "7813be00-7844-4e0c-b0cc-eb61c67f57ae.pdf",
+    "dppsPdfCode": "d99f6546-5a42-42b6-b987-1cfe4cce264c.pdf",
+    "dppsSolutionCode": "893e2333-a7d1-420a-8753-27d1eabb1eb3"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Ionic Equilibrium 09 : Buffer Solutio...",
+    "lectureCode": "4ab7364b-2185-4244-914b-171cee126f66",
+    "extId": "6507c4c2f321410018c04350",
+    "key": "650867c029b0760018ce3ee2",
+    "classNotesCode": "6a1aed85-475d-4a38-a1a6-0bc20170cf73.pdf",
+    "dppsPdfCode": "1f0e91ae-968d-4135-aea0-f83d1344ae94.pdf",
+    "dppsSolutionCode": "360c3cdf-56a6-4567-8b3b-8b883d479711"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Ionic Equilibrium 08 : Salt Hydrolysi...",
+    "lectureCode": "1bcbf005-d55f-467e-947a-f6508cda3ca2",
+    "extId": "650315d3cdc1140019fba5ee",
+    "key": "650459616241d00018fb62b0",
+    "classNotesCode": "2aff5358-2ec6-4dd6-8ead-2b11903088d7.pdf",
+    "dppsPdfCode": "b7c7817b-c630-44dd-a45d-f22008a6a918.pdf",
+    "dppsSolutionCode": "c859d15f-2f37-4d8b-99f4-80c12d2ec547"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Ionic Equilibrium 07 : Salt Hydrolysi...",
+    "lectureCode": "01894e86-e977-4463-8040-b47747d21955",
+    "extId": "6501db5f006487001898dee7",
+    "key": "65030c1d97c43500121b5276",
+    "classNotesCode": "567132fa-df64-484e-a3c6-6fd61164afdf.pdf",
+    "dppsPdfCode": "03f434f8-c227-4e29-a1a3-fca57a039c11.pdf",
+    "dppsSolutionCode": "1357e1b7-6bb4-427b-bb90-07683f0732a6"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Ionic Equilibrium 06 : pH of mixture ...",
+    "lectureCode": "ca5fcb11-7e85-45a7-ae20-6a2413ea7e4c",
+    "extId": "650088267cf50f00196daede",
+    "key": "6501ba28739b6a00120981ca",
+    "classNotesCode": "8069ec3f-2377-46fa-b2c1-78c474a488e3.pdf",
+    "dppsPdfCode": "67acf043-fd77-4437-813e-b71d4727248c.pdf",
+    "dppsSolutionCode": "c0c1aca8-d651-4a81-b478-dd4f39886db8"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Ionic Equilibrium 05 : pH calculation...",
+    "lectureCode": "81baacc2-a69e-45ce-98ee-9f347e2dad00",
+    "extId": "64ff326640c7ea001860086e",
+    "key": "650067a4658f2c0012edfc19",
+    "classNotesCode": "08621945-cefa-4c0e-9ba6-8befa9e85a48.pdf",
+    "dppsPdfCode": "f2467082-806f-4f4c-88e2-9dcb839cb2f0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Ionic Equilibrium 04 : pH calculation...",
+    "lectureCode": "49e1c982-f167-4da9-b01f-a7860e177494",
+    "extId": "64fe949d8a5a6d001885c53e",
+    "key": "64ff1524a57544001288fdad",
+    "classNotesCode": "83a7b7c3-00f4-41a0-a73f-c4f943e15e77.pdf",
+    "dppsPdfCode": "0d04056f-9326-4363-a800-68eee6b4ac3a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Ionic Equilibrium 03 : Properties of ...",
+    "lectureCode": "d7daa481-cb0d-4937-b6ed-3bade9d74431",
+    "extId": "64f6a2c0c21810001838041e",
+    "key": "64f72b1c1baf88001873a0f0",
+    "classNotesCode": "603381f8-ac4a-40b6-af88-b07318b9d14a.pdf",
+    "dppsPdfCode": "9f9810ed-40c4-42d2-afd0-35bb3fff74c4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Ionic Equilibrium 02 : Electrolytes |...",
+    "lectureCode": "c99770c6-7e91-40e1-b939-f03e8403384d",
+    "extId": "64f47de3002aa5001910eed4",
+    "key": "64f5d9309388b600186899b7",
+    "classNotesCode": "dc1d7d88-e970-4786-8254-ad04fba97817.pdf",
+    "dppsPdfCode": "6dc8f4d9-08de-4f5a-9b32-ddc8bbf5b53c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Ionic Equilibrium 01 : Simultaneous E...",
+    "lectureCode": "6ca70238-742f-46c5-82e1-0773bdd0c8d4",
+    "extId": "64f16aa301cc6d0018878806",
+    "key": "64f1e5a235a7df00180a4e18",
+    "classNotesCode": "7c1037f2-efa0-4c01-854e-f6d003cea567.pdf",
+    "dppsPdfCode": "45e5c3e8-2017-4f37-9831-9805aaca0ffd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Ionic Equilibrium Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "7813be00-7844-4e0c-b0cc-eb61c67f57ae.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Ionic Equilibrium Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "6a1aed85-475d-4a38-a1a6-0bc20170cf73.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Ionic Equilibrium Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "2aff5358-2ec6-4dd6-8ead-2b11903088d7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Ionic Equilibrium Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "567132fa-df64-484e-a3c6-6fd61164afdf.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Ionic Equilibrium Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "8069ec3f-2377-46fa-b2c1-78c474a488e3.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

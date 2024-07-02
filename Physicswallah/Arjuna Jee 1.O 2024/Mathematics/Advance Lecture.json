@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Quadratic Equations : Advance Lecture...",
+    "lectureCode": "c7deeeda-593e-45d0-b88f-19e1b9355428",
+    "extId": "64d9f32cabf31000186add10",
+    "key": "64d9e20c8075e1001809420b",
+    "classNotesCode": "f5df440f-2a2e-4c11-aaec-459cafca6518.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Trigonometric Identities : Advance Le...",
+    "lectureCode": "ca48d3db-b085-4ec5-8d08-f86f86964663",
+    "extId": "649d88f6c01e8e0018f0b28b",
+    "key": "649d4e024d462400184d6388",
+    "classNotesCode": "288e7302-6f77-41b7-be8f-97a7a18f41f3.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Advance Session 02 : Advanced Level Q...",
+    "lectureCode": "4941a591-f8e3-4ef3-823f-ea77385f5efa",
+    "extId": "648d6ea0225b8d0018caa972",
+    "key": "648c2bd2e084d700183ce831",
+    "classNotesCode": "7e89e7b3-61a8-406e-b22b-6cc957b6ce5b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Advance Session 01 : Important Questi...",
+    "lectureCode": "15c2c059-6e7b-42c5-b345-eb0aa7c43712",
+    "extId": "6469fb46c1861200188f3474",
+    "key": "6469e37ddb1d600018cf29f1",
+    "classNotesCode": "5841481f-31cb-4fe3-94ee-e10e3636e776.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Sequence & Series : Advance Lecture |...",
+    "lectureCode": "4fe300f9-1af3-4ea4-b1f7-f988cae36c86",
+    "extId": "658292b4c7d59600188ce651",
+    "key": "6581417afec88b0018230e96",
+    "classNotesCode": "c10e3fff-c6a7-4bcf-9f53-4bdf022be8d7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Advance Session 04 : Thermochemistry ...",
+    "lectureCode": "0ac9ba7f-88dd-448d-ba8f-93b083bd217b",
+    "extId": "66487e57db9dff001800c0cc",
+    "key": "664767140a78be00189b6555",
+    "classNotesCode": "f5df440f-2a2e-4c11-aaec-459cafca6518.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Advance Session 03 : Chemical & Ionic...",
+    "lectureCode": "5f33b375-6a83-4a9d-8b26-c4537c82be82",
+    "extId": "663f635da221e30018b3b9ee",
+    "key": "663f588e5406330018b78269",
+    "classNotesCode": "288e7302-6f77-41b7-be8f-97a7a18f41f3.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

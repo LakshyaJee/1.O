@@ -3,40 +3,50 @@
     "lectureNumber": 1,
     "lectureName": "Assignment : Permutation & combination",
     "lectureCode": "ca61f045-ecf2-4fd4-9fc8-d4fe26e02e7d",
+    "extId": "65143f691583350018cdcbfb",
+    "key": "6513cce168f4f3001923f113",
     "classNotesCode": "b86ee969-e367-40c3-aa28-0795aa07f026.pdf",
-    "dppsPdfCode": "b86ee969-e367-40c3-aa28-0795aa07f026.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 2,
     "lectureName": "Assignment : Quadratic Equations",
     "lectureCode": "331ab3c0-3de9-439f-9f8d-ed040e3c5e6e",
+    "extId": "64dcc4e83263ec001851a661",
+    "key": "64dc65ac2c86ac0018c91678",
     "classNotesCode": "ee426727-a24b-4241-9917-996fae9c0c7e.pdf",
-    "dppsPdfCode": "ee426727-a24b-4241-9917-996fae9c0c7e.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 3,
     "lectureName": "Assignment : Trigonometric Ratios & I...",
     "lectureCode": "d706c0ca-3bd7-4883-a643-a50895bd0ef1",
+    "extId": "64d78d9146073e00188e75bd",
+    "key": "64d7400bc1cf620018821f0b",
     "classNotesCode": "033ff906-c511-4eee-911b-8dfe550b835a.pdf",
-    "dppsPdfCode": "033ff906-c511-4eee-911b-8dfe550b835a.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 4,
     "lectureName": "Assignment : Straight Lines",
     "lectureCode": "e33c0dfc-55d8-41b8-9242-51d415c707aa",
+    "extId": "65ba58a9c8752600180f1026",
+    "key": "65ba3afe9b130f0019213c76",
     "classNotesCode": "b86ee969-e367-40c3-aa28-0795aa07f026.pdf",
-    "dppsPdfCode": "b86ee969-e367-40c3-aa28-0795aa07f026.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 5,
     "lectureName": "Assignment : Circle",
     "lectureCode": "d9e7baaa-1e74-4169-bc50-c93532b0b3b6",
+    "extId": "65ba482f87cc600018054ede",
+    "key": "65ba2cf4519a6a00185bcd79",
     "classNotesCode": "ee426727-a24b-4241-9917-996fae9c0c7e.pdf",
-    "dppsPdfCode": "ee426727-a24b-4241-9917-996fae9c0c7e.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   }
 ]

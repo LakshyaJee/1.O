@@ -3,40 +3,80 @@
     "lectureNumber": 1,
     "lectureName": "P-Block 05 : Home Work Discassion || ...",
     "lectureCode": "58dba015-cc6d-4200-b5bb-cd16eb0596a0",
+    "extId": "65316e60bf26490018b7d9bc",
+    "key": "653299a05f33cd00125c9619",
     "classNotesCode": "30dda4b1-c0e4-4cdc-b738-71042fc6bc43.pdf",
-    "dppsPdfCode": "30dda4b1-c0e4-4cdc-b738-71042fc6bc43.pdf",
+    "dppsPdfCode": "9a4134ef-6579-42f7-87af-3e733b97dbf7.pdf",
     "dppsSolutionCode": "d841062d-e5e6-48d3-9e12-52bd9cbc0d17"
   },
   {
     "lectureNumber": 2,
     "lectureName": "P-Block 04 : HW Discussion || Group -...",
     "lectureCode": "308de2c3-3621-4238-8293-0f00e2382817",
+    "extId": "652e0c4651b7940018824509",
+    "key": "652e8bdc20b07500122658c1",
     "classNotesCode": "3a5e3af9-77bc-448b-beb7-8973e8037742.pdf",
-    "dppsPdfCode": "3a5e3af9-77bc-448b-beb7-8973e8037742.pdf",
+    "dppsPdfCode": "071b7353-d47d-4c72-be54-92d1fa1630bd.pdf",
     "dppsSolutionCode": "c44a560f-81cf-4711-8829-981cd6b39e1d"
   },
   {
     "lectureNumber": 3,
     "lectureName": "P-Block 03 : Gruop-13 Elements || Com...",
     "lectureCode": "772a0d70-97d6-47a2-8816-7eda55dcaaab",
+    "extId": "652c1241b4a792001812c9a8",
+    "key": "652d3a50e7ed5a0012fb9de6",
     "classNotesCode": "85d6415d-0760-4a2e-b635-85bfece27cf7.pdf",
-    "dppsPdfCode": "85d6415d-0760-4a2e-b635-85bfece27cf7.pdf",
+    "dppsPdfCode": "e6786fa9-2c63-4c67-b325-867fe92f736e.pdf",
     "dppsSolutionCode": "9a398e7a-bf9e-419a-8f19-eee551d1b1c9"
   },
   {
     "lectureNumber": 4,
     "lectureName": "P-Block 02 : Group 13 Elements || Phy...",
     "lectureCode": "a5818256-8119-4ea8-b691-dcf6ba0db1bd",
+    "extId": "6529845508741700186ce272",
+    "key": "652a7722175fbf00180c75b7",
     "classNotesCode": "4cec060e-1afc-453f-b3ec-6f5863cc3411.pdf",
-    "dppsPdfCode": "4cec060e-1afc-453f-b3ec-6f5863cc3411.pdf",
+    "dppsPdfCode": "4b3b7d70-eecc-4e3f-b323-aa4aad6ecd58.pdf",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 5,
     "lectureName": "P-Block 01 : Compounds of Ca || Group...",
     "lectureCode": "2307b8af-1018-4492-a724-36287ba49fc6",
+    "extId": "65281d669d737d00187ab107",
+    "key": "65295ebb48ca6b0012ba2785",
     "classNotesCode": "d978a74f-3696-4492-b499-ee21de09c846.pdf",
-    "dppsPdfCode": "d978a74f-3696-4492-b499-ee21de09c846.pdf",
+    "dppsPdfCode": "7a84e6a7-7e89-4741-8337-7531b642a0e4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "P-Block Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "30dda4b1-c0e4-4cdc-b738-71042fc6bc43.pdf",
+    "dppsPdfCode": "53b82caf-1770-482f-b700-3506a104f4fd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "P-Block Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "3a5e3af9-77bc-448b-beb7-8973e8037742.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "P-Block Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "85d6415d-0760-4a2e-b635-85bfece27cf7.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   }
 ]

@@ -3,48 +3,60 @@
     "lectureNumber": 1,
     "lectureName": "Hydrocarbon 04 : Electrophile, Nucleo...",
     "lectureCode": "aeb8f5f1-5866-4bbd-a2f2-ec37c324e1d6",
+    "extId": "65aa2d75a075a70018541851",
+    "key": "65aa694cf6f7a400188ed486",
     "classNotesCode": "e3549d91-6b56-445f-935b-b3f15a616d63.pdf",
-    "dppsPdfCode": "e3549d91-6b56-445f-935b-b3f15a616d63.pdf",
+    "dppsPdfCode": "b5f4dcb1-8754-424b-91cc-76ef2a4d75ad.pdf",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 2,
     "lectureName": "Hydrocarbon 03 : Some Specific Reacti...",
     "lectureCode": "b0dea9ee-fcc7-4834-b325-3638f0e5bdbc",
+    "extId": "659ed81771cd44001826aa35",
+    "key": "659fed7379a6a60018676f76",
     "classNotesCode": "b157d39c-c2cd-4d1a-bf5e-48d3bb108a0f.pdf",
-    "dppsPdfCode": "b157d39c-c2cd-4d1a-bf5e-48d3bb108a0f.pdf",
+    "dppsPdfCode": "d788283d-e350-415e-bcb2-0545c1437d95.pdf",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 3,
     "lectureName": "Hydrocarbon 02 : Photohalogenation ||...",
     "lectureCode": "6a6446d2-a29e-41ef-83c9-e70b651c1d03",
+    "extId": "659e3ce71067400018555e33",
+    "key": "659e9a4ab9988f68d06f184a",
     "classNotesCode": "337260ce-b1e0-4e79-8543-b7e13f682ffd.pdf",
-    "dppsPdfCode": "337260ce-b1e0-4e79-8543-b7e13f682ffd.pdf",
+    "dppsPdfCode": "1a26e6b3-d929-46b6-b61d-00c5478adde3.pdf",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 4,
     "lectureName": "Hydrocarbon 01 : Reaction with Metal ...",
     "lectureCode": "1acd358a-1472-4f5c-b0a4-3ebe96283399",
+    "extId": "659c383a24c155001817d65c",
+    "key": "659d6c913405030018acf1b6",
     "classNotesCode": "2df4f0bc-9c5e-4478-b271-87586d36afc7.pdf",
-    "dppsPdfCode": "2df4f0bc-9c5e-4478-b271-87586d36afc7.pdf",
+    "dppsPdfCode": "8cbe35b4-d4d2-4697-8c5a-067fa7364718.pdf",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 5,
     "lectureName": "Hydrocarbon 05 : Kuchrov Reaction || ...",
     "lectureCode": "1ccac27d-f480-48d2-8b86-a4e0f956566e",
+    "extId": "65b8cb9b5d127600184a79e2",
+    "key": "65b8c72fb02e56002aa24770",
     "classNotesCode": "8130be68-a149-4361-abe3-782653756e2d.pdf",
-    "dppsPdfCode": "8130be68-a149-4361-abe3-782653756e2d.pdf",
+    "dppsPdfCode": "2137ebfc-9957-4870-ae2f-e3e810eb3dd9.pdf",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 6,
     "lectureName": "Hydrocarbon 06 : Elimination Reaction...",
     "lectureCode": "7ebdc8f8-2ad1-4bec-b776-851b0356db8b",
+    "extId": "65c43e86b6045f0018642bda",
+    "key": "65c3a2853a1d2e00188fa784",
     "classNotesCode": "a0f625eb-e7d3-4c7b-918f-5c550926f33b.pdf",
-    "dppsPdfCode": "a0f625eb-e7d3-4c7b-918f-5c550926f33b.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   }
 ]

@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Set Theory 04 : More Problems On Card...",
+    "lectureCode": "e13c0e0c-a795-43ae-9303-26c90b519316",
+    "extId": "6465059980424b0018066154",
+    "key": "64663d26909f8d00189737ea",
+    "classNotesCode": "de9969ea-5135-4b8b-bfe9-db5a89fce5c9.pdf",
+    "dppsPdfCode": "60cfd462-d03d-448f-bf72-9857ae9ccb9a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Set Theory 03 : Laws Of Algebra Of Se...",
+    "lectureCode": "9eed8ae0-522a-4e6f-8faf-a4079d8bc7d1",
+    "extId": "6463ae87ffaa87001872a01d",
+    "key": "6464f24a58d32e0018258c2e",
+    "classNotesCode": "7bc6a1c1-0e96-449f-ab17-d83b54e225d7.pdf",
+    "dppsPdfCode": "ff08c1b7-19af-44cc-bad1-60a18741d78f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Set Theory 02 : Power Set || Operatio...",
+    "lectureCode": "a0702f5c-489a-453d-b581-88c4c0cf5395",
+    "extId": "645f216045eae00018bb3263",
+    "key": "645f87334f37db00195aa34f",
+    "classNotesCode": "36cba9a9-814e-483e-9501-a1798b12e140.pdf",
+    "dppsPdfCode": "d6bd99c8-db90-4596-bcc0-a0a3b69c10bb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Set Theory 01 : What is Set || Set Bu...",
+    "lectureCode": "8d6b2bbc-db1f-4a9e-a063-6f65316e0646",
+    "extId": "645dd1b93d8eea00181f8231",
+    "key": "645e3825e8686f0018d7bdb4",
+    "classNotesCode": "898f0cc0-5871-49dd-aa68-c99dfede3cf0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -3,16 +3,20 @@
     "lectureNumber": 1,
     "lectureName": "Purification of organic compound 01 :...",
     "lectureCode": "c3f526ca-341c-4705-9667-507282d44acf",
+    "extId": "6578ae48039ab800188ba4ca",
+    "key": "657976f1c74123001802901a",
     "classNotesCode": "1ae9c014-3174-48c5-a9d6-1c42894822da.pdf",
-    "dppsPdfCode": "1ae9c014-3174-48c5-a9d6-1c42894822da.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   },
   {
     "lectureNumber": 2,
     "lectureName": "Purification of Organic Compounds 02 ...",
     "lectureCode": "3f6eb2d4-d5af-4cfa-88f2-ced6ce68d53c",
+    "extId": "65b284486e40ba0018744d03",
+    "key": "65b27d81f913ee00180f54b2",
     "classNotesCode": "1ae9c014-3174-48c5-a9d6-1c42894822da.pdf",
-    "dppsPdfCode": "1ae9c014-3174-48c5-a9d6-1c42894822da.pdf",
+    "dppsPdfCode": "",
     "dppsSolutionCode": ""
   }
 ]
