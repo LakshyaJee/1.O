@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "P Block 05 : Halogen & Noble Gas Fami...",
+    "lectureCode": "0ebeb0e2-857c-40b6-aeed-b212cf84f54f",
+    "extId": "64f34ebcfb60a60018145f21",
+    "key": "64f345596a1cfd0018b77935",
+    "classNotesCode": "df3348cc-ee2b-41ae-863e-17da57144fc1.pdf",
+    "dppsPdfCode": "4f3f0633-b379-47b4-adb2-87d11ef956ec.pdf",
+    "dppsSolutionCode": "8eddb174-b6bd-4a9a-b931-4aa148ab7d04"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "P Block 04 : Oxygen Family, Halogen &...",
+    "lectureCode": "7a6c904a-d806-4fdb-9d17-61b405cda3aa",
+    "extId": "64f1350a3483e600182c2c9e",
+    "key": "64f1e62b3cd4db0018e295b1",
+    "classNotesCode": "0ae030c1-20a4-4ce5-8973-7f6b7af9f237.pdf",
+    "dppsPdfCode": "df561028-d0aa-4b9a-b27c-3badf66518d9.pdf",
+    "dppsSolutionCode": "286e7045-4830-401a-9c64-885dfa134ec9"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "P Block 03 : Oxygen Family",
+    "lectureCode": "28baf841-8181-4637-b32f-844eb390d2b6",
+    "extId": "64f028bc6f8f5d0018e62abf",
+    "key": "64f0b11ab092a30018abe8a2",
+    "classNotesCode": "65644bbf-0eb2-44c6-8d40-536d95667641.pdf",
+    "dppsPdfCode": "43609656-6c22-4faa-857e-47e6a2aa763d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "P Block 02 : Nitrogen (Part -02) || N...",
+    "lectureCode": "a88bd224-6d7e-4a1c-b7e9-9f674557d9be",
+    "extId": "64ed6c1b241e1b001889d087",
+    "key": "64edebc4af6ca4001868a4b5",
+    "classNotesCode": "3069fd18-ede5-471b-837c-4927c47dcdb8.pdf",
+    "dppsPdfCode": "319e6392-672b-4bcc-acf7-f74635792c64.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "P Block 01 : Nitrogen Family || NO DPP",
+    "lectureCode": "ca83ccd4-b6bf-4404-ac33-dfe3abe17413",
+    "extId": "64ec1c53faa92f001849ed6f",
+    "key": "64ec9f3443245c00183bfeaa",
+    "classNotesCode": "55747208-0cef-4ccf-be06-9e26976ae23d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "P Block Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "4f3f0633-b379-47b4-adb2-87d11ef956ec.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "P Block Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "43609656-6c22-4faa-857e-47e6a2aa763d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

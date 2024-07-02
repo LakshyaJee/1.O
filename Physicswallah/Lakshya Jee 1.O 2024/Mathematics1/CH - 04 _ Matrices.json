@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Matrices 06 : Adjoint & Inverse of a ...",
+    "lectureCode": "3367f624-38b2-45f4-9697-7a371e031370",
+    "extId": "6480842edd3d850018f0512f",
+    "key": "62baf0f484c7a20018f4b74b",
+    "classNotesCode": "85608008-4234-4a13-a5aa-b50d513bc390.pdf",
+    "dppsPdfCode": "7714a4f6-f02d-4f7d-b837-521f75afaed2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Matrices 05 : Symmetric & Skew Symmet...",
+    "lectureCode": "8e7e60c0-3747-45af-9278-b7a732d893a2",
+    "extId": "64807fed90186f0018efcf57",
+    "key": "62b49011f8e8510018be9838",
+    "classNotesCode": "77d9ec06-86ac-411d-bca5-8e9a033b8122.pdf",
+    "dppsPdfCode": "2ba04b94-d6c6-48e9-aa11-f7b17662b0f4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Matrices 04 : Four Special Square Mat...",
+    "lectureCode": "2d15c59d-981f-4e2c-95bf-792aaa5e1651",
+    "extId": "648070725b8c8b00184ff2c8",
+    "key": "62b3399f288b7e0011658229",
+    "classNotesCode": "0562b362-c242-4bbc-8405-463f17dd87a2.pdf",
+    "dppsPdfCode": "205dfa9e-f7bb-4c96-93e5-f69ac96aeaba.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Matrices 03 : Properties of Determina...",
+    "lectureCode": "27fe937c-a36d-4d04-a87f-302ea70d2ec2",
+    "extId": "64804aa629f1f90018929a7b",
+    "key": "62b315a9b90b9900192e3d6a",
+    "classNotesCode": "7b1a96ee-c8af-47d1-bdb6-6f9ff535c059.pdf",
+    "dppsPdfCode": "b8a8025b-286b-4fa0-bba9-81d74118b207.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Matrices 02 : Algebra of Matrices, Pr...",
+    "lectureCode": "e8b78a81-64b4-4054-b800-fa14d6487a09",
+    "extId": "648047533b383b00186f21dc",
+    "key": "62b1c0dcce1abd00183b79dc",
+    "classNotesCode": "39945691-d041-4742-a290-6150c2e45ab0.pdf",
+    "dppsPdfCode": "875c5742-b954-4cba-a030-42825683bd45.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Matrices 01 : Basics of Matrices, Dif...",
+    "lectureCode": "f7fec875-c6cc-4413-94a6-194b6d45c47b",
+    "extId": "648045d8dd3d850018ee7cc2",
+    "key": "62ac0f2faf67fd00180f6c05",
+    "classNotesCode": "e677ca39-1172-4f15-96e6-e30ae28325eb.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

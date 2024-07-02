@@ -1,0 +1,102 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Probability 10 : Practice Problems ||...",
+    "lectureCode": "3c3a60ee-6c0a-41a8-96cc-cb77a642444e",
+    "extId": "656ff7bdea09ad0018477785",
+    "key": "65708c5adaac830018e878f8",
+    "classNotesCode": "f29bf720-f2c4-4ca8-aaa4-4f5967d2a951.pdf",
+    "dppsPdfCode": "c3f84452-b1c5-415a-ad90-fe2caf50eeb9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Probability 09 : Three Event Space & ...",
+    "lectureCode": "40668379-f2ba-473d-86a2-13eb31e7163a",
+    "extId": "656e9c61b91bfd0018ded6c0",
+    "key": "656f4fdc4313720018739f9e",
+    "classNotesCode": "222df742-da88-410f-a64e-bc0c8cb355e2.pdf",
+    "dppsPdfCode": "f0c98cd0-6157-46d8-9089-a0594d3cb05e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Probability 08 : Extended Baye's & Ma...",
+    "lectureCode": "42e8aa96-4b73-4a91-9a78-fcf85e60ef49",
+    "extId": "656d4cb3141333001856ac3e",
+    "key": "656dfa3b0a852900198452a0",
+    "classNotesCode": "2492e2d7-45dc-4780-a021-9e0dcb886294.pdf",
+    "dppsPdfCode": "6dad89bd-11a3-454f-9a42-52a4f6fbcf62.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Probability 07 : Binomial Distributio...",
+    "lectureCode": "a8173b4c-9dc2-4d23-8b53-556516304abc",
+    "extId": "656838c1a879750018e35f64",
+    "key": "65688ebe000c40001887e7da",
+    "classNotesCode": "d417b7bf-0707-4876-bd35-cfbc0ae0ffc1.pdf",
+    "dppsPdfCode": "a6b98fca-9b36-42f4-ac74-6313c665b14c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Probability 06 : Law Of Total Probabi...",
+    "lectureCode": "91697b22-f6da-48d9-bfa8-a067c6b804c9",
+    "extId": "65669ddb7ec3f500186bab17",
+    "key": "656836d44847f10018fd9a64",
+    "classNotesCode": "ce084bae-fa7d-413c-91fc-b6ebd1631106.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Probability 05 : Conditional Probabil...",
+    "lectureCode": "87bb1655-20fb-47ed-9e5e-dfbb912e8edf",
+    "extId": "65655b00ecf25e00186d301d",
+    "key": "6566027ddcd1a300182f33cc",
+    "classNotesCode": "a0a733a4-5aab-4d45-9745-ea33dec7ec63.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Probability 04 : Introduction To Prob...",
+    "lectureCode": "f22d981b-efd5-478b-8868-e6358d238bbc",
+    "extId": "65640b9907f76d0018f03141",
+    "key": "65649db7ca43450018871d4c",
+    "classNotesCode": "538f32c3-4d07-484e-9e7e-936f70713d59.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Probability 03 : PYQ Practice || NO D...",
+    "lectureCode": "0fe87827-5e9b-410f-b88a-6ae675bd82bb",
+    "extId": "655d811d8caf440018daf44a",
+    "key": "654f64fa68d75a0018397f62",
+    "classNotesCode": "b0dbe781-7017-4455-8309-6c260aaf7da8.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Probability 02 : Grouping & Arrangeme...",
+    "lectureCode": "93142e0a-1bb4-4170-8d9b-6f9369607219",
+    "extId": "655c227f34377a00186107bb",
+    "key": "654a594272c956001837960c",
+    "classNotesCode": "bce192e8-00cd-432f-a6e8-87f563385621.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Probability 01 : Fundamental Principl...",
+    "lectureCode": "86d0d83b-27a8-4fef-bf5f-65d2df57e4ec",
+    "extId": "655aeb5dbe9f3500181314ad",
+    "key": "6547b233e12bc70018583de8",
+    "classNotesCode": "4cbc8fae-376d-430e-bf07-3f89f836b25e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

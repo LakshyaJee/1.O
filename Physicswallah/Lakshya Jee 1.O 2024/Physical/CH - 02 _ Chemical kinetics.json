@@ -1,0 +1,92 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Chemical Kinetics 09 : First Order Pa...",
+    "lectureCode": "544df21a-8eb6-4fb2-b645-ac6b7f9d5cb9",
+    "extId": "6459d22b577cb90018ea91eb",
+    "key": "645a8c67e2ca7100184a8582",
+    "classNotesCode": "c9f75412-67f2-4096-b487-be21bca5315d.pdf",
+    "dppsPdfCode": "c02b8813-8ec0-4296-9671-78e8592e40d4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Chemical Kinetics 08 : Collision theo...",
+    "lectureCode": "ad93fb4f-40b0-4d35-8f29-21ae82a84c47",
+    "extId": "64589514ef75410018c89da9",
+    "key": "645921a75068990018bc9c8b",
+    "classNotesCode": "5be6a2b9-9187-4fb6-ac95-6099c2df0851.pdf",
+    "dppsPdfCode": "ca8bbe96-a29a-448b-96f2-2031d0995027.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Chemical Kinetics 07 : Arrhenius Equa...",
+    "lectureCode": "51d6ee1e-4e10-45cd-8c21-5ebcaf5a92a7",
+    "extId": "645481461943d80018bda5a5",
+    "key": "6454f78ccc74a00018ab5ed4",
+    "classNotesCode": "67cb147b-113c-40f7-828a-b3e3248e8d26.pdf",
+    "dppsPdfCode": "21cc57e2-9532-4855-a361-a4f263783931.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Chemical Kinetics 06 : Numericals Bas...",
+    "lectureCode": "e5f7692b-9523-4396-b6ad-d570d24132db",
+    "extId": "6453447bd161610018b2cfd2",
+    "key": "6453bf843c3c7e0018154847",
+    "classNotesCode": "30a6cf25-ece0-4f2d-9d9f-b84abc27e0e9.pdf",
+    "dppsPdfCode": "5a6a4643-8572-4b8b-8467-037c919fdac2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Chemical Kinetics 05 : First Order An...",
+    "lectureCode": "a748b5a2-5b72-42fb-a738-32d74b5575ae",
+    "extId": "6451cc14f2b2a80018f6a7ef",
+    "key": "6452734c15c1ce001882c207",
+    "classNotesCode": "8c513140-9825-47f8-9b7f-fa1b2ce38fc7.pdf",
+    "dppsPdfCode": "10948caa-84b2-4032-a4c3-3ff6a0dae1c5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Chemical Kinetics 04 : Zero And First...",
+    "lectureCode": "955e5eb6-c49c-47de-9a78-d969caf9375e",
+    "extId": "64500b8dc6159700186fa206",
+    "key": "645139c33412890017996188",
+    "classNotesCode": "c9f75412-67f2-4096-b487-be21bca5315d.pdf",
+    "dppsPdfCode": "cf701206-9373-4aa2-86ba-b12867e790d4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Chemical Kinetics 03 : Molecularity |...",
+    "lectureCode": "bec7dc77-a1d6-47f3-8862-23d94912b9c2",
+    "extId": "644f43d53091ba0018a11518",
+    "key": "644fea97d2e75f00186af8af",
+    "classNotesCode": "5be6a2b9-9187-4fb6-ac95-6099c2df0851.pdf",
+    "dppsPdfCode": "51a7411a-b98a-44be-8dee-eff28daedbd9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Chemical Kinetics 02 : Order Of React...",
+    "lectureCode": "5e84d92c-0b03-4097-a11a-c1e77e0f5010",
+    "extId": "644b3c52ca91db00181178b0",
+    "key": "644bc58050d90a001827fbc6",
+    "classNotesCode": "67cb147b-113c-40f7-828a-b3e3248e8d26.pdf",
+    "dppsPdfCode": "8a806062-db7d-4178-a419-e57a3f55998c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Chemical Kinetics 01 : Rate Of Reacti...",
+    "lectureCode": "cdd7dc36-7139-4115-b63b-63da835b2926",
+    "extId": "6449d94ba6681500185e70d1",
+    "key": "644a72505b1ce40018262015",
+    "classNotesCode": "30a6cf25-ece0-4f2d-9d9f-b84abc27e0e9.pdf",
+    "dppsPdfCode": "c8a2c71a-1e26-4d4a-9f0c-e3c1603dab4a.pdf",
+    "dppsSolutionCode": ""
+  }
+]

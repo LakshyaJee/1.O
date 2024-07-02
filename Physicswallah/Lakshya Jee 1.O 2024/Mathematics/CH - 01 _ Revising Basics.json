@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Revising Basics 04 : Practice Problem...",
+    "lectureCode": "bdd04caf-6cba-4376-a136-42075e67ea13",
+    "extId": "6434be2c4f85200018d05cad",
+    "key": "643561b6454829001892c5ce",
+    "classNotesCode": "803c04aa-7830-4484-987d-01824318bae8.pdf",
+    "dppsPdfCode": "f6486d26-a836-4c7d-8001-2342a2581eb3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Revising Basics 03 : Practice Problem...",
+    "lectureCode": "70cf9d0b-4c1d-4d3e-b3f1-bf423dde794f",
+    "extId": "6433854d4a5b810018dd266d",
+    "key": "6434094a4ba26d0018589a19",
+    "classNotesCode": "39340434-9226-4cc4-b175-a7cd1b9d193d.pdf",
+    "dppsPdfCode": "1e25cc93-7517-43c2-a362-1a8ec2b424c5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Revising Basics 02 : Basic Maths",
+    "lectureCode": "d502e8e6-efc4-4c02-b44f-9637472df0ef",
+    "extId": "642ce70f7a27fc001846dceb",
+    "key": "642d72330c2fcf0018c07290",
+    "classNotesCode": "c4de2ad9-c131-4798-ac9f-720bf451d911.pdf",
+    "dppsPdfCode": "79cbcf06-c9e2-495c-a430-00b7ccb69892.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Revising Basics 01 : Basic Maths",
+    "lectureCode": "e651a8d9-c575-49a0-9b35-adcbdabd1fe6",
+    "extId": "642baac8dd36c900188b34df",
+    "key": "642c2020605fc50018057f7e",
+    "classNotesCode": "243624b0-61dc-47d0-877f-cc21670f63f1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

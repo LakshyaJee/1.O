@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Differential Equation 07 : Story (Wor...",
+    "lectureCode": "f2fba421-d3df-417c-ae64-d08f1857c800",
+    "extId": "651bed9e323bd80018dae437",
+    "key": "63611f3b047ade00119bcede",
+    "classNotesCode": "8bb21f4e-0858-4204-9dfd-06b3a13af57f.pdf",
+    "dppsPdfCode": "f9f3b2b8-383b-43c9-a650-3985f3085df0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Differential Equation 06 : Exact Diff...",
+    "lectureCode": "42d360c7-f325-48a9-a387-437f9b2d7f3b",
+    "extId": "651bea15f136ca0018236861",
+    "key": "635d4af15e5a8a0012eb2f9f",
+    "classNotesCode": "bf0d0eec-dcad-46e6-be65-9713f96e0be4.pdf",
+    "dppsPdfCode": "396c4aa0-b001-481d-82ef-10a3c626617c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Differential Equation 05 : Solving Li...",
+    "lectureCode": "2dc04c89-9b2e-4c0c-9aaf-88113bcc4e1d",
+    "extId": "651be545cac58a0018d75c5d",
+    "key": "635bfe08bf19fe001165962d",
+    "classNotesCode": "0ce9d614-1836-468c-bb71-cf5a1f2410c4.pdf",
+    "dppsPdfCode": "54867c66-07a1-40c4-9a6e-fe95b00f6196.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Differential Equation 04 : Homogeneou...",
+    "lectureCode": "17695af6-d6ea-443b-901c-5d6fa32caf4e",
+    "extId": "651be324c6a41f00181e2cf5",
+    "key": "635427f452ec2b001142b9fc",
+    "classNotesCode": "18a74841-ae54-441e-bae7-d7248cb9c1d7.pdf",
+    "dppsPdfCode": "35d2bc66-ffd7-419e-9811-c824afa6e9ba.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Differential Equation 03 : Variable S...",
+    "lectureCode": "deb6bd20-1126-4108-b89c-ef321f1be15c",
+    "extId": "651bde5018580c0018a07cfd",
+    "key": "634ff87b246a9900112a065b",
+    "classNotesCode": "425b7753-adbc-4392-b61f-fe2b4a124401.pdf",
+    "dppsPdfCode": "2036b52d-c3fd-436a-b001-e9f942f3d3dd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Differential Equation 02 : Formation ...",
+    "lectureCode": "c7479bec-ea36-446c-8cfa-c6e1e406700f",
+    "extId": "651bd24e02b75d0018b351a0",
+    "key": "634ea7890a2bc80018b59a05",
+    "classNotesCode": "391319bf-e2d2-48bc-bf86-4be3d43ae40c.pdf",
+    "dppsPdfCode": "a552b1c8-3a40-4824-bbf9-a84226d6c56d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Differential Equation 01 : Basics of ...",
+    "lectureCode": "9c89ad39-5df0-4bbb-845e-4cf2b9b95232",
+    "extId": "651bce40c43b6c0018a7e190",
+    "key": "634ad551dadba80018ec2524",
+    "classNotesCode": "fb7ecf80-b43b-41e7-b69b-cc1b33f93a37.pdf",
+    "dppsPdfCode": "f9f686e7-3533-4b0a-9e30-38016d9e3412.pdf",
+    "dppsSolutionCode": ""
+  }
+]

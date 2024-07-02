@@ -1,0 +1,102 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Probability 10 : Solving Different Ty...",
+    "lectureCode": "dd286fa9-5217-4b08-809f-6584c27d37d6",
+    "extId": "655b100cf37fc20018e2468b",
+    "key": "639b449ccaddd301d5072f2d",
+    "classNotesCode": "467c936a-9928-4771-b3a4-5ec427f8b282.pdf",
+    "dppsPdfCode": "27e33d5b-9ef4-4eeb-833e-8fbb7ecd7fa9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Probability 09 : Geometrical Probabil...",
+    "lectureCode": "a9e8a427-7327-42f6-955f-0e1637e248bf",
+    "extId": "655b0f915fd7ec001867b058",
+    "key": "6399f551f06cb400d5960fc5",
+    "classNotesCode": "7f2ca3aa-4f02-4146-9edf-940c31623f30.pdf",
+    "dppsPdfCode": "eb92d380-f735-49ad-b9fe-54cec9b5d2b6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Probability 08 : Binomial Probability...",
+    "lectureCode": "2e05e50b-183c-41b5-ab22-6b9120f39612",
+    "extId": "655b0ed7f37fc20018e2431a",
+    "key": "6399c95724b09f0011196c93",
+    "classNotesCode": "fb42aa54-4e9b-47ba-8e9a-44f3b27eae8a.pdf",
+    "dppsPdfCode": "81f40c17-16c0-49df-a08e-21eb0ba40e39.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Probability 07 : Random Variable, Pro...",
+    "lectureCode": "215ac69b-4786-4c86-a8fb-311442f7e5a4",
+    "extId": "655b0df21ec21d001834d40c",
+    "key": "63975765a3c1070039bf8d5b",
+    "classNotesCode": "ea150a88-82bf-4199-90a0-1f5145d07a98.pdf",
+    "dppsPdfCode": "a1af2b83-13a7-4ae3-b27c-4891c59be643.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Probability 06 : Total Probability & ...",
+    "lectureCode": "28395904-332f-4c72-91ef-05e757682bf6",
+    "extId": "655b0d5c1ec21d001834d2ac",
+    "key": "6394b1aebdc68d02bde50dee",
+    "classNotesCode": "16df0f73-7acf-45bc-ae15-68f729dbcee9.pdf",
+    "dppsPdfCode": "dcab0d86-d5ae-4dcf-becf-a8cd0e48f666.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Probability 05 : Independent Events, ...",
+    "lectureCode": "cf0526a1-cc47-47e0-86e7-55b5fa264970",
+    "extId": "655b0c55d452a900185c71dc",
+    "key": "639360036161d50054f2c1bf",
+    "classNotesCode": "06e26fa4-46cd-4a77-a2d0-d25bc5ad8709.pdf",
+    "dppsPdfCode": "989e4c55-a875-4b7b-a63b-ece49cd4ac80.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Probability 04 : Use of Set Theory, I...",
+    "lectureCode": "f247d79e-0ba4-46bd-9787-0629888d037b",
+    "extId": "655b0bebb59f1a00186e7fef",
+    "key": "638f61425cf1e400e75620a3",
+    "classNotesCode": "74736d99-8726-493f-95a7-3f3f1c5cf506.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Probability 03 : General Terminology,...",
+    "lectureCode": "34553d81-3e71-4450-9536-f5c5e9914fd4",
+    "extId": "655b0b26a855dd0018437acc",
+    "key": "638f3f854f2d650144bc0b22",
+    "classNotesCode": "101eec5a-9b91-4272-b33e-e425c235c677.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Probability 02 : Revision of Permutat...",
+    "lectureCode": "1cb94884-4962-4d52-b4ca-707b063f2bd3",
+    "extId": "655b0abf2826d900181b634c",
+    "key": "63889d7454a8fb00dab3d5b1",
+    "classNotesCode": "29c7da14-0ee1-40fa-9f5c-ba50ed0666d6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Probability 01 : Revision of Permutat...",
+    "lectureCode": "d8df0313-427c-4278-9fa0-0965d1599f69",
+    "extId": "655b09c8f37fc20018e1363b",
+    "key": "63889cd712406500fea5426f",
+    "classNotesCode": "8407614b-dc60-4a9d-9070-580468003005.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

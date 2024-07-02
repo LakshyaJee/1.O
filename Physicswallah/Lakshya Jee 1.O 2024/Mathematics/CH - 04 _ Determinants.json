@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Determinant 06 : Multiplication of De...",
+    "lectureCode": "5865710d-c21d-4694-820e-c97d7b3bc696",
+    "extId": "647ed879cd13690018132b8e",
+    "key": "647f67ee6c07d5001818c550",
+    "classNotesCode": "be9f4195-2072-45e6-9342-c8bc36a19654.pdf",
+    "dppsPdfCode": "540ec928-68a6-48aa-9f05-64e660b79a77.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Determinant 05 : Multiplication Of De...",
+    "lectureCode": "4bf437c2-db98-4a1a-a149-3052050aace1",
+    "extId": "647e953d09acad0018ddaba9",
+    "key": "647f2936d010a40018eac5f7",
+    "classNotesCode": "f3efaefa-8ec6-4df9-a41b-78ca388ba77a.pdf",
+    "dppsPdfCode": "c4e6edfd-684e-41f4-8cbb-fdf6af570d7e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Determinant 04 : Multiplication Of De...",
+    "lectureCode": "d8ab2420-2c90-474b-8d68-0fb669954d46",
+    "extId": "63fc4a01518dba01c7925643",
+    "key": "647e150ed15fe00018338bd9",
+    "classNotesCode": "be9f4195-2072-45e6-9342-c8bc36a19654.pdf",
+    "dppsPdfCode": "3d98fc50-ded0-4b47-b937-e2cbb5c69875.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Determinant 03 : Question Involving D...",
+    "lectureCode": "dbcaeac6-76bc-4669-b7de-ad2642ebf2ea",
+    "extId": "647950de10e5040018b7a732",
+    "key": "647b67df793998001806e927",
+    "classNotesCode": "f3efaefa-8ec6-4df9-a41b-78ca388ba77a.pdf",
+    "dppsPdfCode": "dae893ba-5c40-49d6-904b-2f12959942d6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Determinant 02 : Properties Of Determ...",
+    "lectureCode": "56650fe8-bc1e-4670-bf76-e26d795e1a2b",
+    "extId": "647801ce5fb4cc0018ae5910",
+    "key": "6478d0a4b6a0fb0018856c49",
+    "classNotesCode": "be9f4195-2072-45e6-9342-c8bc36a19654.pdf",
+    "dppsPdfCode": "d229d5d4-5362-45e8-bef7-8c3a4a921891.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Determinant 01 : Introduction to Dete...",
+    "lectureCode": "9f1211b3-2be7-4b3a-99bf-2841f4548b1f",
+    "extId": "6476b1a2afa6ac0018a5873c",
+    "key": "64777d86186d7c00187e82d0",
+    "classNotesCode": "f3efaefa-8ec6-4df9-a41b-78ca388ba77a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

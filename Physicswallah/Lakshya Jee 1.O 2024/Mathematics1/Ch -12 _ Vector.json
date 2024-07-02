@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Vectors 08 : Reciprocal Systems of Ve...",
+    "lectureCode": "66d0b147-c1d2-4382-b8d2-279f09bf1e41",
+    "extId": "652aa85ab3be850018e91d63",
+    "key": "637390b6ee04a10011827696",
+    "classNotesCode": "de8b4684-6c30-4042-bec0-5f529726739e.pdf",
+    "dppsPdfCode": "bd9eab3f-964a-4ed2-9cbf-9f4f430ba1e0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Vectors 07 : Question Discussion, Lin...",
+    "lectureCode": "91c9291f-0fee-44be-b6d9-e2315dcd6d38",
+    "extId": "652aa495b3be850018e8c6ef",
+    "key": "636fbf50ec40a900e41c97ee",
+    "classNotesCode": "2a3ac983-1c4f-4bb3-a88e-7026548bc3fd.pdf",
+    "dppsPdfCode": "a144186e-a17c-43c7-811e-2eb952026404.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Vectors 06 : STP, Questions on STP, V...",
+    "lectureCode": "ccf23461-14c6-4083-b481-6a0ad8c8f5b9",
+    "extId": "652a9fb0a1c3d300180c4e75",
+    "key": "636e71c4ab83d900117b22dc",
+    "classNotesCode": "44585b69-7fc8-4586-9926-bf14f6008ba4.pdf",
+    "dppsPdfCode": "91762fef-2773-46b2-a76a-9d6d6870521e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Vectors 05 : Cross Product & Question...",
+    "lectureCode": "a38a66ea-e968-426a-a922-e479384a2295",
+    "extId": "652a9bdbc0a2460018c64a03",
+    "key": "636bb5eb012da600180164c5",
+    "classNotesCode": "cb968a50-30e5-4d32-9658-a2ed26b4bade.pdf",
+    "dppsPdfCode": "a94ed1b7-5299-4780-aea4-365dda8e4e97.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Vectors 04 : Cross Product & Question...",
+    "lectureCode": "3cee0533-2daf-4e81-9f05-29b23b9514f8",
+    "extId": "652a977ba4d80f0018af93fc",
+    "key": "636a7b88976df80019bedf8f",
+    "classNotesCode": "5ba4aebc-7ceb-4104-bc55-82b44c4d1232.pdf",
+    "dppsPdfCode": "291b5c9e-25c4-40a8-a00e-70b961eb6ccf.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Vectors 03 : Dot Product & Cross Product",
+    "lectureCode": "496b630b-d034-48a6-a71f-c9a655ce8f83",
+    "extId": "652a949fa4d80f0018af80b7",
+    "key": "636687ae83844700184a571a",
+    "classNotesCode": "7519b940-d8f4-4877-a801-5a1a692e4a38.pdf",
+    "dppsPdfCode": "9998e7e2-7988-47fe-ac86-41dfa55f5203.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Vectors 02 : Vector Law of Addition, ...",
+    "lectureCode": "dab72f4e-5404-4287-b91a-16d170d3956b",
+    "extId": "652a857df39c81001801c15b",
+    "key": "636534e2a6c8590011e54bc6",
+    "classNotesCode": "b18adb17-8e0f-4c8b-9aea-19e61d930b60.pdf",
+    "dppsPdfCode": "067aa69b-2ccf-4bc0-b8ff-441814f6c05b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Vectors 01 : Different types of Quest...",
+    "lectureCode": "6355780b-c052-4a5e-ae13-568c04581025",
+    "extId": "652a7d0ea1c3d300180a6494",
+    "key": "63626d6aa31198001126e3be",
+    "classNotesCode": "3a613acc-ee49-49c1-a978-a662965d0865.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

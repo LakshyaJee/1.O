@@ -1,0 +1,192 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Revision 06 : Matrices || Summary Lec...",
+    "lectureCode": "b59bb1c6-77bc-4040-9834-b01d422f6ea7",
+    "extId": "653a888453b16e0018f5309a",
+    "key": "653a7f58c68c320018a88809",
+    "classNotesCode": "b2266e7a-82ee-46a6-bbad-2792d388eac7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Revision 05 : Application of Derivati...",
+    "lectureCode": "68553ea9-73d7-4455-9914-dc68d411d8c0",
+    "extId": "6529698ea27e770018dc911a",
+    "key": "652948e4638d97001890bab3",
+    "classNotesCode": "dc323c62-e257-41ab-8182-a39026239d49.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Revision 04 : Relation & Function || ...",
+    "lectureCode": "59b58288-e13d-4e78-aa00-9ff5bf7b1e73",
+    "extId": "6468c7b9d8dad40018197cd0",
+    "key": "6468b16bf8ff380018589c1c",
+    "classNotesCode": "f80a67d3-77f7-4b30-95b5-27d74cd6bf92.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Revision 03 : Modulus Function || No DPP",
+    "lectureCode": "83cd55d1-8a6f-401f-9679-699846177589",
+    "extId": "643b6cf1904ba40018eae045",
+    "key": "643ad4e1a8a0be00188209dd",
+    "classNotesCode": "a2d48b86-05f6-4068-8fc6-f09c0cf53429.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Revision 02 : Quadratic Polynomial ||...",
+    "lectureCode": "a7eba1b5-74ab-4588-8e22-6d8018256940",
+    "extId": "6432ae8bb1ca5200183b56cc",
+    "key": "6432a7b34fa5060018e33923",
+    "classNotesCode": "c30401bf-fd40-4a4e-8049-e3af8993c764.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Revision 01 : Trigonometry || Graph O...",
+    "lectureCode": "03ca5090-a220-44f1-a060-657a46c0114b",
+    "extId": "64315cf848a9380018208623",
+    "key": "643154060c8c3a00188a0ff1",
+    "classNotesCode": "a582029f-331a-4ac1-bd20-c1e369c70710.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Revision 02 : Chemical Bonding || NO ...",
+    "lectureCode": "719124d6-e14d-407c-8013-a9ac8c47973a",
+    "extId": "648529f7916a2e00170e0e63",
+    "key": "64858eaa8d622700186c0850",
+    "classNotesCode": "0f552b6f-6809-453f-b4e0-9bd60341d2f1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Revision 01 : Periodic Table || NO DP...",
+    "lectureCode": "7e2198be-b634-4b72-9fe4-27c1048439d1",
+    "extId": "6483f97e2526500018691323",
+    "key": "6484981e049da50018f70fa4",
+    "classNotesCode": "cb49282e-b0c5-4e5d-bcf8-24631e1d3688.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Revision 11 : GOC || Carbanion || Aci...",
+    "lectureCode": "0996400c-0160-48d8-a191-059cedfdbcde",
+    "extId": "652ab6a322afad00181f0c38",
+    "key": "652a2e17b4d7220018c9969d",
+    "classNotesCode": "e27a567b-5c2f-45d7-96f3-e307c69294e5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Revision 10 : GOC || Resonance By Hea...",
+    "lectureCode": "8e35ee19-c3b7-4d39-a860-21c0a66bb3ea",
+    "extId": "650ed8ba84cc5900187b20c8",
+    "key": "650e963d09936c00182174fa",
+    "classNotesCode": "fa6d4db2-82fc-4269-a773-175106880412.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Revision 09 : GOC || Energy Level Dia...",
+    "lectureCode": "19b460a8-9455-4a1d-97c2-560a4cf3d4de",
+    "extId": "650eab91bcec3f0018b0ce1c",
+    "key": "650e8f63bcec3f0018afcfd5",
+    "classNotesCode": "94d80918-a675-4de5-8de3-0010b783007f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Revision 08 : GOC || Aromaticity , No...",
+    "lectureCode": "ffd6c654-a0df-4ce9-9c0b-9d9aaf624783",
+    "extId": "650809f4872b460018cfb5c0",
+    "key": "6507d99bd8f6f10018c66e17",
+    "classNotesCode": "94009bb9-256f-4101-b19e-29abfbcc164f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Revision 07 : GOC || Hybridisation If...",
+    "lectureCode": "3ee316f3-25d7-493d-bcc6-3ee8983dbd8a",
+    "extId": "65058ed742d0ad0018eb1133",
+    "key": "65055456b92f840018654a67",
+    "classNotesCode": "38920417-466a-4ea3-8f24-0894614522a3.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Revision 06 : GOC || Activating Group...",
+    "lectureCode": "6644f0b8-e435-4e52-ae16-7e7647df8faa",
+    "extId": "65058a248915550018ad926e",
+    "key": "6505515cee10480018ca2a2d",
+    "classNotesCode": "c6a3dd7b-0d30-4db9-a6fb-4c6ac08a9c8c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Revision 05 : GOC || Resonance || NO ...",
+    "lectureCode": "68c764fa-6a50-4c80-91f4-2f118aabd325",
+    "extId": "6501db080d1ab5001860225b",
+    "key": "6501b59dbd2d42001847e5ba",
+    "classNotesCode": "a798c7ff-594a-403c-a6c3-cd1c3af11550.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Revision 04 : GOC || Resonance Starte...",
+    "lectureCode": "1cc76652-6553-41b2-9225-1adac8116387",
+    "extId": "64f57ea2fb60a60018156478",
+    "key": "64f4ca87f69483001880e738",
+    "classNotesCode": "b2266e7a-82ee-46a6-bbad-2792d388eac7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Revision 03 : GOC || Applications Of ...",
+    "lectureCode": "de826fb0-2352-48b6-aeff-dcff9e9a4ebf",
+    "extId": "64f2000c893e280018f6761b",
+    "key": "64f1da9c0d3cbf0018261102",
+    "classNotesCode": "dc323c62-e257-41ab-8182-a39026239d49.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Revision 02 : GOC || Hyperconjugation...",
+    "lectureCode": "6898b94c-d4a2-4573-85c3-706ca6284864",
+    "extId": "64ef558a87a5f3001813aaf3",
+    "key": "64ef4c1b6327980018445c5f",
+    "classNotesCode": "f80a67d3-77f7-4b30-95b5-27d74cd6bf92.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Revision 01 : GOC || Electronegativit...",
+    "lectureCode": "fdce2494-4c45-4043-96ee-1530a9108fcb",
+    "extId": "64ee03e7aaa84d0018e08c84",
+    "key": "64edea843a188b001866ae4d",
+    "classNotesCode": "a2d48b86-05f6-4068-8fc6-f09c0cf53429.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

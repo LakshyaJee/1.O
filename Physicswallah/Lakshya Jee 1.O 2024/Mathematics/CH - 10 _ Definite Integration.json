@@ -1,0 +1,132 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Definite Integration 09 : Estimation ...",
+    "lectureCode": "9a566504-cdc8-4e63-a46b-99bfb4f22d25",
+    "extId": "65097f78ee77ae001836750c",
+    "key": "650975ba0a91460018763442",
+    "classNotesCode": "b906ef89-27eb-4726-8ef4-9c57ba9c2d65.pdf",
+    "dppsPdfCode": "61f79032-f818-48ab-9736-454040deea6d.pdf",
+    "dppsSolutionCode": "804b29ef-415e-4ad8-8355-81e53c0bbd14"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Definite Integration 08 : Practice Pr...",
+    "lectureCode": "270145c7-27bd-466d-bea2-12e493458fb8",
+    "extId": "6507cd025b757000187b80e9",
+    "key": "650853909a88920018149b97",
+    "classNotesCode": "cd738cb0-1f8f-4c84-8b2a-1f72cc507a47.pdf",
+    "dppsPdfCode": "9e5f026b-e787-4d3e-ada8-e184a09b685e.pdf",
+    "dppsSolutionCode": "1c79ed06-27f0-4d8f-b9a8-6329e7302c25"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Definite Integration 07 : Newton Leib...",
+    "lectureCode": "3161ed4f-a657-4345-8526-ee33bce66a2e",
+    "extId": "650536f5ead1af0018d09bef",
+    "key": "6505bf37cfbf160019e08abe",
+    "classNotesCode": "87623749-ae7e-4bae-954a-630369af7f5b.pdf",
+    "dppsPdfCode": "f50d72a6-89fe-4762-a4c8-fe75000fcc18.pdf",
+    "dppsSolutionCode": "d8bcfe72-d912-42f9-8f62-d6faaa10a923"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Definite Integration 06 : Properties ...",
+    "lectureCode": "f6dce81b-4ae3-4dc4-93a7-e4578ac189d8",
+    "extId": "650138cc7209db00199b2dd4",
+    "key": "6501e174c72d7c0012f0238e",
+    "classNotesCode": "7efec4f1-c4bf-4f1e-b3e3-6e99887be308.pdf",
+    "dppsPdfCode": "fc46c843-75bd-42dc-8f8f-3d509e56c18b.pdf",
+    "dppsSolutionCode": "05c875a6-f866-48d7-85f3-6e2882fc4a5c"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Definite Integration 05 : Properties ...",
+    "lectureCode": "c6c1389e-5a90-4ff9-9bff-de9abc4b22b4",
+    "extId": "64ffdc4dc7d232001830ab82",
+    "key": "65006c316e171a0018510432",
+    "classNotesCode": "550b97d7-bc30-4213-b5ed-a495893c1262.pdf",
+    "dppsPdfCode": "45f6c958-c819-4154-a608-6ccbc31b1b2f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "(!)Definite Integration 04 : Properti...",
+    "lectureCode": "a93848ba-16d5-4003-af4c-22a447126c63",
+    "extId": "64fe7a6c802d3f00183d2720",
+    "key": "65006fdcc371d800187402b3",
+    "classNotesCode": "071d0ab6-6a7d-4d03-a03b-ec15ae0098e6.pdf",
+    "dppsPdfCode": "45b88dba-077f-4be5-8849-63e75c378496.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Definite Integration 03 : Some Import...",
+    "lectureCode": "8475cbb3-64b7-4dd8-b65d-60381eb6c015",
+    "extId": "64fc55744b2c290018905750",
+    "key": "64fc8a952cfaab0018e8a566",
+    "classNotesCode": "9def374c-1ac6-4cb5-a35e-19eb33a0d1bc.pdf",
+    "dppsPdfCode": "2b064914-7d3f-4e2d-8085-b44ad721c498.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Definite Integration 02 : Fundamental...",
+    "lectureCode": "cdf3ed74-69a6-4e63-8b00-4e8ad992503e",
+    "extId": "64f75dd13a15bb0018dc10ad",
+    "key": "64f8a628e492660018c931c8",
+    "classNotesCode": "2f1660b4-01a6-48c3-af86-1db9f2477170.pdf",
+    "dppsPdfCode": "bdafbe82-4193-46bd-9e75-0cf2092d8d7c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Definite Integration 01 : Introductio...",
+    "lectureCode": "5a5f8e06-c9c2-4a6e-ae81-b6bf3fb0f9d0",
+    "extId": "64f55a1f091cb10018749967",
+    "key": "64f601a2eaefa1001857385e",
+    "classNotesCode": "c68a7f9c-5eb7-4dda-8535-0354446c0e63.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Definite Integration Solution To DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "e05a1953-c2aa-44f5-bb79-ea90ffee204a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Definite Integration Solution To DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "b906ef89-27eb-4726-8ef4-9c57ba9c2d65.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Definite Integration Solution To DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "cd738cb0-1f8f-4c84-8b2a-1f72cc507a47.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Definite Integration Solution To DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "87623749-ae7e-4bae-954a-630369af7f5b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

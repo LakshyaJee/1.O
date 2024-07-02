@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Biomolecules 05 : Proteins || Nucleic...",
+    "lectureCode": "81480c75-8483-4cc2-a62c-93abbe048af6",
+    "extId": "656ab26701a36a0018f36ec9",
+    "key": "656b4b9b39e89d00182dc9a2",
+    "classNotesCode": "84107d07-5841-4029-9bcc-3f514d7f5770.pdf",
+    "dppsPdfCode": "49e40112-f5a9-48b8-8f46-8c7d95ad1150.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Biomolecules 04 : Amino Acids || Prot...",
+    "lectureCode": "5620ff83-e1d0-46d7-89df-7c6855c98280",
+    "extId": "656ab235a96ae60018f5555d",
+    "key": "656b3179f06c52001915d571",
+    "classNotesCode": "f8cec6df-5d6c-43d4-990b-cc7483c5a2bf.pdf",
+    "dppsPdfCode": "52087733-f2a3-4788-adf0-72e0fd2c370b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "!! Biomolecules 03 : Vitamins || Enzy...",
+    "lectureCode": "401a27ed-1595-4368-b0f4-98245f698388",
+    "extId": "656941982e5bc1001862cb66",
+    "key": "6569f7330795a50018f6f23b",
+    "classNotesCode": "aa5149f7-5673-4f39-94b6-64732061c2ba.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "!!Biomolecules 02 : Carbohydrates Its...",
+    "lectureCode": "c0ab6e81-13a2-4f0d-8841-4aa926566201",
+    "extId": "65694124974ddf001800aca2",
+    "key": "6569ed8cf6656b0018a37253",
+    "classNotesCode": "8e707776-6dab-4583-8c43-6e6f37ba0915.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Biomolecules 01 : Carbohydrates Class...",
+    "lectureCode": "220c2484-b282-48e3-9a01-8f1c7fae7088",
+    "extId": "65680640d4545c0018ded182",
+    "key": "6568a363aa999c00186157e4",
+    "classNotesCode": "3c001039-6fcf-4404-9b58-adc3ad056c26.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

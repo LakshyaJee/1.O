@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Indefinite Integration 08 : Different...",
+    "lectureCode": "4b10d3fc-646a-4b78-8774-960ac5b5abe1",
+    "extId": "64e33f8c421a480018d5bb55",
+    "key": "6331acf3702cc0001800d35b",
+    "classNotesCode": "c624121e-e2ad-43a3-9cb4-8804f5367eef.pdf",
+    "dppsPdfCode": "3788b64f-5a9d-49a8-8771-420744f6e118.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Indefinite Integration 07 : Different...",
+    "lectureCode": "b9d89ec0-1c3b-47d6-a200-9edd1085813e",
+    "extId": "64e33f2cea789c00180f6b18",
+    "key": "632f23d719de53001898c9e2",
+    "classNotesCode": "dee70e42-0b9c-41c1-9cf4-cab190687c6d.pdf",
+    "dppsPdfCode": "e1fb5633-535c-44c0-9629-4ce919b295fe.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Indefinite Integration 06 : Reduction...",
+    "lectureCode": "4d075e8c-3acf-4ae6-a50a-5f2f62a6cdd7",
+    "extId": "64e33e4e667d890018ba86c5",
+    "key": "632dd772eef48d0011d85a59",
+    "classNotesCode": "76fd50eb-64ff-4cb9-b5e1-770adb645554.pdf",
+    "dppsPdfCode": "3708cc15-ef98-42a6-bfb7-b66258efc93d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Indefinite Integration 05 : Two Class...",
+    "lectureCode": "361fee5b-de3d-428a-8704-5abf5c9d1913",
+    "extId": "64e33d43a568de001826b32b",
+    "key": "632b0f953f83be001852a31d",
+    "classNotesCode": "a08e8f13-717f-474a-bf6e-34e78578ab79.pdf",
+    "dppsPdfCode": "08240760-7523-442d-a1d5-393b1d7b50a3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Indefinite Integration 04 : Integrati...",
+    "lectureCode": "9ee7e8ec-d493-4f33-bf59-075f705ada05",
+    "extId": "64e33bef9d58b20018af83e0",
+    "key": "6325f6479d2bca00115612d7",
+    "classNotesCode": "751ebad1-d1b5-433c-9e75-06118d4cc9ec.pdf",
+    "dppsPdfCode": "f18db536-38fc-4d41-8cee-d841b78da04d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Indefinite Integration 03 : Integrati...",
+    "lectureCode": "64e3e678-2b89-433b-92cf-77cb3ed0fdf8",
+    "extId": "64e3378d6124c10018a3c0ab",
+    "key": "63249fd5dd9bf800186147d3",
+    "classNotesCode": "bad404d5-48e9-4fc4-9deb-72bc965be3c0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Indefinite Integration 02 : Integrati...",
+    "lectureCode": "65bc0a5e-9d03-424a-888a-9b8765377fed",
+    "extId": "64e33739ee54220018ed7a9a",
+    "key": "6321cfedcac9e2001812021c",
+    "classNotesCode": "ab2644cb-e1a1-4cd7-819c-b24f136a1341.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Indefinite Integration 01 : Introduct...",
+    "lectureCode": "951f57ba-ec7c-4a22-a28d-82d70a41f917",
+    "extId": "64e3362a29482d0018f2b031",
+    "key": "63219f21fec1540011569060",
+    "classNotesCode": "dd0350fe-e0b1-4aaf-8e05-c1c8c6038bbd.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

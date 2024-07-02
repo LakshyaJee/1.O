@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Three Dimensional Geometry 06 : Angle...",
+    "lectureCode": "7eee7d9c-879a-490d-8166-d82ddd5f248b",
+    "extId": "6553298a4403150019273626",
+    "key": "654e28bbc0026100183db32e",
+    "classNotesCode": "4f3afe0e-b6f0-4433-9dd9-feb912ff14b1.pdf",
+    "dppsPdfCode": "6328d071-eb1e-4e62-b9a1-2a3824ba7eb8.pdf",
+    "dppsSolutionCode": "22e4da23-9133-41f3-bf8e-dfdc70d5073f"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Three Dimensional Geometry 05 : Unsym...",
+    "lectureCode": "0f7ea88d-f988-4e40-9c9d-c04e15b1a5f5",
+    "extId": "654efe3dc98fbc00187a983a",
+    "key": "654e28e25c073800181f2cf1",
+    "classNotesCode": "4334414d-b6d8-4941-b94d-fd4c57acc351.pdf",
+    "dppsPdfCode": "350a1c78-fda9-496c-94f1-673f68962498.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Three Dimensional Geometry 04 : Equat...",
+    "lectureCode": "bd70299e-0d29-42b6-8f53-4586c4e2b6f6",
+    "extId": "654af0beb9f0c600185a780a",
+    "key": "654bb3b723d7a70018d22382",
+    "classNotesCode": "4dc8ed55-1795-44d2-969b-d04790687796.pdf",
+    "dppsPdfCode": "84f49289-f453-41cc-b768-9b41a5708969.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Three Dimensional Geometry 03 : Pract...",
+    "lectureCode": "eea05db8-5ecf-42cc-af7a-4a641e8d09f0",
+    "extId": "6549939361f3250018a55e3b",
+    "key": "654a4d6530b8bd0019c2d3dd",
+    "classNotesCode": "4b74bb5a-5bc2-4263-a995-51e370cba3b2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Three Dimensional Geometry 02 : Pract...",
+    "lectureCode": "75b97324-d16c-477b-b51a-5725a0181118",
+    "extId": "654858cecbff2300180d3f12",
+    "key": "6548eda293c5210018a15022",
+    "classNotesCode": "2c217a12-d474-4313-8683-f5eeb9d8a24d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Three Dimensional Geometry 01 : Intro...",
+    "lectureCode": "68eb1ec4-de65-49e8-b5f7-59b4d39f3d87",
+    "extId": "65470678c07c380018e3ecba",
+    "key": "6547ad3d86d1b4001804bac4",
+    "classNotesCode": "6aeb541e-bebe-4284-9ba8-c9d964b35b98.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Three Dimensional Geometry Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "e8736a46-04d2-4d6b-83a1-3a557a2730ca.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

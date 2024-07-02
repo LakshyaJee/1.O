@@ -1,0 +1,162 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Vector 12 : Vector Product Of Four Ve...",
+    "lectureCode": "98ce984c-f018-4331-9e7c-ef8f8c103cf0",
+    "extId": "6545a6128665e50018605009",
+    "key": "654673639f745e0018b74c62",
+    "classNotesCode": "73ac51eb-e006-4d70-ac3a-65b0227b50a6.pdf",
+    "dppsPdfCode": "359c4d8b-4c23-46b4-b1a5-cada7fd3558b.pdf",
+    "dppsSolutionCode": "49ae1282-eb21-481e-a27c-341453facc20"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Vector 11 : Vector Triple Product || ...",
+    "lectureCode": "ca2350ca-385d-4372-8566-59216892835b",
+    "extId": "65450466af3a9300188f5365",
+    "key": "6544f4f9d079e6001883f03c",
+    "classNotesCode": "60ecefd7-54c0-485f-b813-84d57b199cd7.pdf",
+    "dppsPdfCode": "359c4d8b-4c23-46b4-b1a5-cada7fd3558b.pdf",
+    "dppsSolutionCode": "35c902c5-a284-410d-b21a-67de25a485d3"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "!!Vector 10 : Vector Triple Product |...",
+    "lectureCode": "84b88d55-1b99-4953-ade3-e37f8a7fa05b",
+    "extId": "654122dd3ee24e0018185a7e",
+    "key": "654282f28e4fdf0018fe06fe",
+    "classNotesCode": "5c6356c4-62e5-405f-8689-e3b977437f46.pdf",
+    "dppsPdfCode": "359c4d8b-4c23-46b4-b1a5-cada7fd3558b.pdf",
+    "dppsSolutionCode": "9b4971b0-4159-4c95-bfd8-0aeef4fe3079"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Vector 09 : Practice Problems || NO D...",
+    "lectureCode": "8abf92e1-829d-4cf8-a664-5ffefc904f54",
+    "extId": "65405f0e737f6900186af7ee",
+    "key": "654101a4c1009400182cde5b",
+    "classNotesCode": "1e12320b-0fd4-4dd0-957b-b6a7cd38a93c.pdf",
+    "dppsPdfCode": "1856edc8-9460-414b-a2fd-5ac0fff90d23.pdf",
+    "dppsSolutionCode": "28787386-bc3d-4b84-bb1a-29102d93cda5"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Vector 08 : Scalar Triple Product",
+    "lectureCode": "e13bae45-b816-4825-94ff-e488ff11b016",
+    "extId": "653f1d1fa814f50018b18747",
+    "key": "653fb00816459400121c1830",
+    "classNotesCode": "846e39be-b747-4d03-ad96-5f2c82cbabad.pdf",
+    "dppsPdfCode": "4cd066fb-0436-4344-bed6-aca8d43814dc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Vector 07 : Practice Problems || Shor...",
+    "lectureCode": "03f11590-efad-45fa-bd99-2657c1f12d82",
+    "extId": "653c7f3a54aa520018f4f324",
+    "key": "653d3343a61719001266bac6",
+    "classNotesCode": "d8a54653-ed2c-4e7b-b76b-3c0afb4ed07f.pdf",
+    "dppsPdfCode": "c167c439-32fa-4757-8c20-b482de1c3bba.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Vector 06 : Practice Problems || Vect...",
+    "lectureCode": "143112cc-2ab8-4bfe-b64f-105825dbae3e",
+    "extId": "6535b2f3b7a2c00018d47099",
+    "key": "65353542b27cce0018e5f9f5",
+    "classNotesCode": "ba91e524-1709-41ee-8395-5928f038811e.pdf",
+    "dppsPdfCode": "66659a46-3b28-4267-b8b7-63ca15af1f63.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Vector 05 : Practice Problems || Vect...",
+    "lectureCode": "d005b890-3d2c-4547-a1fa-199af342aca0",
+    "extId": "6533480e0694e90018341850",
+    "key": "6533fb17a12aea00187922a2",
+    "classNotesCode": "79892134-f4a0-4275-9f44-c7d5991c6cb6.pdf",
+    "dppsPdfCode": "66e862bc-88af-4f6d-ae52-1d573aee0f89.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Vector 04 : Scalar Product Of Vectors...",
+    "lectureCode": "3ce27eca-976a-4d0b-84fd-42124a615e62",
+    "extId": "652f1f8c3e7e4800182a63c4",
+    "key": "653002c5c557bf00124a96c8",
+    "classNotesCode": "dac2ff80-075c-4125-acf8-cfe77fb60b59.pdf",
+    "dppsPdfCode": "30f09181-6999-495d-af96-ee700332a34f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Vector 03 : Vector Equation Of Line &...",
+    "lectureCode": "139e5793-f5ac-4303-9dea-447b134cbfdf",
+    "extId": "652e064478608300188855d9",
+    "key": "652e8f07f069440012b00776",
+    "classNotesCode": "83e5c5ef-9e4d-4444-9296-2e635a745935.pdf",
+    "dppsPdfCode": "6e688ee8-cf8c-4a5a-b8ac-108afb5ffc07.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Vector 02 : Vector Equation Of Line &...",
+    "lectureCode": "1fc16d15-ba39-4abc-9f10-db95e0960f68",
+    "extId": "652cb6a5609c8200181704be",
+    "key": "652d3af110976a0012edadb9",
+    "classNotesCode": "b2ef33fc-b9b4-4b20-bd4d-3be6dc830c5c.pdf",
+    "dppsPdfCode": "0429f03b-7505-46cd-a33d-3fd2cfa40104.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Vector Algebra 01 : Introduction To V...",
+    "lectureCode": "a170bb43-77ca-471a-985d-48458aa52011",
+    "extId": "652a15a3d2c6c7001861927e",
+    "key": "652abddf5a0d4b0012079cb1",
+    "classNotesCode": "9e35dd6e-c4fa-4e1c-831d-265b9fa774f0.pdf",
+    "dppsPdfCode": "84336503-7c48-41f2-b2c3-9bd57e17453e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Vector Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "73ac51eb-e006-4d70-ac3a-65b0227b50a6.pdf",
+    "dppsPdfCode": "29cea1bf-e9b4-4e2a-8fde-65f3e99e1e0f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Vector Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "60ecefd7-54c0-485f-b813-84d57b199cd7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Vector Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "5c6356c4-62e5-405f-8689-e3b977437f46.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Vector Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "1e12320b-0fd4-4dd0-957b-b6a7cd38a93c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

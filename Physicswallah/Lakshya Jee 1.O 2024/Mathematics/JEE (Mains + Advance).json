@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Metallurgy 03 :  Refining Of Metal ||...",
+    "lectureCode": "ab7dabdb-9087-4666-b536-ebb93fa863c7",
+    "extId": "6602d52165941c001831990b",
+    "key": "6603c915ea1dd90012b3ad6d",
+    "classNotesCode": "10d713c4-8fb3-4da3-9d8b-6905037afd20.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Modification Of YDSE 01 : PYQ || Extra",
+    "lectureCode": "31c78e6b-3313-446f-b84a-12447e1457f4",
+    "extId": "66213ca76ea35800187d2ea0",
+    "key": "6622607502f1ef00189ccda4",
+    "classNotesCode": "62352336-0668-4b46-85e7-4015f47bad85.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Nuclear Physics 02 : Radioactivity ||...",
+    "lectureCode": "3fb4a0bc-1e1d-4281-b581-a72d560525c7",
+    "extId": "66348a161cb1560018461144",
+    "key": "6634d71080bd6a0017afd15a",
+    "classNotesCode": "f93f7631-0b06-436a-bc9c-e3cc54daccd6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

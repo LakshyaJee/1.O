@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Definite Integration 07 : Estimation ...",
+    "lectureCode": "1ce8f1d6-fac5-4fd5-94fb-af7f893a5672",
+    "extId": "64f5d0aa75c25b001882c0ff",
+    "key": "6341a1fb948e9401994de9e1",
+    "classNotesCode": "0a290d05-0c06-43ec-b17d-f1cbbbf222f4.pdf",
+    "dppsPdfCode": "a3c151c5-0f57-4fd2-9aac-5d716110a55e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Definite Integration 06 : Leibnitz Ru...",
+    "lectureCode": "1f255471-b326-459e-8a30-a5a9e1909c44",
+    "extId": "64f5c44b1df6bf00184d0b3c",
+    "key": "63404da1804cc20011ccc29f",
+    "classNotesCode": "b7ca8416-603e-4991-b443-0aefd4ece9c0.pdf",
+    "dppsPdfCode": "3bb4881f-2be9-4f7f-a369-c874b1105718.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Definite Integration 05 : Reduction F...",
+    "lectureCode": "516725a9-bbe4-4f11-a71c-4be7ca29e503",
+    "extId": "64f5c18c9970400018e95db8",
+    "key": "633c3b8bedd8fc0018dd089e",
+    "classNotesCode": "8e27115a-c6fc-497e-bd6a-9f96ccd93f01.pdf",
+    "dppsPdfCode": "af09c1d6-4fdd-4bb8-8828-cd6809aad31a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Definite Integration  04  Properties ...",
+    "lectureCode": "8d418318-970d-464b-8a86-92a5556f42e1",
+    "extId": "64f5bb0a009ab0001966aa8a",
+    "key": "63394efd47ff11001162f85a",
+    "classNotesCode": "30f8708b-cda0-4b04-bb7b-7992d2c62d7d.pdf",
+    "dppsPdfCode": "89e162dc-2229-47be-9573-5b721c01bafc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Definite Integration 03 : Properties ...",
+    "lectureCode": "dcc603c7-6d8a-41b0-8852-3a9fb59ff45f",
+    "extId": "64f5ac4e39ab4d0018a2c58a",
+    "key": "6337103c84535b0011a558ff",
+    "classNotesCode": "6c34b819-faf4-4a24-b61a-cc9c7325d585.pdf",
+    "dppsPdfCode": "3f9b6b12-4ea0-4853-ad71-3f74acaf922d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Definite Integration 02 : Properties ...",
+    "lectureCode": "4fb86f80-1212-45ca-a6ce-59aba001bba4",
+    "extId": "64f5aa45cbe9a100182214a2",
+    "key": "63344f96f728f30018229fc8",
+    "classNotesCode": "1bd9befb-723b-461c-bf02-cf9607d6567d.pdf",
+    "dppsPdfCode": "f23eb2c8-3665-4c60-ae17-35901feffb0a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Definite Integration 01 : Basics of D...",
+    "lectureCode": "725de8ae-f6fd-4e3d-9141-b102bf0044ce",
+    "extId": "64f5a59bc3d3ff0018042e38",
+    "key": "6332fa90d745730018ea5a26",
+    "classNotesCode": "f2a4d8cc-2688-4502-8b72-b9926026a7c4.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

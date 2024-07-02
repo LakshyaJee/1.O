@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Acidic & Basic Character 03 : Basic C...",
+    "lectureCode": "a0f86118-03d9-4380-9fe1-ed0116c74920",
+    "extId": "654f7d5cb79ef20018308761",
+    "key": "654f461c1d456a0018750642",
+    "classNotesCode": "a4887d80-2b99-4f27-abdd-f97272c804fc.pdf",
+    "dppsPdfCode": "06a1b5a2-4457-4dfc-9a36-d0167289b7e4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Acidic & Basic Character 02 : Acidic ...",
+    "lectureCode": "01a7edd1-6234-40d4-8560-1dcb39058157",
+    "extId": "653e1788e1d13b0018a2db95",
+    "key": "653e08b8a814f50018b02a87",
+    "classNotesCode": "88f89cda-632f-4554-83ee-398c140bb595.pdf",
+    "dppsPdfCode": "6f8a929b-893f-4c13-8f31-7913a943a778.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Acidic & Basic Character 01 : Acidic ...",
+    "lectureCode": "a8980df7-2356-4a7c-8517-c55f8fdfe754",
+    "extId": "65379b58efdd220018f2ca2e",
+    "key": "65379493b05f2f001931e74d",
+    "classNotesCode": "f79bdeb6-5754-4006-afd3-38c7e1e854ec.pdf",
+    "dppsPdfCode": "2af5c6d0-04ff-4b37-afd5-01023064214d.pdf",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Applications Of Integral 03 : Area Bo...",
+    "lectureCode": "104c530f-12c4-4f85-bbba-0406f7991bd2",
+    "extId": "650af2f29ba1640018ce8fdc",
+    "key": "63498878c8d68d001828e999",
+    "classNotesCode": "d2d4388a-1a3a-421a-a24b-95c830f75992.pdf",
+    "dppsPdfCode": "93228f81-e23a-4494-998e-dc17dccad646.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Applications Of Integral 02 : Finding...",
+    "lectureCode": "e30a31ae-7310-472d-94d1-9eba35704b31",
+    "extId": "650ae5c2ddf02c001823222d",
+    "key": "6346bcccdf8a5e0060ee8bec",
+    "classNotesCode": "cb447176-a998-4218-97f3-139777cffd82.pdf",
+    "dppsPdfCode": "94e0077f-cb2f-4708-8174-47ed8b6022d9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Applications Of Integral 01 : Basics ...",
+    "lectureCode": "5e6b1868-6abb-45aa-b5a4-6bb00f83cb95",
+    "extId": "650ae097b96f280018165ab8",
+    "key": "6345894f17ae2a00118da19c",
+    "classNotesCode": "51e9724c-d9e9-40aa-8d44-2c7ef62df4c1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

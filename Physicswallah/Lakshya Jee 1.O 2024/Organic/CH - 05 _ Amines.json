@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Amines 03 : Properties Of Amines & Be...",
+    "lectureCode": "f09b93d0-588c-4a5f-9636-680df194994a",
+    "extId": "65640bd5cb187e0018e7caa0",
+    "key": "6564b3b6b61aef0018c6722c",
+    "classNotesCode": "f0942604-33fd-4ec1-9248-3d5c835d624a.pdf",
+    "dppsPdfCode": "f8fb9d92-5d7a-479b-8f16-d88a848e5622.pdf",
+    "dppsSolutionCode": "b8d470d9-897a-4895-854b-b8b149e44a52"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Amines 02 : Properties Of Amines",
+    "lectureCode": "1e61a08a-c15d-4769-8c5c-4092fa6e4f17",
+    "extId": "6561695925e8230018fb6e2c",
+    "key": "65620c91a70b970018545eab",
+    "classNotesCode": "a253e43f-8f3d-4acc-89cb-14ab58fe2c99.pdf",
+    "dppsPdfCode": "a60f608b-9cf4-443a-bbe3-af006f7c5c71.pdf",
+    "dppsSolutionCode": "ab0de5e3-54ba-419c-b159-c965bb1a8ba0"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Amines 01 : Preparation Of Amines",
+    "lectureCode": "fbd0e145-c15c-4d03-96f5-57cb705a9a4f",
+    "extId": "655ecd0af5a7e20018040f59",
+    "key": "656067cd18f6410018e7daed",
+    "classNotesCode": "3f899add-3cdf-4f88-8525-3dcc562811da.pdf",
+    "dppsPdfCode": "8485e03e-1b6c-4d08-8c4e-f814da9378d5.pdf",
+    "dppsSolutionCode": "035b94cc-8051-4f63-bdce-989d7e261a1b"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Amines Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "f8fb9d92-5d7a-479b-8f16-d88a848e5622.pdf",
+    "dppsPdfCode": "6917df65-46ad-42d9-b2c1-5e561cc3fee0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Amines Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "a60f608b-9cf4-443a-bbe3-af006f7c5c71.pdf",
+    "dppsPdfCode": "8a7bbe2c-b2dc-4f81-98bd-cfd1455aeb11.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Amines Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "8485e03e-1b6c-4d08-8c4e-f814da9378d5.pdf",
+    "dppsPdfCode": "73c80c63-010f-4b3f-84cc-608fbeb0b2c9.pdf",
+    "dppsSolutionCode": ""
+  }
+]

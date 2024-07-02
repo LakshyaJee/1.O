@@ -1,0 +1,222 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Limit 14 : Practice Problems || Deter...",
+    "lectureCode": "9ad15e42-c37a-4881-8af3-99997c3e4321",
+    "extId": "64a82730171c6d00183fcefc",
+    "key": "64a812d347cfd00018deda9f",
+    "classNotesCode": "e1fb5d50-810f-4734-9ee5-cbfbde6149f5.pdf",
+    "dppsPdfCode": "246084dc-a6ef-4bc1-95d9-edd522462573.pdf",
+    "dppsSolutionCode": "4ce7d99f-6d73-4ae6-a07a-f8bca5c5fa2b"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Limit 13 : Practice Problems || Impor...",
+    "lectureCode": "3608a01e-74a9-4f68-90a2-72eeed50b4fd",
+    "extId": "64a4cc560cdb0b0018a9427d",
+    "key": "64a5c14d6e9a9f0018e53be5",
+    "classNotesCode": "738d52c6-1a12-4a85-a8fa-b5ee851d5d71.pdf",
+    "dppsPdfCode": "3db214df-8a4f-4146-bcca-b3bc6e4cd91d.pdf",
+    "dppsSolutionCode": "6b61db5c-22b2-4546-9a5d-b583bf8d1bb3"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Limit 12 : Differentiability Of Funct...",
+    "lectureCode": "0dcbc551-ad97-4c5b-9c1c-8792311641a9",
+    "extId": "64a37389d651380018075d72",
+    "key": "64a4561edb3c5c0018e15acb",
+    "classNotesCode": "0aa58465-d313-408e-ba5d-2aef4306566a.pdf",
+    "dppsPdfCode": "675e41a1-54a8-41b5-92e2-fef91771e4c3.pdf",
+    "dppsSolutionCode": "85f705c7-b943-4174-ad40-874627f8694f"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Limit 11 : Practice Problems & Two im...",
+    "lectureCode": "5444f879-c192-457a-a2bc-ea09a6c5cf91",
+    "extId": "64a23f621a28e90018dd72c9",
+    "key": "64a2ff22ff0da800184f8189",
+    "classNotesCode": "1ce219cd-d6ed-4a21-8d13-217521231837.pdf",
+    "dppsPdfCode": "e7319bc6-fe86-43f8-8d47-f243d5c969f4.pdf",
+    "dppsSolutionCode": "50c8fd3c-9de9-47dd-bc87-117fb7cd125a"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Limit 10 : Practice Problems & Two im...",
+    "lectureCode": "b71bcc22-544d-4307-818d-51b08c0d4550",
+    "extId": "649fe50ae466540019b01aa4",
+    "key": "64a024e842c0cc0018438e3b",
+    "classNotesCode": "a9b583b3-a109-4c82-9516-4e63bd18bb6a.pdf",
+    "dppsPdfCode": "9920d1f1-0274-4f2e-84f6-fded0eed477d.pdf",
+    "dppsSolutionCode": "9dd89659-8d31-4adf-b61f-467dece6dc0f"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Limit 09 : Practice Problems || Types...",
+    "lectureCode": "696b5db4-39b7-4bfe-99d4-66fdaa14829a",
+    "extId": "649e50eae200b700185761d5",
+    "key": "649f158972766c001822a3d7",
+    "classNotesCode": "e1fb5d50-810f-4734-9ee5-cbfbde6149f5.pdf",
+    "dppsPdfCode": "a1c2db02-962f-4f64-a103-c93ccb26dddb.pdf",
+    "dppsSolutionCode": "f11b9526-e2ab-4b09-a70c-16d4b4e9b7c8"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "(2)Limit 08 : Practice Problems || Im...",
+    "lectureCode": "33fa54a2-770c-497f-b823-69707d1ace87",
+    "extId": "649d8c24ef1823001862cbb0",
+    "key": "649dad0943f2d90018c22f5c",
+    "classNotesCode": "738d52c6-1a12-4a85-a8fa-b5ee851d5d71.pdf",
+    "dppsPdfCode": "00bc6983-04ff-4f0d-b66f-504bcec53833.pdf",
+    "dppsSolutionCode": "1bd83db3-9446-40b7-9058-7810c947c9b9"
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Limit 07 : Sandwich Theorem || Import...",
+    "lectureCode": "2903f603-2ad8-448c-91e7-0d5945ec8cf2",
+    "extId": "649b86bbb17d630018070caa",
+    "key": "649c7157ec275f0018c4375f",
+    "classNotesCode": "0aa58465-d313-408e-ba5d-2aef4306566a.pdf",
+    "dppsPdfCode": "26233e02-e6d3-469a-80ba-1785d411e520.pdf",
+    "dppsSolutionCode": "8012a4d4-ed13-4b34-ade4-c2531e0bdbd1"
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Limit 06 : Limit Problems By Series E...",
+    "lectureCode": "83fa03d6-2f08-46b8-be9f-b7c426c67e51",
+    "extId": "649a5aeb79ddbc001809db11",
+    "key": "649b493fcfc8060018867359",
+    "classNotesCode": "1ce219cd-d6ed-4a21-8d13-217521231837.pdf",
+    "dppsPdfCode": "421c0289-eda3-44f8-ac98-140c200b3df4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Limit 05 : Practice Problems || Gener...",
+    "lectureCode": "a74940d8-9b16-429a-b540-bd1c32a18caf",
+    "extId": "649907d40f31640018daedb1",
+    "key": "6499dfb8367dab0018043f8f",
+    "classNotesCode": "a9b583b3-a109-4c82-9516-4e63bd18bb6a.pdf",
+    "dppsPdfCode": "be1c6fcd-ca60-4024-bb7f-a6ea55d9bb08.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Limit 04 : Practice Problems || Expon...",
+    "lectureCode": "70b11a5b-29ff-4836-87c6-e90a0e516278",
+    "extId": "64967592daed3a00185468ec",
+    "key": "649704675b285e001869d1ba",
+    "classNotesCode": "e1fb5d50-810f-4734-9ee5-cbfbde6149f5.pdf",
+    "dppsPdfCode": "010b15b0-7688-4783-9e84-bc700797e3e3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Limit 03 : Practice Problems || Trigo...",
+    "lectureCode": "e631510f-d850-4037-84d6-e1c910cae2f4",
+    "extId": "64951c0be20d680018861a90",
+    "key": "6495e2f444b3420018c89f6e",
+    "classNotesCode": "738d52c6-1a12-4a85-a8fa-b5ee851d5d71.pdf",
+    "dppsPdfCode": "49187989-4ef3-41ba-a8ac-bde22ba3735c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Limit 02 : Various Strategies To Eval...",
+    "lectureCode": "6482a1a1-7c0a-475d-b86a-c87845cbef4a",
+    "extId": "6493cc4670966b00181d47d9",
+    "key": "649494a85786890018f0b145",
+    "classNotesCode": "0aa58465-d313-408e-ba5d-2aef4306566a.pdf",
+    "dppsPdfCode": "586c3c6f-dc22-4d6a-b0ab-0cadf1323c6a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Limit 01 : Introduction To Limits || ...",
+    "lectureCode": "fe1dafd5-90a8-42c0-82d7-a4348508c241",
+    "extId": "64926bca6d0c3b00180b2dfa",
+    "key": "64934b293ed49900183470da",
+    "classNotesCode": "1ce219cd-d6ed-4a21-8d13-217521231837.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Limit Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "a9b583b3-a109-4c82-9516-4e63bd18bb6a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Limit Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Limit Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Limit Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Limit Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "Limit Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "Limit Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "Limit Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

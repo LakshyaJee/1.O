@@ -1,0 +1,102 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Limit : KTK Solutions || (Recorded)",
+    "lectureCode": "e6dc3dc2-71c8-447d-a5d1-48a9d1e7ccf9",
+    "extId": "64946e2ad9d1b60019028989",
+    "key": "649451a3e3f84200189dfdb9",
+    "classNotesCode": "8ad0ad8b-c15e-41ad-ac24-9eacefdc05cf.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Matrices : DPP Solutions & KTK Soluti...",
+    "lectureCode": "02bb3fb1-de94-43a8-8d00-c675eb784ccc",
+    "extId": "6484298afaee930018ed7e9b",
+    "key": "648400f59cccd20018a47863",
+    "classNotesCode": "0fc3fe12-2866-4055-b152-b4a85c0fb2f1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Determinant : DPP Solutions & KTK Sol...",
+    "lectureCode": "fb99c65b-ea67-4ccb-9b8e-6a0c4ef3eae7",
+    "extId": "6480a34befd2bc00182f5915",
+    "key": "64809057efd2bc00182f4281",
+    "classNotesCode": "8ad0ad8b-c15e-41ad-ac24-9eacefdc05cf.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Determinanat : DPP Solutions & KTK So...",
+    "lectureCode": "069e50ae-7c92-489f-9afc-2d73ef3a7228",
+    "extId": "647e048f7aeed900186c0de8",
+    "key": "647df27984f2260018a01e32",
+    "classNotesCode": "0fc3fe12-2866-4055-b152-b4a85c0fb2f1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Determinant : DPP Solutions",
+    "lectureCode": "86a6d861-4515-464a-9b9a-d90ff48fbb68",
+    "extId": "647a09bff4cde50018cd3cd7",
+    "key": "6479de802af4eb0018a6b282",
+    "classNotesCode": "8ad0ad8b-c15e-41ad-ac24-9eacefdc05cf.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Determinant : KTK Solutions || (Recor...",
+    "lectureCode": "3bdf8c7f-bbe1-495a-ac50-9fdb12a8a037",
+    "extId": "6478b5a87d682d0018cc4efb",
+    "key": "647888d0108d5f0018016839",
+    "classNotesCode": "0fc3fe12-2866-4055-b152-b4a85c0fb2f1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Inverse Trigonometric Functions : KTK...",
+    "lectureCode": "9309e524-2942-456c-a6d5-90d123faf470",
+    "extId": "647748cc7d9fcd0018f55236",
+    "key": "64773c39d5d54500187cd1dd",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Inverse Trigonometric Functions : KTK...",
+    "lectureCode": "92cf1bac-f0ce-4a99-8b7d-db0dd0ceaeac",
+    "extId": "6475f9da9e40960018cb5605",
+    "key": "6475d84221999c001856768f",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Relations & Functions : KTK Solutions",
+    "lectureCode": "61c04427-19f1-46b2-ae20-7557ce1b228b",
+    "extId": "645127da0979ab0018d4bcdc",
+    "key": "645123f650e80600184b0810",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Relations & Functions : KTK Solutions",
+    "lectureCode": "44b088bb-0921-43f8-be2f-7042a7f0c2c3",
+    "extId": "644a8af712d520001989cc09",
+    "key": "644a810132b42f0018c7279c",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

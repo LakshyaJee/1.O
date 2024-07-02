@@ -1,0 +1,92 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "3-D Geometry 09 : Locus Problems, Equ...",
+    "lectureCode": "1861015e-74df-4722-b8b3-56cbcfeab7fd",
+    "extId": "6548fe71bf6b4a0018ebbd7e",
+    "key": "63877fca22eb320011888818",
+    "classNotesCode": "35f152ca-cd21-4883-8841-8b8dd4b9fa9a.pdf",
+    "dppsPdfCode": "321a9dcb-051a-4bb3-b67c-0a839de020f9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "3-D Geometry 08 : Family of Planes, L...",
+    "lectureCode": "ba929bbc-f6f9-483d-b70a-cb85592fd918",
+    "extId": "6548eb063360790018571c43",
+    "key": "63862be8855b8c0011d3a5b3",
+    "classNotesCode": "796522e9-a833-4e50-960a-0ccd4cbcc668.pdf",
+    "dppsPdfCode": "1c440239-1360-407c-9f8f-d2994f925f2f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "3-D Geometry 07 : Image Of Line In Pl...",
+    "lectureCode": "08274ad4-8da1-4e51-8e5d-e1798055f9b9",
+    "extId": "6548e5de7522a900183f770a",
+    "key": "638236eb3273170385e979ab",
+    "classNotesCode": "1a862229-d0f6-40f4-8a82-9496c7f2ba1d.pdf",
+    "dppsPdfCode": "31348668-832e-4743-92ae-8ca09b55e9be.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "3D Geometry 06 : Line and Plane, Poin...",
+    "lectureCode": "37b10db3-5698-4033-8423-9a1b6e939f0f",
+    "extId": "6548dd859315f90018e62dda",
+    "key": "637f9599c62fb900110be99d",
+    "classNotesCode": "ca841c53-fdb9-4a3a-a4e2-7ae2eb8828f4.pdf",
+    "dppsPdfCode": "e5a03cc8-7cc9-4082-8c3e-2ead3dcb1208.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "3D Geometry 05 : Equation of Plane & ...",
+    "lectureCode": "194d2d2c-ebf5-48bf-9b01-148c0cf17f9a",
+    "extId": "6548da3946bb06001834cd79",
+    "key": "637e1d66784caa01ab3db488",
+    "classNotesCode": "3147feae-4389-4d27-9587-98b4f5ad27c2.pdf",
+    "dppsPdfCode": "57f397a1-3389-45e2-97c2-4b73012a7ce4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "3D Geometry 04 : Skew Lines, Shortest...",
+    "lectureCode": "7dd4775e-f7df-4b1b-ae95-c0124db12d12",
+    "extId": "6548c20c46bb06001834753a",
+    "key": "637cca314bd1300233579532",
+    "classNotesCode": "1ed509f1-6730-4540-a3ee-f1a52f829ce4.pdf",
+    "dppsPdfCode": "4edc6392-43f1-4ff5-adb1-f8672f477cb9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "3D Geometry 03: Equation of Line, Ang...",
+    "lectureCode": "2b804f05-48be-408d-9b3d-1e1d40edf293",
+    "extId": "6548ba75412fc900185550b0",
+    "key": "6378fe00670f7e00339dba5f",
+    "classNotesCode": "0dce3c87-a5da-4617-83ed-ff994d73e3fc.pdf",
+    "dppsPdfCode": "d288ba95-9939-421d-b215-31305dd8f3f0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "3D Geometry 02 : Direction Cosines & ...",
+    "lectureCode": "a5b6e634-2d40-4c24-a1e9-4ab2d9c9cc6d",
+    "extId": "6548b8390835c00018156e6c",
+    "key": "6377acce59eb25002ba9d0e2",
+    "classNotesCode": "d0a1915a-36ff-4805-a642-d8d7734cc3d4.pdf",
+    "dppsPdfCode": "b4e95d22-ffe4-4278-a2cb-ccf06bcbe772.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "3D Geometry 01 : Basics of 3D, Direct...",
+    "lectureCode": "554878d5-61e0-4633-8eab-0d44124945cc",
+    "extId": "6548b42153d6580018ac55e0",
+    "key": "6374e3603da0a80011d12a3f",
+    "classNotesCode": "45fbe1cf-62b0-40bc-867d-e5da4937b4b1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

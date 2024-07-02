@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Determinants 07 : Gauss Jordan Method...",
+    "lectureCode": "454920bd-08b9-4ca5-b25a-752761df56e0",
+    "extId": "647b3884c9db4d001884f62a",
+    "key": "62c99ea9cded09001170f9ff",
+    "classNotesCode": "d7ee5ff8-c69c-4e61-b931-352cfd00ef22.pdf",
+    "dppsPdfCode": "32281187-db93-4061-a7d9-1c3f84593316.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Determinants 06 : Solving system of L...",
+    "lectureCode": "391212aa-f179-46e8-abb7-08618bcfcaf0",
+    "extId": "647b370091c268001819573b",
+    "key": "62c85814f623b10011b5b10a",
+    "classNotesCode": "6842dcb4-8a48-4374-9604-77222f7db6a8.pdf",
+    "dppsPdfCode": "46803183-d59b-488d-b6d9-aa8a06b2919a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Determinants 05 : Determinant Multipl...",
+    "lectureCode": "f1ad2a9c-4fab-47af-b2df-d4bb3e6bb00a",
+    "extId": "647b3204e184970018b055aa",
+    "key": "62c58735da9f030018e3e107",
+    "classNotesCode": "7543a3e9-2e0f-4d74-be1a-5349363f4ab3.pdf",
+    "dppsPdfCode": "c84053be-bd15-4a4f-b773-24bf5102c8ce.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Determinants 04 : Circulant, Cube roo...",
+    "lectureCode": "7bda766b-6693-499e-85b5-ca893bc5436f",
+    "extId": "647b30d5fd71360018a572e2",
+    "key": "62c43d1deda1770018d62893",
+    "classNotesCode": "231a8da8-9a1c-4f3e-988c-b75bca74dae2.pdf",
+    "dppsPdfCode": "752414dc-d59a-4443-b5bd-4dc7177aec92.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Determinants 03 : Question Practice, ...",
+    "lectureCode": "5c220745-ceae-4bb2-88af-0b215c5ce9a5",
+    "extId": "647b2fa37939980018059766",
+    "key": "62c0637b44383a001e59423f",
+    "classNotesCode": "b3b2828c-6ef8-4315-ae6f-89c545dabca1.pdf",
+    "dppsPdfCode": "58c58892-dea1-4acb-8ee2-ed85bd723065.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Determinants 02 : Properties of Deter...",
+    "lectureCode": "4252c0be-23b4-4848-bca3-61dbf2b56c65",
+    "extId": "647b2e40c57b3d001839e06e",
+    "key": "62bf1c2ae596e60011fc401d",
+    "classNotesCode": "8ebdae6a-e325-4428-a995-723f1d6fab8f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Determinants 01 : Basics of Determina...",
+    "lectureCode": "81cbad99-89b8-4530-ab12-126321ce2c32",
+    "extId": "647b2a51fd71360018a560bd",
+    "key": "62bc551cb405c70011319792",
+    "classNotesCode": "bdaf17e4-60da-43a5-9e0a-254682ab44e5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

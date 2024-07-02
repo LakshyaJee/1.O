@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Nuclear Chemistry 02 : Radioactive se...",
+    "lectureCode": "27eda938-fbae-45aa-9cde-18a2d47ec80c",
+    "extId": "6482abb191b4e20018d89e6a",
+    "key": "64831f6a6a169c00182c8ff8",
+    "classNotesCode": "d04e3807-aadb-47ae-95fe-59ec3768af37.pdf",
+    "dppsPdfCode": "bdd30e7d-6167-4301-83f2-e0ed4ce3b0fc.pdf",
+    "dppsSolutionCode": "6d5ca477-4f35-4cac-9de9-57d1b1228c64"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Nuclear Chemistry 01 : Introduction |...",
+    "lectureCode": "2ae218e6-43fd-4bd7-88c6-a393ce660e94",
+    "extId": "648156b1b85aa50018ae8f25",
+    "key": "6481dc42ad12940018ad1dc8",
+    "classNotesCode": "d04e3807-aadb-47ae-95fe-59ec3768af37.pdf",
+    "dppsPdfCode": "13333c92-0216-4764-a857-592e02e73774.pdf",
+    "dppsSolutionCode": "f0af4b30-5b86-4cae-8983-d9e0f60d4cc5"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Nuclear Chemistry Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "9db5f098-ce8e-4f43-9d18-aa04573c08be.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Nuclear Chemistry Solution to DPP Recorded...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "6036b55c-1571-4985-917a-1b2570bdb0c7.pdf",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Matrices 09 : Complex Numbers In Matr...",
+    "lectureCode": "af3257ca-9465-43ef-8f9f-12a817562f16",
+    "extId": "648d240b938f5c0018afe163",
+    "key": "648dbed46cade80018105f5c",
+    "classNotesCode": "fca2cba1-cdfc-4401-9449-e042a02feb9d.pdf",
+    "dppsPdfCode": "1b3bcca0-0375-494d-b9d7-eb9ee4bca10b.pdf",
+    "dppsSolutionCode": "390fbc38-719a-4fe8-922b-14e117ed9a63"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Matrices 08 : Crammer's Rule & Gauss ...",
+    "lectureCode": "7ff568c7-42b7-4aa2-86cb-d7e20b9c97e8",
+    "extId": "648bd3d2e2f63c001876033b",
+    "key": "648dc3e317c22400189d263f",
+    "classNotesCode": "6d209ddc-2fa8-4d94-84cf-da29c3004134.pdf",
+    "dppsPdfCode": "7b324895-34ec-479b-8280-4f3bf03e802c.pdf",
+    "dppsSolutionCode": "492d6bbc-54e5-468f-8ed7-701c4a7b07df"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Matrices 07 : Inverse Of A Matrix",
+    "lectureCode": "c30f9d6f-9163-4cb8-81cd-b5d6fc98a320",
+    "extId": "648a75498f0901001815bbac",
+    "key": "648b5018e585170019e683ed",
+    "classNotesCode": "fca2cba1-cdfc-4401-9449-e042a02feb9d.pdf",
+    "dppsPdfCode": "9f018130-1166-48ad-be1d-71efd14519f4.pdf",
+    "dppsSolutionCode": "e7df314f-aaa5-453d-9948-438deaa5d6f2"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Matrices 06 : Adjoint Of A Matrix || ...",
+    "lectureCode": "6d691b1c-9d7f-48c3-b7de-17c4a41a2dc6",
+    "extId": "64892117e2445700188fdbc6",
+    "key": "6489f84d2b215c00194e9941",
+    "classNotesCode": "6d209ddc-2fa8-4d94-84cf-da29c3004134.pdf",
+    "dppsPdfCode": "9178e783-49d2-491e-a28b-3b74840f9f12.pdf",
+    "dppsSolutionCode": "be093e0b-ec9e-4f35-ac08-2180e1f8c450"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Matrices 05 : (NO DPP)",
+    "lectureCode": "774ad015-bed1-4fc6-a403-ac12a24f1f9f",
+    "extId": "6487baca1f36790018cd5e4f",
+    "key": "6488aedc33f76a001842054b",
+    "classNotesCode": "fca2cba1-cdfc-4401-9449-e042a02feb9d.pdf",
+    "dppsPdfCode": "753f3353-7983-4982-bfc5-5a372d62740f.pdf",
+    "dppsSolutionCode": "9bac40b7-d6c1-4f5d-bda5-4f89fe6a0d8c"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Matrices 04 : Transpose of a Matrix |...",
+    "lectureCode": "c487d299-f94a-46e3-94ba-42ebf98d339a",
+    "extId": "648697a2436f350018f7eb15",
+    "key": "648754763f1d7a0018295808",
+    "classNotesCode": "6d209ddc-2fa8-4d94-84cf-da29c3004134.pdf",
+    "dppsPdfCode": "c236f049-0410-4c48-a4ac-f6b42669f039.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Matrices 03 : Multiplication of Matrices",
+    "lectureCode": "aa6ad9ba-56f3-4d14-8f7d-ba3ff6d1e12b",
+    "extId": "6482ade5ce514500183e3b22",
+    "key": "64835e1acb367f0019af5e51",
+    "classNotesCode": "9f018130-1166-48ad-be1d-71efd14519f4.pdf",
+    "dppsPdfCode": "cd7d7ce8-13e8-4e3d-bad8-82bbc7e2eab5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Matrices 02 : Algebra Of Matrices || ...",
+    "lectureCode": "54adbbda-a37f-4f61-9528-4fe9f7306f12",
+    "extId": "648158a123f952001853f4ee",
+    "key": "6482104b8b23dd0018b59552",
+    "classNotesCode": "cd7d7ce8-13e8-4e3d-bad8-82bbc7e2eab5.pdf",
+    "dppsPdfCode": "44799cce-cdb2-4744-bdb2-9c6033f2eea1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Matrices 01 : Practice Problems On Cr...",
+    "lectureCode": "b7ae767e-c45c-4ccd-aea2-e74e6c7ade0b",
+    "extId": "647fea4ee024e10018acabca",
+    "key": "6480b9a0c64d7f0019e1ade9",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Matrices Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Matrices Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Matrices Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Matrices Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Matrices Solution to DPP Recorded...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

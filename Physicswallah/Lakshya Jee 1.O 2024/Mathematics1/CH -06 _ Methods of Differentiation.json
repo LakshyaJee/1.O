@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Method of Differentiation 04 : Differ...",
+    "lectureCode": "0dae328f-432a-4c7a-9e4c-a204580d88c5",
+    "extId": "64abff181dae6e0018c896cd",
+    "key": "62ee892efa6f9d00186574cb",
+    "classNotesCode": "d224ad3a-c6f8-4e77-9baf-9c00ffb43441.pdf",
+    "dppsPdfCode": "ec692d58-f5d9-497f-9117-d24867738217.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Method of Differentiation 03 : Parame...",
+    "lectureCode": "29d62940-6540-4d63-8c11-0bff4d84dd19",
+    "extId": "64abf0fcaeeaf00018ad6d52",
+    "key": "62ece99ec3f8eb0018a9e43b",
+    "classNotesCode": "857f7cb6-79ad-442b-8fe5-0c08b2ec380b.pdf",
+    "dppsPdfCode": "d47e0acf-76b5-480b-b46f-997776064c47.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Method of Differentiation 02 : Differ...",
+    "lectureCode": "725fbd42-c571-4b3d-ba56-af25d7f5fea0",
+    "extId": "64abe9f51760120018eb9e72",
+    "key": "62ea773d77eda90018e0aa49",
+    "classNotesCode": "d224ad3a-c6f8-4e77-9baf-9c00ffb43441.pdf",
+    "dppsPdfCode": "b0461e2c-6e50-4552-87a1-aa61ef18ba74.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Method of Differentiation 01 : Basics...",
+    "lectureCode": "251b90da-9d29-4eda-ab0c-b3796ab3977c",
+    "extId": "64abbc4270c2b600186d4e38",
+    "key": "62e92355df936f00116558b9",
+    "classNotesCode": "857f7cb6-79ad-442b-8fe5-0c08b2ec380b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

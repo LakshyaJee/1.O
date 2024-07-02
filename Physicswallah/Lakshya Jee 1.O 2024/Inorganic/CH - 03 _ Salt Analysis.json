@@ -1,0 +1,212 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Salt Analysis 15 : Test Of Cation (Pa...",
+    "lectureCode": "6577b67f-adea-46fa-bc6d-6671ac3e237f",
+    "extId": "64ea00f488c65500181612e0",
+    "key": "64e9eb5968c3720018a2b316",
+    "classNotesCode": "d332a7b4-7b2e-4e3a-bf5c-19948be39a6a.pdf",
+    "dppsPdfCode": "3b464291-8abb-4f2b-9687-d5776701305f.pdf",
+    "dppsSolutionCode": "0ce79bed-594e-4714-ad34-02c5834c3606"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Salt Analysis 14 : Test Of Cation (Pa...",
+    "lectureCode": "7fdf87f6-9a20-4a31-89b4-86d59a307f02",
+    "extId": "64e82abb235edd0018f4423f",
+    "key": "64e8abf13356470018d31c32",
+    "classNotesCode": "8e2ae69f-a5a1-4ddb-9821-59a40d17a347.pdf",
+    "dppsPdfCode": "2fd886c1-7f64-428f-b104-42172422aa88.pdf",
+    "dppsSolutionCode": "91ec4536-b53b-4432-9f92-4176eda4702f"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Salt Analysis 13 : Test Of Cation || ...",
+    "lectureCode": "0de6a787-4ca0-4d34-bdc6-3456cd9bfc3b",
+    "extId": "64e6dcb2d0ec72001833235c",
+    "key": "64e772c4d43f070018ee839e",
+    "classNotesCode": "18821881-19b0-40fa-907f-ed1a10f9b366.pdf",
+    "dppsPdfCode": "31054991-066a-47ef-b44d-2bb251835a2c.pdf",
+    "dppsSolutionCode": "e3917a57-8154-40dd-b4bb-d295e86aac9e"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Salt Analysis 12 : Test Of Anions (Pa...",
+    "lectureCode": "cd040b7f-5a3e-44ec-88d1-c35d28e459df",
+    "extId": "64e432a58836d6001854e681",
+    "key": "64e4b561bb93fe0018cb1d47",
+    "classNotesCode": "d0c04dc5-89db-493a-984a-9a19189dcfe0.pdf",
+    "dppsPdfCode": "b8d85c7f-2be9-4e97-8e22-bbaa477f83d0.pdf",
+    "dppsSolutionCode": "1e7c286c-2ca1-4aa2-8169-49ed523627a5"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Salt Analysis 11 : Test Of Anions (Pa...",
+    "lectureCode": "588c67f8-80b2-4bc4-9e83-4e78a90cbd92",
+    "extId": "64e2c2425ece8c001809fe5c",
+    "key": "64e361afb06da80018b098b8",
+    "classNotesCode": "861afd46-a29a-4f15-b808-c90c4c56398e.pdf",
+    "dppsPdfCode": "e2e99c96-d00b-4bf5-86ff-85b88e162e6e.pdf",
+    "dppsSolutionCode": "ce5d7bc0-30e3-42ab-b53b-7c14720b4200"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Salt Analysis 10 : Test Of Anions (Pa...",
+    "lectureCode": "4e0e1b41-af71-4a9c-bb2b-81fbfa87488a",
+    "extId": "64deeb39d559d90018c4965a",
+    "key": "64df71279831e00018f09655",
+    "classNotesCode": "ed19ccc6-cc45-45a0-b393-d623db229cde.pdf",
+    "dppsPdfCode": "5be75653-c91c-4e92-b521-1a12a5a3d9a5.pdf",
+    "dppsSolutionCode": "1f307d72-3b1b-4089-a726-c21fb36a7537"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Salt Analysis 09 : Test Of Anions (Pa...",
+    "lectureCode": "52117f31-c538-45ff-820e-478e76f1bd85",
+    "extId": "64dd9b65a5c5e50018beb499",
+    "key": "64de3b694ab5190018193b45",
+    "classNotesCode": "a6e21f34-161f-4676-a6c1-0f27160ef343.pdf",
+    "dppsPdfCode": "f6608dd5-c171-4700-b729-da87d53dceda.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Salt Analysis 08 : Test of Anions (Pa...",
+    "lectureCode": "e22cd282-4f16-43ee-aa64-9c2c8215c0cd",
+    "extId": "64d9ad594c9d2e0018762ea6",
+    "key": "64d901a5603cca0018400158",
+    "classNotesCode": "ad56574c-29df-4a69-884f-876f61661152.pdf",
+    "dppsPdfCode": "dd5492e6-ad2f-4826-a608-de205ae36207.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Salt Analysis 07 : Test of Anions (pa...",
+    "lectureCode": "e6b24226-b253-481b-817d-aa76b03b546d",
+    "extId": "64d58843bca3290018835bca",
+    "key": "64d635a2357b2d00291b7254",
+    "classNotesCode": "db43709f-b7d9-4efb-9987-f8ee5898db80.pdf",
+    "dppsPdfCode": "668acf6d-fa77-4ba6-8119-da6abfa29ee2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Salt Analysis 06 : Test Of Anions || ...",
+    "lectureCode": "0f095128-d907-4551-9668-586bfe41f553",
+    "extId": "64d4685548d8d800186b7831",
+    "key": "64d4fc5dd9252200189f912e",
+    "classNotesCode": "e9897177-81c3-458d-a0fa-cdf1620657e4.pdf",
+    "dppsPdfCode": "c0c5081a-d90e-43c1-8e07-732016be79c4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Salt Analysis 05 : Types Of Reaction ...",
+    "lectureCode": "64c4f7d4-8791-45a5-a216-47a0baf19ed0",
+    "extId": "64d1a2a955615900182ddbfc",
+    "key": "64d240696a24d70018713891",
+    "classNotesCode": "d5b0c9bd-350a-4bbf-9682-eb9d0b1023fb.pdf",
+    "dppsPdfCode": "4b7d722b-e3fb-44e0-b57c-5769ae2340bf.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Salt Analysis 04 : Types Of Reaction ...",
+    "lectureCode": "6952cce1-4175-490f-9649-0fbbf1182201",
+    "extId": "64d033f608af7a0018ac35a8",
+    "key": "64d0e9c6436f450018094f9b",
+    "classNotesCode": "6d79c361-ac39-4c92-976d-4100df6bfb60.pdf",
+    "dppsPdfCode": "fe93edb6-89a3-4cb6-ac50-18af818b8996.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Salt Analysis 03 : Types Of Reaction ...",
+    "lectureCode": "54edb196-0377-4a32-b52b-f2daa592b4f7",
+    "extId": "64cbd8cb607689001899a45c",
+    "key": "64ccf3c58c72720018ac0528",
+    "classNotesCode": "b29602cf-a087-4d43-99ac-559a6383a185.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Salt Analysis 02 : Types Of Reaction",
+    "lectureCode": "919c82c9-c849-4eba-a04d-54a2243e22af",
+    "extId": "64cb2dae6f81c500186887f8",
+    "key": "64cbe2151cc4030019203053",
+    "classNotesCode": "0d5f29c8-7aea-41ae-933c-70f22b9d9312.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Salt Analysis 01 : Introduction Of Sa...",
+    "lectureCode": "7a4ce887-2207-4760-89c4-3eaa426ba401",
+    "extId": "64c88a0210eae30018275859",
+    "key": "64c9090d9d789a00182f3528",
+    "classNotesCode": "d0957a66-487f-4f41-9d49-0f9f32747ee9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Salt Analysis Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "3b464291-8abb-4f2b-9687-d5776701305f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Salt Analysis Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "31054991-066a-47ef-b44d-2bb251835a2c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Salt Analysis Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "b8d85c7f-2be9-4e97-8e22-bbaa477f83d0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Salt Analysis Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "5be75653-c91c-4e92-b521-1a12a5a3d9a5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "Salt Analysis Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "f6608dd5-c171-4700-b729-da87d53dceda.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "Salt Analysis Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "dd5492e6-ad2f-4826-a608-de205ae36207.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Electrochemistry 12 : Batteries & Cor...",
+    "lectureCode": "9395d7d5-051a-45e8-9b9f-36eec4ba567f",
+    "extId": "64714c2dfdce680018476da9",
+    "key": "64707aadd8c44500186b6f36",
+    "classNotesCode": "aa48ff73-024d-4997-90ea-278f381cd108.pdf",
+    "dppsPdfCode": "07d1f985-78d0-4439-85f6-cbbc2b0c2d13.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Electrochemistry 11 : Product Of Elec...",
+    "lectureCode": "c501bc2a-5507-4d0c-91e1-9fd33377143b",
+    "extId": "646d71904f39170018cc72c0",
+    "key": "646e1ded01d9020018f6f9a6",
+    "classNotesCode": "59cefcd5-7716-44b1-8ac5-08ba45ec0f79.pdf",
+    "dppsPdfCode": "90d19ef1-247b-41b9-862f-9798dc14cf3a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Electrochemistry 10 : Thermodynamics ...",
+    "lectureCode": "60b9e6b6-5ef1-4bdc-a444-17ae3f535928",
+    "extId": "646c24587b21820018c9f02b",
+    "key": "646cefd45a9186001858eac3",
+    "classNotesCode": "aa48ff73-024d-4997-90ea-278f381cd108.pdf",
+    "dppsPdfCode": "41d23a30-7183-4826-b381-d5d18de0265e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Electrochemistry 09 : Concentration C...",
+    "lectureCode": "545e3f97-9133-4326-8610-501769390f67",
+    "extId": "646ad363f786d7001877cb2d",
+    "key": "646b6628241957001846122b",
+    "classNotesCode": "59cefcd5-7716-44b1-8ac5-08ba45ec0f79.pdf",
+    "dppsPdfCode": "73161bb2-ce6a-4484-ae3f-251ade796a67.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Electrochemistry 08 : Half Cell || Eq...",
+    "lectureCode": "4fd36a8f-26ae-4312-9d41-b7d628f6642c",
+    "extId": "6466cf361b09b000185c9a17",
+    "key": "64676f4a4ec3e000188b551f",
+    "classNotesCode": "07d1f985-78d0-4439-85f6-cbbc2b0c2d13.pdf",
+    "dppsPdfCode": "0a3b0886-049c-4295-aea8-b531a4713fe9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Electrochemistry 07 : Applications Of...",
+    "lectureCode": "a92cb671-17d2-4912-a7ad-95008e1a1361",
+    "extId": "64658c8b3d2a550018275429",
+    "key": "646634238c64980018fc5150",
+    "classNotesCode": "90d19ef1-247b-41b9-862f-9798dc14cf3a.pdf",
+    "dppsPdfCode": "8561045a-43b8-44af-b647-00a20f728090.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Electrochemistry 06 : Electrochemical...",
+    "lectureCode": "8a04c9d1-af50-4ba4-8504-f746a547e7b6",
+    "extId": "646406d77791af0018f9b2cd",
+    "key": "6464e3e46a383700184f0de9",
+    "classNotesCode": "41d23a30-7183-4826-b381-d5d18de0265e.pdf",
+    "dppsPdfCode": "055118df-fdea-4646-ba62-8c1c52de517f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Electrochemistry 05 : Electrode poten...",
+    "lectureCode": "ff1ce934-5a6b-47f0-af6d-0e808bbda49c",
+    "extId": "64631df3bbd76500181e4ab4",
+    "key": "6463ae473539bc0018b9f212",
+    "classNotesCode": "73161bb2-ce6a-4484-ae3f-251ade796a67.pdf",
+    "dppsPdfCode": "8791f134-4f6e-4a34-a899-6c9578484b88.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Electrochemistry 04 : Conductometric ...",
+    "lectureCode": "24b85fbd-1185-4c32-8525-bce3c2e0d0a7",
+    "extId": "6461a03cbdd4eb0018010984",
+    "key": "64625fb1a440cb0018ec53fd",
+    "classNotesCode": "0a3b0886-049c-4295-aea8-b531a4713fe9.pdf",
+    "dppsPdfCode": "507f97c4-c913-4366-a374-d42cca037309.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Electrochemistry 03 : Kohlrausch Law ...",
+    "lectureCode": "6c314310-9e3a-4371-9485-ae17a7f4d3d4",
+    "extId": "645daea864c79200183dad73",
+    "key": "645e339e5a1bda0018510f02",
+    "classNotesCode": "8561045a-43b8-44af-b647-00a20f728090.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Electrochemistry 02 : Conductance Mea...",
+    "lectureCode": "7bfbde1c-12eb-41b2-9ea6-ed90581c8b0b",
+    "extId": "645c1b60d4f424001893bbbf",
+    "key": "645cfbf017a46c0018eee969",
+    "classNotesCode": "055118df-fdea-4646-ba62-8c1c52de517f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Electrochemistry 01 : Introduction ||...",
+    "lectureCode": "bc07a9ca-2f29-4757-8c68-d6437b6a9fbf",
+    "extId": "645b37aa7d45850018277327",
+    "key": "645baa0a91de3c001868ac76",
+    "classNotesCode": "8791f134-4f6e-4a34-a899-6c9578484b88.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

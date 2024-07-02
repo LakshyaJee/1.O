@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Inverse Trigonometric Functions 08 : ...",
+    "lectureCode": "bfb71da4-e098-4c92-9e53-e9609ce91425",
+    "extId": "64755cf0d8cf5a0018f0166d",
+    "key": "64762f20965b29001859c4c0",
+    "classNotesCode": "ee158d50-74de-421b-a9e6-4129a38ec156.pdf",
+    "dppsPdfCode": "8f1d352a-8a5f-4350-bbac-b1c8514490c0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Inverse Trigonometric Functions 07 : ...",
+    "lectureCode": "d361bcc5-6bc2-4043-8dc3-52e05ef1e5e7",
+    "extId": "6473fefdc6a1680018849a14",
+    "key": "6474de1e0d983b0018b0d91e",
+    "classNotesCode": "ee158d50-74de-421b-a9e6-4129a38ec156.pdf",
+    "dppsPdfCode": "36dbdcc9-ab9a-4677-a50e-840558aba78e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Inverse Trigonometric Functions 06 : ...",
+    "lectureCode": "0badfe10-dd87-4ce7-8559-906e4f5b04e4",
+    "extId": "6471d21b0bfdeb00183ef662",
+    "key": "6471ce4c5b4e0e00181a73a1",
+    "classNotesCode": "ee158d50-74de-421b-a9e6-4129a38ec156.pdf",
+    "dppsPdfCode": "559a68fb-b589-48e5-804c-cc7f02bd2846.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Inverse Trigonometric Functions 05 : ...",
+    "lectureCode": "67f35077-d9c9-4f00-a62b-81c262fac4c7",
+    "extId": "647026e31a1f6000187e6e2d",
+    "key": "6470e6460d2b9a001829e662",
+    "classNotesCode": "",
+    "dppsPdfCode": "75b6f1e8-06f7-4546-933b-215d9a0d3422.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Inverse Trigonometric Functions 04 : ...",
+    "lectureCode": "c644a7e0-03d7-4786-af7d-ff9125c9d969",
+    "extId": "646ed14116af1000180a3530",
+    "key": "646f99f4d64c4d0018ede8a8",
+    "classNotesCode": "",
+    "dppsPdfCode": "b1d31755-294d-4513-85e4-cc6ed2c78df7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Inverse Trigonometric Functions 03 : ...",
+    "lectureCode": "ab41459b-9fe2-434f-9ba9-193cbda277f2",
+    "extId": "646d72a4c5d3c4001847c2e4",
+    "key": "646e42f2d4d63000181010f0",
+    "classNotesCode": "",
+    "dppsPdfCode": "52ffb623-2047-49f2-a762-2c3ba1a61a37.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Inverse Trigonometric Functions 02 : ...",
+    "lectureCode": "77520346-1e65-4ef2-8b7f-bb48ed45058c",
+    "extId": "646c3c661cee0500189a5e4f",
+    "key": "646cb6c1297bcf00188160b8",
+    "classNotesCode": "",
+    "dppsPdfCode": "d5cb0d5e-c4d9-42bc-aa05-ba267f179d6a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Inverse Trigonometric Functions 01 : ...",
+    "lectureCode": "42ecc1d9-db2f-4ad0-8721-0a876924cf95",
+    "extId": "646ad2c1907d260018b15ad9",
+    "key": "646ba29bb61ff8001858961e",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

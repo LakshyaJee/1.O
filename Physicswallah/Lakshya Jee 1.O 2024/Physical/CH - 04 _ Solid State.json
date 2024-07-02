@@ -1,0 +1,112 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Solid State 09 : Properties Of Solids",
+    "lectureCode": "73281d00-7764-4f51-a5e9-c69dd186125b",
+    "extId": "647fe9f37e92ae0018c3c841",
+    "key": "6480950748907200182a0f29",
+    "classNotesCode": "9f0a4117-0244-4529-b8ac-23d2d8893fec.pdf",
+    "dppsPdfCode": "3e0551b2-5688-4d7e-b2a5-2779c2780dbc.pdf",
+    "dppsSolutionCode": "34d3404e-f5c3-430d-b4b7-894695bd7867"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Solid State 08 : Defects In Solids",
+    "lectureCode": "3673559b-2a9d-4726-825d-8f635c4f51dc",
+    "extId": "642a9314e5dd9700185e4fb2",
+    "key": "647dd780b420600018d6112f",
+    "classNotesCode": "855cafac-3111-4a1a-81f6-9cf18b494dc2.pdf",
+    "dppsPdfCode": "10e7bd4a-8267-4ac6-8bf6-5c094a0ecaad.pdf",
+    "dppsSolutionCode": "eb6e35f6-abae-4874-9e0d-026be8a73b56"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Solid State 07 : Radius Ratio For Ion...",
+    "lectureCode": "5d3fd588-7ce2-407c-a274-69c6893360b0",
+    "extId": "647b609e8dbdc600189063c1",
+    "key": "647b50dfc9db4d001885377a",
+    "classNotesCode": "2007475b-32a9-4e05-b614-64b16578e738.pdf",
+    "dppsPdfCode": "22cc3a41-5a99-4c76-93fa-efb2da9d3fea.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Solid State 06 : Packing Efficiency |...",
+    "lectureCode": "254d1763-d698-4b62-b588-93c1d498ce47",
+    "extId": "647800f8edc4ba0018def850",
+    "key": "6478908430c4ca0018d77faa",
+    "classNotesCode": "4b1e479c-10a9-4f5f-9ad3-4c0aecdca2a3.pdf",
+    "dppsPdfCode": "170be16a-0d97-47af-a6d9-81721ef4bb6e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Solid State 05 : Location Of Tetrahed...",
+    "lectureCode": "aca629fc-a2f8-4a90-a8ed-a25765b0e4fd",
+    "extId": "6476b04831613b0018b197d6",
+    "key": "64775d6606ba590018808a08",
+    "classNotesCode": "b6d47275-b65b-4db3-84c8-3b568a4f5a27.pdf",
+    "dppsPdfCode": "0d10e26f-0ed6-4274-8d60-6c7a815da48a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Solid State 04 : Close packing in 3D ...",
+    "lectureCode": "62c02276-4c3d-4926-a812-40bcc259503e",
+    "extId": "64755bf44f3e1f00181fc155",
+    "key": "6475ed631dad9200186ab838",
+    "classNotesCode": "596144ff-7e10-48dc-a86e-50b8ee1eb0f7.pdf",
+    "dppsPdfCode": "2a0e8599-bf7c-4a00-be9e-49b4c55a24a8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Solid State 03 : Packing In 1D, 2D & ...",
+    "lectureCode": "42dc8d5e-b416-41b0-8341-4d200f9419d9",
+    "extId": "6473f2e6cc94530018f6ddd0",
+    "key": "64749c4f86485800189c4866",
+    "classNotesCode": "9f0a4117-0244-4529-b8ac-23d2d8893fec.pdf",
+    "dppsPdfCode": "cfe06624-be2e-4565-a1d4-752ca7883a15.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Solid State 02 : Crystal Lattice & Un...",
+    "lectureCode": "1c124069-2c80-43ac-9142-66138380231c",
+    "extId": "647024a36fbac60018892af3",
+    "key": "6470a7a626b362001855eb7a",
+    "classNotesCode": "855cafac-3111-4a1a-81f6-9cf18b494dc2.pdf",
+    "dppsPdfCode": "3c286d0f-bd38-492f-b831-914edf324656.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Solid State 01 : Classification Of So...",
+    "lectureCode": "6fc19ca6-7f5e-456d-95d6-d68387f74110",
+    "extId": "646ecfdb6b445a0018e37346",
+    "key": "646f747add9d82001846151c",
+    "classNotesCode": "2007475b-32a9-4e05-b614-64b16578e738.pdf",
+    "dppsPdfCode": "b3d09174-8e36-44e3-85d6-1827b90e2bd1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Solid State Solution to DPP Recorded...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "4b1e479c-10a9-4f5f-9ad3-4c0aecdca2a3.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Solid State Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "b6d47275-b65b-4db3-84c8-3b568a4f5a27.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]
