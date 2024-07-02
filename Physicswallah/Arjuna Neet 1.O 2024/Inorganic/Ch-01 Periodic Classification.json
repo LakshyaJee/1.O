@@ -1,0 +1,162 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Periodic Classification 10 : Revision...",
+    "lectureCode": "1cd695fd-8945-4461-99c1-774f60af799e",
+    "extId": "64b763ad1a8f320018d00670",
+    "key": "64b7fc44640fc700183d94ab",
+    "classNotesCode": "849bece5-71ec-4bc4-982c-53099c692a34.pdf",
+    "dppsPdfCode": "19401c60-aa7f-4092-a682-c3bef4992e4e.pdf",
+    "dppsSolutionCode": "8b19d846-dfe0-4fc9-a928-cf9ed00a5540"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Periodic Classification 09 : Genesis ...",
+    "lectureCode": "11ecd8f6-d051-48af-8703-61ec087ba744",
+    "extId": "64b626d6b8df0d0018729d68",
+    "key": "64b6ad31e667490018f0e0ec",
+    "classNotesCode": "57df8f3d-e0ba-4877-8e1a-a72c36edc82c.pdf",
+    "dppsPdfCode": "bcaeeba6-a8df-4641-95b2-b5143b0347ec.pdf",
+    "dppsSolutionCode": "45ddaf56-9ba9-4fbd-a1e9-eca5d3869bac"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Periodic Classification 08 : Electron...",
+    "lectureCode": "b45b0a3e-31ac-4660-99a4-e7e191522276",
+    "extId": "649bb88959545b0018bfadca",
+    "key": "649bcd12fb81a5001882844c",
+    "classNotesCode": "3bcdd995-f0ed-4ae6-ba88-82766adc3251.pdf",
+    "dppsPdfCode": "cb9df659-f561-4d59-9b2f-d0697766cebb.pdf",
+    "dppsSolutionCode": "efc74c77-1f6f-45cb-b483-c6edbdd71d6b"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Periodic Classification 07 : Applicat...",
+    "lectureCode": "61f6f36d-a7c1-4d57-aab4-34daff266c96",
+    "extId": "649a62e149bd300018b26e09",
+    "key": "649b16d4ae657500187e8c06",
+    "classNotesCode": "dabc1d7d-31e1-4579-9f2c-b6163833eb52.pdf",
+    "dppsPdfCode": "aed624af-35c4-4358-97b5-1e88a9043d18.pdf",
+    "dppsSolutionCode": "14ee1779-efcb-4f69-9014-3536894bb20c"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Periodic Classification 06 : Ionisati...",
+    "lectureCode": "d2c3a94c-c752-4a48-a114-15be58538d57",
+    "extId": "64990dcfdc12790018eb424e",
+    "key": "6499c5205c7e8f0019b51ae6",
+    "classNotesCode": "e2b0d0dc-8acf-4fb1-a69b-31d35dea9bb2.pdf",
+    "dppsPdfCode": "9c866361-c00b-4834-822a-a7069326dc93.pdf",
+    "dppsSolutionCode": "ea7af55c-c78e-4699-9980-8e6f9d3cdf45"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Periodic Classification 05 : Blockwis...",
+    "lectureCode": "aa1d2c09-15af-47a5-8310-40f071f035e7",
+    "extId": "6496cfbb29c1f60019e1f81b",
+    "key": "64970c5a5d88a50018e0eed1",
+    "classNotesCode": "1fc6889e-8bb1-4638-87d4-1bd7352f6286.pdf",
+    "dppsPdfCode": "0072cdf9-68bb-4315-b069-76d463d52698.pdf",
+    "dppsSolutionCode": "d4d5bc6b-22e2-41f1-89ca-1cb20bc6b70d"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Periodic Classification 04 : Shieldin...",
+    "lectureCode": "17ba7de2-d2e4-461b-a238-6c81785c15d3",
+    "extId": "6491e317c8dc980019baf249",
+    "key": "6493313af51ca4001889b7e6",
+    "classNotesCode": "882e7233-adec-4efe-b30b-19137609ed6e.pdf",
+    "dppsPdfCode": "03a5e18d-57a6-4995-b4b5-a93a1b087811.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Periodic Classification 03 : Period B...",
+    "lectureCode": "cbd8653d-02b0-4771-8bf1-384bcaf0c01b",
+    "extId": "649091bd7f332d00184d331f",
+    "key": "6491d4de8cd1d00018edb89b",
+    "classNotesCode": "cbe1f152-2a40-4b89-8049-e335798f271d.pdf",
+    "dppsPdfCode": "1b460b18-75ed-4376-8f15-4fadf8d0287b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Periodic Classification 02 : Electron...",
+    "lectureCode": "fe097aa9-00a6-4b33-935b-c069a03ca34e",
+    "extId": "648fe9167f977c00188daf04",
+    "key": "64907959cf5268001803380b",
+    "classNotesCode": "443987dc-82a6-4a68-b3f0-42a09eef9794.pdf",
+    "dppsPdfCode": "e31a469d-d14c-4bf1-af1b-9363d5aa1fc9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Periodic Classification 01 : Basics o...",
+    "lectureCode": "c42506d1-357d-453b-b170-a1b882a08c63",
+    "extId": "648d35f4e6b54000189e4b7b",
+    "key": "648dd3050371db0018e3ca10",
+    "classNotesCode": "849bece5-71ec-4bc4-982c-53099c692a34.pdf",
+    "dppsPdfCode": "7c1511a1-b6fa-42c6-9ed3-0c2ea21882a9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Periodic Classification Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "57df8f3d-e0ba-4877-8e1a-a72c36edc82c.pdf",
+    "dppsPdfCode": "46143ded-cd7b-4b8d-b5a2-19fc16555ed5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Periodic Classification Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "3bcdd995-f0ed-4ae6-ba88-82766adc3251.pdf",
+    "dppsPdfCode": "b864d962-5637-48a8-9bc8-cbb39baa1097.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Periodic Classification Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "dabc1d7d-31e1-4579-9f2c-b6163833eb52.pdf",
+    "dppsPdfCode": "76b54b8e-f524-4f81-bef9-c8a744f6fc6a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Periodic Classification Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "e2b0d0dc-8acf-4fb1-a69b-31d35dea9bb2.pdf",
+    "dppsPdfCode": "200b85e3-f211-44f2-aad0-501d6c860e24.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Periodic Classification Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "1fc6889e-8bb1-4638-87d4-1bd7352f6286.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Periodic Classification Solution Notes to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "882e7233-adec-4efe-b30b-19137609ed6e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Body Fluids and Circulation 09 : Regu...",
+    "lectureCode": "2c454580-e4c5-440f-9a97-b14d07581862",
+    "extId": "64b8b77cd16249001832bf6a",
+    "key": "64b930c03f37ae0018ba49ec",
+    "classNotesCode": "1c0c982d-7a41-4565-860f-999e6735f3d5.pdf",
+    "dppsPdfCode": "042d8af1-e8e1-46a4-bf6f-9af91082bd1b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Body Fluids and Circulation 08 : Port...",
+    "lectureCode": "549c2a98-af80-485c-bdd4-2795cd139b79",
+    "extId": "64b0d107717c290018b9f257",
+    "key": "64b145444c160900185eb0a1",
+    "classNotesCode": "9fce628d-f5c7-4d45-8618-59625b2db9ab.pdf",
+    "dppsPdfCode": "daec5602-c393-49c4-9ae7-cc67d6943ab9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Body Fluids and Circulation 07 : ECG ...",
+    "lectureCode": "b12b199d-61cf-48e0-9c9f-5c24a8d171ed",
+    "extId": "64aef6d02cffba0018691ede",
+    "key": "64aff56c3aa15e001829f7e3",
+    "classNotesCode": "30755bac-bd95-4348-a07b-3a5e7f72202f.pdf",
+    "dppsPdfCode": "c5277616-cabb-4795-b9e2-45a943871e44.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Body Fluids and Circulation 06 : Card...",
+    "lectureCode": "ecc16cf5-7135-43ce-83b3-2ae83d0077ab",
+    "extId": "64a7913011de610018cc643a",
+    "key": "64a8176c3dc8a9001824a680",
+    "classNotesCode": "d736ae44-eea1-48a8-bf17-5bfe6cce2cb4.pdf",
+    "dppsPdfCode": "adc63154-631e-4122-942b-b4c925152223.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Body Fluids and Circulation 05 : Hear...",
+    "lectureCode": "5ef24f9b-6b20-43ea-b4c7-260e7f7c8a8d",
+    "extId": "64a64884f3849f0018b45d7f",
+    "key": "64a6c92b89eb740018c89e51",
+    "classNotesCode": "d6539de5-bdd5-4d6d-abec-fcada792f77e.pdf",
+    "dppsPdfCode": "3bb857eb-cffe-4de2-8cd0-75cd45c8319b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Body Fluids and Circulation 04 : Circ...",
+    "lectureCode": "f1d2d847-fbaa-48bd-bebb-21c478b084a5",
+    "extId": "649e56a1926f44001850f1e0",
+    "key": "649ed12315b1d600182a63f2",
+    "classNotesCode": "1c0c982d-7a41-4565-860f-999e6735f3d5.pdf",
+    "dppsPdfCode": "ca1443cc-571e-40e6-af7b-cf03b28c7dd6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Body Fluids and Circulation 03 : Bloo...",
+    "lectureCode": "5a011d90-d05e-46ef-946f-baabe8640448",
+    "extId": "649520d2e20d680018862f26",
+    "key": "649599cfa6477a0018048e0c",
+    "classNotesCode": "9fce628d-f5c7-4d45-8618-59625b2db9ab.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Body Fluids and Circulation 02 : Bloo...",
+    "lectureCode": "2a4fa486-adc7-47cb-8962-3812062005ff",
+    "extId": "6493cc96fb82910018ba8e7d",
+    "key": "649445044aa5070018559d9e",
+    "classNotesCode": "30755bac-bd95-4348-a07b-3a5e7f72202f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Body Fluids and Circulation 01 : Bloo...",
+    "lectureCode": "adaf2a31-86c8-4d69-a32c-a968a247a09f",
+    "extId": "648bcc3366f07c001876d376",
+    "key": "648c5d7ba295100018e59e54",
+    "classNotesCode": "d736ae44-eea1-48a8-bf17-5bfe6cce2cb4.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

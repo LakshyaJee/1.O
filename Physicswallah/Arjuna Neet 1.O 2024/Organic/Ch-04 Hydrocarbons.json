@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Hydrocarbons 04 : Properties of Alken...",
+    "lectureCode": "d4d455ac-0f5b-429e-a9ee-8d63eacd5d19",
+    "extId": "65b1eab808c6d40018aa3a4c",
+    "key": "65b28dc96faf760018ede341",
+    "classNotesCode": "c0f0d96c-fdda-4018-9cb1-8579ad5c3220.pdf",
+    "dppsPdfCode": "9854d0a4-13e3-48fc-8549-bbcaf4118e63.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Hydrocarbons 03 : MOP of Alkanes || (...",
+    "lectureCode": "9019b1f6-78eb-476d-9fa0-7e3ab81d449e",
+    "extId": "65b0dbd1f59b680018128efa",
+    "key": "65b13c4c2bcfdb0018f89307",
+    "classNotesCode": "ad076e4e-a1b6-45fe-b00c-631dc635b85e.pdf",
+    "dppsPdfCode": "de4d9f59-955d-4348-99ab-65c18b823f9b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Hydrocarbons 02 : Properties of Alkan...",
+    "lectureCode": "d07f32fc-dbbb-45cb-ba42-02ed95bd6149",
+    "extId": "65a8b88719d1a10018988c32",
+    "key": "65a94bbaa0451a00183ad5d9",
+    "classNotesCode": "8ec5cffe-6ffc-43e2-a23a-4b8d3df84311.pdf",
+    "dppsPdfCode": "2e3d7a41-2e3e-4f11-afab-5d3b190e2302.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Hydrocarbons 01 : Alkanes",
+    "lectureCode": "7b75cca9-6de0-4edc-8cef-2a9127d85fe2",
+    "extId": "65a607cd8a9beb0018c96098",
+    "key": "65a6a62dbd06b800189a073b",
+    "classNotesCode": "1335b839-c047-49cb-8fb5-c7ba443beef4.pdf",
+    "dppsPdfCode": "e23544bb-3cec-44a7-9667-779887f3dc0e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Hydrocarbons 06 : Alkynes || (NO DPP)...",
+    "lectureCode": "56bb7b07-e9da-42bd-9a94-19f9630ba370",
+    "extId": "65b8e2a08e762d0018b8fd36",
+    "key": "65b9247afb35b40018b61dc6",
+    "classNotesCode": "49fd9eb7-333e-4087-8f96-2d56f039327f.pdf",
+    "dppsPdfCode": "a6f9f6a1-dc24-4e14-8fb3-4b14cb9c4a64.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Hydrocarbons 05 : Properties of Alken...",
+    "lectureCode": "d25d5089-952b-47db-8572-9024ce4cd385",
+    "extId": "65b8aef5b5e8f900186d8e16",
+    "key": "65b908c4eb52620018340c51",
+    "classNotesCode": "110597bd-a11f-49d1-8c79-2d594253846d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Hydrocarbons 07 : Benzene",
+    "lectureCode": "3ff84748-5d82-4d07-83b1-6482a88886ed",
+    "extId": "65b9f9dd9178560018e30744",
+    "key": "65ba6b4f04a80e0018191b12",
+    "classNotesCode": "2ca23c19-a1d2-4ae6-8c71-dd616ce5fd6c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Hydrocarbons 08 : PYQs Discussion of ...",
+    "lectureCode": "99cc2107-f9e7-4464-8304-a0b220edf15a",
+    "extId": "65bb2b5bfad63e001899789f",
+    "key": "65bbc2a82b7275001833622a",
+    "classNotesCode": "84ff2d3e-a3f5-4908-bd76-64bc95886275.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

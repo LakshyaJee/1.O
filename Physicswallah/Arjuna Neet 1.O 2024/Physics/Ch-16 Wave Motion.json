@@ -1,0 +1,102 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Wave Motion 02 : Wave Velocity and Eq...",
+    "lectureCode": "3f90380e-9b86-4d20-9cf7-f87d6ef197ac",
+    "extId": "659e1bbe18362500189912f7",
+    "key": "659eb4f3cd0ad000180d02b6",
+    "classNotesCode": "3035c10c-4f20-4ce8-9f6e-eae731e3e720.pdf",
+    "dppsPdfCode": "29531bf0-9c65-4981-8ff4-967f7457cbb8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Wave Motion 01 : Introduction || (NO ...",
+    "lectureCode": "3607adeb-8f53-4c32-84d5-51d691197b67",
+    "extId": "659cca251cb238001809dd71",
+    "key": "659d48ec7e537f00182fafcd",
+    "classNotesCode": "a6517cab-72cf-49d9-a76c-7b5300f92732.pdf",
+    "dppsPdfCode": "bef1b2fd-dc80-43bd-a57e-af6686a388db.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Wave Motion 09 : Resonance Tube || (R...",
+    "lectureCode": "60f325ab-b338-4439-a61e-d1da8d756489",
+    "extId": "65af45f8f39b9e00184cece9",
+    "key": "65afc631e07b2c0018c8d98e",
+    "classNotesCode": "d4d52c87-5fe5-4a9e-9c8f-769bc77e1c90.pdf",
+    "dppsPdfCode": "3553de60-d492-4272-bbdf-fbe08a01afd1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Wave Motion 08 : Standing Wave || (NO...",
+    "lectureCode": "7971bced-99b8-46a2-a30b-e6f4b5f06f0b",
+    "extId": "65adf4dffd4cb3001812f59c",
+    "key": "65ae693dc3009c0018b7621a",
+    "classNotesCode": "edce4e41-36f0-45be-ab2b-138ef40e513a.pdf",
+    "dppsPdfCode": "19ca1bba-b61d-496d-a775-d3163ca8ed90.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Wave Motion 07 : Organ Pipe",
+    "lectureCode": "936885df-dfe2-4499-998c-99dbd3890c55",
+    "extId": "65ab437c5d11d600181d2e1e",
+    "key": "65abdb47a8d44d0018e0f7c4",
+    "classNotesCode": "b179c601-ed40-459c-a53a-595edcda993f.pdf",
+    "dppsPdfCode": "e299dd94-1769-414e-bd61-55afd4ad1b36.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Wave Motion 06 : Practice Questions",
+    "lectureCode": "072c5500-e0e4-44ce-a760-e13a861f8320",
+    "extId": "65a9feac9df24d0018303bee",
+    "key": "65aa94de29d8b400186f448d",
+    "classNotesCode": "e75949ee-a7e8-49b0-b908-4904d936a6c5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Wave Motion 05 : Superposition of Sou...",
+    "lectureCode": "130b9672-780e-46f0-beb4-4815efb3c882",
+    "extId": "65a74fc101266d00183b266d",
+    "key": "65a7e847df167343e1447021",
+    "classNotesCode": "49d684b6-972c-418b-91ef-7524651c3c7c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Wave Motion 04 : Sound Wave",
+    "lectureCode": "fad4b68a-ec8f-4181-9c6b-e7e43090780b",
+    "extId": "65a0b8c832737800187497af",
+    "key": "65a150be931ae3c246178466",
+    "classNotesCode": "1be01008-5f16-4035-8273-800dab8aa365.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Wave Motion 03 : Velocity in String a...",
+    "lectureCode": "65721038-c806-4764-829f-1161e739d9a4",
+    "extId": "659f70f8f5a2b80018925aca",
+    "key": "659fe598a145e8142a193804",
+    "classNotesCode": "8f1f4136-9381-4bff-87c3-afd491e8bf04.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Wave Motion 02 : Wave Velocity and Eq...",
+    "lectureCode": "5f6d8a7c-5761-48be-b254-ab67bfe70014",
+    "extId": "659e1bbe18362500189912f7",
+    "key": "659eae549cb627001898c3ec",
+    "classNotesCode": "3035c10c-4f20-4ce8-9f6e-eae731e3e720.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

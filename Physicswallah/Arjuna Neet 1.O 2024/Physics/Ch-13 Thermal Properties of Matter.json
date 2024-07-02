@@ -1,0 +1,132 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Thermal Properties of Matter 11 : Pra...",
+    "lectureCode": "3e2e6ed0-d677-4e23-a007-79f8c502717d",
+    "extId": "657f496e009a7b00187a8c45",
+    "key": "658043e5573c5200186cdac8",
+    "classNotesCode": "1d34555c-a7e8-4ecf-8234-e0d1550435c6.pdf",
+    "dppsPdfCode": "b74034b9-34fa-4432-887f-9c7644032f20.pdf",
+    "dppsSolutionCode": "d45af7cc-85e5-4a34-ba01-653cf4f5f212"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Thermal Properties of Matter 10 : Rad...",
+    "lectureCode": "0cd136b1-5e78-427a-b5f4-1c0f22aad3e3",
+    "extId": "657d270b06ad3600188221b5",
+    "key": "657dcc27be431d7929791ff8",
+    "classNotesCode": "5139d85a-d92d-4e3f-b6be-5411ad1e30a0.pdf",
+    "dppsPdfCode": "6583153c-4fa0-4dd2-b613-088261a94598.pdf",
+    "dppsSolutionCode": "0eba7820-2d70-498a-a681-26c24e647578"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Thermal Properties of Matter 09 : Pra...",
+    "lectureCode": "799d24f2-74c4-4704-b2ca-723531564c0f",
+    "extId": "657b7eaf42db4b0018c8797d",
+    "key": "657c74ac33047d00189d7d25",
+    "classNotesCode": "14b60ca5-9a3a-4a85-8d56-6c5fbb8676f0.pdf",
+    "dppsPdfCode": "3cb3d62b-99fb-4e53-a7a5-b7de503585b6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Thermal Properties of Matter 08 : Con...",
+    "lectureCode": "b192bf18-e29e-46a2-8595-e5422f1da9e6",
+    "extId": "657a8c5daee3080019ca76dd",
+    "key": "657b265fc6548400198fad7d",
+    "classNotesCode": "4ecd9409-437d-4e23-a575-4d9977446bf3.pdf",
+    "dppsPdfCode": "33c2ffb4-4d2e-46b2-b6a9-189c0109e8f7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Thermal Properties of Matter 07 : Gey...",
+    "lectureCode": "cdcee0b7-d0e8-4dee-a205-bf23b22d22ba",
+    "extId": "6578b696d1f2d900180823bd",
+    "key": "6579af8173ac8e0018a8afe4",
+    "classNotesCode": "9271254b-1f94-44e8-9f31-d5d8b72a7846.pdf",
+    "dppsPdfCode": "30eb1985-26c4-4fed-9043-97c0132ed468.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Thermal Properties of Matter 06 : Pra...",
+    "lectureCode": "04634c4c-cd74-4e6b-ac7d-8ed64d81cd26",
+    "extId": "6577dc3136029000180cf665",
+    "key": "65785d1a435ca300185d37b0",
+    "classNotesCode": "f4b63d5c-2e41-407d-91ba-4454199144f9.pdf",
+    "dppsPdfCode": "a344701f-8407-4cbc-83c3-2e740b92d676.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Thermal Properties of Matter 05 : Hea...",
+    "lectureCode": "511b2372-a6dc-4ac1-bef2-4288e1a50ee7",
+    "extId": "6576368e3ea5ad0018a2d797",
+    "key": "65770a05f04ebc001890ae9e",
+    "classNotesCode": "9c75cc02-768e-4b65-82c7-e79b0866174c.pdf",
+    "dppsPdfCode": "d4ae3837-aa7a-4db9-ac5f-88e4f9a173bb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Thermal Properties of Matter 04 : Cal...",
+    "lectureCode": "055d7929-8f2d-4c2d-97f5-c3d9cb2b7995",
+    "extId": "65734bce7438ae0018b54cb3",
+    "key": "6574858b23691b0018cdfdd3",
+    "classNotesCode": "e8263c08-3f09-419f-aff7-5e04450538c1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Thermal Properties of Matter 03 : Bim...",
+    "lectureCode": "dd9941ba-8d51-44a9-a66e-0949e3de949d",
+    "extId": "6572c66165cd210018a73be6",
+    "key": "657330140f3bb40018118a50",
+    "classNotesCode": "e698c714-eb60-43af-a31c-bad1974464ac.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Thermal Properties of Matter 02 : The...",
+    "lectureCode": "263e3b77-50c7-444c-9442-afe79f66a7c7",
+    "extId": "656f621d10e49a0018282475",
+    "key": "6570738e08cb0a00184db1b9",
+    "classNotesCode": "f9052209-e552-4006-9edf-de605ebe6c8a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Thermal Properties of Matter 01 : Tem...",
+    "lectureCode": "10b2c526-d807-481d-8b5f-9840e31958b5",
+    "extId": "656eb1af15dcaf001870ee84",
+    "key": "656f1f018c6a250018143b47",
+    "classNotesCode": "1e61f238-8d01-47ef-8557-0daae816268c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Thermal Properties of Matter Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "1d34555c-a7e8-4ecf-8234-e0d1550435c6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Thermal Properties of Matter Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "5139d85a-d92d-4e3f-b6be-5411ad1e30a0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

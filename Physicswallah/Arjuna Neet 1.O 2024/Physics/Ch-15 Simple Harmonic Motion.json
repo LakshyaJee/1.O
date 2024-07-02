@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Simple Harmonic Motion 06 : Practice ...",
+    "lectureCode": "390604d1-3024-44bd-848e-085ac2483f69",
+    "extId": "659b6c1c6f9faa0018ae25d4",
+    "key": "659c14e05c4f1e0018315682",
+    "classNotesCode": "0df6de1f-325a-42cf-bb41-65d5596999a1.pdf",
+    "dppsPdfCode": "9b2aca2b-bfb1-4824-bc7a-c6c4b787788a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Simple Harmonic Motion 05 : Superposi...",
+    "lectureCode": "464e0b64-177d-488f-bf9b-8471e930e3a1",
+    "extId": "6598e5473df28100187dfc08",
+    "key": "65996ba0272b770018513c53",
+    "classNotesCode": "521b4eec-2f81-435c-8b41-23de5de00d2b.pdf",
+    "dppsPdfCode": "261c0f99-f4aa-4ca6-8845-fccbdaeb7304.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Simple Harmonic Motion 04 : Practice ...",
+    "lectureCode": "b88579a6-13dd-415d-8974-6d0148a1c6ff",
+    "extId": "65978fb38f40190018b5bc09",
+    "key": "6598214cdfce290018e941a4",
+    "classNotesCode": "7a18b550-6f0d-4367-bb4c-13150e6c0204.pdf",
+    "dppsPdfCode": "188adca2-6a30-4d4e-a5f3-ee37946e9328.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Simple Harmonic Motion 03 : Energy in...",
+    "lectureCode": "59b94ec7-3c5d-415f-bc75-315b4be3e700",
+    "extId": "6595d4b7f2370a001876eb7e",
+    "key": "6596aed6117c3c0018992e32",
+    "classNotesCode": "793cb70f-6095-4723-b307-ebe6b8c09f7c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Simple Harmonic Motion 02 : Equation ...",
+    "lectureCode": "d939dc2c-a5a7-425e-a2aa-7827fafe9f13",
+    "extId": "6594e7842864d3001839a68a",
+    "key": "659673b663f96a0018f965ee",
+    "classNotesCode": "b185d0ca-1f16-4260-a548-bbf5f92c86a5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Simple Harmonic Motion 01 : Introduct...",
+    "lectureCode": "53ed8c13-c559-4938-a5d4-2b42342d2a6b",
+    "extId": "6593912b97bea700189b8f44",
+    "key": "659413de97bea70018a3134b",
+    "classNotesCode": "8509f61d-810d-4a09-848d-4e158544b414.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Simple Harmonic Motion 01 : Introduct...",
+    "lectureCode": "54dcb552-af87-4cee-9080-3bbb1b6151c2",
+    "extId": "6593912b97bea700189b8f44",
+    "key": "659407fa24678f00186d9795",
+    "classNotesCode": "0df6de1f-325a-42cf-bb41-65d5596999a1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

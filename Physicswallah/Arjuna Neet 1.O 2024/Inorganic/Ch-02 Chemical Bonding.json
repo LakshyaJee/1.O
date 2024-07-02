@@ -1,0 +1,282 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Chemical Bonding 18 : Question practi...",
+    "lectureCode": "d11ab2da-2e16-46c4-9465-dc16628b4941",
+    "extId": "64e9cb8761517700184fda20",
+    "key": "64ea19f88c8afc00183a76f5",
+    "classNotesCode": "844237ab-4c38-4958-b633-fac215240c3f.pdf",
+    "dppsPdfCode": "5c40a3c1-3870-4453-a98d-a1ada31c4f7b.pdf",
+    "dppsSolutionCode": "8ce1cd94-4648-45b6-af4f-f4ef737fb883"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Chemical Bonding 17 : Weak Forces (Pa...",
+    "lectureCode": "a56efd1a-3b01-472e-8a4d-e3dfd595196a",
+    "extId": "64e7319541dc5000186b356a",
+    "key": "64e71dd16809970018ba19dd",
+    "classNotesCode": "a424e324-ad60-4909-a3d2-abe4477409df.pdf",
+    "dppsPdfCode": "2d6ac110-25f2-459c-a862-1a27c4f03a0a.pdf",
+    "dppsSolutionCode": "58bafb69-6bd7-4742-9f27-8bd09500d3b4"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Chemical Bonding 16 : Weak Forces",
+    "lectureCode": "5a156e15-ceca-41bc-ada7-9562411c6b34",
+    "extId": "64e591384d9f060019c170fa",
+    "key": "64e6252a2bc60e0018550979",
+    "classNotesCode": "ca61b7be-e972-4d72-ba9a-2695369f9f72.pdf",
+    "dppsPdfCode": "a2cd2676-0da0-4fb8-be32-2530641c20d3.pdf",
+    "dppsSolutionCode": "d12fa790-44df-4b73-a6b4-b37188d09c4d"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Chemical Bonding 15 : Molecular Orbit...",
+    "lectureCode": "c8c7288a-3530-46cf-8504-b8208a2e61d2",
+    "extId": "64e43bdf8836d6001854f63e",
+    "key": "64e4cf7c781a880018f209f5",
+    "classNotesCode": "4701e0ec-e38b-48a8-a3b4-54ddae2b18fa.pdf",
+    "dppsPdfCode": "6312e10e-9b80-4ece-a6f8-a8e39108ed58.pdf",
+    "dppsSolutionCode": "5295ab68-fc8a-4bc0-8d49-bf019b8f7283"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Chemical Bonding 14 : Molecular Orbit...",
+    "lectureCode": "f3e78edb-9450-469b-b797-81c04f77f236",
+    "extId": "64e2efebd4cd670018729718",
+    "key": "64e385dcb06da80018b1310b",
+    "classNotesCode": "bc5f8d9c-21a0-4a94-bf05-a37d7a236eba.pdf",
+    "dppsPdfCode": "8eb10fe9-419d-44ad-9508-079a16b66be5.pdf",
+    "dppsSolutionCode": "812e9a59-4416-4147-84ad-fb2d460d2f38"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Chemical Bonding 13 : Thermal decompo...",
+    "lectureCode": "e645bc8e-2c2d-467e-8a96-c8f3d78d26e7",
+    "extId": "64def86f0afb8500188a1a68",
+    "key": "64df87996567810018778261",
+    "classNotesCode": "51519469-50ea-4bb9-92bf-139ab2bc849a.pdf",
+    "dppsPdfCode": "5dd043b6-2215-4cbc-917d-ec155177a9ac.pdf",
+    "dppsSolutionCode": "735cc689-d813-40dc-ad98-85284ff9759d"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Chemical Bonding 12 : Lattice Energy ...",
+    "lectureCode": "0d4069e4-000b-4258-949a-79ae6850f9d3",
+    "extId": "64ddb3ebb9ac5900184b854e",
+    "key": "64e99f435399d300189d207a",
+    "classNotesCode": "ee9f2243-f8f9-4bc2-8525-5e64b74260c2.pdf",
+    "dppsPdfCode": "a0cf4493-6c8b-45d4-b93b-6727f79805cf.pdf",
+    "dppsSolutionCode": "22f9c8b5-2c95-4e38-bd33-de5a00546241"
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Chemical Bonding 11 : Ionic Bond",
+    "lectureCode": "ce640090-6006-4891-9cd7-31ff2ae71292",
+    "extId": "64dc535e42987f00189394ee",
+    "key": "64dce927c989810018d3dfbf",
+    "classNotesCode": "d413cc79-59d2-4a15-b0c2-2e0c392869e9.pdf",
+    "dppsPdfCode": "4cde0c0b-e68c-48a7-8170-3c567357a395.pdf",
+    "dppsSolutionCode": "2395cccc-7c8b-4fe7-bd2b-2c887c5de770"
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Chemical Bonding 10 : Dipole moment",
+    "lectureCode": "8726e537-b500-4b18-ab46-664829b270d0",
+    "extId": "64d9a999c258ad0018671837",
+    "key": "64da49682a10270018b1b259",
+    "classNotesCode": "53024eeb-4674-45c7-92b4-62b0dc591770.pdf",
+    "dppsPdfCode": "1727f1dd-6c41-4993-b8e5-8fccf5550c4a.pdf",
+    "dppsSolutionCode": "1e5cd0c5-fcfd-4a82-8237-7ad4f34a684f"
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Chemical Bonding 09 : Bond Identity |...",
+    "lectureCode": "263f5e8d-98f1-4a43-b7af-159b0e5c63c4",
+    "extId": "64d711796147e8001811c139",
+    "key": "64d7991f5c83cb001843cfd6",
+    "classNotesCode": "f9b78957-f176-4d37-a2d7-b2cbcd6e8e77.pdf",
+    "dppsPdfCode": "c4213cc6-defd-43f4-8676-e860d4221e7e.pdf",
+    "dppsSolutionCode": "ddb2b3cb-ad8e-4917-8046-495972714085"
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Chemical Bonding 08 : Overlapping",
+    "lectureCode": "7eaa4572-4acd-4b5a-8c57-f7ff0c86f5b5",
+    "extId": "64d31d8850ea830018b31595",
+    "key": "64d3b1e3a9d0d800184dfa74",
+    "classNotesCode": "c70e0803-75e1-490d-9174-2121e94647d6.pdf",
+    "dppsPdfCode": "8c5ff74a-b33d-4023-9ec0-4fd99c8dfbbf.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Chemical Bonding 07 : Application of ...",
+    "lectureCode": "72d9d968-f46f-42af-9ff6-2d1c9be06624",
+    "extId": "64d1c0a5a345ff0019abcb1e",
+    "key": "64d25bf8bc91de0018098338",
+    "classNotesCode": "b89ff55a-177f-4674-803b-593eabfe8cc2.pdf",
+    "dppsPdfCode": "74a11d02-4440-48a1-9d94-bb62f9368356.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Chemical Bonding 06 : Applications of...",
+    "lectureCode": "668d8718-0608-40a7-9af5-bb8441a060a8",
+    "extId": "64c9e20c7ec91200184a7a19",
+    "key": "64ca83ad8a70e70018416600",
+    "classNotesCode": "340c7696-d194-435c-93df-7e63c60e1a12.pdf",
+    "dppsPdfCode": "70ed03e2-1f03-4641-be78-27af4aa59891.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Chemical Bonding 05 : VSEPR Theory",
+    "lectureCode": "a8a384a4-15ea-4648-b312-dd92924f4811",
+    "extId": "64c88c45348a39001886a522",
+    "key": "64c927ebf0ae6d0018e008d6",
+    "classNotesCode": "a349a184-8fe8-4c4e-a610-4d7d0b5707e7.pdf",
+    "dppsPdfCode": "0beb2387-b9c0-453f-9fdb-dea4f6495ccf.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Chemical Bonding 04 : Covalency || VS...",
+    "lectureCode": "4b43ce98-ef68-466e-94c1-82811ce50dc2",
+    "extId": "64c73e5d5c2c130018f17a19",
+    "key": "64c7ceddfe3aef001841fdbd",
+    "classNotesCode": "82d42093-8ad8-47bd-af3f-3ebcf6750273.pdf",
+    "dppsPdfCode": "d03ede6b-e5e1-4c43-938e-554e5c63c0b2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Chemical Bonding 03 : Covalent Bond |...",
+    "lectureCode": "e7282969-298c-4092-b0f0-04ba096dcac1",
+    "extId": "64c0a55ec1f829001874a7ce",
+    "key": "64c1376bd7e0f100183d8927",
+    "classNotesCode": "f0f25c9c-8a1d-4200-8cc7-9b633c6f9b17.pdf",
+    "dppsPdfCode": "f79223dd-ec8e-4010-8ab8-dc8f25f4a8c0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Chemical Bonding 02 : Formal Charge",
+    "lectureCode": "6a709240-0dcf-46fb-8a9c-2d066bc089dc",
+    "extId": "64bf51fdeefb160018353838",
+    "key": "64bfe84a3018490018298146",
+    "classNotesCode": "c2ef38cf-3d6f-4e6a-a927-34e624055668.pdf",
+    "dppsPdfCode": "505a20b0-55b1-4159-853e-d5dd62245a0c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Chemical Bonding 01 : Introduction ||...",
+    "lectureCode": "4a8e6952-9c97-4bb3-8c1f-83af2ec5c708",
+    "extId": "64bdfeef77c3d00018ee3505",
+    "key": "64be92f4854b1d0018cf1445",
+    "classNotesCode": "844237ab-4c38-4958-b633-fac215240c3f.pdf",
+    "dppsPdfCode": "a2d59527-ecda-4e27-8f48-0d7d504c6097.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Chemical Bonding Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "a424e324-ad60-4909-a3d2-abe4477409df.pdf",
+    "dppsPdfCode": "8c2e248c-7c0f-4d01-87c2-2b0c81c45fb1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "Chemical Bonding Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "ca61b7be-e972-4d72-ba9a-2695369f9f72.pdf",
+    "dppsPdfCode": "c551bee1-8c52-408b-9e90-ce149a43c1fa.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "Chemical Bonding DPP- By Mohit Dadheech sir...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "4701e0ec-e38b-48a8-a3b4-54ddae2b18fa.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "DPP chemical bonding by mohit sir arjuna neet...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "bc5f8d9c-21a0-4a94-bf05-a37d7a236eba.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 23,
+    "lectureName": "Chemical Bonding Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "51519469-50ea-4bb9-92bf-139ab2bc849a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 24,
+    "lectureName": "Chemical Bonding Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "ee9f2243-f8f9-4bc2-8525-5e64b74260c2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 25,
+    "lectureName": "Chemical Bonding Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "d413cc79-59d2-4a15-b0c2-2e0c392869e9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 26,
+    "lectureName": "Chemical Bonding Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "53024eeb-4674-45c7-92b4-62b0dc591770.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 27,
+    "lectureName": "Chemical Bonding Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "f9b78957-f176-4d37-a2d7-b2cbcd6e8e77.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 28,
+    "lectureName": "Chemical Bonding Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "c70e0803-75e1-490d-9174-2121e94647d6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

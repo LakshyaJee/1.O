@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Locomotion and Movement 07 : Joints |...",
+    "lectureCode": "34a1f3e8-ae66-4ec4-b3d1-fec62c2f6258",
+    "extId": "650d175f41d99e00189de93f",
+    "key": "650d91177348c6001262b6a8",
+    "classNotesCode": "f4d5c262-2c66-40c2-b3e4-e506bdb6840e.pdf",
+    "dppsPdfCode": "a8f3b92d-b988-43a9-a85e-49d2ac631674.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Locomotion and Movement 06 : Vertebra...",
+    "lectureCode": "fb359902-0ba1-433d-915b-7a20e78407d6",
+    "extId": "650bcc67eed5a000180be9dc",
+    "key": "650c3c5daac37300186e93d9",
+    "classNotesCode": "58e224a1-23ec-451e-8f2f-b48106aba21d.pdf",
+    "dppsPdfCode": "8fe1fb0a-385b-4968-ba69-68918a9a6f40.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Locomotion and Movement 05 : Axial sk...",
+    "lectureCode": "52408bfd-e78f-45b8-a1d4-20ab83a094ca",
+    "extId": "6504946b93129900189e608a",
+    "key": "6505a5ffeab0d1001825df49",
+    "classNotesCode": "7bdb7b16-2347-4b39-a065-ac3bfd0ba329.pdf",
+    "dppsPdfCode": "51506c31-2979-4b73-beac-5b3e0c1948f6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Locomotion and Movement 04 : Sliding ...",
+    "lectureCode": "de7d39bf-4597-443a-8a2c-695351f06f6d",
+    "extId": "6503dd950f0b2d001863ed8c",
+    "key": "650454360dd4390018dfa6aa",
+    "classNotesCode": "3ed6e817-1e5a-4924-8d5b-579540ede73a.pdf",
+    "dppsPdfCode": "ab27d59b-4bd1-46fb-ae5a-09f530b2af0a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Locomotion and Movement 03 : Contract...",
+    "lectureCode": "c519e16b-7b9b-4c9c-b99d-7a266ee3af6a",
+    "extId": "650292248683eb0018ca2c8f",
+    "key": "6503021a438b51001215a32d",
+    "classNotesCode": "10ec52a1-0c72-4558-820a-4119a458b658.pdf",
+    "dppsPdfCode": "2585e323-7f60-4c5b-9d18-c6cf72824c73.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Locomotion and Movement 02 : Section ...",
+    "lectureCode": "3e1c15be-44cc-4262-a9cf-f873e0a68a75",
+    "extId": "64fbf54ce45467001883434d",
+    "key": "64fc6a03cda0b500182f3106",
+    "classNotesCode": "f0f2f0dd-6fbc-41b5-ab93-98ae5898fd39.pdf",
+    "dppsPdfCode": "99d71edc-d87d-408b-b8f2-ca39fc0b46cd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Locomotion and Movement 01 : Types of...",
+    "lectureCode": "ba0c5aac-551a-4f2c-a4b0-cba0f5e7d874",
+    "extId": "64faac8b97eb610018fb21c8",
+    "key": "64fb19d5a89ec7001812381d",
+    "classNotesCode": "625bd3d9-4099-49a9-8c32-95ac0d3d35f3.pdf",
+    "dppsPdfCode": "75d19753-933c-4a00-bbcd-88bbdcd9f5d5.pdf",
+    "dppsSolutionCode": ""
+  }
+]

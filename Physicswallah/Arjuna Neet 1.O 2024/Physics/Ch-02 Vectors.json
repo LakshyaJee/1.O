@@ -1,0 +1,112 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Vector : Summary || (NO DPP) || (Extr...",
+    "lectureCode": "b1b2bfbd-c05b-4184-b072-dc9f32a19bf6",
+    "extId": "64aa2cfbe0f1480018585c0a",
+    "key": "64a53017e2af1e001886f829",
+    "classNotesCode": "7894368c-372d-4cc7-8b7d-e9f4c0cd376d.pdf",
+    "dppsPdfCode": "9df21695-7286-4020-a8b0-2736f99497fc.pdf",
+    "dppsSolutionCode": "5945ef35-c977-4b39-a650-3bedb86ad418"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Vectors 09 : Dot Product || Cross Pro...",
+    "lectureCode": "cd196b0e-35de-4603-b359-e4bedea2872a",
+    "extId": "64740b44c1e30100180acb76",
+    "key": "6474a5ac1cbfaa001816098e",
+    "classNotesCode": "e34f0bc0-22af-4d49-b70b-89f094f68beb.pdf",
+    "dppsPdfCode": "31900cb8-e186-4645-82b8-fd19fb59f5e1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Vectors 08 : Practice Question(Part-0...",
+    "lectureCode": "30bd868e-3772-4084-8fe1-1f844e70bb18",
+    "extId": "6471914a409aad001865a25b",
+    "key": "6471d65d5b4e0e00181a84b0",
+    "classNotesCode": "5e953355-b12a-497d-baee-4bf122e1bd50.pdf",
+    "dppsPdfCode": "0ccb645c-eaa0-423f-ac05-99e7988247c6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Vectors 07 : Practice Question(Part-0...",
+    "lectureCode": "974fc4e8-ac4b-40f7-b203-49af4431d5b5",
+    "extId": "64708b7519084d00180dc7d7",
+    "key": "64709b61783cce00188a5405",
+    "classNotesCode": "f05438bb-7ea8-494c-be46-de1c7c23aa57.pdf",
+    "dppsPdfCode": "6a03ddbf-0bdb-4755-b75c-100e405d362b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Vectors 06 : Product of Vectors || (N...",
+    "lectureCode": "041b458c-ec5c-4561-96a9-d874a0318aa0",
+    "extId": "646cfbb642f3b00018ca523b",
+    "key": "646e13edb27fc60018d51029",
+    "classNotesCode": "b5d27a3e-ead0-4c74-949c-71759144f2ea.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Vectors 05 : Practice Question",
+    "lectureCode": "37f411de-b0ee-4ec7-9661-dd0f74d2c372",
+    "extId": "646c1fafd65c200018050bef",
+    "key": "646cc82ddd51a90018e150c7",
+    "classNotesCode": "043714b6-529c-4298-b6de-c55350421f56.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Vectors 04 : Vector Addition || (NO DPP)",
+    "lectureCode": "bf9685b1-ddaf-4b9e-8e10-4a080328e728",
+    "extId": "646a56edc1861200188f51ab",
+    "key": "646b797938a901001869e664",
+    "classNotesCode": "f6117f14-8f79-4442-97d2-4c0e5364e68f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Vectors 03 : Resolution of Vector",
+    "lectureCode": "12e8c252-cb90-4cae-a17c-f0601420db07",
+    "extId": "6463b19934b84a0018a2891a",
+    "key": "6464d3af35aca100184561b5",
+    "classNotesCode": "7bef51df-3afb-4151-a72c-334f8b3d7e8a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Vectors 02 : Types of Vector || (NO DPP)",
+    "lectureCode": "c2f3ad49-bbb6-4c68-a924-08227a330b5e",
+    "extId": "64625e150295ca00184e8729",
+    "key": "6463842fb6d3820018abf012",
+    "classNotesCode": "c68ce9e2-6c3a-41c7-ab8f-e2e10af5e03f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Vector 01 : Basics of Vectors || (NO ...",
+    "lectureCode": "6d178aa0-9c0b-4bd5-b5d3-eed201056149",
+    "extId": "6461b156bdd4eb0018013c1a",
+    "key": "64623fb6a856f100180b7868",
+    "classNotesCode": "7894368c-372d-4cc7-8b7d-e9f4c0cd376d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Vectors Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "e34f0bc0-22af-4d49-b70b-89f094f68beb.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

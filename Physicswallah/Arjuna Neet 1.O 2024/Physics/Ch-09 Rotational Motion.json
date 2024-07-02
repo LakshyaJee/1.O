@@ -1,0 +1,102 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Rotational Motion 08 : Pure Rolling |...",
+    "lectureCode": "46a6496c-1d67-4567-a652-e0dd5f788dc7",
+    "extId": "653793e8e1fc2a001881c11c",
+    "key": "65378dbe79ea700018379d82",
+    "classNotesCode": "21ea037f-0d63-46fd-bbec-f234451fe8f0.pdf",
+    "dppsPdfCode": "88935ac5-c8ce-4c0c-a60f-49bfbb1d4645.pdf",
+    "dppsSolutionCode": "a7ebf1cf-f684-49b5-90f8-220e1693efc0"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Rotational Motion 07 : PYQs || NO DPP",
+    "lectureCode": "ec34eb18-35bc-4a5b-8e98-b36f1006a067",
+    "extId": "652e022d1dcff40018dbeeef",
+    "key": "652e89295e008400124731d8",
+    "classNotesCode": "fbdef2ba-ce65-4b57-ae46-b230fa883178.pdf",
+    "dppsPdfCode": "7d3fb233-2b46-4631-ae2e-acb798ad3e47.pdf",
+    "dppsSolutionCode": "6ae7c825-4010-40d4-8534-981a6dbf6f35"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Rotational Motion 06 : Practice Quest...",
+    "lectureCode": "973989f0-7919-4bb1-9edd-1673b17f7a40",
+    "extId": "652cafe230b4580018b97050",
+    "key": "652d3894144b16001231c463",
+    "classNotesCode": "b7d304f7-83ec-42a2-9299-8be5e0e68b02.pdf",
+    "dppsPdfCode": "677f7b02-93b2-433d-a3e9-37ca07e64bf0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Rotational Motion 05 : Equilibrium ||...",
+    "lectureCode": "6e0ea45e-aefb-434b-b64d-c108bdc6349f",
+    "extId": "652a1c89175fbf0018087287",
+    "key": "652ab67f41b4970012e304f6",
+    "classNotesCode": "1439cfe7-3f19-41e7-ba72-8282ff432269.pdf",
+    "dppsPdfCode": "1512f269-ed34-4834-811b-0572adbbfba3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Rotational Motion 04 : Torque",
+    "lectureCode": "b654a867-07e2-44dd-985c-b7ad37c68e23",
+    "extId": "6525a2c2b27a4f00185ec52d",
+    "key": "65269f03d31f6900123b5024",
+    "classNotesCode": "4fd17012-7db0-44d7-afc3-d910179d0456.pdf",
+    "dppsPdfCode": "3c44b901-3877-416a-a7cb-ae4a53646176.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Rotational Motion 03 : Practice Quest...",
+    "lectureCode": "c8855a7f-299c-49bc-a12d-48bcfccbd16a",
+    "extId": "652457a76776000018895282",
+    "key": "65254c6e36cdbe00122e400b",
+    "classNotesCode": "0d784a30-76ae-43f8-8ae2-70f5d55412c3.pdf",
+    "dppsPdfCode": "8ab852e6-2843-455a-a228-5d06266ddc47.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Rotational Motion 02 : Calculation of...",
+    "lectureCode": "922cefd9-c02c-41a6-9871-45eb98b57f7b",
+    "extId": "65237833199e780018af3479",
+    "key": "6523f7f209364d00124ff72e",
+    "classNotesCode": "c11192ad-a9b9-4374-8e8a-5c2be599c383.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Rotational Motion 01 : Moment of Iner...",
+    "lectureCode": "ee315651-1513-4ba9-82ed-6135761819d1",
+    "extId": "6520d543cbf1b7001874bd76",
+    "key": "652159de11c930001274882b",
+    "classNotesCode": "a4b5da13-1a7d-4349-9443-68766c50d2e7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Rotational Motion Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "21ea037f-0d63-46fd-bbec-f234451fe8f0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Rotational Motion Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "fbdef2ba-ce65-4b57-ae46-b230fa883178.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

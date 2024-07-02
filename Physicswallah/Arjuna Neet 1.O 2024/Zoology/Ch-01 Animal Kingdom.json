@@ -1,0 +1,122 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Animal Kingdom 11 : Vertebrates - Tet...",
+    "lectureCode": "035e1bc3-6e91-4992-b669-5b6c588cbdb0",
+    "extId": "64650e50da039400185c23e4",
+    "key": "64662118aa9c160018673c37",
+    "classNotesCode": "92acbcda-6c58-4556-8db8-b171aaca6dad.pdf",
+    "dppsPdfCode": "83a64149-671d-4a41-8169-790a833e246b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Animal Kingdom 10 : Chordates-Protoch...",
+    "lectureCode": "d1f82ac8-eede-4d37-8b9b-272dc8e6c216",
+    "extId": "645d210f64c79200183d3bd8",
+    "key": "645e37defd84060018e0cb57",
+    "classNotesCode": "4bf25a98-9c8b-4269-8bf6-dcf3fe535cf9.pdf",
+    "dppsPdfCode": "7fee2e4f-bb31-4746-9068-71421c24c0b5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Animal Kingdom 09 : Mollusca ||  Echi...",
+    "lectureCode": "e71da10a-a054-4ce7-b6c7-ede10ef8fc41",
+    "extId": "645c75e0db0c1d0018618d32",
+    "key": "645ce858fb188f00187aa29c",
+    "classNotesCode": "1c245e41-6fef-4f82-bc13-3e4c0ce79028.pdf",
+    "dppsPdfCode": "6b44113c-67a3-4cef-a977-db6885cfdf52.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Animal Kingdom 08 : Arthropoda || Mol...",
+    "lectureCode": "dc47eee9-43d3-4e73-8e7c-cd7629228ed1",
+    "extId": "645b235f453ecf0018a715ac",
+    "key": "645baa99dcee2f00188e716b",
+    "classNotesCode": "9e87c7f5-a612-495b-887e-90047cce1ecf.pdf",
+    "dppsPdfCode": "585f1228-437b-438e-a9f8-1c9a42930723.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Animal Kingdom 07 : Platyhelminthes |...",
+    "lectureCode": "0e86ad39-af48-456d-9a6b-c9231cd17111",
+    "extId": "6453fa3c33a82d0018a0502b",
+    "key": "6454fd8d5d8b0900182f85c3",
+    "classNotesCode": "41967d9a-774d-4e5a-a4e4-8f0c997d7a6f.pdf",
+    "dppsPdfCode": "b229cfed-466d-44de-997b-d603ce3dbb93.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Animal Kingdom 06 : Coelenterates || ...",
+    "lectureCode": "8a0e5691-28a7-4097-9bc6-ffc0ef5c2555",
+    "extId": "644aaec297e167001872df1b",
+    "key": "644bc33d8769eb001808617a",
+    "classNotesCode": "6cc25575-dcab-4c30-bbff-5be30dbe8ac4.pdf",
+    "dppsPdfCode": "e6f79765-9dbf-4d63-af4d-2c19a8d4c111.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Animal Kingdom 05 : Phylum Porifera |...",
+    "lectureCode": "67a1036d-8c35-434e-b6a2-131e19a5f288",
+    "extId": "6449866965dcf0001887919a",
+    "key": "644a702b1cf4720018cf5cae",
+    "classNotesCode": "92acbcda-6c58-4556-8db8-b171aaca6dad.pdf",
+    "dppsPdfCode": "97eed6fc-5915-4c81-9345-900f4ad6b2d6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Animal Kingdom 04 : Basis of Classifi...",
+    "lectureCode": "ebdc1f74-76e6-484f-8e27-d96ce97229e9",
+    "extId": "644185e621ca1e00187145bc",
+    "key": "644286dc953f120018218c92",
+    "classNotesCode": "4bf25a98-9c8b-4269-8bf6-dcf3fe535cf9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Animal Kingdom 03 : Basis of Classifi...",
+    "lectureCode": "129130be-1c15-4edd-b3e7-117c025826eb",
+    "extId": "64401e0593c73200184285ae",
+    "key": "644139ced384c70018b7c5f7",
+    "classNotesCode": "1c245e41-6fef-4f82-bc13-3e4c0ce79028.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Animal Kingdom 02 : Basis of Classifi...",
+    "lectureCode": "281b4707-8680-4938-8fa5-4386ad4c23b2",
+    "extId": "6436e751c4122b0018b192f5",
+    "key": "6437f9f934c890001811683d",
+    "classNotesCode": "9e87c7f5-a612-495b-887e-90047cce1ecf.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Animal Kingdom 01 : Introduction and ...",
+    "lectureCode": "e33aa56a-f636-4d8c-a9d7-cd29851e94dd",
+    "extId": "6435abcbe30e57001762c042",
+    "key": "6436a7b37ade200018b13417",
+    "classNotesCode": "41967d9a-774d-4e5a-a4e4-8f0c997d7a6f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Animal Kingdom 08 : Arthropoda || Mol...",
+    "lectureCode": "be8df081-ec08-4805-b4b6-7011d24eb9ee",
+    "extId": "645b235f453ecf0018a715ac",
+    "key": "645b976e48aedd00181cf037",
+    "classNotesCode": "6cc25575-dcab-4c30-bbff-5be30dbe8ac4.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

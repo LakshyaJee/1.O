@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Neural Control and Coordination 06 : ...",
+    "lectureCode": "1f942ead-c0ae-40e3-b5d4-3eb05adb9e13",
+    "extId": "651f8a2542c8f400187e134c",
+    "key": "651ff55736c3140012f828f5",
+    "classNotesCode": "3754a3de-5259-4245-8a3d-8f77224b0bb1.pdf",
+    "dppsPdfCode": "fcee7c3b-fd7e-4d87-815c-cfbde711a87b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Neural Control and Coordination 05 : ...",
+    "lectureCode": "576e2660-8413-4a96-89f0-1ef27968b992",
+    "extId": "651e4127977ca90018cafe45",
+    "key": "651eb08af72b000012fd933b",
+    "classNotesCode": "5f38a473-6693-44cd-a43e-940dc7575915.pdf",
+    "dppsPdfCode": "aefae875-7bd8-45d1-9b4a-e283250f4849.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Neural Control and Coordination 04 : ...",
+    "lectureCode": "99886653-5e1c-4605-b2e3-7b93dde1c9bf",
+    "extId": "651794e10fadbb001810261b",
+    "key": "651819bc3bb0f700121d437a",
+    "classNotesCode": "90bc6659-fcd5-42c3-8c82-06fdf051e082.pdf",
+    "dppsPdfCode": "893f270c-5429-4526-b1eb-dabccce7b65d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Neural Control and Coordination 03 : ...",
+    "lectureCode": "972fe3ea-ef28-4f4b-9d74-01ecfd687920",
+    "extId": "6515e5a0a1717200181d45fb",
+    "key": "6516c82b552cae00127f4d28",
+    "classNotesCode": "36ebb992-6faf-4693-a4ba-011216bbc1dc.pdf",
+    "dppsPdfCode": "721077da-d4ca-4eda-9f93-090dafd98715.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Neural Control and Coordination 02 : ...",
+    "lectureCode": "28b28937-ddc3-4303-84f7-b3c10686a18c",
+    "extId": "651514d8fd3f69001839e881",
+    "key": "651576f40cd97a0018a49573",
+    "classNotesCode": "4a54bed6-73e1-4865-a2bb-57e7d334334d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Neural Control and Coordination 01 : ...",
+    "lectureCode": "a03f6e87-de7a-4a71-afd4-b90fde20e0c7",
+    "extId": "650e70be2a425100182e0a54",
+    "key": "650ee205c21ea00018a632ab",
+    "classNotesCode": "9c5f2011-4435-4178-ae45-25210449a56c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

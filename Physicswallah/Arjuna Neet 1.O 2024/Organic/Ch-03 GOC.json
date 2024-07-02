@@ -1,0 +1,242 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "GOC 08 : Application of Mesomeric Effect",
+    "lectureCode": "c2196bec-cb74-4f61-99ee-5397a3f0dfdf",
+    "extId": "658274c3cce2730018f765be",
+    "key": "6583069582c8560018af56a6",
+    "classNotesCode": "b9ec4e6d-0592-451b-9752-98ba98fdd069.pdf",
+    "dppsPdfCode": "a7f7b1d1-18c9-4ccd-b0ce-4909637cb178.pdf",
+    "dppsSolutionCode": "3691d8bf-5c59-4dc1-bad3-9661aa360046"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "GOC 07 : Mesomeric Effect || (NO DPP)",
+    "lectureCode": "b41dc1c8-871d-4bd8-a068-881db2551700",
+    "extId": "6580bdcd9a42ac0018168853",
+    "key": "6581b666bea4b367edafab67",
+    "classNotesCode": "2bd7a0d6-e84e-4f1c-b01d-9b3d45363ad7.pdf",
+    "dppsPdfCode": "52dbd1f5-0de8-4269-a132-2a531dc5f069.pdf",
+    "dppsSolutionCode": "e8a3f5c1-d6ae-49b6-8f3d-ee2893abe803"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "GOC 06 : Stability of Resonating Stru...",
+    "lectureCode": "c1002d82-fe02-4ff9-a6dc-ee2a97b62092",
+    "extId": "657f498bd8351800180678ef",
+    "key": "6580604b77ed3cc9062c8987",
+    "classNotesCode": "da42f96a-0a36-4930-867e-8c993570e076.pdf",
+    "dppsPdfCode": "950a496b-e8e4-4f49-820f-bac74a568e4a.pdf",
+    "dppsSolutionCode": "cbc950c7-267b-4d59-a6f5-490aa05c043b"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "GOC 05 : Hyperconjugation (Part 03) |...",
+    "lectureCode": "e6e13227-ee99-4805-90d2-8da6b104e6f2",
+    "extId": "6578b6b1ba13f900184e999d",
+    "key": "6579d15f7cc2340019b268f2",
+    "classNotesCode": "ddd296d6-7cb4-43c3-8940-ccc7154ffb1f.pdf",
+    "dppsPdfCode": "42b2af5a-8307-4c4d-975a-2a3148c656e4.pdf",
+    "dppsSolutionCode": "3d677315-d9e3-460d-bb90-160c353ce109"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "GOC 04 : Hyperconjugation (Part 02) |...",
+    "lectureCode": "742ef5aa-f092-493e-b47d-aecb99aa1bad",
+    "extId": "6577dc5236029000180cf685",
+    "key": "65787c483b9c3e0018b16ddc",
+    "classNotesCode": "c21f3e3c-24f5-4966-a569-bdbbcef14bd9.pdf",
+    "dppsPdfCode": "9cbebf1c-0948-4068-8ac3-5d5f69417fb2.pdf",
+    "dppsSolutionCode": "7f04e538-42ca-4603-a670-bff302577b2b"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "GOC 03 : Application of Inductive Eff...",
+    "lectureCode": "21e6e46f-6c6a-48e1-bb56-c4d6f0a483bf",
+    "extId": "657637000fc1fc0019dcdbbb",
+    "key": "6577288bf7e8f80019e2de21",
+    "classNotesCode": "ca6bb725-11a3-40e9-8d88-c05f084a98bf.pdf",
+    "dppsPdfCode": "e5b6f084-6d2a-4cd7-8d62-ba529fca17ab.pdf",
+    "dppsSolutionCode": "2f0935fe-989d-42af-a130-b9831585dece"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "GOC 02 : Application of inductive eff...",
+    "lectureCode": "8be8df80-6e32-4afe-8ebc-b710da62c3e7",
+    "extId": "6571a14524b4790018c97390",
+    "key": "6571e627dabce900181888a4",
+    "classNotesCode": "436571f6-dc5d-4705-97de-2535a9b4c2bd.pdf",
+    "dppsPdfCode": "58bc572d-edf4-4113-ab43-b3c6d77652cb.pdf",
+    "dppsSolutionCode": "03a8c84b-f559-4dc8-9240-c670eebb23c1"
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "GOC 01 : Inductive Effect",
+    "lectureCode": "a5d6d2da-d380-49dd-bc42-6080b3d3a62d",
+    "extId": "656f6242e2ccc300186a49d5",
+    "key": "65709393c739df001833ec7b",
+    "classNotesCode": "07853ff1-5543-4365-84e3-2d16250e25c3.pdf",
+    "dppsPdfCode": "de2cb9f9-12da-42ac-afca-8e848f6531a6.pdf",
+    "dppsSolutionCode": "c68551da-2ecb-42c3-99a8-67981627ca68"
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "GOC 14 : Stability of Intermediate ||...",
+    "lectureCode": "b3959d8a-fcdf-4114-80d5-ffb749a2dbcf",
+    "extId": "6595d4cfc2bb5900189f2e8a",
+    "key": "6596d0a41c746977ddf7944e",
+    "classNotesCode": "9ea946c9-04ef-46fb-bad2-521566936f5d.pdf",
+    "dppsPdfCode": "386596de-7fe9-4aeb-b90f-213405df17e4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "GOC 13 : Application of Aromaticity",
+    "lectureCode": "ea653a93-3c92-4d05-9f8b-ae001f24b292",
+    "extId": "65939159c58dcf001882fa21",
+    "key": "65942cbf5e5c99079dbd91d9",
+    "classNotesCode": "dea92e51-f72f-4ef1-ab69-7d13812312b7.pdf",
+    "dppsPdfCode": "417c5882-1def-40d1-9d2b-9c57d899aaa1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "GOC 12 : Aromaticity || (Rescheduled ...",
+    "lectureCode": "de4b2652-4ac7-48ef-8c39-f515d58afb0b",
+    "extId": "658fa185aedef10018e54272",
+    "key": "65903b967812192433cb1cd4",
+    "classNotesCode": "db12b94f-152c-43b9-b0b1-0444f0a9d5e9.pdf",
+    "dppsPdfCode": "47424b9b-2443-4965-aa2c-7751ab78a7b9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "GOC 11 : Application of Mesomeric Eff...",
+    "lectureCode": "1634e6a0-88cb-45fe-938d-74d82a6fa959",
+    "extId": "658cfcea3ace25001871517c",
+    "key": "658d9163c0172a001715d65b",
+    "classNotesCode": "cd9fe3a7-f32f-411c-9b41-e9e59899a4a3.pdf",
+    "dppsPdfCode": "23a80909-ce1b-423e-a763-62dcae42a304.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "GOC 10 : Application of Mesomeric Eff...",
+    "lectureCode": "0b461d95-8488-42db-9907-ea7d968bb919",
+    "extId": "658a6364c9d89e0018ffacf1",
+    "key": "658aee5ef7ed1417947599c8",
+    "classNotesCode": "23b7a516-0a08-4498-85a3-073ae250c266.pdf",
+    "dppsPdfCode": "3dbbb3e2-2926-4fce-ba68-aa928610775e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "GOC 09 : Application of Mesomeric Eff...",
+    "lectureCode": "ccc20561-845e-4bf8-a5be-8d02b7d7c1f0",
+    "extId": "658898fea069be00199f834c",
+    "key": "65892825088c8e0018f0f25f",
+    "classNotesCode": "976bd77d-3630-471f-a606-0cecf99fe791.pdf",
+    "dppsPdfCode": "0a11c6b9-806a-4901-9579-437728fc8171.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "GOC 15 : Electrophile & Nucleophile |...",
+    "lectureCode": "f23884f3-ad71-48db-af17-40e17bc3c9ed",
+    "extId": "659cca643cae040018e09699",
+    "key": "659d662bb1528800187e737c",
+    "classNotesCode": "b9ec4e6d-0592-451b-9752-98ba98fdd069.pdf",
+    "dppsPdfCode": "d0fb450a-c801-4c65-a63b-46d8ee946ae7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "GOC 16 : PYQs Discussion || (NO DPP) ...",
+    "lectureCode": "9ac4c445-c829-4ec9-ba58-08ec85ff3bf6",
+    "extId": "659f713bdaa1f70018a66aef",
+    "key": "65a000ae73e221ec56a99127",
+    "classNotesCode": "2bd7a0d6-e84e-4f1c-b01d-9b3d45363ad7.pdf",
+    "dppsPdfCode": "bb3fe58d-1ca1-4783-a25c-3e10a7abe4d3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "GOC Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "da42f96a-0a36-4930-867e-8c993570e076.pdf",
+    "dppsPdfCode": "459b7750-1631-4841-bd46-f5a5b695b6e5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "GOC Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "ddd296d6-7cb4-43c3-8940-ccc7154ffb1f.pdf",
+    "dppsPdfCode": "1a9c28fa-cf27-4117-98e8-9d485569d519.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "GOC Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "c21f3e3c-24f5-4966-a569-bdbbcef14bd9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "GOC Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "ca6bb725-11a3-40e9-8d88-c05f084a98bf.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "GOC Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "436571f6-dc5d-4705-97de-2535a9b4c2bd.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "GOC Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "07853ff1-5543-4365-84e3-2d16250e25c3.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 23,
+    "lectureName": "GOC Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "78289fd0-97c0-47c2-9895-09f86161ec6e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 24,
+    "lectureName": "GOC Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "9ea946c9-04ef-46fb-bad2-521566936f5d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

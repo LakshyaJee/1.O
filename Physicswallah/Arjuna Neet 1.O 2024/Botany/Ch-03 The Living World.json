@@ -1,0 +1,92 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "The Living World 05 : Taxonomic Aids ...",
+    "lectureCode": "eb2c5e01-0ebf-4707-b84c-de8b37a68383",
+    "extId": "648956b836a49c00183501d5",
+    "key": "6489dbb164de050018c9130c",
+    "classNotesCode": "66e6f805-5f9f-4d06-a85c-95c0bf3345fd.pdf",
+    "dppsPdfCode": "233eb899-27da-4a0d-b6da-5e8433f3db39.pdf",
+    "dppsSolutionCode": "6a2aad91-893a-42da-a1cb-e07b4b42bfca"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "The Living World 04 : Taxonomic categ...",
+    "lectureCode": "d3466863-e99a-4c91-9f52-dab0ce2692d8",
+    "extId": "648800016b41d50018b2e134",
+    "key": "64941f5fdafcd80018397144",
+    "classNotesCode": "b009003d-1a5d-4694-a407-48b1ccfa134b.pdf",
+    "dppsPdfCode": "9fb6de39-3dbd-4539-be2b-d3f3d116af0a.pdf",
+    "dppsSolutionCode": "9a0c41c1-9c4e-422d-bf1d-f8b9ae1b04d2"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "The Living World 03 : Syatematics || ...",
+    "lectureCode": "a42e0497-8c06-4c1e-a06d-03c0259f87d3",
+    "extId": "6486b8059b3a120018a12b1a",
+    "key": "6487406232d0480018a6dfbd",
+    "classNotesCode": "35b1db1a-7686-49e4-947c-ed616da8f8fa.pdf",
+    "dppsPdfCode": "6ec05052-e5df-4987-b375-40615368aa7f.pdf",
+    "dppsSolutionCode": "2b5c3d24-e12f-47a5-a708-5ee7b5fd66cb"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "The Living World 02 : Metabolism || C...",
+    "lectureCode": "d07825c3-6acf-45e9-a95d-99e82d3bd804",
+    "extId": "648362402911010018e086fe",
+    "key": "6484752476266300187b01fa",
+    "classNotesCode": "f75439c8-1c4f-4676-be04-d563ae1d2ba1.pdf",
+    "dppsPdfCode": "5de73472-2e51-478d-b86b-c9be40c7b1ab.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "The Living World 01 :  Growth Reprodu...",
+    "lectureCode": "a3197f29-7514-4d2f-a049-dbf79d99c078",
+    "extId": "6481fbea4e5b3c0018cf9aeb",
+    "key": "648351af774ca60018e1f752",
+    "classNotesCode": "4b63c2d6-a90d-46e0-a8d0-c9ecc55c6e7d.pdf",
+    "dppsPdfCode": "0b61af4b-c829-4455-82ec-5b5ea3c504d1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "The Living World Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "66e6f805-5f9f-4d06-a85c-95c0bf3345fd.pdf",
+    "dppsPdfCode": "e99658d3-54d8-4abc-bdeb-06abf62ee2b1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "The Living World Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "b009003d-1a5d-4694-a407-48b1ccfa134b.pdf",
+    "dppsPdfCode": "2a8871c3-ee81-4194-bc81-0fef4fce3de4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "The Living World Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "35b1db1a-7686-49e4-947c-ed616da8f8fa.pdf",
+    "dppsPdfCode": "2f8f06b6-3822-4f36-914c-2a3dba7f0c16.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "The Living World Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "f75439c8-1c4f-4676-be04-d563ae1d2ba1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

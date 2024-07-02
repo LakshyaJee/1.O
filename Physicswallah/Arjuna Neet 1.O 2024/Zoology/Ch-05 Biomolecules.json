@@ -1,0 +1,112 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Biomolecules 11 : Types of movements ...",
+    "lectureCode": "219a19e5-8703-4bb3-b883-a89ccc9038eb",
+    "extId": "64f95376cde6d3001858120b",
+    "key": "64f9cc15eeb6a700189d0e13",
+    "classNotesCode": "70f2a743-07d1-4942-aa7a-c6153eb5cab5.pdf",
+    "dppsPdfCode": "d8913ece-8278-4f96-a4f7-207be0b952c1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Biomolecules 10 : Enzyme-2",
+    "lectureCode": "1215c2ed-d073-428f-b072-e94b393b6082",
+    "extId": "64f2b2bd4ebc5d001995018c",
+    "key": "64f3315ea0dc5e0018aba7de",
+    "classNotesCode": "f4ea64fa-2e27-4655-8b58-fd3fb029e8d5.pdf",
+    "dppsPdfCode": "ae98d983-9069-43a8-a3f1-105eb9584683.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Biomolecules 09 : Enzymes",
+    "lectureCode": "d2a66c86-b864-4c73-81d8-f40dab9769e7",
+    "extId": "64f16bc342dca9001897a5e4",
+    "key": "64f1dc36b1e9780018f37c2e",
+    "classNotesCode": "60b1814d-b261-43be-ae49-c4185d8d60fc.pdf",
+    "dppsPdfCode": "262675e7-62cc-4009-9313-0432fe13068c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Biomolecules 08 : Nucleic Acid (Part ...",
+    "lectureCode": "81b59d50-f0db-44a6-b9c4-3a279c8ca779",
+    "extId": "64ef8f5fae548a0018540ccd",
+    "key": "64f08d2b0389ea00184735c5",
+    "classNotesCode": "dac15c4c-1e19-4f38-b974-a06e0bb0f949.pdf",
+    "dppsPdfCode": "be4d56a1-bfaf-4bdb-8bbf-79569c4ab860.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Biomolecules 07 : Lipids || Nucleic acid",
+    "lectureCode": "a8f32e18-b023-4ace-87b1-dbd255b07c3a",
+    "extId": "64e985db5c5d93001895ca6e",
+    "key": "64e9f494eb56150018cadf1a",
+    "classNotesCode": "6999118b-2dfd-401f-8a6d-4268b989dfc6.pdf",
+    "dppsPdfCode": "e764d9ab-b5d5-4f18-9a5d-5ed6d8b6bdee.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Biomolecules 06 : Proteins || Lipids",
+    "lectureCode": "2b9ad634-ba70-43ef-be1f-0f5a6492daec",
+    "extId": "64e8300e4e9dd60018bb3dad",
+    "key": "64e8a452fe779b0018af0800",
+    "classNotesCode": "278a5429-c690-4a8b-b3db-83be2fdbb636.pdf",
+    "dppsPdfCode": "f4bb9f47-5e4e-4e6b-a613-b86930c9cac0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Biomolecules 05 : Amino acids || Prot...",
+    "lectureCode": "87f345c4-9d68-4c0d-b462-e59203bc7ef9",
+    "extId": "64e6f4e7d0ec720018338b83",
+    "key": "64e7534133e9be0018a29067",
+    "classNotesCode": "9804b137-55f9-4260-99ca-bf938af3a735.pdf",
+    "dppsPdfCode": "ac4899f8-0f5e-4460-af42-31629e0fd1fb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Biomolecules 04 : Carbohydrate-3 || (...",
+    "lectureCode": "231c53be-9807-4280-b733-8ebf477b2424",
+    "extId": "64e04d468ca78800180fc02a",
+    "key": "64e0bbbe7818f40018fb24b7",
+    "classNotesCode": "b64fed50-1a1a-416f-8348-5b2b6105f0eb.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Biomolecules 03 : Carbohydrates-2",
+    "lectureCode": "af816a12-2024-429a-873c-7665d65c95dd",
+    "extId": "64def8419d88eb0018c0e7de",
+    "key": "64df6aad390daa001867fb8c",
+    "classNotesCode": "6ad5b4fd-c7b7-431a-a02c-53064720cec3.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Biomolecules 02 : Carbohydrates-1",
+    "lectureCode": "ac678290-3f89-4309-abcb-b6f9464d5a50",
+    "extId": "64dda398bcb04800182604af",
+    "key": "64de1c5a6dce220018698f01",
+    "classNotesCode": "679dcca7-2395-4426-844a-29eed8c42c84.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Biomolecules 01 : Introduction || Ana...",
+    "lectureCode": "6bb9464a-66a8-4468-a810-5735f825eec7",
+    "extId": "64d710e3af5ab000186ddaf4",
+    "key": "64d7810b289bad0018600ef3",
+    "classNotesCode": "96ff7e52-3304-4637-abce-0f1001f0f2b6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]
