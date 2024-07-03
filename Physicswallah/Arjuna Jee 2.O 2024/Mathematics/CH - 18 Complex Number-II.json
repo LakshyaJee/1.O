@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Complex Number-II 05 : Different Equa...",
+    "lectureCode": "6c3fb436-c440-4e28-bce4-45c472251b83",
+    "extId": "65b12751065fba0018bd5b3f",
+    "key": "65b27038570b1700184c6cb7",
+    "classNotesCode": "d4ba8475-c7c4-4995-b9b3-267a779b15b2.pdf",
+    "dppsPdfCode": "a562027f-85af-4412-a717-36421e3a1ac6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Complex Number-II 04 : Equation of Lo...",
+    "lectureCode": "d948ed25-1909-42c1-b232-06cda5a3facc",
+    "extId": "65b09c48ad8ba300189faef6",
+    "key": "65b1208461483fdf18c4664c",
+    "classNotesCode": "4faca960-b10a-499c-b0cf-5ae28e9837ba.pdf",
+    "dppsPdfCode": "dc59482c-bfaf-4a42-9c19-1d9d58dfaa4e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Complex Number-II 03 : Locus based on...",
+    "lectureCode": "7c4a4efc-fb0d-47b6-ada1-e272132caebb",
+    "extId": "65af5507eed17c00183ac976",
+    "key": "65afd2c4f787be0018ff0cb5",
+    "classNotesCode": "992b87fb-2902-43e8-8b49-386bf815d1ea.pdf",
+    "dppsPdfCode": "557e9b7d-3e5a-4902-8b4e-ae2e4b51c5fd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Complex Number-II 02 : Locus based on...",
+    "lectureCode": "0f0777ad-fef2-4598-8184-e715a781d9f5",
+    "extId": "65ab53b27d684200180de650",
+    "key": "65ab985be9ba4c0018fa06dd",
+    "classNotesCode": "e3c5e613-0a15-4551-a024-b0f036e2b602.pdf",
+    "dppsPdfCode": "8fa21514-7c2e-457e-8197-7e2ca5d227b8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Complex Number-II 01 : Geometry of Co...",
+    "lectureCode": "5a185152-c694-43d1-a2a7-3e58185916c6",
+    "extId": "65a9ff557ad0b500185c01f4",
+    "key": "65aa984de6f9a5001824aad3",
+    "classNotesCode": "e5bfb662-5091-41cb-a4ba-6d6680302ad0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

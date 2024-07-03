@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Redox Reactions 04 : Redox Titrations...",
+    "lectureCode": "19721ab6-ea76-4d09-add7-185772bf1430",
+    "extId": "655b01041f0cd20018e402c1",
+    "key": "655b4c3820ffe800185fc671",
+    "classNotesCode": "27ffb786-207a-4da7-b041-033a4369c6a9.pdf",
+    "dppsPdfCode": "182bee5c-3feb-486e-ad3f-1c3ec6e687fd.pdf",
+    "dppsSolutionCode": "5a56d6bb-7828-4c8d-91d7-8239be5991d6"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Redox Reactions 03 : Redox Titrations...",
+    "lectureCode": "fd40c296-5b8c-4299-89cf-f8f9ed6e71cc",
+    "extId": "65558b439d2ea00018269576",
+    "key": "65572d935075170018c7a7dd",
+    "classNotesCode": "f8200a1a-e52f-4bff-8b06-774b90a4da3e.pdf",
+    "dppsPdfCode": "df5e1f9b-9bae-49e2-a214-07ac504e6b40.pdf",
+    "dppsSolutionCode": "25a946eb-9ec3-499d-a88d-4354c2f9031a"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Redox Reactions 02 : Balancing of Red...",
+    "lectureCode": "c990cb2f-bce9-414a-ab72-2ac2154931d2",
+    "extId": "65549981352739001835f775",
+    "key": "655486d0c4b0d200b8371bdd",
+    "classNotesCode": "f6cdcb6c-9059-4061-a008-9e5ce1ea81cb.pdf",
+    "dppsPdfCode": "8fd9ffcc-93de-4127-ac99-e8f7cc7794e9.pdf",
+    "dppsSolutionCode": "a3d0d646-8ea3-45dc-b91c-ef108d9d64b1"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Redox Reactions 01 : Oxidation & Redu...",
+    "lectureCode": "149952c2-8478-4202-b5ee-928177ef2fd5",
+    "extId": "655313ec5224f500189bee60",
+    "key": "654f733519c3d50018ecd5d7",
+    "classNotesCode": "f3d5bb34-0e73-4408-ab49-2961c1a1b322.pdf",
+    "dppsPdfCode": "df0bb708-beaf-4102-9f62-d6a072ec6567.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Redox Reactions Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "27ffb786-207a-4da7-b041-033a4369c6a9.pdf",
+    "dppsPdfCode": "a6c23f50-7c98-48db-af7f-32486b1264cb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Redox Reactions Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "f8200a1a-e52f-4bff-8b06-774b90a4da3e.pdf",
+    "dppsPdfCode": "5ad85e6d-540f-4980-95c4-b545f010e21b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Redox Reactions Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "f6cdcb6c-9059-4061-a008-9e5ce1ea81cb.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Basic Maths 18 : Integration Rules ||...",
+    "lectureCode": "2f116e06-62b0-42d8-8de5-861f06351c10",
+    "extId": "64c909c29643da001824f776",
+    "key": "64ca562ea67919001842e1fa",
+    "classNotesCode": "6dfc5c6c-bce8-4053-a555-4a4d8eaa256d.pdf",
+    "dppsPdfCode": "1f25c473-bb17-4990-b621-c8bea6a80bf3.pdf",
+    "dppsSolutionCode": "96743d09-de78-48af-bb20-e00b0bc35d1e"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Basic Maths 17 : Combination of Error...",
+    "lectureCode": "dfb2a2c7-5fd5-4a80-886a-305add19f20c",
+    "extId": "64c8a66cba421500185a8357",
+    "key": "64c921f2f874170018a81de2",
+    "classNotesCode": "db9b298f-9137-4d16-a897-a1eecadebf5a.pdf",
+    "dppsPdfCode": "8dfd8922-de20-48d8-9384-eeb0d2e1a144.pdf",
+    "dppsSolutionCode": "3086c5fc-3326-47f3-a42b-ee17b11348fd"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Basic matchs 16 : Error",
+    "lectureCode": "0d9ce915-57d4-4836-8073-d799b3cdef4e",
+    "extId": "64c74f891b1e93001864a8b5",
+    "key": "64c7ca8374d7550018922a46",
+    "classNotesCode": "a2664f34-bc8f-40bc-a37f-9f47901f8dce.pdf",
+    "dppsPdfCode": "095be894-37f0-4865-99e1-0ff08e4cf23d.pdf",
+    "dppsSolutionCode": "299bb426-9b04-49b3-a3e8-e9435d8f916d"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Basic Maths 15 : Application of Diffe...",
+    "lectureCode": "044b0307-3433-43c9-af55-c9da53bd2bae",
+    "extId": "64bfe341bd005d0018976e1c",
+    "key": "64c11b50238a750018675bb3",
+    "classNotesCode": "7634e80d-60bf-4c2e-b96d-4f93d2d06b26.pdf",
+    "dppsPdfCode": "6556d5a9-4c57-4c5b-adb5-24b71f55e13a.pdf",
+    "dppsSolutionCode": "2bc8322a-7dec-47ef-b70a-c0fcf98c8c36"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Basic Maths 14 : Application of Diffe...",
+    "lectureCode": "8a4106cb-4ced-4b61-a77f-1e7c6d364987",
+    "extId": "64bf616734479f001838d7a3",
+    "key": "64bfe80d24233c001836df5c",
+    "classNotesCode": "2f96e13f-2e7d-45cd-82f9-e2f29bcae468.pdf",
+    "dppsPdfCode": "faa3faff-85b0-46f9-b218-9dfb4925812b.pdf",
+    "dppsSolutionCode": "b2578398-020f-4a6e-9379-5b8a46216ebd"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Basic Maths 13 : Differentiation || H...",
+    "lectureCode": "0c18998a-c2e5-4307-9cd2-f5ce63639818",
+    "extId": "64bdd6083f9ab90018974e52",
+    "key": "64be8dc93eebe00018f0cf67",
+    "classNotesCode": "552415d8-98da-47ea-b902-c0ba9423da60.pdf",
+    "dppsPdfCode": "044bea69-b181-4a89-b081-6c9627a9317a.pdf",
+    "dppsSolutionCode": "54161806-833c-4b53-a8b0-9b8f3335766e"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Basic Maths 12 : Differentiation || D...",
+    "lectureCode": "27af0d1d-74f4-48cb-8e3e-dcd1fbc9999c",
+    "extId": "64b73ed91bb75b0018af44b2",
+    "key": "64b7dd83ba71090018b3dafd",
+    "classNotesCode": "b735a899-068f-49c0-89ee-2dc263d9557a.pdf",
+    "dppsPdfCode": "f495f4eb-c746-4467-bdbb-27cb40745a8e.pdf",
+    "dppsSolutionCode": "1451e306-9bef-42bd-945b-d122221da58b"
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Basic Maths 11 : Dot Product || Cross...",
+    "lectureCode": "087f2f97-684c-4215-acb8-9e2d0cc97d91",
+    "extId": "64b5f2215678e20018eb5c6c",
+    "key": "64b6ac73b13a1b0018250973",
+    "classNotesCode": "6dfc5c6c-bce8-4053-a555-4a4d8eaa256d.pdf",
+    "dppsPdfCode": "4533c074-20b3-43c3-b337-75831103d74e.pdf",
+    "dppsSolutionCode": "44d97217-7f24-4da7-9cc5-e736e48bdc52"
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Basic Maths 10 : Practice Questions |...",
+    "lectureCode": "05b08250-31a6-446d-8dff-9b3976ceedb8",
+    "extId": "64b4d16f4b59af001801c1bc",
+    "key": "64b55e664619f400182fdfe4",
+    "classNotesCode": "db9b298f-9137-4d16-a897-a1eecadebf5a.pdf",
+    "dppsPdfCode": "98f8d533-fe46-4e28-8b5c-bcab8f89e4c1.pdf",
+    "dppsSolutionCode": "dcf190a0-05f1-43a0-be05-6c269ff6f4f6"
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Basic Maths 09 : Practice Questions O...",
+    "lectureCode": "a143ecb2-3a19-4f5a-82a9-3e56731c68b9",
+    "extId": "64ad885667ced3001846bb74",
+    "key": "64aeacaa15ed7900180abef0",
+    "classNotesCode": "a2664f34-bc8f-40bc-a37f-9f47901f8dce.pdf",
+    "dppsPdfCode": "0f5c7146-7db7-472e-b7d9-e4ae2258febe.pdf",
+    "dppsSolutionCode": "51cb3be7-b23b-4a5d-8220-c801678e5743"
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Basic Maths 08 : Vector addition || N...",
+    "lectureCode": "cc8f5dc3-c6a8-47d1-8c6e-d4948b3d5bf7",
+    "extId": "64ad037c7065510018890a87",
+    "key": "64ae207f97c723001879c02f",
+    "classNotesCode": "7634e80d-60bf-4c2e-b96d-4f93d2d06b26.pdf",
+    "dppsPdfCode": "c3dbf617-a01b-4393-a890-297bffb75095.pdf",
+    "dppsSolutionCode": "5ea67109-03c2-4745-91f5-04eb9eba40a9"
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Basic Maths 07 : Vector Resolution, V...",
+    "lectureCode": "819c2fd6-ae25-4e12-b4c8-5aebaa76ab89",
+    "extId": "63fd90a12a02c100182d576f",
+    "key": "64ad10a80f46e4001831e85f",
+    "classNotesCode": "2f96e13f-2e7d-45cd-82f9-e2f29bcae468.pdf",
+    "dppsPdfCode": "2a0a3447-e1bd-46a8-bc9c-5b895c71daae.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Basic Maths 06 : Vectors, Types Of Ve...",
+    "lectureCode": "3e375c3c-e8f0-4327-b66e-dcd74693e70d",
+    "extId": "64a459e7b2bdc10018f8e6ec",
+    "key": "64a57adcb8c0bb00186d8a95",
+    "classNotesCode": "552415d8-98da-47ea-b902-c0ba9423da60.pdf",
+    "dppsPdfCode": "b5b71b58-2a9d-497e-8a4b-bb7871c2cf1c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Basic Maths 05 : Vectors || No DPP",
+    "lectureCode": "e7d4e61c-5033-4b75-850e-4a875d2cb616",
+    "extId": "64a303a9e82dc20018747aa4",
+    "key": "64a44d21292e2b0018225ecf",
+    "classNotesCode": "b735a899-068f-49c0-89ee-2dc263d9557a.pdf",
+    "dppsPdfCode": "49527d25-e36a-494f-97f9-79a24be4f3ab.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Basic Maths 04 : Binomial Approximati...",
+    "lectureCode": "8b470306-a8f9-426a-a5c8-216e997d4172",
+    "extId": "63fd90a12a02c100182d576e",
+    "key": "64a300570e5b670018d9b944",
+    "classNotesCode": "1f25c473-bb17-4990-b621-c8bea6a80bf3.pdf",
+    "dppsPdfCode": "15fa6e27-2bfb-40d6-98bb-852a063022cf.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Basic Maths 03 : Basic Trigonometry, ...",
+    "lectureCode": "937dac6f-f88c-4a7f-9d34-9d37993c7f7d",
+    "extId": "649ad57ba667b000181c35ee",
+    "key": "649c36b4df0b6a0018647148",
+    "classNotesCode": "8dfd8922-de20-48d8-9384-eeb0d2e1a144.pdf",
+    "dppsPdfCode": "9e8f2e3b-a485-4071-a916-c1e89b6367d4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Basic Maths 02 : Basic Trigonometry",
+    "lectureCode": "0add8acf-6763-4b33-89ce-c73cd6958d38",
+    "extId": "6499bb5a7aaaa2001881c7ed",
+    "key": "649bdb92ba42a10018dc8926",
+    "classNotesCode": "095be894-37f0-4865-99e1-0ff08e4cf23d.pdf",
+    "dppsPdfCode": "52823d1f-65f4-4a21-916f-1572b54777be.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Basic Maths 01 : Significant Figures,...",
+    "lectureCode": "6e9bff76-d6df-4919-bb10-f7efb48e40f0",
+    "extId": "64995c69dc860100198ceccb",
+    "key": "6499c97b8881930018f5cf0c",
+    "classNotesCode": "6556d5a9-4c57-4c5b-adb5-24b71f55e13a.pdf",
+    "dppsPdfCode": "eb70d16c-7410-4676-acf1-2368732b1ad2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Basic Maths 07 : Vector Resolution, V...",
+    "lectureCode": "85643409-8876-4585-ad3c-b08c52aaffe4",
+    "extId": "63fd90a12a02c100182d576f",
+    "key": "64ac3a73a0d5e300184cec5d",
+    "classNotesCode": "faa3faff-85b0-46f9-b218-9dfb4925812b.pdf",
+    "dppsPdfCode": "a04a0082-7578-46dc-a9af-a8b5cca7208c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "Basic Maths Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "044bea69-b181-4a89-b081-6c9627a9317a.pdf",
+    "dppsPdfCode": "21ab6e83-d076-41f1-85c9-b558309d0d92.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "Basic Maths Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "f495f4eb-c746-4467-bdbb-27cb40745a8e.pdf",
+    "dppsPdfCode": "e16fa9a3-2b6b-4cbc-9f3f-c4d9108ba02e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "Basic Maths Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "4533c074-20b3-43c3-b337-75831103d74e.pdf",
+    "dppsPdfCode": "11ffed24-e9d9-4b46-9b10-859f351443a7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 23,
+    "lectureName": "Basic Maths Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "98f8d533-fe46-4e28-8b5c-bcab8f89e4c1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 24,
+    "lectureName": "Basic Maths Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "0f5c7146-7db7-472e-b7d9-e4ae2258febe.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 25,
+    "lectureName": "Basic Maths Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "c3dbf617-a01b-4393-a890-297bffb75095.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 26,
+    "lectureName": "Basic Maths Solution To DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 27,
+    "lectureName": "Basic Maths Solution To DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 28,
+    "lectureName": "DPP- Basic Maths Arjuna JEE- PhyBasic Maths Solution...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 29,
+    "lectureName": "Basic Maths Solution To DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 30,
+    "lectureName": "Basic Maths Solution To DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

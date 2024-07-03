@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Waves 04 : Wave Interference || Stand...",
+    "lectureCode": "f9b82bf2-e4ce-471b-b779-16640cb484e8",
+    "extId": "65b482c85bc8010018736565",
+    "key": "65b4fd2083cf9f0018a3b060",
+    "classNotesCode": "05ea38d5-f08c-4659-905f-a3fc569c164d.pdf",
+    "dppsPdfCode": "fcbc4f4a-93b1-4b3e-af05-41de7f417109.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Waves 03 : Wave Velocity || Energy of...",
+    "lectureCode": "bd1daee8-42fa-441d-8292-c2697f37c4e4",
+    "extId": "65b1278efc319f0018a52d02",
+    "key": "65b28c46db596500187b18d6",
+    "classNotesCode": "79785c90-efcf-47d6-b0c3-88607e7be332.pdf",
+    "dppsPdfCode": "2ffd6994-ed4b-4cea-b256-f8bfe31c8f81.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Travelling Wave Equation || Wave Velo...",
+    "lectureCode": "a21495e0-4f54-440e-851e-cbd614adf831",
+    "extId": "65b09cc76975f70018210e68",
+    "key": "65b13938cee24a001864e50b",
+    "classNotesCode": "0efb747a-b354-4b63-bf87-be136e3d6f70.pdf",
+    "dppsPdfCode": "897d6b31-d27a-4701-ae19-aa462d881abb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Waves 01 : Addition of SHM || Damped ...",
+    "lectureCode": "da32b544-f584-42f0-bb4c-30e77e409936",
+    "extId": "65adf52a5be01c001896846d",
+    "key": "65ae9a40cebc1c00181085e7",
+    "classNotesCode": "17540b53-aa0a-4551-8c13-40d7ce6236b8.pdf",
+    "dppsPdfCode": "b6b68ada-9eaf-4e9c-90bb-96b9eceba4b5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Waves 06 : Standing Wave || Practice ...",
+    "lectureCode": "f23e3512-ce7e-4f81-b1ad-1fa96250a527",
+    "extId": "65b7cdd22829760018fd2793",
+    "key": "65b923d210f69a001859c627",
+    "classNotesCode": "b2318e73-8d0a-420e-ac8f-7e8ad998cd94.pdf",
+    "dppsPdfCode": "7a1a923d-8ffd-4ac5-99a2-5d7e7253e55a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Waves 05 : Standing Waves || Practice...",
+    "lectureCode": "2808f509-9e60-42d5-91b0-53da42be2ceb",
+    "extId": "65b74bdde5ac26001852773c",
+    "key": "65b7d3e4c7f2350018f82160",
+    "classNotesCode": "01dcf926-2481-4982-ab10-385626da4513.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Waves 07 : Beats || Doppler's Effect ...",
+    "lectureCode": "e8c3ed9d-21ca-4c57-be46-5367035f3d59",
+    "extId": "65b9cccd29c2850018470220",
+    "key": "65ba7831791832001823ef5e",
+    "classNotesCode": "456587f4-6e0d-4795-8811-a5ca601c73a4.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

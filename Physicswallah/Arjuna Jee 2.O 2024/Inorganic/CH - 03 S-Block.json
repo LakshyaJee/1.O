@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "S-Block 05 : Compounds of Na/Ca",
+    "lectureCode": "c55ee352-307b-441b-a901-f177636700f8",
+    "extId": "65a00d4aeb25d400183f0103",
+    "key": "65a134327a6fa61df61fa9e6",
+    "classNotesCode": "39e9ecd4-b97a-4bea-addf-19a0e90973d1.pdf",
+    "dppsPdfCode": "0164de69-02ad-4836-b074-0243d4eae588.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "S-Block 04 : Enthalpy of formation ||...",
+    "lectureCode": "808da41e-286d-4f9b-a0cc-99325e5d13b8",
+    "extId": "659ebc7e8c8c32001891500c",
+    "key": "65a0173eda9d240018dceaf6",
+    "classNotesCode": "bd842388-f4ab-490f-8fba-f36da60fd6f8.pdf",
+    "dppsPdfCode": "cf9277e4-75ff-420f-a86a-9182f569aaa3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "S-Block 03 : Metal in NH3 || Reaction...",
+    "lectureCode": "77aa4952-ce5e-49d7-9bb8-dafe52b2281a",
+    "extId": "659e172343b6c7001865d050",
+    "key": "659ec39c3aa2870019022066",
+    "classNotesCode": "c22c911b-d461-4871-9351-db115046b8c2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "S-Block 02 : Thermal Stability || Hyd...",
+    "lectureCode": "636907ad-4051-4637-9df6-225ac7c36c7e",
+    "extId": "659bff36f01ae4001861cf46",
+    "key": "659d42199e9f4d0018b6177c",
+    "classNotesCode": "5fd67237-71a2-4c33-9eb4-7d9c8153be7b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "S-Block 01 : Electronic Configuration...",
+    "lectureCode": "f002a556-7b16-404c-85da-aef72efa378d",
+    "extId": "659ba2fc2eb8260018c5469e",
+    "key": "659befa3661c38edb8b8fac6",
+    "classNotesCode": "00eda714-8bca-4303-8d9b-060d7630cf3f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

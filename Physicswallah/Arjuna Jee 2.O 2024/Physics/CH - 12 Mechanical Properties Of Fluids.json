@@ -1,0 +1,92 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Mechanical properties of Fluids 07 : ...",
+    "lectureCode": "9662fe96-9a8c-4cc2-b8c5-46066189b6c1",
+    "extId": "65811a9f42cdbf00188074a1",
+    "key": "6581c39ac6dfb4001802722b",
+    "classNotesCode": "d38252d5-d102-4dbf-8bbe-cb2c9ab96789.pdf",
+    "dppsPdfCode": "539bb7dd-7f97-4df1-94af-3cd577a48740.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Mechanical properties of Fluids 06 : ...",
+    "lectureCode": "a6ebb2f8-fe1f-4637-a0ec-27487341f5d5",
+    "extId": "657f5719bac87500175b5798",
+    "key": "65806fc3a94fac0018ac4c67",
+    "classNotesCode": "d678cc9e-b373-45ff-8285-90cfd7266396.pdf",
+    "dppsPdfCode": "a9c7b05e-576d-4505-8c67-3328710002e2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Mechanical properties of Fluids 05 : ...",
+    "lectureCode": "5060e0c1-7364-49a9-bb88-518aed552f99",
+    "extId": "657d2f70d5a0070018dd627f",
+    "key": "657dcab2189fd600183ced44",
+    "classNotesCode": "8d26fbe9-187f-4db5-af53-46a615fb9227.pdf",
+    "dppsPdfCode": "32d0e1db-cbc8-4ad1-bedf-474f9c418ead.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Mechanical properties of Fluids 04 : ...",
+    "lectureCode": "e148cead-2f21-4aea-a800-5087a23c8107",
+    "extId": "657b25e7cb69de0018058eb4",
+    "key": "657c129bf12a6b0019e8288a",
+    "classNotesCode": "7f248fdc-5668-4bc5-9e31-b2dd9cf79549.pdf",
+    "dppsPdfCode": "069fc325-585e-49dd-9c67-0eec5fa19700.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Mechanical properties of Fluids 03 : ...",
+    "lectureCode": "757193b8-9c5e-4240-9764-8e77fcd91eea",
+    "extId": "6579cc127ec23900188a05fc",
+    "key": "657ae185f4a45d0018c7d172",
+    "classNotesCode": "a6a0c127-098a-43b8-97b5-1b9d6cbddede.pdf",
+    "dppsPdfCode": "878f6625-bced-455c-b0b8-d5e846488c36.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Mechanical properties of Fluids 02 : ...",
+    "lectureCode": "3b5c2759-543e-40f6-9999-d559f4c97873",
+    "extId": "657936c882e68600186b09fa",
+    "key": "6579a65aac2d7c0018a60191",
+    "classNotesCode": "ce742020-364b-4f1f-af9a-8de264aa2fb6.pdf",
+    "dppsPdfCode": "fec8ef54-2a8c-4483-bf5c-95fc6c35ce89.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Mechanical properties of Fluids 01 : ...",
+    "lectureCode": "209023a5-bd5c-4d7e-a39f-ea92eaf1c121",
+    "extId": "6577f308ed601d001847165f",
+    "key": "657885f4ca55180018362c04",
+    "classNotesCode": "62e7a6da-6fa6-429f-8bf0-7121a2c9eb90.pdf",
+    "dppsPdfCode": "b7b64a16-1b4e-482f-b900-07aae81943c7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Mechanical properties of Fluids 09 : ...",
+    "lectureCode": "6df14563-8c3b-42b9-a9c4-19786949e3f4",
+    "extId": "6583cb11f63b09f967f28ca2",
+    "key": "6584327fb06cc300180f62a1",
+    "classNotesCode": "3c97da05-1991-4f58-92f5-d07c15da3cf2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Mechanical properties of Fluids 08 : ...",
+    "lectureCode": "ab468202-b41d-4cf7-89a5-3322a4edc3a2",
+    "extId": "65827142cce2730018f758dc",
+    "key": "6582e190e786d70018d2b4c0",
+    "classNotesCode": "dfd776f0-97cc-4333-af51-5fb411e91e82.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

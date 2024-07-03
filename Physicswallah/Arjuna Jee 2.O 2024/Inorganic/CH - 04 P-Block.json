@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "P-Block 08 :  Compounds of C || No DP...",
+    "lectureCode": "be697ade-a949-4f5c-a96f-b2f9efebaa6d",
+    "extId": "65adf4e4c6b3f6001831f440",
+    "key": "65ae659233f4a100190d3aa7",
+    "classNotesCode": "035b94f4-e978-4c0e-b498-7cb72180fb6d.pdf",
+    "dppsPdfCode": "f8cd3bd4-0992-441a-adb4-bf33fe510e02.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "P-Block 07 : Silicones & Silicates ||...",
+    "lectureCode": "fd5209a9-42cc-4666-b320-04ffc098114e",
+    "extId": "65a9ff230c2c04001801ad3c",
+    "key": "65aa6ffe179b4e001874aa4e",
+    "classNotesCode": "f40b6134-2b4d-46df-8429-a3499d6fa32a.pdf",
+    "dppsPdfCode": "68f7f6b7-b5b7-46c3-9ce1-3a3f4b66471d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "P-Block 06 : Borax, Sodium peroxo-bor...",
+    "lectureCode": "552a9094-66c0-43ab-9e67-d0b273406d5e",
+    "extId": "65a7fc4e1ab26f00184bd7cb",
+    "key": "65a951acb33d6f0018cc93d4",
+    "classNotesCode": "2b587dd0-685b-48dd-b544-c72e7edca5b9.pdf",
+    "dppsPdfCode": "64c75f5e-cbce-4214-8e5a-4626dc285d82.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "P-Block 05 : Compounds of Boric Acid ...",
+    "lectureCode": "27b7088b-4b96-46fd-935a-23f073bf7328",
+    "extId": "65a6a4472ae73a001806fffa",
+    "key": "65a803d798b40a9c92e88b7c",
+    "classNotesCode": "e3b10cd6-57cd-401f-aa36-7c75fcc82ee6.pdf",
+    "dppsPdfCode": "326f370c-2e39-4f04-962a-bf687b494b76.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "P-Block 04 : Compounds of Boron",
+    "lectureCode": "96e66465-adfa-4cb7-beee-13cf870599d7",
+    "extId": "65a6109a1f86fb0018b98146",
+    "key": "65a69348844c690018b45a85",
+    "classNotesCode": "4a404d18-b86b-4d84-80fb-ec7e0d52949f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "P-Block 03 : Hydrolysis Of Halides ||...",
+    "lectureCode": "45a18d41-0b8f-4a76-b261-623f512bb455",
+    "extId": "65a4c674c8b4a1001927e3b3",
+    "key": "65a527dfc63d963d2807d045",
+    "classNotesCode": "efcdc5d6-df28-41aa-87b9-a1a0777854a0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "P-Block 02 : Inert Pair Effect || Bon...",
+    "lectureCode": "b4da1cd2-08c5-4417-ac9a-71313fbd4caf",
+    "extId": "65a24f43ab99f60018d7a69c",
+    "key": "65a29ca340535d00188df32e",
+    "classNotesCode": "7b783568-a9f8-4a80-8716-16119f9acdb8.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "P-Block 01 : Electronic Configuration...",
+    "lectureCode": "a0a50f9c-6446-4c20-bf85-744c547ca6e3",
+    "extId": "65a230d9bb6c8800186a1de5",
+    "key": "65a28389c52269843da0d4d0",
+    "classNotesCode": "6810e418-cbcf-4f28-bf8c-908bba7e90a2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

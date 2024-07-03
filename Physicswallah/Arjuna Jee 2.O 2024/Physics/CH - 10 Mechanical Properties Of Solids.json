@@ -1,0 +1,22 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Mechanical Properties of Solids 02 : ...",
+    "lectureCode": "ef502cfc-0060-4bb3-992f-4e84c85b3e02",
+    "extId": "654eeed7a2f7a200184d64d0",
+    "key": "654d1f50721ba30018bf3e92",
+    "classNotesCode": "7bd36da1-a0aa-43eb-9625-9951a7b3f78e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Mechanical Properties of Solids 01 : ...",
+    "lectureCode": "b3e79abb-c1c4-4b59-8b82-a5cff515fbec",
+    "extId": "654dac13ed24d40018a186b2",
+    "key": "654d0bbebbe88b00186829b7",
+    "classNotesCode": "318d6aa7-36df-4cf0-bf2b-35fe5e933892.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

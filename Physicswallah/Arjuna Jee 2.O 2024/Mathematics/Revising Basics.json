@@ -1,0 +1,102 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Revision : Differentiation || No DPP ...",
+    "lectureCode": "6daafc42-1d3c-421a-8d8e-e6c3540f66b8",
+    "extId": "64ca378a5073a20018ac32af",
+    "key": "64c8fa2811b8f9001853ea5b",
+    "classNotesCode": "7066ea85-1866-451b-b9b1-3ab3ebde5078.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Graph",
+    "lectureCode": "6c7b8171-3656-4cec-8b5e-a73cb621ba89",
+    "extId": "6476bfc807b8a600185e02ac",
+    "key": "64776a76caa24a00185b5510",
+    "classNotesCode": "172be0a6-a7aa-49bf-b815-1310a73d740d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Kinematics 1D",
+    "lectureCode": "8504041e-247c-41a1-a385-94aa1a128689",
+    "extId": "647599f7eba396001868848e",
+    "key": "64761a2aa8887e0018ad1caa",
+    "classNotesCode": "172be0a6-a7aa-49bf-b815-1310a73d740d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Quadratic equation & Trigonometry",
+    "lectureCode": "2fce9df6-4f2b-46cc-a999-d5a21e3d6aaf",
+    "extId": "647a0ae8e540670018951064",
+    "key": "647a01f6df6bd70018b65b6f",
+    "classNotesCode": "9b44c087-32d4-459a-8c0f-dd37117adbbe.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Quadratic Equation",
+    "lectureCode": "4245b189-0a95-43db-82b5-f941d2f01b63",
+    "extId": "6478331cacfbf60018c81351",
+    "key": "6478a70bfb243d00181aaae7",
+    "classNotesCode": "7066ea85-1866-451b-b9b1-3ab3ebde5078.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Inequalities",
+    "lectureCode": "e220f864-3838-4fc7-819e-731552f3cf39",
+    "extId": "6476c0b680eb530019fcd8c3",
+    "key": "647744d3ce6c4700188e5c7f",
+    "classNotesCode": "172be0a6-a7aa-49bf-b815-1310a73d740d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Structure of Atom : Revising Basics |...",
+    "lectureCode": "14143cf5-14f7-48cd-b0b0-4aa62e681e5a",
+    "extId": "64bfbbb55c32f4001850fc4d",
+    "key": "64bf877100235c001854ce9c",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Electrochemical Series, Matters",
+    "lectureCode": "97f34a99-15d5-47ae-a67d-43d844b75d3d",
+    "extId": "6479818dcadf860018b241d8",
+    "key": "647a06f39d58930017e960f1",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Carbon And It's Compounds",
+    "lectureCode": "323b10f7-33a2-476d-8860-1b8771bd3e42",
+    "extId": "6478560156ae440018a1dbea",
+    "key": "6478c6055154c50018ee5da7",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Mole Introduction, Periodic Table Int...",
+    "lectureCode": "32f0b9f2-c140-40ec-9e37-6654d4a0a5cc",
+    "extId": "64759e7dbbf09c0018e7c58b",
+    "key": "6475fc755950b700189189df",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

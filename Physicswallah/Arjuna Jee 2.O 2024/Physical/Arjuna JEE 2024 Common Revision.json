@@ -1,0 +1,342 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Basic Maths 01 : Properties of Logari...",
+    "lectureCode": "f5f24060-2041-4117-a6f0-1cff855c5912",
+    "extId": "65e7f2fbc5e8b900189b7675",
+    "key": "65e88a8c77f7780012ca0608",
+    "classNotesCode": "a8abbff5-1345-4555-ae89-e8280c0c9fee.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Vector & Calculus 01 :  Revision",
+    "lectureCode": "fc3cf045-1ca6-480a-85cf-c7212e081752",
+    "extId": "65e60f6da282460018ad4f3c",
+    "key": "65e71b5b38677a0018d0afa2",
+    "classNotesCode": "19929f2c-f2e7-444a-b1d3-b1b5362d1745.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Unit & Dimension 01 : Unit & Dimension",
+    "lectureCode": "c97d3b74-8c82-42b7-983e-23640d799905",
+    "extId": "65e5791dabf132001816348d",
+    "key": "65e5c942ecfd3300185bab5d",
+    "classNotesCode": "6c298597-f379-4f08-85da-bf79ef8228fa.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Motion in Straight line 01 : Revision",
+    "lectureCode": "55ce85c1-6c8d-4d0b-8a93-7f263c575078",
+    "extId": "65e770924f8af10018789749",
+    "key": "65e87f79726c8500180800fc",
+    "classNotesCode": "3a987375-45c1-45f8-9545-8338ba8d7695.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Motion in a Plane 01 : Revision",
+    "lectureCode": "9a138ae0-e068-4d59-86ed-d74b000f6375",
+    "extId": "65e8c7e7a0d0770018d12050",
+    "key": "65e9bd806459ec0018938a38",
+    "classNotesCode": "7fae8f69-2946-4303-94c7-ee9a4e385d18.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Sets, Relations and functions 01 : Se...",
+    "lectureCode": "bc74695a-e9f6-4cd8-974d-192fa6a5ae28",
+    "extId": "65e934b70c67e8001890572f",
+    "key": "65e9dcd700652800121d612a",
+    "classNotesCode": "ffa1461a-63a0-4f7e-8d93-461e414933f2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Structure Of Atom 01 : Structure Of A...",
+    "lectureCode": "e8ec54af-3537-4ab0-a030-9b02f472678d",
+    "extId": "65ebc6b6ee0e3b0018b3137e",
+    "key": "65ec78f785a01e00124a2a8c",
+    "classNotesCode": "8b59a299-c67c-4eb9-a6d4-1489ef224a60.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Trigonometric Functions 01 : Trigonom...",
+    "lectureCode": "59e8ba34-7726-4d23-9800-09e3652ff14d",
+    "extId": "65ed2f4f5aab8e0018c6afdf",
+    "key": "65ed8348e709c60018c0ff4f",
+    "classNotesCode": "2f289a1b-11fd-4fde-9177-92e41a8755a3.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Newton law of Motion & Friction arjuna",
+    "lectureCode": "1e059aea-3adb-4425-85fa-204cb10c3b51",
+    "extId": "65ee05d46af31f00199e0f21",
+    "key": "65ef07b229488d0018202986",
+    "classNotesCode": "ea975be8-7c32-4c99-a1fd-8e9bd6304e34.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Circular motion, Work, Power & Energy...",
+    "lectureCode": "39f8a87d-6bd7-4403-bc53-d560bcba353b",
+    "extId": "65ef4c361074e2001899c785",
+    "key": "65f05c2bea2cc300181abebc",
+    "classNotesCode": "47760c6e-4141-42d5-87cc-95f6aa274463.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Trigonometric Equation : General & Pr...",
+    "lectureCode": "dea0ca0b-0ac5-438f-ba5f-b8c3224d4122",
+    "extId": "65f08f6532e2450018463c11",
+    "key": "65f1c29799eaa200184e3892",
+    "classNotesCode": "c04b238b-b928-4eb3-9406-b733ec42d7dc.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Motion of System of Particle and COM ...",
+    "lectureCode": "bbd315a9-5e11-498a-a2d1-df3010c276b4",
+    "extId": "65f09b0ea77f950018f32cfb",
+    "key": "65f1a58e2e31ca0018e3fb53",
+    "classNotesCode": "88d32117-a46e-44b4-9997-7b7b8a13d7c0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Rotational Motion 01 : Rotational Motion",
+    "lectureCode": "b43ebb68-7a99-473d-b3c2-2cbd787bbf19",
+    "extId": "65f1de95a5177400189d01e6",
+    "key": "65f2f7587f23a7001858349d",
+    "classNotesCode": "e7839bc4-1e1c-489a-9446-cadd756d3673.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Quadratic Equations 01 : Complete Qua...",
+    "lectureCode": "24914ea2-3027-42f7-b1a2-4adbde0a1e1e",
+    "extId": "65f32448b692450018bb7816",
+    "key": "65f44877043a6700185d5579",
+    "classNotesCode": "029b8dec-affc-453c-b63d-4a5258b9b48c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Complex Numbers (I & II) 01 : Complet...",
+    "lectureCode": "548263fd-5633-4a04-aecd-393505141898",
+    "extId": "65f1c91604a2710018ca675a",
+    "key": "65f321a6fc68e00018ccea1a",
+    "classNotesCode": "11a9044d-b59f-47fc-bbbd-6ef8c6d1f214.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Sequence and Series 01 : Sequence and...",
+    "lectureCode": "a60b9cff-8191-46c6-8bf2-c255b133247f",
+    "extId": "65f514ee34600d001857ecb5",
+    "key": "65f59ce15ec65700127186e4",
+    "classNotesCode": "38af871c-0313-4e20-a2fd-fff156b9073c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Gravitation 01 : Revision Himanshu Gu...",
+    "lectureCode": "4ba2bbf4-15b9-48c0-b8ea-196df7b74b31",
+    "extId": "65f73a310e0931001848d5d4",
+    "key": "65f8311a76f31c0018760d94",
+    "classNotesCode": "ebe7cf4b-08da-460f-96b3-1d1db89c4c59.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Mechanical Properties of Solids 01 : ...",
+    "lectureCode": "6f27043a-76a6-4ff3-9dc7-4ebb7b14843e",
+    "extId": "65f881a8a3a05500184c5b38",
+    "key": "65f98e159a8f420018129fe5",
+    "classNotesCode": "261cc869-d618-4936-b94d-ec888329926e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Mechanical Properties of Fluids 01 : ...",
+    "lectureCode": "d42ef4b6-d427-482e-aff3-9193a2876d15",
+    "extId": "65f9cb77866d3a0018a64464",
+    "key": "65fae3703f7a0b00181ca4ab",
+    "classNotesCode": "9d2f15e9-b3ff-4c0c-8c7e-3dcb3f41497f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "Permutations and Combinations 01 : Co...",
+    "lectureCode": "bf7924d3-2c21-4456-91d7-f1b71eab8711",
+    "extId": "65f9bbc2566e1300182e024f",
+    "key": "65fb0a49a0f8040012e2b0f5",
+    "classNotesCode": "f15ecca1-64b6-480a-9cbd-309634f54256.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "P-block Elements (Group 13 and 14) 01...",
+    "lectureCode": "dbcf13a4-7fbb-46ac-8ce1-24d072892e6c",
+    "extId": "65f86afd6910790018ad5d12",
+    "key": "65f9afe0c414530012b07913",
+    "classNotesCode": "9333d1a9-f00c-43b9-9b5e-4aaee8bdfa8b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "Thermal Properties of Matter 01 : The...",
+    "lectureCode": "366887ca-4b65-4c85-bb27-44a5b7d9dcb8",
+    "extId": "65fb3993a9d09100187dd37c",
+    "key": "65fc34812a4fbe0012d506eb",
+    "classNotesCode": "6de65ad2-b5b5-4c5b-9a08-b2bc0ae984d1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 23,
+    "lectureName": "S Block & Hydrogen 01 : S block",
+    "lectureCode": "f489728b-1e25-4c0e-8bff-3700a5ebd8f1",
+    "extId": "65fc6f8b3c053600187258d4",
+    "key": "65fd9f2f9ee6de001313fa8a",
+    "classNotesCode": "3e6cb48a-f684-45d7-aeb5-10fff039e2c3.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 24,
+    "lectureName": "mathematics straight line",
+    "lectureCode": "3e8dc814-018a-41f1-88f9-4cff5d30055f",
+    "extId": "65fedf70a1289b001921db5b",
+    "key": "65fe928852200c001822c0d8",
+    "classNotesCode": "e05b968a-5349-4076-b562-6933c7a4d47a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 25,
+    "lectureName": "Circles 01 : Circles",
+    "lectureCode": "91b85317-c2ae-458c-bc44-533b348f8cef",
+    "extId": "65fdaaf479302100189b65c3",
+    "key": "65fed66dc481bb0012a319ad",
+    "classNotesCode": "ad13eec1-7217-4101-9a77-6590d0cd3920.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 26,
+    "lectureName": "Kinetic Theory of Gases and Thermodyn...",
+    "lectureCode": "577aceac-cfcd-4318-aee1-4efd02cc7edb",
+    "extId": "6601d42105939b001861dd61",
+    "key": "6602cb05bbfaae0012353b37",
+    "classNotesCode": "061cc5a8-251c-42a1-acae-31f322919891.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 27,
+    "lectureName": "Simple Harmonic Motion 01 : Condition...",
+    "lectureCode": "e67109be-c0d8-4ded-9850-95bc15d12331",
+    "extId": "66030fd028a0f00018e5fac6",
+    "key": "66041cf922f41d0012e612cd",
+    "classNotesCode": "5dc9b284-d993-4010-88de-a93a25e1347b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 28,
+    "lectureName": "Conic Sections Parabola, Conic Sectio...",
+    "lectureCode": "e4080ff5-b0a3-4d5a-8af8-8e225dab4ec8",
+    "extId": "6603998b588d43001805672a",
+    "key": "66043dab65a1300012e90783",
+    "classNotesCode": "48b7537a-4542-44eb-bdcf-fd9ef8b5e803.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 29,
+    "lectureName": "hyperbola 28 march arjuna jee revision",
+    "lectureCode": "3787f6f2-b488-4d8a-8b69-3d37de982caa",
+    "extId": "660444b5588d43001806718c",
+    "key": "6605086c28d5f70018682c32",
+    "classNotesCode": "d85765ff-2c68-4861-8386-89e96e718af6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 30,
+    "lectureName": "Wave Motion 01 by abhilash sir",
+    "lectureCode": "2058dfbf-d79e-4c35-82c5-4530d45ca35f",
+    "extId": "660438d11bcf1b00182f69fd",
+    "key": "66057705c773bd0018e33d50",
+    "classNotesCode": "07531877-311e-49be-89a8-db0bef4acd93.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 31,
+    "lectureName": "Limits and Derivatives 01 : Revision",
+    "lectureCode": "0e25f243-be4a-41e4-8ef2-bcba42b49f33",
+    "extId": "6605adc14d9d1800194a84f6",
+    "key": "6606bcc89c789f0018cfa737",
+    "classNotesCode": "1a8b86f5-99ca-440c-9bb7-4a077a6f5580.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 32,
+    "lectureName": "Lecture No-01 Mathematics Binomial Th...",
+    "lectureCode": "094d6804-bfb1-42c4-b7c8-a29caf08c44e",
+    "extId": "6606bc97b2cf56001810581b",
+    "key": "66059c2f01580100186bf500",
+    "classNotesCode": "4eccc149-5b0d-40cc-aa7c-41250c6bb2e7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 33,
+    "lectureName": "Wave Motion 01 : Wave Motion",
+    "lectureCode": "b7f0b00a-f8fa-412d-a5f0-69a6167d99c3",
+    "extId": "660438d11bcf1b00182f69fd",
+    "key": "66056d2396d7fa00135c24cd",
+    "classNotesCode": "7537cb2e-a45e-46cd-9995-a9f512e78d8a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 34,
+    "lectureName": "Statistics 01 : Revision",
+    "lectureCode": "940ef5a0-a3b8-4376-a2a2-2eead10901c9",
+    "extId": "6606e6660e7c330018eeed1f",
+    "key": "66083a7dcb5fe500129be4e2",
+    "classNotesCode": "5f3c3678-433c-45a5-823e-f517d15f6458.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

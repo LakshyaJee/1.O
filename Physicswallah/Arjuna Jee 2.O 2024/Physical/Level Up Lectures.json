@@ -1,0 +1,112 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Level Up Lectures 05 : Atomic Structu...",
+    "lectureCode": "9a1dfd80-f372-4cd8-8258-396308a9170c",
+    "extId": "6533b035d0e82a00186882dd",
+    "key": "6533981cb27cce0018dd0c08",
+    "classNotesCode": "aef62221-3219-43b0-99f1-aed46f51a2fd.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Level Up Lectures 04 : Some Basic Con...",
+    "lectureCode": "8eaefd5e-156d-44bd-b844-9f4d4909e75c",
+    "extId": "652a6e5236757b0018f0edec",
+    "key": "652a4b00f054c400183c7dff",
+    "classNotesCode": "3a035cef-cdaa-4d9a-be79-b986216c07f0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Level Up Lectures 03 : Some Basic Con...",
+    "lectureCode": "b3bbaf8a-5bbc-4b84-9a47-584f24a221e6",
+    "extId": "6511113c0335d700192c11a7",
+    "key": "650e8634799bb60018279e7a",
+    "classNotesCode": "bcaa4a22-3557-4d69-88c6-becec9b6c52a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Level Up Lectures 02 : Some Basic Con...",
+    "lectureCode": "e83ef33f-a41b-416b-95e0-2650c827747a",
+    "extId": "64c64e810ba1c40018bc8820",
+    "key": "64c63d6745ad9c0018bffc21",
+    "classNotesCode": "6bdc0b5a-7df1-48cc-8c2d-013d23fe5250.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Level Up Lectures 01 : Some Basic Con...",
+    "lectureCode": "5d6c169a-b694-4daf-8651-6a73a71c7529",
+    "extId": "64aa87b8c47d70001805d5e2",
+    "key": "64aa826707446600c447c168",
+    "classNotesCode": "aef62221-3219-43b0-99f1-aed46f51a2fd.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Level Up Lectures 06 : Atomic Structu...",
+    "lectureCode": "1d59b2e3-bb42-4984-b684-7601d3e5a416",
+    "extId": "65ba20ff3a12180018cbbacf",
+    "key": "65b9fd23820c68001853f149",
+    "classNotesCode": "3a035cef-cdaa-4d9a-be79-b986216c07f0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Level Up Lectures 07 : Atomic Structu...",
+    "lectureCode": "232965a2-14eb-4cf9-bb13-8aa406f52316",
+    "extId": "65c24c74e583470018cc13c7",
+    "key": "65c1e6c3c5d6b70018413c91",
+    "classNotesCode": "bcaa4a22-3557-4d69-88c6-becec9b6c52a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "level up lecture no 9 amit mahajan si...",
+    "lectureCode": "f165eba9-ccd6-44cd-972e-dc036c5e994e",
+    "extId": "65c748f1c567440018aa3250",
+    "key": "65c72966caa0c20018e65656",
+    "classNotesCode": "6bdc0b5a-7df1-48cc-8c2d-013d23fe5250.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Level Up Lectures 08 : States Of Matt...",
+    "lectureCode": "87621219-8903-403f-804c-4e78b8041890",
+    "extId": "65c5fe9290acac0018e34329",
+    "key": "65c5da232da3530018cf5262",
+    "classNotesCode": "ecd1a6bd-0809-4803-9669-b93d4a36fbcf.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Level Up Lectures 10 : States Of Matt...",
+    "lectureCode": "586dd6af-ba3d-449a-8ffe-ee13034a7f88",
+    "extId": "65cf36a6fa857800188a240a",
+    "key": "65ce27de9b69e600180f09d2",
+    "classNotesCode": "3b7cc0b9-d70f-4f80-8f73-c6a4af9f5483.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "summary lecture thermodynamics & ther...",
+    "lectureCode": "7ae1a8c4-9d65-4d38-a836-5e917f141f2f",
+    "extId": "65e1a9496b673e0018389b90",
+    "key": "65e19ab21813270018dd0e9c",
+    "classNotesCode": "b58ac5ce-fdb8-4dd4-b8bf-6a25d8e5a19e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

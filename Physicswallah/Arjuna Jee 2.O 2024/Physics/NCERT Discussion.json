@@ -1,0 +1,512 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Thermal Properties of Matter 02 : NCE...",
+    "lectureCode": "31ec3475-ad30-4fea-8196-a9f2edd5ac03",
+    "extId": "6593d9dd1cb78900181d1417",
+    "key": "642f31526b5a2a0018f1b0de",
+    "classNotesCode": "f265acd7-1b09-44a9-861a-d45c1fddf916.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Thermal Properties of Matter 01 : NCE...",
+    "lectureCode": "5e8a103e-1ab1-4c38-bc3d-8646181acc06",
+    "extId": "6593d9b73f97d000182a36b5",
+    "key": "642f166e594ca4001755fcbe",
+    "classNotesCode": "9d85a92f-a9bc-43a2-aa63-001fae641ac9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Rotational Motion 03 : NCERT Discussi...",
+    "lectureCode": "c295a559-9d86-4a35-95ba-2dea9067af52",
+    "extId": "656df80e8ad1af0018c7fc0a",
+    "key": "642b0d8a7155970018c21a4d",
+    "classNotesCode": "d6436288-2fdb-452a-ad1e-47c2c49fdb60.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Rotational Motion 02 : NCERT Discussi...",
+    "lectureCode": "b74eff4e-df75-4222-83ad-eef185491656",
+    "extId": "656df7ecd8962f0018c16f19",
+    "key": "64288555a642f900183d7d8a",
+    "classNotesCode": "87c5cec2-101b-4dda-a284-7891e5feddb2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Rotational Motion 01 : NCERT Discussi...",
+    "lectureCode": "1b98f86f-6907-4e9d-abc1-ed42e64bcae3",
+    "extId": "656df7d2a9b8f600184f808b",
+    "key": "6524ffc674d821001826db1f",
+    "classNotesCode": "692f7f8d-d4e5-480c-87c9-accad486faab.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Work, Power & Energy 01 : NCERT Discu...",
+    "lectureCode": "5e635e99-5ec4-47cf-a635-1a31794109b6",
+    "extId": "653fcbc336d8f10018c6ea60",
+    "key": "64f2c5322448ab001881a124",
+    "classNotesCode": "b768033c-ac66-48b6-9cd4-1a603139b8e4.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Motion in a Straight Line 02 : NCERT ...",
+    "lectureCode": "c51c7f49-6fd9-4b34-8f6d-b1e6951df878",
+    "extId": "64e5c085825395001810ac12",
+    "key": "6419b978d6e3e7001801956b",
+    "classNotesCode": "ce02eeaa-9ede-4ccf-aa52-767668968ced.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Motion In a Straight Line 01 : NCERT ...",
+    "lectureCode": "d1c1d0ce-fc90-4135-8fcc-c568053afe31",
+    "extId": "64e5bf4e42cf7b0018512df6",
+    "key": "64793a15f3767b00186b609e",
+    "classNotesCode": "826cd3ac-f12a-46b9-b42e-7ed50a8a5e5c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Units & Dimension - 02 : NCERT Discus...",
+    "lectureCode": "69ccc9fd-df8b-48fb-8e26-f7c09b6ae053",
+    "extId": "64997497041a630018624d9f",
+    "key": "646c989f8624e1001854bd46",
+    "classNotesCode": "d50bfcee-6cf3-447a-a78a-f89158b5499c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Units & Dimension - 01 : NCERT Discus...",
+    "lectureCode": "69ae96bb-d7f1-4d21-8957-961c94638f71",
+    "extId": "6499693970487f00181f6298",
+    "key": "646c965cb9704800182f4aef",
+    "classNotesCode": "afaf01bc-b104-42b6-87de-7ddae5e04720.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Straight Lines 02 : NCERT Discussion ...",
+    "lectureCode": "e1009fff-bcd2-422d-ada8-ded661e2b492",
+    "extId": "657c6b97bd78aa0018176189",
+    "key": "6544ca6d141e6800187469b3",
+    "classNotesCode": "81e4728e-84d1-4eb0-87b1-a7e93b3fb660.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Straight Lines 01 : NCERT Discussion ...",
+    "lectureCode": "6ab4d81a-dbac-4614-8479-fd806178aac4",
+    "extId": "657c6b7c8fab530018862d9f",
+    "key": "642c3303a4f8c70018a1333d",
+    "classNotesCode": "7d535631-9662-461c-99fb-c6c567457d1b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Sequence & Series 02 : NCERT Discussi...",
+    "lectureCode": "8db145f1-5e96-4cd2-8cf5-c5dc67af4fed",
+    "extId": "6569846ac8baaf0018074744",
+    "key": "6458b6be84dcf000185c2d99",
+    "classNotesCode": "3ddbac77-438b-4cc4-9b0c-511e08560a2f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Sequence & Series 01 : NCERT Discussi...",
+    "lectureCode": "5c568212-a004-4061-96f1-2e54784bfeb8",
+    "extId": "6569842cd17ea400184382f4",
+    "key": "6458b5c37e9cd0001828c97c",
+    "classNotesCode": "ce5634fa-d0fd-4046-9f97-5e2aee9114ca.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Binomial Theorem 02 : NCERT Discussio...",
+    "lectureCode": "42dbc36a-8ff3-4fb4-8b5a-c57fcbcf929c",
+    "extId": "655b6dde99b1930018e871c3",
+    "key": "642c315bd596cc00186106b4",
+    "classNotesCode": "6fa8ba10-c076-4f1b-9022-cec254cbf8ec.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Binomial Theorem 01 : NCERT Discussio...",
+    "lectureCode": "92d7369a-6ade-4f09-8a27-9e546387ddb4",
+    "extId": "655b6d302bc0fc0018de5f0f",
+    "key": "642c30f18ca3a200186fcaba",
+    "classNotesCode": "8260c32c-6f84-4078-a369-0283213b2976.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Permutation and Combination 02 : NCER...",
+    "lectureCode": "8454fb31-1e76-42b7-ad4d-f346d968295f",
+    "extId": "6543997af1ef9000188bc5c4",
+    "key": "642c30bdb94eea0019a977d5",
+    "classNotesCode": "fe1d0b46-71e1-41b0-ba04-d4221aae8dbe.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Permutation and Combination 01 : NCER...",
+    "lectureCode": "a14c1ee2-72a8-4acc-89d9-03fed1ca3974",
+    "extId": "654385f1ed1a1300184daa7c",
+    "key": "642c307153c3450018846e16",
+    "classNotesCode": "2f7edf59-47c8-4d7b-8b9d-1334c093c8e0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Complex Number and Quadratic Equation...",
+    "lectureCode": "0f2ff1ed-f263-44ea-ae64-caabb68d558f",
+    "extId": "65294bbe7e5c6d001801a437",
+    "key": "642c2f64cbb0f0001864a9e3",
+    "classNotesCode": "8729b4e8-d398-45ea-a15b-55e02165ad96.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "Complex Number and Quadratic Equation...",
+    "lectureCode": "649fc912-9e1e-4723-9ef6-84c262ec08b5",
+    "extId": "65294b64bd4c9a0018331bf7",
+    "key": "642c2f1cd596cc0018610508",
+    "classNotesCode": "738b7c51-806a-4e79-b1f1-a92dbaf6a3c2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "Mathematical Induction 02 : NCERT Dis...",
+    "lectureCode": "357f4973-cf3b-4fe5-b6f6-f06d0503cf1c",
+    "extId": "65166b15186ab10018fff9b7",
+    "key": "64cce35db48b4a00185aeca0",
+    "classNotesCode": "b474b033-a7bd-4529-ad33-853753b268fd.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "Mathematical Induction 01 : NCERT Dis...",
+    "lectureCode": "1f6e739d-9f2f-4d35-864b-1e413dba240a",
+    "extId": "65166af9eedbbe0018d237ec",
+    "key": "6462236ea9298400183d6b6e",
+    "classNotesCode": "f3bf1da7-3453-4123-8c73-f1d81e799d8f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 23,
+    "lectureName": "Trigonometric Functions 02 : NCERT Di...",
+    "lectureCode": "549fe328-04fc-4ddf-bcb4-64f7b6b035c6",
+    "extId": "650583fea679fe001832c322",
+    "key": "64589d531610aa00184bb2f3",
+    "classNotesCode": "eca64295-dd0f-440b-a717-9c9fd059c702.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 24,
+    "lectureName": "Trigonometric Functions 01 : NCERT Di...",
+    "lectureCode": "40d451da-80af-401b-8fab-d2a6e1d40815",
+    "extId": "650583d4ad119f0018839126",
+    "key": "6458b229108f1300185e34d2",
+    "classNotesCode": "c41bd39b-4be1-4d55-b9d5-34fb13c4c262.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 25,
+    "lectureName": "Relation And Function 02 : NCERT Disc...",
+    "lectureCode": "e9fe38c9-f31b-464f-89b8-34700c6b7c82",
+    "extId": "64df72dee945200018a75ec8",
+    "key": "646ddedbc8dfe50018947cb9",
+    "classNotesCode": "7c1a89e7-baa5-4876-90db-42ad2fa0b70e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 26,
+    "lectureName": "Relation And Function 01 : NCERT Disc...",
+    "lectureCode": "284e9efb-29c0-4687-ab9f-23a74701fe33",
+    "extId": "64df71ca8d8f230018bf9078",
+    "key": "646ddacae738ee0018455317",
+    "classNotesCode": "91f9124c-ba87-4f53-8b8f-e4e6dfa0e38d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 27,
+    "lectureName": "Set Theory -02 : NCERT Discussion || ...",
+    "lectureCode": "e8001960-d3ec-4672-b99e-e378cfce63b6",
+    "extId": "64c29dd33c672000188ccb41",
+    "key": "642c2d3180e98d00181ebe99",
+    "classNotesCode": "a1c5c434-a0c5-496b-8b32-8b88f75fcfd2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 28,
+    "lectureName": "Set Theory -01 : NCERT Discussion || ...",
+    "lectureCode": "f017c252-5330-4d22-968a-d718b879fee3",
+    "extId": "64c29d973c672000188ccb22",
+    "key": "642c2cface4c590018808ba7",
+    "classNotesCode": "2bdbf13c-cf6a-4b67-81b7-6acdf7d09693.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 29,
+    "lectureName": "Gravitation 02 : NCERT Discussion || ...",
+    "lectureCode": "1030301f-877c-414f-9364-444efc6328d1",
+    "extId": "657826b2d5094900198b628c",
+    "key": "64ef951a8efe460018701272",
+    "classNotesCode": "4f95a6a8-52b3-4a08-a7ab-40451639722a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 30,
+    "lectureName": "Periodic Classification 02 : NCERT Di...",
+    "lectureCode": "185df7b0-8bc4-4a37-bae8-db4e258b2ed1",
+    "extId": "64d4f60176c4b00018353d2a",
+    "key": "64d5d47e18048200181887b5",
+    "classNotesCode": "ce5634fa-d0fd-4046-9f97-5e2aee9114ca.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 31,
+    "lectureName": "Periodic Classification 01 : NCERT Di...",
+    "lectureCode": "866be790-2f36-474d-aa6f-362291366346",
+    "extId": "64d4f57b01591d001845a584",
+    "key": "64d5d41814a5900018de1c2b",
+    "classNotesCode": "6fa8ba10-c076-4f1b-9022-cec254cbf8ec.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 32,
+    "lectureName": "Statistics 02 : NCERT Discussion || R...",
+    "lectureCode": "f7f6a9ec-19d4-4cae-99e2-76c810acb086",
+    "extId": "65bcba6af6428a0018866c15",
+    "key": "6572ec2e1939ad0018ead7a1",
+    "classNotesCode": "8260c32c-6f84-4078-a369-0283213b2976.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 33,
+    "lectureName": "Statistics 01 : NCERT Discussion || R...",
+    "lectureCode": "656c057d-b2cf-4db9-8c40-9873c4c68387",
+    "extId": "65bcba1ef6428a0018866b37",
+    "key": "6572eba9baac0b00184a0d6f",
+    "classNotesCode": "fe1d0b46-71e1-41b0-ba04-d4221aae8dbe.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 34,
+    "lectureName": "Thermodynamics 01 : NCERT Discussion ...",
+    "lectureCode": "5fc04021-2d59-4ac0-be2b-e2c84d93b21a",
+    "extId": "65a22819c29bcd0018d9bd54",
+    "key": "65831a1aef45fa0018313cf4",
+    "classNotesCode": "2f7edf59-47c8-4d7b-8b9d-1334c093c8e0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 35,
+    "lectureName": "Kinetic Theory 02 : NCERT Discussion ...",
+    "lectureCode": "f9986217-17d8-4f8d-a8d4-0b33e654bf07",
+    "extId": "65a224974d04050018fda521",
+    "key": "65831c7b7c20d2001851c0ea",
+    "classNotesCode": "8729b4e8-d398-45ea-a15b-55e02165ad96.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 36,
+    "lectureName": "Kinetic Theory 01 : NCERT Discussion ...",
+    "lectureCode": "10c7dcbd-48ec-4c90-8910-9fb721accc88",
+    "extId": "65a224737ea29f0018b82b66",
+    "key": "6583218aaa8227001872c928",
+    "classNotesCode": "738b7c51-806a-4e79-b1f1-a92dbaf6a3c2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 37,
+    "lectureName": "CONIC SECTION LAC-2 MATH BY VISHAL SIR",
+    "lectureCode": "41a14005-a4a7-48da-ad73-e8082bdb3a08",
+    "extId": "65aa3ee72a890f00184ae3bf",
+    "key": "642c3408e81fd20018242767",
+    "classNotesCode": "b474b033-a7bd-4529-ad33-853753b268fd.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 38,
+    "lectureName": "CONIC SECTIONS LEC-1 MATH BY VISHAL SIR",
+    "lectureCode": "4360d43c-a314-4634-934c-f20f5ca4503e",
+    "extId": "65aa3ec2f929c40018413a2a",
+    "key": "642c33868ca3a200186fcb7d",
+    "classNotesCode": "f3bf1da7-3453-4123-8c73-f1d81e799d8f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 39,
+    "lectureName": "Exercises Oscillations Ncert Punch Ta...",
+    "lectureCode": "a1b62477-f769-4532-b150-4a5d41256394",
+    "extId": "65ae528f42af010018cd43d5",
+    "key": "64386034672f390019ad3f85",
+    "classNotesCode": "eca64295-dd0f-440b-a717-9c9fd059c702.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 40,
+    "lectureName": "Simple Harmonic Motion One Shot (Tanu...",
+    "lectureCode": "f1bfc7d1-8399-42c2-b5f9-389629451aa4",
+    "extId": "65ae5254c0010d0018108cc8",
+    "key": "6439503f37b99d00183b10be",
+    "classNotesCode": "c41bd39b-4be1-4d55-b9d5-34fb13c4c262.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 41,
+    "lectureName": "Mechanical Properties of Fluids 02 : ...",
+    "lectureCode": "77532ba4-8690-445f-a1ab-97a6180acd96",
+    "extId": "65858da59fccc70018493503",
+    "key": "65605d5d6f04740018a831b0",
+    "classNotesCode": "7c1a89e7-baa5-4876-90db-42ad2fa0b70e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 42,
+    "lectureName": "Mechanical Properties of Fluids 01 : ...",
+    "lectureCode": "ad2c130a-cd3f-4ade-af47-ba4c2cbb785c",
+    "extId": "65858d4ef321890018b6623f",
+    "key": "656054e0cb18270018849b71",
+    "classNotesCode": "91f9124c-ba87-4f53-8b8f-e4e6dfa0e38d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 43,
+    "lectureName": "Limits and Derivatives 02 : NCERT Dis...",
+    "lectureCode": "fdcf8aab-29b6-490d-ade8-47b50a465484",
+    "extId": "65b8d56b7ac437001873f31c",
+    "key": "642c35f30aa8d900189fc56d",
+    "classNotesCode": "a1c5c434-a0c5-496b-8b32-8b88f75fcfd2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 44,
+    "lectureName": "Limits and Derivatives 01 : NCERT Dis...",
+    "lectureCode": "50011a75-e565-4bf2-8052-3c167ae6b183",
+    "extId": "65b8d543cc4fe00018560021",
+    "key": "65abbdd66b19d50018e76604",
+    "classNotesCode": "2bdbf13c-cf6a-4b67-81b7-6acdf7d09693.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 45,
+    "lectureName": "Introduction to Three Dimensional Geo...",
+    "lectureCode": "2c4fc839-09f3-40d7-b469-6dc675bc3a9d",
+    "extId": "65c06c388da54e00189a73fa",
+    "key": "642c34bc53c3450018846fa9",
+    "classNotesCode": "4f95a6a8-52b3-4a08-a7ab-40451639722a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 46,
+    "lectureName": "Linear Inequalities 02 : NCERT Discus...",
+    "lectureCode": "0ce406d2-92ef-4d1a-8a51-b5e15faf9e78",
+    "extId": "65c1be90c742dd0018f50108",
+    "key": "6458afa2a2e6e20018fb677b",
+    "classNotesCode": "2f1fc0d1-d955-4f12-be03-d8f511d816e3.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 47,
+    "lectureName": "Introduction to Three Dimensional Geo...",
+    "lectureCode": "d5a11ac3-0738-44ee-aa4f-d5e05a2d0e1f",
+    "extId": "65c06c570cd4af0018194765",
+    "key": "642c374d0579be0018c8ac70",
+    "classNotesCode": "189f410f-3efd-43f5-9257-0e160552532e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 48,
+    "lectureName": "Linear Inequalities 01 : NCERT Discus...",
+    "lectureCode": "9de7aaea-6865-4356-98c1-81c95726655c",
+    "extId": "65c1be4083149b001901aed2",
+    "key": "6458af5884dcf000185c05c2",
+    "classNotesCode": "2b165cec-00ce-489a-bad2-0e0926096da9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 49,
+    "lectureName": "Probability 02 : NCERT Discussion || ...",
+    "lectureCode": "9ea3c3a9-f5cf-4062-bdec-083fac05c21a",
+    "extId": "65bcc4f4762a1b00188c0d03",
+    "key": "642d1eca6c88630018f083b3",
+    "classNotesCode": "cd5f4de0-7c35-448d-a8e8-f347ad09ca75.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 50,
+    "lectureName": "Probability 01 : NCERT Discussion || ...",
+    "lectureCode": "e7836ebd-b122-4f00-97ca-409066d9aad7",
+    "extId": "65bcc4dcc10bfd0018552f8e",
+    "key": "65bc956dedf8180018425c82",
+    "classNotesCode": "8c2cd9c1-e143-4382-8528-349158d183d1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 51,
+    "lectureName": "Waves 01 : NCERT Discussion || Recorded",
+    "lectureCode": "66bddda0-131d-4f4d-b1f0-2c4245bab8c0",
+    "extId": "65bb817bfad56f0018dd2040",
+    "key": "65bb7df07a3b510018e56973",
+    "classNotesCode": "1f001233-93fb-4f1d-a1f9-7dec89501839.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

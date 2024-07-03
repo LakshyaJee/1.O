@@ -1,0 +1,152 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "IUPAC Nomenclature 09 : H.W. Discussi...",
+    "lectureCode": "2b3f61f4-be5e-4e85-9bec-cf8a72eb8e98",
+    "extId": "6565f8303d856e001818c2d7",
+    "key": "656764659f153c00189bdf5e",
+    "classNotesCode": "2a64fc76-9711-4836-b8cf-e9c744007b98.pdf",
+    "dppsPdfCode": "84aeeffe-86f5-4fdd-be13-8569046300f3.pdf",
+    "dppsSolutionCode": "c75fcaf9-b6b0-41c7-bec4-4e6d7216bd76"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "IUPAC Nomenclature 08 : H.W. Discussi...",
+    "lectureCode": "6e64811e-28aa-4341-bb59-eb371268008b",
+    "extId": "6564c01f57ed680018ed3897",
+    "key": "6565e0f79930960018588205",
+    "classNotesCode": "6d7366eb-65ed-4d90-9b5e-d4887eedc8a1.pdf",
+    "dppsPdfCode": "41634cea-0368-4320-b573-62162f0c8891.pdf",
+    "dppsSolutionCode": "da74f164-7697-4839-a395-c21e477d9f96"
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "IUPAC Nomenclature 07 : H.W. Discussi...",
+    "lectureCode": "d5ea8efa-e0fc-4a52-a62a-cb051129eb75",
+    "extId": "65641964cb187e0018e7fa2e",
+    "key": "656492b200f4200018574c38",
+    "classNotesCode": "d9cdea71-0317-4e9e-a841-49335daeab98.pdf",
+    "dppsPdfCode": "d663ea98-4e04-4348-9ef2-ce9105967e7c.pdf",
+    "dppsSolutionCode": "4a51455f-f36b-4deb-b86c-88a6d192dc02"
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "IUPAC Nomenclature 06 : H.W. Discussi...",
+    "lectureCode": "7afe40ac-942b-4c78-adbc-f1934f88c653",
+    "extId": "656174386f04740018b035dd",
+    "key": "6561fb6970cb7100181385c2",
+    "classNotesCode": "5b9d3019-5630-4c05-a508-24eac848a0d6.pdf",
+    "dppsPdfCode": "497d9393-09c8-4f16-bb21-c36281c6a53e.pdf",
+    "dppsSolutionCode": "717ec0cd-4876-4438-ad08-75cc46112e67"
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "IUPAC Nomenclature 05 : Naming of com...",
+    "lectureCode": "aa3ec630-04e4-4b25-9771-72eb70dac45d",
+    "extId": "656027086f04740018a6745e",
+    "key": "65609d00b63147001748e461",
+    "classNotesCode": "cc448cd8-aa78-48a0-8842-4e19fb6ce5ec.pdf",
+    "dppsPdfCode": "51e0e8b1-b60d-4c41-b823-83a55bf79f82.pdf",
+    "dppsSolutionCode": "acc4c128-ca9f-42b7-9092-89b694c0cff4"
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "IUPAC Nomenclature 04 : H.W Discussio...",
+    "lectureCode": "96fc9ce5-a843-4c93-aa86-eba8e28a1e9a",
+    "extId": "655ed0955fdbda001808a775",
+    "key": "655f7ba57fbb0f0018c7538a",
+    "classNotesCode": "bc61df86-a683-47fc-8692-c50aa417c952.pdf",
+    "dppsPdfCode": "269bb1df-c4ef-4cf1-b6db-936aae0546d7.pdf",
+    "dppsSolutionCode": "20f7f169-daf8-48b6-b71c-734b7233e52d"
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "IUPAC Nomenclature 03 : H.W Discussio...",
+    "lectureCode": "8c931324-f2e2-44f6-bfe2-b1f5a04b05a1",
+    "extId": "655d7ef62cf6790018d5b62c",
+    "key": "655e283691784f001836891c",
+    "classNotesCode": "4ea237d9-5c88-439a-8289-5b9832f945d9.pdf",
+    "dppsPdfCode": "4459cf02-7132-45a8-bcb8-582e80e3b0e9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "IUPAC Nomenclature 02 : H.W Discussio...",
+    "lectureCode": "4e7c20c4-8a69-4fcc-b16f-4f7dcdedadc2",
+    "extId": "655c30f633298c00182a2a90",
+    "key": "655ca96bf2dd190018cc8280",
+    "classNotesCode": "b1d6134e-bd7f-490c-9cd2-8599fb64668a.pdf",
+    "dppsPdfCode": "f7ff5aca-8a94-446d-ba9d-488299e4c788.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "UPAC Nomenclature 01 : History of org...",
+    "lectureCode": "a6c8ef4f-3bfc-4806-b492-574f83245e8d",
+    "extId": "655b0096a855dd0018429c39",
+    "key": "655b53342fd9b60018e25137",
+    "classNotesCode": "70658a10-61bd-4e11-b674-5b75a0a67792.pdf",
+    "dppsPdfCode": "d08d00a6-5376-4790-b714-00aa65e7632b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "IUPAC Nomenclature Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "2a64fc76-9711-4836-b8cf-e9c744007b98.pdf",
+    "dppsPdfCode": "e2c7dd4d-bc65-4e12-9472-660bc789686e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "IUPAC Nomenclature Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "6d7366eb-65ed-4d90-9b5e-d4887eedc8a1.pdf",
+    "dppsPdfCode": "cfa8d4f2-385d-44de-9c47-f8b85f72346e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "IUPAC Nomenclature Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "d9cdea71-0317-4e9e-a841-49335daeab98.pdf",
+    "dppsPdfCode": "e6cff0a4-80da-4e7b-888a-a3f00d9987cf.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "IUPAC Nomenclature Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "5b9d3019-5630-4c05-a508-24eac848a0d6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "IUPAC Nomenclature Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "cc448cd8-aa78-48a0-8842-4e19fb6ce5ec.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "IUPAC Nomenclature Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "bc61df86-a683-47fc-8692-c50aa417c952.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]
