@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Carbonyl Compounds 06 : PYQs Discussi...",
+    "lectureCode": "31b9d9eb-3d01-424f-b9de-699da7620795",
+    "extId": "62b98f50ddf5ec00183492fb",
+    "key": "62ea91496f18950019884ef5",
+    "classNotesCode": "fd8c00c2-9f02-4f52-ac93-1c5359f98381.pdf",
+    "dppsPdfCode": "103cd182-f76f-468e-801c-dc87af4d3b31.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Carbonyl Compounds 05 : Properties of...",
+    "lectureCode": "ab78d290-720f-4f2a-a791-8232a5b2c45d",
+    "extId": "62b98f50ddf5ec00183492b9",
+    "key": "62e954a2b31c820018434881",
+    "classNotesCode": "cc3895ba-4fef-428b-99b7-d8e92e77a06b.pdf",
+    "dppsPdfCode": "8c3ee96a-3765-48a8-bcd0-5c6bb34ba65a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Carbonyl Compounds 04 : Properties Of...",
+    "lectureCode": "8314d16c-c6e4-4e2f-8814-4b85064f43a8",
+    "extId": "62b98f4fddf5ec0018349277",
+    "key": "62e7f10fa36e9e0018dd092e",
+    "classNotesCode": "7f99142a-71cf-4c77-83e1-397644ca5963.pdf",
+    "dppsPdfCode": "e9a446f9-779c-48a4-9c97-cf2a877db67b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Carbonyl Compounds 03 : Properties of...",
+    "lectureCode": "cc2ddc04-4b29-4249-9bd3-34034a6aa3be",
+    "extId": "62b98f50ddf5ec001834933c",
+    "key": "62e2ac176325560018bf8cc2",
+    "classNotesCode": "0203742a-0ca3-44d0-bbe4-bd202e22cddc.pdf",
+    "dppsPdfCode": "76dc9413-4b9c-46da-9e5e-581fe43fe986.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Carbonyl Compounds 02 : MOP Of Carbon...",
+    "lectureCode": "a49c59af-1d80-4384-9b7e-09c269312b3a",
+    "extId": "62e13b90d3251c00119283c0",
+    "key": "62e156f53fc67c0011633a53",
+    "classNotesCode": "dbcb3ec9-fd0c-4462-a0e1-14bb3fb02a6b.pdf",
+    "dppsPdfCode": "6a7a4f09-36d9-427e-be1d-35d454d8186d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Carbonyl Compounds 01 : MOP Of Carbon...",
+    "lectureCode": "538fc102-82f1-44c7-95f8-e1ea058df87f",
+    "extId": "62df8dcb40844900183b9807",
+    "key": "62e008107e88ba00184df371",
+    "classNotesCode": "a4305c10-5ea5-44bc-9028-c5f4d4dde18d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

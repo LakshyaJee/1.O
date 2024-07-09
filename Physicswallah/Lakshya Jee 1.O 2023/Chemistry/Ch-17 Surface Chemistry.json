@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Surface Chemistry 03 : Colloidal Solu...",
+    "lectureCode": "1988e05d-c3af-47cb-89b9-3f89509881a8",
+    "extId": "63a582d980766b00181a6113",
+    "key": "63a58366ceec0200186604a6",
+    "classNotesCode": "1fc5ae42-2d8d-418d-ae26-6d33eaa9a3d9.pdf",
+    "dppsPdfCode": "5dc35172-4261-4027-864b-88b6a6a0fc7e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Surface Chemistry 02 : Colloidal Solu...",
+    "lectureCode": "46680bc8-7e0f-40f5-8b1e-1581a0082259",
+    "extId": "63a421066a70840018e9222f",
+    "key": "63a418ab271be60018602032",
+    "classNotesCode": "7bb51a5e-abdd-4fd6-8d41-aa0a64b8313e.pdf",
+    "dppsPdfCode": "7542e7f1-725f-448a-8e0f-aa17e3525cea.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Surface Chemistry 01 : Adsorption || ...",
+    "lectureCode": "877250d0-3315-4b6b-98a3-cf38362c55a6",
+    "extId": "62b98f50ddf5ec001834930f",
+    "key": "63a3219ab9ce9500191a0505",
+    "classNotesCode": "f7f1ff6a-ee5d-4ad1-8869-bfde2028583a.pdf",
+    "dppsPdfCode": "f36cb012-4e5b-46a6-9d2b-1c56607468a2.pdf",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Biomolecules 04 : Nucleic Acid",
+    "lectureCode": "45022d48-9f3c-4860-8e45-6893fb6034c0",
+    "extId": "63108ed645d631001175b196",
+    "key": "631068f2c63c090018027810",
+    "classNotesCode": "9f94a9e0-37a9-4027-883d-4f28684d2eb5.pdf",
+    "dppsPdfCode": "225e06fd-e8c0-4d77-8b3a-805a574b5dac.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Biomolecules 03 : Amino Acid",
+    "lectureCode": "50cab83c-50e3-4be6-ac03-05d5355db094",
+    "extId": "630de58c8b607a00186cbb10",
+    "key": "630dc943dd381900182f1085",
+    "classNotesCode": "a493ffc7-8830-4cd1-970f-0ca1dbb4b781.pdf",
+    "dppsPdfCode": "4244bafb-e28d-4e68-858d-d23c7583c396.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Biomolecules 02 : Carbohydrates Part 02",
+    "lectureCode": "359ce120-9a0f-4257-b04b-e326bc3e93b1",
+    "extId": "630a106cc10cae00184497e3",
+    "key": "6309c97d5b63f80018671acb",
+    "classNotesCode": "0dbc785f-bc65-4e95-8097-754e928f3dad.pdf",
+    "dppsPdfCode": "cb72509f-abaa-4d40-83ae-13147d6f5a26.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Biomolecules 01 : Carbohydrates",
+    "lectureCode": "e0fdf506-d5dd-4357-b666-df5565074b24",
+    "extId": "63074f009346b500112b0743",
+    "key": "63072e3a1d845e001850b1ef",
+    "classNotesCode": "5313d50d-f353-48b0-9a4c-c8fe3cd60174.pdf",
+    "dppsPdfCode": "63a31178-80a3-43d2-bbf4-b7260b3e6d9b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "225e06fd-e8c0-4d77-8b3a-805a574b5dac.pdf",
+    "dppsPdfCode": "8973e64d-f6ae-4249-abb0-b83c61c1b061.pdf",
+    "dppsSolutionCode": ""
+  }
+]

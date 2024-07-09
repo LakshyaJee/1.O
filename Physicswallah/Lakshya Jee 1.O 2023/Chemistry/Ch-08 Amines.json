@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Amines 03 : Diazonium Salt & PYQs Dis...",
+    "lectureCode": "7fbe65bc-a431-4159-bf99-41298f8b318b",
+    "extId": "62b98f50ddf5ec00183492fd",
+    "key": "62fe0d15ea22bf0012078c01",
+    "classNotesCode": "ad495ac7-c837-44bf-a8ff-735877113066.pdf",
+    "dppsPdfCode": "eb379050-eb84-409c-b962-39cfacd428da.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Amines 02 : Properties of Amines",
+    "lectureCode": "c0b173b1-20fc-4d70-9c43-ce6bf892ba02",
+    "extId": "62b98f50ddf5ec00183492bb",
+    "key": "62fbb81f75b37803487cbf26",
+    "classNotesCode": "e80dbea8-0522-4027-a6c0-ac27f4a34b7a.pdf",
+    "dppsPdfCode": "9d437927-7d86-4dac-9890-b6d9f68d54ea.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Amines 01 : MOP Of Amines",
+    "lectureCode": "42d26b5d-990a-447d-a6de-861991027d90",
+    "extId": "62b98f50ddf5ec00183492fc",
+    "key": "62f3cd828e7bfb00183069cb",
+    "classNotesCode": "afaeff5b-2c23-456b-9c02-b97cf572e99f.pdf",
+    "dppsPdfCode": "4c881c51-0c57-48fe-8379-065c1c34ee31.pdf",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Polymer 02 : Polymer Part 02",
+    "lectureCode": "724d0759-af8b-4ef0-81c3-9f272545282f",
+    "extId": "62b98f50ddf5ec00183492cf",
+    "key": "63b3ca0f6cd0cc00d2f2ec7b",
+    "classNotesCode": "9f3f86df-d059-46a7-a80b-66ffa6fddbe0.pdf",
+    "dppsPdfCode": "cdc6ff41-6a54-4549-88d5-02fadb560343.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Polymer 01 : Polymer Part 01",
+    "lectureCode": "60337f4d-64fe-4b96-b7a0-a0e3669c4fba",
+    "extId": "63adcd0fdca8250018dcbc6a",
+    "key": "63ae82730e86da0011f50f5c",
+    "classNotesCode": "bbeff0bd-3f8a-4dd2-9b44-92768e0fe4fb.pdf",
+    "dppsPdfCode": "4a291c44-fe8c-4e3f-a9f3-b4b2d6a3562b.pdf",
+    "dppsSolutionCode": ""
+  }
+]

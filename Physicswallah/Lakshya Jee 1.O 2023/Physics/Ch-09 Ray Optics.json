@@ -1,0 +1,192 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Ray Optics 19 : Optical Instruments",
+    "lectureCode": "b9b3a201-0745-4171-80cb-ad0fa9ed69c3",
+    "extId": "62b98e9e43013c001161de79",
+    "key": "6363bdc8461e7d0018b6ed01",
+    "classNotesCode": "7ff51237-c6b0-4e9f-bbbb-e27237d97462.pdf",
+    "dppsPdfCode": "f133a5d3-f856-49a8-bb8d-4ddec91e360b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Ray Optics 18 : Question On Thin Lens...",
+    "lectureCode": "a4c8e063-1586-40ac-bab2-9b92ec35d3ec",
+    "extId": "62b98e9e43013c001161defc",
+    "key": "635d25ba9391ff0011f3c525",
+    "classNotesCode": "1437c57f-8598-4357-928a-237b8d3bc69b.pdf",
+    "dppsPdfCode": "7584f9fe-1389-4d3c-829c-ce0a3d9fcffa.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Ray Optics 17 : Important Analysis Of...",
+    "lectureCode": "352c6378-df6e-47ec-b102-1867e4235b39",
+    "extId": "62b98e9e43013c001161deba",
+    "key": "635bd61d38010b0018b36125",
+    "classNotesCode": "987e4d3a-3ba0-4fc0-8630-c2411abf0955.pdf",
+    "dppsPdfCode": "3aa1dc18-26ca-47e0-9197-3eb237bbcf69.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Ray Optics 16 : Thin Lenses & Lens Ma...",
+    "lectureCode": "3d665523-e32a-4251-b9c0-426f38d37ee7",
+    "extId": "62b98e9e43013c001161de78",
+    "key": "635a8274cbdb9b00184fc7f3",
+    "classNotesCode": "2b05a269-c4c1-42da-955f-16e37416e4a5.pdf",
+    "dppsPdfCode": "982dbe64-4687-454b-9f40-ada440cc464e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Ray Optics 15 : Questions On Refracti...",
+    "lectureCode": "01c3b87e-2dc6-4b00-9e07-837ae8fbec95",
+    "extId": "62b98e9e43013c001161defb",
+    "key": "6353eb48f3a45b00182619ae",
+    "classNotesCode": "94bc02ed-9b08-4b5f-9777-a90bb92cb4ae.pdf",
+    "dppsPdfCode": "b2d5f6b0-e22c-404e-999e-8cd9c7458fa3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Ray Optics 14 : Refraction From Plane...",
+    "lectureCode": "844d183f-e327-4e4a-9b35-b09e29d7c74b",
+    "extId": "6352dbe9e7b0e80011a357aa",
+    "key": "6352d46bcc0f9d0011dda97f",
+    "classNotesCode": "8c4c1261-c2f4-486e-b0a8-977f91a1c452.pdf",
+    "dppsPdfCode": "9d5df173-17ab-472a-a0ad-d59d4a5aee9f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Ray Optics 13 : Refraction Through Sp...",
+    "lectureCode": "838c4581-86bd-4739-9a71-83673320f861",
+    "extId": "62b98e9e43013c001161de77",
+    "key": "635147fc45a47b0011133aba",
+    "classNotesCode": "a761b37d-c4f6-4478-818f-3a0882fa3726.pdf",
+    "dppsPdfCode": "d91b32f8-2697-434f-b797-ad70c0d1b714.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Ray Optics 12 : Deviation & Dispersio...",
+    "lectureCode": "8fd65af2-06d5-4e3c-bd46-bbd91a0eed5a",
+    "extId": "622099861e4afc0018ba42fe",
+    "key": "634d57a4948fa50011a34747",
+    "classNotesCode": "458011e8-b30b-4fe0-82b3-ea3d2bcc5143.pdf",
+    "dppsPdfCode": "b6b4d9ba-c69b-45a5-9c31-8e85ce9919af.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Ray Optics 11 : TIR questions & Prism...",
+    "lectureCode": "f23b2f9d-84fc-4248-89ac-428058d91522",
+    "extId": "62b98e9e43013c001161defa",
+    "key": "634ac90ded327b0012f2e34b",
+    "classNotesCode": "6dfa6c51-6a31-447c-b3cb-365c9815f157.pdf",
+    "dppsPdfCode": "b497a3b2-e873-41c3-8196-aea74e5567c0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Ray Optics 10 : Questions on TIR",
+    "lectureCode": "83b47a93-182c-4021-a84d-8e988e4e9467",
+    "extId": "62b98e9e43013c001161deb8",
+    "key": "634960cea06ec00018322ddb",
+    "classNotesCode": "fb7d4448-0653-4303-96ca-253dac3e0f1e.pdf",
+    "dppsPdfCode": "6e5c5fdf-1ebe-4627-9ca6-b57a27a40c73.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Ray Optics 09 : Refraction Through Sl...",
+    "lectureCode": "0653409c-7ee7-4c28-87d7-e2a6b095e1ab",
+    "extId": "62b98e9e43013c001161de76",
+    "key": "63480f664cd3a100189988c7",
+    "classNotesCode": "60dfa1c8-1428-4dab-8252-e44801e6baf2.pdf",
+    "dppsPdfCode": "ce492935-9e9f-43b5-b1d6-e99f230795e4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Ray Optics 08 : Solutions of Question...",
+    "lectureCode": "7bbced8d-618a-449e-a60d-5be983e8491e",
+    "extId": "63446fb2646fd60018cb0ed7",
+    "key": "63444365aa2ed70018d54558",
+    "classNotesCode": "0975ca3c-5d0a-4d62-b99a-d36675e6d3e7.pdf",
+    "dppsPdfCode": "86f1bd4e-9c75-4676-a373-c9f28dce304b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Ray Optics 07 : Refraction & It's Laws",
+    "lectureCode": "16fc7f83-dbbd-4a91-a687-e1148f13584f",
+    "extId": "622099861e4afc0018ba42fd",
+    "key": "634419747154cb0018818497",
+    "classNotesCode": "3bfd95e0-fc90-4617-9e94-b4ebfd93b390.pdf",
+    "dppsPdfCode": "4c63c1ae-e7d8-4eb1-bcfb-b79341e99f99.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Ray Optics 06 : Questions On Spherica...",
+    "lectureCode": "7e87dc69-a013-4921-8631-9c21228a2564",
+    "extId": "62b98e9e43013c001161deb7",
+    "key": "634041e4e860ae00126fdb65",
+    "classNotesCode": "1da62b3b-c4b9-4494-98c5-ebd2213b3f6b.pdf",
+    "dppsPdfCode": "bac70e86-e192-4780-85fd-0bd269fc6e17.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Ray Optics 05 : Mirror Formula, Magni...",
+    "lectureCode": "dde8dbd3-a4b1-4c82-8a9e-04565edadf97",
+    "extId": "633de4e0eeb9ec0011dc7a63",
+    "key": "633eeb27b54e600011d4c5c1",
+    "classNotesCode": "8cb4805e-b90c-47da-bdd6-1408d607b8d1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Ray Optics 04 : Number Of Images & Sp...",
+    "lectureCode": "54e5175b-8a6b-4227-83e4-bdd54d7d521f",
+    "extId": "622099861e4afc0018ba42fc",
+    "key": "633adec98a25b70012ccfbcd",
+    "classNotesCode": "17344479-41db-46c7-a67b-1bbf6e361f6b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Ray Optics 03 : Field Of View & Lengt...",
+    "lectureCode": "54a73c65-fc32-438a-8073-19e77e86d3a0",
+    "extId": "62b98e9e43013c001161def8",
+    "key": "63383c141f8eed001977af28",
+    "classNotesCode": "3c4ff637-a6c1-4f61-9a2b-a6856022d3d5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Ray Optics 02 :  Laws Of Reflection &...",
+    "lectureCode": "7cb209f1-b92e-4dac-a140-590ee645612a",
+    "extId": "62b98e9e43013c001161deb6",
+    "key": "6336eb1f3c0ddb0011c3ca67",
+    "classNotesCode": "0aa7bc75-c145-4776-a489-63e75837de27.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Ray Optics 01 : Type Of Objects & Ima...",
+    "lectureCode": "8d08614e-dd56-489a-9a46-34310a199969",
+    "extId": "62b98e9e43013c001161de74",
+    "key": "6335d9c13c34f50011ae4dad",
+    "classNotesCode": "f133a5d3-f856-49a8-bb8d-4ddec91e360b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

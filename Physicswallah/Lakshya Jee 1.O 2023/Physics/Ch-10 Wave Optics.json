@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Wave Optics 08 : Diffraction and Reso...",
+    "lectureCode": "ee7664f7-14d2-4a7f-b90c-242d1fe3ae25",
+    "extId": "62b98e9e43013c001161de7b",
+    "key": "63765ea426771b0018020b5b",
+    "classNotesCode": "404b52a7-3176-42da-8bb2-81a09ed6261d.pdf",
+    "dppsPdfCode": "7b2c79db-b9f0-4351-a51d-1bd49a42e9b2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Wave Optics 07 : Polarization and que...",
+    "lectureCode": "c3bd1067-640c-47f4-9574-606b2505ac83",
+    "extId": "622099861e4afc0018ba4302",
+    "key": "63723e4f0ee6ce0019c733ed",
+    "classNotesCode": "fb69b8c6-b76d-4ebc-ac22-2a2d0d8a38f5.pdf",
+    "dppsPdfCode": "e6473ec9-8366-4885-9e90-a14a2e02a3e1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Wave Optics 06 : PYQ on YDSE || NO DPP",
+    "lectureCode": "aaa0865f-a4a3-4239-8558-f7e4eed6e47b",
+    "extId": "62b98e9e43013c001161defe",
+    "key": "636f9adcce09980343fdcaf1",
+    "classNotesCode": "e52aade2-3248-407e-9816-116a0207780b.pdf",
+    "dppsPdfCode": "7f59d476-032f-462e-a309-ab95c756e277.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Wave Optics 05 : Questions on YDSE",
+    "lectureCode": "6091ca8d-c728-4ef9-bce1-f64ad68531a6",
+    "extId": "62b98e9e43013c001161debc",
+    "key": "636e48eb00e9e200d0b9991b",
+    "classNotesCode": "f545ceb5-8cf8-4da7-b2c8-ab5722a3489c.pdf",
+    "dppsPdfCode": "e3b80687-1e7c-48e6-886d-750b379d63f1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Wave Optics 04 : YDSE Theory",
+    "lectureCode": "424cb326-e16a-4df6-b0d2-1084be1731cd",
+    "extId": "62b98e9e43013c001161de7a",
+    "key": "636cf8e08310b701a3b7127c",
+    "classNotesCode": "b5a97967-79dc-439d-a0e5-dd679385ba83.pdf",
+    "dppsPdfCode": "499458cb-fb75-4817-a611-920d6ebd135e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Wave Optics 03 : Interference & YDSE",
+    "lectureCode": "085ff0f3-aaf6-41d2-b233-b54ca419fd5f",
+    "extId": "622099861e4afc0018ba4301",
+    "key": "63690425defb8c0018b11bea",
+    "classNotesCode": "4288c5be-8406-44ad-9382-b374561cf64c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Wave Optics 02 : Huygens Principle",
+    "lectureCode": "a3383391-34a5-491e-9222-0936aa250486",
+    "extId": "62b98e9e43013c001161defd",
+    "key": "63665ef5754ae200114fea61",
+    "classNotesCode": "d91b127f-638f-41c4-a996-0ddf87988966.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Wave Optics 01 : Basics Of Wave Optic...",
+    "lectureCode": "9c30b712-18c2-4fc0-889d-5ff15da31785",
+    "extId": "62b98e9e43013c001161debb",
+    "key": "63651021f5748c00189d793a",
+    "classNotesCode": "bfaacf7d-7d3a-4492-a5b1-9603bf0b9b8d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

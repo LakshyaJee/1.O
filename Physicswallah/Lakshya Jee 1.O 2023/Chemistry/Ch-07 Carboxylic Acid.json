@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Carboxylic Acid 03 : PYQs Discussion ...",
+    "lectureCode": "0d46b5fc-d00b-4132-a32f-4e8a7bbf1ed4",
+    "extId": "62b98f50ddf5ec00183492ba",
+    "key": "62f283e822f6ed00188bcb3b",
+    "classNotesCode": "09d73724-3e7c-4be6-a279-c01e27f1f821.pdf",
+    "dppsPdfCode": "91bd4348-0a51-4c03-870c-423505aa8261.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Carboxylic Acid 02 : Properties of Ca...",
+    "lectureCode": "515e8bd2-0249-4652-b57b-fadf8dbfe2bb",
+    "extId": "62b98f4fddf5ec0018349278",
+    "key": "62f12d56b98a93001805d241",
+    "classNotesCode": "8fe25f34-cdb7-4e43-9be6-ae23f9553f26.pdf",
+    "dppsPdfCode": "5d5b0f8d-bf60-432d-aded-2adf2aa2baf9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Carboxylic Acid 01 : MOP Of Carboxyli...",
+    "lectureCode": "4c98f3f5-5d0e-4722-ab5b-c7d92da0c259",
+    "extId": "62b98f50ddf5ec001834933d",
+    "key": "62ebe2235c4eec0018fe8509",
+    "classNotesCode": "e3ef9c32-4e8d-4045-910a-fe9ddc5e8efc.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

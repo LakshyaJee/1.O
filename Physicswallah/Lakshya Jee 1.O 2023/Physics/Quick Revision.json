@@ -1,0 +1,112 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Semiconductors : Quick Revision || (N...",
+    "lectureCode": "5e5824ba-9989-4e25-a485-a6163cb9add0",
+    "extId": "63a6ba706b6a310018fefa98",
+    "key": "63a6baadfe4672009359dab9",
+    "classNotesCode": "36551980-96f3-4f25-91e8-8d974c135efa.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Wave Optics : Quick Revision || (NO DPP)",
+    "lectureCode": "c166a53d-ad8c-4ea5-9541-827798d3dbfb",
+    "extId": "6399a1ad2a9edd001898734b",
+    "key": "639992058a43c600acbe2b01",
+    "classNotesCode": "bab472c0-5bc5-409e-b589-abf055d7ca03.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Electromagnetic Waves : Quick Revisio...",
+    "lectureCode": "ec530fce-8e8a-40b2-9f9b-2a4cea458652",
+    "extId": "63984e3346851700d0246408",
+    "key": "63983a899787200018192d6c",
+    "classNotesCode": "d172cd27-eb24-4370-9f1b-2c172872107c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Alternating Current : Quick Revision ...",
+    "lectureCode": "16673c57-32e3-4f13-8b91-168363938aee",
+    "extId": "63453c6f9ef7e80011846022",
+    "key": "634533c1e666bd0018242c65",
+    "classNotesCode": "ca1d5ada-1b20-4cd4-885d-fa08bc8d6fb6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Electro Magnetic Induction : Quick Re...",
+    "lectureCode": "bd50fba8-246b-4bcc-bbee-d991b2be11b3",
+    "extId": "633ba1b38fe934001828bb29",
+    "key": "633aaa6f9e05a4001891e71a",
+    "classNotesCode": "acb48844-7750-4790-aa9d-57a66f4f85d4.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Magnetism & Matter : Quick Revision |...",
+    "lectureCode": "bd57a409-af53-4ad6-b6c4-10a4c3721769",
+    "extId": "63287ac99772120011182d98",
+    "key": "632877c94176690012cdb6fa",
+    "classNotesCode": "e8612741-b177-47d3-bdfd-485670881079.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Magnetic Effect of Current : Quick Re...",
+    "lectureCode": "dd883f20-8ef4-4232-a282-6ab4373725d4",
+    "extId": "6324786f19cbd50011413a02",
+    "key": "632440ab786e060018a863ee",
+    "classNotesCode": "a14c950c-d73f-4e34-bece-21e3d40331e4.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Current & Electricity : Quick Revisio...",
+    "lectureCode": "7b1af572-3a77-4ba3-8e8b-6c3f236c351f",
+    "extId": "62d7b66db918f00011b6c809",
+    "key": "62d7b573d85121001143e89f",
+    "classNotesCode": "aed6f7e8-3f67-432b-be61-baf62b4d2e99.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Electrostatic Potential & Capacitance...",
+    "lectureCode": "429ef9bd-d7cb-4e14-b360-6c4b4e6d1920",
+    "extId": "62a8dd208ec95c0018d68ddd",
+    "key": "62a85b9b198bf500126d9f34",
+    "classNotesCode": "c95c872a-46a0-4a45-b6d4-83b7e291df55.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Electric Charges & Field : Quick Revi...",
+    "lectureCode": "624fb862-4282-436c-9e29-b5aa9bcd5252",
+    "extId": "629dffd37e6f3200186c89ff",
+    "key": "629dc310aae2f4001862406a",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Inverse Trigonometric Functions : Qui...",
+    "lectureCode": "4078651e-c04c-4e05-abef-c3bb1fd3c1f7",
+    "extId": "62a7845957ca200011ce17a3",
+    "key": "62a718a6ee8b6400185141b1",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "RTQ 12 : Statistics || Mathematical R...",
+    "lectureCode": "8248c635-a66e-4edf-bbf7-efa5b8c6d86b",
+    "extId": "642e5c5e402ec40019e2db10",
+    "key": "642d91b2c1a7ae001814af11",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "RTQ 06 : Conic Sections || PYQ's || C...",
+    "lectureCode": "1ff1ba59-5c39-412e-9476-c59c370a7707",
+    "extId": "642cfabf318c04001875b85d",
+    "key": "642cee1891b2ab0018df36b7",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "RTQ 11 : Vectors || 3D Geometry || Mo...",
+    "lectureCode": "568fdf8e-41df-4bde-b35d-0489699261b3",
+    "extId": "642c3db9755aba001863ffc8",
+    "key": "642c1bdfa81cb60019448899",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "RTQ 10 : Definite Integration || Area...",
+    "lectureCode": "cbf47fa6-524e-48c8-aa5f-a471a5da04bb",
+    "extId": "642ab1256f7382001843c2d0",
+    "key": "64297618bd4b34001847bd2c",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "RTQ 09 : A.O.D || Indefinite Integrat...",
+    "lectureCode": "6426e332f8b0410018a3afd4",
+    "extId": "6426f21deda0c50018d69350",
+    "key": "6426e332f8b0410018a3afd4",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "RTQ 08 : L.C.D || M.O.D || Most Impor...",
+    "lectureCode": "642577cc5bdf2d0018605d7e",
+    "extId": "6425909c7d06930018a43170",
+    "key": "642577cc5bdf2d0018605d7e",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "RTQ - 7 : Set || Relation || Function...",
+    "lectureCode": "642442f1e05b060018d1bdda",
+    "extId": "642517776a05aa0018482cba",
+    "key": "642442f1e05b060018d1bdda",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "RTQ-05 : Straight Lines || Circles ||...",
+    "lectureCode": "64204caed6fc2c0018bd7342",
+    "extId": "642005383d35bf00183eb990",
+    "key": "64204caed6fc2c0018bd7342",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "RTQ 04 : Matrices || Determinant || N...",
+    "lectureCode": "641c44cf9ce1d100189c7718",
+    "extId": "641c5261c6b84500199ee416",
+    "key": "641c44cf9ce1d100189c7718",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "RTQ-03 : COMPLEX NUMBER || PROBABILIT...",
+    "lectureCode": "64189bb7556045001800938f",
+    "extId": "64191cff7839de0018a44fb1",
+    "key": "64189bb7556045001800938f",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "RTQ-02 : Permutation & Combination ||...",
+    "lectureCode": "6418111895689700180ef149",
+    "extId": "64181e2095689700180f2743",
+    "key": "6418111895689700180ef149",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "RTQ-01: Quadratic Equation & Sequence...",
+    "lectureCode": "64147cd8651c1f0514e80d64",
+    "extId": "6415bbd49a3dd20018f31687",
+    "key": "64147cd8651c1f0514e80d64",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

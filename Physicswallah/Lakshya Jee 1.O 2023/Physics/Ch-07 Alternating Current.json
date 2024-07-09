@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Alternating Current 08 : Damped LC Os...",
+    "lectureCode": "632c73be0dcaaa0018ea0822",
+    "extId": "62b98e9e43013c001161de73",
+    "key": "632c73be0dcaaa0018ea0822",
+    "classNotesCode": "b991a879-850b-4aa3-bd43-f6bf80b30d18.pdf",
+    "dppsPdfCode": "8482c57b-4520-4b3e-bbcb-c1d1a18bca9f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Alternating Current 07 : LC Oscillati...",
+    "lectureCode": "63286b34fa6a9f0018f5af7f",
+    "extId": "622099861e4afc0018ba42fa",
+    "key": "63286b34fa6a9f0018f5af7f",
+    "classNotesCode": "94ace621-2298-4074-8934-c53eda933be4.pdf",
+    "dppsPdfCode": "c705dc0e-6b66-4bc3-8933-5ebc1e70b742.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Alternating Current 06 : Quality Fact...",
+    "lectureCode": "6325c676bb52b7001483f4e9",
+    "extId": "62b98e9e43013c001161def6",
+    "key": "6325c676bb52b7001483f4e9",
+    "classNotesCode": "b5b1f2d0-79e7-4292-8331-9458ec996207.pdf",
+    "dppsPdfCode": "2df9f245-a4b0-4f16-ab51-c2d66acffd68.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Alternating Current 05 : Questions On...",
+    "lectureCode": "632474e1027b090018c4b4b6",
+    "extId": "62b98e9e43013c001161deb4",
+    "key": "632474e1027b090018c4b4b6",
+    "classNotesCode": "3f4d5726-538a-4ef6-b396-028175a00b74.pdf",
+    "dppsPdfCode": "f072732d-bcdf-492a-abf1-b53d5da2f4e1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Alternating Current 04 : Phasor Diagr...",
+    "lectureCode": "632327eb0ec94f00115263f8",
+    "extId": "62b98e9e43013c001161de72",
+    "key": "632327eb0ec94f00115263f8",
+    "classNotesCode": "8319e7c4-b461-4680-9e1d-3d661b1d0855.pdf",
+    "dppsPdfCode": "bc963310-baa0-44ed-a70d-5cb07a6dfa3e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Alternating Current 03 : R,L,C,RL,RC,...",
+    "lectureCode": "63209bb80d60a10019bd586c",
+    "extId": "63203c2201e6a7001810f0ab",
+    "key": "63209bb80d60a10019bd586c",
+    "classNotesCode": "6530ee8e-59b0-4965-a1f3-3c8515101aa6.pdf",
+    "dppsPdfCode": "27af4434-45e7-4d0e-8539-18087f80dc02.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Alternating Current 02 : R,L,C Circui...",
+    "lectureCode": "631f3b87bddc010011161b61",
+    "extId": "622099861e4afc0018ba42f9",
+    "key": "631f3b87bddc010011161b61",
+    "classNotesCode": "e1dd38f7-8146-4fdb-beb3-fd49c11fdf98.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Alternating Current 01 : Mean Current...",
+    "lectureCode": "631c879ed9d94800181598e2",
+    "extId": "62b98e9e43013c001161def5",
+    "key": "631c879ed9d94800181598e2",
+    "classNotesCode": "c705dc0e-6b66-4bc3-8933-5ebc1e70b742.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

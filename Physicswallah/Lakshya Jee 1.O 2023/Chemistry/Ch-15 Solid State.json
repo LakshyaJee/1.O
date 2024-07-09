@@ -1,0 +1,112 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Solid State 11 : Packing of Crystal, PYQ",
+    "lectureCode": "63a03e1b9777da05172e9b65",
+    "extId": "62b98f4fddf5ec001834928b",
+    "key": "63a03e1b9777da05172e9b65",
+    "classNotesCode": "44d88262-5920-495b-9b4a-5c8ccecf6988.pdf",
+    "dppsPdfCode": "81e10570-a308-4701-82f6-59f76d3a94d5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Solid State 10 : Defect Of Solid Stat...",
+    "lectureCode": "63994a8022fee500187f12a0",
+    "extId": "639851b1f4bd830144a7d697",
+    "key": "63994a8022fee500187f12a0",
+    "classNotesCode": "2c7d2fa1-7803-4efa-b3a2-4c44e177fb58.pdf",
+    "dppsPdfCode": "d57d9dcf-b7b0-40cf-bf61-a4decd4fa4f9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Solid State 09 : Ionic Crystal",
+    "lectureCode": "6399494284b542001807c6d8",
+    "extId": "62b98f50ddf5ec00183492cc",
+    "key": "6399494284b542001807c6d8",
+    "classNotesCode": "c4ef36b6-1f22-441e-8399-fda38a80e25f.pdf",
+    "dppsPdfCode": "bd15840e-cd4d-48ad-ac4e-9d2c6ba6bc24.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Solid State 08 : Type Of Voids",
+    "lectureCode": "639734b6de594500f7eb6ec1",
+    "extId": "62b98f4fddf5ec001834928a",
+    "key": "639734b6de594500f7eb6ec1",
+    "classNotesCode": "f6a02a7b-a828-47e9-a6a9-321f7ca6f594.pdf",
+    "dppsPdfCode": "8b6e6aad-0d78-4d2c-9a89-f43f5e60088d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Solid State 07 : Packing Of Crystal |...",
+    "lectureCode": "6395b97793aace015ee32985",
+    "extId": "6395ba453ab3c0001114bccf",
+    "key": "6395b97793aace015ee32985",
+    "classNotesCode": "c28ba1b6-2982-4bca-8951-56ff7cdc7d3c.pdf",
+    "dppsPdfCode": "29733878-506d-46b7-b22f-5c32edc7969a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Solid State 06 : Packing Of Crystal",
+    "lectureCode": "638def4002f123018ea4b4d5",
+    "extId": "62b98f4fddf5ec0018349289",
+    "key": "638def4002f123018ea4b4d5",
+    "classNotesCode": "e2ea2869-3c8c-43ac-9d1f-5dd69cfeffec.pdf",
+    "dppsPdfCode": "eb75e7de-cfb7-4af5-b60d-3f4686bbe391.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Solid State 05 : FCC Unit Cell || (NO...",
+    "lectureCode": "638c40d4955ee200127610c0",
+    "extId": "638aeaa8f38685001174c4bc",
+    "key": "638c40d4955ee200127610c0",
+    "classNotesCode": "b5a36b1c-b820-43e0-b310-78e4ceb43ca5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Solid State 04 : BCC Unit Cell",
+    "lectureCode": "d1328a88-dcbc-4b12-aba4-0ddbd316a53d",
+    "extId": "62b98f50ddf5ec001834934e",
+    "key": "6388a030a3691c00e6fa522e",
+    "classNotesCode": "c57d3371-e5b5-4b28-8b4c-e5a9196efbc0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Solid State 03 : SCC unit cell || (NO...",
+    "lectureCode": "0d0e18af-2573-466f-a694-b433a439185f",
+    "extId": "62b98f50ddf5ec001834930c",
+    "key": "638755cdc7973f0011b7218f",
+    "classNotesCode": "f47713f9-62e0-4234-9e92-450f09dc71d7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Solid State 02 : Type of Crystal",
+    "lectureCode": "a127c00e-e7fb-4eab-a979-57586ba6a2d8",
+    "extId": "62b98f50ddf5ec00183492ca",
+    "key": "6386044173918901ac574f8d",
+    "classNotesCode": "fb28d173-85d7-499d-b321-f4e1ffdd7d53.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Solid State 01 : Classification of So...",
+    "lectureCode": "e5ce3a1a-d4ff-4b8d-8f23-93283c85de70",
+    "extId": "62b98f4fddf5ec0018349288",
+    "key": "6384b60a1694b10072e94c19",
+    "classNotesCode": "5c1311c1-2d0a-42c2-9077-fadafbeea740.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

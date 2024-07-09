@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Metallurgy 08 : Metallurgy of Al , Fe...",
+    "lectureCode": "6346df5a6cfe1a00110e6774",
+    "extId": "62b98f50ddf5ec0018349305",
+    "key": "6346df5a6cfe1a00110e6774",
+    "classNotesCode": "47624a13-686f-4adf-8d5e-520bc583fcbb.pdf",
+    "dppsPdfCode": "f9eec130-fd83-41e8-835c-16f8b7ca3099.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Metallurgy 07 : Metallurgy Of Pb,Na,M...",
+    "lectureCode": "63458ce6dd9a68016277ad7e",
+    "extId": "62b98f50ddf5ec00183492c3",
+    "key": "63458ce6dd9a68016277ad7e",
+    "classNotesCode": "89813d4c-6880-4185-a41f-eaa5fe15c4b9.pdf",
+    "dppsPdfCode": "cb5842c8-6e05-4b57-b729-bebff2fa9467.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Metallurgy 06 : Metallurgy of Ag,Au,S...",
+    "lectureCode": "634433a230424500112efb68",
+    "extId": "62b98f4fddf5ec0018349281",
+    "key": "634433a230424500112efb68",
+    "classNotesCode": "68eef568-cd17-4c46-b32f-84fc69e94aae.pdf",
+    "dppsPdfCode": "cb0f9127-e5b5-4236-9e5a-af44db0109e7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Metallurgy 05 : Refining, Metallurgy ...",
+    "lectureCode": "6341a9f73e22cb0018003a9e",
+    "extId": "634292586b1d5d00111df291",
+    "key": "6341a9f73e22cb0018003a9e",
+    "classNotesCode": "389e7224-244a-46b9-8f3c-ef191a2de4d3.pdf",
+    "dppsPdfCode": "a0dac8c8-14ac-4100-84ca-9b19c3e95fce.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Metallurgy 04 : Reduction & Refining",
+    "lectureCode": "633f064ab457910018a08780",
+    "extId": "62b98f50ddf5ec0018349346",
+    "key": "633f064ab457910018a08780",
+    "classNotesCode": "81385915-aeec-4f79-8ce8-9c6d6351a36c.pdf",
+    "dppsPdfCode": "3c9af9b0-3840-4e94-9dfa-1621d10baabc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Metallurgy 03 : Oxidation & Reduction",
+    "lectureCode": "633b0669e3f5a60371edf468",
+    "extId": "62b98f4fddf5ec0018349280",
+    "key": "633b0669e3f5a60371edf468",
+    "classNotesCode": "a0a84f92-4abd-40a5-bc73-f465c35d84a6.pdf",
+    "dppsPdfCode": "eeca82a5-e365-4268-aafe-812209f6e4f4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Metallurgy 02 : introduction || (NO DPP)",
+    "lectureCode": "6335d9c11afee0001819aca5",
+    "extId": "62b98f50ddf5ec0018349345",
+    "key": "6335d9c11afee0001819aca5",
+    "classNotesCode": "22efd0b9-fdb1-4bb1-a0f0-a85f8c9e2a30.pdf",
+    "dppsPdfCode": "e05cfe9f-363e-49e1-ba8b-cca67814a3df.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Metallurgy 01 : Introduction, Rest Pa...",
+    "lectureCode": "633469582fdd9a001bc1b587",
+    "extId": "62b98f50ddf5ec0018349303",
+    "key": "633469582fdd9a001bc1b587",
+    "classNotesCode": "2ac83c8b-58ae-430a-b830-9dfe1485dbbb.pdf",
+    "dppsPdfCode": "0dea6457-900c-4918-8b75-6401a555a0e6.pdf",
+    "dppsSolutionCode": ""
+  }
+]

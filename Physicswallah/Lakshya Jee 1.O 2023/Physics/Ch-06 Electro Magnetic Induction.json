@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Electro Magnetic Induction 08 : RL Ci...",
+    "lectureCode": "631b3695e3273d001125c666",
+    "extId": "62b98e9e43013c001161deb3",
+    "key": "631b3695e3273d001125c666",
+    "classNotesCode": "602a7e9d-a4f9-42e9-b7ec-0bbc5ab91708.pdf",
+    "dppsPdfCode": "e66736d7-b9f3-4892-9e14-f400723b4465.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Electro Magnetic Induction 07 : Mutua...",
+    "lectureCode": "6319e601415c6700110409d6",
+    "extId": "62b98e9e43013c001161de71",
+    "key": "6319e601415c6700110409d6",
+    "classNotesCode": "b8803d61-3236-4e06-b57d-b773d125e898.pdf",
+    "dppsPdfCode": "84aacf46-470f-4092-afd0-b5a4f8efbc94.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Electro Magnetic Induction 06 : Self ...",
+    "lectureCode": "6315f90c428490001147ac39",
+    "extId": "622099861e4afc0018ba42f8",
+    "key": "6315f90c428490001147ac39",
+    "classNotesCode": "064b83ef-a5dd-491c-b01d-de46a2b3c43b.pdf",
+    "dppsPdfCode": "ea3ab584-4897-47f9-b05f-d44617228475.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Electro Magnetic Induction 05 : Time ...",
+    "lectureCode": "63134ed92a8bc600111faab3",
+    "extId": "62b98e9e43013c001161def4",
+    "key": "63134ed92a8bc600111faab3",
+    "classNotesCode": "40cf3144-1fc5-4c7c-bc39-1aadc1e0366a.pdf",
+    "dppsPdfCode": "ae97c873-8702-4b83-a48f-af317660e194.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Electro Magnetic Induction 04 : Quest...",
+    "lectureCode": "6311fdef26cf8a0018a1883d",
+    "extId": "62b98e9e43013c001161deb2",
+    "key": "6311fdef26cf8a0018a1883d",
+    "classNotesCode": "4c888a81-1402-4eb0-ac43-0e77c766399e.pdf",
+    "dppsPdfCode": "d64eb2f9-cccf-4a53-b359-d558f9dab85f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Electro Magnetic Induction 03 : Rotat...",
+    "lectureCode": "6310ada0af67590018dd5576",
+    "extId": "62b98e9e43013c001161de70",
+    "key": "6310ada0af67590018dd5576",
+    "classNotesCode": "9d898100-8d47-4a93-b41f-f990d12b7e71.pdf",
+    "dppsPdfCode": "172b28d3-8be1-47f7-99d7-d805eda2423e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Electro Magnetic Induction 02 : Quest...",
+    "lectureCode": "630cb70abb6f8f00117d7862",
+    "extId": "622099861e4afc0018ba42f7",
+    "key": "630cb70abb6f8f00117d7862",
+    "classNotesCode": "b2658d24-9ad2-412b-99e5-3b2312817da1.pdf",
+    "dppsPdfCode": "bf3ed7f7-acca-41c2-8b12-90a424a506f2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Electro Magnetic Induction 01 : Farad...",
+    "lectureCode": "630a160ec5404b0011ebc019",
+    "extId": "62b98e9e43013c001161def3",
+    "key": "630a160ec5404b0011ebc019",
+    "classNotesCode": "e617ad74-b6a7-4eaa-9cf1-8b79de26ddb7.pdf",
+    "dppsPdfCode": "0d07480e-ffac-4a46-9bca-dde08e0d2623.pdf",
+    "dppsSolutionCode": ""
+  }
+]

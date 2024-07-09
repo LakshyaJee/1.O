@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Nuclei 05 : PYQs Of Radioactivity || ...",
+    "lectureCode": "b5b7902e-61fd-4b33-b173-77f06dce9ac0",
+    "extId": "62b98e9e43013c001161df02",
+    "key": "63946c4bdef4ef01b5982e86",
+    "classNotesCode": "921cb479-31ff-4381-9f95-0d8d219573c8.pdf",
+    "dppsPdfCode": "c701614e-f183-454f-9cc2-8caa0dc11ab2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Nuclei 04 : Radioactivity & Questions",
+    "lectureCode": "a051f701-1d43-4808-bb1e-bb1814b35781",
+    "extId": "62b98e9e43013c001161dec0",
+    "key": "6393352d30fc9d017ed1b7a5",
+    "classNotesCode": "eb3e5ef5-70af-449c-b8c7-2cbf0b221064.pdf",
+    "dppsPdfCode": "f369b5d2-abad-4fcd-9c3e-a928727378a1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Nuclei 03 : Questions On Binding Energy",
+    "lectureCode": "3c00c96e-94b6-461e-839f-42f18b3ee769",
+    "extId": "622099861e4afc0018ba4305",
+    "key": "638e1741b2e1bb018f4b5eaf",
+    "classNotesCode": "b8bff167-95f8-4458-a33a-213c4d2fde28.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Nuclei 02 : Binding Energy & Question...",
+    "lectureCode": "cbd7710f-98b8-4653-a848-c65ba4b478bb",
+    "extId": "638c39f418b1010011366313",
+    "key": "638c78a48595b00060e8a310",
+    "classNotesCode": "14f0768a-ddb8-4418-b89c-3b56142c2bc7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Nuclei 01 : Nuclear Force & Binding E...",
+    "lectureCode": "9e373592-2339-47c7-aaa9-9a72709c0377",
+    "extId": "62b98e9e43013c001161df01",
+    "key": "638b6a98d1503f021d9e3b75",
+    "classNotesCode": "ef653970-6092-429c-81da-63649168b873.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

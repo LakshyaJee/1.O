@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Atoms 04 : X-rays & Questions",
+    "lectureCode": "b6e8e1fc-fdea-499c-8c56-2c9df0e62c96",
+    "extId": "62b98e9e43013c001161debf",
+    "key": "6389fa74f70b87013c4fd861",
+    "classNotesCode": "ef54b9b0-8872-436c-b91e-ec2d854c6488.pdf",
+    "dppsPdfCode": "707659c1-7033-49a7-a8fe-4c90dc0cca1d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Atoms 03 : Questions On Bohr's Model",
+    "lectureCode": "c0524b7a-f4c7-4265-a73e-2cd04b643bba",
+    "extId": "62b98e9e43013c001161de7d",
+    "key": "6388c835adee8e01cd233b6b",
+    "classNotesCode": "de10cff5-b902-4875-b834-0018ef1028b4.pdf",
+    "dppsPdfCode": "c90aea97-ac45-49b2-af7e-29474c63a499.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Atoms 02 : Bohr Model, Spectra & spec...",
+    "lectureCode": "08ba5814-4b51-48d8-beea-588a461ec21c",
+    "extId": "62b98e9e43013c001161df00",
+    "key": "63809f085a2c9e00e6e43a09",
+    "classNotesCode": "c6115f1b-32b6-4c7d-96cf-7d5971139499.pdf",
+    "dppsPdfCode": "28ad77d7-cbcc-4461-b5f2-6004d71eeef1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Atoms 01 : Rutherford Model || (NO DPP)",
+    "lectureCode": "f9d1f384-f974-4e31-91dd-37799fcc2f80",
+    "extId": "62b98e9e43013c001161debe",
+    "key": "6380bf2a00274c0011af0b4d",
+    "classNotesCode": "813f9cb1-9ac3-43da-a4f0-3315292a6b5b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

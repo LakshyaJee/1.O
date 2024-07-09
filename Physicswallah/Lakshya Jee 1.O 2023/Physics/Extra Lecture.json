@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Current & Electricity : Extra Practic...",
+    "lectureCode": "fdd59a7d-c7c0-45da-94b9-ec1ba718d8bd",
+    "extId": "62dbd26598454f00186b368a",
+    "key": "62dbc845466c270011d3a753",
+    "classNotesCode": "c12d43a5-a7ea-4dff-be5e-7ee83e7f4d98.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Electrostatic Potential & Capacitance...",
+    "lectureCode": "9ae025e1-c815-4a2d-8694-ed3c05549e63",
+    "extId": "622099861e4afc0018ba42ee",
+    "key": "62b885dc09f6870018e1fdff",
+    "classNotesCode": "045ac36e-afd0-422d-8387-9be6d083291f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Electric Potential & Capacitance : Ex...",
+    "lectureCode": "4ef0b323-b775-4676-98a9-c6c9477f2667",
+    "extId": "62a4efbe1302c10011dba72a",
+    "key": "62a47998c781240011c5e5b0",
+    "classNotesCode": "d0ffa99b-6cbe-4ab0-89ec-73f74fc33e3c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Electric Charges and Field & Electros...",
+    "lectureCode": "1e2ab37d-61e5-4802-8012-ef200fcd200e",
+    "extId": "629b031127e20800119af1fd",
+    "key": "629afe4a339a7c00117a1899",
+    "classNotesCode": "b276832f-a7da-48ec-922e-ddb51b3b0965.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Electric Charges & Field : Advanced Q...",
+    "lectureCode": "20032503-50a5-42e8-9774-b20d28782726",
+    "extId": "627f4288a5aa240018135e6d",
+    "key": "627cdfebaed5600011ce7eee",
+    "classNotesCode": "5e7181c0-079a-46ab-bfea-e996f1932160.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

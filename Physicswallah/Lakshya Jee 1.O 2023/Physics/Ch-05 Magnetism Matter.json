@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Magnetism & Matter 06 : Questions On ...",
+    "lectureCode": "6308c348e134a70018328d29",
+    "extId": "62b98e9e43013c001161deb1",
+    "key": "6308c348e134a70018328d29",
+    "classNotesCode": "2c9863d7-a203-4cca-97e7-5f9f415204e8.pdf",
+    "dppsPdfCode": "8e019097-a44c-4bdd-a9bc-3ae4a1f54e35.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Magnetism & Matter 05 : Magnetic Mate...",
+    "lectureCode": "63076966ca956b00cafda308",
+    "extId": "62b98e9e43013c001161de6f",
+    "key": "63076966ca956b00cafda308",
+    "classNotesCode": "f0e51eea-65f3-46a4-9414-5256d596537d.pdf",
+    "dppsPdfCode": "f7b6bdbc-196c-4a1e-b5c5-52d0719d445d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Magnetism & Matter 04 : Magnetic Mate...",
+    "lectureCode": "63045da5d20ed000114112bc",
+    "extId": "622099861e4afc0018ba42f6",
+    "key": "63045da5d20ed000114112bc",
+    "classNotesCode": "b83db6d8-d19c-4f70-ae5d-972646bbca22.pdf",
+    "dppsPdfCode": "d03dad02-a011-4f00-9fac-fc2ca202c6e9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Magnetism & Matter 03 : Earth Magnetism",
+    "lectureCode": "6300dde43511390018ea333b",
+    "extId": "62b98e9e43013c001161def2",
+    "key": "6300dde43511390018ea333b",
+    "classNotesCode": "e61969bf-a991-437f-8fa5-76fe0097dc2c.pdf",
+    "dppsPdfCode": "dbc3cefe-e10f-4b9c-835c-52a251bdadc2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Magnetism & Matter 02 : Torque & Osci...",
+    "lectureCode": "62ff8bcbaf78d400aa434377",
+    "extId": "62b98e9e43013c001161deb0",
+    "key": "62ff8bcbaf78d400aa434377",
+    "classNotesCode": "22713bf5-2fc6-45af-aa58-590285ba4b8a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Magnetism & Matter 01 : Bar Magnet & ...",
+    "lectureCode": "62fe437f76f170001120a375",
+    "extId": "62b98e9e43013c001161de6e",
+    "key": "62fe437f76f170001120a375",
+    "classNotesCode": "86242498-0ffb-427f-b1c9-587fe7286650.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Chemistry In Everyday Life 02 : Chemi...",
+    "lectureCode": "48961c39-3723-44c6-866e-a1398fffd67d",
+    "extId": "62b98f50ddf5ec00183492d0",
+    "key": "63bd0be05c7ca40019991293",
+    "classNotesCode": "aeb52bf4-6d04-49fc-aefb-4ae78763e224.pdf",
+    "dppsPdfCode": "7fc1e8a5-c518-4fb0-9883-3378be3e84a4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Chemistry In Everyday Life 01 : Chemi...",
+    "lectureCode": "afa49071-5331-4169-87e6-223ccabe4424",
+    "extId": "62b98f50ddf5ec0018349353",
+    "key": "63b67a56d0c99f0018a3533e",
+    "classNotesCode": "e024ce50-4de3-41d9-82e5-27273769762c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

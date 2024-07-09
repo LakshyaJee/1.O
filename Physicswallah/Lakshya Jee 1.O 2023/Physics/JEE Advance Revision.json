@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "SHM & Sound Waves 02 : Revision || LIVE",
+    "lectureCode": "4c3ed234-9cd1-436a-afde-cdbf163c1851",
+    "extId": "645c02a3146556001842943c",
+    "key": "645c868afb253d001773a4e3",
+    "classNotesCode": "63489828-8126-4206-b542-66f8ddaf179e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Alcohol and Ether , Epoxides 01 : Rev...",
+    "lectureCode": "3b12f422-8675-440e-a4cc-0d4ec85fb5a9",
+    "extId": "645c72b24fbdf700181ed55e",
+    "key": "645ca98db414f60018600758",
+    "classNotesCode": "f8fb0dab-72d4-443f-acfa-8b166e248b1d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Haloalkane and Haloarenes 01 : Revisi...",
+    "lectureCode": "d77a560f-7f90-437d-b4b9-b1df0d0d1644",
+    "extId": "645adba3df3a030018c4b2a8",
+    "key": "645b5f19a1e0310018fd881a",
+    "classNotesCode": "7cfac9da-2b16-4bb6-9c87-19f51d45c4b2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Isomerism 01 : Revision",
+    "lectureCode": "7f87f0fd-f48a-4d8e-9105-5ec7550a27e2",
+    "extId": "6455c5c28084ee00183874b5",
+    "key": "6456192897aa300018231a51",
+    "classNotesCode": "657b110e-8ae1-4e7d-ae1a-ffa6f70001ff.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Surface Chemistry 01 : Home Work Disc...",
+    "lectureCode": "b46e3ca8-bcdb-4336-aba4-f7b48e07d055",
+    "extId": "64530d97067d830018a93d44",
+    "key": "645328b3094df800182a25b9",
+    "classNotesCode": "f907ce30-feec-4b8a-ba33-bec2d532f245.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Solid State 01: Home Work Discussion ...",
+    "lectureCode": "32ab298d-2152-4a18-bded-d87aa49b4ddd",
+    "extId": "6451ac72756848001810ef18",
+    "key": "6451d91927c27f0018dfe3dd",
+    "classNotesCode": "765c1cae-5fbf-4474-bab1-cbffc608f2da.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Thermodynamics 02 : Home Work Discuss...",
+    "lectureCode": "7ac081aa-4cb2-4726-bcf5-b7bf2a82626c",
+    "extId": "64476434dc7a9100181d6f04",
+    "key": "6447657fdc7a9100181d7015",
+    "classNotesCode": "3e10196a-d61b-4deb-977c-f30e1379d134.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

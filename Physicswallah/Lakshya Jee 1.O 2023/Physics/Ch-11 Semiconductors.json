@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Semiconductors 06 : Transistor Applic...",
+    "lectureCode": "3a527199-03ee-47e2-b01b-a5eee0a1ee6f",
+    "extId": "63903ad34ea130031d11c49a",
+    "key": "6390709d30912603f24563ef",
+    "classNotesCode": "0e4f60fc-e000-47ff-b29a-dc925e26784e.pdf",
+    "dppsPdfCode": "42a00d20-475f-4188-9d1b-1efb8114715d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Semiconductor Lec-05 (Rajwant Sir) La...",
+    "lectureCode": "5415ca42-93c2-4512-b1e3-e47c372cd873",
+    "extId": "638c327d9ac521004c38204f",
+    "key": "6387594b98ea330011694f6a",
+    "classNotesCode": "192ddbde-8a6c-4669-bf09-7107a2f3a6ec.pdf",
+    "dppsPdfCode": "ebc5ea65-c0ca-419c-a7d9-33cdba810d2d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Semiconductors 04 : Application of Di...",
+    "lectureCode": "6e13c0f4-bab0-4638-9365-16580dc6851d",
+    "extId": "622099861e4afc0018ba4304",
+    "key": "637cdf40549b850018285278",
+    "classNotesCode": "824b4b44-5b9b-40af-91a6-31939e11b9c6.pdf",
+    "dppsPdfCode": "35317957-7365-4455-bb23-7a6b2e3d7ae4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Semiconductors 03 : Biasing and Appli...",
+    "lectureCode": "b780397f-33b6-4deb-aac5-fc17bae14b2a",
+    "extId": "6379f1d3234cd800112c8511",
+    "key": "6374b8c996b573006274290c",
+    "classNotesCode": "37d728d4-bed0-45f0-a759-f374afe14aec.pdf",
+    "dppsPdfCode": "1a9b16f6-9061-4b3e-9179-250a653aff84.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Semiconductors 02 : P type & N type S...",
+    "lectureCode": "2683ddb9-e48a-4caa-8970-4baf1eedbf27",
+    "extId": "636a421ea2eb030039237bdf",
+    "key": "636a28c27053c701fcef9064",
+    "classNotesCode": "8f6f7eff-0dea-448a-a482-05f1cc8c8a88.pdf",
+    "dppsPdfCode": "9b47ab9b-cadf-47e3-8293-84bf7cce9ac3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Semiconductors 01 : Band Theory & Cla...",
+    "lectureCode": "c3990c24-cbe7-480f-b84a-b05c2ce4c883",
+    "extId": "6366b3638f57ed00110fad73",
+    "key": "63624800ed82d400112c9af0",
+    "classNotesCode": "9efe1a1f-27c2-46e7-a6e5-2fb6021e6820.pdf",
+    "dppsPdfCode": "34a31c31-f991-4bf6-9cf0-ed2f0326f75c.pdf",
+    "dppsSolutionCode": ""
+  }
+]

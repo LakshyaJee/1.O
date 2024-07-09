@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "P - Block - 03 : Halogen Family",
+    "lectureCode": "637e41faac096a003d60a6bf",
+    "extId": "62b98f50ddf5ec001834930b",
+    "key": "637e41faac096a003d60a6bf",
+    "classNotesCode": "50a1b2be-f3d6-458f-8a7b-4b608bc5a18f.pdf",
+    "dppsPdfCode": "e0220633-8345-433f-a690-4dc0d50798c5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "P - Block - 02 : Oxygen Family",
+    "lectureCode": "637cf03ffb6d7000187caae5",
+    "extId": "62b98f50ddf5ec00183492c9",
+    "key": "637cf03ffb6d7000187caae5",
+    "classNotesCode": "0177be4e-0324-4ef0-8233-d42f6b1df708.pdf",
+    "dppsPdfCode": "dc9d2622-64a9-43c5-9e61-b3524890e356.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "P - Block - 01 : Introduction",
+    "lectureCode": "637b298846f9d2034cec103c",
+    "extId": "62b98f4fddf5ec0018349287",
+    "key": "637b298846f9d2034cec103c",
+    "classNotesCode": "1ac0c266-b1ef-4618-8839-b19a2de84b51.pdf",
+    "dppsPdfCode": "6db93f67-dc2c-414a-8512-02fd86d12800.pdf",
+    "dppsSolutionCode": ""
+  }
+]
