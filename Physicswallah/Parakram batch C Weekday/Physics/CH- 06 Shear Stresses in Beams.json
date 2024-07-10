@@ -1,0 +1,22 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Shear Stresses in Beams 02 : Shear St...",
+    "lectureCode": "4741d202-a3f0-444c-adcf-f8dc9097b32a",
+    "extId": "64e447fe0d2f870018063289",
+    "key": "64e5862982539500180feac8",
+    "classNotesCode": "e5e1ac78-48d9-40fd-9d61-a5aadf26647a.pdf",
+    "dppsPdfCode": "d387192d-42f3-4950-a44c-0d9a175ab845.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Shear Stresses in Beams 01 : Shear St...",
+    "lectureCode": "dfa2faad-b75a-4fba-a056-9a81e2a20dec",
+    "extId": "64e30663be3e490018622a99",
+    "key": "64e43b470fb69b0018e51f94",
+    "classNotesCode": "bc39413c-fcd0-434c-8217-bb564275e475.pdf",
+    "dppsPdfCode": "30e1294d-85f6-4c0d-9f8c-342de336c1ca.pdf",
+    "dppsSolutionCode": ""
+  }
+]

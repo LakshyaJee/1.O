@@ -1,0 +1,732 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Properties Of Pure Substances 05 : Cl...",
+    "lectureCode": "d265ccaf-caab-42d8-8ed7-3bd31ad95370",
+    "extId": "63a9bc22d14f850018305528",
+    "key": "63a1e8f6658bbc001861e869",
+    "classNotesCode": "0516de93-6287-46c9-968d-14dca8183d94.pdf",
+    "dppsPdfCode": "b7e0ba8e-39df-4d55-9913-b0908cbffebf.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Properties Of Pure Substances 06 : Jo...",
+    "lectureCode": "033d5739-a905-47f5-b34b-e79ecd098338",
+    "extId": "63a9bc53d2d1ce001836a946",
+    "key": "63a5c77b9eedac0018b55408",
+    "classNotesCode": "b0fb4c9f-1b75-4ed0-8b4e-48912bfcb87f.pdf",
+    "dppsPdfCode": "0d680f9c-3e33-4cac-8b1f-0fa8af5e5b05.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Properties Of Pure Substances 03 : Pr...",
+    "lectureCode": "a8ecf57f-532c-49cf-ae7e-2cf964cdf81d",
+    "extId": "63a9b9fe2f7249001803ae67",
+    "key": "63a08ad106f14308beb4699c",
+    "classNotesCode": "52d2b674-f49d-47d6-a1cb-3c048ddc92b8.pdf",
+    "dppsPdfCode": "0b8178f1-2e15-47f3-a8de-5bc7d2c26219.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Properties Of Pure Substances 04  P-T...",
+    "lectureCode": "56400dc4-46a4-4b83-a696-4c7389582b9a",
+    "extId": "63a9ba3c6050550018d85ffb",
+    "key": "63a0b8a1636f6e00180c920f",
+    "classNotesCode": "72e7b0f2-3e67-4006-905f-d250b79c26c4.pdf",
+    "dppsPdfCode": "fa8fb834-b225-44de-a3cf-f8341d042f7c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Properties Of Pure Substances 01  Tem...",
+    "lectureCode": "271a4f15-123c-407a-b5a3-8288b13f678d",
+    "extId": "63a9b9329b32c90018f4138d",
+    "key": "639defe439db7802799789dd",
+    "classNotesCode": "3996b118-e87b-4aae-841e-a5221a58b3f8.pdf",
+    "dppsPdfCode": "29f9026f-0bf7-4eec-95c6-2b2b76247866.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Properties Of Pure Substances 02 : Dr...",
+    "lectureCode": "df1c71bd-7b3a-4505-8c65-160b63fb98c0",
+    "extId": "63a9b9626050550018d85f9e",
+    "key": "639e113b8dc6ea0376b8ab54",
+    "classNotesCode": "80a06670-ade5-4048-a050-dc03d7e0887e.pdf",
+    "dppsPdfCode": "5d74ff93-6ae5-421d-b642-eeb8a753eecd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Thermodynamic Relations 02 : Mayer Re...",
+    "lectureCode": "18116fbc-2006-4a99-b763-879277ce2a13",
+    "extId": "63a9b6a5e5a1fa0018596b21",
+    "key": "639c960b6f90cf05b3dbe4f4",
+    "classNotesCode": "169a4357-5eb3-4c3d-8393-6f5964294421.pdf",
+    "dppsPdfCode": "dc528d6a-dfcc-4036-a755-91a8ec13ecae.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Thermodynamic Relations 03 : Problems...",
+    "lectureCode": "b3c7db58-0b48-4f45-9082-982fa1aaf02a",
+    "extId": "63a9b6cfe5a1fa0018596b25",
+    "key": "639cba31ce78b30043b77558",
+    "classNotesCode": "c39f2e54-f7c6-4a8e-9724-ba36ca742476.pdf",
+    "dppsPdfCode": "de75b235-8dee-4207-b711-cf5e7dc3a902.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Exergy 04 : Exergy of an Open System",
+    "lectureCode": "02c1810c-46bd-4ac3-a973-42f2465d4e95",
+    "extId": "63a9b4e99ffd7e001804b8ab",
+    "key": "639b4ef13fd5ae0018f16783",
+    "classNotesCode": "81db9f21-767f-492a-b097-4b97c1614cda.pdf",
+    "dppsPdfCode": "63c6e84c-55a1-4201-80b5-7502d8374d32.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Thermodynamic Relations 01 : Maxwell ...",
+    "lectureCode": "e6c909c1-1e39-4945-9d67-5abdd48f283a",
+    "extId": "63a9b675cfd5a20018b979b6",
+    "key": "639b6d6f63e7ba006a25270c",
+    "classNotesCode": "cebfeb87-6438-4ea2-b0e3-fa2a064e852c.pdf",
+    "dppsPdfCode": "de83b51f-a8ae-45f1-b1b3-3b142d1d6fc5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Exergy 02  Gouy-Stodola Theorem",
+    "lectureCode": "10ddf823-b2c4-4c16-b683-67ebdc9a9a90",
+    "extId": "63a9b45d2f7249001803acf8",
+    "key": "639a257020341800189c2e33",
+    "classNotesCode": "4b0f5172-3882-4d90-8cbe-60d2c55a1aa2.pdf",
+    "dppsPdfCode": "db72cd5a-522e-4d6c-929c-c3ee40d1ceac.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Exergy 03  Exergy of a Closed System",
+    "lectureCode": "fc1521c4-ec95-47e6-be11-b91853f21f7f",
+    "extId": "63a9b48dfac2c8001864de97",
+    "key": "639a25b909823d0019b86c34",
+    "classNotesCode": "ef954315-465a-4eee-9d79-d5f96257bf92.pdf",
+    "dppsPdfCode": "d36412e9-488f-4637-af64-74c01fc468bb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Entropy 08 : Problems on Entropy",
+    "lectureCode": "09eda167-43f3-4593-aaf8-923cc052ccf1",
+    "extId": "63a9b2869ad59000184b9674",
+    "key": "6398aaf2b738770018c3d231",
+    "classNotesCode": "ea32d163-5d69-4557-b937-d25f2be6718b.pdf",
+    "dppsPdfCode": "f99f92af-6599-4b5f-a633-e3499b4d8cb5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Exergy 01 : Exergy Associated with Heat",
+    "lectureCode": "a23ed7bc-bdde-4953-9e8f-d04d0875032a",
+    "extId": "63a9b4219b32c90018f41271",
+    "key": "6398cb4728a32103658f8c98",
+    "classNotesCode": "3adf2267-16e6-4828-83e7-7847aad5d552.pdf",
+    "dppsPdfCode": "f46c112a-8a77-4320-bf45-b2684fca095a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Entropy 06 : Entropy Balance Equation...",
+    "lectureCode": "2629e70d-90e4-4417-9ad0-e66b68b5769e",
+    "extId": "63a9b1b69ad59000184b9628",
+    "key": "6397537286341c0018dfc121",
+    "classNotesCode": "d55b3fdd-78ce-4a82-94bf-8002c59f4fd9.pdf",
+    "dppsPdfCode": "5a44e431-723a-49b5-ad06-39b99e2cf772.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Entropy 07  T-S Diagrams",
+    "lectureCode": "f0c287d5-5401-4282-ab7f-2d6284fec8ff",
+    "extId": "63a9b1ec45f4dc0018ab38b8",
+    "key": "63977321201cbf019c71eff7",
+    "classNotesCode": "752fb39b-fd35-45bc-9089-02645b148f0e.pdf",
+    "dppsPdfCode": "c69cc4ae-bd97-41a6-bfd4-6d99f6d74155.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Entropy Change of Incompressible Subs...",
+    "lectureCode": "1d9c37e2-b236-48cf-a482-94ed0d84d96a",
+    "extId": "63a9b175a53ef90018988955",
+    "key": "6394b78c315ee402f3668bd9",
+    "classNotesCode": "d5f99243-c334-419a-a4d4-b2bae635316f.pdf",
+    "dppsPdfCode": "ae58d6f2-1443-481e-98d8-168c5eedde22.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Entropy 03 : Physical Meaning of Entropy",
+    "lectureCode": "3b30d492-d468-4728-8096-7521bd532db7",
+    "extId": "63a9b0b1a8def60019c88970",
+    "key": "639356219317d40033d4ed8a",
+    "classNotesCode": "ab7c5490-8500-411b-83bc-3b5d21047325.pdf",
+    "dppsPdfCode": "62aae08c-859e-4362-a31e-edcbd8bf0954.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Entropy 04 : Entropy Change Of a Perf...",
+    "lectureCode": "f8e240de-5540-4423-8560-32ddacd1f405",
+    "extId": "63a9b0e10b996b00183fa86f",
+    "key": "639376e5622ec10011a1903b",
+    "classNotesCode": "fc32714a-0af0-4b5d-9330-5a3f8775d624.pdf",
+    "dppsPdfCode": "180095b6-d698-49fa-82a3-5b4eaddf0048.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "Entropy 01 : Mathematical Feel of Ent...",
+    "lectureCode": "5e446b43-cc42-499c-8805-7889dfd1599b",
+    "extId": "63a9affb6050550018d856ce",
+    "key": "63920f921e0a6d00f3df420c",
+    "classNotesCode": "3b7c5428-d8f1-4e41-aa5b-480823bdf00d.pdf",
+    "dppsPdfCode": "b9a545e5-09cd-481c-84f0-c41efd1ba3c2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "Entropy 02  Entropy Change Calculations",
+    "lectureCode": "a1ead495-e0c4-48f6-99a7-4bef26436e25",
+    "extId": "63a9b02ea2f15c00180d2df8",
+    "key": "639228c8dcf912017a93b194",
+    "classNotesCode": "0939bfd3-aaec-4f8c-a183-c952ff989d18.pdf",
+    "dppsPdfCode": "6dea1b23-abad-499c-951a-4dedb55c6994.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "Second Law Of Thermodynamics 04 : The...",
+    "lectureCode": "293bc573-c811-47bc-a69f-fb69ef0c4b78",
+    "extId": "63a9ac1945f4dc0018ab3713",
+    "key": "6390bcb9c45017012200b5d9",
+    "classNotesCode": "5f1fb0e2-7743-4d31-8b13-2d33f93cf178.pdf",
+    "dppsPdfCode": "0337a390-2f71-4e52-9694-f76fda21bc6b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 23,
+    "lectureName": "Second Law Of Thermodynamics 05  Clau...",
+    "lectureCode": "40b01fe5-15bb-4889-ad29-619da76e5996",
+    "extId": "63a9ac47cfd5a20018b95d53",
+    "key": "639189b019a0720012bbad41",
+    "classNotesCode": "d5db4926-8cf2-4776-99cc-96de9651c860.pdf",
+    "dppsPdfCode": "3f9d6107-7212-44cd-9241-7b407426d542.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 24,
+    "lectureName": "Second Law Of Thermodynamics 02 : Coe...",
+    "lectureCode": "ea7a8216-4f44-4064-81af-d52e1f28243b",
+    "extId": "63a9ab2c7ac0b50018c9e930",
+    "key": "638f66c50dc23e0252d99120",
+    "classNotesCode": "15d589c1-7790-462b-a68d-4790bb1c8d07.pdf",
+    "dppsPdfCode": "a90aecc9-83b9-444b-8cbf-11b7f6b0fd63.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 25,
+    "lectureName": "Second Law Of Thermodynamics 03  Carn...",
+    "lectureCode": "129e86c2-a86e-465c-bec9-4b50abf6a2e1",
+    "extId": "63a9ab6845f4dc0018ab36f2",
+    "key": "638f87b151ec6902ae2e7f8c",
+    "classNotesCode": "2f7b18bc-c076-427f-aec7-a3934330e763.pdf",
+    "dppsPdfCode": "1b4a603b-b425-46d6-9d94-64bbcc5da97b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 26,
+    "lectureName": "Open System Analysis 05 : Unsteady Flow",
+    "lectureCode": "0cf2204c-dc10-4690-a759-2577c9595898",
+    "extId": "63a9a75c9ad59000184b8bed",
+    "key": "638e1abf8a72950184cbabc5",
+    "classNotesCode": "4c0bb42a-43d0-48d1-91db-c1f396a68989.pdf",
+    "dppsPdfCode": "70ad7ad0-6e7f-46ca-8e37-a4192d38f72a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 27,
+    "lectureName": "Second Law Of Thermodynamics 01 : Sta...",
+    "lectureCode": "bc81ded8-9bde-4855-bf9c-73a1f1e47472",
+    "extId": "63a9aa72a53ef90018988577",
+    "key": "638e3be463e1510028585feb",
+    "classNotesCode": "632935db-cd49-4405-9442-cac017816a55.pdf",
+    "dppsPdfCode": "d1321cfa-d6ee-4f1d-bb86-7980a627a0ba.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 28,
+    "lectureName": "Open System Analysis 03 : Application...",
+    "lectureCode": "1ebeae68-8fdd-4711-ba9e-7f09821975b8",
+    "extId": "63a9a4297ac0b50018c9e785",
+    "key": "638a1f0199294b0161554092",
+    "classNotesCode": "d8ff5af2-b8d8-4f1a-9716-2d8a667d0731.pdf",
+    "dppsPdfCode": "e831190f-baf9-43ee-a69a-34b707b7a61a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 29,
+    "lectureName": "Open System Analysis 04 : Application...",
+    "lectureCode": "3132f203-361f-4855-b726-8eb3cd963e7c",
+    "extId": "63a9a45dcfd5a20018b949c9",
+    "key": "638ae1e1ffda22024b5b20d2",
+    "classNotesCode": "90f57a80-c25d-4136-a578-6434babbc9a6.pdf",
+    "dppsPdfCode": "106480a6-acaa-4d3b-91f0-30cfa447ada9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 30,
+    "lectureName": "Open System Analysis 01 : Control || ...",
+    "lectureCode": "a184d9c4-0093-4e50-a20e-8de1010d81ff",
+    "extId": "63a9a028a53ef90018987959",
+    "key": "6388cc75159c730236444722",
+    "classNotesCode": "fe0a7810-bcbb-4b66-aec3-327058e4d5b3.pdf",
+    "dppsPdfCode": "816a37a9-7dbd-4846-bddd-963f8d6e155c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 31,
+    "lectureName": "Open System Analysis 02 : Steady Flow...",
+    "lectureCode": "1dc68ac5-d0b5-4570-a194-aaa68961e571",
+    "extId": "63a9a36c2f724900180396dc",
+    "key": "6388f2213e0b750011613f40",
+    "classNotesCode": "4f6ed108-6068-48c1-a08c-e1740e424d05.pdf",
+    "dppsPdfCode": "77598081-0d35-46b6-be00-6156ef100166.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 32,
+    "lectureName": "Heat Interactions 05 : Various Heat I...",
+    "lectureCode": "e64f7349-85ed-43ec-8cbc-ee0199c7c79e",
+    "extId": "63a990037ac0b50018c9c3f9",
+    "key": "63877e5f593f28011a81c26c",
+    "classNotesCode": "b2c12b9d-14fd-42a5-8c8b-a7318e49efd8.pdf",
+    "dppsPdfCode": "adf1a872-86ea-4f7a-94ae-6be03d49419a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 33,
+    "lectureName": "Heat Interactions 06 : Free Expansion",
+    "lectureCode": "289eb212-e7ba-4c7d-b797-e95c4ac6d754",
+    "extId": "63a990412f72490018039221",
+    "key": "63879d3bbde47d01607ffe46",
+    "classNotesCode": "9eaab235-e4ad-4a9b-bd00-16c98c410698.pdf",
+    "dppsPdfCode": "1e3a13c4-124a-4e0a-a05d-90fca81eee42.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 34,
+    "lectureName": "Heat Interactions 03 : Various Heat I...",
+    "lectureCode": "d661f2c1-8e37-4184-8a84-54f91238f5fd",
+    "extId": "63a98dcd9ad59000184b73af",
+    "key": "63862c0057354a0011679a26",
+    "classNotesCode": "9001a6e9-0529-40fc-8b77-6961ffe24456.pdf",
+    "dppsPdfCode": "35506d13-86cb-4482-870a-99a0c7c9d5ff.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 35,
+    "lectureName": "Heat Interactions 04 : Various Heat I...",
+    "lectureCode": "df5ff017-fcfe-4571-a500-c86e844ba216",
+    "extId": "63a98f998100b900186998ae",
+    "key": "63864b98d209ab0011788f14",
+    "classNotesCode": "6faa0f57-5fe4-4ca0-9e40-134abae4c6ea.pdf",
+    "dppsPdfCode": "4a7fb5c2-e2e2-4e17-b5a5-0de86647dfbf.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 36,
+    "lectureName": "Heat Interactions 01 : Internal Energy",
+    "lectureCode": "7605dd9d-a329-4a83-aba1-972c601f7fd8",
+    "extId": "63a98c99a8def60019c865f7",
+    "key": "6384d70776ae800246f67e6f",
+    "classNotesCode": "59bbc714-4c66-48c4-9d9f-c033c4a98578.pdf",
+    "dppsPdfCode": "83728cc1-1e98-46c7-96d3-f30f74217b07.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 37,
+    "lectureName": "Heat Interactions 02 : Enthalpy",
+    "lectureCode": "835c7917-6ad4-441c-9556-e71d38691117",
+    "extId": "63a98d159b32c90018f3ebeb",
+    "key": "6384f99203e94400180ca1d6",
+    "classNotesCode": "c75de972-9216-41cd-9ca0-669a3d1378ba.pdf",
+    "dppsPdfCode": "b2d02241-f8bb-46b9-8a4b-4e0ef830e064.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 38,
+    "lectureName": "First Law Of Thermodynamics 01 : Stat...",
+    "lectureCode": "70030daa-6151-4b99-8d57-cc47cf75865e",
+    "extId": "63a9851ba2f15c00180cbc78",
+    "key": "6380e5a9759b8c001a67eece",
+    "classNotesCode": "ab71935e-6f3d-4ca6-8e7a-c49ca61d79f7.pdf",
+    "dppsPdfCode": "1327eec6-9dd8-4b16-a717-fa9dc22aeec6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 39,
+    "lectureName": "First Law Of Thermodynamics 02 : Cons...",
+    "lectureCode": "bba210d5-97a3-4dcc-8371-310c438533bd",
+    "extId": "63a9854a45f4dc0018ab02c9",
+    "key": "6380fc5c4a6c05001890563b",
+    "classNotesCode": "c0152dd2-689b-4828-b5ea-04c8c1a96414.pdf",
+    "dppsPdfCode": "a433fdcc-9b52-4ec8-82fc-cf3d14014bb7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 40,
+    "lectureName": "Work Interactions 04 : Piston Cylinde...",
+    "lectureCode": "e1b96cfd-d4f8-4964-842e-f722d213df3a",
+    "extId": "63a982a745f4dc0018ab025b",
+    "key": "637f97ca2f0f3f012bdc8dbe",
+    "classNotesCode": "a4aa5848-345d-4c21-b444-83e802fa1935.pdf",
+    "dppsPdfCode": "f8113380-8772-4ebc-ba8a-808b34e2f5d9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 41,
+    "lectureName": "Work Interactions 05 : Net Displaceme...",
+    "lectureCode": "1aba0216-2fa8-4f4b-94db-13dd49cca6ee",
+    "extId": "63a982eca53ef90018985abe",
+    "key": "637fbb8e8cebb2001846dc80",
+    "classNotesCode": "b7fca3ab-0cfd-45bf-9758-43e5c08d812f.pdf",
+    "dppsPdfCode": "96bf0d63-53da-4a87-8cfc-7c7f3edf288f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 42,
+    "lectureName": "Work Interactions 02 : Displacement W...",
+    "lectureCode": "17d77b98-8966-46db-a88f-8fb6941f1061",
+    "extId": "63a981cccfd5a20018b9353b",
+    "key": "637e44a9f8cd070304c1305a",
+    "classNotesCode": "52c216be-105d-4c4b-8606-0364091d207d.pdf",
+    "dppsPdfCode": "40059945-ce9a-4c4c-a756-bdd827138015.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 43,
+    "lectureName": "Work Interactions 03 : Displacement W...",
+    "lectureCode": "c1b4f050-6fe8-444a-85ba-afc4426808d8",
+    "extId": "63a982149ffd7e0018047947",
+    "key": "637e6804a1b9230011362554",
+    "classNotesCode": "56132ed6-3476-4ac6-8093-749ee653dfe6.pdf",
+    "dppsPdfCode": "0a36c336-f65d-4675-bd1c-1c1f23e13652.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 44,
+    "lectureName": "Basic Concepts 09 : Various Processes...",
+    "lectureCode": "2e4d70e6-0b69-4e36-a13d-35e7529df6fb",
+    "extId": "63a97c4b0b996b00183f65a0",
+    "key": "637cf48e018b2f00183d2cf8",
+    "classNotesCode": "b839becd-2d07-4789-8865-09a6beab2af1.pdf",
+    "dppsPdfCode": "4d2e9b50-358a-4b2e-888c-4c22523ab6ee.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 45,
+    "lectureName": "Work Interactions 01 : Thermodynamic ...",
+    "lectureCode": "a6a05279-0611-4279-bdb3-2a921a7c3510",
+    "extId": "63a97f13a53ef90018985939",
+    "key": "637d17bd464ae90011d2aa59",
+    "classNotesCode": "5111558e-3b48-4d61-a86b-ddb06d90c1af.pdf",
+    "dppsPdfCode": "9818cdfa-82c8-470c-be20-eeb670a921a9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 46,
+    "lectureName": "Basic Concepts 07 : Van Der Waals Equ...",
+    "lectureCode": "457d1cf5-47ae-4cce-911c-ce4c199a29b2",
+    "extId": "63a97bb36050550018d8151c",
+    "key": "637bab5182f0d305bcf320b7",
+    "classNotesCode": "5e833668-a9db-44dc-bb2c-23520240e57d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 47,
+    "lectureName": "Basic Concepts 08 : Various Processes...",
+    "lectureCode": "bb047e1e-e3df-4c65-ab09-fa3864aab542",
+    "extId": "63a97be59ffd7e00180477ec",
+    "key": "637bd36a9bd876001170aa91",
+    "classNotesCode": "c32b9ed7-1ace-42c9-9279-b3ee3f4f863d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 48,
+    "lectureName": "Basic Concepts 05 : Compressibility f...",
+    "lectureCode": "751568fd-1400-40b7-b7a3-3125b540285d",
+    "extId": "63a979440b996b00183f6504",
+    "key": "6377beb79cadc2001145f3a8",
+    "classNotesCode": "fd5d96b9-a141-470a-a5ae-be86a7b68b14.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 49,
+    "lectureName": "Basic Concepts 06 : Ideal Gas",
+    "lectureCode": "ba8dbae9-31ea-47bd-85e5-0ad4541b2750",
+    "extId": "63a9798913b9520018d5dd03",
+    "key": "6377e4eeddf63d016061ba07",
+    "classNotesCode": "b7e0ba8e-39df-4d55-9913-b0908cbffebf.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 50,
+    "lectureName": "Basic Concepts 03 : Process",
+    "lectureCode": "92c5e3eb-1f27-4126-8ed0-d13e6f691c78",
+    "extId": "63a971f1fac2c8001864b092",
+    "key": "637662f1acc16b0388641c62",
+    "classNotesCode": "0d680f9c-3e33-4cac-8b1f-0fa8af5e5b05.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 51,
+    "lectureName": "Basic Concepts 04 : Cyclic Process",
+    "lectureCode": "a281370a-0c8c-46b7-91ab-5d480a93456d",
+    "extId": "63a9729e9b32c90018f3cf72",
+    "key": "637738fea537f60011dd4204",
+    "classNotesCode": "0b8178f1-2e15-47f3-a8de-5bc7d2c26219.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 52,
+    "lectureName": "Basic Concepts 01 : Introduction",
+    "lectureCode": "dea40730-6549-4f76-a7ae-608953a33572",
+    "extId": "63a9710ad2d1ce00183669f1",
+    "key": "637534b3ab53020018c51b26",
+    "classNotesCode": "fa8fb834-b225-44de-a3cf-f8341d042f7c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 53,
+    "lectureName": "Basic Concepts 02 : Property",
+    "lectureCode": "9d1869ca-0ea0-49e1-b0db-909dcd3ee692",
+    "extId": "63a971400b996b00183f5949",
+    "key": "63754762281e1c00185723a7",
+    "classNotesCode": "29f9026f-0bf7-4eec-95c6-2b2b76247866.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 54,
+    "lectureName": "Exergy DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "5d74ff93-6ae5-421d-b642-eeb8a753eecd.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 55,
+    "lectureName": "Second Law Of Thermodynamics DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "de75b235-8dee-4207-b711-cf5e7dc3a902.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 56,
+    "lectureName": "First Law Of Thermodynamics DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "63c6e84c-55a1-4201-80b5-7502d8374d32.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 57,
+    "lectureName": "Exergy DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "de83b51f-a8ae-45f1-b1b3-3b142d1d6fc5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 58,
+    "lectureName": "Thermodynamic Relations DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "db72cd5a-522e-4d6c-929c-c3ee40d1ceac.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 59,
+    "lectureName": "Entropy DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "f99f92af-6599-4b5f-a633-e3499b4d8cb5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 60,
+    "lectureName": "Entropy DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "5a44e431-723a-49b5-ad06-39b99e2cf772.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 61,
+    "lectureName": "Entropy DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "c69cc4ae-bd97-41a6-bfd4-6d99f6d74155.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 62,
+    "lectureName": "Second Law Of Thermodynamics DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "ae58d6f2-1443-481e-98d8-168c5eedde22.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 63,
+    "lectureName": "Open System Analysis DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "180095b6-d698-49fa-82a3-5b4eaddf0048.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 64,
+    "lectureName": "Heat Interactions DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "6dea1b23-abad-499c-951a-4dedb55c6994.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 65,
+    "lectureName": "Open System Analysis DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "0337a390-2f71-4e52-9694-f76fda21bc6b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 66,
+    "lectureName": "Open System Analysis DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "a90aecc9-83b9-444b-8cbf-11b7f6b0fd63.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 67,
+    "lectureName": "Heat Interactions DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "1b4a603b-b425-46d6-9d94-64bbcc5da97b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 68,
+    "lectureName": "Work Interactions DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "70ad7ad0-6e7f-46ca-8e37-a4192d38f72a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 69,
+    "lectureName": "Work Interactions DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "d1321cfa-d6ee-4f1d-bb86-7980a627a0ba.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 70,
+    "lectureName": "Basic Concepts DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "e831190f-baf9-43ee-a69a-34b707b7a61a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 71,
+    "lectureName": "Basic Concepts DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "106480a6-acaa-4d3b-91f0-30cfa447ada9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 72,
+    "lectureName": "Basic Concepts DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "816a37a9-7dbd-4846-bddd-963f8d6e155c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 73,
+    "lectureName": "Basic Concepts DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "adf1a872-86ea-4f7a-94ae-6be03d49419a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

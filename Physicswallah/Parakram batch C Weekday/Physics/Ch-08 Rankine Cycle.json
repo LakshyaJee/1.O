@@ -1,0 +1,92 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Rankine Cycle 06 : Feed Water Heater",
+    "lectureCode": "ebef13bf-91af-41a4-999c-8b734ec8b09b",
+    "extId": "64d3dbe3769fc60018d692c0",
+    "key": "64d52864619e7d00189f0eb0",
+    "classNotesCode": "1b42c8f4-dd19-41f5-9d57-2aa1d23171e3.pdf",
+    "dppsPdfCode": "5297d362-eed2-4274-a5f9-fe10e87bcfcb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Rankine Cycle 05 : Regeneration",
+    "lectureCode": "230530ab-dd7e-4fab-8ebc-4f0de048d640",
+    "extId": "64d3dba89297860018d1d250",
+    "key": "64d5071e01591d001845c3dc",
+    "classNotesCode": "d70d9552-523d-4904-a552-6998be3eff53.pdf",
+    "dppsPdfCode": "8d172361-9ba8-486d-b8b9-c78272f058a5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Rankine Cycle 04 : Reheat Cycle",
+    "lectureCode": "e13685fb-ba18-481d-8300-c38fea155a75",
+    "extId": "64d2818e70ea460018a65387",
+    "key": "64d3d75dc547750018e22379",
+    "classNotesCode": "d2c2808b-4c31-4783-b981-bc8219d23ebf.pdf",
+    "dppsPdfCode": "f96adea8-0465-4aa5-9399-c23d7fcb8fe0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Rankine Cycle 03 : Modificaions in Ra...",
+    "lectureCode": "52c04114-a35c-4f22-b988-985417331691",
+    "extId": "64d28156cf150d0018552acb",
+    "key": "64d3b6a2c04cca0018533dc2",
+    "classNotesCode": "babe9bff-e6c8-42dd-8fd6-f2d3083d6aa6.pdf",
+    "dppsPdfCode": "b41de8e8-ca18-46b3-a7ad-9161bb47a3e8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Rankine Cycle 02 : Modificaions in Ra...",
+    "lectureCode": "c27918ea-5837-44b4-a3cb-9df72457083c",
+    "extId": "64d12af3b402ce001815e728",
+    "key": "64d28556555cbe00180051aa",
+    "classNotesCode": "76650d53-eb06-43c9-a518-dee49fe18d15.pdf",
+    "dppsPdfCode": "7cf8b44f-f884-47de-8935-c61b7415ebae.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Rankine Cycle 01 : Basics of Rankine ...",
+    "lectureCode": "63b04a96-42a7-45a6-8941-9f4c2d82b1fc",
+    "extId": "64d12a43b402ce001815e6f9",
+    "key": "64d25ddc30d46400183410ed",
+    "classNotesCode": "1a862500-690f-46e3-8a42-2898ac9aedaf.pdf",
+    "dppsPdfCode": "ceebfc1f-85ee-4322-8904-8920c6e1ba79.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Rankine Cycle DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "5297d362-eed2-4274-a5f9-fe10e87bcfcb.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Rankine Cycle DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "8d172361-9ba8-486d-b8b9-c78272f058a5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Rankine Cycle DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "f96adea8-0465-4aa5-9399-c23d7fcb8fe0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

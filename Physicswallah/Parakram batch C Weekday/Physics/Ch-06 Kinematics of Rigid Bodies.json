@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Kinematics of Rigid Bodies 03 : Gener...",
+    "lectureCode": "7b0a8ea7-c7ca-424f-a6df-9bba7afe1847",
+    "extId": "63fe6598ca8bc500187b3a4a",
+    "key": "63ff70666727dd004f7feeec",
+    "classNotesCode": "78b4e01e-ed3f-44e6-a65a-50f5ec8c6262.pdf",
+    "dppsPdfCode": "3f13af90-6da0-4668-be2d-6e52100d0ef7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Kinematics of Rigid Bodies 02 : Gener...",
+    "lectureCode": "4c9112b2-d67a-4f8f-9e41-6a6a5bd78c7d",
+    "extId": "63fd16572e2ae00018f848de",
+    "key": "63fe3a86c86e4a02a8c40b02",
+    "classNotesCode": "7d4fb701-73f1-467b-9152-9b178efbec44.pdf",
+    "dppsPdfCode": "364aa6f7-fb3c-4cdf-8f73-eabd0ca652fc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Kinematics of Rigid Bodies 01 : Rotat...",
+    "lectureCode": "aa3acf22-bf44-4774-b6d3-3baf0ff713c0",
+    "extId": "63fd14cbc944fe0018edb3bf",
+    "key": "63fe207209615a024bfa89a6",
+    "classNotesCode": "d2cf0a52-915b-4a43-a84b-cae7a2978145.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Kinematics Of Rigid Bodies PYQ's Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "3f13af90-6da0-4668-be2d-6e52100d0ef7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Kinematics of Rigid Bodies DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "364aa6f7-fb3c-4cdf-8f73-eabd0ca652fc.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

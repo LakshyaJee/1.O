@@ -1,0 +1,172 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Metrology 12 : Additional topic & Wor...",
+    "lectureCode": "dbbbc896-199b-4026-87ad-849457b54473",
+    "extId": "642813bcd103f60018e9b061",
+    "key": "642941eca4077300182c1ee5",
+    "classNotesCode": "1fffd2b1-3b37-4005-adc7-eeb4a19f3655.pdf",
+    "dppsPdfCode": "058c6e45-d000-40d5-b7a3-10023508e2c9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Metrology 11 : Jigs & CMM's || (Extra...",
+    "lectureCode": "33b5a8c4-f323-4759-ae9c-fa68968564f6",
+    "extId": "64270650f8b0410018a40123",
+    "key": "6427e85227184b00187b02b2",
+    "classNotesCode": "40cd45ed-0380-4234-a7aa-98d9f78e7110.pdf",
+    "dppsPdfCode": "7f1e74d6-81ae-497c-b8a2-cfe399872e3b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Metrology 10: Surface Finish, Compara...",
+    "lectureCode": "261e6c79-a29e-4e5b-a3a7-8806628aa224",
+    "extId": "63ea74d71302cf0018ec23f3",
+    "key": "63ebcc25ad8af300185141d4",
+    "classNotesCode": "8a3b0d6e-22ca-4a7f-88ed-56d62e88ca0e.pdf",
+    "dppsPdfCode": "de9f0d74-8fd9-482d-b3cd-097ecbc0b0c2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Metrology 09 : Surface Finish, Compar...",
+    "lectureCode": "5f3f6e38-9df0-42e2-b459-575a753efc53",
+    "extId": "63ea74640b77f20018bddc58",
+    "key": "63ebae59848c45001a6ab3a8",
+    "classNotesCode": "2c82fb7b-cd95-4b45-86a3-c9308dbd2396.pdf",
+    "dppsPdfCode": "0fae9111-3af9-4fa2-abe4-effaf6311762.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Metrology 08:  Interferometry and Scr...",
+    "lectureCode": "1b98e92d-42f0-4801-93c6-fc8451a18d14",
+    "extId": "63e92c3dc49fa40018bdf352",
+    "key": "63ea8308e3f1fd0018265cea",
+    "classNotesCode": "22ef9689-b6fa-41d8-8222-054a809440a0.pdf",
+    "dppsPdfCode": "226d9483-6de5-4d41-9be9-7fa9b42e2749.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Metrology 07 : Interferometry and Scr...",
+    "lectureCode": "9fe6ec44-f49f-4be4-a40a-7582c3565fe7",
+    "extId": "63e92b753db6f60018a90578",
+    "key": "63ea5f4708856407c443f523",
+    "classNotesCode": "aac9c8ec-a144-4476-8ea2-6b1813420e7c.pdf",
+    "dppsPdfCode": "c40b4883-9d90-40f3-b64d-26801957737a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Metrology 06: Additional topics of me...",
+    "lectureCode": "d4a273d5-10e3-4591-8d3f-d8616695d49e",
+    "extId": "63e7ea2467eccb0018ad9e93",
+    "key": "63e8cef48736f500183077a2",
+    "classNotesCode": "d4cb8aa3-ae2f-44e3-a748-432776d83a9c.pdf",
+    "dppsPdfCode": "169b89ac-3e46-40f5-b1c7-1f6ac5fb7680.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Metrology 05: Workbook Discussion || ...",
+    "lectureCode": "f6f389c7-688c-495f-893f-d2f109beb5f7",
+    "extId": "63e759b56407ac0018c50ebc",
+    "key": "63e7d753ccbb4400180c6fd8",
+    "classNotesCode": "5210b41c-face-4aad-a6b1-8d5adee95f31.pdf",
+    "dppsPdfCode": "6e15b351-884e-44a3-8f6d-28762e026696.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Metrology 04 : Limit Gauges and Toler...",
+    "lectureCode": "72c0e228-afe5-40cc-9fa4-5267974409ff",
+    "extId": "63e5657501fada0018ac775a",
+    "key": "63e68c541b0ce80018534011",
+    "classNotesCode": "e15295a5-178a-4ac4-bb99-bfdb4d782313.pdf",
+    "dppsPdfCode": "4393aa8c-1fd0-4c6b-97f9-c7037f205771.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Metrology 03: Limits, Fits and Tolera...",
+    "lectureCode": "0b035f54-1854-4ebb-a15b-91a48743487f",
+    "extId": "63e565041ecda4001879f9d0",
+    "key": "63e66b501bfddd0018c9a04d",
+    "classNotesCode": "21f579ee-dcb0-4815-b1fc-825f277864c4.pdf",
+    "dppsPdfCode": "b1200f97-171a-41ef-a9eb-1bf96d61ce73.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Metrology 02 : Limits, Fits and Toler...",
+    "lectureCode": "ec1e4520-5660-4554-9f3f-8014ef14221d",
+    "extId": "63e40101c0b64b00187532b3",
+    "key": "63e53b2e7fa5de0018be4af5",
+    "classNotesCode": "3a2cc837-85f8-497b-8f8a-3bdb031eff21.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Metrology 01: Process Capability, Acc...",
+    "lectureCode": "e806137c-244d-438b-9ba0-ae48d1d3bd04",
+    "extId": "63e400b536dfb40018881460",
+    "key": "63e51c27df98700018607236",
+    "classNotesCode": "451ccb38-e670-4f5f-8d6a-5b0ebb730979.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Metrology DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "de9f0d74-8fd9-482d-b3cd-097ecbc0b0c2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Metrology DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "0fae9111-3af9-4fa2-abe4-effaf6311762.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Metrology DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "226d9483-6de5-4d41-9be9-7fa9b42e2749.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Metrology DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "c40b4883-9d90-40f3-b64d-26801957737a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Metrology DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "169b89ac-3e46-40f5-b1c7-1f6ac5fb7680.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Buoyancy and Stability 02 : Stability...",
+    "lectureCode": "711d26bb-4b72-4cbc-9881-39795219b208",
+    "extId": "642a6ce5d51f2d0018a4aff5",
+    "key": "642b0fd27155970018c21b18",
+    "classNotesCode": "f62c2a23-1652-40f5-8123-ce387c2c9dfb.pdf",
+    "dppsPdfCode": "dd589844-9a95-4278-97e6-5ca4adf2eb7e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Buoyancy and Stability 01 : Principle...",
+    "lectureCode": "20574a81-a502-4c10-8c5e-6661abb5d54e",
+    "extId": "642a6cb4e8057200195f908a",
+    "key": "642af73db10ccf0018cd09aa",
+    "classNotesCode": "",
+    "dppsPdfCode": "1b092907-fd1d-4b55-81a6-e10e4dcfdaea.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Buoyancy and Stability DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

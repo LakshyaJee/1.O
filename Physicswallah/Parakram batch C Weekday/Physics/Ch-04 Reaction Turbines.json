@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Reaction Turbines 06 Reaction Turbine...",
+    "lectureCode": "1a1a1b34-170e-4f47-9639-d8da7945d6c2",
+    "extId": "64554b12ea79e50018049e33",
+    "key": "645680275ae8b60018ecdac9",
+    "classNotesCode": "182b2dab-5281-481b-bfbb-209ec107e6c0.pdf",
+    "dppsPdfCode": "67177ae5-c4e3-467a-b307-059d9b006047.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Reaction Turbines 05 : Reaction Turbi...",
+    "lectureCode": "3355e973-1dcd-4d2a-8d57-1abecbcdeb69",
+    "extId": "6450b01b2e99ad0018fc9e78",
+    "key": "645112530d984c0018330c55",
+    "classNotesCode": "",
+    "dppsPdfCode": "ad019f09-a1d3-4e64-b640-249ccf4d952e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Reaction Turbines 04 : Problems Discu...",
+    "lectureCode": "146d7a25-655e-43f3-9d82-5c8832ba7810",
+    "extId": "644aa96f3bbaa70018e9f6ba",
+    "key": "644c1037ca892d0018a4f51d",
+    "classNotesCode": "",
+    "dppsPdfCode": "120cf244-e24f-429b-b946-c2259393461e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Reaction Turbines 03 : Reaction Turbi...",
+    "lectureCode": "0fae9e7c-ff13-4e25-ad93-9c686c09eaf2",
+    "extId": "644aa92c797eb900184541d0",
+    "key": "644be7feca681a0018f978a9",
+    "classNotesCode": "",
+    "dppsPdfCode": "d3a20cc0-0510-4279-829c-44d6d2363901.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Reaction Turbines 02 : Reaction Turbi...",
+    "lectureCode": "a64d1292-7cc6-46d6-b482-1cbf7016c42a",
+    "extId": "64494ffd44e2b20018d19dd7",
+    "key": "644abe1f103569001839aa6c",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Reaction Turbines 01 : Reaction Turbi...",
+    "lectureCode": "0786b531-9086-4542-be59-a47f524b7808",
+    "extId": "64494fc2ed134b00199c51ae",
+    "key": "644a9ac09f8a860018eabc85",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Reaction Turbines DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Reaction Turbine DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

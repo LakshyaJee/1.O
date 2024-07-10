@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Velocity Analysis 05 : Velocity Analy...",
+    "lectureCode": "832ccb51-486c-4e50-b484-8317a189b0d8",
+    "extId": "646270c82c1a310018b570a2",
+    "key": "6463a6f2496a090018f76656",
+    "classNotesCode": "",
+    "dppsPdfCode": "f1de1758-dc21-4d5c-8be6-446dcb9ad866.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Velocity Analysis  04 : Velocity Anal...",
+    "lectureCode": "20772717-d144-49f0-80dd-d47a547a17be",
+    "extId": "6460f1ade9237f0018948f22",
+    "key": "64626ed2e1b5bf0018f8ee40",
+    "classNotesCode": "",
+    "dppsPdfCode": "56cdd05a-7bc0-446a-ac5f-8df23cdf7859.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Velocity Analysis 03 : Velocity Analy...",
+    "lectureCode": "5eb5ee5d-98c0-47db-be73-b651292719c8",
+    "extId": "6460f07e74facc001845d403",
+    "key": "64625345b5da640018d4ff5a",
+    "classNotesCode": "",
+    "dppsPdfCode": "1487590f-f2f2-4487-a749-0d6d9c8a6b53.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Velocity Analysis 02 : Velocity Analy...",
+    "lectureCode": "bfbef824-9577-4f52-addd-5d1e369f178a",
+    "extId": "645c0c631465560018429475",
+    "key": "645d2a21ee3a0800184f9a50",
+    "classNotesCode": "",
+    "dppsPdfCode": "a6c665ab-b7cc-4523-b540-fb4b005b2331.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Velocity Analysis 01 : Velocity Analy...",
+    "lectureCode": "9dd4ed33-e5b9-4348-9580-6b8ddcc99877",
+    "extId": "645c0c481465560018429474",
+    "key": "645d162f2a61010018cdbb3f",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Velocity Analysis DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Velocity Analysis DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

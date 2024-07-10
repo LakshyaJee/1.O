@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Kinetics of Rigid Bodies 03 : Impulse...",
+    "lectureCode": "1175a366-dd48-455a-b0b9-196a9243518e",
+    "extId": "6404cd3ca372bd001989606b",
+    "key": "640629673be9ec0018f56cc1",
+    "classNotesCode": "1829d6e1-cfc4-49ec-b739-53184d198ca1.pdf",
+    "dppsPdfCode": "62cdb661-b477-4104-a465-4a53fc0bf024.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Kinetics of Rigid Bodies 02 : Work - ...",
+    "lectureCode": "ae4201b7-770e-4c34-b9ec-d574cc6b0bcc",
+    "extId": "6404cb78ed3bd70018f9e34a",
+    "key": "640607eceef7e000183d0c62",
+    "classNotesCode": "30785e62-edf4-44ab-bad8-7574f87f2b2e.pdf",
+    "dppsPdfCode": "dc862bea-ced9-4dcd-8fe4-5e53ecbf4ce9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Kinetics of Rigid Bodies 01 : D'Alemb...",
+    "lectureCode": "4b4b2c4e-5b3d-4dfc-aa40-3125a1d63783",
+    "extId": "64017a34aecfbe0018c3d382",
+    "key": "640235a2cdb69d0018758dad",
+    "classNotesCode": "76f7328e-3305-4e5a-850e-785985045175.pdf",
+    "dppsPdfCode": "c808c797-c61e-461c-9be0-cc87e5910abc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Kinetics of Rigid Bodies PYQ's Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "09602bfb-21ac-4b37-aff4-6c4b3e8f6179.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Kinetics of Rigid Bodies DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Kinetics of Rigid Bodies DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

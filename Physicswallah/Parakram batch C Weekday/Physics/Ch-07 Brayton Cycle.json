@@ -1,0 +1,122 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Brayton Cycle 09 : Practical Cycle (P...",
+    "lectureCode": "f0f4e45b-d15e-4153-aaf9-35526423156e",
+    "extId": "64cfdce3dee4370018049518",
+    "key": "64d133d73163e400189f92d7",
+    "classNotesCode": "62d160c1-b35c-4ac4-997a-d44125b8cf58.pdf",
+    "dppsPdfCode": "a586dc3b-f8a6-4119-9bdb-d5677f13f295.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Brayton Cycle 08 : Regeneration",
+    "lectureCode": "daf31f07-5a54-489a-9020-04f1d3eb23f8",
+    "extId": "64cfdcc7dee4370018049517",
+    "key": "64d11234dcc48000189217ef",
+    "classNotesCode": "51db3b4a-5029-4dc2-8cfb-06cf15de6e50.pdf",
+    "dppsPdfCode": "97bd95d8-a8a5-4cd7-bb98-7c16a37acd2a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Brayton Cycle 07 : Reheat Cycle (Part...",
+    "lectureCode": "23deb7e0-eec4-4846-bf5e-0170b5496602",
+    "extId": "64cd1b6b965d6c0018184952",
+    "key": "64ce44f7233d230018a9a662",
+    "classNotesCode": "8e28be8e-9df1-41aa-b931-7f79d556bd78.pdf",
+    "dppsPdfCode": "23f28311-d589-4e75-a135-7a02265bc053.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Brayton Cycle 06 : Reheat Cycle (Part...",
+    "lectureCode": "88732769-5a54-447d-8364-167867590a29",
+    "extId": "64cd1b4000ee080018fb7045",
+    "key": "64ce1a73a993c7001869bcce",
+    "classNotesCode": "06dc4a6d-9ee8-4df9-8001-15e5ebcb457e.pdf",
+    "dppsPdfCode": "4883e552-e928-4bb7-a0ca-29c843b64dc8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Brayton Cycle 05 : Intercooling",
+    "lectureCode": "559c7e5b-083f-4b08-be9d-7fa332f46e1a",
+    "extId": "64cbefb48f54cc0018c4f875",
+    "key": "64cd4215a4110d00185e2544",
+    "classNotesCode": "77365f2b-b0cc-4c0a-89f0-4580c522967f.pdf",
+    "dppsPdfCode": "1badeb71-8599-4224-8f5a-67eabdf90bd5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Brayton Cycle 04 : Brayton Cycle Anal...",
+    "lectureCode": "38bff496-205b-46b7-91a7-e6a302860583",
+    "extId": "64cbef9cabe9d90018f0b731",
+    "key": "64cd1d94a4110d00185dec54",
+    "classNotesCode": "e47500f7-1919-485b-a677-ddc95e06a52b.pdf",
+    "dppsPdfCode": "b9a87bf7-cefd-4a3a-8239-b430a81bfd25.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Brayton Cycle 03 : Brayton Cycle Anal...",
+    "lectureCode": "881002e4-5406-4170-b136-fdaaa537f079",
+    "extId": "64cb3e144c1cad00188b3a2f",
+    "key": "64cbefbe9bdfd70019334d46",
+    "classNotesCode": "808360b2-ab63-4d85-870d-9963450fbc12.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Brayton Cycle 02 : Brayton Cycle",
+    "lectureCode": "03b568d9-41b1-4b5d-a9a6-9823aa6d80c2",
+    "extId": "64cb3dfe1cc40300191e2bb8",
+    "key": "64cbcc41e3c9f300186d1f06",
+    "classNotesCode": "b7e43fd5-5060-42c2-8e6a-b0051d0a9001.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Brayton Cycle 01 : Basics Of Powerpla...",
+    "lectureCode": "b4629290-6636-49ce-8e60-649e63b62084",
+    "extId": "64c96bc2a3c03000185bf9e5",
+    "key": "64ca9abeda6d9b0018802a51",
+    "classNotesCode": "de3d6d63-39d5-4435-9261-3086b28cf33c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Brayton Cycle DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "a586dc3b-f8a6-4119-9bdb-d5677f13f295.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Brayton Cycle DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "97bd95d8-a8a5-4cd7-bb98-7c16a37acd2a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Brayton Cycle DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "23f28311-d589-4e75-a135-7a02265bc053.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

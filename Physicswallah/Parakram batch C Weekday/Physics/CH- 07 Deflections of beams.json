@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Deflections of beams 03 : Deflections...",
+    "lectureCode": "c5b721f6-0d4d-463f-9664-2123c1df9671",
+    "extId": "64e8482f7c7bbc0018c2e9e1",
+    "key": "64ec27f92828be00189776a1",
+    "classNotesCode": "d076dfc3-39a0-44c4-9e8f-edcd7e31c320.pdf",
+    "dppsPdfCode": "63e1c0dd-aa16-4a78-a701-6c5b719bded2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Deflections of beams 02 : Deflections...",
+    "lectureCode": "0cd9d7e4-a774-4487-ba72-d84d3dd04bd5",
+    "extId": "64e71321a3cb1b00184cc11e",
+    "key": "64e8330fbaaca60018fa6b46",
+    "classNotesCode": "7f8ffcf2-8172-4519-a057-ca5b9f87ff32.pdf",
+    "dppsPdfCode": "3271f204-38ff-4622-8ca9-e5417ea1080b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Deflections of beams 01 : Deflections...",
+    "lectureCode": "8d7a70fe-a343-4872-a77a-b79be4972be7",
+    "extId": "64e5beb364a9dd0018bec30e",
+    "key": "64e6e2e8a663f700188e707f",
+    "classNotesCode": "1b5effd4-b9f4-4ecc-b17f-92f9c5b15e73.pdf",
+    "dppsPdfCode": "b73cdb86-e05f-438c-855f-689c1465c7ae.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Deflections of beams DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "63e1c0dd-aa16-4a78-a701-6c5b719bded2.pdf",
+    "dppsPdfCode": "893dd5a8-fd93-4f00-b362-9948c59e37fa.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Deflections of beams DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "3271f204-38ff-4622-8ca9-e5417ea1080b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

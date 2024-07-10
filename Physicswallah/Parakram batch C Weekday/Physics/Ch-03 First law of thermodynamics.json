@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "First law of thermodynamics 07 : Unst...",
+    "lectureCode": "17d79711-24d9-44c8-a63c-c649e626182e",
+    "extId": "64b05eb5a02e4600183fd996",
+    "key": "64b0d6daf89e76001863b2cf",
+    "classNotesCode": "e0fb2d37-416f-4ae1-9b0c-07521018aa55.pdf",
+    "dppsPdfCode": "e0fb2d37-416f-4ae1-9b0c-07521018aa55.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "First law of thermodynamics 06 : Open...",
+    "lectureCode": "65e24555-552a-44cc-9e9f-6895090c7f93",
+    "extId": "64ae44c08e2bd30018352564",
+    "key": "64af86559fc94b0018b390fd",
+    "classNotesCode": "",
+    "dppsPdfCode": "add44270-902a-46d6-b56d-070700f4fbcf.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "First law of thermodynamics 05 : ques...",
+    "lectureCode": "3faa2e81-3b0d-47df-a0a7-445b0aacbe5e",
+    "extId": "64ad7df967ced3001846b18d",
+    "key": "64ae2f6ca254840018960d1c",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "First law of thermodynamics 04 : Stea...",
+    "lectureCode": "2851a1cb-6f9b-405c-aede-699d31c84932",
+    "extId": "64ac051303d4ff0018271203",
+    "key": "64ace77b38994a001879d43b",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "First law of thermodynamics 03 : Open...",
+    "lectureCode": "21f63d5c-8c2d-40f4-9af2-e4992b1e1117",
+    "extId": "64aa75567136e80018e778a9",
+    "key": "64ab938d3f3d6d00183b9ede",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "First law of thermodynamics 02 : Ques...",
+    "lectureCode": "0154e544-9747-465a-9438-0c603d85af09",
+    "extId": "64a714b1c6b1b30019b76168",
+    "key": "64a79bf670b3d10018246610",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "First law of thermodynamics 01 : Firs...",
+    "lectureCode": "d9ca5fd8-e7f0-4dae-912c-74db15af2494",
+    "extId": "64a53bd069c2f100181b8b1c",
+    "key": "64a64d5416d3e20018e30f6b",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "First Law of Thermodynamics DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

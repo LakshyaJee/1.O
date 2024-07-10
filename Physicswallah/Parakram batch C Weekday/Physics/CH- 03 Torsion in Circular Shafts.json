@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Torsion in Circular Shafts 03 : Torsi...",
+    "lectureCode": "83ef321d-d14f-49d8-ae27-773339edb818",
+    "extId": "64d5d0e819015b001824fe97",
+    "key": "64d9b2d2ddb7fa00182812b0",
+    "classNotesCode": "575fad6d-d9b0-4db6-828d-1733ff6ac111.pdf",
+    "dppsPdfCode": "1fdb0c31-cddb-4f92-9575-39a8f106a08d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Torsion in Circular Shafts 02 : Torsi...",
+    "lectureCode": "0e7960cf-f5ab-4859-8278-7dc7fe66477d",
+    "extId": "64d489d737bab20018c13d1a",
+    "key": "64d5baf63dcf6d0018813f30",
+    "classNotesCode": "c4da01d3-0bf2-466f-8b02-58e3edb2bc73.pdf",
+    "dppsPdfCode": "6deadf5c-11b0-4d82-8136-7ff408e55f74.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Torsion in Circular Shafts 01 : Torsi...",
+    "lectureCode": "cc00e896-3a23-4b9f-b51d-6de9da7ccfcb",
+    "extId": "64d36a283b8be800189a2a00",
+    "key": "64d46ac1b858b400184bd10f",
+    "classNotesCode": "29c9834b-12cf-4a7a-938d-250543a38ab7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Torsion in Circular Shafts DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "1fdb0c31-cddb-4f92-9575-39a8f106a08d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

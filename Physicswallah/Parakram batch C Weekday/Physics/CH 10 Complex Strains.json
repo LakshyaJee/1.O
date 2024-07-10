@@ -1,0 +1,22 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Complex Strains : One shot",
+    "lectureCode": "a1efb103-1e12-4168-8308-b10b6829517d",
+    "extId": "64f1ecb5c4a0000018b94e32",
+    "key": "64f560d464deb10018a5ad16",
+    "classNotesCode": "7a41bacb-0a92-4e61-835a-f40a6baae28d.pdf",
+    "dppsPdfCode": "2177cc0f-5725-4f7d-8fb3-b09fd4e1ce51.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Complex Strains DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "2177cc0f-5725-4f7d-8fb3-b09fd4e1ce51.pdf",
+    "dppsPdfCode": "ad07ec64-1e51-424d-9a8a-f0c0f5d8d677.pdf",
+    "dppsSolutionCode": ""
+  }
+]

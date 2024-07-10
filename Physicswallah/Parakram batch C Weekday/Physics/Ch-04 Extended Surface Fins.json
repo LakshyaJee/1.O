@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Extended Surface (Fins) 03 : Problems...",
+    "lectureCode": "02c63555-5681-4138-a19d-2c950be008ac",
+    "extId": "647b8d123c084d0018237003",
+    "key": "647ccd524d76e400184fae4f",
+    "classNotesCode": "c4585efe-f6b3-44a7-a013-c30979dfc268.pdf",
+    "dppsPdfCode": "c4585efe-f6b3-44a7-a013-c30979dfc268.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Extended Surface (Fins) 02 : Fins (Pa...",
+    "lectureCode": "c44bf14d-2a64-4f3a-9d96-90a65cb4f376",
+    "extId": "647b8cf52dece80018669fa2",
+    "key": "647cb3090982be00188f69b6",
+    "classNotesCode": "",
+    "dppsPdfCode": "80e30cbc-5dfd-4e09-8aad-88c6bbe2ac23.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Extended Surface (Fins) 01 : Fins (Pa...",
+    "lectureCode": "0976e86c-da2d-4bc8-94bc-94dba5ca3b5d",
+    "extId": "647ae2620b281a001871da05",
+    "key": "647b5eca03b10a001858b454",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Extended Surface Fins DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

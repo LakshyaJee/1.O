@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Steam Turbine 02 : Steam Turbine (Par...",
+    "lectureCode": "7ad2536c-05d5-4df3-bf20-8bc6c8c541d2",
+    "extId": "64e24fb37b3bcc0018b51d20",
+    "key": "64e3a8e146ba710018698545",
+    "classNotesCode": "8d154340-b10b-4a37-8a29-9d4cdac2b960.pdf",
+    "dppsPdfCode": "c2a3eecf-40ec-49ae-9a66-27500e58790d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Steam Turbine 01 : Steam Turbine (Par...",
+    "lectureCode": "390b9467-ef65-4384-9033-4f1e981df1c0",
+    "extId": "64e24f83ec8f7f00182783c5",
+    "key": "64e389abeeab100018cd4b1e",
+    "classNotesCode": "c2a3eecf-40ec-49ae-9a66-27500e58790d.pdf",
+    "dppsPdfCode": "b99d42e0-7d9b-4866-9242-39fed280df24.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Steam Turbine DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "b99d42e0-7d9b-4866-9242-39fed280df24.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

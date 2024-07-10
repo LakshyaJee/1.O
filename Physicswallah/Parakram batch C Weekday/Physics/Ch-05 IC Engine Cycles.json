@@ -1,0 +1,92 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "IC Engine Cycles 08 : 2 Stroke vs 4 S...",
+    "lectureCode": "5a5fd8f9-0718-4cf9-9a08-32ef1513cb25",
+    "extId": "64c181c120313700185cbbb9",
+    "key": "64c2922d468d2c00187459c6",
+    "classNotesCode": "1b1d6bb3-3cf0-4fd2-9427-4d0699757a27.pdf",
+    "dppsPdfCode": "0fce9ff7-6122-412a-b82b-41994ec59810.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "IC Engine Cycles 07 : Dual Cycle Anal...",
+    "lectureCode": "9e52ded3-4d9d-47f2-8e9b-6bb4a04c1e3a",
+    "extId": "64c0011e72c075001816f2e2",
+    "key": "64c147f2ae7a240018b1ea09",
+    "classNotesCode": "ce45c910-7980-4f97-bd19-c3edfd3b0528.pdf",
+    "dppsPdfCode": "238bda97-7746-4797-9bcf-f6d768a95b58.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "IC Engine Cycles 06 : Diesel Cycle An...",
+    "lectureCode": "6d6809be-5f30-4760-bdaa-77c3587c8dad",
+    "extId": "64bea1a2a3f77800187e3bdd",
+    "key": "64c01209174fb70018aaf186",
+    "classNotesCode": "814209ee-e818-4e17-a092-b4765004f6b0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "IC Engine Cycles 05 : Diesel Cycle An...",
+    "lectureCode": "5ae5a7dd-67aa-4766-9b3d-67532b5d604b",
+    "extId": "64bea180fcefce0018a64733",
+    "key": "64bff066b629b40018220681",
+    "classNotesCode": "55e4eca7-0157-45a2-bb32-e8fedf8183cc.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "IC Engine Cycles 04 : Otto Cycle Anal...",
+    "lectureCode": "f8d40448-7a1e-4f05-b714-242cb34c220b",
+    "extId": "64be0830c7e4c000182770d8",
+    "key": "64bec0491d9de900184c6861",
+    "classNotesCode": "3bf8cc52-bac7-4a36-914f-2e2a96f06efe.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "IC Engine Cycles 03 : Otto Cycle (Par...",
+    "lectureCode": "91196b09-5ffc-47f0-a85c-10592a48d311",
+    "extId": "64be07fb7d739d001808c7c5",
+    "key": "64be9e1e57201200182af1f8",
+    "classNotesCode": "0fce9ff7-6122-412a-b82b-41994ec59810.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "IC Engine Cycles 02 : Otto Cycle (Par...",
+    "lectureCode": "05566e48-2281-4934-9ab7-220e939908ee",
+    "extId": "64b97af20de8590018f66d86",
+    "key": "64bacd1bb215ea0018869196",
+    "classNotesCode": "238bda97-7746-4797-9bcf-f6d768a95b58.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "IC Engine Cycles 01 : Thermodynamic C...",
+    "lectureCode": "d973453d-297f-46c3-9e18-58240a282083",
+    "extId": "64b97ad7987a570018d6dcd5",
+    "key": "64baa8a8e319fa0018634121",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "IC Engine Cycles DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

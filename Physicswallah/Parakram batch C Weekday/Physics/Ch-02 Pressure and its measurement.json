@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Pressure and its measurement 06 : Sin...",
+    "lectureCode": "2e77ae1f-03a7-4626-8844-85376799350a",
+    "extId": "64233ff9abda6300180854b5",
+    "key": "64251ac9d7199900183a70b9",
+    "classNotesCode": "05b14efb-bf67-45d5-9f04-88b425c1e676.pdf",
+    "dppsPdfCode": "b4e443fa-0bbb-4991-892e-1f700ba2c0cb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Pressure and its measurement 05 : U-t...",
+    "lectureCode": "15d0162c-c86b-4fdf-a686-6a0821f00eb3",
+    "extId": "6421e96d4f5c6e0018a8ce81",
+    "key": "64232fe25f352500180c54c0",
+    "classNotesCode": "c7ab2877-309d-4a02-862c-c8797a48a9e0.pdf",
+    "dppsPdfCode": "5f123d1b-65b9-433f-9d4d-c48c4858e97b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Pressure and its measurement 04 : Hyd...",
+    "lectureCode": "319ce7c7-c326-483c-b700-94822d2f924f",
+    "extId": "6421e9050d041200188aaed9",
+    "key": "64230c9e76821100186a9f73",
+    "classNotesCode": "",
+    "dppsPdfCode": "7ed685a3-1a4a-4798-94ab-d2c60449260c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Pressure and its measurement 03 : Dif...",
+    "lectureCode": "65462abe-03bb-409e-b445-961269342124",
+    "extId": "6420785eb21a7900183c5ead",
+    "key": "6421e5470d041200188aad9d",
+    "classNotesCode": "",
+    "dppsPdfCode": "c9b4b867-43e3-4959-89d6-1e98fe3e9bb8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Pressure and its measurement 02 : Sin...",
+    "lectureCode": "3d65efed-9037-42cb-926b-1fbcf42d1bf6",
+    "extId": "642077195385670018715a29",
+    "key": "6421bb8e6bb2fc0018069a77",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Pressure and its measurement 01 : Pas...",
+    "lectureCode": "1a479361-bab2-49d0-808e-1cb6a82d7e80",
+    "extId": "641c8211df33e50018d0643d",
+    "key": "641dec2a26033e001813309a",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Pressure And Its Measurement DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Pressure and its measurement DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

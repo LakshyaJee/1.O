@@ -1,0 +1,132 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Fluid and its properties 09 : Capilla...",
+    "lectureCode": "adab7242-ba3b-46bf-9578-57b92f367bf7",
+    "extId": "641c81f200658000184768e6",
+    "key": "641dc7ab951a750018876f55",
+    "classNotesCode": "ab534da2-1d19-469b-90a1-7fd1e4820a1d.pdf",
+    "dppsPdfCode": "3b053979-ec44-4b83-bb15-8d083d5a9184.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Fluid and its properties 08 : Surface...",
+    "lectureCode": "7592c13b-3555-40c5-93c3-0137f9185c67",
+    "extId": "641b29bdb43e5d016ae7b337",
+    "key": "641c99a2400b280018ea3404",
+    "classNotesCode": "88b8c263-02cc-4ea8-9f98-5e7604b127a5.pdf",
+    "dppsPdfCode": "be7941b6-2a4c-4c8a-8c37-cbfa731cc270.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Fluid and its properties 07 : Surface...",
+    "lectureCode": "ef4367eb-20be-4c34-ba22-8d10c62d482a",
+    "extId": "641b299cb43e5d016ae7b333",
+    "key": "641c7a8300658000184766af",
+    "classNotesCode": "cd9273d6-68a9-46f7-a811-4dd7e8b7be18.pdf",
+    "dppsPdfCode": "4705169e-bc41-47dc-aa5e-d9a69b665fc9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Fluid and its properties 06 : Vapour ...",
+    "lectureCode": "82edd906-0c79-4684-8a8f-b8ac307d5a7b",
+    "extId": "6419d7c5c1794100184beaf1",
+    "key": "641b463776296d0018260196",
+    "classNotesCode": "6884d232-3b82-4bc4-a040-08ec2a640936.pdf",
+    "dppsPdfCode": "1881142b-cdc4-4d41-92c4-4ad43bcaa846.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Fluid and its properties 05 : Non-new...",
+    "lectureCode": "24618472-8c3e-4af5-bea3-5a47380638ab",
+    "extId": "6419d79c197977001827ee1a",
+    "key": "641b215c9d8257001839c0a4",
+    "classNotesCode": "50fd2400-8282-4ee3-87ab-ed44c1c5112f.pdf",
+    "dppsPdfCode": "d68be3db-54fc-4c41-aa20-2a3093970c1f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Fluid and its properties 04 : Viscosity",
+    "lectureCode": "428d3b6e-7f70-43dc-a5b9-f3bd8efbe07b",
+    "extId": "641884d4764a5900183e51ee",
+    "key": "6419f4c1479c9b001851fe5a",
+    "classNotesCode": "00e4adc4-2e1d-445a-8928-c37d14e37e76.pdf",
+    "dppsPdfCode": "9662d9aa-ee08-4ae3-8021-698dfd21ab98.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Fluid and its properties 03 : Basic p...",
+    "lectureCode": "648d7d4e-eca9-45c4-a31d-8c0eae894c8c",
+    "extId": "641884935898750018bf6297",
+    "key": "6419d499f1223500186832d6",
+    "classNotesCode": "c5c6cedd-53d9-407b-a716-66fdb8ab520d.pdf",
+    "dppsPdfCode": "45057f69-65f8-419a-bf14-8e7055169ecd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Fluid and its properties 02 : Concept...",
+    "lectureCode": "a0b66a69-606d-4693-b10d-6b1c46aa923e",
+    "extId": "64174784f6fa8b0017c4255b",
+    "key": "6418a816d45a8d00188705f2",
+    "classNotesCode": "6127d253-a09f-4361-b2ed-4a37a6aeca14.pdf",
+    "dppsPdfCode": "66401586-18f7-4040-b5d2-69abbf1ab031.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Fluid and its properties 01 : Introdu...",
+    "lectureCode": "66fe239b-35ff-422f-8710-e1a45d652d2a",
+    "extId": "641747315ab0160019129f5b",
+    "key": "64188c96764a5900183e5455",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Fluid and its properties DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Fluid and its properties DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Fluid and its properties DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Fluid and its properties DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

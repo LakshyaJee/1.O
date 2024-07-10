@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Design Against Fluctuating Loads 04 :...",
+    "lectureCode": "dda258c7-750b-4699-bf76-29ccd95f6eca",
+    "extId": "64a3019bd4998200188bedef",
+    "key": "64a448d0c2df9800194eb939",
+    "classNotesCode": "bc588b56-7d5f-4c27-9bb4-d57cba2fb58a.pdf",
+    "dppsPdfCode": "1f73e953-bc8f-4d98-a8be-577574c51f03.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Design Against Fluctuating Loads 03 :...",
+    "lectureCode": "26dd4c95-14cf-4a9b-aa9d-11821c26af72",
+    "extId": "64a19a80bde9e90018504ff2",
+    "key": "64a314d53266c7001831d9d4",
+    "classNotesCode": "",
+    "dppsPdfCode": "59fcec36-730a-42a8-8fb7-3f0c6a7752ee.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Design Against Fluctuating Loads 02 :...",
+    "lectureCode": "b6b5da0b-5c7a-47ab-abe6-9f2c735d36d3",
+    "extId": "64a19a65cfb4580018b2fe7c",
+    "key": "64a2f4deae06d100180437e0",
+    "classNotesCode": "",
+    "dppsPdfCode": "b8c3a872-8ba6-4f7e-9138-df30a048d4f6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Design Against Fluctuating Loads 01 :...",
+    "lectureCode": "60addb96-a0e3-4a20-9a59-9b942a7c36a2",
+    "extId": "649e4ec1e200b700185760f5",
+    "key": "649f1fdf3a52480018273feb",
+    "classNotesCode": "",
+    "dppsPdfCode": "226a4481-420c-4edb-856d-4a7299654ee9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Design Against Fluctuating Loads DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "995faf7a-cc6e-4e7b-ae0c-85be49134df8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Design Against Fluctuating Loads DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "8dd0d665-8b12-4265-b22c-be65c5c981ff.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Design Against Fluctuating Loads DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

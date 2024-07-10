@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "VCRS 06 : Vapour absorption refrigera...",
+    "lectureCode": "5e3bfc34-4eec-4fdc-a675-5630064b1497",
+    "extId": "64b04b40bd401700186b5624",
+    "key": "64b19308991b480018a5914b",
+    "classNotesCode": "279415f7-8e55-40d1-b6ec-5f790cad315d.pdf",
+    "dppsPdfCode": "7ecc9f40-a484-4572-9c51-e3c9b446ca9a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "VCRS 05  Vapour Absorption System Ana...",
+    "lectureCode": "4f6d861c-8c88-4304-9a14-67bc9429cc22",
+    "extId": "64b03bb1b64f20001868c329",
+    "key": "64b1721ad3e5d30018d7d705",
+    "classNotesCode": "",
+    "dppsPdfCode": "1fdd0a56-5d29-4c58-bbb9-f55134c01d9a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "VCRS 04 : Vapour Absorption System",
+    "lectureCode": "4726c706-2a1a-427d-9c41-690a7362e35f",
+    "extId": "64aeedd0220a4d0018d89b01",
+    "key": "64b040d9368f34001863dd40",
+    "classNotesCode": "",
+    "dppsPdfCode": "d9f27d2b-851b-40e9-ab65-90ca80b10982.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "VCRS 03 : Analysis of VCRS |",
+    "lectureCode": "e7195685-f8ec-48ae-9b30-115d434b1458",
+    "extId": "64aeed862dc417001851071c",
+    "key": "64b01e8e3d1a1800182b9c20",
+    "classNotesCode": "",
+    "dppsPdfCode": "279415f7-8e55-40d1-b6ec-5f790cad315d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "VCRS 02  VCRS",
+    "lectureCode": "af9ecd4c-8f79-4b4f-a2ec-6725fc5db039",
+    "extId": "64adb5215ca4820018b92255",
+    "key": "64aef1d9e82a9a00181dc4f9",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "VCRS 01  Reversed Carnot Cycle",
+    "lectureCode": "14881037-796b-46d8-8a7b-6e0f6a7f2109",
+    "extId": "64adb72a4672d600185285f7",
+    "key": "64aecd0d090b3d0019bb53ca",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "VCRS DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "VCRS DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

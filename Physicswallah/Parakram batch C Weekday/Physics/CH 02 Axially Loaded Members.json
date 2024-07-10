@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Axially Loaded Members 04 : Axially L...",
+    "lectureCode": "e947467e-edc3-4eb3-a898-5d20ec3f6cd0",
+    "extId": "64d2127e6499fd0018a296c8",
+    "key": "64d31a6adea3dd001817f981",
+    "classNotesCode": "d4411c30-468f-4953-bf9f-4c128c128a00.pdf",
+    "dppsPdfCode": "4fe4446b-3165-47c4-9903-f223eb5e3917.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Axially Loaded Members 03 : Axially L...",
+    "lectureCode": "3ab998d4-1dff-4ce7-89fc-ca63c331d90e",
+    "extId": "64d0b66f13824800185f2168",
+    "key": "64d1ca3d8d2d250018e9090c",
+    "classNotesCode": "6080656e-49e8-4e9c-90d0-57ec62780218.pdf",
+    "dppsPdfCode": "f4b3d2f4-a02c-4dfa-8383-4e3df4acd234.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Axially Loaded Members 02 : Axially L...",
+    "lectureCode": "47c070dc-c33d-4f9c-84b1-178de2a88f15",
+    "extId": "64cfe9e64913900018ce3804",
+    "key": "64d075a4e079600019ffcf39",
+    "classNotesCode": "c34c868c-77b0-46ab-98cf-f6884bb6c41a.pdf",
+    "dppsPdfCode": "aa3109c5-f17e-4fe3-999f-62d39e216db0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Axially Loaded Members 01 : Axially L...",
+    "lectureCode": "d2776a9f-f1ed-4d3d-8c78-b2042551a9aa",
+    "extId": "64cb62ac93452e0018f3a992",
+    "key": "64cc7ff0a4110d00185baa49",
+    "classNotesCode": "2fbc9519-54ae-4ad8-9bef-10545f27899f.pdf",
+    "dppsPdfCode": "56edce2f-95e1-44cc-8141-5f399d425a87.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Axially Loaded Members DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "4fe4446b-3165-47c4-9903-f223eb5e3917.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Axially Loaded Members DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "f4b3d2f4-a02c-4dfa-8383-4e3df4acd234.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

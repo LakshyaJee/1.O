@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Turbulent Flow 03 : Turbulent Flow (P...",
+    "lectureCode": "4d96ead3-eb67-4f23-886a-7bc0259e7719",
+    "extId": "657074165e5aea0018337d51",
+    "key": "657035161dec290018d5e5cf",
+    "classNotesCode": "b194386f-876b-49d0-a928-962b1cec6dca.pdf",
+    "dppsPdfCode": "0dca7a22-5f43-4ea6-b035-2dcb98f831aa.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Turbulent flow 02 : Turbulent flow (P...",
+    "lectureCode": "5b937d4c-b79e-4a94-91fb-151dcc6b9094",
+    "extId": "647240eef776ef001857aa5c",
+    "key": "647390182dd1f40018d31e27",
+    "classNotesCode": "0dca7a22-5f43-4ea6-b035-2dcb98f831aa.pdf",
+    "dppsPdfCode": "948ba5fe-4663-42ee-aa19-ab5360e6c18c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Turbulent flow 01 : Turbulent flow (P...",
+    "lectureCode": "c6f5c67c-d8fe-4c71-8332-d0875d9ae4da",
+    "extId": "647240cd2a93b900186a8636",
+    "key": "64737178c1c60400181c3c05",
+    "classNotesCode": "948ba5fe-4663-42ee-aa19-ab5360e6c18c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Turbulent Flow DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

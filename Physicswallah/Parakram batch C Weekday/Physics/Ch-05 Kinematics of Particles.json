@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Kinematics of Particles 03 : 2-D Tran...",
+    "lectureCode": "4cada41e-1bc5-4ea2-8293-41d7be0b2985",
+    "extId": "63fbb67c518dba01c791bbfd",
+    "key": "63fcf70935e9580018729ca3",
+    "classNotesCode": "4d98b8aa-c890-4e3a-a8c7-9278707edb71.pdf",
+    "dppsPdfCode": "ade59c85-5658-4e6e-89e0-d92e40293088.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Kinematics of Particles 02 : 2-D Tran...",
+    "lectureCode": "3caccb7b-1e44-4138-858a-175c878568a7",
+    "extId": "63fbb625f6580800188980ab",
+    "key": "63fccd9b6779ea0018b09448",
+    "classNotesCode": "7883013a-154c-414b-bac8-f3330070ecb7.pdf",
+    "dppsPdfCode": "80a64cf8-e07c-4832-9744-eac0b11e0924.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Kinematics of Particles 01 : 1-D Tran...",
+    "lectureCode": "ba81769d-8a32-4ab4-a471-d53f0eff6152",
+    "extId": "63f7c1b333d42e00183bb353",
+    "key": "63f8f862ed3ecc001857af21",
+    "classNotesCode": "9377cddc-8632-4df1-9fb5-35fa3b7ac708.pdf",
+    "dppsPdfCode": "275ba73d-1033-491c-b7d5-d5efd1313bca.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Kinematics Of Particles PYQ's Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "ade59c85-5658-4e6e-89e0-d92e40293088.pdf",
+    "dppsPdfCode": "7e0d97b5-8b00-486e-b747-01daa7519b9c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Kinematics of Particles DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "80a64cf8-e07c-4832-9744-eac0b11e0924.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Kinematics of Particles DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "275ba73d-1033-491c-b7d5-d5efd1313bca.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

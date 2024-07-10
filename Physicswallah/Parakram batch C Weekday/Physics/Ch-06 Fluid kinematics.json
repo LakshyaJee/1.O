@@ -1,0 +1,92 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Fluid kinematics 06 : Velocity potent...",
+    "lectureCode": "db327330-ca91-42a3-b5d0-d7f4f6ef4aa3",
+    "extId": "64367354b864f700186acc1a",
+    "key": "6436d5a7cc96b00018c8ea69",
+    "classNotesCode": "eee75e94-22a6-451b-95a8-7cb8370eec57.pdf",
+    "dppsPdfCode": "a2ba7b6d-8364-4db7-ab04-be81eb7d3325.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Fluid kinematics 05 : Rotational comp...",
+    "lectureCode": "c9c55bb2-aef9-4aba-9aec-efb6fd281612",
+    "extId": "642f0592725d4500183a8a02",
+    "key": "64303d91ae281e00189c95e5",
+    "classNotesCode": "d2ff0ef0-a3ab-4e7a-a807-015d00f516a3.pdf",
+    "dppsPdfCode": "dcee7cf3-0ec4-4cad-8eb3-e676987383ae.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Fluid kinematics 04 : Velocity Potent...",
+    "lectureCode": "613b4356-2ed8-4e30-86b9-eb02ddbbee6b",
+    "extId": "642db26e4dacb30018b4e594",
+    "key": "642f0c946b5a2a0018f1a747",
+    "classNotesCode": "a2ba7b6d-8364-4db7-ab04-be81eb7d3325.pdf",
+    "dppsPdfCode": "ed933e64-e4f4-45b3-942b-7a01bf884c24.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Fluid kinematics 03 : Acceleration of...",
+    "lectureCode": "06fea736-d8a1-4a80-9c66-e5907b9e6c6d",
+    "extId": "642db24b8733400018f8d61c",
+    "key": "642ee90109c804001887e813",
+    "classNotesCode": "6679d13b-bdf7-499b-a181-5e386fe9e5c3.pdf",
+    "dppsPdfCode": "6679d13b-bdf7-499b-a181-5e386fe9e5c3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Fluid kinematics 02 : Continuity Equa...",
+    "lectureCode": "6f35aaa0-99ca-4af3-8c4b-cc7516fddcd6",
+    "extId": "642c5ae95d21cb0018968d40",
+    "key": "642dbc2b715af800188ce573",
+    "classNotesCode": "",
+    "dppsPdfCode": "170a540b-aaaf-4beb-aecc-d4f9191f9640.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Fluid kinematics 01 : Type of flow",
+    "lectureCode": "3d010bd2-4d2e-4017-b1f9-9e3e21bec3df",
+    "extId": "642c5aa2e9c6e00018fc2f1d",
+    "key": "642d9832efb31f00181ada7b",
+    "classNotesCode": "",
+    "dppsPdfCode": "b1a3ed3c-9533-4cb1-9c2e-56127bdf7e2e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Fluid Kinematics DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Fluid Kinematics DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Fluid Kinematics DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

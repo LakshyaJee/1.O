@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Thermodynamic Relations 02: Thermodyn...",
+    "lectureCode": "80f44dc1-6b16-4322-8ddb-68b6e40c3e36",
+    "extId": "64cd43883460c60018ab1ac4",
+    "key": "64a28e0b36491e00181d8ba9",
+    "classNotesCode": "9bf35ace-a60d-407a-a0b2-c7c146a7313e.pdf",
+    "dppsPdfCode": "a617d68f-9b27-4d4d-be2e-958d6ddab477.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Thermodynamic Relations 01: Thermodyn...",
+    "lectureCode": "e5fba81b-410f-461d-a018-e4e163fcec70",
+    "extId": "64cd40dd7822360018d7b18e",
+    "key": "649eca16e33a610018a74473",
+    "classNotesCode": "f60222bb-9069-42de-a9f3-936df97f59a2.pdf",
+    "dppsPdfCode": "3f069f06-c378-4e81-a935-5447834b0e59.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Thermodynamic Relations DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "a617d68f-9b27-4d4d-be2e-958d6ddab477.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

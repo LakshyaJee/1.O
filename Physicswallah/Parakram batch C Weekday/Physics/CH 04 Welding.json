@@ -1,0 +1,92 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Welding 06 : Other Welding Techniques...",
+    "lectureCode": "1dee25db-b801-4633-841c-b24f3879923b",
+    "extId": "64f8b5ec14f2340018dc67b4",
+    "key": "64fa0844a67cc600180899b9",
+    "classNotesCode": "034dd6fd-d081-433e-925f-5fb4d6160f3e.pdf",
+    "dppsPdfCode": "cddb2ba1-c839-450b-a9af-84e6482a6e53.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Welding 05 : Resistance Welding (No DPP)",
+    "lectureCode": "f10eaa90-842c-48d2-89f5-8252658c3b4c",
+    "extId": "64f8b5ce266a41001806d4e0",
+    "key": "64f9ed1d92b12000188753cf",
+    "classNotesCode": "6f9a6526-bce1-4565-9dce-6a601a278711.pdf",
+    "dppsPdfCode": "9d667ada-2ea2-4dfa-9edf-afb89393893d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Welding 04 : Gas Flame Process",
+    "lectureCode": "b6bf63c7-6376-43e5-a1d2-d94050a414bc",
+    "extId": "64f757f229cf5f00181c3a0b",
+    "key": "64f8b99dd37d0f00183b1c3c",
+    "classNotesCode": "686c9566-4009-4a46-b82a-26b244bf7b7a.pdf",
+    "dppsPdfCode": "88397706-8859-4c9f-aa3d-c01ac09ed436.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Welding 03 : Duty cycle, Electrode, E...",
+    "lectureCode": "3b91abb5-0087-4d68-8883-c987a95d1351",
+    "extId": "64f757cd29cf5f00181c3a00",
+    "key": "64f89c1c3430d00019035b69",
+    "classNotesCode": "6a5c99f8-0061-4cff-a464-bd396742bfc1.pdf",
+    "dppsPdfCode": "5253de89-3c5a-495d-a411-a4b075e82611.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Welding 02 : Electric Arc Welding",
+    "lectureCode": "647205ae-0ce5-48ec-a64a-7a87a860887f",
+    "extId": "64f600db6814840018769714",
+    "key": "64f76ae983d89800189e7f3d",
+    "classNotesCode": "2402d6d8-7ff4-4430-8de2-3692b197b65e.pdf",
+    "dppsPdfCode": "a3bb0ef8-2293-4943-8964-5b80030d40bb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Welding 01 : Weldability",
+    "lectureCode": "e1fa25ef-84fe-4ab3-aacc-87e3a837811f",
+    "extId": "64f600b8fb60a600181691d1",
+    "key": "64f7473d61723b00180e9a6b",
+    "classNotesCode": "9bc66ef0-cfa0-46c3-80a4-f77d6dba23b5.pdf",
+    "dppsPdfCode": "27a94382-4770-4df5-8b0f-153aafbfd4e7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Welding DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "cddb2ba1-c839-450b-a9af-84e6482a6e53.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "WELDING DPP DISCUSSION...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "9d667ada-2ea2-4dfa-9edf-afb89393893d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Welding DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "88397706-8859-4c9f-aa3d-c01ac09ed436.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

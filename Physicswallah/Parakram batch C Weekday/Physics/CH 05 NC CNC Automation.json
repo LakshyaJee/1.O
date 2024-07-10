@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "NC, CNC & Automation 03 : G-Code (Par...",
+    "lectureCode": "d26c3a13-c356-48a8-a624-a4eab18108c6",
+    "extId": "64fb63023913c600188c9aa4",
+    "key": "64ff4e348c19860018bc27ca",
+    "classNotesCode": "2378a86a-f3d8-4929-88ee-9394f303a7e7.pdf",
+    "dppsPdfCode": "c9a342a3-34a9-4ae2-a737-0bb488ab54e0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "NC, CNC & Automation 02 : BLU",
+    "lectureCode": "a7108282-22e5-43e1-9155-4e004668e2e7",
+    "extId": "64fb62be26a11f00188fddd3",
+    "key": "64ff334ebccecb001930b669",
+    "classNotesCode": "44c7daa7-94f8-4ccf-b0c7-0f356ff21fc6.pdf",
+    "dppsPdfCode": "19d75505-f07a-4801-a703-d3bf193e6271.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "NC, CNC & Automation 01 : What is NC,...",
+    "lectureCode": "69df244a-296a-4898-8a7e-38fdc5ca05f2",
+    "extId": "64fa056dabcb170018d54e9a",
+    "key": "64fb3fd181ffb10018471e7b",
+    "classNotesCode": "3563da68-ab79-4e7b-a303-62b9bc251c7e.pdf",
+    "dppsPdfCode": "8022ad52-bd91-4697-b535-70ddacbca51e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "NC CNC Automation DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "c9a342a3-34a9-4ae2-a737-0bb488ab54e0.pdf",
+    "dppsPdfCode": "9b05b303-b9d7-4adf-bb9f-e2de193f3e9e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "NC CNC AUTOMATION DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "19d75505-f07a-4801-a703-d3bf193e6271.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

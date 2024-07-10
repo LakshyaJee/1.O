@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Clutches 04 : Clutches (Part- 04)",
+    "lectureCode": "85de9f7c-bef3-4cba-8dd2-effc099f3c60",
+    "extId": "6495231e298a7200184527d6",
+    "key": "6495bed5da31d40018703b11",
+    "classNotesCode": "22b49662-b24e-4093-8fba-a98943536360.pdf",
+    "dppsPdfCode": "342f088f-58be-480e-aebe-206a12515318.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Clutches 03 : Clutches (Part- 03)",
+    "lectureCode": "f340c8a4-024b-4f53-b327-ad01680cc92f",
+    "extId": "64933320aa2d17001873a611",
+    "key": "649491de0a321a00183c2ade",
+    "classNotesCode": "50cc442e-d0a3-42b1-ac64-e46e2ec8deef.pdf",
+    "dppsPdfCode": "bae19639-90ed-42bd-9a1e-7e4522296fb1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Clutches 02 : Clutches (Part- 02)",
+    "lectureCode": "9cb78cb8-f3dd-4321-9fbb-2dc844cc6712",
+    "extId": "6493330b43c98600185421d8",
+    "key": "6494719fe0eb51001890c3c6",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Clutches 01 : Clutches (Part- 01)",
+    "lectureCode": "addd3e2f-6a09-46ef-b6a4-56280bc68c38",
+    "extId": "6491f4d7994531001854b21d",
+    "key": "64933c2038b09c0018f56ff6",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Clutches DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

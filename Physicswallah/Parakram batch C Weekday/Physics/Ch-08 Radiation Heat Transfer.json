@@ -1,0 +1,102 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Radiation Heat Transfer 08 : Radiatio...",
+    "lectureCode": "20c4c275-5e7c-4561-9231-8f26b860325b",
+    "extId": "64a4568f919d5c00186d9ac5",
+    "key": "64a5629735da6b00183a1048",
+    "classNotesCode": "",
+    "dppsPdfCode": "1645a193-a8c0-4bd5-8dd0-8ec56044b78b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Radiation Heat Transfer 07 : Radiatio...",
+    "lectureCode": "450ba93f-f3fb-4fc1-9cd0-5c186fe874e4",
+    "extId": "64a38ec7911823001859b7ad",
+    "key": "64a42126cd66f90018504205",
+    "classNotesCode": "",
+    "dppsPdfCode": "c16e991b-15c2-4ffd-809b-0940f1106e94.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Radiation Heat Transfer 06 : Radiatio...",
+    "lectureCode": "8469ccda-729e-4340-9664-e02ada3335fd",
+    "extId": "64a0875dbcec0500189e67e8",
+    "key": "64a1bbc3cc4943001846170f",
+    "classNotesCode": "",
+    "dppsPdfCode": "6f5960a9-b655-4278-90ad-0f4de3576d7b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Radiation Heat Transfer 05 : Radiatio...",
+    "lectureCode": "3619cbf4-2c31-4dbf-854d-17ba8ee6b8ca",
+    "extId": "64a08739bde9e900184fa69c",
+    "key": "64a19c0386a6280018c986e4",
+    "classNotesCode": "",
+    "dppsPdfCode": "5ddf1f66-66b1-4da1-9a2a-1786fe6d5ec1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Radiation Heat Transfer 04 : Radiatio...",
+    "lectureCode": "59a0ba7c-eaf0-4e54-a565-d6f99e69da02",
+    "extId": "649ff182ce2b560019f6beec",
+    "key": "64a070ffbde9e900184fa1db",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Radiation Heat Transfer 03 : Radiatio...",
+    "lectureCode": "3064681c-5d8d-4037-a941-e04a15f32c20",
+    "extId": "649ff0c439410100189753c0",
+    "key": "64a04b3151e81f001892f3d5",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Radiation Heat Transfer 02 : Radiatio...",
+    "lectureCode": "24ca8921-06b2-44e7-a2c7-6d6a61c81def",
+    "extId": "6497dbc85f5a1a00180a806a",
+    "key": "649889333efb9c0018c62641",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Radiation Heat Transfer 01 : Radiatio...",
+    "lectureCode": "252ac99b-dfb8-493d-9f0b-09d6b7c9e146",
+    "extId": "6497db74a38a37001860d395",
+    "key": "6498546eae809a0018c9611d",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Radiation Heat Transfer DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Radiation Heat Transfer DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

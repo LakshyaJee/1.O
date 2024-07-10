@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Application of Thermodynamics Axial A...",
+    "lectureCode": "5959f071-9ede-4a2b-9d25-7a16931e42f1",
+    "extId": "64de6ab369cd7e0018d6b8e1",
+    "key": "64dfb537b328c40018b09aed",
+    "classNotesCode": "603613eb-ae6e-482f-9215-1cb8c050ff46.pdf",
+    "dppsPdfCode": "4036aaab-689e-401b-be43-a2e3c05900d5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Application of Thermodynamics Axial A...",
+    "lectureCode": "c73c5e7b-b006-436e-bd11-f02e1c5c4913",
+    "extId": "64de6a78dadbb90018673739",
+    "key": "64df92c31d77210018a49827",
+    "classNotesCode": "d6ffdaa4-49a2-4d68-9154-49b3bec3ed94.pdf",
+    "dppsPdfCode": "3e492454-180b-4394-9010-aeb2d8accc69.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Application of Thermodynamics Axial A...",
+    "lectureCode": "911858be-c44c-450c-8252-13ba1d2d75b8",
+    "extId": "64dd23865e2ac50018164df9",
+    "key": "64de639d1539700018b934f7",
+    "classNotesCode": "65faa503-9bb5-42c7-bdcb-3a078bc50c2a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Axial Air Compressor DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "4036aaab-689e-401b-be43-a2e3c05900d5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

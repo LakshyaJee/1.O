@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Basic Concepts 04 : Force Systems Par...",
+    "lectureCode": "980a9dc9-7359-4e1e-83b9-be1d7499b539",
+    "extId": "63ed23f17c1f0e001988e250",
+    "key": "63ee6df648e91c00185acffb",
+    "classNotesCode": "0b4241c2-7f40-416e-bf5c-f81c2810b2d9.pdf",
+    "dppsPdfCode": "7f60723a-682b-4695-aacd-b931a4fff512.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Basic Concepts 03 : Force Systems Par...",
+    "lectureCode": "92e97203-6a9f-4b0c-be32-5c315400322c",
+    "extId": "63ed23749a0b6800187aa0a8",
+    "key": "63ee4d9dda5d720018be3e14",
+    "classNotesCode": "7d55a821-0cf2-443a-9082-77c10f11c9c9.pdf",
+    "dppsPdfCode": "bf17a532-5d88-48f2-aa5a-13f43b93b637.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Basic Concepts 02 : Force and Moment",
+    "lectureCode": "145685f2-0303-4a5a-b90c-b5bdb5daf247",
+    "extId": "63ebc9b6c592970018042f43",
+    "key": "63ed1dc2dac2010018d5a489",
+    "classNotesCode": "2e2c3692-e92a-4035-8303-e5660978cf55.pdf",
+    "dppsPdfCode": "9426aaf0-e69b-4eb7-b9e7-f9078e884ab5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Basic Concepts 01 : Introduction",
+    "lectureCode": "ac95af59-5ad4-4bb4-bcbf-c62a09c97f83",
+    "extId": "63ebc9501f7019001816b018",
+    "key": "63edb4b4ce676800180eda82",
+    "classNotesCode": "c182ebe1-e41e-481f-bc55-ba5f6cf2122b.pdf",
+    "dppsPdfCode": "90e09cb7-7ded-4afd-8acb-c9e8914289e0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Basic Concepts PYQ's Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "ba198a06-2f5e-4de4-98db-f070017f531b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Basic Concepts DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "7f60723a-682b-4695-aacd-b931a4fff512.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Basic Concepts DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "90e09cb7-7ded-4afd-8acb-c9e8914289e0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

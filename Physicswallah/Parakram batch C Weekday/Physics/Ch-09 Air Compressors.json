@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Air Compressors 03 : Reciprocating Ai...",
+    "lectureCode": "20b0f057-905d-449d-ba37-132de9ba4c68",
+    "extId": "64d9c49061f6fe0018c28b4b",
+    "key": "64da4d4e8ce5e3001897c186",
+    "classNotesCode": "8bb262c4-6649-4a7d-9d21-acc6a911539a.pdf",
+    "dppsPdfCode": "c46484cd-1d9d-4ff8-812f-d93c3d83b229.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Air Compressors 02 : Reciprocating Ai...",
+    "lectureCode": "8f123e17-f847-4ca7-a761-c630672e93f1",
+    "extId": "64d51fbb3ff3b20018e60494",
+    "key": "64d67964fee8cb0018fa2c36",
+    "classNotesCode": "75004fdf-7ca0-4f39-820d-aec0b9afa5af.pdf",
+    "dppsPdfCode": "f1b77639-fa0f-4446-a5b8-a5d17f363815.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Air Compressors 01 : Reciprocating Ai...",
+    "lectureCode": "0335b36a-b6b0-4c4b-8eef-39b7eff33ccf",
+    "extId": "64d51f75c2e3670018fc4fce",
+    "key": "64d656d87c8f550018d3088e",
+    "classNotesCode": "7a3d9b98-d8f5-47a8-9688-d7fdcbdb2eb5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Air Compressors DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "c46484cd-1d9d-4ff8-812f-d93c3d83b229.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

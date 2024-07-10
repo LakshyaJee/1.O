@@ -1,0 +1,112 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Theory of Metal Cutting 08 : Force An...",
+    "lectureCode": "771d71c5-5c7d-4ec1-9241-9f5c071436f4",
+    "extId": "64ecde2ebd3b7300180e0bb6",
+    "key": "64ee3322617bc00018025ef8",
+    "classNotesCode": "ed5e0505-643a-4289-beea-aa3793f8ffc9.pdf",
+    "dppsPdfCode": "26660e92-9630-47b8-8b4b-b311dd78aad0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Theory of Metal Cutting 07 : MCD, For...",
+    "lectureCode": "4badbdce-d967-41ab-b0b6-8f72735fe99c",
+    "extId": "64ecde0690f52d00188a3e07",
+    "key": "64ee11d6c118dd001838b156",
+    "classNotesCode": "dedb0452-41e4-4f7f-8375-9a57ed580417.pdf",
+    "dppsPdfCode": "73f6704a-fa1b-47c0-afa9-e97c3bba20e0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Theory of Metal Cutting 06 : Cause of...",
+    "lectureCode": "b0a4cc04-7e12-4c29-a39e-d5f140550abe",
+    "extId": "64e90386f4040e0018ffaf70",
+    "key": "64ece38379969a00187bc912",
+    "classNotesCode": "20246fa9-f164-4941-8045-77818e6ad59a.pdf",
+    "dppsPdfCode": "76ebf8c1-64f3-437f-b593-a54dee794206.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Theory of Metal Cutting 05 : Cutting ...",
+    "lectureCode": "5db448b0-eb58-45c5-8e20-b3cb8e71670a",
+    "extId": "64e90329544f7f0018381edf",
+    "key": "64ecc3b3eb32e800186addbf",
+    "classNotesCode": "2f2b1620-3d39-4220-b387-43f7507a2d5a.pdf",
+    "dppsPdfCode": "0fcdc571-0a3c-4381-9ac9-555825a484e6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Theory of Metal Cutting 04 : Geometry...",
+    "lectureCode": "483f5e9c-6fdb-4e85-a2a7-01c61ddbade1",
+    "extId": "64e65cc11971bc0018c0db62",
+    "key": "64e79066ca7e0e00184f1eba",
+    "classNotesCode": "b8a70925-e332-423c-b24b-bc36fa035619.pdf",
+    "dppsPdfCode": "382d1de5-63d2-44ee-951e-798716140822.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Theory of Metal Cutting 03 : Geometry...",
+    "lectureCode": "d408ff96-5483-4a19-b587-ea9a103a4d45",
+    "extId": "64e65c9201fe1700185cfadb",
+    "key": "64e7792f65e9d60018960dae",
+    "classNotesCode": "778b4710-8579-4962-8f14-1a3775567788.pdf",
+    "dppsPdfCode": "c04118e9-7d6c-4b46-85a4-31231ebe6eb1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Theory of Metal Cutting 02 : Tooling ...",
+    "lectureCode": "b2251e91-d622-422d-9a3c-ff6b8c298cab",
+    "extId": "64e4f857429ac00018c50f4e",
+    "key": "64e64cf056fdb000185de2da",
+    "classNotesCode": "072ea840-86f0-4732-872d-304103848548.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Theory of Metal Cutting 01 : Machinin...",
+    "lectureCode": "2afcd5dd-8a48-498d-879f-6269d2dfc34a",
+    "extId": "64e4f80e277a8f00182936df",
+    "key": "64e62806d095b700185a9dcb",
+    "classNotesCode": "79b68e79-39dc-492f-b0b2-085b727e414b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Theory of Metal Cutting DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "26660e92-9630-47b8-8b4b-b311dd78aad0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Theory of Metal Cutting -DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "73f6704a-fa1b-47c0-afa9-e97c3bba20e0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Theory Of Metal Cutting DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "76ebf8c1-64f3-437f-b593-a54dee794206.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

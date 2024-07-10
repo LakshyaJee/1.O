@@ -1,0 +1,92 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "IC Engine Performance 07 : Pollutions...",
+    "lectureCode": "bcbb1479-80df-471e-a487-bd97d95ecdbb",
+    "extId": "64c96a5f743e530018b8139a",
+    "key": "64ca7f8a36dc6900189c36a7",
+    "classNotesCode": "a8ce321a-e682-433d-9b27-7076cd699fe9.pdf",
+    "dppsPdfCode": "208ac7ba-8557-41bb-92e0-ae620dc9bc14.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "IC Engine Performance 06 : Knocking i...",
+    "lectureCode": "d1b26689-8a64-4ecd-ac06-b4c2f59081c7",
+    "extId": "64c87725736c7e001863d5ca",
+    "key": "64c94b8ac314a80018168c62",
+    "classNotesCode": "cada4d19-07ac-4e1f-8548-326b9666e790.pdf",
+    "dppsPdfCode": "bd59ab88-0d58-4413-8894-d1e7d96559e7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "IC Engine Performance 05 : Combustion...",
+    "lectureCode": "323485e0-0617-491a-93aa-0a77e1922f6d",
+    "extId": "64c876ff8db5de00187e6062",
+    "key": "64c93bbeb353240018f72cc5",
+    "classNotesCode": "2453e111-8cc6-4322-862d-25328279215a.pdf",
+    "dppsPdfCode": "7b2d6d3e-8533-44db-9e44-faf5c4238cd4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "IC Engine Performance 04 : Combustion...",
+    "lectureCode": "fb467337-30cb-4495-9942-73a043d08949",
+    "extId": "64c6b70571113e0018a5ab1e",
+    "key": "64c8a3b09643da001823e398",
+    "classNotesCode": "1fd411d2-97d5-4731-b0fa-64ed3287541c.pdf",
+    "dppsPdfCode": "0440a040-f89f-458a-80ad-ce9e7dfc1233.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "IC Engine Performance 03 : Combustion...",
+    "lectureCode": "f39cdb1f-51fa-4cbe-a6bd-985e66402e4f",
+    "extId": "64c2cdd3b8f8d80018cf0501",
+    "key": "64c40b3b611995001875552e",
+    "classNotesCode": "106dbfdc-7a3f-45a6-9727-7c47b8e13b6c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "IC Engine Performance 02 : Engine Tes...",
+    "lectureCode": "cdbc7675-da61-42c2-a2c7-2ce7bba40ecf",
+    "extId": "64c2cdae0a6c410018a47db3",
+    "key": "64c3e7f62b81840018abea7a",
+    "classNotesCode": "b653adca-4c7f-45a1-af61-40557f5f00a7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "IC Engine Performance 01 : MEP & Effi...",
+    "lectureCode": "9304485b-85eb-4ce7-ba14-e8f530dc8e70",
+    "extId": "64c18635be58970018fbcbe2",
+    "key": "64c2b6650148c3001802aae5",
+    "classNotesCode": "83296881-0bf3-43a7-ab0d-6da93c9afad4.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "IC Engine Performance DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "208ac7ba-8557-41bb-92e0-ae620dc9bc14.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "IC Engine Performance DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "bd59ab88-0d58-4413-8894-d1e7d96559e7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

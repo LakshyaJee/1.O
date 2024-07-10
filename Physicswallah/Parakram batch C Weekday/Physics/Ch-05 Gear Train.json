@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Gear train 03 : Gear train (PART - 03)",
+    "lectureCode": "cf6cce8e-63d9-485a-9bd0-8fe26de9dddc",
+    "extId": "6472405e47dac7001881ebf6",
+    "key": "6472fe689bd8530018133822",
+    "classNotesCode": "e01ea24b-3fa4-4fc1-b200-6ffe862f4644.pdf",
+    "dppsPdfCode": "e01ea24b-3fa4-4fc1-b200-6ffe862f4644.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Gear Train 02 : Gear Train (Part- 02)...",
+    "lectureCode": "9a5d9188-c177-4d6b-bb28-ac43f9e05a5a",
+    "extId": "6470de1b8cb23000189720f2",
+    "key": "6471a9f147c7fa0018a3d056",
+    "classNotesCode": "",
+    "dppsPdfCode": "576a7015-0cdd-405e-ba98-c85653e4dd80.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Gear Train 01 : Gear Train (Part- 01)...",
+    "lectureCode": "9686d640-7386-4ec8-ada2-b38c9a9c223f",
+    "extId": "646c6377bd7a620018edd61e",
+    "key": "646d08c25bce0600180c5813",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Gear Train DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

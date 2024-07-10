@@ -1,0 +1,152 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Demo Lecture by Aditya Sir",
+    "lectureCode": "65c507305bebe700187bb308",
+    "extId": "63a83f61fac2c80018647334",
+    "key": "65c507305bebe700187bb308",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Demo Lecture by Amit Dixit Sir",
+    "lectureCode": "65c515ee87e503001898a6ec",
+    "extId": "63a83fad0b996b00183f27ef",
+    "key": "65c515ee87e503001898a6ec",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Demo Lecture by Apuroop Telidevara Sir",
+    "lectureCode": "65c507632b93f90018817c2d",
+    "extId": "63a83fd56050550018d79bb9",
+    "key": "65c507632b93f90018817c2d",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Demo Lecture by Sandeep Sir",
+    "lectureCode": "65c507d7ec648f00183d79b2",
+    "extId": "63a84001cbbbbb0018c1e8c7",
+    "key": "65c507d7ec648f00183d79b2",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Demo Lecture by Swadesh Singh Sir",
+    "lectureCode": "65c5082466a17800188c52e2",
+    "extId": "63a8402aa8def60019c809af",
+    "key": "65c5082466a17800188c52e2",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Demo Lecture by Vishvajeet Verma Sir",
+    "lectureCode": "65c508b2172e9b001864c79b",
+    "extId": "63a84079a53ef90018982361",
+    "key": "65c508b2172e9b001864c79b",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Demo Lecture by Vishal Soni Sir",
+    "lectureCode": "641812a7503d540017cdbf5a",
+    "extId": "63a8409da53ef90018982367",
+    "key": "641812a7503d540017cdbf5a",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Demo Lecture by Vinod Dastulya Sir",
+    "lectureCode": "65c50891e82b4700184b163f",
+    "extId": "63a840ee8100b90018691579",
+    "key": "65c50891e82b4700184b163f",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Demo Lecture by Aditya Sir",
+    "lectureCode": "65f48e68ebfc110012334df4",
+    "extId": "63a83f61fac2c80018647334",
+    "key": "65f48e68ebfc110012334df4",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Demo Lecture by Amit Dixit Sir",
+    "lectureCode": "65f48f81f46ade00195229b9",
+    "extId": "63a83fad0b996b00183f27ef",
+    "key": "65f48f81f46ade00195229b9",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Demo Lecture by Apuroop Telidevara Sir",
+    "lectureCode": "65f48e9cb92a940018625d7a",
+    "extId": "63a83fd56050550018d79bb9",
+    "key": "65f48e9cb92a940018625d7a",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Demo Lecture by Sandeep Sir",
+    "lectureCode": "65f48ea5af5cd8001873193b",
+    "extId": "63a84001cbbbbb0018c1e8c7",
+    "key": "65f48ea5af5cd8001873193b",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Demo Lecture by Swadesh Singh Sir",
+    "lectureCode": "65f48ee814206b00124b6f6e",
+    "extId": "63a8402aa8def60019c809af",
+    "key": "65f48ee814206b00124b6f6e",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Demo Lecture by Vishvajeet Verma Sir",
+    "lectureCode": "65f48f444297d0001215cc00",
+    "extId": "63a84079a53ef90018982361",
+    "key": "65f48f444297d0001215cc00",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Demo Lecture by Vinod Dastulya Sir",
+    "lectureCode": "65f48f26843daf0012f7109c",
+    "extId": "63a840ee8100b90018691579",
+    "key": "65f48f26843daf0012f7109c",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

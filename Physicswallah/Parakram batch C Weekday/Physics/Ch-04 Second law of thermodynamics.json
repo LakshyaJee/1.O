@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Second law of thermodynamics 05 : Que...",
+    "lectureCode": "006cb4d6-bd50-43ce-85d8-1ca54c616c8e",
+    "extId": "64b8f44d2cbbe900186109be",
+    "key": "64ba19781f5ad20018acb3a4",
+    "classNotesCode": "64f74655-3670-4f0f-a3ef-42030e24cfc7.pdf",
+    "dppsPdfCode": "64f74655-3670-4f0f-a3ef-42030e24cfc7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Second law of thermodynamics 04 : Cla...",
+    "lectureCode": "718fb861-a431-420c-b2b4-a0e8879110e6",
+    "extId": "64b787367da5aa0018b392da",
+    "key": "64b8bed61bd7fb0018fe4d73",
+    "classNotesCode": "",
+    "dppsPdfCode": "65efdc82-0367-4589-a1e1-4aead8477d8d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Second law of thermodynamics 03 : The...",
+    "lectureCode": "356e7955-8eed-4236-8a88-f03acb229c6b",
+    "extId": "64b64b1e98e7d00018d6fbb4",
+    "key": "64b77242aba2e20018a5fd6a",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Second law of thermodynamics 02 : Car...",
+    "lectureCode": "5a27d253-927e-4b64-9516-c363e084e1ab",
+    "extId": "64b5133ebcd39d001898d949",
+    "key": "64b61a6ba5d89a00182d2bb8",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Second law of thermodynamics 01 : Int...",
+    "lectureCode": "5686bfb4-6174-4661-8c50-6a81ec26185f",
+    "extId": "64b3f3b0d0e9590018a09b27",
+    "key": "64b4cb924d66a00018fcc1f3",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Second Law of Thermodynamics DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

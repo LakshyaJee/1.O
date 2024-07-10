@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Heat and Work 05 : Heat transfer (Par...",
+    "lectureCode": "402689fa-6ccd-4650-beaa-56c780b543bd",
+    "extId": "64a3f90d17dba40019e18c54",
+    "key": "64a4f90b43964a0018c1bf03",
+    "classNotesCode": "",
+    "dppsPdfCode": "8a070d66-15bf-4fe2-8c11-8ee211fd510a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Heat and Work 04 : Heat transfer (Par...",
+    "lectureCode": "d64d3042-e4db-423e-bba2-18ff8671e77b",
+    "extId": "64a2d973ff0da800184eea85",
+    "key": "64a3a7333be0c70018d4b83a",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Heat and Work 03 : Questions based on...",
+    "lectureCode": "19fa9af6-d06d-4c41-9cdf-367545f79a4f",
+    "extId": "64a18423cfb4580018b2f362",
+    "key": "64a289e1ccd7080018a33fc9",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Heat and Work 02 : Close system work",
+    "lectureCode": "ce2ef2a0-e22c-47c0-94ed-7def79ecb303",
+    "extId": "649ddd7fb66e9200183d4be4",
+    "key": "649e630eb6678d0018eefe62",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Heat and Work 01 : Introduction to wo...",
+    "lectureCode": "cc238fa5-bad1-4166-9a05-967ff62d10ac",
+    "extId": "649c33004d0459001821048f",
+    "key": "649e50a3926f44001850ef0a",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Heat Work DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Entropy 04 : Entropy principle, Physi...",
+    "lectureCode": "119d4a60-b01f-47d9-837b-af36c6edb88e",
+    "extId": "64c130f3a5eafa0018d61e84",
+    "key": "64c208dd20313700185d6b49",
+    "classNotesCode": "19033c67-a947-4b0b-b2c6-0d129e534295.pdf",
+    "dppsPdfCode": "d0021451-ac6d-485b-a141-6962ce1702f1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Entropy 03 : Entropy principle, Physi...",
+    "lectureCode": "cfabb482-cc19-463b-966b-e0b3fb7595b7",
+    "extId": "64bf970c1163a800184bef7b",
+    "key": "64c0a592e69a2400198252b5",
+    "classNotesCode": "f40252fb-4f86-465a-8b53-3c7097ba9b44.pdf",
+    "dppsPdfCode": "2dd18058-6256-491e-afe6-ce869841f071.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Entropy 02 : Entropy change of a system",
+    "lectureCode": "359941e6-d9e4-4094-8150-8eeb49f18b78",
+    "extId": "64be31b98aa7360018a89352",
+    "key": "64bf717ea1aa2b0018a4114d",
+    "classNotesCode": "25a8b6cc-5f48-4659-a6aa-94b0118df96f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Entropy 01 : Second law of thermodyna...",
+    "lectureCode": "0bd2b906-7479-4761-a35f-63d7ea0858fd",
+    "extId": "64ba762171346600188c257c",
+    "key": "64be0672c7e4c000182764cf",
+    "classNotesCode": "d0021451-ac6d-485b-a141-6962ce1702f1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Entropy DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Project Management 02 : Project Manag...",
+    "lectureCode": "44c3dc75-9ff8-4284-a358-3fbc01f1a211",
+    "extId": "651bc2099a85930018d14a3c",
+    "key": "651c50784dd2a6001854bf8e",
+    "classNotesCode": "52762279-70fd-4141-975b-76474bd82acc.pdf",
+    "dppsPdfCode": "d19a3596-2395-4d91-8631-9b9f16fa80ff.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Project Management 01 : Project Manag...",
+    "lectureCode": "13d293dc-e749-4373-8827-2241a7a9040b",
+    "extId": "65166715420bdf0018b75651",
+    "key": "651721bb9766e500197b86a7",
+    "classNotesCode": "4169bc75-ffd9-45d1-a640-3f057200df28.pdf",
+    "dppsPdfCode": "9689ee8f-fefe-430c-a553-f54c85ccd077.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Project Management DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "d19a3596-2395-4d91-8631-9b9f16fa80ff.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

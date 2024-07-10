@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Queueing 02 : Queueing (Part- 02)",
+    "lectureCode": "f1c6471c-de4e-4afd-a72f-51dd777ea72b",
+    "extId": "6515131d4f0e1d00180563be",
+    "key": "6515aea010668f0018a68869",
+    "classNotesCode": "2917f52a-5f3c-40b8-95dd-2964d7fc3f1d.pdf",
+    "dppsPdfCode": "4888a8a5-05e6-46b4-bb20-9c2eac63bead.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Queueing 01 : Queueing (Part- 01) || ...",
+    "lectureCode": "f2659a18-78e7-485d-b798-672acfd6839c",
+    "extId": "650e56d277b2f7001869c1f9",
+    "key": "650f0c2ed100880018be4b2b",
+    "classNotesCode": "43bb011d-510a-4200-8098-25d568c5a919.pdf",
+    "dppsPdfCode": "ed440299-1e93-4d1a-9196-c39056787e9a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Queueing DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "4888a8a5-05e6-46b4-bb20-9c2eac63bead.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

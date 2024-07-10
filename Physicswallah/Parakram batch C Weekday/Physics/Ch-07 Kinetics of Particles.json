@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Kinetics of Particles 04 : Collision ...",
+    "lectureCode": "38753bb7-a3a2-4d73-91ed-2638d060b98c",
+    "extId": "640179d7bf321c00186e1a34",
+    "key": "640212c15179c207c1e3bdc5",
+    "classNotesCode": "cbbc1d7c-77f3-4744-9d0a-7e559fa1dbcf.pdf",
+    "dppsPdfCode": "7e700f16-2fbb-43a8-bcda-4aafd45acdd6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Kinetics of Particles 03 : Impulse-Mo...",
+    "lectureCode": "5e5e138b-e6c1-4446-9307-198de23313d1",
+    "extId": "63ff98b56727dd004f800d73",
+    "key": "6400e0d784733e00180a0c5e",
+    "classNotesCode": "1385c015-16d5-44c7-a923-d9d4a40eb266.pdf",
+    "dppsPdfCode": "524874f1-2fcb-47f1-9f58-8c2eda7bb75f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Kinetics of Particles 02 : Work-Energ...",
+    "lectureCode": "6ce39799-4c4c-48e9-9993-fbb974d252f5",
+    "extId": "63ff980020c07900ab63dad0",
+    "key": "6400c120fbefd2001899ba66",
+    "classNotesCode": "dcb46fcd-a50f-498d-9391-06fbae46ec3d.pdf",
+    "dppsPdfCode": "73e20d11-3bd2-4736-9743-85fd8efa0645.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Kinetics of Particles 01 : D'Alembert...",
+    "lectureCode": "adc6e9f8-b191-44e1-913e-1039558b0245",
+    "extId": "63fe666dca8bc500187b3a51",
+    "key": "640034236dbeca00186d53d3",
+    "classNotesCode": "d2b080e9-da27-43b1-8779-0723a5b2d64e.pdf",
+    "dppsPdfCode": "26f83d88-b567-410b-881a-50a461027329.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Kinetics Of Particles PYQ's Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "baec4819-981e-4219-b5f6-768c3d3ced97.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Kinetics Of Particles DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "524874f1-2fcb-47f1-9f58-8c2eda7bb75f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Kinetics Of Particles DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

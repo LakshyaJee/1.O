@@ -1,0 +1,152 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Industrial Engineering & Operations R...",
+    "lectureCode": "ee16d6ec-ebc1-42ef-97d7-ad4f7e515317",
+    "extId": "652c0d636065180018111835",
+    "key": "652b80e7c1f6a6001818a150",
+    "classNotesCode": "ee11c0dd-ea45-4117-8814-a50edef68097.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Application of Thermodynamics : Weekl...",
+    "lectureCode": "82beb50a-8085-4d84-a9f4-4a06ce9edbc5",
+    "extId": "64e32e42a3535b0018965191",
+    "key": "64e32f009d58b20018af18df",
+    "classNotesCode": "16777de9-99e0-4094-af43-f584acdf56af.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Application of Thermodynamics : Weekl...",
+    "lectureCode": "a09579ce-75a4-4179-a823-a8592499a91c",
+    "extId": "64dca70a97092800182eaa00",
+    "key": "64dca5e54693c500188f9a55",
+    "classNotesCode": "82504bfa-c17a-41fc-a890-e2ea5fa58c2e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Strength of Materials : Weekly Test 0...",
+    "lectureCode": "3fe70bc9-5061-4bb7-9142-d08ab6170543",
+    "extId": "64d9d40c73e8100018741176",
+    "key": "634d326f040f4d0011b5af7a",
+    "classNotesCode": "a3b6443a-f27e-436a-9820-4e376b7fcae0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Application of Thermodynamics : Weekl...",
+    "lectureCode": "73bf9f0c-e56c-4391-95d4-4a9aca97a2b2",
+    "extId": "64d0eae668ef060018899f65",
+    "key": "64d0b8348921500018f7420b",
+    "classNotesCode": "052e1bb1-3906-4114-b1b4-10ed65136fd6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Machine Design : Subjectwise Full Syl...",
+    "lectureCode": "97a1a712-02cd-44d3-8a1c-294548360b27",
+    "extId": "64c8fe88c447ff00183df55d",
+    "key": "64c7e53c25d2340018d5f4d5",
+    "classNotesCode": "38f951b2-689b-4a79-a01b-1200a3ad30ec.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Thermodynamic Weekly Test 03 - Test P...",
+    "lectureCode": "65c618e6-da81-4bdd-a648-174aca1f6351",
+    "extId": "64c8a1bd9643da001823e0cd",
+    "key": "64c72c3afc08a7001836e1ab",
+    "classNotesCode": "73a54db8-2941-4ef0-8df6-dec7735bfeac.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Application of Thermodynamics : Weekl...",
+    "lectureCode": "8f63db92-8a39-4045-bb4b-8dcbce23cf0d",
+    "extId": "64c6bd3d2936e6001842a9b8",
+    "key": "64c6bb4161c4510018cfe8e6",
+    "classNotesCode": "7f717750-beeb-4ef3-8860-65a4a4258077.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Application of Thermodynamics : Weekl...",
+    "lectureCode": "fb1307ed-49b7-4867-9d5b-2ec70029fa56",
+    "extId": "64be247b61192e0018ae4499",
+    "key": "64be1ffabac4bc0019c1370e",
+    "classNotesCode": "4f2898a9-3bd9-4d9e-b805-1e68dc12b170.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Thermodynamic : Weekly Test 02 - Test...",
+    "lectureCode": "e97e0a13-7580-4beb-a9e5-96a91a54229d",
+    "extId": "64be049472ba9e001816ba2b",
+    "key": "64bdf1e172ba9e0018167c72",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Thermodynamic : Weekly Test 01 - Test...",
+    "lectureCode": "3e976622-72e7-401e-8cb6-803682a47ab1",
+    "extId": "64b5a0bff3f63300180061e7",
+    "key": "64b4cbf42b2f8d0018e4c784",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Heat Transfer : Weekly Test 02 Discus...",
+    "lectureCode": "1e918c4f-dfc0-489c-b4d3-c2d99173034c",
+    "extId": "64901164d655fd00186c9b93",
+    "key": "649002afde479e00183e7024",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Theory of Machines : Weekly Test 02 D...",
+    "lectureCode": "bbfdb048-be71-4e1a-a4c1-3b79663e1e7b",
+    "extId": "646a4e3df786d700187795ba",
+    "key": "6469ce71db1d600018cf229a",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Theory Of Machine : Weekly Test 01 Di...",
+    "lectureCode": "ed520b41-0c5f-4b0a-9bb3-7f3bca8f5bb4",
+    "extId": "646124b32fb4560018c33b75",
+    "key": "6460afab3d83c100185b5429",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Manufacturing Process - 1 : Subject W...",
+    "lectureCode": "6c59a7e6-e54b-4b4f-9668-b9431a845d39",
+    "extId": "640c3588fbdf720018f71d3d",
+    "key": "63fd9cc7cb414b00187ca67b",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

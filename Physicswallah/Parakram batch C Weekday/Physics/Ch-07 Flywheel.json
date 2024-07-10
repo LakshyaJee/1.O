@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Flywheel 02 : Flywheel (Part- 02)",
+    "lectureCode": "116b6129-ecd0-48d1-9310-73cfec774b4e",
+    "extId": "6480a6986fdff60018379929",
+    "key": "648182cdbff8eb00185eb984",
+    "classNotesCode": "",
+    "dppsPdfCode": "2689cc0d-6eda-49ff-bb39-bccec11dd7f3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Flywheel 01 : Flywheel (Part- 01)",
+    "lectureCode": "b7f635aa-c88f-473d-88ae-4c2a3adb125d",
+    "extId": "647e1e3f5230ef0019603d62",
+    "key": "647f6cf72970c400182a1138",
+    "classNotesCode": "",
+    "dppsPdfCode": "9c5f0c28-74bc-4406-a50c-838a0d0852a3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Flywheel DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "49b0f3b6-e6b7-492d-8ab1-339bd7c3ad73.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Flywheel DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "78d560dd-8eb3-4ef1-aa3b-5b4b76489622.pdf",
+    "dppsSolutionCode": ""
+  }
+]

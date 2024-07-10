@@ -1,0 +1,622 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Practice Questions 01 : Most Conceptu...",
+    "lectureCode": "06b81eae-e5a1-42a5-a94b-3e105161d925",
+    "extId": "63a9684b9ad59000184b56a8",
+    "key": "6373af8f1a21f307a185d4fc",
+    "classNotesCode": "9b010021-f879-466b-b490-711c8d36efda.pdf",
+    "dppsPdfCode": "cee4e831-10bc-4cea-a25b-64e222ee3358.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Practice Questions 02 : Most Conceptu...",
+    "lectureCode": "9276fc5a-bc71-4ce6-806b-2041015ae5c4",
+    "extId": "63a9687b9ad59000184b56bd",
+    "key": "6373ce82b4d83a00181e0f48",
+    "classNotesCode": "828201a2-cb0d-49b7-be38-6f0c4c53db67.pdf",
+    "dppsPdfCode": "8bf09b48-0898-4924-83cb-aeac7e527bbe.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Columns 01 : Euler's Theory of Buckling",
+    "lectureCode": "280586df-ecf7-4ef0-aacb-789b443a0f9a",
+    "extId": "63a96743d2d1ce001836675f",
+    "key": "63725c7239b3de089a6b34de",
+    "classNotesCode": "cda861ec-45c9-414d-a71b-2cd91a18345e.pdf",
+    "dppsPdfCode": "8ace6bcf-117b-4c32-9a44-067d017a28b2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Columns 02 : Problems on Buckling",
+    "lectureCode": "3319069c-e58e-44f1-bf66-4fa4bcb85ea4",
+    "extId": "63a967769b32c90018f3bbde",
+    "key": "63727e750dc1c200df552e0a",
+    "classNotesCode": "7300587e-e5bf-45ca-8169-4a60eedabf38.pdf",
+    "dppsPdfCode": "c2705ead-0d90-4a3e-869b-50dbe8ed85e2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Pressure Vessels 01 : Thin Cylindrica...",
+    "lectureCode": "bad5ebc8-dad2-40f5-bc88-8bb23804268d",
+    "extId": "63a963dde5a1fa0018592d42",
+    "key": "636e6c1e0b00af03bf1fc68c",
+    "classNotesCode": "dfc52be5-2c6c-4ca4-b25e-c204e316b6d5.pdf",
+    "dppsPdfCode": "28faef1e-797f-4bcc-bda4-672315c771ee.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Pressure Vessels 02 : Thin Spherical ...",
+    "lectureCode": "d78af7cd-abfd-41a0-9f3d-f1f145476b9f",
+    "extId": "63a964232f72490018036dc6",
+    "key": "636e8a8cbd69b7001187a8ed",
+    "classNotesCode": "ed407168-af7f-4815-8f0b-7ece68747325.pdf",
+    "dppsPdfCode": "e9768805-c1a5-478f-868d-a9c5c8e42712.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Combined Loadings 01 : Combined Loadi...",
+    "lectureCode": "e0a92407-2567-41fc-83d1-9e2a5f52e196",
+    "extId": "63a9600b13b9520018d5c68f",
+    "key": "636d15f3bce587004c77ddb8",
+    "classNotesCode": "04d8331d-9450-4f08-b2f2-a2ef5df9ee22.pdf",
+    "dppsPdfCode": "69d8f0cb-3b03-488e-9543-325fbdfcca61.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Combined Loadings 02 : Combined Loadi...",
+    "lectureCode": "d2c1234c-3113-4496-ba60-7b2e20581a06",
+    "extId": "63a9603bd14f85001830292f",
+    "key": "636d3a52ee79780018bb7ab4",
+    "classNotesCode": "9bf7f7bb-f65f-4bcb-bddd-b71dfc70f5b8.pdf",
+    "dppsPdfCode": "aab980cd-ec71-4a04-b0c9-b2c59178015e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Complex Strains 01 : Complex Strains ...",
+    "lectureCode": "e8499eab-879d-49d2-ad50-214bcb498e58",
+    "extId": "63a95e7f2f72490018036c8d",
+    "key": "636bc84f98148b00116b7f1b",
+    "classNotesCode": "c3930bb7-3f04-49fd-9c4e-48ca462fa0e3.pdf",
+    "dppsPdfCode": "9f6bbd07-d48a-47ee-b3ba-bc897db4fea1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Complex Strains 02 : Complex Strains ...",
+    "lectureCode": "2915cc5f-ed26-4958-a8c7-96561e5db955",
+    "extId": "63a95eb0fac2c8001864a535",
+    "key": "636be4910bd97500c473f079",
+    "classNotesCode": "6f592b24-7171-46b5-9ea2-e30238ae5d6e.pdf",
+    "dppsPdfCode": "6fbd760d-b3b7-45b1-9430-6f917e3ead63.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Complex Stresses 02 : Mohr`s Circle",
+    "lectureCode": "7b1ca7d7-ac72-4999-ac28-795f65f23530",
+    "extId": "63a959ef4f185b0018df658d",
+    "key": "636a7772d84ec9026353c3f2",
+    "classNotesCode": "b49d9c34-612f-46c0-9c17-0bce161535f3.pdf",
+    "dppsPdfCode": "12c97345-f7d3-4f22-b6c9-01976ab158e7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Complex Stresses 03 : Principal stresses",
+    "lectureCode": "26e6f314-a32f-4697-97c8-a0ffbe977552",
+    "extId": "63a95a6c7ac0b50018c9a591",
+    "key": "636a96a425cddd04aeb55c29",
+    "classNotesCode": "407e1d60-9c22-40dc-b648-5c7ec6f305c2.pdf",
+    "dppsPdfCode": "2967f039-153d-46a7-b12a-7ccdfc024fd4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Energy Methods 03 : Impact Loading",
+    "lectureCode": "ab5b7741-5308-42ae-bd6b-564e029df1be",
+    "extId": "63a88e794f185b0018dea4cc",
+    "key": "6365313ccadf470011f31328",
+    "classNotesCode": "04788470-da89-41b8-843d-3e6821a9a8e7.pdf",
+    "dppsPdfCode": "28f2e315-5028-43d4-a755-85ecb93df48f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Complex Stresses 01 : Stresses on Obl...",
+    "lectureCode": "d2a6137a-568a-499f-921e-8cbcf0c2d5d4",
+    "extId": "63a88fac9ffd7e0018042ec2",
+    "key": "636554c7ea86310012c01935",
+    "classNotesCode": "cd68f5fe-b32a-4de7-9fc3-229aeea0285a.pdf",
+    "dppsPdfCode": "52bb3ca9-e2d3-487d-9c20-5074cb989755.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Energy Methods 01 : Strain Energy",
+    "lectureCode": "0c3eacfb-cce2-4d9b-ac10-d710565b04f2",
+    "extId": "63a88cd56050550018d7d655",
+    "key": "6363dcb03e2b3400184561c3",
+    "classNotesCode": "3833805e-85d3-4ed6-b7c0-b1455731ba82.pdf",
+    "dppsPdfCode": "7afdeea7-7701-4ef0-98bc-670760a55ee8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Energy Methods 02 : Castigliano`s The...",
+    "lectureCode": "16ebd21b-7ad0-4496-beeb-23bb5a68640b",
+    "extId": "63a88d06d2d1ce00183633d2",
+    "key": "6364039290bafd001a967e47",
+    "classNotesCode": "7be521ac-87ba-4b42-ac09-b7b9e1e95126.pdf",
+    "dppsPdfCode": "c7ae7f12-4e3c-4607-b214-fde394e6e7af.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Deflection of Beams 03 : Superpositio...",
+    "lectureCode": "f509ffd8-88a2-47dc-a0d5-e57f0d513a14",
+    "extId": "63a88a454f185b0018dea47b",
+    "key": "6362905edaf75300111cbee8",
+    "classNotesCode": "b0a0775f-1de2-4897-9426-b7faf26a85fe.pdf",
+    "dppsPdfCode": "4627e086-71d9-4623-9899-dbcd54460aca.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Deflection of Beams 04 : Statically I...",
+    "lectureCode": "69c6b7d4-b6bc-40ca-a976-9016a5fcef49",
+    "extId": "63a88b4ae5a1fa001858fc1b",
+    "key": "6362ab75af35d10019393e28",
+    "classNotesCode": "6b4c62b6-9428-4bfc-a284-f85a197de468.pdf",
+    "dppsPdfCode": "e4c081ac-a8db-4786-b530-014f8bc13d3b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Deflection Of Beams 01 : Double Integ...",
+    "lectureCode": "a224ff82-f4be-417f-91ef-a360a55e0557",
+    "extId": "63a88779cfd5a20018b87203",
+    "key": "63613ee27d76e600113f5a50",
+    "classNotesCode": "e921ec4c-3521-4158-a595-a1359fd5aabd.pdf",
+    "dppsPdfCode": "4bfbb974-205e-4a0b-9fa8-8b0c645552d1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "Deflection Of Beams 02 : Moment Area ...",
+    "lectureCode": "53c3f32a-4ee1-421f-ae6f-9882eb800c5b",
+    "extId": "63a8884ce5a1fa001858fbdc",
+    "key": "636160bdd887760011b21829",
+    "classNotesCode": "19ef464b-a7eb-4824-ae4f-e2e439d27723.pdf",
+    "dppsPdfCode": "67f2a2b5-74c2-42f9-b493-3886c3a2f35a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "Shear Stresses in Beams 01 : Shear St...",
+    "lectureCode": "173e8539-5133-4ddc-b531-71f9bfc698e0",
+    "extId": "63a880e4d14f8500182fe6a8",
+    "key": "635c11a50a47c70011cb4bec",
+    "classNotesCode": "25321704-fa50-4a34-85fc-c222db4d9766.pdf",
+    "dppsPdfCode": "26e1bb8d-5da9-473f-b601-d929a13a73af.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "Shear Stresses in Beams 02 : Shear St...",
+    "lectureCode": "ff47a1f7-f6a2-4bf2-a3c1-5fde9d849fea",
+    "extId": "63a881cfa53ef9001898293f",
+    "key": "635c1cd6e0d37000180ccc09",
+    "classNotesCode": "148ad7b9-ce0b-487f-80e1-31baaa9ba86f.pdf",
+    "dppsPdfCode": "ef9a0df9-2ce0-4c38-b5db-f1937c52a1a8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 23,
+    "lectureName": "Bending Stresses in Beams 02 : Bendin...",
+    "lectureCode": "77cfa46b-91db-4e0c-bd94-30e6a4689669",
+    "extId": "63a87f6c4f185b0018dea394",
+    "key": "635aa63269475b001820d600",
+    "classNotesCode": "52b9b1c7-705e-4c54-a5e0-2b8c4e168d54.pdf",
+    "dppsPdfCode": "6c1747aa-2ce2-48bb-b8ae-454e45afcac7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 24,
+    "lectureName": "Bending Stresses in Beams 03 : Bendin...",
+    "lectureCode": "53214efc-5dea-4493-805d-6056b915f8e2",
+    "extId": "63a88001fac2c80018647890",
+    "key": "635ac7c370212b0011ea836f",
+    "classNotesCode": "8d0dff80-06c4-405e-99ff-ab7825d52a31.pdf",
+    "dppsPdfCode": "a19dc74d-cc85-4faa-9b5e-3cd0ccd6387e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 25,
+    "lectureName": "Shear Forces & Bending Moments 05 : M...",
+    "lectureCode": "708c97c0-b27f-4d3c-b06f-560a93aa0a59",
+    "extId": "63a87cc8a2f15c00180c7c19",
+    "key": "6352bb232b1c8702511bf4f7",
+    "classNotesCode": "d5b62d65-1df6-49ac-bcfc-a3097734eda0.pdf",
+    "dppsPdfCode": "2da2fbe5-d41d-4940-a121-b561012d9c58.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 26,
+    "lectureName": "Bending Stresses in Beams 01: Bending...",
+    "lectureCode": "9d630e41-7fc8-41b1-8a14-de963cfdebf6",
+    "extId": "63a87d046050550018d7d49f",
+    "key": "6352daecfb05930011689b76",
+    "classNotesCode": "817966c7-9a53-47ca-bcea-7c8af129c570.pdf",
+    "dppsPdfCode": "94345465-163c-4ee6-9d9f-d63b77dd4716.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 27,
+    "lectureName": "Shear Forces & Bending Moments 03 : S...",
+    "lectureCode": "3f2499c0-09b4-4f82-b6c5-c5230821b412",
+    "extId": "63a87ab7d14f8500182fe64e",
+    "key": "6351765789368d0011f27188",
+    "classNotesCode": "4881658e-c95c-4a9b-9abe-ccdb0409ebf3.pdf",
+    "dppsPdfCode": "d3e0604d-9514-49e4-af16-7129906d2166.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 28,
+    "lectureName": "Shear Forces & Bending Moments 04 : S...",
+    "lectureCode": "78e18910-359d-495a-9a0a-b313cd3bd7ac",
+    "extId": "63a87ae9a53ef9001898288f",
+    "key": "63518a03aa5f0e01e8f45703",
+    "classNotesCode": "183fd370-c63e-4173-9c45-f596f984a967.pdf",
+    "dppsPdfCode": "17358f92-fe5a-430d-91bc-d387278b7832.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 29,
+    "lectureName": "Shear Forces & Bending Moments 01 : S...",
+    "lectureCode": "b500e305-f92d-4ed6-9fef-853f63b2b471",
+    "extId": "63a878a4a2f15c00180c7bf4",
+    "key": "63501c440f916c00189553d4",
+    "classNotesCode": "6c8d7dab-0c81-40a4-8bad-1fcaf3fa3fe6.pdf",
+    "dppsPdfCode": "a392c7ac-17a7-40a4-b79b-d6f4e90cd026.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 30,
+    "lectureName": "Shear Forces & Bending Moments 02 : S...",
+    "lectureCode": "51306275-1229-4e9c-aa1d-5fbfe4123a12",
+    "extId": "63a878e39ffd7e0018042cfa",
+    "key": "63503dec2b99ba0018fc7b94",
+    "classNotesCode": "3589e266-1c4c-44a6-991a-c44ce9f1ff79.pdf",
+    "dppsPdfCode": "401d0f4e-0e17-405c-9aaa-71b7d4787ef4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 31,
+    "lectureName": "Axially Loaded Members 05 : Thermal S...",
+    "lectureCode": "4d3b498c-e9d7-44ce-8868-e9b7b59e1c63",
+    "extId": "63a875249ad59000184add92",
+    "key": "634d8445011b7a0126440756",
+    "classNotesCode": "850c0791-9d62-42d9-b022-fa82bb178227.pdf",
+    "dppsPdfCode": "e342d2f6-6a59-4eab-b663-ad27be35b93e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 32,
+    "lectureName": "Torsion in Circular Shafts 01 : Torsi...",
+    "lectureCode": "7a228827-b327-4d68-ac74-6246bd44f1d8",
+    "extId": "63a87648e5a1fa001858fa00",
+    "key": "634d9f89383b650011af1ddf",
+    "classNotesCode": "b7a9bf5d-7f9c-4638-8b81-8a7e38e49c08.pdf",
+    "dppsPdfCode": "8c75b8d0-0127-4a45-9336-7a874fc629b5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 33,
+    "lectureName": "Axially Loaded Members 03 : Elongatio...",
+    "lectureCode": "1e602183-fda0-4c8d-8611-7307cff713ed",
+    "extId": "63a874447ac0b50018c9701e",
+    "key": "63498f2676d834001125a956",
+    "classNotesCode": "91738198-93e5-4089-bae3-c795d79a849f.pdf",
+    "dppsPdfCode": "dadefb60-d7ef-4276-b113-b936f2ed53d6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 34,
+    "lectureName": "Axially Loaded Members 04 : Thermal S...",
+    "lectureCode": "ff2081e2-c8c1-49f9-8a93-fe8cc9f8a684",
+    "extId": "63a874b02f72490018033def",
+    "key": "6349adda10f2a20011c63044",
+    "classNotesCode": "7a616492-96d3-45f8-9d12-6946dcd594e8.pdf",
+    "dppsPdfCode": "6e1e8506-ec97-491b-b0b9-95a2ed33f1e1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 35,
+    "lectureName": "Axially Loaded Members 01 : Elongatio...",
+    "lectureCode": "997b3bea-ddab-4652-b753-e667947e4c17",
+    "extId": "63a873af13b9520018d57f66",
+    "key": "63484c5709e222001129bf2a",
+    "classNotesCode": "4ac030e4-a4d7-48db-8a6e-d786a534e779.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 36,
+    "lectureName": "Axially Loaded Members 02 : Staticall...",
+    "lectureCode": "82c01799-9618-4b1f-af12-4b1d5840f209",
+    "extId": "63a873e04f185b0018dea255",
+    "key": "63485f302886b500180d1850",
+    "classNotesCode": "7e1b152c-a6d8-45a1-af83-a56dababd4a8.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 37,
+    "lectureName": "Introduction & Properties of Material...",
+    "lectureCode": "dea85feb-4222-4852-83f4-3d431068d2bc",
+    "extId": "63a871b58100b900186918ff",
+    "key": "6346e4d6e0bda70011c3aeaa",
+    "classNotesCode": "82d4b6da-eb95-447f-901a-82edd695a059.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 38,
+    "lectureName": "Introduction & Properties of Material...",
+    "lectureCode": "9fbc748b-c1e0-4fa7-a22d-85a183952d8f",
+    "extId": "63a871eea8def60019c80f4d",
+    "key": "6347061a7f71f4001aedbf1b",
+    "classNotesCode": "4f6c9008-322f-47cf-9fcf-5be9f430c581.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 39,
+    "lectureName": "Introduction & Properties of Material...",
+    "lectureCode": "0c7da1a7-ceda-4903-9183-a399c33473d4",
+    "extId": "63a870fd2f72490018033dbf",
+    "key": "634592734ba0cb00117e9b31",
+    "classNotesCode": "a002c604-e021-4de1-ab89-544afa10c36b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 40,
+    "lectureName": "Introduction & Properties of Material...",
+    "lectureCode": "37fd6f51-3207-47d2-b882-9ecbd9a8c355",
+    "extId": "63a8712d7ac0b50018c96fe0",
+    "key": "6345ae10686201001805e677",
+    "classNotesCode": "cb46294a-e864-4a2c-9f94-84dd799f9685.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 41,
+    "lectureName": "Introduction & Properties of Material...",
+    "lectureCode": "35842f87-6e70-4242-a6fe-ff730e2fd8f0",
+    "extId": "63a86f674f185b0018dea1ba",
+    "key": "63443c31f29bf90017bc08cd",
+    "classNotesCode": "6145873d-56f8-4a7f-9ded-3ed64288cec4.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 42,
+    "lectureName": "Introduction & Properties of Material...",
+    "lectureCode": "ddb9d390-e2cc-4782-a68b-4ccabf85475e",
+    "extId": "63a87007d14f8500182fe537",
+    "key": "63445c0397447f00113f5f30",
+    "classNotesCode": "30f1af1e-9aec-4bd6-880b-a6736050e43d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 43,
+    "lectureName": "Columns DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "8bf09b48-0898-4924-83cb-aeac7e527bbe.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 44,
+    "lectureName": "Pressure Vessels DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "8ace6bcf-117b-4c32-9a44-067d017a28b2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 45,
+    "lectureName": "Combined Loadings DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "c2705ead-0d90-4a3e-869b-50dbe8ed85e2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 46,
+    "lectureName": "Complex Strain DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "28faef1e-797f-4bcc-bda4-672315c771ee.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 47,
+    "lectureName": "Complex Stresses DPP- Discussion Notes...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "69d8f0cb-3b03-488e-9543-325fbdfcca61.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 48,
+    "lectureName": "Energy Methods DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "aab980cd-ec71-4a04-b0c9-b2c59178015e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 49,
+    "lectureName": "Energy Methods DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "9f6bbd07-d48a-47ee-b3ba-bc897db4fea1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 50,
+    "lectureName": "Deflection Of Beams DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "6fbd760d-b3b7-45b1-9430-6f917e3ead63.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 51,
+    "lectureName": "Deflection of Beams DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "12c97345-f7d3-4f22-b6c9-01976ab158e7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 52,
+    "lectureName": "Shear Stresses in Beams DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "2967f039-153d-46a7-b12a-7ccdfc024fd4.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 53,
+    "lectureName": "Bending Stresses in Beams DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "28f2e315-5028-43d4-a755-85ecb93df48f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 54,
+    "lectureName": "Shear Forces and Bending Moments DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "52bb3ca9-e2d3-487d-9c20-5074cb989755.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 55,
+    "lectureName": "Shear Forces and Bending Moments DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "7afdeea7-7701-4ef0-98bc-670760a55ee8.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 56,
+    "lectureName": "Torsion in Circular Shafts DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "c7ae7f12-4e3c-4607-b214-fde394e6e7af.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 57,
+    "lectureName": "Shear Forces and Bending Moments DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "4627e086-71d9-4623-9899-dbcd54460aca.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 58,
+    "lectureName": "Introduction Properties of Materials DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "e4c081ac-a8db-4786-b530-014f8bc13d3b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 59,
+    "lectureName": "Introduction Properties of Materials DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "67f2a2b5-74c2-42f9-b493-3886c3a2f35a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 60,
+    "lectureName": "Introduction Properties of Materials DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "ef9a0df9-2ce0-4c38-b5db-f1937c52a1a8.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 61,
+    "lectureName": "Axially Loaded Members DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "a19dc74d-cc85-4faa-9b5e-3cd0ccd6387e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 62,
+    "lectureName": "Axially Loaded Members DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "d3e0604d-9514-49e4-af16-7129906d2166.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

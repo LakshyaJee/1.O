@@ -1,0 +1,322 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Material Science 22 : Revision Session",
+    "lectureCode": "906d9881-47a5-4827-9409-cc1226fb6403",
+    "extId": "6468a7da6bff9500183fe231",
+    "key": "6468f03ec949dc0018f98d33",
+    "classNotesCode": "9346949e-7b93-4681-b3ae-7f4e0e27f4e3.pdf",
+    "dppsPdfCode": "d089ffee-9766-4931-80f2-6ad8ee34f15c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Material Science 21 : Tool Materials",
+    "lectureCode": "57ebbd42-8f7e-41f3-a76a-36b12576b6f8",
+    "extId": "63d6da484ca6e50018628ad7",
+    "key": "63d80a6ad52618001834731f",
+    "classNotesCode": "192e5dec-ca35-4b25-b2d7-ce0a6408e3fb.pdf",
+    "dppsPdfCode": "3ec69303-6571-4cd1-8965-a4ddcdd0f8cb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Material Science 20 : Crystallography...",
+    "lectureCode": "15e1c249-2385-4e19-b5eb-56d1302aa27e",
+    "extId": "63d6da2a6817780018e8f985",
+    "key": "63d7e7b84b033d0018dced40",
+    "classNotesCode": "7a8bf2cd-3324-4ffc-a7bc-bb67da46294e.pdf",
+    "dppsPdfCode": "960056cb-2dc6-45a2-8eb0-887e8ef0b52c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Material Science 19: : Doubt Solving ...",
+    "lectureCode": "5b0f4bc7-53f5-4c0f-8658-d7ac600d280d",
+    "extId": "63d42bb8ac699800a264d5ab",
+    "key": "63d511a2145dfd0018c89049",
+    "classNotesCode": "a1611fc4-cec3-4d4a-8642-72bad70223a8.pdf",
+    "dppsPdfCode": "ba95803b-1f0d-475b-afef-1696b739f0c6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Material Science 18 : Crystallography...",
+    "lectureCode": "566e4d5c-6b65-4580-87c1-3040dacb9403",
+    "extId": "63d358536885de00181b02bb",
+    "key": "63d41475e41c2f001847e14e",
+    "classNotesCode": "8bb9f2c3-657d-4754-bc2f-ce8db61edb2c.pdf",
+    "dppsPdfCode": "90ec98ef-896c-44e8-b307-67b7b38c2ffd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Material Science 17 : Heat Treatment ...",
+    "lectureCode": "a8090644-c48d-4413-b8ca-af737957c947",
+    "extId": "63d357dd6885de00181b0290",
+    "key": "63d406a19c6d5b0018fccccb",
+    "classNotesCode": "a3ba4bdf-497b-4452-aab9-158533728e60.pdf",
+    "dppsPdfCode": "5b4bf0fa-2c74-434b-86f1-8b98f228eb1a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Material Science 16: Heat Treatment P...",
+    "lectureCode": "2442aa3f-36c7-483e-a526-aeca5e4c6439",
+    "extId": "63d0b16e4fd2ec0018820295",
+    "key": "63d1725db2b8df00188c2f89",
+    "classNotesCode": "6fae00a3-43ee-429f-b4dd-ed24c2cc70d8.pdf",
+    "dppsPdfCode": "d05a9f43-4e26-48fc-a9c0-11c6ec18bd1b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Material Science 15: Heat Treatment P...",
+    "lectureCode": "e71e55a0-d960-45b2-96e9-1c94d7cf5c56",
+    "extId": "63d0b04c68595d0018ad417e",
+    "key": "63d14e8c29c65500184d502e",
+    "classNotesCode": "c7fa35bc-751f-425b-a2a0-a0f2a22d22b5.pdf",
+    "dppsPdfCode": "2567e7dd-602b-4899-907b-997693847162.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Material Science 14 : TTT Diagram Par...",
+    "lectureCode": "e9a12c1e-951d-463f-999e-314f9841c390",
+    "extId": "63ced6f6c255710018f70e55",
+    "key": "63d0286fc59ff7001866d48d",
+    "classNotesCode": "872cb75e-974a-4365-8abc-bbf25aa0c1d8.pdf",
+    "dppsPdfCode": "14f9db86-e20f-41ac-8c21-01ba88141c49.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Material Science 13 : TTT Diagram Par...",
+    "lectureCode": "dca56b68-1a03-4e83-b451-bb5c71a94f3f",
+    "extId": "63ced6d366879400188b7692",
+    "key": "63d00749e47f8e0018141713",
+    "classNotesCode": "bc34d83f-db79-47f7-a0b3-3faacaecf22f.pdf",
+    "dppsPdfCode": "a2f8b5ad-3e53-46e1-9284-080e8223d6f8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Material Science 12 : TTT diagram Par...",
+    "lectureCode": "a18cc672-b830-43df-bf96-aed80eb840cc",
+    "extId": "63cd43fbb4a9e300181a4e5f",
+    "key": "63ced4b371dbb6001801b8d1",
+    "classNotesCode": "a543236f-42b6-4deb-8004-707b7e26c639.pdf",
+    "dppsPdfCode": "d004d7c7-773f-4c4b-8151-22abb57ce785.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Material Science 11 : TTT diagram Par...",
+    "lectureCode": "fb3047df-2b8f-420c-a57a-7762ffd7358f",
+    "extId": "63cd43ccdd52c40018aeb555",
+    "key": "63ceb059c022f30079ab8ec4",
+    "classNotesCode": "9648594e-b16b-473c-a6cb-63b95c113562.pdf",
+    "dppsPdfCode": "ca408120-9234-4707-ba82-4f91032b3b9b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Material Science 10: Strengthening Me...",
+    "lectureCode": "05588186-897e-4004-8979-a574fa7b6558",
+    "extId": "63c98e8995ef98001843c0ec",
+    "key": "63cae4180060ef0018d6f91c",
+    "classNotesCode": "e574d07b-2784-47b4-a4e1-6f5c666d7188.pdf",
+    "dppsPdfCode": "329aa349-f37a-413d-94a2-afd122ac39ad.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Material Science 09: Strengthening Me...",
+    "lectureCode": "d9004cdf-c276-49e4-b53f-5893d5966652",
+    "extId": "63c98afe5b19f0001864d7b1",
+    "key": "63cabd0c0905920018b7b17c",
+    "classNotesCode": "0a36a983-187f-4760-a6e0-3afc7080bdfb.pdf",
+    "dppsPdfCode": "e0795cf5-a896-45de-86de-ac1f7e463f1a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Material Science 08 : Dislocation The...",
+    "lectureCode": "bd068e8b-a133-4e67-b8b5-05d73e0c229f",
+    "extId": "63c8431a9d279500187f4ade",
+    "key": "63c98c27e3d50d0018bdde4b",
+    "classNotesCode": "3a01713d-3165-4291-aa31-d94b3e0b84f2.pdf",
+    "dppsPdfCode": "d1b6db47-c804-4619-9a7e-9694ec29091a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Material Science 07: Dislocation theo...",
+    "lectureCode": "1cda0759-70c9-4da0-b4ef-0c00ff447abc",
+    "extId": "63c842cc932e9c00187c83f0",
+    "key": "63c975986aeeda0018ffe879",
+    "classNotesCode": "a54924f1-7db0-48d5-8723-0d592a58783b.pdf",
+    "dppsPdfCode": "ccd603f6-0baa-4b58-b90b-3bcd4c55e2c1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Material Science 06: Development of m...",
+    "lectureCode": "9db63680-d0a0-4a8f-a985-2049b54aeb9a",
+    "extId": "63c6d4dcd6c8460018492738",
+    "key": "63c83813219f240018929c75",
+    "classNotesCode": "7db36ad6-a78c-4d0b-a5d4-8b0ecb75a408.pdf",
+    "dppsPdfCode": "dce9a23d-226f-413c-8662-275486698d15.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Material Science 05: Development of m...",
+    "lectureCode": "6980a91a-e96d-4918-85d5-0a05e99271f2",
+    "extId": "63c6d4ae4c69e200189bfb24",
+    "key": "63c82bc51758cf012e4bbed6",
+    "classNotesCode": "1e563018-5c4d-4c31-a1ca-2c85f31d39be.pdf",
+    "dppsPdfCode": "c332224e-a115-4b31-a34d-6136034970f4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Material Science 04: Iron-carbon syst...",
+    "lectureCode": "339d6f43-7062-4094-b312-c680638744ed",
+    "extId": "63c63ca4f82980001822c917",
+    "key": "63c6e64bd34ee100180d8312",
+    "classNotesCode": "3fa2f9bc-eec5-445e-86b0-1660538d5d34.pdf",
+    "dppsPdfCode": "ab03f473-d72d-4a32-9868-23304979dda5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "Material Science 03: Iron-carbon syst...",
+    "lectureCode": "98eb9ad5-d505-4d89-8d4e-1d44e900689f",
+    "extId": "63c63c76fdb909008727555d",
+    "key": "63c6e16d48208f001824c620",
+    "classNotesCode": "201b83a6-9108-4ced-a9f3-beff91a01bb7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "Material Science 02 : Phase diagram a...",
+    "lectureCode": "b3d35aa4-b504-4d67-a2c1-03ec7b842a6c",
+    "extId": "63c452c994c15f0018a311aa",
+    "key": "63c599e2d913fe0018c23cb2",
+    "classNotesCode": "0e7329fe-0860-4cb7-b1bb-7ef915b6605b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "Material Science 01: Phase Diagram an...",
+    "lectureCode": "e981db44-d505-4c36-a4cf-318e76ac9e9e",
+    "extId": "63c44fb5b22c5a0018837ce8",
+    "key": "63c57d568b36c600184e2ba9",
+    "classNotesCode": "d089ffee-9766-4931-80f2-6ad8ee34f15c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 23,
+    "lectureName": "Material Science DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "3ec69303-6571-4cd1-8965-a4ddcdd0f8cb.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 24,
+    "lectureName": "Material Science DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "960056cb-2dc6-45a2-8eb0-887e8ef0b52c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 25,
+    "lectureName": "Material Science DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "ba95803b-1f0d-475b-afef-1696b739f0c6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 26,
+    "lectureName": "DPP- Discussion TTT Diagram - Swadesh Sir GATE...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "90ec98ef-896c-44e8-b307-67b7b38c2ffd.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 27,
+    "lectureName": "Material Science DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "5b4bf0fa-2c74-434b-86f1-8b98f228eb1a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 28,
+    "lectureName": "Material Science DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "d05a9f43-4e26-48fc-a9c0-11c6ec18bd1b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 29,
+    "lectureName": "Material Science DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "2567e7dd-602b-4899-907b-997693847162.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 30,
+    "lectureName": "Material Science DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "14f9db86-e20f-41ac-8c21-01ba88141c49.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 31,
+    "lectureName": "Material Science DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "a2f8b5ad-3e53-46e1-9284-080e8223d6f8.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 32,
+    "lectureName": "Material Science DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "ca408120-9234-4707-ba82-4f91032b3b9b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Laminar Flow 03 : Questions And Solut...",
+    "lectureCode": "d3ed693b-079e-4ce9-8fba-e518a808a3d0",
+    "extId": "643ede4340b0470018c7d765",
+    "key": "64402d31926a6b0018d5502b",
+    "classNotesCode": "ccb1c0c6-17bf-4c07-97f9-34518108c7f6.pdf",
+    "dppsPdfCode": "fabbce9b-588c-48c5-b76b-742e279a34bb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Laminar Flow 02 : Laminar Flow Throug...",
+    "lectureCode": "daebcc8d-60a3-432d-b637-b7b763365e9a",
+    "extId": "643edbd27c54290018f8646a",
+    "key": "64400cc16b7b840018e42438",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Laminar Flow 01 : Laminar Flow (Part-...",
+    "lectureCode": "3226bfbd-a511-4791-a319-603424de3537",
+    "extId": "643d8d7ed9541e0018a6a0b8",
+    "key": "643edba3faa56000184e0a79",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Laminar Flow DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

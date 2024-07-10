@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Flow Through Pipes 02 : Pipes Networks",
+    "lectureCode": "91fe9e87-d9e5-4a76-a60e-81ef6999bf35",
+    "extId": "644031ba2fd70e0018d12015",
+    "key": "644180966ca9f4001874375e",
+    "classNotesCode": "edd66d23-1ec6-4e1f-adb3-2f6b9ee8a66b.pdf",
+    "dppsPdfCode": "7c108e50-21e4-4b8c-a7b4-6b71577e3c04.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Flow Through Pipes 01 : Minor Losses ...",
+    "lectureCode": "e510a9ca-7f16-4fec-b34e-014c054e80d3",
+    "extId": "6440319d510b5e00183ab2d5",
+    "key": "6441602d4283c70018f5a7ff",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Flow Through Pipes DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

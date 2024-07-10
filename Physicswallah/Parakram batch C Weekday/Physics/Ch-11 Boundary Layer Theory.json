@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Boundary Layer Theory 02 : Thickness ...",
+    "lectureCode": "54fd68be-6ea7-4264-bb0b-907e9fce5ddc",
+    "extId": "6470de766118fa001806f095",
+    "key": "64721ff8b98a170018f733de",
+    "classNotesCode": "6c81e0d8-ab50-4345-8026-75499cffceb3.pdf",
+    "dppsPdfCode": "6c81e0d8-ab50-4345-8026-75499cffceb3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Boundary Layer Theory 01 : Flow Over ...",
+    "lectureCode": "0f27ef7d-f091-41b5-a2c3-4caa6e56a449",
+    "extId": "6468ff38c949dc0018f9a0cb",
+    "key": "6469f33c7ee6d60018c56693",
+    "classNotesCode": "a857d887-e5dd-43b4-aeb4-a00d704fbc6f.pdf",
+    "dppsPdfCode": "a857d887-e5dd-43b4-aeb4-a00d704fbc6f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Boundary Layer Theory DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

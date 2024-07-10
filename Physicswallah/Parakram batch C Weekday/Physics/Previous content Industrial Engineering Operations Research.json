@@ -1,0 +1,532 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Aggregate Production Plan 02 : Aggreg...",
+    "lectureCode": "c18543b2-a646-4f65-9ce7-ce2f938ef0e1",
+    "extId": "63c29a7b601cdc0019d0f9de",
+    "key": "63c1a5a856c7980018b525e1",
+    "classNotesCode": "064032fc-e532-4783-b651-99e1892d993f.pdf",
+    "dppsPdfCode": "53ab000a-05b3-46a5-afdb-4f0d1b7cd3fc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Aggregate Production Plan 01 : Aggreg...",
+    "lectureCode": "43c644b8-9827-4619-b148-1f449547d943",
+    "extId": "63c29a302965bc001853dbeb",
+    "key": "63c1872edaa2d4001883968c",
+    "classNotesCode": "74d6dac4-0bc2-4840-8c69-4bc24dd5a61c.pdf",
+    "dppsPdfCode": "f9076bff-90a8-44d4-a559-9239e0e87691.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Plant Layout & Work Study 02 : Types ...",
+    "lectureCode": "6b896dd4-6b12-4f37-b219-cf14e9a4aa4d",
+    "extId": "63c299b0ad8f030018ec7d93",
+    "key": "63c04f9b681c8d00183bdf62",
+    "classNotesCode": "d3dd8395-623e-4fd9-a650-15294570963b.pdf",
+    "dppsPdfCode": "c57f47ba-cc52-451d-8903-81769dcd9942.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Plant Layout & Work Study 01 : Types ...",
+    "lectureCode": "d867213a-4e3e-4720-8904-c5bcb2b41bb3",
+    "extId": "63c2996b228a6a00188490fd",
+    "key": "63c0f444f3af9600184ea58e",
+    "classNotesCode": "10bfa576-c3c4-4a24-a169-37d9666e8e80.pdf",
+    "dppsPdfCode": "e3ef21b3-ea5a-45f0-b507-45b604d3f9ef.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Quality Control 02: Quality Control P...",
+    "lectureCode": "1f1c8c48-ed30-4cdf-8516-0feb03974985",
+    "extId": "63c2982a62a16a0018443cdc",
+    "key": "63beff764bd97900186da326",
+    "classNotesCode": "ba379342-8beb-4e4e-8ecb-1b8e5ffdbc97.pdf",
+    "dppsPdfCode": "f4841e82-93c8-430b-8730-72a3abffd8bd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Quality Control 01 : Quality Control ...",
+    "lectureCode": "16829fdd-cd49-409e-ac82-95cf86c5df31",
+    "extId": "63c297dd2965bc001853daa2",
+    "key": "63bede3cf278e0001881840b",
+    "classNotesCode": "3288d8d9-8725-49eb-87f9-05cea43f97f1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Forecasting 02 : Quantitative & Quali...",
+    "lectureCode": "ffe47873-3236-46e8-9a27-1932ee25129e",
+    "extId": "63c29710aca3980018a525b5",
+    "key": "63bdd81d8762310018e8204b",
+    "classNotesCode": "d63847f2-bb2e-42ce-b9ae-3436a49788e3.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Forecasting 01: Quantitative & Qualit...",
+    "lectureCode": "70609906-a95a-43b5-9c2b-a5c53f95407f",
+    "extId": "63c296d5718177001816f05e",
+    "key": "63bdabcfae589f00181a3322",
+    "classNotesCode": "53ab000a-05b3-46a5-afdb-4f0d1b7cd3fc.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Line Balancing & MRP 01 : Line Balanc...",
+    "lectureCode": "56fc9ec0-d250-44f0-8d2c-80048a70691a",
+    "extId": "63c2960a601cdc0019d0f84b",
+    "key": "63bc3c813e49ab0018d4e3e1",
+    "classNotesCode": "f9076bff-90a8-44d4-a559-9239e0e87691.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Scheduling & Sequencing 02 : SPT, EDD...",
+    "lectureCode": "62501078-9fc7-448c-9e21-e243442490ad",
+    "extId": "63c294f79589f50018952579",
+    "key": "63b864df823ca500185599ff",
+    "classNotesCode": "c57f47ba-cc52-451d-8903-81769dcd9942.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Scheduling & Sequencing 01: SPT, EDD,...",
+    "lectureCode": "2b465663-b281-4f37-be4b-d5310ca01e71",
+    "extId": "63c294ca2965bc001853d02f",
+    "key": "63b8464e714714001855acce",
+    "classNotesCode": "e3ef21b3-ea5a-45f0-b507-45b604d3f9ef.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Break Even Analysis 02 : Break Even A...",
+    "lectureCode": "33d3ec11-a1b5-49fb-a6ae-9483f53fc31b",
+    "extId": "63c293efe9e7b500182bd3f3",
+    "key": "63b71204e96b8700180006d8",
+    "classNotesCode": "f4841e82-93c8-430b-8730-72a3abffd8bd.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Break Even Analysis 01 : Break Even A...",
+    "lectureCode": "d5e60894-7749-4d55-a56d-1d7c6874667a",
+    "extId": "63c293b51837010018f6efd5",
+    "key": "63b72ffaf3a53100181e4404",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "LPP-Simplex Method 02 : Simplex Metho...",
+    "lectureCode": "734c3bd8-d368-4da3-9dc4-d7a9bdf2bcf9",
+    "extId": "63b6dab59634b9001843e181",
+    "key": "63b5f0aaef96280018f87d36",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "LPP-Simplex Method 01 : Simplex Metho...",
+    "lectureCode": "f38453d1-e196-4da3-9150-aea56022a083",
+    "extId": "63b6da6d80d7f00018c79068",
+    "key": "63b5a364d80e9800187cb110",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "LPP- Graphical Method 02: Types of So...",
+    "lectureCode": "c6502ec8-7067-4694-812c-1a07f2e43a9b",
+    "extId": "63b6da309b278900189e4951",
+    "key": "63b47a27308f620018e9d813",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "LPP- Graphical Method 01: Types of So...",
+    "lectureCode": "ecbc5621-975d-40dc-b0ef-4c6346fb5c1f",
+    "extId": "63b6d9ebc2e45d0018db7581",
+    "key": "63b455ec83212d0018a131f5",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "LPP-Assignment 02 : Hungarian Method ...",
+    "lectureCode": "f76cc18c-6c8a-4553-b400-85700156db47",
+    "extId": "63b6d7ba024dce00187efa2c",
+    "key": "63b31f7e3069af0018941fcb",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "LPP-Assignment 01 : Hungarian Method ...",
+    "lectureCode": "315c5da5-952f-4a63-aa19-57ce2a440a38",
+    "extId": "63b6d74cbf58280018554039",
+    "key": "63b304b48aef5f00182bd1a3",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "LPP-Transportation 02 : Modi's Method",
+    "lectureCode": "adfaf7cf-6d8b-41a2-aa86-2214f30153ab",
+    "extId": "63b6d2f464567400185cc909",
+    "key": "63af395a8efde00018f7b588",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "LPP-Transportation 01: Feasible Solut...",
+    "lectureCode": "a9b7b60a-78c5-4ee1-9768-cf58e6f17ac0",
+    "extId": "63b6d2b86518e10019580e34",
+    "key": "63af1cc563d34a0018d47aa7",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "Network Analysis 04 : Crashing",
+    "lectureCode": "20e9394d-9068-4bf8-85d1-06e3440815d8",
+    "extId": "63b6d260ee4d660018f5cb18",
+    "key": "63adde00117d730018189689",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 23,
+    "lectureName": "Network Analysis 03 : PERT",
+    "lectureCode": "8fb1e2b2-1797-4974-b401-c51c072ccffd",
+    "extId": "63b6d21c739fd50018101195",
+    "key": "63adc73350a78e00181507a1",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 24,
+    "lectureName": "Network Analysis 02: Critical Path Me...",
+    "lectureCode": "964e29b7-39c6-4241-ae9c-b57666473626",
+    "extId": "63b6d1a1c87e8a00183bd676",
+    "key": "63ac8bf613cb42001851e626",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 25,
+    "lectureName": "Network Analysis 01: Critical Path Me...",
+    "lectureCode": "c0e5e351-9792-451f-acc6-2305b08bc0df",
+    "extId": "63b6d151c87e8a00183bd06e",
+    "key": "63ac7cdf8b9bff0018e6a4a3",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 26,
+    "lectureName": "Inventory Control 06: ABC, VED Analys...",
+    "lectureCode": "ae7e393a-bc25-404b-8f05-f0eaca599dc5",
+    "extId": "63b6d0ceea9fc200183f2a75",
+    "key": "63ab38fe5ec97200188f6cfe",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 27,
+    "lectureName": "Inventory Control 05: ABC, VED Analys...",
+    "lectureCode": "2741ccdb-c896-4d48-8d79-db6ebc19da00",
+    "extId": "63b6d07f3809a50018782a65",
+    "key": "63ab1579cb46d9001875fa3f",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 28,
+    "lectureName": "Inventory Control 04 : Wilson's EOQ M...",
+    "lectureCode": "91e30e38-1bba-4fa7-af58-13dc896c3489",
+    "extId": "63b6d00cb6e3d00018c41a21",
+    "key": "63a9e5266050550018d8b8fc",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 29,
+    "lectureName": "Inventory Control 03 : Wilson's EOQ M...",
+    "lectureCode": "af18ce27-1734-4299-8111-7c9972be5f46",
+    "extId": "63b6cfc7ee4d660018f5c9f7",
+    "key": "63a9e773d2d1ce0018370a23",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 30,
+    "lectureName": "Inventory Control 01 : Wilson's EOQ M...",
+    "lectureCode": "2005150d-a33f-48f4-9e7f-03a0fd1410c5",
+    "extId": "63a9c1622f72490018043ded",
+    "key": "63a5cfdd9eedac0018b55635",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 31,
+    "lectureName": "Inventory Control 02 : Wilson's EOQ M...",
+    "lectureCode": "1b675fd7-31c8-432c-9dee-f3963759f22c",
+    "extId": "63a9c1994f185b0018dfd2ba",
+    "key": "63a5ee8f54fecd00181c2a85",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 32,
+    "lectureName": "Queuing Theory 05 : Model 3 - M/M/C/I...",
+    "lectureCode": "508f916c-b85e-48cd-ae60-9c5f4db4fe23",
+    "extId": "63a9c1fc6050550018d87405",
+    "key": "63a5b709fa65f10019ac326b",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 33,
+    "lectureName": "Queuing Theory 03 : Model 2 - M/M/1/F...",
+    "lectureCode": "f467e468-5387-4ad3-bee1-702f40876bae",
+    "extId": "63a9bfac9b32c90018f41ba0",
+    "key": "63a48b2f07d1f700186dca69",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 34,
+    "lectureName": "Queuing Theory 04 : Model 3 - M/M/C/I...",
+    "lectureCode": "a2a1078e-792f-4ca6-92a0-73bcbcb71586",
+    "extId": "63a9c02d0b996b0018403a9d",
+    "key": "63a4a3d899f8fc00182bec2b",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 35,
+    "lectureName": "Queuing Theory 01 : Basics of Queuing...",
+    "lectureCode": "99b96e20-15bc-4068-9073-e91653c0ae8e",
+    "extId": "63a9bee07ac0b50018c9f66b",
+    "key": "63a334223252b200188e8c4d",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 36,
+    "lectureName": "Queuing Theory 02 : Model 1 - M/M/1/I...",
+    "lectureCode": "7a32edd1-b899-4b92-8805-fb4c80ef7883",
+    "extId": "63a9bf116050550018d872f6",
+    "key": "63a3574819e4f60018f430df",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 37,
+    "lectureName": "Quality Control DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 38,
+    "lectureName": "Plant Layout Work Study DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 39,
+    "lectureName": "Forecasting DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 40,
+    "lectureName": "Line Balancing MRP DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 41,
+    "lectureName": "Scheduling Sequencing DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 42,
+    "lectureName": "Break Even Analysis DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 43,
+    "lectureName": "LPP-Simplex Method DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 44,
+    "lectureName": "LPP- Graphical Method DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 45,
+    "lectureName": "LPP-Assignment DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 46,
+    "lectureName": "LPP- Transportation DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 47,
+    "lectureName": "Network Analysis DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 48,
+    "lectureName": "Inventory Control DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 49,
+    "lectureName": "Network Analysis DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 50,
+    "lectureName": "Inventory Control DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 51,
+    "lectureName": "Inventory Control DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 52,
+    "lectureName": "Queuing Theory DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 53,
+    "lectureName": "Queuing Theory DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

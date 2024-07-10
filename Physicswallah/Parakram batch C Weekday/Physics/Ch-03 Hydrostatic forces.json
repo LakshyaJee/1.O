@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Hydrostatic Forces 04 : Questions Bas...",
+    "lectureCode": "f43cec07-1bc9-4061-aaa6-0533286bfa67",
+    "extId": "6425e3a284607f00182a5834",
+    "key": "6427244f6c1ef600181736a0",
+    "classNotesCode": "49ef7bbe-598f-45b6-80f9-17530bfe9ed6.pdf",
+    "dppsPdfCode": "58b99f3b-ab9f-4c41-a233-6f06f2e01b74.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Hydrostatic Forces 03 : Hydrostatic F...",
+    "lectureCode": "f9a043ad-e563-4892-b112-dfbbb9b85457",
+    "extId": "6425e34769998a0018e7b43b",
+    "key": "64270acf2d7e2300187c8aa2",
+    "classNotesCode": "c2d4f29f-7cbb-4d12-b2a1-aa48fc4c679c.pdf",
+    "dppsPdfCode": "f947323a-2c88-429a-bad2-d7363432f33b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Hydrostatic Forces 02 : Center of Pre...",
+    "lectureCode": "949beb63-c7f7-4b80-9407-e41a82ddfc36",
+    "extId": "64247d3dfd5e370018a7acb5",
+    "key": "6425d2bfcbbff50018360b83",
+    "classNotesCode": "58b99f3b-ab9f-4c41-a233-6f06f2e01b74.pdf",
+    "dppsPdfCode": "6227fc81-3171-4436-9dc0-44072ee4275d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Hydrostatic Forces 01 : Hydrostatic F...",
+    "lectureCode": "5fae577f-6a87-40b3-8a00-d1288e62bd21",
+    "extId": "64247d074a79fe00187c6d07",
+    "key": "6425b3e16315f60018ba54cb",
+    "classNotesCode": "",
+    "dppsPdfCode": "8973795c-49c1-41a1-96af-6cb692792d50.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Hydrostatic Forces DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "e34f5e6b-7691-4ca0-b43a-60f0d7978ad7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Hydrostatic Forces DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "a073d9a6-d3e3-4fe6-be99-eb55c7c82982.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Hydrostatic Forces DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

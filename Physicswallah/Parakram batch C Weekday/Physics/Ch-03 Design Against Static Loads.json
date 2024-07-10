@@ -1,0 +1,112 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Design Against Static Loads 09 : Desi...",
+    "lectureCode": "1444680f-a384-409a-a56a-e928b69a246a",
+    "extId": "649e4e99926f44001850bf6d",
+    "key": "649ef88982e9ea00189c0c71",
+    "classNotesCode": "53a0b27c-2ab3-4be5-a4b4-380bfc778928.pdf",
+    "dppsPdfCode": "faf88304-bba7-4fbc-96e0-f971c8a245eb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Design Against Static Loads 08 : Desi...",
+    "lectureCode": "4cff7d34-7762-49ac-ac34-26a98eb65d52",
+    "extId": "649c870e30eb5a001876f3af",
+    "key": "649dd037eaff4600180eefc6",
+    "classNotesCode": "564896b5-5ce9-4c6d-abf8-f20b96b542e9.pdf",
+    "dppsPdfCode": "7f27a1b7-7287-4a4f-be1f-3e62992ea07f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Design Against Static Loads 07 : Desi...",
+    "lectureCode": "98e71826-9a53-4344-b2c1-f214df4ff9c9",
+    "extId": "649c86fa30eb5a001876f3ae",
+    "key": "649dae5c40e1c300180fa7d4",
+    "classNotesCode": "4e6fab3f-a2a6-48f8-850a-4f0a77679547.pdf",
+    "dppsPdfCode": "7007c529-17f5-4651-b794-5e64af4f1417.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Design Against Static Loads 06 : Desi...",
+    "lectureCode": "356801da-fc2d-46c0-bfe8-a2eef6da4cf6",
+    "extId": "649bd176b17d630018078b07",
+    "key": "649c826af1b6e40018062566",
+    "classNotesCode": "08f0f84c-f5ce-4d25-b513-be7c2c145f91.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Design Against Static Loads 05 : Desi...",
+    "lectureCode": "7f5d939b-f3fa-4cf1-822f-57031ac41433",
+    "extId": "649bd101374af400182fce9e",
+    "key": "649c5c928cf6580018bba4f2",
+    "classNotesCode": "178fe39e-bfa8-4505-887d-a01e1e0fb0e8.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Design Against Static Loads 04 : Desi...",
+    "lectureCode": "8ce650a0-efe8-4bb8-8a25-167513d36477",
+    "extId": "649a7ac6542540001840ec49",
+    "key": "649b2a5a7924b600180bec2a",
+    "classNotesCode": "3acaa4f8-46bb-4d83-b64a-1d225905b102.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Design Against Static Loads 03 : Desi...",
+    "lectureCode": "229bff2b-d8d0-4e92-b6d3-fb41687fb69c",
+    "extId": "649a7a7f67c76c0018a8bc4f",
+    "key": "649b085ce09e400018213325",
+    "classNotesCode": "faf88304-bba7-4fbc-96e0-f971c8a245eb.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Design Against Static Loads 02 : Desi...",
+    "lectureCode": "92e96639-cbe6-49c3-aaab-2c3e22e06e7b",
+    "extId": "64985f5d3efb9c0018c60f82",
+    "key": "6499c1932a4778001833ee94",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Design Against Static Loads 01 : Desi...",
+    "lectureCode": "136b503b-fd87-404c-a52a-74c5b4b7065e",
+    "extId": "649538ad582cc600182b6a89",
+    "key": "6495e27452be1f0018c41d4e",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Design Against Static Loads DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Design Against Static Loads DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

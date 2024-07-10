@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Liquid in relative equilibrium 02 : C...",
+    "lectureCode": "f57826a2-58e8-4557-a33a-0336c4d949b1",
+    "extId": "642b0c4b5c2ed80018118b18",
+    "key": "642c6ad2cd70860019787e91",
+    "classNotesCode": "e4e81276-68e9-4f45-ac81-248dda0d6253.pdf",
+    "dppsPdfCode": "74776315-4476-4248-ae87-7d5f4239d275.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Liquid in relative equilibrium 01 : C...",
+    "lectureCode": "714c9572-6d01-4ff8-870c-f049a27342e7",
+    "extId": "642b0c21e6bed90018e9cbf3",
+    "key": "642c490abf4cda001860530c",
+    "classNotesCode": "74776315-4476-4248-ae87-7d5f4239d275.pdf",
+    "dppsPdfCode": "f99aa4e0-f253-4343-af9b-dda3cea33d55.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Liquid In Relative Equilibrium DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "559af653-fdca-437f-9580-545ded77d21b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Fluid Statics DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "ba4484a5-590e-4f4a-a41a-aed3c68580e2.pdf",
+    "dppsSolutionCode": ""
+  }
+]

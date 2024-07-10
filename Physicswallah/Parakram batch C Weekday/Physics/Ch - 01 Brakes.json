@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Brakes 05 : Brakes (Part- 05)",
+    "lectureCode": "9726d9da-86da-4a1c-925e-c703f261ddad",
+    "extId": "6491f25c15430d0018bc4f4b",
+    "key": "64931d209eba1b0018a50b47",
+    "classNotesCode": "0f3a91b9-0751-4aa7-b9da-8376915bab1a.pdf",
+    "dppsPdfCode": "59455a6f-b29c-476b-b162-45751b3698bb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Brakes 04 : Brakes (Part- 04)",
+    "lectureCode": "e194374c-751d-49d2-9d88-8dca359cd9f7",
+    "extId": "6490a357512d2f001834c914",
+    "key": "6491f177994531001854b03a",
+    "classNotesCode": "b3740a6f-fc40-4375-a563-cbd86d875958.pdf",
+    "dppsPdfCode": "60855570-5069-4b34-ba86-bf1ef47cd0ae.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Brakes 03 : Brakes (Part- 03)",
+    "lectureCode": "db873f89-2fab-47f1-a5e7-807427c8093e",
+    "extId": "6490814f66691e0018b00671",
+    "key": "6491ccf42438e700183f42b5",
+    "classNotesCode": "9c73dcec-1e3d-425f-a5e2-e8f6d203a86f.pdf",
+    "dppsPdfCode": "cdd0d49c-5d6e-4143-928e-d3b11b3518c3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Brakes 02 : Brakes (Part- 02)",
+    "lectureCode": "335385eb-a663-47d9-b727-bc72b86b619f",
+    "extId": "64900c2d7f977c00188f18d9",
+    "key": "64909f4f8cf99a0018a63293",
+    "classNotesCode": "16a7dfa8-2786-40e9-b8cc-2f0a25efa660.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Brakes 01 : Brakes (Part- 01)",
+    "lectureCode": "eb361b8a-2282-4334-91ce-f64de8032de2",
+    "extId": "64900c0b2b01bc00185c0f33",
+    "key": "64907f89798d36001870fbae",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Brakes DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Brakes DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

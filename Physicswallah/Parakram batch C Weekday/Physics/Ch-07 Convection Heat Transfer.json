@@ -1,0 +1,122 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Convection Heat Transfer 10 : Free Co...",
+    "lectureCode": "b15f4955-1ca3-4a25-bfba-dd0c21111001",
+    "extId": "6496015bae6c9e0018a2020a",
+    "key": "649736e9dd9cce00186d3a34",
+    "classNotesCode": "",
+    "dppsPdfCode": "876c0122-3ff5-4800-b4b5-2c6e8e29f8bb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Convection Heat Transfer 09 : Free Co...",
+    "lectureCode": "8678a53f-ac67-4f97-8960-4c48983a40c1",
+    "extId": "649601291b386800180c0818",
+    "key": "6497d569d5adc70018aa19e9",
+    "classNotesCode": "",
+    "dppsPdfCode": "8044d09f-163a-47bd-979e-4bf5398b7bfa.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Convection Heat Transfer 08 : Interna...",
+    "lectureCode": "85740b4e-2f0f-4ffa-b06f-1de0c490cc63",
+    "extId": "648ca97f1779510018bb1a52",
+    "key": "648dfea427e7a10018718e3b",
+    "classNotesCode": "",
+    "dppsPdfCode": "9e3d43c9-cd84-4b03-8c07-3982cfeac0ca.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Convection Heat Transfer 07 : Interna...",
+    "lectureCode": "f773ada5-f0d4-4c44-9aa2-faaaa307a047",
+    "extId": "648ca9654d39e70018ce57d7",
+    "key": "648dd50d5d9ab10019e0444a",
+    "classNotesCode": "",
+    "dppsPdfCode": "420363eb-7cf6-48d7-9265-a55e6ac33e5d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Convection Heat Transfer 06 : Interna...",
+    "lectureCode": "858ccec2-90f5-41e1-9244-2f32f54cf120",
+    "extId": "648b590f66f07c0018762fdf",
+    "key": "648ca91bad0477001859d949",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Convection Heat Transfer 05 : Externa...",
+    "lectureCode": "6e84e68d-9feb-4de7-8f98-71df0702dde8",
+    "extId": "648b58d866f07c0018762fc3",
+    "key": "648c8bc80dcb1900180153fe",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Convection Heat Transfer 04 : Externa...",
+    "lectureCode": "2c095b15-eb2b-463d-908c-02a768ee8997",
+    "extId": "648a983d39fa05001ae0a0dc",
+    "key": "648bfa38f9879500181da554",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Convection Heat Transfer 03 : Externa...",
+    "lectureCode": "694fad23-58b2-4ae4-be73-0bdf9d7c31f5",
+    "extId": "648a981a8f0901001816304e",
+    "key": "648b30cc7c614400183dc121",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Convection Heat Transfer 02 : Externa...",
+    "lectureCode": "40fc3f37-3bbc-43b2-afcb-99983358f4fb",
+    "extId": "6488aadee2445700188fcb6a",
+    "key": "648a04dd47d0af00183cb29b",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Convection Heat Transfer 01 : Externa...",
+    "lectureCode": "0ca9fefe-05cf-47b3-9f02-8ca5f92626ae",
+    "extId": "6488aabd64b36400181b3880",
+    "key": "6489de889aa40200187efe7a",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Convection Heat Transfer DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Convection Heat Transfer DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

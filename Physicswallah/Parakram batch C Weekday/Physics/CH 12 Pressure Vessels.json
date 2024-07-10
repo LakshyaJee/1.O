@@ -1,0 +1,22 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Pressure Vessels 02 : Pressure Vessel...",
+    "lectureCode": "240c33a9-59c1-4459-a8db-75b2df027e22",
+    "extId": "64f80feed600560018b21fb5",
+    "key": "64f953f9a8b8d70018743a25",
+    "classNotesCode": "e4c7da32-0162-457e-9f00-34a758654333.pdf",
+    "dppsPdfCode": "f5b96b9e-ff3f-4506-909a-0c55e8a3c9a7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Pressure Vessels 01 : Pressure Vessel...",
+    "lectureCode": "6a6b0dba-2bf8-405d-ba1a-5da91ac90ff0",
+    "extId": "64f76c198b572c0018652975",
+    "key": "64f802f738b17700181fb465",
+    "classNotesCode": "4d0b82c2-5583-4420-9e2f-af26f6dc1408.pdf",
+    "dppsPdfCode": "b0a2177d-5f33-45e6-a625-c31eaf3d01ba.pdf",
+    "dppsSolutionCode": ""
+  }
+]

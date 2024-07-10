@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Compressible Flow 02 : Compressible F...",
+    "lectureCode": "de1ce8fc-eb94-4b24-8d04-8aa63b77d6c1",
+    "extId": "64ea34d70a6d730018db05de",
+    "key": "64eb669a23e4ea001803ff82",
+    "classNotesCode": "03fd07f0-63f6-4398-b491-2d76becf1ec2.pdf",
+    "dppsPdfCode": "b2bdc2cd-d0f3-474c-9bb1-cc3b06a3f985.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Compressible Flow 01 : Compressible F...",
+    "lectureCode": "bde45756-b286-4faf-915a-1358c46fa3d3",
+    "extId": "64ea346e6511eb0018928998",
+    "key": "64eb3a5671d9820018344594",
+    "classNotesCode": "07a1feac-df6d-4222-9634-9edbf9333dcc.pdf",
+    "dppsPdfCode": "5c3f1632-13d1-4660-a353-5bc2833a6f82.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Compressible Flow DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "b2bdc2cd-d0f3-474c-9bb1-cc3b06a3f985.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

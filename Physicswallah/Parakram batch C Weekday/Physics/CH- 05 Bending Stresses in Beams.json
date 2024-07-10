@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Bending Stresses in Beams 02 : Bendin...",
+    "lectureCode": "761afd17-5961-4770-9635-e6797ab1c66d",
+    "extId": "64e08dec938d6c0018efa73c",
+    "key": "64e2ecf6bbfb5300196df22b",
+    "classNotesCode": "2c7c8489-45ba-4c4c-9eef-a45d09664fd7.pdf",
+    "dppsPdfCode": "dbdc8e5b-031d-4a3f-a010-8c561ba1d2bb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Bending Stresses in Beams 01 : Bendin...",
+    "lectureCode": "2076866b-d85d-40f1-9c2b-5df82655431e",
+    "extId": "64df40cddc82d800189be8eb",
+    "key": "64e04759085f380018684c3b",
+    "classNotesCode": "727714bc-4016-4b7e-a27b-8d133dfcf393.pdf",
+    "dppsPdfCode": "1b4187a1-63f7-44bb-96e0-6fc3fdd8c623.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Bending Stresses in Beams DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "dbdc8e5b-031d-4a3f-a010-8c561ba1d2bb.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

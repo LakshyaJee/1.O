@@ -1,0 +1,102 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Gear 07 : Dynamics of Gear || (NO DPP)",
+    "lectureCode": "9051e839-059e-44f2-bb16-180d52d84fe6",
+    "extId": "64cd658f1816220018db512f",
+    "key": "64cd199f00ee080018fb6e5d",
+    "classNotesCode": "73e17303-bf2f-4eff-8f6b-0ea8f03661dd.pdf",
+    "dppsPdfCode": "cbe8eab2-b1c5-4293-a274-ff8a6e8d7526.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Gear 06 : Gear (Part- 06)",
+    "lectureCode": "a346e3d7-ec3d-4cd3-8f25-19c71f962575",
+    "extId": "646c63360219900018da2b0c",
+    "key": "646cdfeec958dd00184258c0",
+    "classNotesCode": "3901604f-d978-4de7-987c-22158e4e55ab.pdf",
+    "dppsPdfCode": "7ef8bb5c-cfed-42fb-bdc7-53d82a4196fc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Gear 05 : Gear (Part- 05)",
+    "lectureCode": "a1ce920d-9518-4e52-b8e3-597d71a4444c",
+    "extId": "646a52c58148a100186d1eea",
+    "key": "646bac131dd22f0018ab1036",
+    "classNotesCode": "d0973bab-ed7d-4cf4-8874-17da2ad8ff9e.pdf",
+    "dppsPdfCode": "7b0bd9cf-ae20-4855-9ebb-c0f40bfc8070.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Gear 04 : Gear (Part- 04)",
+    "lectureCode": "a60e4da7-dc52-46fd-baff-a759ae039793",
+    "extId": "646a52a34ddc4e0018f47666",
+    "key": "646b8de97f7b3e001888f4f6",
+    "classNotesCode": "1eaa0f8b-20fc-4a1c-b42c-8784cf34c47b.pdf",
+    "dppsPdfCode": "3901604f-d978-4de7-987c-22158e4e55ab.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Gear 03 : Gear (Part- 03) || (NO DPP)",
+    "lectureCode": "70a0f801-cd4b-4854-a78f-e8faf41fae25",
+    "extId": "64671bcef92a9b00189f530e",
+    "key": "6467b87a754214001871ead5",
+    "classNotesCode": "",
+    "dppsPdfCode": "d0973bab-ed7d-4cf4-8874-17da2ad8ff9e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Gear 02 : Gear (Part- 02) || (NO DPP)",
+    "lectureCode": "243e6f8a-9dd1-48d1-95a5-7f68dc37a1b2",
+    "extId": "64671bbbeb3dee0018d82b36",
+    "key": "64679a321e175d001820e9d2",
+    "classNotesCode": "",
+    "dppsPdfCode": "1eaa0f8b-20fc-4a1c-b42c-8784cf34c47b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Gear 01 : Gear (Part- 01) || (NO DPP)",
+    "lectureCode": "3c11d7a5-bfc9-4d75-9d23-60267e79c2fd",
+    "extId": "6465b4dd6277f10018b7581d",
+    "key": "646669ee43f0dc0018db39c5",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Gear - DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Gear DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Gear DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Shear Forces & Bending Moments 03 : S...",
+    "lectureCode": "efc23cc6-4a85-4c2c-a6d5-3f858d3d475c",
+    "extId": "64ddbd23bcb0480018266f2e",
+    "key": "64def5ea31384b0018e78a57",
+    "classNotesCode": "5dd42966-a5f1-4b39-b1a9-940228e16626.pdf",
+    "dppsPdfCode": "61ee7977-01f4-4238-8456-60b8efacc573.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Shear Forces & Bending Moments 02 : S...",
+    "lectureCode": "d2eb3791-2327-4695-b29f-96aef8612aeb",
+    "extId": "64dc7fa267cd110018e228ea",
+    "key": "64dda83943c4fd0018830cf3",
+    "classNotesCode": "e2250a28-8243-41a7-884a-7c802466d896.pdf",
+    "dppsPdfCode": "396cb409-6b0c-48f9-be48-bd234cbe5ba7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Shear Forces & Bending Moments 01 : S...",
+    "lectureCode": "033b697d-5e73-4663-a256-183ca619bd63",
+    "extId": "64d9f7ab0e948600187f4a63",
+    "key": "64dc581377ca610018fc93ce",
+    "classNotesCode": "087ad2f7-3c53-4e3b-a5b3-f1600ed96fa2.pdf",
+    "dppsPdfCode": "5fcca12a-ead2-440d-9419-445006ba4850.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "61ee7977-01f4-4238-8456-60b8efacc573.pdf",
+    "dppsPdfCode": "8ec7fd88-5d10-4226-a66a-a9e0e45ce375.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "396cb409-6b0c-48f9-be48-bd234cbe5ba7.pdf",
+    "dppsPdfCode": "53a87370-d0d0-4b9b-9fbb-46df12cd8139.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "8ec7fd88-5d10-4226-a66a-a9e0e45ce375.pdf",
+    "dppsPdfCode": "b47d6348-2e77-436b-8c42-7acc1aedf3f0.pdf",
+    "dppsSolutionCode": ""
+  }
+]

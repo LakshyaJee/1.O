@@ -1,0 +1,92 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Basic concept 08 : Zeroth law of ther...",
+    "lectureCode": "28c1ffaf-c04e-4ef2-8edd-a7880123d0ee",
+    "extId": "649aa8457924b6001809bac7",
+    "key": "649bc26c2fdaee00183cda8e",
+    "classNotesCode": "",
+    "dppsPdfCode": "052f73ac-3356-4d83-8476-a1b3d45a0009.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Basic Concept 07 : Zeroth Law of Ther...",
+    "lectureCode": "54ca54cd-6e01-4f22-98ef-1e9829e7c785",
+    "extId": "649979651234110019048e13",
+    "key": "649c14b05ba4de001809203f",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Basic concept 06 : Mixture of ideal gas",
+    "lectureCode": "517f0e0b-3038-4828-b1af-76414a3583e7",
+    "extId": "64980341afe97a0018535a63",
+    "key": "649c1455da2c7b0018495a12",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Basic concept 05 : Ideal gas properties",
+    "lectureCode": "2cf2ea9f-9e80-4cd2-ba3e-a28ffec42197",
+    "extId": "64940cc63b937c0018c0ffe5",
+    "key": "64952b74e20d680018868418",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Basic concept 04 : Thermodynamic Proc...",
+    "lectureCode": "e9a3dc7a-9bdb-497c-ad98-8ec1ee66c5bc",
+    "extId": "6492b53e6d0c3b00180d293f",
+    "key": "6493d6ad3df7a800181c3969",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Basic concept 03 : Thermodynamic prop...",
+    "lectureCode": "2415a2e7-6442-4e1a-b91a-14bb75e487b2",
+    "extId": "6491f2b97f84820018ad42c6",
+    "key": "64928eaba68fef0018e7f0c0",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Basic concept 02 : system surrounding...",
+    "lectureCode": "9d78512d-498c-4c7f-b2a6-778acac39dfc",
+    "extId": "64905734798d360018706234",
+    "key": "649135e9c94f5100188d6c8e",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Basic Concept 01 : Introduction || (N...",
+    "lectureCode": "e48b125d-dd60-4669-8657-e1086123af86",
+    "extId": "648efb247f977c00188b64ea",
+    "key": "648fe27cc9ddbb00187aede7",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Basic Concept DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

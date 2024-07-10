@@ -1,0 +1,102 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Machine Tool 06 : Shaper Planer Slotter",
+    "lectureCode": "c4beb050-860d-4534-bad5-7633d1d83d11",
+    "extId": "6502ba746890e70018433b65",
+    "key": "650340c60bce75001941b027",
+    "classNotesCode": "240504e3-4fc0-4f89-abe3-2934c8d16f9d.pdf",
+    "dppsPdfCode": "9b1b2c83-4ecf-425b-b095-a26090f40a6d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Machine Tool 05 : Grinding and Finish...",
+    "lectureCode": "128a1236-af26-4f8a-a087-6d05944784be",
+    "extId": "6502ba54ebe2b80018fa190d",
+    "key": "65031c66cdc1140019fbce3d",
+    "classNotesCode": "2ff46142-82fc-4644-aff4-72964ff02bb1.pdf",
+    "dppsPdfCode": "5954b3de-8847-4bf4-97f2-179f58652c68.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Machine Tool 04 : Milling",
+    "lectureCode": "2e92d2e8-3ecc-4920-8710-fa9b7ce0e19d",
+    "extId": "650092fdba3e600018b9813c",
+    "key": "6501f1f4f55cf80018489e65",
+    "classNotesCode": "03b90a4f-f1a9-478a-850f-b7b3ab813347.pdf",
+    "dppsPdfCode": "bb988446-2b12-4c3d-9460-fc3d1fc4de41.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Machine Tool 03 : Drilling",
+    "lectureCode": "d01d113f-1ae1-4db2-906a-e6bf5d00b2c9",
+    "extId": "650092c2abf56900184e710c",
+    "key": "6501d28ac761800018895149",
+    "classNotesCode": "02abdfb5-ae33-4af0-8678-a8004e9b4844.pdf",
+    "dppsPdfCode": "833ea2ae-29b7-47ad-8c0c-3b74cca652ce.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Machine Tool 02 : Lathe (Part- 2)",
+    "lectureCode": "c7c07f17-28ed-4de4-a2ae-0c6b89f77361",
+    "extId": "64ff595f1d8c860018685d99",
+    "key": "6500a1c768c3ee0018189fcc",
+    "classNotesCode": "d61082de-8ce1-4529-b320-c837a9ba8341.pdf",
+    "dppsPdfCode": "37693117-71b2-479b-844a-196b9e30bb4a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Machine Tool 01 : Lathe (Part- 1)",
+    "lectureCode": "38f7082b-d520-42ba-971b-d4ac90f9a5de",
+    "extId": "64ff582d2b2a660018f4f3ee",
+    "key": "650081a906955000184c7a8a",
+    "classNotesCode": "ef71b5a4-be6a-4cf4-9aec-9d5f8096c6d9.pdf",
+    "dppsPdfCode": "cd0aebdd-fd26-434b-8e85-82ef9ad0e8bf.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Machine Tool DPP Discussion Notes...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "9b1b2c83-4ecf-425b-b095-a26090f40a6d.pdf",
+    "dppsPdfCode": "3b4769f2-03d9-47e7-b39c-02d2fde4ab9e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Machine Tool DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "5954b3de-8847-4bf4-97f2-179f58652c68.pdf",
+    "dppsPdfCode": "46a463dd-1dbd-4d26-a5ae-3beb2f2e7f10.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Machine Tool DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "bb988446-2b12-4c3d-9460-fc3d1fc4de41.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Machine Tool DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "833ea2ae-29b7-47ad-8c0c-3b74cca652ce.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

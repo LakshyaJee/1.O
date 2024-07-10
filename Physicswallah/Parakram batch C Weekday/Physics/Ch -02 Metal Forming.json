@@ -1,0 +1,222 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Metal Forming 16 : Revision Session",
+    "lectureCode": "82b91612-78b4-4b1a-a4a3-98bc757c763e",
+    "extId": "6469a2e1c1861200188f0d75",
+    "key": "646a3dc8c1861200188f4a38",
+    "classNotesCode": "9330a8f3-aa45-434a-ad1a-216c680b2c8b.pdf",
+    "dppsPdfCode": "bdc47093-1257-4a61-8d56-59c4f2edcd7c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Metal Forming 15 : Sheet Metal Formin...",
+    "lectureCode": "6c692e72-7599-47f9-9cb7-70b8bdf8b2b4",
+    "extId": "63e356986c742f0018aad50f",
+    "key": "63e3e742402bd00018bb6380",
+    "classNotesCode": "3ed8f328-6f3f-4a86-9580-28c1c420c22f.pdf",
+    "dppsPdfCode": "5a69e0c2-43bb-4616-bd4c-f430bcb33652.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Metal Forming 14 : Sheet Metal Formin...",
+    "lectureCode": "a5cddbcd-16b2-4a63-9c59-3594270beb84",
+    "extId": "63e354afb9aeac00184c156b",
+    "key": "63e3c9dc50877d0019751c02",
+    "classNotesCode": "f0a58737-162e-469f-9406-042123d336d8.pdf",
+    "dppsPdfCode": "907ce06d-ba26-4d01-a733-e5c577ae5970.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Metal Forming 13 : Sheet Metal Formin...",
+    "lectureCode": "52f76815-7769-4430-a4e3-4367596b4817",
+    "extId": "63e206c025c3e20018205d02",
+    "key": "63e29483ce76ac00183fda28",
+    "classNotesCode": "e8a27307-3db2-42ff-b2d0-1e1245cdd9b0.pdf",
+    "dppsPdfCode": "047e8209-fbda-4966-874b-9631a679a6f9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Metal Forming 12 : Rolling Part-3",
+    "lectureCode": "56b16086-2c57-4067-93a7-42f83b013c24",
+    "extId": "63e206242fff5900184f19ba",
+    "key": "63e276e3770bac001927f5ef",
+    "classNotesCode": "10d8761f-edf7-4028-8ab5-bcc321ab4874.pdf",
+    "dppsPdfCode": "a0837aa6-5b55-497d-9f23-686aca8d8737.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Metal Forming 11 : Rolling Part-2",
+    "lectureCode": "239b1faa-711b-495b-b97e-08be7f31938d",
+    "extId": "63dfefccbcc1520018acacc6",
+    "key": "63e1490cc6208d001724a82b",
+    "classNotesCode": "fee79a89-9c05-43e6-9b58-285d8820851a.pdf",
+    "dppsPdfCode": "a780080e-d3fd-4b77-9a68-16fcd2eecb9d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Metal Forming 10 : Rolling Part-1",
+    "lectureCode": "7b0055e3-fa08-4896-8286-860fa96b4586",
+    "extId": "63dfeefee9e9310018b225f0",
+    "key": "63e148bb577341001842ad6c",
+    "classNotesCode": "228f4567-9183-4752-8a67-ce9c59a7f237.pdf",
+    "dppsPdfCode": "48c58580-2021-4947-9071-5acd4ea42dfc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Metal Forming 09: Workbook Discussion...",
+    "lectureCode": "d94b50d0-4e31-4481-a924-9fe4f8fe7736",
+    "extId": "63decfd0c310870018f9449c",
+    "key": "63df550116dbdd0018e87eb7",
+    "classNotesCode": "3427e6ba-e45a-4efb-a22a-ff75a4e39c93.pdf",
+    "dppsPdfCode": "b50ec131-79a5-4f7b-98bf-78e37447f2aa.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Metal Forming 08 : Forging Part-02",
+    "lectureCode": "e1c2cc96-a4dd-4c1e-9fe1-982aa51492a8",
+    "extId": "63dc092d6a623b0019654cfd",
+    "key": "63dd4ea51fa22000181946ad",
+    "classNotesCode": "b1d17952-273e-4fa4-9109-d49f3696df7d.pdf",
+    "dppsPdfCode": "7f266b20-c0a6-4149-b7a8-6949f4a39f1c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Metal Forming 07: Forging Part-01",
+    "lectureCode": "e8343bb9-84c3-41ca-8895-262b6b2c3281",
+    "extId": "63dc0817d5b64e0018c92b62",
+    "key": "63dd24d5d4c7940018d474a9",
+    "classNotesCode": "4f8a0334-3423-4520-8f9b-9756a6f96145.pdf",
+    "dppsPdfCode": "2009e7f8-9678-41ac-8b14-065eddffa22c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Metal Forming 06 : Analysis of Wire D...",
+    "lectureCode": "4933fc46-46c1-488f-8f67-24d10e3f95c4",
+    "extId": "63dac78c9e61f900180f05b2",
+    "key": "63dc00eb2ac3140018a973f0",
+    "classNotesCode": "f2756eb7-44bb-4563-813d-47680cdf7ee3.pdf",
+    "dppsPdfCode": "baf8d9f4-871a-42d5-872f-51f54847aa9d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Metal Forming 05 : Analysis of Wire D...",
+    "lectureCode": "991c230c-e6b9-420f-9aca-e9a54767e30a",
+    "extId": "63dac6c0d323fe00189e6d37",
+    "key": "63dbe2f8fd13b600188e20c6",
+    "classNotesCode": "362cf7c5-934d-40dc-ae69-00b1ef9fe82f.pdf",
+    "dppsPdfCode": "e2ba72f7-83fd-41a5-8836-f443901c9305.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Metal Forming 04: Extrusion",
+    "lectureCode": "48aa3567-3c37-42de-a53d-d6379ad111ef",
+    "extId": "63d9711505d0ee001925b180",
+    "key": "63daaf5c3418890018c4da28",
+    "classNotesCode": "773b116d-e87a-4273-8739-0c13978b2e5e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Metal Forming 03 : Wire Drawing Part-2",
+    "lectureCode": "be20eb92-9b2e-4733-89d1-a8a9e64378ab",
+    "extId": "63d970eb8103aa0019def0d9",
+    "key": "63da8ffc30c5d60018c78be6",
+    "classNotesCode": "4fb222b7-3e16-4527-aab7-55a9794eaca5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Metal Forming 02 : Wire Drawing Part-1",
+    "lectureCode": "d475d25a-ea9e-46c9-84d7-1b2cca25b0e5",
+    "extId": "63d82218b97f1400180aa755",
+    "key": "63d95b66e436340018681de6",
+    "classNotesCode": "02fcc42d-30fd-411a-8333-7088c30130b0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Metal Forming 01: Basics of Forming",
+    "lectureCode": "1ea2b588-8da3-41ee-b819-eb6c60f29a79",
+    "extId": "63d821f49268ab001847957c",
+    "key": "63d93e413e8a6d0018828b47",
+    "classNotesCode": "bdc47093-1257-4a61-8d56-59c4f2edcd7c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Metal Forming DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "5a69e0c2-43bb-4616-bd4c-f430bcb33652.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Metal Forming DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "907ce06d-ba26-4d01-a733-e5c577ae5970.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Metal Forming DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "047e8209-fbda-4966-874b-9631a679a6f9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "Metal Forming DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "a780080e-d3fd-4b77-9a68-16fcd2eecb9d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "Metal Forming DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "48c58580-2021-4947-9071-5acd4ea42dfc.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "Metal Forming DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "b50ec131-79a5-4f7b-98bf-78e37447f2aa.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

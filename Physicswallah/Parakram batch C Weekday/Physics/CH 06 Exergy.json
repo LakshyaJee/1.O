@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Exergy 06 : Questions based on Exergy...",
+    "lectureCode": "8ee291b2-cf57-4171-8438-1e98753c701a",
+    "extId": "64cbd277f66ac00018ae6dfa",
+    "key": "64ccf778b0eb290018dcd5a4",
+    "classNotesCode": "f5d32a56-02f1-4a33-a6e2-61fc06313a57.pdf",
+    "dppsPdfCode": "bc3e5fce-666f-4686-a586-5f13857ebb92.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Exergy 05 : Questions Based on Exergy...",
+    "lectureCode": "07eb1b83-69f4-43fd-97a9-7a5bd393069c",
+    "extId": "64cbd12a4c1cad00188e09b2",
+    "key": "64ccf69fb48b4a00185bec8b",
+    "classNotesCode": "583d177a-6fc0-411e-be44-509f151c60a4.pdf",
+    "dppsPdfCode": "35c408cf-9216-4c5b-8344-4002ee731651.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Exergy 04 : Questions based on exergy",
+    "lectureCode": "46d0c10c-899d-4607-a158-3ac8a1e5e3ea",
+    "extId": "64c66dd7ec19200018a40a86",
+    "key": "64c7491ad80ff30019b6d35f",
+    "classNotesCode": "59b5be9f-18c3-40d1-87d0-075403844335.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Exergy 03 : Irreversibility",
+    "lectureCode": "243dfa78-213a-4df4-8569-466a7991eb11",
+    "extId": "64c4898f723388001836dd7d",
+    "key": "64c4ba6bac9c10001891eddd",
+    "classNotesCode": "701fed3a-6ab2-42a0-ad48-88d28b90f55d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Exergy 02 : Availability",
+    "lectureCode": "90086069-50e9-4749-8dc5-63975381c202",
+    "extId": "64c3868e3e752300189bc6a5",
+    "key": "64c49af257d8840018725639",
+    "classNotesCode": "e14c4dc6-6385-4533-a932-a3e5ffcfa017.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Exergy 01 : Available energy",
+    "lectureCode": "99377c00-67ba-48d2-b048-b3b5c18e03c9",
+    "extId": "64c22538fe1c590018188cfa",
+    "key": "64c34a871e32600018a3b68d",
+    "classNotesCode": "7814f6a1-3de7-4d72-a092-10150af38870.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Exergy DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "bc3e5fce-666f-4686-a586-5f13857ebb92.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

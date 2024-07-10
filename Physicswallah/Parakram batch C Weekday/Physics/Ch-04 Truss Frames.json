@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Truss & Frames 04 : Analysis of Plane...",
+    "lectureCode": "539c0ccd-77c5-4b5d-9279-447c28bdc659",
+    "extId": "63f7c166517e560018ec4d98",
+    "key": "63f8d9c3036efa0018ac2d50",
+    "classNotesCode": "89142901-ec3f-4c71-a74c-dbcebc85f0e2.pdf",
+    "dppsPdfCode": "505dd87d-b058-44a7-aa5c-8e8f615d1696.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Truss & Frames 03: Analysis of Plane ...",
+    "lectureCode": "71a711f2-0522-4ffd-b2fa-325800a4f64f",
+    "extId": "63f66946516a94001889950f",
+    "key": "63f7a3133655c800188a8457",
+    "classNotesCode": "cfaa21f4-8a15-4f54-8f02-b8ae06e8f76b.pdf",
+    "dppsPdfCode": "6bedcee3-031c-4583-9b8b-a1ec1a2eb163.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Truss & Frames 02 : Analysis of Plane...",
+    "lectureCode": "325d8fdb-cef8-495a-9dbc-b94a87218288",
+    "extId": "63f66882dc6f9b0018607ab1",
+    "key": "63f78552e6aab80018b0d287",
+    "classNotesCode": "12d1de4e-5f64-46a7-84e7-914a22208a60.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Truss & Frames 01 : Analysis of Plane...",
+    "lectureCode": "7bc9b7d6-f3d0-4637-af6b-e74d5b84e1c9",
+    "extId": "63f52378a871f70018e7eb18",
+    "key": "63f6537f150ef40018883d72",
+    "classNotesCode": "faaa76a1-51cc-4f06-9d39-5bb52fbb8243.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Truss Frames PYQ's Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "959a99f4-12c5-4709-b506-fb821de2fd2c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Truss Frames DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "6bedcee3-031c-4583-9b8b-a1ec1a2eb163.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Psychrometry 04 : Psychrometry",
+    "lectureCode": "e2197f3d-b525-4c17-b05b-171b39699005",
+    "extId": "64b8e29dd11df600194bb539",
+    "key": "64b988c86ebb5d0018f17d47",
+    "classNotesCode": "",
+    "dppsPdfCode": "6acca8c9-e06e-40ed-94fb-5f9b00e1273f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Psychrometry 03 : Psychrometry AC Basics",
+    "lectureCode": "ecdbac1c-defd-4df0-96d7-ce2046acc11c",
+    "extId": "64b6a131e75aba0018b49ec3",
+    "key": "64b837e04c2c5800184eca31",
+    "classNotesCode": "",
+    "dppsPdfCode": "6ca5a426-283e-4678-aa9d-244431bb0020.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Psychrometry 02 : Psychrometry Constants",
+    "lectureCode": "09268769-c119-4d47-9593-d4e3ea205c5c",
+    "extId": "64b6a107e880dc0018d6488a",
+    "key": "64b8064deda48f0018c3408b",
+    "classNotesCode": "",
+    "dppsPdfCode": "80f5a76e-065e-4692-ba8d-3ddc60a9bd8b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Psychrometry 01  Psychrometry Basics",
+    "lectureCode": "fc5cdeb6-152e-4ed1-8eb9-80ca06492ffe",
+    "extId": "64b5a66da5d89a00182d1a16",
+    "key": "64b6da073f1b35001871f44b",
+    "classNotesCode": "",
+    "dppsPdfCode": "ec4b36ab-f624-4e7a-806b-cc87143f25c7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Psychrometry DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Psychrometry DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

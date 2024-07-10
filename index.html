@@ -467,7 +467,7 @@ function showBatches() {
     streamLabel.textContent = 'Select Stream:';
     const streamSelect = document.createElement('select');
     streamSelect.classList.add('select-dropdown');
-    const streams = ['Medical', 'Engineering', 'Boards', 'State Level Entrance Exams', 'UPSC'];
+    const streams = ['Medical', 'Engineering', 'Boards', 'State Level Entrance Exams', 'UPSC', 'Gate Wallah'];
     streams.forEach(stream => {
         const option = document.createElement('option');
         option.value = stream;
@@ -485,7 +485,7 @@ function showBatches() {
     classLabel.textContent = 'Select Class:';
     const classSelect = document.createElement('select');
     classSelect.classList.add('select-dropdown');
-    const classes = ['6', '7', '8', '9', '10', '11', '12', 'Repeater'];
+    const classes = ['6', '7', '8', '9', '10', '11', '12', 'Repeater', 'Year'];
     classes.forEach(cls => {
         const option = document.createElement('option');
         option.value = cls;
@@ -849,6 +849,17 @@ function displayBatches(stream, cls) {
                         ]
                     }
                 },
+                {
+                    name: "Parakram GATE-2024 Batch - C Mechanical Weekday",
+                    stream: "Gate Wallah",
+                    class: "Year",
+                    image: "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/3ead78f5-8998-4425-b574-8ad529c76152.png",
+                    subjects: {
+                        "Physics": [
+                            "Navigation", "Navigation (Video Only)", "CH 01 : Probability and Statistics(By Rahul Joshi Sir)", "Batch Demo Videos", "Test Planner || (Only PDF)", "Class Schedule || (Only PDF)", "Telegram Group Link || (Only PDF)", "Test Paper || (Only PDF)", "Test Discussion", "Self Awareness", "FAQ Session || (Only video)", "Important Announcement", "Previous content : Strength of Materials", "Previous content : Thermodynamics", "Previous content : Industrial Engineering & Operations Research", "Previous content : Theory of Machines", "NSAT Result", "Ch - 01 : Brakes", "Ch-02 : Clutches", "Ch-03 : Design Against Static Loads", "Ch-04 : Design Against Fluctuating Loads", "Ch-05 : Welded Joints", "Ch-06 : Bolted and Riveted Joints", "Ch-07 : Springs", "Ch-08 : Sliding and Rolling Contact Bearings", "Ch-09 : Gears", "Ch-01 : fluid and its properties", "Ch-02 : Pressure and its measurement", "Ch-03 : Hydrostatic forces", "Ch-04 : Buoyancy and Stability", "Ch-05 : Liquid in relative equilibrium", "Ch-06 : Fluid kinematics", "Ch-07 : Fluid Dynamics", "Ch-08 : Laminar Flow", "Ch-09 : Flow Through Pipes", "Ch-10 : Dimensional Analysis and Model Studies", "Ch-11 : Boundary Layer Theory", "Ch-12 : Drag and lift", "Ch- 13 :Turbulent flow", "Ch - 01 : Introduction", "Ch-02 : Steady State Conduction Heat Transfer", "Ch-03 : Critical Radius of Insulation", "Ch-04 : Extended Surface (Fins)", "Ch-05 : Unsteady State Conduction Heat Transfer", "Ch-06 : Heat Exchanger", "Ch-07 : Convection Heat Transfer", "Ch-08 : Radiation Heat Transfer", "CH 01: VCRS", "CH 02 : Gas Refrigeration", "CH 03 - Refrigerants", "CH 04 - Psychrometry", "Ch-05 : IC Engine Cycles", "Ch-06 : IC Engine Performance", "Ch-07 : Brayton Cycle", "Ch-08 : Rankine Cycle", "Ch-09 : Air Compressors", "Ch-10 : Centrifugal Air Compressor", "Ch-11 : Axial Air Compressor", "CH 12 : Steam Turbine", "CH 13 : Compressible Flow", "Lecture Planner || (Only PDF)", "GATE-O-PEDIA", "CH 01 : Introduction & Properties of Materials", "CH 02 : Axially Loaded Members", "CH- 03: Torsion in Circular Shafts", "CH- 04: Shear Forces & Bending Moments", "CH- 05 : Bending Stresses in Beams", "CH- 06 : Shear Stresses in Beams", "CH- 07 : Deflections of beams", "CH- 08 : Energy Methods", "Ch-09 : Complex Stresses", "CH 10 : Complex Strains", "CH 11 : Combined Loadings", "CH 12 : Pressure Vessels", "CH 13 : Columns", "Ch-01 : Material Science", "Ch -02 : Metal Forming", "Ch-03 : Metrology", "Ch-04 : Casting", "Important Practice Questions", "Ch-01: Basic Concepts", "Ch-02 : Equilibrium", "Ch-03 : Friction & It's Applications", "Ch-04 : Truss & Frames", "Ch-05 : Kinematics of Particles", "Ch-06 : Kinematics of Rigid Bodies", "Ch-07 : Kinetics of Particles", "Ch-08 : Kinetics of Rigid Bodies", "Ch-09 : Lagrange's Equation of Motion", "Ch-10 : Centroid", "Ch-11 : Moment of Inertia", "Ch-01 : Graphical and Introduction to Simplex", "Ch-02 : Simplex Method", "Ch-03 : Transportation", "Ch-04 : Assignment and Sequencing", "Ch-05 : Queueing", "Ch-06 : Project Management", "Ch-07 : Inventory", "Ch-08 : Forecasting", "PYQ Quiz", "Ch-01 : Simple Mechanism", "Ch-02 : Velocity Analysis", "Ch-03 : Acceleration Analysis", "Ch-04 : Gear", "Ch-05 : Gear Train", "Ch-06 : Analysis Of Single Slider Crank Mechanism", "Ch-07 : Flywheel", "Ch-08 : Balancing", "Ch-09 : Gyroscope", "Ch - 10 : Cam and Follower", "Ch - 11 : Governor", "CH 01 : Basic Concept", "CH 02 : Heat and Work", "Ch-03 : First law of thermodynamics", "Ch-04 : Second law of thermodynamics", "CH 05 : Entropy", "CH 06 : Exergy", "CH- 07 : Properties of Pure Substance", "CH- 08: Thermodynamic Relations", "Ch-01 : Introduction", "Ch-02 : Impact Of Jet", "Ch-03 : Impulse Turbine", "Ch-04 : Reaction Turbines", "CH 01 : Theory of Metal Cutting", "CH 02 : Tool Wear, Tool Life & Machinability", "CH 03 : Non-Traditional Machining Method", "CH 04 : Welding", "CH 05 : NC, CNC & Automation", "CH 06 : Machine Tool", "Ch-07 : Additive Manufacturing", "Doubts Solving and Extra Questions", "Ch-01 : Vibrations"
+                        ]
+                    }
+                },    
                 { 
                     name: "Lakshya Jee 1.O 2023",
                     stream: "Engineering",
@@ -2393,6 +2404,144 @@ function showLessons(batchName, subject, lessons) {
                 "Origin and Evolution of Life" : "Physicswallah/Sarthak MHT Cet Crash Course /Zoology/Origin and Evolution of Life.json",
                 "PYQ's Discussion" : "Physicswallah/Sarthak MHT Cet Crash Course /Zoology/PYQ's Discussion.json",
             }
+        },
+        "Parakram GATE-2024 Batch - C Mechanical Weekday": {
+            "Physics": {
+                "Navigation" : "Physicswallah/Parakram Batch C Weekday/Physics/Navigation.json",
+"Navigation (Video Only)" : "Physicswallah/Parakram Batch C Weekday/Physics/Navigation Video Only.json",
+"CH 01 : Probability and Statistics(By Rahul Joshi Sir)" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 01 Probability and StatisticsBy Rahul Joshi Sir.json",
+"Batch Demo Videos" : "Physicswallah/Parakram Batch C Weekday/Physics/Batch Demo Videos.json",
+"Test Planner || (Only PDF)" : "Physicswallah/Parakram Batch C Weekday/Physics/Test Planner Only PDF.json",
+"Class Schedule || (Only PDF)" : "Physicswallah/Parakram Batch C Weekday/Physics/Class Schedule Only PDF.json",
+"Telegram Group Link || (Only PDF)" : "Physicswallah/Parakram Batch C Weekday/Physics/Telegram Group Link Only PDF.json",
+"Test Paper || (Only PDF)" : "Physicswallah/Parakram Batch C Weekday/Physics/Test Paper Only PDF.json",
+"Test Discussion" : "Physicswallah/Parakram Batch C Weekday/Physics/Test Discussion.json",
+"Self Awareness" : "Physicswallah/Parakram Batch C Weekday/Physics/Self Awareness.json",
+"FAQ Session || (Only video)" : "Physicswallah/Parakram Batch C Weekday/Physics/FAQ Session Only video.json",
+"Important Announcement" : "Physicswallah/Parakram Batch C Weekday/Physics/Important Announcement.json",
+"Previous content : Strength of Materials" : "Physicswallah/Parakram Batch C Weekday/Physics/Previous content Strength of Materials.json",
+"Previous content : Thermodynamics" : "Physicswallah/Parakram Batch C Weekday/Physics/Previous content Thermodynamics.json",
+"Previous content : Industrial Engineering & Operations Research" : "Physicswallah/Parakram Batch C Weekday/Physics/Previous content Industrial Engineering Operations Research.json",
+"Previous content : Theory of Machines" : "Physicswallah/Parakram Batch C Weekday/Physics/Previous content Theory of Machines.json",
+"NSAT Result" : "Physicswallah/Parakram Batch C Weekday/Physics/NSAT Result.json",
+"Ch - 01 : Brakes" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch - 01 Brakes.json",
+"Ch-02 : Clutches" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-02 Clutches.json",
+"Ch-03 : Design Against Static Loads" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-03 Design Against Static Loads.json",
+"Ch-04 : Design Against Fluctuating Loads" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-04 Design Against Fluctuating Loads.json",
+"Ch-05 : Welded Joints" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-05 Welded Joints.json",
+"Ch-06 : Bolted and Riveted Joints" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-06 Bolted and Riveted Joints.json",
+"Ch-07 : Springs" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-07 Springs.json",
+"Ch-08 : Sliding and Rolling Contact Bearings" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-08 Sliding and Rolling Contact Bearings.json",
+"Ch-09 : Gears" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-09 Gears.json",
+"Ch-01 : fluid and its properties" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-01 fluid and its properties.json",
+"Ch-02 : Pressure and its measurement" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-02 Pressure and its measurement.json",
+"Ch-03 : Hydrostatic forces" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-03 Hydrostatic forces.json",
+"Ch-04 : Buoyancy and Stability" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-04 Buoyancy and Stability.json",
+"Ch-05 : Liquid in relative equilibrium" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-05 Liquid in relative equilibrium.json",
+"Ch-06 : Fluid kinematics" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-06 Fluid kinematics.json",
+"Ch-07 : Fluid Dynamics" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-07 Fluid Dynamics.json",
+"Ch-08 : Laminar Flow" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-08 Laminar Flow.json",
+"Ch-09 : Flow Through Pipes" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-09 Flow Through Pipes.json",
+"Ch-10 : Dimensional Analysis and Model Studies" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-10 Dimensional Analysis and Model Studies.json",
+"Ch-11 : Boundary Layer Theory" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-11 Boundary Layer Theory.json",
+"Ch-12 : Drag and lift" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-12 Drag and lift.json",
+"Ch- 13 :Turbulent flow" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch- 13 Turbulent flow.json",
+"Ch - 01 : Introduction" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch - 01 Introduction.json",
+"Ch-02 : Steady State Conduction Heat Transfer" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-02 Steady State Conduction Heat Transfer.json",
+"Ch-03 : Critical Radius of Insulation" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-03 Critical Radius of Insulation.json",
+"Ch-04 : Extended Surface (Fins)" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-04 Extended Surface Fins.json",
+"Ch-05 : Unsteady State Conduction Heat Transfer" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-05 Unsteady State Conduction Heat Transfer.json",
+"Ch-06 : Heat Exchanger" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-06 Heat Exchanger.json",
+"Ch-07 : Convection Heat Transfer" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-07 Convection Heat Transfer.json",
+"Ch-08 : Radiation Heat Transfer" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-08 Radiation Heat Transfer.json",
+"CH 01: VCRS" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 01 VCRS.json",
+"CH 02 : Gas Refrigeration" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 02 Gas Refrigeration.json",
+"CH 03 - Refrigerants" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 03 - Refrigerants.json",
+"CH 04 - Psychrometry" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 04 - Psychrometry.json",
+"Ch-05 : IC Engine Cycles" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-05 IC Engine Cycles.json",
+"Ch-06 : IC Engine Performance" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-06 IC Engine Performance.json",
+"Ch-07 : Brayton Cycle" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-07 Brayton Cycle.json",
+"Ch-08 : Rankine Cycle" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-08 Rankine Cycle.json",
+"Ch-09 : Air Compressors" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-09 Air Compressors.json",
+"Ch-10 : Centrifugal Air Compressor" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-10 Centrifugal Air Compressor.json",
+"Ch-11 : Axial Air Compressor" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-11 Axial Air Compressor.json",
+"CH 12 : Steam Turbine" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 12 Steam Turbine.json",
+"CH 13 : Compressible Flow" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 13 Compressible Flow.json",
+"Lecture Planner || (Only PDF)" : "Physicswallah/Parakram Batch C Weekday/Physics/Lecture Planner Only PDF.json",
+"GATE-O-PEDIA" : "Physicswallah/Parakram Batch C Weekday/Physics/GATE-O-PEDIA.json",
+"CH 01 : Introduction & Properties of Materials" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 01 Introduction Properties of Materials.json",
+"CH 02 : Axially Loaded Members" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 02 Axially Loaded Members.json",
+"CH- 03: Torsion in Circular Shafts" : "Physicswallah/Parakram Batch C Weekday/Physics/CH- 03 Torsion in Circular Shafts.json",
+"CH- 04: Shear Forces & Bending Moments" : "Physicswallah/Parakram Batch C Weekday/Physics/CH- 04 Shear Forces Bending Moments.json",
+"CH- 05 : Bending Stresses in Beams" : "Physicswallah/Parakram Batch C Weekday/Physics/CH- 05 Bending Stresses in Beams.json",
+"CH- 06 : Shear Stresses in Beams" : "Physicswallah/Parakram Batch C Weekday/Physics/CH- 06 Shear Stresses in Beams.json",
+"CH- 07 : Deflections of beams" : "Physicswallah/Parakram Batch C Weekday/Physics/CH- 07 Deflections of beams.json",
+"CH- 08 : Energy Methods" : "Physicswallah/Parakram Batch C Weekday/Physics/CH- 08 Energy Methods.json",
+"Ch-09 : Complex Stresses" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-09 Complex Stresses.json",
+"CH 10 : Complex Strains" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 10 Complex Strains.json",
+"CH 11 : Combined Loadings" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 11 Combined Loadings.json",
+"CH 12 : Pressure Vessels" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 12 Pressure Vessels.json",
+"CH 13 : Columns" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 13 Columns.json",
+"Ch-01 : Material Science" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-01 Material Science.json",
+"Ch -02 : Metal Forming" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch -02 Metal Forming.json",
+"Ch-03 : Metrology" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-03 Metrology.json",
+"Ch-04 : Casting" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-04 Casting.json",
+"Important Practice Questions" : "Physicswallah/Parakram Batch C Weekday/Physics/Important Practice Questions.json",
+"Ch-01: Basic Concepts" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-01 Basic Concepts.json",
+"Ch-02 : Equilibrium" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-02 Equilibrium.json",
+"Ch-03 : Friction & It's Applications" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-03 Friction Its Applications.json",
+"Ch-04 : Truss & Frames" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-04 Truss Frames.json",
+"Ch-05 : Kinematics of Particles" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-05 Kinematics of Particles.json",
+"Ch-06 : Kinematics of Rigid Bodies" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-06 Kinematics of Rigid Bodies.json",
+"Ch-07 : Kinetics of Particles" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-07 Kinetics of Particles.json",
+"Ch-08 : Kinetics of Rigid Bodies" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-08 Kinetics of Rigid Bodies.json",
+"Ch-09 : Lagrange's Equation of Motion" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-09 Lagranges Equation of Motion.json",
+"Ch-10 : Centroid" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-10 Centroid.json",
+"Ch-11 : Moment of Inertia" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-11 Moment of Inertia.json",
+"Ch-01 : Graphical and Introduction to Simplex" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-01 Graphical and Introduction to Simplex.json",
+"Ch-02 : Simplex Method" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-02 Simplex Method.json",
+"Ch-03 : Transportation" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-03 Transportation.json",
+"Ch-04 : Assignment and Sequencing" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-04 Assignment and Sequencing.json",
+"Ch-05 : Queueing" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-05 Queueing.json",
+"Ch-06 : Project Management" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-06 Project Management.json",
+"Ch-07 : Inventory" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-07 Inventory.json",
+"Ch-08 : Forecasting" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-08 Forecasting.json",
+"PYQ Quiz" : "Physicswallah/Parakram Batch C Weekday/Physics/PYQ Quiz.json",
+"Ch-01 : Simple Mechanism" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-01 Simple Mechanism.json",
+"Ch-02 : Velocity Analysis" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-02 Velocity Analysis.json",
+"Ch-03 : Acceleration Analysis" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-03 Acceleration Analysis.json",
+"Ch-04 : Gear" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-04 Gear.json",
+"Ch-05 : Gear Train" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-05 Gear Train.json",
+"Ch-06 : Analysis Of Single Slider Crank Mechanism" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-06 Analysis Of Single Slider Crank Mechanism.json",
+"Ch-07 : Flywheel" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-07 Flywheel.json",
+"Ch-08 : Balancing" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-08 Balancing.json",
+"Ch-09 : Gyroscope" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-09 Gyroscope.json",
+"Ch - 10 : Cam and Follower" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch - 10 Cam and Follower.json",
+"Ch - 11 : Governor" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch - 11 Governor.json",
+"CH 01 : Basic Concept" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 01 Basic Concept.json",
+"CH 02 : Heat and Work" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 02 Heat and Work.json",
+"Ch-03 : First law of thermodynamics" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-03 First law of thermodynamics.json",
+"Ch-04 : Second law of thermodynamics" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-04 Second law of thermodynamics.json",
+"CH 05 : Entropy" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 05 Entropy.json",
+"CH 06 : Exergy" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 06 Exergy.json",
+"CH- 07 : Properties of Pure Substance" : "Physicswallah/Parakram Batch C Weekday/Physics/CH- 07 Properties of Pure Substance.json",
+"CH- 08: Thermodynamic Relations" : "Physicswallah/Parakram Batch C Weekday/Physics/CH- 08 Thermodynamic Relations.json",
+"Ch-01 : Introduction" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-01 Introduction.json",
+"Ch-02 : Impact Of Jet" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-02 Impact Of Jet.json",
+"Ch-03 : Impulse Turbine" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-03 Impulse Turbine.json",
+"Ch-04 : Reaction Turbines" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-04 Reaction Turbines.json",
+"CH 01 : Theory of Metal Cutting" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 01 Theory of Metal Cutting.json",
+"CH 02 : Tool Wear, Tool Life & Machinability" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 02 Tool Wear Tool Life Machinability.json",
+"CH 03 : Non-Traditional Machining Method" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 03 Non-Traditional Machining Method.json",
+"CH 04 : Welding" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 04 Welding.json",
+"CH 05 : NC, CNC & Automation" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 05 NC CNC Automation.json",
+"CH 06 : Machine Tool" : "Physicswallah/Parakram Batch C Weekday/Physics/CH 06 Machine Tool.json",
+"Ch-07 : Additive Manufacturing" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-07 Additive Manufacturing.json",
+"Doubts Solving and Extra Questions" : "Physicswallah/Parakram Batch C Weekday/Physics/Doubts Solving and Extra Questions.json",
+"Ch-01 : Vibrations" : "Physicswallah/Parakram Batch C Weekday/Physics/Ch-01 Vibrations.json"
+
+            }
+
         },
         "Lakshya Jee 1.O 2023": {
 

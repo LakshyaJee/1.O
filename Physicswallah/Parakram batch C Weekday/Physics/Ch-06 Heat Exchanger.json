@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Heat Exchanger 04 : Heat Exchanger (P...",
+    "lectureCode": "9652a851-9726-4aec-a7a1-e73849129224",
+    "extId": "6487ef6e6b41d50018b2ce12",
+    "key": "6488b652fd7d0f0018dbd763",
+    "classNotesCode": "dac1b46b-8e01-4f85-9355-606a210f991f.pdf",
+    "dppsPdfCode": "5bc345ce-6578-4e02-be47-e53e52750df0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Heat Exchanger 03 : Heat Exchanger (P...",
+    "lectureCode": "af8d2914-ee67-4c13-a3a3-457c28d8eed0",
+    "extId": "6487ef54cf7255001863eb5e",
+    "key": "64888fb1d2032800189a1ecd",
+    "classNotesCode": "",
+    "dppsPdfCode": "fdfbacf1-58fa-443f-bf69-1d1e8a35407e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Heat Exchanger 02 : Heat Exchanger (P...",
+    "lectureCode": "5392640e-6aae-4f7c-a699-dd6bb1294037",
+    "extId": "6481fe2b4e5b3c0018cf9c53",
+    "key": "64836f7efe66ff0018a90550",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Heat Exchanger 01 : Heat Exchanger (P...",
+    "lectureCode": "28e9fb54-0f0e-4acb-998c-c18e619318f2",
+    "extId": "6481fe0ebd80a90018934d42",
+    "key": "648348b9a1f7fb0019a15aa2",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Heat Exchanger DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Equilibrium 03 : Coplanar Equilibrium...",
+    "lectureCode": "8d0c4e94-32c0-41dc-b5bd-bf226f6162c1",
+    "extId": "63f288ecfcad2d001835b510",
+    "key": "63f3a2d30632e000180574b7",
+    "classNotesCode": "120e799b-235a-4787-a58c-646b6ab46abf.pdf",
+    "dppsPdfCode": "a5841701-305b-4ad9-be97-64c6403c7a22.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Equilibrium 02 : Coplanar Equilibrium...",
+    "lectureCode": "098dfe52-9b11-4b6b-9608-bb8cba63eb78",
+    "extId": "63ee730048e91c00185ad195",
+    "key": "63efbc3984bfae00186a36fa",
+    "classNotesCode": "7c32a948-a9dd-4c2c-b592-dcdded6aa9a8.pdf",
+    "dppsPdfCode": "36b6320a-9074-497d-ba12-70adca265bc9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Equilibrium 01 : Free Body Diagrams",
+    "lectureCode": "7843c5ca-5af0-4a35-b7a7-37519e354936",
+    "extId": "63ee72703e17b10018375edd",
+    "key": "63ef9f0f11e06c00185b1e5d",
+    "classNotesCode": "7986e395-af81-4593-a569-e524b8afdc3e.pdf",
+    "dppsPdfCode": "a91b730a-775f-45c7-b460-ec8b4a652509.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Equilibrium PYQ's Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "200d7d9c-7552-4042-9f5f-a9946426339c.pdf",
+    "dppsPdfCode": "e0bf832c-1856-4aed-b494-2e53948c850d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Equilibrium DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "36b6320a-9074-497d-ba12-70adca265bc9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Equilibrium DPP- Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "a91b730a-775f-45c7-b460-ec8b4a652509.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

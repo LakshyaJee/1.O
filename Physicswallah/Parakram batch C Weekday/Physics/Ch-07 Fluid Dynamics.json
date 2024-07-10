@@ -1,0 +1,102 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Fluid Dynamics 08 : Angular Momentum ...",
+    "lectureCode": "23b31527-11fc-4758-af84-67020e35d226",
+    "extId": "643d8cb835d618001810c905",
+    "key": "643ebba284c2b200187a4058",
+    "classNotesCode": "1623d337-04e2-444e-95be-2883812cf263.pdf",
+    "dppsPdfCode": "93b206f2-2bad-475f-8644-c53069892017.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Fluid Dynamics 07 : Momentum Equation...",
+    "lectureCode": "cfb06dd2-310e-4856-bf38-ccd2d8f96c7b",
+    "extId": "643c2751f5c5b80018abe9b3",
+    "key": "643d894035d618001810c709",
+    "classNotesCode": "12b5511f-705b-42df-8389-1cf0451c0b87.pdf",
+    "dppsPdfCode": "54582064-9192-450b-ac1e-1524922d75dc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Fluid Dynamics 06 : Venturi Meter",
+    "lectureCode": "1381bc21-ba27-4e99-8481-7adedb3cd9f3",
+    "extId": "643c27238a9c980018db43d6",
+    "key": "643d693417564e00186b6821",
+    "classNotesCode": "ec532796-0a85-471b-af52-f46c54683bf2.pdf",
+    "dppsPdfCode": "5c7005d3-06fc-4b93-a483-8fb4520d76b2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Fluid Dynamics 05 : Momentum Equation",
+    "lectureCode": "13bc40e9-aab7-4ece-8084-c89e314f4119",
+    "extId": "64393ca0ed30e8001857e413",
+    "key": "643998a9666c39001868f09d",
+    "classNotesCode": "190195f8-337f-46d9-bc60-0d67d42db630.pdf",
+    "dppsPdfCode": "a213aee0-4e8f-4e82-85ef-6f54a9f703cc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Fluid Dynamics 04 : Application of Be...",
+    "lectureCode": "51f8a0c3-5d67-4253-8d3d-b27e10706169",
+    "extId": "64383a70760c6b001843349f",
+    "key": "643973fff9af5e0018abec3a",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Fluid Dynamics 03 : Applications of B...",
+    "lectureCode": "88093f5b-9d4b-4929-a54c-7fe32816ea56",
+    "extId": "6436ead5b7ab3900186973f2",
+    "key": "64384742da792200184ea62e",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Fluid Dynamics 02 : Bernoulli's Equat...",
+    "lectureCode": "100025ee-5bca-4551-9d4a-aa9477e6d478",
+    "extId": "6436eaac67741100183a8294",
+    "key": "6438233586794b0018d75866",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Fluid dynamics 01 : Bernoulli's equat...",
+    "lectureCode": "fe49482a-e00f-446b-90ad-1a4718ae5518",
+    "extId": "643673794857cf00186ab0e6",
+    "key": "6436ef7f386d6100184fe8a5",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Fluid Dynamics DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Fluid Dynamics DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Acceleration Analysis 04 : Accelerati...",
+    "lectureCode": "94bda6b0-5314-4d98-9e62-c6d19ab49408",
+    "extId": "6465b4143011410018f773d9",
+    "key": "64664a84c86dd90018cbc65b",
+    "classNotesCode": "e2dcbccc-8fed-4eb3-90d4-713f76af99a5.pdf",
+    "dppsPdfCode": "e2dcbccc-8fed-4eb3-90d4-713f76af99a5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Acceleration Analysis 03 : Accelerati...",
+    "lectureCode": "27acdfde-ce84-407d-853c-76995396596d",
+    "extId": "6463d576abc44e0018fbf6c0",
+    "key": "646518003b9c5800183586f5",
+    "classNotesCode": "",
+    "dppsPdfCode": "57a5d396-6069-402e-8056-77747707e50c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Acceleration Analysis 02 : Accelerati...",
+    "lectureCode": "a56a49fb-a19d-49c3-8cc3-248501b75d7f",
+    "extId": "6463d53fe0114c0019a09d47",
+    "key": "6464f9bbb79d5e00187d7094",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Acceleration Analysis 01 : Accelerati...",
+    "lectureCode": "51431f1a-ed6f-4e87-a04f-9983cb076c17",
+    "extId": "6462781ec5710c0018d82e42",
+    "key": "6463c79fbb3bd40018db6f2b",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Acceleration Analysis DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

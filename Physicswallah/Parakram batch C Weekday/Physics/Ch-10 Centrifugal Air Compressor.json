@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Application of Thermodynamics Centrif...",
+    "lectureCode": "62ee3415-beb7-46e6-a029-1f91b099721d",
+    "extId": "64dd21dcf6e6f500182aed14",
+    "key": "64de44601f221b00193e19a7",
+    "classNotesCode": "2b256cc6-f693-4710-925d-23e5bf7f141e.pdf",
+    "dppsPdfCode": "e7d48b2e-d874-4c6c-93b3-21def8578326.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Centrifugal Air Compressor 03 : Centr...",
+    "lectureCode": "68e6f16c-da9e-41bc-9a03-2800823925c8",
+    "extId": "64da730a8dde1c0018adecaa",
+    "key": "64dd158b77454c0019d56d74",
+    "classNotesCode": "4b80e71d-530f-42ec-bd36-011871013d2a.pdf",
+    "dppsPdfCode": "1003de97-96de-4512-baa1-5137b041b27f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Centrifugal Air Compressor 02 : Centr...",
+    "lectureCode": "8e17da3f-ecc4-4caf-b2e9-d188e231bade",
+    "extId": "64da72b8d07d9b0018a21270",
+    "key": "64dcf2d73ccfc00018ab4389",
+    "classNotesCode": "a72ce519-7d01-4459-a255-0f8cc8c54928.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Centrifugal Air Compressor 01 : Centr...",
+    "lectureCode": "0c9e679b-c93c-4082-be40-454cce792f5d",
+    "extId": "64d9c4c2fa8b3400184bd5ed",
+    "key": "64da6f376bb7f7001847a182",
+    "classNotesCode": "d9a19e53-767e-4f53-9459-92d7fa23d144.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Centrifugal Air Compressor DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "e7d48b2e-d874-4c6c-93b3-21def8578326.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

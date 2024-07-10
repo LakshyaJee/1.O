@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Introduction & Properties of Material...",
+    "lectureCode": "449cd10b-c0bc-4dee-8015-6b3ac407561e",
+    "extId": "64ca1813f0caa40018b59291",
+    "key": "64cb323d35acbd0018cfa59a",
+    "classNotesCode": "5d6e417e-1caf-4356-8eed-a2e8118b9a49.pdf",
+    "dppsPdfCode": "907be5a6-a07d-4d11-8857-35bd5b726597.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Introduction & Properties of Material...",
+    "lectureCode": "9e07e67d-08bd-4ba6-b2cf-765bf7caadbf",
+    "extId": "64c8a2fa861f0d0018698942",
+    "key": "64c9de9de9cb190018441b3c",
+    "classNotesCode": "decb025c-5f8a-4a8a-b5e2-e6b9a315b207.pdf",
+    "dppsPdfCode": "17502418-234b-4267-a241-25c86ef01ea7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Introduction & Properties of Material...",
+    "lectureCode": "e5bced06-c45e-4dca-96a0-f1712124a094",
+    "extId": "64c7afd62f57d0001838eac7",
+    "key": "64c8a896b6be870019f4835e",
+    "classNotesCode": "b5766c95-cf4f-4be0-9930-2c7162a175a4.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Introduction Properties of Materials DPP Discussion...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "907be5a6-a07d-4d11-8857-35bd5b726597.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]
