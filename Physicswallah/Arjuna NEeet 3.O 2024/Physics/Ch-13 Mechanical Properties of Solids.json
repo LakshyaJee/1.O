@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Mechanical Properties of Solids : Pra...",
+    "lectureCode": "617278e5-47e5-429b-af01-35512f5489df",
+    "extId": "658fc450f53b65001860dc76",
+    "key": "658ed408fbd40a00185f6365",
+    "classNotesCode": "265137e7-d889-40dc-ab33-15253429f185.pdf",
+    "dppsPdfCode": "0a4f98a8-bfb1-4520-a285-62a771468267.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Mechanical Properties of Solids 04 : ...",
+    "lectureCode": "a7e2d0db-f68a-4357-b999-f197b9269dad",
+    "extId": "6580bd5eaced3300180fce11",
+    "key": "6581a8b043ecbd001805b478",
+    "classNotesCode": "7862f7ea-a490-4dbd-9048-303da0ac9375.pdf",
+    "dppsPdfCode": "0a1fc119-ba3d-4b91-91d3-1b3238c3afa5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Mechanical Properties of Solids 03 : ...",
+    "lectureCode": "f1848d6e-5a41-4d01-be85-7783477ee51c",
+    "extId": "657f491e72151b001864c364",
+    "key": "6580571b7171cd00184b94ce",
+    "classNotesCode": "35977445-e327-44ab-9ecc-1c6ac6349be0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Mechanical Properties of Solids 02 : ...",
+    "lectureCode": "de71b2d5-aba9-4a1c-815a-7f9171f9e67b",
+    "extId": "657d928ef7ca970018108f31",
+    "key": "657dc6d34d47cb001872df90",
+    "classNotesCode": "df08ebe5-e81f-43fe-9479-9221e92adb15.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Mechanical Properties of Solids 01 : ...",
+    "lectureCode": "20aec2c5-a0e2-46e6-ba8a-e1d3e9abc41e",
+    "extId": "657d26b6a27c570018a1e6b0",
+    "key": "657db095af7c000018ec40b7",
+    "classNotesCode": "265137e7-d889-40dc-ab33-15253429f185.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

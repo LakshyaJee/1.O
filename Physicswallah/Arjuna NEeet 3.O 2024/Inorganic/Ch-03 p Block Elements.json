@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "p Block Elements 06 : Revision || Imp...",
+    "lectureCode": "9b97f0fd-c963-4e58-b693-0a59ecba04d1",
+    "extId": "65aff403e46ee30018a0af13",
+    "key": "65b11cfe0fe4c20018394067",
+    "classNotesCode": "ee07f156-5ca3-4f8a-ae83-c1aab46c8224.pdf",
+    "dppsPdfCode": "d3f5a7ae-d219-452b-9e4c-7f811856e6f9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "p Block Elements 05 : Chemical Proper...",
+    "lectureCode": "acba6853-4148-43f5-9726-3982fb2f2c35",
+    "extId": "65aff195d153270018d9bdda",
+    "key": "65b1031f738e273b1db46239",
+    "classNotesCode": "c5c3a7d0-6a92-4a2a-b90e-31792d086d2b.pdf",
+    "dppsPdfCode": "a4d092fc-f792-4d8e-ab10-e8421566760e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "p Block Elements 04 : Group 14 || Per...",
+    "lectureCode": "ddb2c264-670c-47cd-a679-a49952d6636c",
+    "extId": "65aec67fd37b3e0018500a68",
+    "key": "65afccc49c25c60018c4ed02",
+    "classNotesCode": "557f9a81-c6f9-42e2-aeaa-38710e7799c9.pdf",
+    "dppsPdfCode": "76709fa6-7a86-40bf-a649-29d6063131ae.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "p Block Elements 03 : Boron Family ||...",
+    "lectureCode": "a7ee1960-f4f2-43e6-b9ec-bf248c9f89b8",
+    "extId": "65aec649f39b9e00184ca867",
+    "key": "65afb17d0131460018e4c901",
+    "classNotesCode": "7aef591e-f917-4615-affa-e3c85c9dc7c2.pdf",
+    "dppsPdfCode": "ab405467-6eff-4312-974f-c9ed92648b3c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "p Block Elements 02 : Group 13 Elemen...",
+    "lectureCode": "98a5f96b-7948-4b75-9ad4-b4c8c4aef537",
+    "extId": "65ad30d050685e0018866305",
+    "key": "65ae78d47d5f880018134519",
+    "classNotesCode": "1bacea51-213d-4a61-b29d-3038fb88a87c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "p Block Elements 01 : Introduction to...",
+    "lectureCode": "bf4182cf-89dd-4fd2-a1f1-e70621286afb",
+    "extId": "65ad30a2ae058900182859dd",
+    "key": "65ae600667276c001854b7df",
+    "classNotesCode": "30876bdf-eee7-411c-9a79-47035c0f9f27.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

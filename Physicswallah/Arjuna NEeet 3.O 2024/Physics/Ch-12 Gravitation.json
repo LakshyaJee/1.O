@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Gravitation 05 : Geo-Stationary Satel...",
+    "lectureCode": "ce4fefd1-a7ad-4fc1-b386-36aa82a4468c",
+    "extId": "657b7e4955a5b50018db191e",
+    "key": "657307e4678b57001839a072",
+    "classNotesCode": "0cbaff87-b685-403a-98cf-13158f776ea0.pdf",
+    "dppsPdfCode": "61292c72-97db-4778-b969-188199a97a95.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Gravitation 04 : Maximum Height of Pr...",
+    "lectureCode": "c423652e-47a1-4453-ab42-d45d7fc53fcd",
+    "extId": "657a8b283291520018a13e86",
+    "key": "6570b1ea5ed69b00186a0a46",
+    "classNotesCode": "9654c313-b7cc-4b50-bfee-3c43d3f5e19f.pdf",
+    "dppsPdfCode": "910fac3f-0211-4b7c-9ce1-52d02f2048ea.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Gravitation 03 : Variation of Gravity...",
+    "lectureCode": "b2166c02-9736-42cf-a5e0-14f429b0fbd5",
+    "extId": "6578b70ece69da00189d6bcb",
+    "key": "656f42c801440800182d9c26",
+    "classNotesCode": "9744a7ce-bd02-4014-a5f1-796f0832b116.pdf",
+    "dppsPdfCode": "ccd116de-dd09-47d6-98cd-f4fff550d894.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Gravitation 02 : Gravitational Field ...",
+    "lectureCode": "595ad5d9-6235-4a11-8ab3-7e3b5e151929",
+    "extId": "6577dbe84e3c2c0018630121",
+    "key": "656c7cd36743390018648c11",
+    "classNotesCode": "cd7d82fb-e3d4-4db2-a391-b369f6503622.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Gravitation 01 : Newton Laws of Gravi...",
+    "lectureCode": "8c2b1979-d4ba-4a0c-bb77-fe98927a2899",
+    "extId": "6576379ccacee0001816fe96",
+    "key": "656c44ca79481f0018d11920",
+    "classNotesCode": "647cf738-baa7-4111-9a7a-cda2998b2177.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

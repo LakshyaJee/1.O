@@ -1,0 +1,92 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Newton Law of Motion 09 : Spring Forc...",
+    "lectureCode": "8100499f-affa-4466-8560-066245b76a44",
+    "extId": "6541cbf43546170018af8140",
+    "key": "65408a62cb69c10018f8e80b",
+    "classNotesCode": "32ed6f4f-2572-46c5-b782-3faa39185b56.pdf",
+    "dppsPdfCode": "2fb1a032-3b1a-454d-b056-ace7a2b5f711.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Newton Law of Motion 08 : Pulley Prob...",
+    "lectureCode": "97585ce8-4344-4bf3-b70e-dd080f04113b",
+    "extId": "65400fab55ad720018fc21cf",
+    "key": "65410e5f56d3f900181281a0",
+    "classNotesCode": "1eea8800-ea05-42dd-a806-52e201a46ea5.pdf",
+    "dppsPdfCode": "0512cc6c-8668-405b-ab83-d007438a0387.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Newton Law of Motion 07 : Connected B...",
+    "lectureCode": "46978ba6-7649-4a5b-9d8f-69cb159394d9",
+    "extId": "653ec083e1d13b0018a395be",
+    "key": "653fbc3b8a425800122c6bfe",
+    "classNotesCode": "eaf17d2e-2284-45cd-9904-5f993dc73a26.pdf",
+    "dppsPdfCode": "ce407cf1-401d-4078-8b09-6ec45c2e3dd6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Newton Law of Motion 06 : Tension Force",
+    "lectureCode": "0d96183f-5916-4790-82ba-7188070741e3",
+    "extId": "653c210f15118e0018e33a21",
+    "key": "653d1a188b4fc90013b53d6d",
+    "classNotesCode": "9c71cf5c-378c-4c94-a248-e3952da11511.pdf",
+    "dppsPdfCode": "1265afd5-6a4b-4005-8d69-3de28597dbb9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Newton Law of Motion 05 : Gravitation...",
+    "lectureCode": "8efd9d49-8967-4c5d-a16a-1c2b355805b9",
+    "extId": "653ae1424e7ba300183048ef",
+    "key": "653bca609b675200123d118d",
+    "classNotesCode": "fa3f0d2b-2a1b-4005-ad26-9e72d44650be.pdf",
+    "dppsPdfCode": "ae856024-4427-47f8-ab02-0ceac836115d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Newton Law of Motion 04 : Variable Ma...",
+    "lectureCode": "e3bdd3db-56bd-4263-b60f-2bd867cb4512",
+    "extId": "65399051d387e000189a41a7",
+    "key": "653a73a147436a0012bfc11c",
+    "classNotesCode": "e0a5aa6f-9b5a-4784-a09b-fb7945101b31.pdf",
+    "dppsPdfCode": "0fd01039-0968-40a0-9bab-d3787fddd49f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Newton Law of Motion 03 : Force Time ...",
+    "lectureCode": "29e574e4-5f3b-4a3a-8916-7c091f5f2722",
+    "extId": "653820fa47c43f0018266861",
+    "key": "65390d9b8130b400125e7617",
+    "classNotesCode": "991227d3-e2e9-4e89-9d6e-b790e34fe694.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Newton Law of Motion 02 : Impulse",
+    "lectureCode": "f233d2b5-7607-441e-8d45-db4b17c405e1",
+    "extId": "6536345e43fbba001898c1ca",
+    "key": "65368304e64ee80012833e12",
+    "classNotesCode": "dee0a8cf-4d90-4dff-88b3-77ce6324a19c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Newton Law of Motion 01 : Newton Laws...",
+    "lectureCode": "086401c2-ccb7-46c2-8a62-44bbc9d54094",
+    "extId": "6535a0edb7a2c00018d46f53",
+    "key": "65366787046aab001296dda2",
+    "classNotesCode": "04c5950d-8c19-45bb-afb0-24840971912a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

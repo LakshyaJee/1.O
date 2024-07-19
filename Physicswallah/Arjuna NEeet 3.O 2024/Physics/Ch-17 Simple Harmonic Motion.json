@@ -1,0 +1,112 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Simple Harmonic Motion 07 : SHM in Tu...",
+    "lectureCode": "cdb33fed-7d86-4add-a524-a8e4b0e1c02f",
+    "extId": "65b3d6c1a73e9500188da871",
+    "key": "65b514bb561ff4001897fc7e",
+    "classNotesCode": "1552cb1f-6882-419b-875b-2ba4407ffc55.pdf",
+    "dppsPdfCode": "ef4d13f4-e659-4354-a96c-4db17bc6328c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Simple Harmonic Motion 06 : Simple Pe...",
+    "lectureCode": "0ab8bf81-9c6e-43a4-9c80-54eca6f8ba35",
+    "extId": "65b13fe0fa170f0018bad74b",
+    "key": "65b28c5eb3a4fd00198090a6",
+    "classNotesCode": "fdb6b44d-abad-40ca-9e3a-1c38a78b0626.pdf",
+    "dppsPdfCode": "56cc8f85-6330-4c23-a40c-d5efb2cc09cd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Simple Harmonic Motion 05 : Energy in...",
+    "lectureCode": "de915b4b-19c7-488f-9e63-7e0be86eea24",
+    "extId": "65aac35eda77d7001956a85b",
+    "key": "65abefce0fcb520018ba6df7",
+    "classNotesCode": "f66f4add-456b-4ca2-87a1-c70d7db684cb.pdf",
+    "dppsPdfCode": "99742cc3-b669-42ba-a000-7b630834afa0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Simple Harmonic Motion 04 : Springs i...",
+    "lectureCode": "947aaef6-7c14-462e-b186-929416da781c",
+    "extId": "65aac3263993d30018875d5d",
+    "key": "65abd9f687323200185f0fa6",
+    "classNotesCode": "6ca5a7dc-0064-440d-a1eb-18823dc843b1.pdf",
+    "dppsPdfCode": "c84325bd-de5e-4248-85be-131820475fa1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Simple Harmonic Motion 03 : Velocity ...",
+    "lectureCode": "2f94e86e-84c1-4b1a-95ef-9fd42a6b6946",
+    "extId": "65a9facc7ad0b500185be488",
+    "key": "65aa87098e4b1800182402a2",
+    "classNotesCode": "5ec2a430-a738-44f9-9cf0-b3ec9e96c373.pdf",
+    "dppsPdfCode": "043e6cfe-9312-4d52-8d82-a32c7d80bfad.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Simple Harmonic Motion 02 : Finding P...",
+    "lectureCode": "c4377e5e-d9e8-44a3-8be8-afa8dae83c30",
+    "extId": "65a9fa9e93da4400188bfd28",
+    "key": "65aa6c39a3c8450018a9859d",
+    "classNotesCode": "4fd2a846-5897-43d5-b1fc-2685f8d459dd.pdf",
+    "dppsPdfCode": "aafb2ef4-2bd4-493c-a309-cb78db088eca.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Simple Harmonic Motion 01: Oscillator...",
+    "lectureCode": "7cf1f0ff-efea-4368-92d9-a5dc22e8c2f6",
+    "extId": "65a8dd8538e7030018bacd6f",
+    "key": "65a93510c385af0018ca3665",
+    "classNotesCode": "32ed787a-0646-40a4-84e5-bae41c5a5d7e.pdf",
+    "dppsPdfCode": "3fa39ba5-2a64-4ead-a544-c2d8d57cbe6a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Simple Harmonic Motion Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "ef4d13f4-e659-4354-a96c-4db17bc6328c.pdf",
+    "dppsPdfCode": "da8477b1-d4f2-4184-9a84-1f8fe96bd382.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Simple Harmonic Motion Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "56cc8f85-6330-4c23-a40c-d5efb2cc09cd.pdf",
+    "dppsPdfCode": "82aedd79-c981-4915-9541-0a583be7b510.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Simple Harmonic Motion Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "99742cc3-b669-42ba-a000-7b630834afa0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Simple Harmonic Motion Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "c84325bd-de5e-4248-85be-131820475fa1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

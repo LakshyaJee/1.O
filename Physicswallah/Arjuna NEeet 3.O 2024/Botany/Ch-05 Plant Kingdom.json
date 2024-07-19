@@ -1,0 +1,92 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Plant Kingdom 09 : Gymnosperm Life Cy...",
+    "lectureCode": "4faec074-cdef-4e12-8095-509082ae7957",
+    "extId": "656644202332320018ccc963",
+    "key": "656762dc5a16aa0018843688",
+    "classNotesCode": "bfebc2ab-c6b6-43ab-b6b8-27c941f065c7.pdf",
+    "dppsPdfCode": "f44fed08-6d88-495d-86b2-7d50e86cb35b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Plant Kingdom 08 : Gymnosperm || (NO ...",
+    "lectureCode": "f6410b75-6dec-4825-ba6d-cfc9313bbfe9",
+    "extId": "6564f071c79dc900189db0b9",
+    "key": "65660e8ef2a9ed00189e2a23",
+    "classNotesCode": "de38147f-bf79-4eb7-8b09-fabc2922b1ff.pdf",
+    "dppsPdfCode": "5d5aa291-4257-4405-a798-24e8cd2054d1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Plant Kingdom 07 : Pteridophyte Life ...",
+    "lectureCode": "7718e3b8-96cc-41a2-be6c-1936e9dc1c50",
+    "extId": "656171e32fa5190018eca118",
+    "key": "6561e93bbbac3700180c7418",
+    "classNotesCode": "a6926f50-3f9d-40c3-9f1c-6eb66d8282b5.pdf",
+    "dppsPdfCode": "0e223b2d-eddd-47ef-adf3-56b5f45732d6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Plant Kingdom 06 : Pteridophytes",
+    "lectureCode": "506ce0e1-7a9f-4db3-96bc-79f0bd415919",
+    "extId": "655d160533076600188c03c8",
+    "key": "655df4bd2fcfff0018ea3ba8",
+    "classNotesCode": "714100e9-72a1-4768-95fe-5e54fe8cf5e4.pdf",
+    "dppsPdfCode": "a206d0c2-033c-4781-baf6-0af25b95afa5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Plant Kingdom 05 : Bryophytes Life Cycle",
+    "lectureCode": "8a995d02-079f-463a-b7aa-a5a0686fac52",
+    "extId": "655bd44093860f0018488333",
+    "key": "655ca44aeb0d7d00186dde3e",
+    "classNotesCode": "24bcb8fc-7496-420e-8457-55582b0b876a.pdf",
+    "dppsPdfCode": "2b01f783-7675-42be-bf07-e1c54cc7e18e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Plant Kingdom 04 : Bryophytes",
+    "lectureCode": "816ef489-3241-4a75-8248-cf0acebf1324",
+    "extId": "654b0d51a28722001873c8ed",
+    "key": "654b80b4ba0d120018e869d9",
+    "classNotesCode": "1812fa81-a2d0-4308-96b1-be4ce189a96a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Plant Kingdom 03 : Gametophyte & Spor...",
+    "lectureCode": "8bc79d7c-5a56-49bd-8755-90a501407f05",
+    "extId": "654948c732f9c600180eeb1f",
+    "key": "654a2d1c2ad27e0018e2cea1",
+    "classNotesCode": "7047ee1c-5680-499a-8255-4dd952aa13d3.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Plant Kingdom 02 : Algae || (NO DPP) ...",
+    "lectureCode": "c92c5f16-0ab8-4250-aedf-98df1efbe839",
+    "extId": "6548b70655d1e000186f82c2",
+    "key": "6548dcd16ad27a001802f33d",
+    "classNotesCode": "8e294715-eff6-4169-a729-29998065ab42.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Plant Kingdom 01 : Classification Sys...",
+    "lectureCode": "e135602c-37b2-49c5-938c-1a28ee93654b",
+    "extId": "6541cbd3da92c600184f9938",
+    "key": "65427480843e8d0018acbb3e",
+    "classNotesCode": "8da010c1-faaf-4dba-83a2-4a95a408e707.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Redox Reactions 03 : Balancing of Red...",
+    "lectureCode": "dce19fe4-3806-48d3-8b9f-18c5ca90897e",
+    "extId": "654c54c419963f001827e0e1",
+    "key": "654d02ed608458001836ef3b",
+    "classNotesCode": "592c57f8-4430-4479-8645-b9dd9435c696.pdf",
+    "dppsPdfCode": "bcae3e2b-24c3-47c6-bdba-21da54978f09.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Redox Reactions 02 : Applications of ...",
+    "lectureCode": "2703b64c-c197-471b-b5cf-b78df33346e7",
+    "extId": "654b0ed8c1b186001866c04d",
+    "key": "654baaa333e10d0018f11b80",
+    "classNotesCode": "98b7637e-f6c3-4eb1-a728-78efdd796a0f.pdf",
+    "dppsPdfCode": "ac38327f-828e-448c-a4c6-3b26f36eeb94.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Redox Reactions 01 : Oxidation Number...",
+    "lectureCode": "eed05bf2-b830-4ad4-bfb2-b48aa4184d67",
+    "extId": "6549495e134b3e0018b5acdd",
+    "key": "654a5c88372b8000189509d0",
+    "classNotesCode": "430deeeb-0bbd-40ca-9172-c7d60bc62f06.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

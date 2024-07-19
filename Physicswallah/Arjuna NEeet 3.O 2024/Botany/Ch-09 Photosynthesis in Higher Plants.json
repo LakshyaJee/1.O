@@ -1,0 +1,92 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Photosynthesis in Higher Plants 09 : ...",
+    "lectureCode": "8bdf217a-c639-4006-a8b2-e1994f5d4720",
+    "extId": "65aff43359490700187cd9ec",
+    "key": "65b13519528f500018dcb335",
+    "classNotesCode": "a9d0e07a-8484-4538-8a05-2f3a9cb57704.pdf",
+    "dppsPdfCode": "c81b91fa-7eb2-42cf-9913-f5d2dbc57a14.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Photosynthesis in Higher Plants 08 : ...",
+    "lectureCode": "06380c31-25a1-4d07-bf90-f4bb5da6a5e5",
+    "extId": "65aec5f9d37b3e00184ffd4b",
+    "key": "65afe484f787be001800ee19",
+    "classNotesCode": "3db6e1a7-2ddc-40e3-adae-71aff14bcf42.pdf",
+    "dppsPdfCode": "07e0630c-963d-46ea-829d-4207991d6a2d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Photosynthesis in Higher Plants 07 : ...",
+    "lectureCode": "f720e2ca-0002-402a-ae82-6b8656979203",
+    "extId": "65ae3082f100b60018c4a732",
+    "key": "65ae8ce229d8b40018a9cc4a",
+    "classNotesCode": "a376733c-ed79-478e-acaa-943cb9833d37.pdf",
+    "dppsPdfCode": "3e3e847a-28c6-4c39-81b5-8d3fd008ba80.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Photosynthesis in Higher Plants 06 : ...",
+    "lectureCode": "974224e8-aa23-44cd-bdc6-d1ccb61304ba",
+    "extId": "65aac2d9c52ed70018124328",
+    "key": "65abbca606659e00186980d5",
+    "classNotesCode": "0667db40-25fb-47aa-b9ee-faf12dfab0fe.pdf",
+    "dppsPdfCode": "a257e202-afca-4405-9762-4787ff4fbf29.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Photosynthesis in Higher Plants 05 : ...",
+    "lectureCode": "ed0b885c-65ed-412b-b88b-9c89d6ff124a",
+    "extId": "65a74f653d138e0018ab1176",
+    "key": "65a7fb569b79d7f1cd038809",
+    "classNotesCode": "7102dc47-6f25-49da-9d92-f897d5d37208.pdf",
+    "dppsPdfCode": "39868fdd-25a6-48bc-aad7-1ff8b75fb08e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Photosynthesis in Higher Plants 04 : ...",
+    "lectureCode": "ca251650-c285-40ee-80f4-b0f118da570d",
+    "extId": "65a6074c5b43a4001892be54",
+    "key": "65a6a86de6f580e6f0be2c88",
+    "classNotesCode": "e9b605c6-9446-4de9-9908-696f7431e99d.pdf",
+    "dppsPdfCode": "28cf5906-21a6-4f7e-b75b-5f1b717f5438.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Photosynthesis in Higher Plants 03 : ...",
+    "lectureCode": "a1d11b4c-c95c-4e42-8887-9e18abefa81d",
+    "extId": "65a210920877040018833f81",
+    "key": "65a296825eb0294817ceef86",
+    "classNotesCode": "eac9c91f-e153-48c3-99b6-cc754c65d6db.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Photosynthesis in Higher Plants 02 : ...",
+    "lectureCode": "0047032f-d01a-40ee-9bc2-c04e27383e3d",
+    "extId": "65a0e64882edd80018c44b42",
+    "key": "65a14aaf52fb103504e350b1",
+    "classNotesCode": "6991ed99-2108-48e1-9409-1ae642e3eaab.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Photosynthesis in Higher Plants 01 : ...",
+    "lectureCode": "9b7b5dad-a332-4ef2-ae31-0d239fc54b7a",
+    "extId": "659f972f7ff1430018a5a459",
+    "key": "659ff80fa25b94001817e106",
+    "classNotesCode": "a76fcebb-14ac-4718-8695-5c202016e74f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

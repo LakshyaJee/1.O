@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Circular Motion 05 : Centrifugal Forc...",
+    "lectureCode": "3f8a5b43-a90b-4154-ac34-acd95d58cd17",
+    "extId": "655ed5f5d75a120018889bcc",
+    "key": "655e30045145b00018d88bff",
+    "classNotesCode": "e079a73f-0d3d-4fba-b238-19225f6ea5d4.pdf",
+    "dppsPdfCode": "7f8f5aa3-8a9f-4e41-bb32-dbab4e02734a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Circular Motion 04 : Bending of Cycli...",
+    "lectureCode": "534c48d5-4745-4d8a-a6ef-bfb3041cb0d9",
+    "extId": "655d16219f47840018b06ec3",
+    "key": "655e0f77eba7ff001843468f",
+    "classNotesCode": "6572a6ad-cc6f-43b9-b035-5f79e4b09a76.pdf",
+    "dppsPdfCode": "5eea3754-1fdb-4a01-b603-8db4fc8ce55c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Circular Motion 03 : Equations of Cir...",
+    "lectureCode": "c83b30bd-c2e4-4e5c-a4f2-e2e173443613",
+    "extId": "655bd45a02704b0018244ccf",
+    "key": "655cbf0526455a00183c50da",
+    "classNotesCode": "4a6461d9-f5ab-40fd-b278-a9d1cd2b2f71.pdf",
+    "dppsPdfCode": "9db6bde2-fc14-43fe-b897-767dd7662746.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Circular Motion 02 : Centripetal Acce...",
+    "lectureCode": "4e0c285c-292a-41f6-96ac-3b24fe0d6072",
+    "extId": "655aa69eb59f1a00186c7b5b",
+    "key": "655b6bfdddfcc700184ccc19",
+    "classNotesCode": "420ae7a5-8ad7-4083-9c7c-305ef6fc6602.pdf",
+    "dppsPdfCode": "ab3da2bd-87e4-40f4-9c86-ea0ad01a66ae.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Circular Motion 01 : Circular Kinemat...",
+    "lectureCode": "e693a4bd-8619-4a69-8756-7f737003cbb0",
+    "extId": "655675271e65ad0018e482ec",
+    "key": "655790433a2b280018b2bef1",
+    "classNotesCode": "7583d74f-bcc3-4327-8305-311e1b453501.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

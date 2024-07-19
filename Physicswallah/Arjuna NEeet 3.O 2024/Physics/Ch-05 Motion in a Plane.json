@@ -1,0 +1,102 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Motion in a Plane 10 : Collision of P...",
+    "lectureCode": "53b2e43a-0cdc-443a-ae87-180f553af9f0",
+    "extId": "65320af2685fa30018929e21",
+    "key": "65301707504d800018b0fa03",
+    "classNotesCode": "39ab199d-c001-439e-b450-0b46d8fc43f6.pdf",
+    "dppsPdfCode": "184ce96d-a5f6-4de3-bd36-9863d5004d08.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Motion in a Plane 09 : Rain Man Probl...",
+    "lectureCode": "85a392ce-38c0-4344-b101-e9d29871a0af",
+    "extId": "652ef4b56db8180018639978",
+    "key": "6530197c1bb8b900182827d1",
+    "classNotesCode": "edb523e2-8997-49ec-a3eb-47a564c78f55.pdf",
+    "dppsPdfCode": "79dde2e0-7345-46d2-bfcd-cca8be260594.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Motion in a Plane 08 : Relative Motio...",
+    "lectureCode": "205f08ca-a6bc-4bef-aab2-18435a6f30df",
+    "extId": "652f738e6db818001864f69c",
+    "key": "652fd14eb3df3d0012b8c91c",
+    "classNotesCode": "8e476087-b869-4c8d-b646-1274dfd29f73.pdf",
+    "dppsPdfCode": "0e238d94-75b0-43ac-9bd7-382e27126fe7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Motion in a Plane 07 : Relative Motio...",
+    "lectureCode": "8b3f1ab1-edc6-428a-b2cb-db4c44dff465",
+    "extId": "652d8f621dcf1c0018182499",
+    "key": "652e998c9f5eb90012b4f14a",
+    "classNotesCode": "c70fd2f8-5890-476e-bc04-6c3ba11732a4.pdf",
+    "dppsPdfCode": "f6f70bca-17b9-4536-896a-f9c5b67fb74c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Motion in a Plane 06 : Relative Motio...",
+    "lectureCode": "23981ed5-67e7-43c9-ba8f-541a260e48e7",
+    "extId": "652c2fd27327b000187f8564",
+    "key": "652d4934144b16001233f6c2",
+    "classNotesCode": "2682a9f7-31a9-40e6-a3b1-94f11fb7487b.pdf",
+    "dppsPdfCode": "d7495091-4067-46e7-9285-99dfca695b2f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Motion in a Plane 05 : Horizontal Pro...",
+    "lectureCode": "10b05286-2517-4dc4-8fb1-345c2620da9f",
+    "extId": "651db0acac62840018c5ab49",
+    "key": "651ec709296d9f00128925be",
+    "classNotesCode": "8f4748a0-a4da-4625-9711-d3ad7193bb2c.pdf",
+    "dppsPdfCode": "01638dcc-d122-4aca-a426-f691a27af061.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Motion in a Plane 04 : Obligue Projec...",
+    "lectureCode": "6633cd4d-327c-4262-b6eb-3d484d97a6da",
+    "extId": "651c8a118a9ecd00185fc429",
+    "key": "651d74dbaf62450012617630",
+    "classNotesCode": "58ca2f07-c643-43e4-b1e5-2ee223756851.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Motion in a Plane 03 : Obligue Projec...",
+    "lectureCode": "1c92c591-3d2b-4fb2-b54d-59cbc801a7e5",
+    "extId": "651b234dc6a41f00181998ab",
+    "key": "651c236bcc53a40012cda9f1",
+    "classNotesCode": "ab3386db-81c3-4955-b05a-2c2b2dc6b078.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Motion in a Plane 02 : Projectile Mot...",
+    "lectureCode": "5c948d67-2849-439f-8a99-b09b4b2cf25c",
+    "extId": "6517267bf479880018287f18",
+    "key": "65182fe5f2c6170018a8e793",
+    "classNotesCode": "d5f1d089-5317-4484-88b4-2d0955397754.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Motion in a Plane 01 : Position, Disp...",
+    "lectureCode": "2cb5a120-16b2-4fc8-a871-f74e860c57fc",
+    "extId": "65168776910b240018052899",
+    "key": "6516dd5948677d0012598c83",
+    "classNotesCode": "2c6e7859-ce7b-41f4-8bea-f3c898d8c177.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

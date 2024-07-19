@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Work, Energy and Power 07 : Power",
+    "lectureCode": "4c0c8d7a-f0c1-48dc-b642-63bb2d14487c",
+    "extId": "6555292fc0e96f00189f6baf",
+    "key": "655641fbf9b72100181a91e5",
+    "classNotesCode": "fff10e80-f1be-49d2-b1c1-44687f3c9898.pdf",
+    "dppsPdfCode": "a2b9d660-48ac-44a2-b648-641d8b94fb1b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Work, Energy and Power 06 : Elastic P...",
+    "lectureCode": "c602335d-af7e-4c5d-8cf6-8b88b2978cdb",
+    "extId": "654dca761de02f00182306fb",
+    "key": "654d22aac5389e00187a5b10",
+    "classNotesCode": "f805f8e0-6d0b-43e7-9421-973814a49633.pdf",
+    "dppsPdfCode": "bbecf992-7920-46f0-8a95-d16189eeb7e5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Work, Energy and Power 05 : Conservat...",
+    "lectureCode": "d79b08c8-9497-4558-bb7e-4dfd8e3e45b1",
+    "extId": "654dab389a385500182a159b",
+    "key": "654e2695cddd790018fb4061",
+    "classNotesCode": "5c8fdc65-31ad-4297-84be-d6ab9262f9cf.pdf",
+    "dppsPdfCode": "2548fa95-4e02-4d39-9745-3aa65a19794f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Work, Energy and Power 04 : Conservat...",
+    "lectureCode": "032ca43a-e6e1-4c7b-88b2-56517b874e55",
+    "extId": "654c547c11ca3d0018bdbfe7",
+    "key": "654ceba70b8f360018be547b",
+    "classNotesCode": "aa6b4279-3350-49a2-996d-90f8ea7f08e5.pdf",
+    "dppsPdfCode": "771fe0e0-865f-4bd6-b77d-5bea871980c2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Work, Energy and Power 03 : Work Done...",
+    "lectureCode": "1ce66355-6f9c-4ff9-9d46-d86ed808f2c5",
+    "extId": "654b0e6683bb9200186d7626",
+    "key": "654b97b7dc41df0018c39547",
+    "classNotesCode": "d4bff5c5-889e-4377-8c89-1dac332d9f18.pdf",
+    "dppsPdfCode": "faf92461-352b-442c-bd96-c4fc36665c07.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Work, Energy and Power 02 : Work Done...",
+    "lectureCode": "7e5253ef-a648-488e-b0e9-2e62cab13d95",
+    "extId": "6549491b4b6f980018a9dfd4",
+    "key": "654a49ad8d7e8a00183e7bf5",
+    "classNotesCode": "36aaa0ca-177c-4198-a973-7c11a3d2c82c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Work Energy and Power 01 : Dot Produc...",
+    "lectureCode": "11748929-b45e-409c-a22c-7ecb2c49fe3f",
+    "extId": "654852a87775970018eb0415",
+    "key": "6548f97e44114b00188d5dcd",
+    "classNotesCode": "b6b9c001-8f06-4ac8-8a45-ba2a23efa5df.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

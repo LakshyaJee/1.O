@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Structural Organization in Animals (P...",
+    "lectureCode": "33bad90a-17bc-4958-a247-6393394a9ff2",
+    "extId": "65b13fa5b259700018a59cdd",
+    "key": "6598e70d9bbb5b0018277bcc",
+    "classNotesCode": "3b0db558-f1a6-4706-928d-d4e73e8f6e5e.pdf",
+    "dppsPdfCode": "bdf4c1b4-055c-40f7-97e0-29786ce72a44.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Structural Organization in Animals (P...",
+    "lectureCode": "a3ac37d5-ece4-44ad-a386-180bad19c95e",
+    "extId": "65b0b67f6a4be8001865d97d",
+    "key": "6597a2e79a5bc40018611e96",
+    "classNotesCode": "e2b2ee08-f0ef-4224-bbc9-9869f3cc1e36.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Structural Organization in Animals (P...",
+    "lectureCode": "956aa026-cf6a-4e7b-b4ef-50845d9a0ca3",
+    "extId": "65a8a2c4c0c12400189a15c3",
+    "key": "659d12a51359a0001852d8c5",
+    "classNotesCode": "98f27b15-ea37-414a-9393-ceb579b7829f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Structural Organization in Animals (P...",
+    "lectureCode": "7e48850d-5810-4be0-b073-893fa1c116d3",
+    "extId": "65a41bb14e751e00184b2d97",
+    "key": "659cf194d8052b00189e8c01",
+    "classNotesCode": "44a13e53-1aba-4698-aa65-f6392978d0a1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

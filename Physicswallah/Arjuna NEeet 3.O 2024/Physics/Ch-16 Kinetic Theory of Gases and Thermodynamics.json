@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Kinetic Theory of Gases and Thermodyn...",
+    "lectureCode": "9ada8231-4fd6-4363-a0e2-62913e653244",
+    "extId": "65a8a3022f8863001836c378",
+    "key": "65a91f276b85b500183ab606",
+    "classNotesCode": "1b29b476-48af-4cd6-a331-42b0bd6dca8e.pdf",
+    "dppsPdfCode": "33ff0a33-03c4-4eca-8bc7-4d3c1aabb7b9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Kinetic Theory of Gases and Thermodyn...",
+    "lectureCode": "05fff581-db4d-490a-8a9c-d9a70b47990b",
+    "extId": "65a74f430df49000189f5fc2",
+    "key": "65a7e4ac94f4c50018a2d0a5",
+    "classNotesCode": "b70f3ece-1ccc-4623-976e-cca4a5d9d416.pdf",
+    "dppsPdfCode": "a6ac6bd2-8ab5-41bf-8ae8-6cbd028669e9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Kinetic Theory of Gases and Thermodyn...",
+    "lectureCode": "e8ce2918-6323-406c-bee7-5f1fb58412fc",
+    "extId": "65a606ffd2c23a0018a9a219",
+    "key": "65a692770761bd0018c8ebfd",
+    "classNotesCode": "5dfd15ba-430f-43d3-a768-79a6b6eda2c3.pdf",
+    "dppsPdfCode": "c0b25f48-46a6-4386-a6f7-ff4bfedc412d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Kinetic Theory of Gases and Thermodyn...",
+    "lectureCode": "89b544e4-c018-45ac-94a7-de046d30952e",
+    "extId": "65a61ab934cb520018faf841",
+    "key": "65a678d954529d6d524d569e",
+    "classNotesCode": "6dd9c6de-4eb6-46d2-99f8-1d060eda7fc5.pdf",
+    "dppsPdfCode": "76bb1ce7-1a4d-4b91-b0a6-639cfba64683.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Kinetic Theory of Gases and Thermodyn...",
+    "lectureCode": "66d18825-e5b3-4095-a04e-792b6d11861e",
+    "extId": "65a210ef5838890018c63db6",
+    "key": "65a26ad613676b001861363f",
+    "classNotesCode": "b7508a68-3106-484d-871c-4bb2befe8d7d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Kinetic Theory of Gases and Thermodyn...",
+    "lectureCode": "bc678fae-cae4-4fd6-857e-c6ee7c101d4b",
+    "extId": "65a0ba576c14b000188543b4",
+    "key": "65a16b763ce2f60018f2214b",
+    "classNotesCode": "6458b738-418e-4bdc-95c0-b7629d268d52.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Kinetic Theory of Gases and Thermodyn...",
+    "lectureCode": "d91bef99-e8a5-4d2c-8cfa-a6c6eaa019c2",
+    "extId": "659ed862637576001856c594",
+    "key": "65a0157b70d8f822c51c9e3f",
+    "classNotesCode": "ad9d5e15-5484-4fbf-81e6-68aeb0943d1f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Kinetic Theory of Gases and Thermodyn...",
+    "lectureCode": "e8edc3b4-74db-4dff-8739-c206d0084882",
+    "extId": "659e1a81e627a9001854e681",
+    "key": "659ea9d27bb0c100185ebf6d",
+    "classNotesCode": "ccc74979-4ff8-4d06-bfd0-9e9448c45688.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

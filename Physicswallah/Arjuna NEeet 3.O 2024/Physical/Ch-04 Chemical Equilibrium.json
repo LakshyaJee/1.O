@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Chemical Equilibrium 04 : Degree of D...",
+    "lectureCode": "ba8efaf4-5c04-42c3-94b9-39dc0a28e8c4",
+    "extId": "6539906ff45e8c001875029b",
+    "key": "653a92fc07f4e40018705053",
+    "classNotesCode": "c627d8b2-bca5-4cb5-93cd-d0d9d29e3061.pdf",
+    "dppsPdfCode": "fd39e35f-993c-4d14-b842-66eeff854145.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Chemical Equilibrium 03 : LE Chatelie...",
+    "lectureCode": "cae397d9-5aa7-4d73-be7d-d2264f1cfabb",
+    "extId": "65382119758fc400185000ae",
+    "key": "65393b7ca3ccd900121874c0",
+    "classNotesCode": "65857a44-64db-4599-9b3d-537cc3a526f1.pdf",
+    "dppsPdfCode": "3f5b0abe-8f3f-49ce-ba14-7558be8fc757.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Chemical Equilibrium 02 : Characteris...",
+    "lectureCode": "d661e426-c4e1-4675-9f2d-606c928f7900",
+    "extId": "6535a118f69e0c00180b2e53",
+    "key": "65369eb75c7dd2001841022b",
+    "classNotesCode": "98152d00-1fef-4499-bbd5-0dcbaadbcb5a.pdf",
+    "dppsPdfCode": "bf6421db-6c43-42c9-8692-40d5d55c8d50.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Chemical Equilibrium 01 : Introductio...",
+    "lectureCode": "be980cc9-12cc-4840-ac60-e62fda5959b6",
+    "extId": "6533460a81e74c00186dc31e",
+    "key": "6533f2dabef7860012b7511a",
+    "classNotesCode": "23930302-e0ca-4e4a-940d-677a5d693a07.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Vectors 06 : Direction Cosines || Cop...",
+    "lectureCode": "d395dbe4-6d78-4450-b34a-79ea274af694",
+    "extId": "6515e543eedbbe0018d1053f",
+    "key": "6516c4e26ccfe00018804022",
+    "classNotesCode": "e60c58e8-a359-47f7-bc5b-bea69832510a.pdf",
+    "dppsPdfCode": "c619a7e4-d7c1-48ae-a41d-aac18be24077.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Vectors 05 : Resolution of Vectors ||...",
+    "lectureCode": "a578c8ed-923b-49cb-898f-bae3948536f9",
+    "extId": "6514f96e54f8a100181d0ddd",
+    "key": "65158be05e2b3b0012b13e22",
+    "classNotesCode": "2e1091cf-c78f-448e-9fdc-34aac282e86f.pdf",
+    "dppsPdfCode": "3c07dd7a-20a1-4468-82c4-cd477560eecf.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Vectors 04 : Vector Subtraction || Po...",
+    "lectureCode": "8cc3d103-13ba-47d2-a479-30f5039856e9",
+    "extId": "6513400c68f4f300192212c6",
+    "key": "65143b1d11a24a001884384c",
+    "classNotesCode": "9a962716-7df2-438f-be88-3b12e3d29a62.pdf",
+    "dppsPdfCode": "aa8755c0-d8ae-42e8-a6a7-aebc34a87aab.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Vectors 03 : Parallelogram Law",
+    "lectureCode": "b3adde88-febb-4abf-a30e-ca3393e2140d",
+    "extId": "651202b1e98c2000181c1044",
+    "key": "6512e8e6af0e210018e70cdb",
+    "classNotesCode": "732aab62-5711-42d7-803c-28fb34df836a.pdf",
+    "dppsPdfCode": "68d7229e-9349-4b5a-a967-c996138d7028.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Vectors 02 : Law of Vector Addition |...",
+    "lectureCode": "883d89b1-6ec4-487e-bc86-84838333b70a",
+    "extId": "651047b072a49e0018e685e5",
+    "key": "651197abaacf620018255ad1",
+    "classNotesCode": "ee892864-dcff-4c6e-be1e-edf646c6ef89.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Vectors 01 : Introduction || Types of...",
+    "lectureCode": "cbc1ac0d-2d7a-4bb6-ada7-97b30c83c324",
+    "extId": "650c7fd1eed5a00018156be9",
+    "key": "650da2a8d08381001854a21c",
+    "classNotesCode": "aecc3903-42f1-4238-9f4e-80285ad43f0c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

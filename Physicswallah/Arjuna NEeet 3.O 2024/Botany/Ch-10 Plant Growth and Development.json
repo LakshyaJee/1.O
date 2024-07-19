@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Plant Growth and Development 02 : Gib...",
+    "lectureCode": "c62591de-858c-4637-9ecb-d26fd3da30c1",
+    "extId": "65b3d629936d680018f4c169",
+    "key": "65b4f56d6b27e600180059f0",
+    "classNotesCode": "77ccc67c-ac04-4e64-a1f9-8f77cc593805.pdf",
+    "dppsPdfCode": "7f685fc1-48b1-43e2-a98e-b980cde17c28.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Plant Growth and Development 01 : Int...",
+    "lectureCode": "a5eef890-4fb1-4a80-96fc-848c83f42d6c",
+    "extId": "65b225a308c6d40018acd08f",
+    "key": "65b26dbd8142b8d9bf3f0b3a",
+    "classNotesCode": "72661f3f-57e1-4857-aaca-c2f82f742819.pdf",
+    "dppsPdfCode": "61f597a8-c523-4602-8191-ab0adc685fe1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Plant Growth and Development 04 : Gro...",
+    "lectureCode": "a0d449d3-c161-4cd7-bdf2-449e182fcb05",
+    "extId": "65b8ef4dc92a9b00180b2300",
+    "key": "65b923d3afc1e500181e103c",
+    "classNotesCode": "10625aef-7449-43f6-a5a0-30fb098afbb5.pdf",
+    "dppsPdfCode": "303808b0-2f9c-409f-8064-826296137e2c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Plant Growth and Development 03 : Cyt...",
+    "lectureCode": "e849c2df-8a90-466a-9e96-66475cd61066",
+    "extId": "65b74297ec483900185077a2",
+    "key": "65b7d740b65bbe0018c0b3c5",
+    "classNotesCode": "898fcfa6-b37e-4e47-b7c7-dfd0f2a8caca.pdf",
+    "dppsPdfCode": "0171e110-ca0d-4fd0-a08c-8fda3b8a4604.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "f08b2d05-c3d2-4824-9dda-7c1da50b1243.pdf",
+    "dppsSolutionCode": ""
+  }
+]

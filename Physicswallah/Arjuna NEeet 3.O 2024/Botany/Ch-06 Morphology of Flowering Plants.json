@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Morphology of Flowering Plants 07 : S...",
+    "lectureCode": "79c3ccee-4d6c-48aa-afab-156d67680121",
+    "extId": "6580bd7fdf5f4b0018672478",
+    "key": "6581c84c40437b0018df32c6",
+    "classNotesCode": "8b49f0de-3174-491d-a258-905b1d6f14e2.pdf",
+    "dppsPdfCode": "6b090a11-6176-4747-98bd-a6ed5c3d62b6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Morphology of Flowering Plants 06 : G...",
+    "lectureCode": "40771bcf-8604-4935-9e4b-e12967037af9",
+    "extId": "6578b72de7729e0018b35285",
+    "key": "6579d73ec5933a0019e03be5",
+    "classNotesCode": "5d203d2a-d89a-4895-8041-25ea40be38c5.pdf",
+    "dppsPdfCode": "2822ca2e-76a9-42ac-9431-50ce04f02f0b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Morphology of Flowering Plants 05 : A...",
+    "lectureCode": "bd5cf606-aa48-440d-a364-f436a6a50882",
+    "extId": "6577dcf72a414f001826cd98",
+    "key": "6578852ac09464001890f81c",
+    "classNotesCode": "c1e71fdd-fa85-4129-b43e-13637496b68d.pdf",
+    "dppsPdfCode": "ff20edac-8cd8-4ec8-a33e-8180beb82c72.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Morphology of Flowering Plants 04 : F...",
+    "lectureCode": "0e51a28b-ec1e-4b98-959f-9cfa1da9ad83",
+    "extId": "65740312c26120001840fa48",
+    "key": "65745d944510ad0018052d44",
+    "classNotesCode": "8214e536-c78b-42c2-a294-69d04badc742.pdf",
+    "dppsPdfCode": "7101c4c2-98c1-4176-bead-e52df0470211.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Morphology of Flowering Plants 03 : Leaf",
+    "lectureCode": "c9a0e95e-7ee7-43c9-b6ed-17176a447bd8",
+    "extId": "656f7aea11638100187d9d66",
+    "key": "65709be23cabb30018c08425",
+    "classNotesCode": "c587ccd0-f43f-4194-a3fe-cc7b1a2f5fac.pdf",
+    "dppsPdfCode": "bad96074-2c57-4a38-be1c-affa0fac14a3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Morphology of Flowering Plants 02 : Stem",
+    "lectureCode": "a4899a88-0a2b-43af-9de4-5156a8adf8ba",
+    "extId": "656eaf282c9fb4001880b0a9",
+    "key": "656f49771f8da500183026ce",
+    "classNotesCode": "a6af590a-381f-4f3d-ad94-fb7f2b2a5411.pdf",
+    "dppsPdfCode": "9f920495-fa2b-4cbc-bcc8-0775b10963b0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Morphology of Flowering Plants 01 : R...",
+    "lectureCode": "335505d8-8946-43e0-a2b7-7bb1e8a7ddf2",
+    "extId": "656a2f8a4211890018366040",
+    "key": "656b271c6fd3610018040559",
+    "classNotesCode": "400331f2-1a84-4abf-99f3-7fde5cb01b2a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

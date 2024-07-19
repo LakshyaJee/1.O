@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Respiration in Plants 05 : ETS (Part 01)",
+    "lectureCode": "4982cf67-b28e-4a16-af61-3b091ed20498",
+    "extId": "65945525c1404e00186f0803",
+    "key": "659586750ca7170018d22c21",
+    "classNotesCode": "2463e6aa-549d-45bb-a953-552987330464.pdf",
+    "dppsPdfCode": "7fb692b8-df0d-40ab-9662-4fc63ab50438.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Respiration in Plants 04 : Kreb Cycle",
+    "lectureCode": "93b9deb9-8f75-4271-91d5-2d73019d05c5",
+    "extId": "6593905878efa80018d70ca5",
+    "key": "6594345724678f001872221f",
+    "classNotesCode": "cfdf67e8-7cfa-4d7d-9725-93a0ee0c4ca1.pdf",
+    "dppsPdfCode": "cbd6c82e-3c11-436d-9ddc-27a2ece801bc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Respiration in Plants 03 : Link Reaction",
+    "lectureCode": "56b8a5b9-0359-4f2e-a4e3-0441df976f64",
+    "extId": "658fa20ba5f9ec00182f407c",
+    "key": "65900d310fb3e10516cf4207",
+    "classNotesCode": "db9d12c3-a340-4f84-bae2-87c55218b2d5.pdf",
+    "dppsPdfCode": "0d2abf4d-0fb8-4d22-a356-6bde309318c1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Respiration in Plants 02 : Glycolysis...",
+    "lectureCode": "01ed0aa5-374b-4e3e-893a-5dd4ebcebcea",
+    "extId": "658e74ae4da79600188cd48c",
+    "key": "658ebb8870c86100185a30bc",
+    "classNotesCode": "517b0434-08ce-4526-a499-586b752c238d.pdf",
+    "dppsPdfCode": "63568e55-53d9-4516-b264-f88dbf4949d8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Respiration in Plants 01 : Glycolysis...",
+    "lectureCode": "7441a4dd-2fc6-47cb-974a-13cd7d04a034",
+    "extId": "658d19bc8985760018bdbec5",
+    "key": "658d9d3c57067b001842dba6",
+    "classNotesCode": "777c05a0-15de-40b8-bf31-8bd764f0aa84.pdf",
+    "dppsPdfCode": "1bdd10fb-802f-44f3-84b2-55baa9dbda71.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Respiration in Plants 07 : Anaerobic ...",
+    "lectureCode": "bac9cf1f-2118-4696-95b5-0c37de389f6a",
+    "extId": "659e1aec41882a00189801a2",
+    "key": "659ec1026405833fe3ea15b4",
+    "classNotesCode": "f6ca7a85-a9df-4708-aa33-130335fae6d3.pdf",
+    "dppsPdfCode": "19bd6b78-95d6-4423-ab77-aa7b9b60f890.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Respiration in Plants 06 : ETS (Part 02)",
+    "lectureCode": "6ec97433-f65a-4074-bb22-b6fcf8b234e6",
+    "extId": "659c1f2d805ed100187b6d6b",
+    "key": "659d766334cac1001980d534",
+    "classNotesCode": "2463e6aa-549d-45bb-a953-552987330464.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

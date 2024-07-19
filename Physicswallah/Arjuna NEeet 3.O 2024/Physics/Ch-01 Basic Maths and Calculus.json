@@ -1,0 +1,132 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Basic Maths and Calculus 12 : Integra...",
+    "lectureCode": "a4b1322c-97f5-4544-85af-8c8ef5b6022f",
+    "extId": "64d29398ee3a1e001961e134",
+    "key": "64d3959184e91a00187a7953",
+    "classNotesCode": "185d6b38-3b24-4fc3-aec5-8bf7de4b000a.pdf",
+    "dppsPdfCode": "44540546-f4b9-4fde-870a-3a889bd33fa5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Basic Maths and Calculus 11 : Maxima ...",
+    "lectureCode": "3257c19a-c0d2-4113-8db1-c83f582ec7d1",
+    "extId": "64d17d8946a2570018a779b5",
+    "key": "64d242996a24d70018714285",
+    "classNotesCode": "06059ecb-14dd-467e-9ec5-843fb0c63af1.pdf",
+    "dppsPdfCode": "b6359466-7efd-4ee1-930b-3b80caf2680d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Basic Maths and Calculus 10 : Differe...",
+    "lectureCode": "415764a5-d82a-4f99-b903-05e5db68b34d",
+    "extId": "64cfde5a5c7f2d00186841e5",
+    "key": "64d0f38040719600186f219e",
+    "classNotesCode": "3295f6a2-b0b8-4d36-850b-71620e6138e2.pdf",
+    "dppsPdfCode": "e3d287fb-beca-43e0-b297-9cd96e680ef3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Basic Maths and Calculus : Summary Le...",
+    "lectureCode": "79295b23-8312-4bcd-8fa7-c49f3e67d2d4",
+    "extId": "64cddbb5f7590c00188ca427",
+    "key": "64cd288f3460c60018aafad1",
+    "classNotesCode": "524dcc3b-c19e-4618-87c9-28d0e9c3a136.pdf",
+    "dppsPdfCode": "c08f24ec-c453-415a-a27c-6aadd230a469.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Basic Maths and Calculus 09 : Differe...",
+    "lectureCode": "bf12d87d-fb6e-45f5-993c-8d3e0b8f1299",
+    "extId": "64c968eded5d82001856dfdc",
+    "key": "64ca5c8a23e5a80018679947",
+    "classNotesCode": "df2e6bd2-a59e-4de0-abc5-434850fb7e75.pdf",
+    "dppsPdfCode": "8818f7a1-b6ee-4fe7-a34b-61ee1c9060bd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Basic Maths and Calculus 08 : Circle ...",
+    "lectureCode": "651e3f67-ec14-4583-99f3-0cad1800b1fb",
+    "extId": "64c81496425203001845795b",
+    "key": "64c90ba1abadd50018f80127",
+    "classNotesCode": "771c814f-5cf9-4ae1-aea9-1cdf6fb5a42b.pdf",
+    "dppsPdfCode": "b36901ea-ab20-449e-a285-cbcf42709d42.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Basic Maths and Calculus 07 : Graphs ...",
+    "lectureCode": "a940ca3a-b35f-437c-92a0-62e86c27fb8b",
+    "extId": "64c6b94bcf402f0018ea71a2",
+    "key": "64c7b9ed5db15b00182b51a0",
+    "classNotesCode": "81dd3f92-052e-4ef6-82a0-b630c3f18cb3.pdf",
+    "dppsPdfCode": "bd0891b5-e225-4521-b9f8-e6a24eda166a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Basic Maths and Calculus 06 : Logarit...",
+    "lectureCode": "54bc6da5-9fe6-4dd5-95a3-6bef887a7c10",
+    "extId": "64c02d3315da300018585af0",
+    "key": "64c122d8ca7ad700188c41ea",
+    "classNotesCode": "46af5431-a63a-4390-b2bc-bdbfb1b62f17.pdf",
+    "dppsPdfCode": "8f45dd5a-c0d3-40b9-949c-0fb35c856dc2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Basic Maths and Calculus 05 : Arithme...",
+    "lectureCode": "083e06f0-f2c1-4cc3-8cab-01496d5866d8",
+    "extId": "64bed220647be500183c4435",
+    "key": "64bfd03fa2904d0018951874",
+    "classNotesCode": "e4c889c9-162b-4653-a295-99183e7e6c60.pdf",
+    "dppsPdfCode": "a7757101-eb4c-4581-8aa4-b1171212e2a8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Basic Maths and Calculus 04 : Quadrat...",
+    "lectureCode": "8023a3c5-38d2-4129-86ba-82ea37c2eb68",
+    "extId": "64bd7b286a8e7b0018818b85",
+    "key": "64be7eb7d505e1001867e9af",
+    "classNotesCode": "b9d93127-86b0-432c-9aa1-cc5601e5f870.pdf",
+    "dppsPdfCode": "3fbbc461-061f-481c-bc7e-31fe071a2c48.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Basic Maths and Calculus-03 : Additio...",
+    "lectureCode": "c20f78a3-0c72-48f0-a2b1-1dcaf9e74c98",
+    "extId": "64b6cd0d8e6985001842dee4",
+    "key": "64b7e753228bb1001891f639",
+    "classNotesCode": "f9e4e7d3-09db-4aad-a04f-70f9bb81e076.pdf",
+    "dppsPdfCode": "9e3a52d2-feb7-46fb-9563-86ee94320368.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Basic Maths and Calculus 02 : Trigono...",
+    "lectureCode": "89025e42-0d89-49cd-a964-b5a4fb0a03c1",
+    "extId": "64b615d76c96af001860382e",
+    "key": "64b69314e45bd9001822e1b0",
+    "classNotesCode": "b41cfa70-2daa-49b9-900f-d61bef880c27.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Basic Maths and Calculus 01 : Trigono...",
+    "lectureCode": "ce3caa1d-2b2d-461c-80df-913c31e81575",
+    "extId": "64b4d8d8da97d0001887a6e1",
+    "key": "64b675ba3f7caf0018c3efd7",
+    "classNotesCode": "c904b68f-aa88-4753-9c03-41a9c1158e9d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

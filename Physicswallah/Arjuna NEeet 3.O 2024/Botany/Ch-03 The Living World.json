@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "The Living World 05 : Properties of L...",
+    "lectureCode": "27c68d49-4105-433f-8f69-de28bb3a9eb3",
+    "extId": "651c89f48912910018fc34f5",
+    "key": "651d66468e359b001805d5c7",
+    "classNotesCode": "abd75503-90fe-4181-8df2-dff8af9ec06d.pdf",
+    "dppsPdfCode": "13e940c5-4465-4592-ba6b-a4cca31ff079.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "The Living World 04 : Taxonomic Aid",
+    "lectureCode": "ad351e44-451d-4721-a2ce-e6eba2f3b5a4",
+    "extId": "651b23356876f90018e8f83f",
+    "key": "651c185df136ca001825f31b",
+    "classNotesCode": "bc3c3460-c352-43e8-a8ba-ab346f1a49d0.pdf",
+    "dppsPdfCode": "44a74439-124f-48f1-88cd-3b47bbb09431.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "The Living World 03 : Taxonomic Categ...",
+    "lectureCode": "0273303d-6b28-4338-bae5-7b67c15d3c65",
+    "extId": "6517260b66649500188dbc4a",
+    "key": "6518155aaa52cd0012e1a585",
+    "classNotesCode": "f9ea9473-8dfe-4a60-9a7d-65a1194e3c80.pdf",
+    "dppsPdfCode": "8210d58f-23cc-4f14-81ea-62c52041a8ab.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "The Living World 02 : Binomial Nomenc...",
+    "lectureCode": "9cae55bc-e0a0-4134-9d5b-776ba728433e",
+    "extId": "65133ff6e9de290018434bf0",
+    "key": "65142c58ec0df100185a576a",
+    "classNotesCode": "75fe3162-6d5a-4875-a74a-5b26a7a3a7b0.pdf",
+    "dppsPdfCode": "e9b95888-a804-49f4-86da-355c505f1e14.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "The Living World 01 : Introduction of...",
+    "lectureCode": "657ea375-533a-402f-b359-d6fc9b1f2293",
+    "extId": "651201e9a6425900181ca47c",
+    "key": "6512e066fea15700187555a5",
+    "classNotesCode": "d497ce68-7122-44dd-a57f-65e71ad83fbf.pdf",
+    "dppsPdfCode": "b9a4e14c-d064-4268-8f35-9718c2dc21f8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "The Living World Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "45360711-eee1-4993-8bec-80f02443540a.pdf",
+    "dppsPdfCode": "56f50d36-0ffb-41b9-967d-1e20c2ebdf6f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "The Living World Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "abd75503-90fe-4181-8df2-dff8af9ec06d.pdf",
+    "dppsPdfCode": "7f6e56d2-9ea0-48a8-bd09-bcf3848d4116.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "The Living World Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "bc3c3460-c352-43e8-a8ba-ab346f1a49d0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

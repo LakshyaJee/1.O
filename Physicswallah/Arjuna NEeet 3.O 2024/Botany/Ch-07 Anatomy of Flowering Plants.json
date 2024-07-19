@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Anatomy of Flowering Plants 05 : Dico...",
+    "lectureCode": "abcfaa2d-4b6f-4b9d-9ed2-2be859d76f3e",
+    "extId": "658bb24e36ce780018582760",
+    "key": "658c3a25a7a9510018589797",
+    "classNotesCode": "c49645d5-43ca-41cd-a5f4-77618411ea89.pdf",
+    "dppsPdfCode": "ddb500b9-8e3e-411a-a4b4-dc957ab1c5cc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Anatomy of Flowering Plants 04 : Vasc...",
+    "lectureCode": "9f4d9019-0a9e-46d7-bdc4-6e3480ad48ec",
+    "extId": "658a643c85360300187f5749",
+    "key": "658afa7730c3b22ce77cd330",
+    "classNotesCode": "e9449daf-c4d0-4e4f-9891-857501586699.pdf",
+    "dppsPdfCode": "66a65bae-3b03-47f0-9d7f-50c37fb34781.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Anatomy of Flowering Plants 03 : Tiss...",
+    "lectureCode": "c0635d5a-d45e-4180-b7b0-cb33d2614ee4",
+    "extId": "65866441d1d1d9001869ea69",
+    "key": "6586d3ddbe0855001845f936",
+    "classNotesCode": "f14639a1-908b-43d6-a942-d1520d1f970d.pdf",
+    "dppsPdfCode": "c766ed55-9876-4179-a29d-a068bc2ee028.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Anatomy of Flowering Plants 02 : Xyle...",
+    "lectureCode": "e5cf9789-6b75-404f-a0ba-d1eb9e9618fd",
+    "extId": "6583e3f8ea8f400018f527c6",
+    "key": "65842f564851b6b1bd76c5d7",
+    "classNotesCode": "aaab7992-da4a-4043-91d6-bdac400f07f8.pdf",
+    "dppsPdfCode": "a4fce819-13c5-4962-a3a1-51abe5ea4a3f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Anatomy of Flowering Plants 01 : Meri...",
+    "lectureCode": "f0b7713c-8bd2-440f-ae25-5a6722b41d13",
+    "extId": "6582744975810400181749d3",
+    "key": "6583125d035120001867d10a",
+    "classNotesCode": "e10165bc-b3f4-48cd-a04f-a545f264120f.pdf",
+    "dppsPdfCode": "1effd8c1-4e21-44f4-b3ae-ecbe333a0c97.pdf",
+    "dppsSolutionCode": ""
+  }
+]

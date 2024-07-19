@@ -1,0 +1,112 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Some Basic Concept of Chemistry : Sum...",
+    "lectureCode": "4a3cc884-8f5e-4fb9-afa8-96174c843bbf",
+    "extId": "64f89e30d52946001879eff2",
+    "key": "64f8ac8223d68100186cd3b2",
+    "classNotesCode": "883cf5d2-255d-4de1-82b8-188951916dd8.pdf",
+    "dppsPdfCode": "47f1c4a1-e3c3-4b75-b47d-418fd48f1bf7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Some Basic Concept of Chemistry 10 : ...",
+    "lectureCode": "763fc786-c317-4c53-acdb-24940df872c3",
+    "extId": "64cfdf1f58f46f0018f93505",
+    "key": "64d10c2869cafa00183b5a16",
+    "classNotesCode": "fbedfd9a-214c-45a3-b9be-332d5b31bb00.pdf",
+    "dppsPdfCode": "b68e0584-a244-4655-a29b-cab8aaea8ded.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Some Basic Concept of Chemistry 09 : ...",
+    "lectureCode": "e70cccdf-c28f-4c91-a567-082eec9df837",
+    "extId": "64cc1917ec2f6700181f09de",
+    "key": "64cdd8c3d2e60b001833d165",
+    "classNotesCode": "d141be73-b343-49ad-b7a8-d1c956778d92.pdf",
+    "dppsPdfCode": "eb571a94-c8a2-42ff-94b4-2df9bb1b1117.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Some Basic Concept of Chemistry 08 : ...",
+    "lectureCode": "988a5391-1e87-4175-8fc1-4099dcb46f11",
+    "extId": "64cab0277d215f0018640562",
+    "key": "64cc8c593460c60018a8c6eb",
+    "classNotesCode": "dc0ab1b5-1c52-47fe-8932-fa1220fe4b6c.pdf",
+    "dppsPdfCode": "6f1a2550-31f7-411e-afdd-b53a8e850123.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Some Basic Concept of Chemistry 07 : ...",
+    "lectureCode": "d780a3c2-9ea7-4a11-b251-c7cec1dbc88a",
+    "extId": "64c6ba190311200018f5f588",
+    "key": "64c892226c04470018f1868d",
+    "classNotesCode": "12959912-46b9-417c-978a-761dc03e0e64.pdf",
+    "dppsPdfCode": "09b7682c-061f-48d1-89f5-b1918fd8f8fc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Some Basic Concept of Chemistry 06 : ...",
+    "lectureCode": "935670d1-bd26-4d2c-ad77-1ee01008a024",
+    "extId": "64c2c0e1082a390018b09a63",
+    "key": "64c3bda097c3ff0018867952",
+    "classNotesCode": "d8b80a72-affd-4900-aa3c-ff852b0c1440.pdf",
+    "dppsPdfCode": "0f7f3da9-e63b-4a49-a357-73725fc80df2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Some Basic Concept of Chemistry 05 : ...",
+    "lectureCode": "2d3476fa-8365-4f9c-acb0-df312b5e8f72",
+    "extId": "64c15f5ed3fa7b00182f350d",
+    "key": "64c289f295ff1200187916f4",
+    "classNotesCode": "40f354ba-9bff-4449-b91b-a008385388b4.pdf",
+    "dppsPdfCode": "e07a1909-ac82-45bb-a31e-40e68afe455f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Some Basic Concept of Chemistry 04 : ...",
+    "lectureCode": "2e6986a8-e646-493a-b824-4e9a2346d896",
+    "extId": "64bd7b54fce29900181ba8f7",
+    "key": "64be92c957b6b9001940be0a",
+    "classNotesCode": "9a4bb19d-7876-4b44-af6e-5162bf33e16b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Some Basic Concept of Chemistry 03 : ...",
+    "lectureCode": "f96401b3-99d4-47b1-8cf3-00307cb8349b",
+    "extId": "64ba0bf7d4c5a7001853e3b3",
+    "key": "64baa2439de64c0019caee36",
+    "classNotesCode": "1029ea13-991e-4dca-aeab-357f2873f211.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Some Basic Concept of Chemistry 02 : ...",
+    "lectureCode": "d6a64531-9242-495d-9dde-f5c04230f631",
+    "extId": "64b81bb478e9ff0018b2e5cb",
+    "key": "64b949e9e5350b0018c8a802",
+    "classNotesCode": "ed55b5f1-2f5a-4a01-98af-2141df8cbb4a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Some Basic Concept of Chemistry 01 : ...",
+    "lectureCode": "40500174-3cfd-44e4-a37c-8073e1f8d679",
+    "extId": "64b4ea6967df500018f2100d",
+    "key": "64b55ce7d24e87001832bdb2",
+    "classNotesCode": "f7e6abb1-05fd-48c3-a3ae-10c9b9ae177e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

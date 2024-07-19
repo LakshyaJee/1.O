@@ -1,0 +1,122 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Thermodynamics 11 : Thermochemistry (...",
+    "lectureCode": "e2b093a1-248a-4257-98b9-a50407d75469",
+    "extId": "65320b5ea95f6800189041e6",
+    "key": "6532a2ae633d8d0012de6fbe",
+    "classNotesCode": "853b0365-b89b-4956-98a7-5fc29d31a433.pdf",
+    "dppsPdfCode": "b1fea294-2039-46b7-9a1b-17e58f16cb7f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Thermodynamics 10 : Thermochemistry",
+    "lectureCode": "64fd53c7-2764-4b9e-a752-97bca59bfeb3",
+    "extId": "6530a671fee85f001826a912",
+    "key": "653154c52615990012d52c4b",
+    "classNotesCode": "eabe3f13-a5bd-48fa-a854-5831bc84893b.pdf",
+    "dppsPdfCode": "225879af-8fca-4269-ba61-cb7f343f20ef.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Thermodynamics 09 : Gibbs Free Energy...",
+    "lectureCode": "7bc239a8-e34c-4791-9f0a-ab587857c78f",
+    "extId": "652ef4c9cc7d1e0018f5aab6",
+    "key": "653001a8f5d80c0012f3d2ef",
+    "classNotesCode": "ce2304f4-28ca-4328-910d-4d303021002e.pdf",
+    "dppsPdfCode": "759f5dbb-d6b6-49b4-aa89-fa00fb7f80d2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Thermodynamics 08 : Entropy (Part 02)...",
+    "lectureCode": "d8ac39bd-0aa9-4626-bcfd-d56f79be6dc9",
+    "extId": "652d8f7896dac600185b60c4",
+    "key": "652eb0ee6e453100121a12aa",
+    "classNotesCode": "9e7f994f-5b7f-4b5e-8e70-8f0bd5c10307.pdf",
+    "dppsPdfCode": "b3ed944d-e72b-4465-9018-2dce1a478ef4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Thermodynamics 07 : Entropy",
+    "lectureCode": "e412b879-5959-4f71-b953-892f21bb60b9",
+    "extId": "652c3013b4a79200181310ab",
+    "key": "652d600ce4a0730012b16d1c",
+    "classNotesCode": "bc039d82-11f6-40d6-93fe-c62197b797f2.pdf",
+    "dppsPdfCode": "ba08f542-93a2-4761-a5c7-f4541f7260c4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Thermodynamics 06 : Work Done in Diff...",
+    "lectureCode": "4c74d606-a033-4527-9325-979311744083",
+    "extId": "6529bdbcb72b8e0018462bd6",
+    "key": "652abaadf5aa790012d25e9e",
+    "classNotesCode": "e90cf45b-6f5e-4651-a57a-7e2abff48831.pdf",
+    "dppsPdfCode": "8054c096-11b7-4a0b-b72e-89e81f8fdb01.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Thermodynamics 05 : Work Done in Diff...",
+    "lectureCode": "574cb7e7-b1e8-43ff-8993-5c5f4f38e0e1",
+    "extId": "6528521a0380490018ff3ed3",
+    "key": "652962bd816f5b0018ae0f47",
+    "classNotesCode": "0ca6c576-d288-44b7-a13c-3247f34e7b99.pdf",
+    "dppsPdfCode": "86de783c-4ba3-4c42-8f91-753ff5e68eab.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Thermodynamics 04 : Enthalpy || Heat ...",
+    "lectureCode": "99def467-eb59-4e32-b248-31bed075719a",
+    "extId": "65270bf974d30500187fd473",
+    "key": "6528187b8bb1aa001297cfb6",
+    "classNotesCode": "577cbefd-4b33-4035-937e-90139abb3cc4.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Thermodynamics 03 : First Law of Ther...",
+    "lectureCode": "ba068915-259a-4db6-8350-cd7eff35c5df",
+    "extId": "6525af468eb1d80018ff04df",
+    "key": "6526c8725f31fe00127c1662",
+    "classNotesCode": "6dfa3b9d-910c-4bd2-98dd-326a87316066.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Thermodynamics 02 :  Terminologies of...",
+    "lectureCode": "439ff786-641c-4ece-bf3c-4711b0b50bb9",
+    "extId": "6524532dcc38f300186c9fe0",
+    "key": "65255e934229840012e7488a",
+    "classNotesCode": "7ef6c99c-414c-419d-8c04-a0121dbc4780.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Thermodynamics 01 : Terminologies of ...",
+    "lectureCode": "a88f1e6c-911d-476a-a575-90d0e640da8b",
+    "extId": "65230df9eaca9300189cec78",
+    "key": "65240bfa5df4f300123cd0f1",
+    "classNotesCode": "aef4b6e8-37da-440e-8679-2bb716eb10c6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Thermodynamics : Summary Lecture || (...",
+    "lectureCode": "243a77a9-fc09-48db-9950-e497ed0cdcb6",
+    "extId": "6599647acbf03e0018ad2b72",
+    "key": "65994658cbf03e0018ac4b1f",
+    "classNotesCode": "c8da4f0c-95e6-4066-b713-53962ef4f945.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]
