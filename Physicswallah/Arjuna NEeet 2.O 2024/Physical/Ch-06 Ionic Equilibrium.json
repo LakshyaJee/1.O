@@ -1,0 +1,102 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Ionic Equilibrium 10",
+    "lectureCode": "5e14a5b4-d544-4e7f-9026-48a309dbd398",
+    "extId": "656d58abb06975001862dcc8",
+    "key": "656ddc60fe76510018528c07",
+    "classNotesCode": "cd6957d2-f77f-49bf-a26f-087fd419a4bb.pdf",
+    "dppsPdfCode": "45834503-01fc-4354-8dec-70e8b7d2022c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Ionic Equilibrium 09 : NO DPP",
+    "lectureCode": "a0417f83-e15b-4036-9c5d-e12ff26a4429",
+    "extId": "656aa8cd5382a10018362400",
+    "key": "656b3c79e1318300185c651b",
+    "classNotesCode": "0db68581-9df3-4d0f-b73f-c651cd8ea318.pdf",
+    "dppsPdfCode": "53c149e2-ba8c-4aef-9343-dbd7cd7088fd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Ionic Equilibrium 08 : DPP Will Be Pr...",
+    "lectureCode": "7f554ace-3608-49fc-a0e6-9b039f05b8c7",
+    "extId": "65695e172bd5060018f0568a",
+    "key": "6569ec36cc2b630019fc2c9c",
+    "classNotesCode": "b688bdc8-1e63-472f-85b4-8818a9d7d587.pdf",
+    "dppsPdfCode": "e1ccbfe0-8a75-4f87-9e6c-b14784023619.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Ionic Equilibrium 07",
+    "lectureCode": "af80bfea-8a25-4b10-9a57-d1c64711ea70",
+    "extId": "65680dc24f8426001818a19a",
+    "key": "65689bd8ae21a50018204596",
+    "classNotesCode": "0cd0f4e1-38ee-4981-98ed-eb16ce2bf825.pdf",
+    "dppsPdfCode": "404039ff-bcc9-4135-bcc7-81a594cbbc76.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Ionic Equilibrium 06 : NO DPP",
+    "lectureCode": "62435773-7df0-401b-8065-b3c9ee8a6de8",
+    "extId": "6566bad43cb6f50019981429",
+    "key": "6567482e488c6e001820598f",
+    "classNotesCode": "a4ca0bdb-adf2-46a3-b4d0-7b3f55d750ac.pdf",
+    "dppsPdfCode": "6c2a7ce8-5062-482c-917d-af13765492d1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Ionic Equilibrium 05 : pH of Weak Aci...",
+    "lectureCode": "ca5a0e45-17b5-4b69-9e9b-858ccb821be5",
+    "extId": "656569d5265a580018325ec7",
+    "key": "6565f5d155ef800018af8afb",
+    "classNotesCode": "78c1f677-e3a8-4e5e-a166-5bae8607ab88.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Ionic Equilibrium 04 : NO DPP",
+    "lectureCode": "1460dbdc-b255-41cc-85a7-0ee7d9288c3a",
+    "extId": "6564184cc8fc2f0018ed3b22",
+    "key": "6564a6d2e343f10018ded3dd",
+    "classNotesCode": "e13fa47d-fe11-4225-9c17-65bc7c94c927.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Ionic Equilibrium 03",
+    "lectureCode": "009ce703-ff49-431a-8035-9725d9ad0791",
+    "extId": "655ce13ec6b3f5001845b0c2",
+    "key": "655e0d9f9cc9b80018612087",
+    "classNotesCode": "c32c95db-844b-4ae9-9539-0205322a2342.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Ionic Equilibrium 02 :",
+    "lectureCode": "cd550c28-41fa-4c68-8ff1-4df1ec674474",
+    "extId": "655c31aaa2ae0500181a1d35",
+    "key": "655cb9e6f9b2a800187a9ddc",
+    "classNotesCode": "aa7b3977-b88c-429d-aaea-6f1b03200cdc.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Ionic Equilibrium 01 : DPP will be Pr...",
+    "lectureCode": "6210ac56-4666-4eb7-9406-f88b3bb6e0f5",
+    "extId": "655a4bf032d0580018848912",
+    "key": "655b68f3523e260018e8d4b4",
+    "classNotesCode": "f49ebd61-ad82-4f88-8701-7e7423d81e19.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

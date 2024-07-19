@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Thermodynamics and Kinetic Theory of ...",
+    "lectureCode": "5a70beb6-6010-45dc-a147-8e2a8115fd9d",
+    "extId": "6594e39885fe0900188c3648",
+    "key": "659555e85724570018d32f23",
+    "classNotesCode": "3ef3746e-e9d1-4b1b-a540-bf4159468b06.pdf",
+    "dppsPdfCode": "da12c487-0cb4-49e9-beb9-8d3cad429865.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Thermodynamics and Kinetic Theory of ...",
+    "lectureCode": "a11b3b86-4b06-4e5d-9241-f4bd5350414d",
+    "extId": "659cc7c3637124001887e5e5",
+    "key": "659d4077ce245399b99a44cc",
+    "classNotesCode": "3ef3746e-e9d1-4b1b-a540-bf4159468b06.pdf",
+    "dppsPdfCode": "1f9a2e9d-4bc7-41b6-b824-cf67afa31845.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Thermodynamics and Kinetic Theory of ...",
+    "lectureCode": "93a5fa3a-6009-43c8-aaf1-2121c073f7c3",
+    "extId": "659b70f1995b4400187e4d9a",
+    "key": "659c0499ced9cd45586c8791",
+    "classNotesCode": "f28484c3-aebb-4bb2-8fc2-8d812bd5e61b.pdf",
+    "dppsPdfCode": "970a7dcc-385e-437a-96a5-2a9d5bb7439e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Thermodynamics and Kinetic Theory of ...",
+    "lectureCode": "3d5aa077-d528-4245-a229-dc08b64c3369",
+    "extId": "65985811a7149e00189ea47f",
+    "key": "65994ee446131300189077de",
+    "classNotesCode": "e83f7f19-6300-4c90-9e68-74fef9777dac.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Thermodynamics and Kinetic Theory of ...",
+    "lectureCode": "dc2d8561-1754-4837-8f67-1ab0d0e833d2",
+    "extId": "6597871a771f8a001869cf13",
+    "key": "6597f84c38d068f9e1595da5",
+    "classNotesCode": "e8dd9634-209c-4ce5-952c-b8c7464f83b3.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Thermodynamics and Kinetic Theory of ...",
+    "lectureCode": "3e6ad02b-326a-46ad-86de-e191da54c70a",
+    "extId": "6596363d95ec180018373be7",
+    "key": "6596a863c464cd0018ee2a32",
+    "classNotesCode": "990ef693-962d-41a3-87e2-bc7a3e621d89.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

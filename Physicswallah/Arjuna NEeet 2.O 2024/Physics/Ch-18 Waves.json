@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Waves 05 : Resonance Column and Beats...",
+    "lectureCode": "a8e4219e-41e8-4720-bd81-3a65ab71faa6",
+    "extId": "65b1ea176e40ba00186d1b56",
+    "key": "65b259b68142b8d9bf3dc7a8",
+    "classNotesCode": "4c205af8-2eb4-4cc9-88cd-2b035ddf7dd5.pdf",
+    "dppsPdfCode": "875237da-aed5-4281-b80d-4238bdc09b88.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Waves 04 : Sound Waves || Velocity of...",
+    "lectureCode": "56c1fb5a-c1e0-4ff9-8648-2d2ce2d1d4ac",
+    "extId": "65affc1073968e0018ae2fd0",
+    "key": "65b104f3445ea30018965b62",
+    "classNotesCode": "9be3b7c2-6665-41c3-bd06-14d7a3dd7f00.pdf",
+    "dppsPdfCode": "09c218e6-d861-4370-9ff4-09a84f463251.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Waves 03 : Stationary Waves (Part 02)...",
+    "lectureCode": "08e0d5ff-3408-445c-9b2f-f14462d2274b",
+    "extId": "65aebc1d256ec1001852ab9d",
+    "key": "65afb7e434c5af0018fd043c",
+    "classNotesCode": "c89c95da-b6ef-4839-84b7-552869305c87.pdf",
+    "dppsPdfCode": "27e8891a-1f0d-48b8-8a32-4b06e556c994.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Waves 02 : Velocity of Wave on String...",
+    "lectureCode": "342fcf27-c8e4-4893-859a-cf493e55287e",
+    "extId": "65a984a8c920d60018bec369",
+    "key": "65aa7e98f100b60018baa807",
+    "classNotesCode": "1d20e2e6-e5eb-4298-8a3b-5c0f972137d9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Waves 01 : Wave on a String || NO DPP...",
+    "lectureCode": "e3651fee-6dda-44c9-a0b4-271e05a98c3e",
+    "extId": "65a80e4a71d9c80018bc21ef",
+    "key": "65a91e2c7fd55a00181ed6c7",
+    "classNotesCode": "37368416-eaff-45dc-a8e8-03b537ad766c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Waves 06 : Loudness || Pitch || (NO D...",
+    "lectureCode": "03d0218a-bd56-4e7d-baeb-036cdf2abdcc",
+    "extId": "65b8061f01eac800187e11d8",
+    "key": "65b8fba5296ba7001885dcdf",
+    "classNotesCode": "92598faf-eb82-4c65-963b-142f32a9a72c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

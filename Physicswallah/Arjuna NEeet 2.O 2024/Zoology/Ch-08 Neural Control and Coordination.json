@@ -1,0 +1,102 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Neural Control and Coordination 07 : ...",
+    "lectureCode": "8c0b5d48-79bd-4173-8454-3133bc17071d",
+    "extId": "6593993997bea700189c0979",
+    "key": "6593fb5a5292410018e2a71e",
+    "classNotesCode": "9fdbbeca-3e16-442a-9495-dd6011612fbf.pdf",
+    "dppsPdfCode": "235b50f9-3e52-484e-a311-311ddb8545fa.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Neural Control and Coordination_Lectu...",
+    "lectureCode": "b845ad13-a219-4f80-9d2c-13b53c3cb4ac",
+    "extId": "658f107071bd6200180d8340",
+    "key": "658fa496f517e40018491c1d",
+    "classNotesCode": "72879d3e-4365-49c4-b934-2cad5bdd7c64.pdf",
+    "dppsPdfCode": "148d9bf9-8de4-48ab-b12a-71a26d327b37.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Neural Control and Coordination 05 : ...",
+    "lectureCode": "2a439898-6388-484f-bc12-0ea3cc31c7a8",
+    "extId": "658e4c70b151000018ad5fce",
+    "key": "658ed62d243960e9ff962603",
+    "classNotesCode": "b3732e4f-9158-46a3-b19d-58e91e7274b9.pdf",
+    "dppsPdfCode": "bad3c631-f342-4b3c-9a79-419b2c37092f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Neural Control and Coordination 04",
+    "lectureCode": "ebae54db-d276-45ac-9098-c74e07f2710c",
+    "extId": "658c4dd03bd5980018954b3d",
+    "key": "658d85e1febd2dc57509e4cd",
+    "classNotesCode": "d1b9fa09-da23-4979-979c-2071afdd26f6.pdf",
+    "dppsPdfCode": "5f94a650-39ec-4109-ba20-f1a68ba82296.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Neural Control and Coordination_Lectu...",
+    "lectureCode": "f02ade48-b43c-4638-948f-98062d48f435",
+    "extId": "65864d11e98c1400183d2f97",
+    "key": "658593000973490018abc07f",
+    "classNotesCode": "0fb0994a-a655-4b74-b893-64e97130a5e8.pdf",
+    "dppsPdfCode": "517b96f0-9955-4f17-a2f3-4c144f6d7d25.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Neural Control and Coordination_Lectu...",
+    "lectureCode": "0aea6247-6551-4d18-9e2d-c06003aea418",
+    "extId": "65850e2c7638ac0018a534c4",
+    "key": "6585960bc975800018c0e530",
+    "classNotesCode": "3993f76b-91a6-4caa-aed2-e9c4cfd057b8.pdf",
+    "dppsPdfCode": "e74a76b5-5605-4eee-bcab-9861af87c3de.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Neural Control and Coordination 01 : ...",
+    "lectureCode": "6d6c424f-4abb-481a-b269-d6e496789c9b",
+    "extId": "6583aab55abadb3c2d5b88b0",
+    "key": "658448c755171d994f98d522",
+    "classNotesCode": "d18127a4-50ab-47dc-b947-880df895806a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Neural Control and Coordination DPP ARJUNA NEET O...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "9fdbbeca-3e16-442a-9495-dd6011612fbf.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Neural Control and Coordination DPP ARJUNA NEET O...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "72879d3e-4365-49c4-b934-2cad5bdd7c64.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Neural Control and Coordination DPP ARJUNA NEET O...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "b3732e4f-9158-46a3-b19d-58e91e7274b9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

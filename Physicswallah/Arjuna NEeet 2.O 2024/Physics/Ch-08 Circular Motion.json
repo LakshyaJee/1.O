@@ -1,0 +1,22 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Pawan sir physics lecture arjuna 2.0",
+    "lectureCode": "92283b13-f60d-4425-a1d1-d12082ce66ce",
+    "extId": "652a0ae136757b0018ecb7ef",
+    "key": "652c27ae03ff23001819818d",
+    "classNotesCode": "639704e5-9378-4760-8580-a228e64be1ad.pdf",
+    "dppsPdfCode": "d0608025-017d-43f3-b8f1-9b0311906403.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Circular Motion 01 : NO DPP",
+    "lectureCode": "22bfe95d-dc34-430d-a3a8-7d30254c419e",
+    "extId": "652621259800400018989384",
+    "key": "65269cf658efc70012dc076e",
+    "classNotesCode": "4a138329-2a43-440b-b029-f8eca4606a64.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

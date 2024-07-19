@@ -1,0 +1,192 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Thermodynamics 12 : Thermochemistry (...",
+    "lectureCode": "9620cef6-2989-4a05-86d4-8ee32056db01",
+    "extId": "65431915968e630018465349",
+    "key": "6543b138376a83001805e5d9",
+    "classNotesCode": "0a4a715e-39c7-4296-bb72-3199ec8b9fb6.pdf",
+    "dppsPdfCode": "7e62c5cf-0977-499a-93aa-20d112a70e2d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Thermodynamics 11 : Thermochemistry (...",
+    "lectureCode": "6e954a40-e38d-40d5-9ad6-0cca4c48c87c",
+    "extId": "6541d4429794b40018e6935e",
+    "key": "65426ae12d41ea00183c2fec",
+    "classNotesCode": "171c509b-29ea-4544-846b-6fe9d0e64073.pdf",
+    "dppsPdfCode": "551ceb27-af90-4ebb-bdf0-90931dc153c9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Thermodynamics 10 : Thermochemistry (...",
+    "lectureCode": "ad905181-c3c2-49bb-a4c1-cdbb95d8bcb8",
+    "extId": "653c8e9585ca2a001894a7b6",
+    "key": "653d1e127dbee900123f79a6",
+    "classNotesCode": "6a3b06d6-d6bd-4d56-8a4d-4730afada4df.pdf",
+    "dppsPdfCode": "8722e84e-d02f-4664-84fa-26776480b1f1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Thermodynamics 09 : Gibbs Free Energy...",
+    "lectureCode": "4cde5533-51af-4b69-9cbd-492c34e9df2b",
+    "extId": "653b36db05cd9c0018831b25",
+    "key": "653bcf908207340012dd7edf",
+    "classNotesCode": "9b3946aa-3df9-4ecb-8e17-d6d3db234a9f.pdf",
+    "dppsPdfCode": "45c14e74-1a54-45ed-a8c9-f3f72d6d4c30.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Thermodynamics 08 : Entropy (Part -2)...",
+    "lectureCode": "89935210-934b-49c8-9f36-22d3cd96ecc1",
+    "extId": "6538e9e086810b0018d2c9d9",
+    "key": "65392df43c087e0012975d45",
+    "classNotesCode": "6db7f3c7-5268-44d7-ac99-4e92344ea626.pdf",
+    "dppsPdfCode": "86b8d364-8df1-4fa0-8b5e-67a693bb223e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Thermodynamics 07 : Rescheduled at 06...",
+    "lectureCode": "869c255c-6a62-41e6-b4d7-1281f5bcc86e",
+    "extId": "65334b48ad9236001821ecc8",
+    "key": "6533e0f6c108c300126353cd",
+    "classNotesCode": "79450d54-616c-4cc4-b2be-b9d8c2d1b4a8.pdf",
+    "dppsPdfCode": "ea478aca-d872-4a0f-a3b4-369e59dd2608.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Thermodynamics 06 : Calorimetry || NO...",
+    "lectureCode": "20bdef4d-e59d-4368-ba45-043a85a34e9e",
+    "extId": "6531fce76cec2a001914524d",
+    "key": "6532967053cb2500123054d6",
+    "classNotesCode": "e25c2e78-c791-4046-bf9e-7279fa5ac0f3.pdf",
+    "dppsPdfCode": "3c5315a6-1395-4d82-a286-5d90e9bb2025.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Thermodynamics 05",
+    "lectureCode": "f9e94b24-5eab-4414-809c-6bf870092ef9",
+    "extId": "6530a2d1e33de300185d50dc",
+    "key": "65313eadeeda48001295a9de",
+    "classNotesCode": "ac52d3e9-f797-4393-af83-b879d9032d8f.pdf",
+    "dppsPdfCode": "e8c1c944-d439-48bd-8104-2ff9ffd07bda.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Thermodynamics 04 : Work Done in Vari...",
+    "lectureCode": "3ce827a1-c30d-40e9-92bf-639320276bc0",
+    "extId": "652f64a4f79b1a001912ced6",
+    "key": "652ff31fb3df3d0012c098e3",
+    "classNotesCode": "c9d09234-ea46-4077-833a-267d14226af7.pdf",
+    "dppsPdfCode": "57a5011b-0f37-498e-9fb4-713d3a9eaa58.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Thermodynamics 03 : First Law of Ther...",
+    "lectureCode": "e23643f9-ce05-4ad5-a159-88a4d6705dec",
+    "extId": "65284f2e910c5900184db101",
+    "key": "6529572e93d15400120f464a",
+    "classNotesCode": "a88e4faf-2fa0-4857-adf0-5604c7ebc1ff.pdf",
+    "dppsPdfCode": "281c358a-5c60-484c-b5ba-3647df2160e0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Thermodynamics 02 : First Law of Ther...",
+    "lectureCode": "68a1e785-3e0c-4a5d-8f08-1afc66979259",
+    "extId": "652763c60f99ce0018c8f367",
+    "key": "65280c2117e9ca0012db9e74",
+    "classNotesCode": "f019bc99-d07b-4e72-b6f8-e3b93b8a7fe1.pdf",
+    "dppsPdfCode": "e6d29c99-e69d-4e0f-b78c-c878be73f4c5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Thermodynamics 01 : Introduction of t...",
+    "lectureCode": "cdd58d61-01c1-4f8e-92cc-3e2c7674ab70",
+    "extId": "652621636bdd0f0018eea341",
+    "key": "6526b9cd8765590012bf3799",
+    "classNotesCode": "43201666-c45e-473a-87c3-7a1c164e81a0.pdf",
+    "dppsPdfCode": "94498a38-c1b0-4b78-aa71-4091c5100ac0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "DPP- Thermodynamics Arjuna NEET Chemistry Harsh Sir...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "0a4a715e-39c7-4296-bb72-3199ec8b9fb6.pdf",
+    "dppsPdfCode": "ce4804f5-a390-43e5-9077-f4ec4ee2cd8a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Arjuna NEET DPP- Thermodynamics Chemistry Harsh Tyagi Sir...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "171c509b-29ea-4544-846b-6fe9d0e64073.pdf",
+    "dppsPdfCode": "7ff1be7b-31f1-4381-a335-a962ecaf62f0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Arjuna NEET DPP- Thermodynamics Chemistry Harsh Tyagi Sir...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "6a3b06d6-d6bd-4d56-8a4d-4730afada4df.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "DPP- Thermodynamics Arjuna NEET Chemistry Harsh Sir...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "9b3946aa-3df9-4ecb-8e17-d6d3db234a9f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "DPP- Thermodynamics Arjuna NEET Chemistry Harsh Sir...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "6db7f3c7-5268-44d7-ac99-4e92344ea626.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "DPP- Thermodynamics Arjuna NEET Chemistry Harsh Sir...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "79450d54-616c-4cc4-b2be-b9d8c2d1b4a8.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "DPP- Thermodynamics Arjuna NEET Chemistry Harsh Sir...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "e25c2e78-c791-4046-bf9e-7279fa5ac0f3.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

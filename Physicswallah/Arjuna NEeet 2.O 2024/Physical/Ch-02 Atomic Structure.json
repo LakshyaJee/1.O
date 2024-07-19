@@ -1,0 +1,202 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Atomic Structure 12",
+    "lectureCode": "4e5f4d1f-c746-432b-9676-274679f6e409",
+    "extId": "64c9f08b2910bc0018479d8a",
+    "key": "64ca86afc3f0ff0018e2b162",
+    "classNotesCode": "525b6628-4391-4203-adad-fcd15b6f95f8.pdf",
+    "dppsPdfCode": "d8a0f4c1-f415-4526-975c-3bbd2dcdca8b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Atomic Structure 11 : Electronic Conf...",
+    "lectureCode": "c7b78a79-8ce4-496a-a998-2aa0f7b55d44",
+    "extId": "64c771532f5e4600180122a7",
+    "key": "64c7af5569309d0018995343",
+    "classNotesCode": "7ca8c7f6-72db-453b-8160-1d43747362bf.pdf",
+    "dppsPdfCode": "0b007906-a2e8-4211-8c44-55aec5b50a18.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Atomic Structure 10  de Broglie Princ...",
+    "lectureCode": "27e06eb3-954b-4b6e-ad25-ede838e1dd0d",
+    "extId": "64c4d2960c4263001885e7df",
+    "key": "64c51bd30312040018f8debe",
+    "classNotesCode": "ac130cb3-1477-4a8c-ab88-daf22f33145d.pdf",
+    "dppsPdfCode": "db93a3ca-1597-4d36-a64d-ed48887ac948.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Atomic Structure 09 : Hydrogen Spectrum",
+    "lectureCode": "26de7940-93e3-49b8-9367-430ad04da7ef",
+    "extId": "64c2b0ed40084e0018b325ac",
+    "key": "64c3daf0f42b220018607789",
+    "classNotesCode": "f699d372-96bf-46c2-acde-2527d738f46e.pdf",
+    "dppsPdfCode": "0c57b5e8-b9f5-413c-a16f-04ee9358a3aa.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Atomic Structure 08 : Bohr Atomic Mod...",
+    "lectureCode": "c210a7d5-6e19-4c9d-8172-213c0c8a2ad1",
+    "extId": "64c1625bbbf84400181a8020",
+    "key": "64c289cc47cf510018545fe0",
+    "classNotesCode": "da913dd0-7663-4271-b99c-4535a44529b7.pdf",
+    "dppsPdfCode": "36bd31f5-64b7-44cf-bb73-7ac0b04368f5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Atomic Structure 07 || (NO DPP)",
+    "lectureCode": "896232c6-4559-458f-81ab-e5aa9bec7a8f",
+    "extId": "64c0113accb4e90018def3b7",
+    "key": "64c1356663ac550018ef3fbf",
+    "classNotesCode": "6b1df896-e6f7-4018-a6f8-423d56c63d03.pdf",
+    "dppsPdfCode": "d20bb8bc-3130-46fa-9daa-94f6c90c73bd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Atomic Structure 06 : Photoelectric E...",
+    "lectureCode": "d5d128d7-8407-49a8-bd6b-163a58fd53b0",
+    "extId": "64ba1b5c1eabc700181fb51a",
+    "key": "64baa0a4bc643d0018df362e",
+    "classNotesCode": "4cb1ed87-148c-4eb2-9733-ae5cbeaa7424.pdf",
+    "dppsPdfCode": "3f1fb9a0-3e6d-450a-b0b9-6094de8f4c08.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Atomic Structure 05 : Sunlight || Pho...",
+    "lectureCode": "a39bcf25-007a-4598-bd40-430ba74f5e5c",
+    "extId": "64b769c6e01fdc0018f0f41f",
+    "key": "64b7faffb187620017421e78",
+    "classNotesCode": "3182e735-86c7-4cf9-bc72-34b89c5e88ba.pdf",
+    "dppsPdfCode": "c264db58-59e2-49f6-b0c1-5ba01548694c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Atomic structure 04  sunlight, photoe...",
+    "lectureCode": "e73fbdad-1ad4-446f-9609-690942dcc798",
+    "extId": "64b25dcf832cab0018712fab",
+    "key": "64b3add12354490018757c30",
+    "classNotesCode": "0c0e996a-51b7-4b4a-853c-c248e1f28440.pdf",
+    "dppsPdfCode": "4fef44e1-a4bc-4103-8e03-86248cf5e905.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Atomic Structure 03 : Rutherford Mode...",
+    "lectureCode": "da2203d0-3aaf-4f34-9a03-e5561955ee12",
+    "extId": "64b0bd0b2bfead00181c7ba4",
+    "key": "64b16192f8d435001834808f",
+    "classNotesCode": "5edb5ace-f93e-4b8f-9dc0-c6829b05a091.pdf",
+    "dppsPdfCode": "0eb42795-2b17-4af0-ab78-8de6ed73546b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Atomic Structure 02 : Anode Rays || A...",
+    "lectureCode": "332dbaeb-511b-47c8-b826-39ea83fea942",
+    "extId": "64af83e95f61ba0018ea27e1",
+    "key": "64b0173b555cd70018f4a794",
+    "classNotesCode": "d0ccdf80-a0a9-411d-96b3-95c120d6a835.pdf",
+    "dppsPdfCode": "4355f0d4-704c-486b-8fec-5bcdec4df9e4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Atomic Structure 01 || (DPP and DPP Q...",
+    "lectureCode": "1ffbdb73-3358-4b96-9981-e0c2b5df2a3a",
+    "extId": "64ae33755ca8440018288ea0",
+    "key": "64aecd99bd963b001807bf6a",
+    "classNotesCode": "a0ce13e7-885c-4c80-9fd1-1cfa9e196e52.pdf",
+    "dppsPdfCode": "cd95a315-5192-4bd5-add0-2f26364abe23.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "DPP- Atomic Structure Arjuna NEET Chemistry Harsh Sir...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "525b6628-4391-4203-adad-fcd15b6f95f8.pdf",
+    "dppsPdfCode": "00bda75f-5738-49b2-8a8f-0a1190dc4014.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "DPP- Atomic Structure Arjuna NEET Chemistry Harsh Sir...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "7ca8c7f6-72db-453b-8160-1d43747362bf.pdf",
+    "dppsPdfCode": "2b5b4ba3-b2da-4495-a0af-9a8cfd7090e3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Arjuna NEET DPP- Atomic Structure Chemistry Harsh Sir...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "ac130cb3-1477-4a8c-ab88-daf22f33145d.pdf",
+    "dppsPdfCode": "5f35024e-40e1-4c94-9de1-111614b7768c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "DPP- Atomic Structure Arjuna NEET Chemistry Harsh Sir...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "f699d372-96bf-46c2-acde-2527d738f46e.pdf",
+    "dppsPdfCode": "3bdcdbe9-f6e7-4d90-858d-5c0f4cb317da.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "DPP- Atomic Structure Arjuna NEET Chemistry Harsh Sir...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "da913dd0-7663-4271-b99c-4535a44529b7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "DPP- Atomic Structure Arjuna NEET Chemistry Harsh Sir...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "6b1df896-e6f7-4018-a6f8-423d56c63d03.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Arjuna NEET DPP- Atomic Structure Harsh Tyagi Sir...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "4cb1ed87-148c-4eb2-9733-ae5cbeaa7424.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "DPP- Atomic Structure Arjuna NEET Chemistry Harsh Sir...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "3182e735-86c7-4cf9-bc72-34b89c5e88ba.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

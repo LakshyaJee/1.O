@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Rotational Motion 08 :NO DPP",
+    "lectureCode": "f64a450a-c105-4030-a91c-900111d2c017",
+    "extId": "65616f464d607a00185943da",
+    "key": "6561f282b88f0e001855bcfe",
+    "classNotesCode": "de0d2726-a5f0-4fc6-a388-1672ee7ea21a.pdf",
+    "dppsPdfCode": "1be2158b-b5b7-45ae-91b3-621a05738eed.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Rotational Motion 07 : Angular Moment...",
+    "lectureCode": "77c1ad7e-279b-4fec-8a17-0ed44ac3acfc",
+    "extId": "6560234c29b18500188c17a5",
+    "key": "6560a44c975bbd001892cdcf",
+    "classNotesCode": "987c97ce-32c6-4709-bb48-85132140ad3d.pdf",
+    "dppsPdfCode": "4c53c097-a67a-4c2a-9a82-731d58d4697b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Rotational Motion 06 : Equilibrium an...",
+    "lectureCode": "692909f2-3e8b-4e5d-89e7-356c91cd2295",
+    "extId": "655e4778966b7600198fa24f",
+    "key": "655f5205b5e38e0018bb3421",
+    "classNotesCode": "9e86d1da-c2d6-46ff-af1a-e99ba26e3bc4.pdf",
+    "dppsPdfCode": "46f1e99a-ecf3-4444-bbc2-053fb393c8cf.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Rotational Motion 05",
+    "lectureCode": "0d8efb8d-7fc1-4c46-a544-5535014c0915",
+    "extId": "655ce0fbc621c70018e65896",
+    "key": "655df692e23a8e00187dce26",
+    "classNotesCode": "ce28829e-2332-4da6-908c-d2d39058623a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Rotational Motion 04 : Cross Product ...",
+    "lectureCode": "657b4fcf-50db-4821-99ce-8dc8f87c3259",
+    "extId": "655caed96cbb630018b4f7d0",
+    "key": "655ca4a56d59a000187ecec0",
+    "classNotesCode": "23e0f066-d7f6-473a-93f8-44ee1570213a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Rotational Motion 03 : Moment of iner...",
+    "lectureCode": "c74e4858-bb12-4e16-80b5-fdb00449792b",
+    "extId": "655c316b60168300187a74df",
+    "key": "655ca4361d84fd001857d123",
+    "classNotesCode": "5ddd8d78-fca8-4b8f-8ca1-f7a3e10e4ef2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Rotational Motion 02 : Moment of Iner...",
+    "lectureCode": "da96cb3c-bdf3-4a6d-9a8f-1a892e82d1a4",
+    "extId": "655a4d3f367fe200188e45a0",
+    "key": "655b57fb4b93350018f54384",
+    "classNotesCode": "7614d3e7-4aff-4aa0-9dc9-2d0d242976eb.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Rotational Motion 01 Pawan Sir ARJUNA...",
+    "lectureCode": "2d7df8b8-7cf7-4099-84ed-dacc3fa592c6",
+    "extId": "654aff61c51ea900183412f0",
+    "key": "654ba25e8a3d1000187faf78",
+    "classNotesCode": "dacb66cd-a2eb-4528-b205-f03c3cc65ff6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

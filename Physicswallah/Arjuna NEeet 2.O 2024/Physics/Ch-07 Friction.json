@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Friction 04 : Angle of Repose (Part -...",
+    "lectureCode": "c54189a1-ce67-4c73-9e07-8e28944ab6ca",
+    "extId": "6524c89d6f446b001879cd8d",
+    "key": "65256836eaa708001816cd33",
+    "classNotesCode": "9c116809-d255-4b13-9f23-d5d451a905e0.pdf",
+    "dppsPdfCode": "dccda417-aeb9-4876-9993-62e886b39ee0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Friction 03 : Angle of friction || An...",
+    "lectureCode": "b4c016d8-3801-4adf-9e23-d36c3658508e",
+    "extId": "65237d0cc70a0d001834638a",
+    "key": "6523fd593b405e0012a0f496",
+    "classNotesCode": "e512ef9d-16c7-4d4b-861b-2660c95bfef2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Friction 02 : Static Friction || Kine...",
+    "lectureCode": "df0edfb9-c2e6-4c7f-8f94-0a0d6de03ad5",
+    "extId": "652068a5e3715e00187ac578",
+    "key": "65215819d5bcd70012850a99",
+    "classNotesCode": "85dcdf8c-1ad5-42ee-b1db-ce1b55f1656a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Friction 01 : NO DPP",
+    "lectureCode": "c1c9dbbe-96c0-4507-84d9-6ff7ca88a747",
+    "extId": "651ce393ebe1c00018e747fb",
+    "key": "651d669daf624500125e6a7d",
+    "classNotesCode": "67bc5f82-7a59-4fd9-bf08-b7b67d0f8e5b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

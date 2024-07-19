@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Redox Reactions 05 : NO DPP",
+    "lectureCode": "95e3b2ff-b729-43a3-9012-c38e499f74ff",
+    "extId": "6573e9b609bc8a00180506b9",
+    "key": "657479e06ade650018410744",
+    "classNotesCode": "dca1b3ee-933d-4239-bafc-84ec4f8e0cc2.pdf",
+    "dppsPdfCode": "c516727d-ce5e-4299-8268-e3210f36e9b5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Redox Reactions 04 : Balancing (Part ...",
+    "lectureCode": "bc520611-2c77-4623-ae04-aadceb70c6cc",
+    "extId": "657297e9ad78fa00187bc8f5",
+    "key": "6573241ab57d3500187cf99f",
+    "classNotesCode": "17e37281-7691-46f2-bcf3-f5ee74f4a978.pdf",
+    "dppsPdfCode": "03ecce4e-fd5c-4ca4-a245-92453adb83ad.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Redox Reactions 03 : DPP Will Be Prov...",
+    "lectureCode": "9e19d9bb-2204-4f9e-ad1c-4332cfbd3b5f",
+    "extId": "657146ac6822f400186e6044",
+    "key": "6571d34b43ce200018d12dd4",
+    "classNotesCode": "e6d89217-8ea6-4ab8-a75a-629b6c06bb3e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Redox Reactions 02 : Oxidation Reduct...",
+    "lectureCode": "3d705058-6201-4243-bee8-b096d1976791",
+    "extId": "656ff8ce0e4cd70018fc0a9a",
+    "key": "657081c71a4fe100189d3343",
+    "classNotesCode": "9d27deda-d4db-459f-8bf8-22126ed31894.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Redox Reactions 01 : DPP Will Be Prov...",
+    "lectureCode": "229464e2-87ff-40e6-ae2c-670c9570edd0",
+    "extId": "656ead0ca9f1070018993644",
+    "key": "656f306c40360f00195c7d40",
+    "classNotesCode": "3e13e2fc-2be9-435a-ad7e-3d9d1e5d6c61.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

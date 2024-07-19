@@ -1,0 +1,102 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Gravitation 06 :Orbital velocity || K...",
+    "lectureCode": "284523d2-87f2-4acb-9562-f93f08592d82",
+    "extId": "656aa887c5832900184efc94",
+    "key": "656b367120c50000187cfb61",
+    "classNotesCode": "a13ee482-10b3-4318-85d8-75b3465a0926.pdf",
+    "dppsPdfCode": "b1579aff-bc9c-461f-b42f-4e37961da459.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Gravitation 05 : Gravitational Potent...",
+    "lectureCode": "6352d15a-3c1a-4bfb-871b-9362ce2d8229",
+    "extId": "65695dc02bd5060018f0560b",
+    "key": "6569d72e934fac00182ecb2b",
+    "classNotesCode": "267ffe49-5a1f-4227-820c-4457fc7ae437.pdf",
+    "dppsPdfCode": "c3da9f04-9972-40c7-a7c8-e9b9207fa2e1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Gravitation 04 : Gravitational Potent...",
+    "lectureCode": "332ae19e-74d9-491d-85ac-76f594180bb5",
+    "extId": "65680d8af574530018a59c5d",
+    "key": "656885000c6ff40018877230",
+    "classNotesCode": "2987dec7-46c2-4f2d-a3f0-99bd545364f4.pdf",
+    "dppsPdfCode": "c77c45cd-df0a-4c47-97fa-34bb838383d7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Gravitation 03 : Acceleration Due to ...",
+    "lectureCode": "ce699dae-c2a8-454f-be4d-810e170509f8",
+    "extId": "6566bab031a95a0018e7bd19",
+    "key": "6567345f90cccd00183b0366",
+    "classNotesCode": "121829ea-685d-45b0-a533-462b41847242.pdf",
+    "dppsPdfCode": "4d209c90-5f54-4010-a933-3cd3593fee0f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Gravitation 02 : Gravitation Field (P...",
+    "lectureCode": "14a0fecd-cfa0-4289-a5d3-d16d629d5c00",
+    "extId": "6565697f844e5b0018650a0d",
+    "key": "6565dea7c5ab7b001893e1cc",
+    "classNotesCode": "1672e2e0-8fda-46ef-b98b-af024578d2a5.pdf",
+    "dppsPdfCode": "5a633f8d-a7f9-4687-ba49-5175fc7cce98.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Gravitation 01 :  Gravitational Force...",
+    "lectureCode": "10f75ca8-6e7f-4f2c-85a6-c0123d7270db",
+    "extId": "656417ea4950e8001848e2cb",
+    "key": "65648f5dffff88001819969c",
+    "classNotesCode": "293b0585-6357-4820-9cfd-4e40ff9a4d6e.pdf",
+    "dppsPdfCode": "0a008afa-2746-4709-a764-41d8104f73ab.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "a13ee482-10b3-4318-85d8-75b3465a0926.pdf",
+    "dppsPdfCode": "fa89d0a7-c059-476d-8c4c-5ae7dbcbea25.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "267ffe49-5a1f-4227-820c-4457fc7ae437.pdf",
+    "dppsPdfCode": "92361b7e-c18a-49dc-95e7-b9bfd5d65316.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "2987dec7-46c2-4f2d-a3f0-99bd545364f4.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "121829ea-685d-45b0-a533-462b41847242.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

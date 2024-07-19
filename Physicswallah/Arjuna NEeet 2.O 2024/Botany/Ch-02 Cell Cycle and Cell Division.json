@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Cell Cycle and Cell Division 04 : Mei...",
+    "lectureCode": "9b1f2ec4-48ea-404a-ba2c-fa55b311d7c6",
+    "extId": "64a3a57691182300185a3165",
+    "key": "64a45548cb865c0018ac1328",
+    "classNotesCode": "1a839b27-205a-4b1c-9827-900fa5752e39.pdf",
+    "dppsPdfCode": "be5e7e08-587a-4eb3-a184-cae9c71a21b4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Cell Cycle and Cell Division 03 : Cyt...",
+    "lectureCode": "d3ef9b3b-fd86-42f6-bcc2-7775aea44155",
+    "extId": "64a2532dca8b12001880eb80",
+    "key": "64a2fb2979ada10018189e2c",
+    "classNotesCode": "21a16320-3568-4832-b1d3-1ee834970067.pdf",
+    "dppsPdfCode": "b535a7e0-966e-4a87-8f38-118ba86b69c7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Cell Cycle and Cell Division 02 : M-P...",
+    "lectureCode": "033b70a2-1913-475b-a636-b673c3ea02db",
+    "extId": "6499d695e09552001816cb85",
+    "key": "649b276e8569190018362434",
+    "classNotesCode": "13737855-6a6d-465e-9738-9d4b0cdf6b32.pdf",
+    "dppsPdfCode": "f38dc9db-f5e2-4ba4-b03e-01818a17408d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Cell Cycle and Cell Division 01 : Int...",
+    "lectureCode": "e815cd13-fc86-43db-9f0a-c4bbec7f914e",
+    "extId": "6499047b0f31640018daec06",
+    "key": "6499c32e46ceba00186033bb",
+    "classNotesCode": "1a839b27-205a-4b1c-9827-900fa5752e39.pdf",
+    "dppsPdfCode": "c89f66fa-9a25-47b2-af97-822707b97f71.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Cell cycle DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "21a16320-3568-4832-b1d3-1ee834970067.pdf",
+    "dppsPdfCode": "f40dc119-741e-4128-9041-f12e9b258495.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Cell cycle DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "13737855-6a6d-465e-9738-9d4b0cdf6b32.pdf",
+    "dppsPdfCode": "037479da-0676-4809-bda9-e2f555a03e15.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "sol dpp botanay...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

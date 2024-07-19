@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Pawan sir ka extra lecture ARJUNA 2.0...",
+    "lectureCode": "321af01a-d8e3-4596-9663-f9afd19a89fa",
+    "extId": "657087b361f468001898cca6",
+    "key": "65708002e2533a0018a52d41",
+    "classNotesCode": "53393bfb-ef3a-4382-b67f-8678a17eaf75.pdf",
+    "dppsPdfCode": "3c913eb7-c2eb-4e17-95c2-02fc55096a2b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Mechanical Properties of Solids 03 : ...",
+    "lectureCode": "4c08b957-b800-467f-994e-ba334d30e8ae",
+    "extId": "656ff8906a8e5e001842814d",
+    "key": "6570702055736a0018efebc7",
+    "classNotesCode": "3516f0b2-2034-4f5c-9d71-5f6a879c0ee5.pdf",
+    "dppsPdfCode": "f3014d12-6c74-4271-a0b1-8ee960bd0468.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Mechanical Properties of Solids 02 :",
+    "lectureCode": "299c0273-90df-4d1a-981c-f46406ce46aa",
+    "extId": "656eac3569bcd30018c93292",
+    "key": "656f1c24f6f34d0018706942",
+    "classNotesCode": "7b8d7efe-2e28-48db-a062-da99d4764615.pdf",
+    "dppsPdfCode": "453fc1a5-fe50-4288-87aa-30188454059b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Mechanical Properties of Solids 01 :S...",
+    "lectureCode": "b6e20b77-ac66-4f23-8559-f01925de92f1",
+    "extId": "656d551ed2f04d0018dbbe3d",
+    "key": "656dced1ff0d19001818d2ee",
+    "classNotesCode": "1653cd1e-60de-4040-b6dc-23eda95aa767.pdf",
+    "dppsPdfCode": "82cea15f-677b-49ef-a187-606b1283824f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "solid...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "53393bfb-ef3a-4382-b67f-8678a17eaf75.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "solid...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "3516f0b2-2034-4f5c-9d71-5f6a879c0ee5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

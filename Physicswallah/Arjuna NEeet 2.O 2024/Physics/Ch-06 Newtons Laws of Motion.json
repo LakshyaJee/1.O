@@ -1,0 +1,122 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Newton's Laws of Motion 08 : PYQs || ...",
+    "lectureCode": "ba6db29a-efe0-4826-9b55-1d5fcda9b8a9",
+    "extId": "653935492cf8640018419e1c",
+    "key": "653938e7eb29ec0018f5df1d",
+    "classNotesCode": "a8f48127-2168-4478-8fed-beebf295270b.pdf",
+    "dppsPdfCode": "794d6a58-aa89-44ce-9921-3d7f25313812.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Newton's Laws of Motion 07 : Spring |...",
+    "lectureCode": "b82af4da-ffe8-4bd5-802a-810c2d2612ee",
+    "extId": "651b95adb97d3c001864cce0",
+    "key": "651c14cbe7ef68001270e21c",
+    "classNotesCode": "7693b9c4-495b-4d7c-b22f-4e853c5e928f.pdf",
+    "dppsPdfCode": "04e06569-0574-4699-8a55-75dcdff9d645.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Newton's Laws of Motion 06 : Spring B...",
+    "lectureCode": "007f0665-fe02-408f-80b0-093914f70b46",
+    "extId": "65179e2ce3b4ea0018fdf241",
+    "key": "651818d5c45f6d001849bcc8",
+    "classNotesCode": "eb284fbc-0881-4c30-914e-7f304a07e83a.pdf",
+    "dppsPdfCode": "1170068b-6446-4a0c-82a6-ce87f70857a8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Newton's Laws of Motion 05 : Equilibr...",
+    "lectureCode": "1c5d89d6-23f6-47f4-b937-8e00babe9c7a",
+    "extId": "6513a82548ce090018e8c19b",
+    "key": "65142aff3a2d400018c37166",
+    "classNotesCode": "54f5f4cc-838a-46a6-a4a7-bfa398cd7651.pdf",
+    "dppsPdfCode": "62a3ba47-be22-44c4-be55-5787fbb2fc53.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Newton's Laws of Motion 04  Wedge Pro...",
+    "lectureCode": "71c1fa06-bff8-4116-b24a-71be12bb35ef",
+    "extId": "65125321a78844001819cc13",
+    "key": "6512e6f3e26e5300182bb907",
+    "classNotesCode": "eb6a358c-b50b-468e-901e-7e856c3264a8.pdf",
+    "dppsPdfCode": "98ecfc6a-f0a1-4ad7-abf8-a2f7ad0a0e6e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Newton's Laws of Motion 03 : Pulley p...",
+    "lectureCode": "07aaf890-dd9b-45f4-b1f4-8d48f1fbf44f",
+    "extId": "65110061631f5b00187d0053",
+    "key": "65118965ca27d80012dd7889",
+    "classNotesCode": "183c9e31-f361-4227-b839-cc5ac4a1cef8.pdf",
+    "dppsPdfCode": "ff829550-be25-4f91-8957-abef9c044d11.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Newton's Laws of Motion 02 : Normal F...",
+    "lectureCode": "e7a498e5-7293-4ead-abdc-8e870d5f527b",
+    "extId": "650e6ed9e7603c0018e4334a",
+    "key": "650ee1421d549d0012a17402",
+    "classNotesCode": "0b71766e-adff-455d-8123-bd2d9124f08e.pdf",
+    "dppsPdfCode": "4e326201-34ad-48c7-9904-11b645208db7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Newton's Laws of Motion 01 : Newton's...",
+    "lectureCode": "947655c9-5354-41e0-877d-6f97a227b0ce",
+    "extId": "650a67703b732d00187a7a18",
+    "key": "650aef4b848ae8001879c206",
+    "classNotesCode": "4ae4c2a8-7e18-4a83-87b6-3d941753b18b.pdf",
+    "dppsPdfCode": "0f66ffe9-a8ce-46d8-a774-bf34f43f237d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "DPP NLM Pawan Pandey Sir Arjuna NEET...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "a8f48127-2168-4478-8fed-beebf295270b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "DPP NLM Pawan Pandey Sir Arjuna NEET...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "7693b9c4-495b-4d7c-b22f-4e853c5e928f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "NLM by Pawan Pandy Sir DPP Solution...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "eb284fbc-0881-4c30-914e-7f304a07e83a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "NLM by Pawan Pandy Sir DPP Solution...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "54f5f4cc-838a-46a6-a4a7-bfa398cd7651.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

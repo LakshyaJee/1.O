@@ -1,0 +1,112 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Vectors 07 : Vector Dot Product",
+    "lectureCode": "e075f6a4-6204-4c1b-b5dd-79329a32ded9",
+    "extId": "64cde05a96f755001861c99f",
+    "key": "64ce49a9c814ac0018077e5f",
+    "classNotesCode": "fcf361ea-86ce-442b-b436-fd37d6b1333e.pdf",
+    "dppsPdfCode": "c5b9e4d7-0135-474d-be2e-9408e3056868.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Vectors 06 : Triangle law (Part -3) |...",
+    "lectureCode": "dff27d96-c4ea-4f6b-b588-7ad128806591",
+    "extId": "64c9ef67cbeead001865f567",
+    "key": "64ca585d9e2dbb001893332a",
+    "classNotesCode": "ac5e9277-c7f8-4d3f-b919-c005c27b71b6.pdf",
+    "dppsPdfCode": "51751710-e439-4ffb-aee2-16edc5384f2d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Vectors 05 : Triangle Law (Part - 2)|...",
+    "lectureCode": "b7c6aa7e-07b4-4c94-a673-64cbcc03d219",
+    "extId": "64c8a70b11b8f9001852dffd",
+    "key": "64c908a49d67bb00187648a4",
+    "classNotesCode": "ff94caee-35fa-4ce8-b480-02bc2cfd8fc8.pdf",
+    "dppsPdfCode": "d493d04a-f1b1-4ef1-bfab-f163f3951e53.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Vectors 04 : Triangle || Parallelogra...",
+    "lectureCode": "af5d0563-551a-4280-850b-05ca3e8ab394",
+    "extId": "64c0105bfa6320001984e046",
+    "key": "64c120a59fdd0e00186a4df4",
+    "classNotesCode": "1b196073-c73c-440a-a63e-496bf2e0c045.pdf",
+    "dppsPdfCode": "f03f06a0-b70d-47ac-8cff-3529567e7490.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Lec 03 Vectors Aj02 25 july 2023",
+    "lectureCode": "499409a1-cc89-48ca-b4af-c88bb6126002",
+    "extId": "64bec120f8ea5b00185734f5",
+    "key": "64bfd09b9ef0c700184e4621",
+    "classNotesCode": "c17102a6-dd32-4107-8511-d5bdce283425.pdf",
+    "dppsPdfCode": "9ef71faa-7f0d-4073-899d-7d5604249375.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Vectors 02 : Vectors Addition || Reso...",
+    "lectureCode": "e3dccbe9-4530-4a0b-9acd-aaf1b46a8845",
+    "extId": "64bd6830160ed3001807bf7c",
+    "key": "64be75bcd505e1001867d0d5",
+    "classNotesCode": "bb413fba-e008-4743-a040-ad3c7921feca.pdf",
+    "dppsPdfCode": "f98a893f-8cf7-4d91-8f58-864562227ad8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Vectors 01 : Vectors || Law of Vector...",
+    "lectureCode": "be3c622f-5337-4fd1-83f7-df18668cd203",
+    "extId": "64b766e2706c3a00189a44ce",
+    "key": "64b7e183c2a8d5001820b161",
+    "classNotesCode": "25d58e89-2fef-48c0-a072-b895279a4997.pdf",
+    "dppsPdfCode": "7cf1090f-47e3-4d41-ba11-9d16a43c0872.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "DPP VECTOR ARJUNA PAWAN PANDEY SIR...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "fcf361ea-86ce-442b-b436-fd37d6b1333e.pdf",
+    "dppsPdfCode": "e16cd81b-7a6b-432c-97c5-f22cc0c542b2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "dpp pawan sir...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "ac5e9277-c7f8-4d3f-b919-c005c27b71b6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "phy vector dpp...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "ff94caee-35fa-4ce8-b480-02bc2cfd8fc8.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "DPP PHY PAWAN SIR...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "1b196073-c73c-440a-a63e-496bf2e0c045.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

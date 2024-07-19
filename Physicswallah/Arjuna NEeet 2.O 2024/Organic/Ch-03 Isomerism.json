@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Isomerism 03 : Number of Structural I...",
+    "lectureCode": "bb3afc07-e0a9-4a6d-8130-01bae97b1454",
+    "extId": "65b1ea3b16490f00181cce32",
+    "key": "65b28a44d317f500184eac0a",
+    "classNotesCode": "4314c986-430e-46d0-84c9-131924dd5f96.pdf",
+    "dppsPdfCode": "f64e1c68-4999-415f-ac55-397984f756dd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Isomerism 02 : Types of Structural Is...",
+    "lectureCode": "e990e890-4ddb-4fef-ad97-c57dcf34f7e0",
+    "extId": "65affc40214ce000180178b1",
+    "key": "65b137a29108bf00188fae6e",
+    "classNotesCode": "8eaf1713-da0b-4a5b-b5ab-71042d38ee18.pdf",
+    "dppsPdfCode": "1473a9fe-2331-4104-ac30-676ccedb1276.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Isomerism 01 : Introduction to Isomer...",
+    "lectureCode": "e79d94d4-8c98-4dbe-ad87-8c8147618a5a",
+    "extId": "65aebbe7cad6060018349d8d",
+    "key": "65afc82af7cea70018dc16ed",
+    "classNotesCode": "2286c171-c148-4098-bef7-7f79f2624d0f.pdf",
+    "dppsPdfCode": "d1de4213-24f3-4d7d-9241-9b77e0f28618.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Isomerism 06 : Conformers || (Resched...",
+    "lectureCode": "9810b49a-956d-4d4f-97bc-60ba5865c739",
+    "extId": "65b9c3f5bf30e60018c20538",
+    "key": "65ba727c03e0f50018fca147",
+    "classNotesCode": "4afc4b53-42c4-4611-9cb7-1b7f71d06e62.pdf",
+    "dppsPdfCode": "63d356ad-398d-4526-ad6f-e7c74e5e0cef.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Isomerism 05 : Application of Geometr...",
+    "lectureCode": "fcd89ce1-5833-4daa-b437-a362b33577f4",
+    "extId": "65b805e6a1033a0018669f4c",
+    "key": "65b91730c92a9b00180bdc17",
+    "classNotesCode": "ca579b29-741c-4fec-9824-0e317e011630.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Isomerism 04 : Geometrical Isomerism",
+    "lectureCode": "544f033a-dea3-4fbb-a9f1-c3bbf5cdfb20",
+    "extId": "65b6a1e38e20d60018f4cb9a",
+    "key": "65b7c4f8178f400018865868",
+    "classNotesCode": "91d2a059-298b-442c-b933-cc9a281777c3.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Isomerism 06 : Conformers || (Resched...",
+    "lectureCode": "04ccfd89-563a-42cf-a104-db3113b3549d",
+    "extId": "65b9c3f5bf30e60018c20538",
+    "key": "65ba64d98850d70018915165",
+    "classNotesCode": "1473a9fe-2331-4104-ac30-676ccedb1276.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

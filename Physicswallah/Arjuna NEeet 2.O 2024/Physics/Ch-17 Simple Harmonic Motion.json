@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Simple Harmonic Motion 06 : Class Not...",
+    "lectureCode": "e1de6944-a08e-47c3-9f07-31792755a8c7",
+    "extId": "65a6e75642ec82001859dc49",
+    "key": "65a7ea6d786ba5001841c314",
+    "classNotesCode": "97fa2b0e-e77a-4dee-89c2-fd906238c93b.pdf",
+    "dppsPdfCode": "9f9d8235-db70-44d9-8992-84e540d8d10d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "SHM LEC 05 PAWAN SIR ARJUNA NEET 2.0 ...",
+    "lectureCode": "c5e46d33-c3e1-4655-b4a7-49c92a2eeb3d",
+    "extId": "65a5b1fe54b88700185f8106",
+    "key": "65a687582658cd0018d3b7c3",
+    "classNotesCode": "e02c528e-e6e8-4967-8597-089fd4f70573.pdf",
+    "dppsPdfCode": "b8d99c08-9e4b-4445-ba9c-7a169a15683c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Simple Harmonic Motion 04 : Energy in...",
+    "lectureCode": "ddfdf2fe-fe20-47c5-9f21-2da0563d8821",
+    "extId": "65a41ece2c9a55001836c0f6",
+    "key": "65a5574b5743450018c9f411",
+    "classNotesCode": "dd7009ad-2007-42bd-a299-788192c7034b.pdf",
+    "dppsPdfCode": "a58ec8bb-f037-48b5-8567-baa1ed078c8e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Simple Harmonic Motion 03 : Energy in...",
+    "lectureCode": "03b5daaa-f8dd-406f-b1e1-7cc94257eceb",
+    "extId": "65a0cee03e1ed00018b21b12",
+    "key": "65a134b74cf60129ea0e7581",
+    "classNotesCode": "e7a1167f-e1e6-4fdd-bc4b-a7c5644f34c9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Simple Harmonic Motion 02 : Energy of...",
+    "lectureCode": "7d7ae9e8-e130-401a-a879-f22828d172b3",
+    "extId": "659f72a26fe5e40018762ed0",
+    "key": "659fe0b5cd090800181442b2",
+    "classNotesCode": "7930462e-7789-41e3-9f48-7196a376d3b8.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Simple Harmonic Motion 01 : Questions...",
+    "lectureCode": "1e83b3e5-e521-41d4-8176-8c3cc9904083",
+    "extId": "659e19f20e3a2a0018792b69",
+    "key": "659e924466e5f16cc744d3c1",
+    "classNotesCode": "d947fefd-2579-4ce4-87a1-b5e1de28d3e1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]
