@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Upload to GitHub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f4f7fc;
+    }
+
+    #uploadForm {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    input[type="file"] {
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 10px 15px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    .status {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+
+    .status.success {
+      color: green;
+    }
+
+    .status.error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="uploadForm">
+    <h2>Upload Image to GitHub</h2>
+    <input type="file" id="imageInput" accept="image/*" />
+    <button onclick="uploadImage()">Upload Image</button>
+    <p class="status" id="statusMessage"></p>
+  </div>
+
+  <script>
+    async function uploadImage() {
+      const imageInput = document.getElementById('imageInput');
+      const statusMessage = document.getElementById('statusMessage');
+      statusMessage.innerText = '';
+
+      if (!imageInput.files.length) {
+        statusMessage.innerText = 'Please select an image to upload.';
+        return;
+      }
+
+      const file = imageInput.files[0];
+
+      // Ensure the file size is under 2MB
+      if (file.size > 2 * 1024 * 1024) { // 2MB in bytes
+        statusMessage.innerText = 'Error: Image size exceeds 2MB.';
+        statusMessage.classList.add('error');
+        return;
+      }
+
+      try {
+        // Convert the image to base64 format
+        const base64Image = await toBase64(file);
+
+        // Remove the base64 prefix (e.g., "data:image/jpeg;base64,")
+        const base64Content = base64Image.split(',')[1];
+
+        // Upload to GitHub
+        await saveImageToGitHub(base64Content, file.name);
+
+        statusMessage.innerText = 'Image successfully uploaded to GitHub!';
+        statusMessage.classList.add('success');
+      } catch (error) {
+        console.error('Error uploading image:', error);
+        statusMessage.innerText = 'Error: Could not upload image.';
+        statusMessage.classList.add('error');
+      }
+    }
+
+    // Convert image file to base64 string
+    function toBase64(file) {
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onloadend = () => resolve(reader.result);
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+      });
+    }
+
+    // Save the image to GitHub repository
+    async function saveImageToGitHub(base64Content, filename) {
+      const token = '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';  // Replace with your actual GitHub PAT
+      const repo = 'lakshyajee/1.O';  // Replace with your GitHub repo
+      const filePath = `images/${filename}`;  // File path in the repo where the image will be saved
+      const branch = 'main';  // The branch to commit to
+
+      // Check if the file already exists (to get the SHA for updating)
+      const fileSha = await getFileSha(repo, filePath, token);
+
+      const payload = {
+        message: fileSha ? 'Update image file' : 'Create new image file',
+        content: base64Content,
+        branch: branch,
+      };
+
+      if (fileSha) {
+        payload.sha = fileSha;
+      }
+
+      const response = await fetch(`https://api.github.com/repos/${repo}/contents/${filePath}`, {
+        method: 'PUT',
+        headers: {
+          Authorization: `token ${token}`,
+          Accept: 'application/vnd.github.v3+json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to save image to GitHub');
+      }
+    }
+
+    // Helper function to get file SHA (for updating existing files)
+    async function getFileSha(repo, filePath, token) {
+      const url = `https://api.github.com/repos/${repo}/contents/${filePath}`;
+      const response = await fetch(url, {
+        method: 'GET',
+        headers: {
+          Authorization: `token ${token}`,
+          Accept: 'application/vnd.github.v3+json',
+        },
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        return data.sha;  // Return the file's SHA for updating
+      }
+
+      return null;  // Return null if the file doesn't exist
+    }
+  </script>
+
+</body>
+</html>
