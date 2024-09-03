@@ -1,1 +1,88 @@
-asalamualaikum 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fetch Batches</title>
+  <style>
+    #progressWindow {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 20px;
+      background-color: #f1f1f1;
+      border: 2px solid #ccc;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <button id="fetchButton">Fetch Data</button>
+
+  <div id="progressWindow">
+    <h3>Fetching Data...</h3>
+    <p id="progressText">0%</p>
+  </div>
+
+  <script>
+    document.getElementById('fetchButton').addEventListener('click', fetchAndSaveBatches);
+
+    async function fetchAndSaveBatches() {
+      try {
+        // Show the progress window
+        const progressWindow = document.getElementById('progressWindow');
+        progressWindow.style.display = 'block';
+
+        // Fetch batches (simulated with percentage progress)
+        updateProgress(20);  // Update progress to 20%
+        const batches = await fetchBatches();  // Simulate fetching batches
+        updateProgress(60);  // Update progress to 60%
+
+        // Save fetched batches to GitHub
+        await saveToGitHub(batches);
+        updateProgress(100);  // Update progress to 100%
+        
+        // Success message
+        alert('Batches successfully fetched and saved to GitHub!');
+        
+        // Close progress window after fetching
+        progressWindow.style.display = 'none';
+      } catch (error) {
+        alert('Error fetching or saving batches: ' + error.message);
+        console.error(error);
+
+        // Hide progress window if an error occurs
+        document.getElementById('progressWindow').style.display = 'none';
+      }
+    }
+
+    // Function to update the progress text
+    function updateProgress(percentage) {
+      document.getElementById('progressText').innerText = percentage + '%';
+    }
+
+    // Mock function to simulate fetchBatches (replace this with the real fetchBatches function)
+    async function fetchBatches() {
+      // Simulating fetch delay
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          resolve('<div class="col-lg-4 col-md-6 col-sm-12"><div class="batch-card"><h5><strong>Mock Batch</strong></h5><img src="https://example.com/mock.jpg" alt="Mock Batch"><p class="mt-1 mb-1"><strong>For Mock Aspirants</strong></p><p>Stats On : <strong>Apr 01, 2024</strong> | Class : <strong>12</strong></p><a href="https://example.com" class="w-100 btn-shine btn-wider custom-btn mt-2"><b>LET\'S STUDY</b></a></div></div>');
+        }, 2000);  // Simulating 2 second fetch
+      });
+    }
+
+    // Mock function to simulate saveToGitHub (replace this with the real saveToGitHub function)
+    async function saveToGitHub(content) {
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          resolve();
+        }, 2000);  // Simulating 2 second save time
+      });
+    }
+  </script>
+
+</body>
+</html>
