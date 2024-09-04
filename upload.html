@@ -91,32 +91,21 @@
       reader.readAsDataURL(file);
       reader.onload = async function () {
         const base64Image = reader.result.split(',')[1]; // Get the base64 part
+import requests
+username = 'lakshyajee'
+token = '06022e4b7c20f0e08be16652c8127d4df1f749ff'
 
-        const filename = file.name;
-        const token = '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'; // Use your GitHub token
-        const repo = '1.O'; // Your repository name
-        const username = 'lakshyajee'; // Your GitHub username
-        const branch = 'main'; // Branch to upload the file to
-        const path = `${filename}`; // Path where the image will be stored in the repo
-
-        // Update progress bar
-        progressBar.style.width = '25%';
-        progressBar.textContent = 'Uploading...';
-
-        const response = await fetch(`https://api.github.com/repos/${username}/${repo}/contents/${path}`, {
-          method: 'PUT',
-          headers: {
-            Authorization: `token ${token}`,
-            Accept: 'application/vnd.github.v3+json',
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({
-            message: `Upload image: ${filename}`,
-            content: base64Image,
-            branch: branch
-          })
-        });
-
+response = requests.get(
+    'https://www.pythonanywhere.com/api/v0/user/{username}/cpu/'.format(
+        username=username
+    ),
+    headers={'Authorization': 'Token {token}'.format(token=token)}
+)
+if response.status_code == 200:
+    print('CPU quota info:')
+    print(response.content)
+else:
+    print('Got unexpected status code {}: {!r}'.format(response.status_code, response.content))
         if (response.ok) {
           progressBar.style.width = '100%';
           progressBar.textContent = '100% Complete';
