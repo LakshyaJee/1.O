@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var slugParam = urlParams.get('slug');
 
   // Construct the URL
-  var fetchUrl = `https://devjisu.com/drm/fetch.php?key=${encodeURIComponent(keyParam)}&type=lecture&slug=null`;
+  var fetchUrl = `https://devjisu.com/old_web/drm/fetch.php?key=${encodeURIComponent(keyParam)}&type=lecture&slug=null`;
 
   // Fetch request
   fetch(fetchUrl)
