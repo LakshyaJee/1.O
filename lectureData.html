@@ -172,7 +172,7 @@ if (!lectureData) {
 
         // Function to view lecture with key and lectureCode as URL parameters
 function viewLecture(key, lectureCode) {
-    const qualitySelectUrl = `quality-select.html?key=${key}_UI=changes${lectureCode}`;
+    const qualitySelectUrl = `quality-select.html?key=${key}&UI=${lectureCode}`;
     window.open(qualitySelectUrl, '_blank');
 }
 
