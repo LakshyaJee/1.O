@@ -187,7 +187,7 @@
 async function MobilePlyr() {
     const quality = document.getElementById('qualityOptions').value;
     const urlParams = new URLSearchParams(window.location.search);
-    const lectureCode = urlParams.get('lectureCode');
+    const lectureCode = urlParams.get('UI');
     const dppsSolutionCode = urlParams.get('dppsSolutionCode');
 
     let key;
@@ -202,24 +202,11 @@ async function MobilePlyr() {
         return;
     }
 
-    // Construct the video URL
-    const videoUrl = `https://extractapi.xyz/dev/${key}/hls/${quality}/main.m3u8`;
+     // Construct the new URL to redirect to the player page
+     const playerUrl = `Player/plyr_v1.html?UI=${key}`;
 
-    // Clear existing content
-    document.body.innerHTML = '';
-
-    // Create and append iframe
-    const iframe = document.createElement('iframe');
-    iframe.src = videoUrl;
-    iframe.style.width = '100%';
-    iframe.style.height = '100vh';
-    document.body.appendChild(iframe);
-
-    // Handle errors if iframe fails to load
-    iframe.onerror = function() {
-        console.error(`Failed to load video from ${videoUrl}`);
-        alert('Failed to load video. Please check the URL and try again.');
-    };
+// Redirect to the new player URL
+window.location.href = playerUrl;
 }
 
 
