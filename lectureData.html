@@ -120,7 +120,7 @@ if (!lectureData) {
             if (lecture.lectureCode) {
                 const viewLectureButton = document.createElement('button');
                 viewLectureButton.textContent = 'View Lecture';
-                viewLectureButton.onclick = () => viewLecture(lecture.key);
+                viewLectureButton.onclick = () => viewLecture(lecture.key)&(lecture.lectureCode);
                 buttonContainer.appendChild(viewLectureButton);
             }
 
@@ -172,7 +172,7 @@ if (!lectureData) {
 
         // Function to view lecture
         function viewLecture(key) {
-            const qualitySelectUrl = `quality-select.html?key=${key}&${lectureCode}`;
+            const qualitySelectUrl = `quality-select.html?key=${key}_${lectureCode}`;
             window.open(qualitySelectUrl, '_blank');
         }
 
