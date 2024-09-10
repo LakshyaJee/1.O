@@ -120,7 +120,7 @@ if (!lectureData) {
             if (lecture.lectureCode) {
                 const viewLectureButton = document.createElement('button');
                 viewLectureButton.textContent = 'View Lecture';
-                viewLectureButton.onclick = () => viewLecture(lecture.key)&(lecture.lectureCode);
+                viewLectureButton.onclick = () => viewLecture(lecture.key, lecture.lectureCode);
                 buttonContainer.appendChild(viewLectureButton);
             }
 
