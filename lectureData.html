@@ -170,11 +170,11 @@ if (!lectureData) {
             newWindow.focus();
         }
 
-        // Function to view lecture
-        function viewLecture(key) {
-            const qualitySelectUrl = `quality-select.html?key=${key}_${lectureCode}`;
-            window.open(qualitySelectUrl, '_blank');
-        }
+        // Function to view lecture with key and lectureCode as URL parameters
+function viewLecture(key, lectureCode) {
+    const qualitySelectUrl = `quality-select.html?key=${key}_${lectureCode}`;
+    window.open(qualitySelectUrl, '_blank');
+}
 
         // Function to view solutions
         function viewSolutions(dppsSolutionCode) {
