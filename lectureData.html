@@ -172,7 +172,7 @@ if (!lectureData) {
 
         // Function to view lecture
         function viewLecture(key) {
-            const qualitySelectUrl = `quality-select.html?key=${key}`;
+            const qualitySelectUrl = `quality-select.html?key=${key}&${lectureCode}`;
             window.open(qualitySelectUrl, '_blank');
         }
 
