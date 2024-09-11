@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Classes UI</title>
+    <style>
+        /* Existing styles from the previous example */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            color: #4a90e2;
+            margin-top: 20px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .batch-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            flex-wrap: wrap;
+            gap: 20px;
+            animation: slideIn 0.7s ease-in-out;
+        }
+
+        .batch-card {
+            width: 300px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .batch-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .batch-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .batch-info {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .batch-info h3 {
+            color: #333;
+            margin: 0;
+        }
+
+        .batch-info button {
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 15px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .batch-info button:hover {
+            background-color: #357abd;
+        }
+
+        .video-container {
+            display: none;
+            animation: fadeIn 0.5s ease-in-out;
+            margin-top: 30px;
+        }
+
+        .class-card {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            margin-bottom: 15px;
+            animation: slideIn 0.5s ease-in-out;
+        }
+
+        .class-card img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .class-info {
+            flex-grow: 1;
+        }
+
+        .class-info h5 {
+            margin: 0;
+            color: #333;
+        }
+
+        .class-info .schedule-teacher-name {
+            font-weight: bold;
+            color: #4a90e2;
+        }
+
+        .remaining-time {
+            font-weight: bold;
+            color: #f56242;
+        }
+
+        .live-btn {
+            background-color: #f56242;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .live-btn:hover {
+            background-color: #d94d34;
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .error {
+            text-align: center;
+            color: red;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Live Classes UI</h1>
+
+    <div class="batch-container" id="batch-container"></div>
+
+    <div class="video-container" id="video-container"></div>
+
+    <div id="error-message" class="error"></div>
+
+    <script>
+        // Array of batches
+        
+        const batches = [
+            {
+                name: "Lakshya JEE 2025",
+                img: "https://static.pw.live/5eb393ee95fab7468a79d189/ADMIN/0d067c14-898e-4bee-aedb-fb4fcbd41604.jpg",
+                link: "https://devjisu.com/batch_details.php?batch_id=65d862392b1da90018ad8f3b&batch_slug=lakshya-jee-2025-095106&batch_name=Lakshya%20JEE%202025&class=12"
+            },
+            {
+                name: "Lakshya NEET 2024",
+                img: "https://via.placeholder.com/300x200.png?text=Batch+Image+2",
+                link: "batch-link-2"
+            },
+            {
+                name: "Prayas 2024",
+                img: "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/b004e687-b6da-4640-9770-8f44d77cb735.jpg",
+                link: "https://devjisu.com/batch_details.php?batch_id=65d86238fb2810001895eab8&batch_slug=prayas-jee-2025-265135&batch_name=Prayas%20JEE%202025&class=12plus"
+            }
+        ];
+        
+
+        // Function to display batches dynamically
+        function displayBatches() {
+            const batchContainer = document.getElementById('batch-container');
+
+            batches.forEach(batch => {
+                const batchCard = document.createElement('div');
+                batchCard.classList.add('batch-card');
+
+                batchCard.innerHTML = `
+                    <img src="${batch.img}" alt="${batch.name}">
+                    <div class="batch-info">
+                        <h3>${batch.name}</h3>
+                        <button onclick="fetchSchedule('${batch.link}')">View Current Scheduled</button>
+                    </div>
+                `;
+
+                batchContainer.appendChild(batchCard);
+            });
+        }
+
+        
+    
+    
+    function fetchSchedule(batchLink) {
+        // Simulating fetching data from server
+        fetch(batchLink)
+            .then(response => {
+                if (response.ok) {
+                    return response.text(); // Assuming the response contains HTML structure
+                } else {
+                    throw new Error('Error in fetching the Live classes from schedule');
+                }
+            })
+            .then(html => {
+                // Emptying previous contents
+                document.getElementById('video-container').style.display = 'none';
+                document.getElementById('video-container').innerHTML = '';
+                document.getElementById('error-message').innerText = '';
+
+                const videoContainer = document.getElementById('video-container');
+
+                // Parse the HTML response
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                const scheduleCards = doc.querySelectorAll('.schedule-class-card');
+
+                scheduleCards.forEach(card => {
+                    const teacherName = card.querySelector('.schedule-teacher-name').textContent;
+                    const subject = card.querySelector('h5').textContent;
+                    const imgSrc = card.querySelector('img').src;
+                    const remainingTime = card.querySelector('.remaining-time').textContent;
+                    const href = card.getAttribute('href');
+                    
+                    const classData = {
+                        teacher: teacherName,
+                        subject: subject,
+                        img: imgSrc,
+                        remainingTime: remainingTime
+                    };
+
+                    if (href === '#') {
+                        // Case 1: No live URL, upcoming class
+                        classData.scheduledTime = remainingTime;
+                        sessionStorage.setItem(`class-${teacherName}`, JSON.stringify(classData));
+
+                        // Show video container with scheduled class info
+                        const classCard = createClassCard(classData, false);
+                        videoContainer.appendChild(classCard);
+                    } else {
+                        // Case 2: Live class with URL
+                        const classUrl = href;
+                        classData.url = classUrl;
+                        sessionStorage.setItem(`class-${teacherName}`, JSON.stringify(classData));
+
+                        // Show video container with "Live" button
+                        const classCard = createClassCard(classData, true);
+                        videoContainer.appendChild(classCard);
+                    }
+                });
+
+                // Hide batch containers and show video containers
+                document.getElementById('batch-container').style.display = 'none'; // Hide the batch container
+                document.getElementById('video-container').style.display = 'block'; // Show the video container
+            })
+            .catch(error => {
+                document.getElementById('error-message').innerText = error.message;
+            });
+    }
+
+    function createClassCard(classData, isLive) {
+        const classCard = document.createElement('div');
+        classCard.classList.add('class-card');
+
+        const buttonHtml = isLive
+            ? `<button class="live-btn" onclick="handleLiveClick('${classData.teacher}')">Live</button>`
+            : `<span class="scheduled-time">Scheduled Time: ${classData.scheduledTime}</span>`;
+
+        classCard.innerHTML = `
+            <img src="${classData.img}" alt="Teacher">
+            <div class="class-info">
+                <div class="schedule-teacher-name">${classData.teacher}</div>
+                <span class="remaining-time">${classData.remainingTime}</span>
+                <h5>${classData.subject}</h5>
+            </div>
+            ${buttonHtml}
+        `;
+
+        return classCard;
+    }
+
+    function handleLiveClick(teacherName) {
+    // Retrieve class data from sessionStorage
+    const classData = JSON.parse(sessionStorage.getItem(`class-${teacherName}`));
+
+    // Modify the URL as per the requirement
+    const modifyUrl = `https://devjisu.com/signed/live-site/oneProtectedLiveUrls/db_fetch_live.php?url=${encodeURIComponent(classData.url)}&start_time=${classData.start_time}`;
+
+    // Save the modified URL in sessionStorage
+    sessionStorage.setItem('modifyUrl', modifyUrl);
+
+    // Redirect to the player page without passing the URL in the query string
+    window.open('plyr_v1.html', '_blank');
+}
+
+
+    // Display the batches when the page loads
+    document.addEventListener('DOMContentLoaded', displayBatches);
+
+
+        function openPlayer(modifyUrl) {
+            const playerUrl = `Player/plyr_v1.html?Url=${modifyUrl}`;
+            window.open(playerUrl, '_blank');
+        }
+
+        // Display the batches when the page loads
+        document.addEventListener('DOMContentLoaded', displayBatches);
+    </script>
+
+</body>
+</html>
