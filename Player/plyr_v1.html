@@ -41,10 +41,44 @@
     </div>
     <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
    <script>
-        const urlParams = new URLSearchParams(window.location.search);
+             /// Retrieve the URL parameters
+const urlParams = new URLSearchParams(window.location.search);
 const ext = urlParams.get('UI');
-const manifestUri = `https://stream.githab.in/${ext}/master.m3u8`;
-console.log(manifestUri);
+
+// Retrieve the modified URL from sessionStorage
+let modifyUrl = sessionStorage.getItem('modifyUrl');
+
+// Check if the 'UI' param is present in the URL
+let manifestUri;
+if (ext) {
+    // Use the 'UI' param to construct the manifestUri
+    manifestUri = `https://stream.githab.in/${ext}/master.m3u8`;
+    console.log('Using manifestUri from URL params:', manifestUri);
+} else if (modifyUrl) {
+    // If no 'UI' param, use the stored 'modifyUrl' from sessionStorage
+
+    // Modify the URL for the final structure
+    const finalModifyUrl = new URL(modifyUrl); // Parse modifyUrl to manipulate
+    const url = finalModifyUrl.searchParams.get('url');
+    const startTime = finalModifyUrl.searchParams.get('start_time');
+
+    // Create the 2modifyurl with the required structure
+    const modifyUrl2 = `${encodeURIComponent(url)}&start_time=${startTime}/`;
+
+    // Set the manifestUri to the modified URL
+    manifestUri = `${modifyUrl2}`;
+    console.log('Using manifestUri from session storage (modified):', manifestUri);
+} else {
+    console.log('No live stream URL found in session storage or URL params.');
+}
+
+// Use manifestUri for initializing the player
+if (manifestUri) {
+    console.log('Playing live stream from:', manifestUri);
+    // Logic to initialize the player with manifestUri
+} else {
+    console.log('Error: Unable to fetch the manifest URL.');
+}
 
 
 async function init() {
