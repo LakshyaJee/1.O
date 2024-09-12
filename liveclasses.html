@@ -303,7 +303,7 @@
     sessionStorage.setItem('modifyUrl', modifyUrl);
 
     // Redirect to the player page without passing the URL in the query string
-    window.open('Playe/plyr_v1.html', '_blank');
+    window.open('Player/plyr_v2.html', '_blank');
 }
 
 
@@ -311,13 +311,7 @@
     document.addEventListener('DOMContentLoaded', displayBatches);
 
 
-        function openPlayer(modifyUrl) {
-            const playerUrl = `Player/plyr_v1.html?Url=${modifyUrl}`;
-            window.open(playerUrl, '_blank');
-        }
-
-        // Display the batches when the page loads
-        document.addEventListener('DOMContentLoaded', displayBatches);
+       
     </script>
 
 </body>
