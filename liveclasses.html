@@ -311,15 +311,48 @@
     // Retrieve class data from sessionStorage
     const classData = JSON.parse(sessionStorage.getItem(`class-${teacherName}`));
 
-    // Modify the URL as per the requirement
-    const modifyUrl = `https://devjisu.com/signed/live-site/oneProtectedLiveUrls/db_fetch_live.php?url=${encodeURIComponent(classData.url)}&start_time=${classData.start_time}`;
+    // Log classData to ensure it has the expected properties
+    console.log('Retrieved class data:', classData);
 
-    // Save the modified URL in sessionStorage
-    sessionStorage.setItem('modifyUrl', modifyUrl);
+    // Check if classData contains the necessary properties
+    if (classData && classData.url) {
+        // Create a URL object from the classData.url to parse the query parameters
+        const fullUrl = new URL(classData.url);
+        const innerUrl = fullUrl.searchParams.get('url');
+
+        // Extract the live class link from the inner URL
+        const liveclasslink = innerUrl ? decodeURIComponent(innerUrl) : '';
+
+        // Log the liveclasslink
+        console.log('liveclasslink:', liveclasslink);
+
+        // Create a URL object to extract start_time from the full URL
+        const start_time = fullUrl.searchParams.get('start_time');
+
+        // Check if start_time was successfully extracted
+        if (liveclasslink && start_time) {
+            // Create the final link with the required structure
+            const finallink = `https://devjisu.com/signed/live-site/oneProtectedLiveUrls/db_fetch_live.php?url=${encodeURIComponent(liveclasslink)}&start_time=${start_time}`;
+
+            // Show the finallink in the console
+            console.log('Final link:', finallink);
+
+            // Save the final link in sessionStorage
+            sessionStorage.setItem('finallink', finallink);
+        } else {
+            console.log('Error: Missing liveclasslink or start_time.');
+        }
+    } else {
+        console.log('Error: classData is missing the url property.');
+    }
+
+
+
 
     // Redirect to the player page without passing the URL in the query string
     window.open('Player/plyr_v2.html', '_blank');
 }
+
 
 
     // Display the batches when the page loads
