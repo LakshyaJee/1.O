@@ -1,146 +1,159 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JWPlayer with Dynamic Quality Selection</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+    }
+    #reproductor_aspect {
+      display: none;
+    }
+    #reproductor_jwpsrv {
+      position: absolute;
+      top: 0px;
+      z-index: 10;
+    }
+    #reproductor_wrapper {
+      position: relative;
+      display: block;
+      width: 100% !important;
+      height: 400px;
+    }
+    .jwplayer {
+      width: 100% !important;
+    }
+  </style>
+<script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
 
-<html>
+  <script src="http://jwpsrv.com/library/ejuoyqCsEeK4ayIACpYGxA.js"></script>
+  <script>
+    async function fetchFinallinkAndQualities() {
+      // Retrieve finallink from session storage
+      const finallink = sessionStorage.getItem('finallink');
 
-  <head>
+      // Make sure finallink is available
+      if (!finallink) {
+        console.error('Finallink not found in session storage');
+        return;
+      }
 
-    <!-- Shaka Player ui compiled library: -->
+      try {
+        // Fetch the response from finallink
+        const response = await fetch(finallink);
+        const m3u8Content = await response.text();
 
-    <script src="https://cdn.jsdelivr.net/npm/shaka-player@4.9.2/dist/shaka-player.ui.js"></script>
+        // Log the raw response
+        console.log('M3U8 Response:', m3u8Content);
 
-    <!-- Shaka Player ui compiled library default CSS: -->
+        // Extract qualities and their respective indices
+       const qualityRegex = /#EXT-X-STREAM-INF:.*RESOLUTION=(\d+x\d+).*?\n(.*\.m3u8)/g;
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/shaka-player@4.9.2/dist/controls.css">
+        const qualities = [];
+        let match;
 
-    <!-- Chromecast SDK (if you want Chromecast support for your app): -->
+        while ((match = qualityRegex.exec(m3u8Content)) !== null) {
+          const resolution = match[1];
+          const index = match[2];
+          qualities.push({ resolution, index });
+        }
 
-    <script defer src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script>
+        // Log the extracted qualities and indices
+        console.log('Available Qualities:', qualities);
 
-    
+        // Return the extracted qualities
+        return qualities;
+      } catch (error) {
+        console.error('Error fetching or parsing finallink:', error);
+      }
+    }
 
-  </head>
+    function setupJWPlayer(qualityLink) {
+      jwplayer('reproductor').setup({
+        file: qualityLink,
+        width: "700",
+        skin: "five",
+        height: "400",
+        title: 'xsoundtv.com',
+        image: "",
+        logo: {
+          file: "",
+          position: 'top-right',
+          margin: '0',
+          link: ""
+        },
+        stretching: "fill",
+        autostart: "true",
+        abouttext: '',
+        aboutlink: '',
+      });
+    }
 
-  <body>
+    async function initializePlayerWithQualities() {
+      // Fetch qualities and indices
+      const qualities = await fetchFinallinkAndQualities();
 
-    <!-- The data-shaka-player-container tag will make the UI library place the controls in this div.
+      if (!qualities || qualities.length === 0) {
+        console.error('No qualities found to initialize player');
+        return;
+      }
 
-         The data-shaka-player-cast-receiver-id tag allows you to provide a Cast Application ID that
+      // For demonstration, log all available qualities
+      console.log('Available qualities:', qualities);
 
-           the cast button will cast to; the value provided here is the sample cast receiver. -->
+      // Example: Select the highest quality
+      const selectedQuality = qualities[0];  // Modify this to select based on UI or user preference
 
-    <div data-shaka-player-container style="max-width:"
-
-         data-shaka-player-cast-receiver-id="1BA79154">
-
-       <!-- The data-shaka-player tag will make the UI library use this video element.
-
-            If no video is provided, the UI will automatically make one inside the container div. -->
-
-      <video autoplay data-shaka-player poster="https://peach.blender.org/wp-content/uploads/bbb-splash.png" id="video" style="width:100%;height:100%"></video>
-
-    </div>
-    <script>
-       // Retrieve finallink from session storage
+     // Retrieve finallink from session storage
 const finallink = sessionStorage.getItem('finallink');
 
-// Set finallink as manifestUri if found, otherwise use the default
-const manifestUri = finallink ? finallink : 'https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd';
-
-console.log('Using manifestUri:', manifestUri);
-
-
-async function init() {
-
-// When using the UI, the player is made automatically by the UI object.
-
-const video = document.getElementById('video');
-
-const ui = video['ui'];
-
-const controls = ui.getControls();
-
-const player = controls.getPlayer();
-
-// Attach player and ui to the window to make it easy to access in the JS console.
-
-window.player = player;
-
-window.ui = ui;
-
-// Listen for error events.
-
-player.addEventListener('error', onPlayerErrorEvent);
-
-controls.addEventListener('error', onUIErrorEvent);
-
-// Try to load a manifest.
-
-// This is an asynchronous process.
-
-try {
-
-await player.load(manifestUri);
-
-// This runs if the asynchronous load is successful.
-
-console.log('The video has now been loaded!');
-
-} catch (error) {
-
-onPlayerError(error);
-
+// Make sure finallink is available
+if (!finallink) {
+    console.error('Finallink not found in session storage');
+    return;
 }
 
+// Extract base URL (remove the current index part)
+const baseUrl = finallink.replace(/index\.m3u8.*/, '');
+
+// Extract the start_time from finallink using regex
+const startTimeMatch = finallink.match(/start_time=(\d+)/);
+const start_time = startTimeMatch ? startTimeMatch[1] : null;
+
+// Make sure start_time is found
+if (!start_time) {
+    console.error('start_time not found in finallink');
+    return;
 }
 
-function onPlayerErrorEvent(errorEvent) {
+// Assuming 'selectedQuality.index' holds the appropriate quality index (e.g., 'index_2.m3u8')
+// Modify the qualityLink with selected quality index and start_time
+const qualityLink = `${baseUrl}${selectedQuality.index}&start_time=${start_time}`;
 
-// Extract the shaka.util.Error object from the event.
+// Log the final quality link
+console.log('Final Quality Link:', qualityLink);
 
-onPlayerError(event.detail);
+      // Setup JWPlayer with the modified quality link
+      setupJWPlayer(qualityLink);
+    }
 
-}
+    // Initialize the player with qualities when the page loads
+    document.addEventListener('DOMContentLoaded', initializePlayerWithQualities);
+  </script>
+</head>
 
-function onPlayerError(error) {
-
-// Handle player error
-
-console.error('Error code', error.code, 'object', error);
-
-}
-
-function onUIErrorEvent(errorEvent) {
-
-// Extract the shaka.util.Error object from the event.
-
-onPlayerError(event.detail);
-
-}
-
-function initFailed(errorEvent) {
-
-// Handle the failure to load; errorEvent.detail.reasonCode has a
-
-// shaka.ui.FailReasonCode describing why.
-
-console.error('Unable to load the UI library!');
-
-}
-
-// Listen to the custom shaka-ui-loaded event, to wait until the UI is loaded.
-
-document.addEventListener('shaka-ui-loaded', init);
-
-// Listen to the custom shaka-ui-load-failed event, in case Shaka Player fails
-
-// to load (e.g. due to lack of browser support).
-
-document.addEventListener('shaka-ui-load-failed', initFailed);
-
-
-    </script>
-
-  </body>
-
+<body>
+  <div id="reproductor_wrapper">
+    <object type="application/x-shockwave-flash" data="http://p.jwpcdn.com/6/8/jwplayer.flash.swf" width="100%" height="100%" bgcolor="#000000" id="reproductor" name="reproductor" tabindex="0">
+      <param name="allowfullscreen" value="true">
+      <param name="allowscriptaccess" value="always">
+      <param name="seamlesstabbing" value="true">
+      <param name="wmode" value="opaque">
+    </object>
+    <div id="reproductor_aspect"></div>
+    <div id="reproductor_jwpsrv"></div>
+  </div>
+</body>
 </html>
-
