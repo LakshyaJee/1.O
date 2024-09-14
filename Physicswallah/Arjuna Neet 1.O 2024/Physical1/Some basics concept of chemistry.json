@@ -1,0 +1,329 @@
+[
+    {
+      "lectures": [
+        {
+          "batch_id": "63fc53f28aac0a001871320d",
+          "subject_id": "5fa000977d57900119ba29db",
+          "subject_slug": "physical-chemistry-875552",
+          "topic_slug": "ch-01---some-basic-concept-of-chemistry-061558",
+          "topic_name": "Ch-01 : Some Basic Concept of Chemistry",
+          "video_id": "649c3e39da2c7b00184a4114",
+          "video_external_id": "649c574cda2c7b00184ab125",
+          "title": "Some Basic Concept of Chemistry : Summary",
+          "date": "28 Jun 2023",
+          "duration": "01:04:14",
+          "img_src": "https://static.pw.live/5eb393ee95fab7468a79d189/739bb30f-2848-433a-a839-dda0e56388a8.jpg"
+        },
+        {
+          "batch_id": "63fc53f28aac0a001871320d",
+          "subject_id": "5fa000977d57900119ba29db",
+          "subject_slug": "physical-chemistry-875552",
+          "topic_slug": "ch-01---some-basic-concept-of-chemistry-061558",
+          "topic_name": "Ch-01 : Some Basic Concept of Chemistry",
+          "video_id": "6464f1783bc6df0018f38827",
+          "video_external_id": "6463b275781b7300182d098e",
+          "title": "Some Basic Concept of Chemistry 15 : Concentration Terms (Part-3) || Question Practice",
+          "date": "17 May 2023",
+          "duration": "01:45:52",
+          "img_src": "https://static.pw.live/5eb393ee95fab7468a79d189/82a25469-95a1-4e5d-a9f8-07000f4ca9ba.png"
+        },
+        {
+          "batch_id": "63fc53f28aac0a001871320d",
+          "subject_id": "5fa000977d57900119ba29db",
+          "subject_slug": "physical-chemistry-875552",
+          "topic_slug": "ch-01---some-basic-concept-of-chemistry-061558",
+          "topic_name": "Ch-01 : Some Basic Concept of Chemistry",
+          "video_id": "64639ef2663fd300183b174e",
+          "video_external_id": "64631327d31fa90018dc7352",
+          "title": "Some Basic Concept of Chemistry 14 : Concentration Terms (Part-2)",
+          "date": "16 May 2023",
+          "duration": "01:47:56",
+          "img_src": "https://static.pw.live/5eb393ee95fab7468a79d189/a668141b-5571-4b41-bbfc-3a1b31739834.png"
+        },
+        {
+          "batch_id": "63fc53f28aac0a001871320d",
+          "subject_id": "5fa000977d57900119ba29db",
+          "subject_slug": "physical-chemistry-875552",
+          "topic_slug": "ch-01---some-basic-concept-of-chemistry-061558",
+          "topic_name": "Ch-01 : Some Basic Concept of Chemistry",
+          "video_id": "645e596995161e00184a1a30",
+          "video_external_id": "645d2190b677dd0018b176a8",
+          "title": "Some Basic Concept of Chemistry 13 : Stoichiometry (Part-3) || Concentration Terms (Part- 1)",
+          "date": "12 May 2023",
+          "duration": "01:41:24",
+          "img_src": "https://static.pw.live/5eb393ee95fab7468a79d189/82b713ec-845b-4b4f-8ea8-3d90fc6c2211.png"
+        },
+        {
+          "batch_id": "63fc53f28aac0a001871320d",
+          "subject_id": "5fa000977d57900119ba29db",
+          "subject_slug": "physical-chemistry-875552",
+          "topic_slug": "ch-01---some-basic-concept-of-chemistry-061558",
+          "topic_name": "Ch-01 : Some Basic Concept of Chemistry",
+          "video_id": "6458f9454c3e4f001827ff11",
+          "video_external_id": "6458a1a97e9cd0001827ddaa",
+          "title": "Some Basic Concept of Chemistry 12 : Stoichiometry (Part-2) || (Extra)",
+          "date": "08 May 2023",
+          "duration": "01:59:04",
+          "img_src": "https://static.pw.live/5eb393ee95fab7468a79d189/65c7299c-9a69-401a-ac74-174ec3d399ad.png"
+        },
+        {
+          "batch_id": "63fc53f28aac0a001871320d",
+          "subject_id": "5fa000977d57900119ba29db",
+          "subject_slug": "physical-chemistry-875552",
+          "topic_slug": "ch-01---some-basic-concept-of-chemistry-061558",
+          "topic_name": "Ch-01 : Some Basic Concept of Chemistry",
+          "video_id": "645526a87ee6e10018dcd9f8",
+          "video_external_id": "6453f9d1247dd40019736fc0",
+          "title": "Some Basic Concept of Chemistry 11 :  Stoichiometry(Part-01) || (NO DPP)",
+          "date": "05 May 2023",
+          "duration": "01:52:28",
+          "img_src": "https://static.pw.live/5eb393ee95fab7468a79d189/0518d4ba-4439-4715-8106-cb5750fddc38.png"
+        },
+        {
+          "batch_id": "63fc53f28aac0a001871320d",
+          "subject_id": "5fa000977d57900119ba29db",
+          "subject_slug": "physical-chemistry-875552",
+          "topic_slug": "ch-01---some-basic-concept-of-chemistry-061558",
+          "topic_name": "Ch-01 : Some Basic Concept of Chemistry",
+          "video_id": "6453daea1885010018b53a6c",
+          "video_external_id": "645292085ee47800183dab93",
+          "title": "Some Basic Concept of Chemistry 10 : Empirical Formula and Molecular Formula || Minimum Molecular Mass",
+          "date": "04 May 2023",
+          "duration": "02:13:40",
+          "img_src": "https://static.pw.live/5eb393ee95fab7468a79d189/64c7a9c5-2d43-4e4b-b602-e192ff2fadf9.png"
+        },
+        {
+          "batch_id": "63fc53f28aac0a001871320d",
+          "subject_id": "5fa000977d57900119ba29db",
+          "subject_slug": "physical-chemistry-875552",
+          "topic_slug": "ch-01---some-basic-concept-of-chemistry-061558",
+          "topic_name": "Ch-01 : Some Basic Concept of Chemistry",
+          "video_id": "645288e78d143e001897ba2a",
+          "video_external_id": "64518303763a9c0018ce209a",
+          "title": "Some Basic Concept of Chemistry 09 : Laws of Chemical Combinations || Percentage Composition",
+          "date": "03 May 2023",
+          "duration": "02:08:24",
+          "img_src": "https://static.pw.live/5eb393ee95fab7468a79d189/4d349c3f-c657-4c8f-a8ef-217ef1cbe2a2.png"
+        },
+        {
+          "batch_id": "63fc53f28aac0a001871320d",
+          "subject_id": "5fa000977d57900119ba29db",
+          "subject_slug": "physical-chemistry-875552",
+          "topic_slug": "ch-01---some-basic-concept-of-chemistry-061558",
+          "topic_name": "Ch-01 : Some Basic Concept of Chemistry",
+          "video_id": "644be9319b04bc00182cdbe9",
+          "video_external_id": "644aaf1584376d00182c36a2",
+          "title": "Some Basic Concept of Chemistry 08 : Mole Calculation (Part -2) || (NO DPP)",
+          "date": "28 Apr 2023",
+          "duration": "01:51:32",
+          "img_src": "https://static.pw.live/5eb393ee95fab7468a79d189/2b98b8f9-acca-417b-aa36-164e3fd5e45e.png"
+        },
+        {
+          "batch_id": "63fc53f28aac0a001871320d",
+          "subject_id": "5fa000977d57900119ba29db",
+          "subject_slug": "physical-chemistry-875552",
+          "topic_slug": "ch-01---some-basic-concept-of-chemistry-061558",
+          "topic_name": "Ch-01 : Some Basic Concept of Chemistry",
+          "video_id": "644a99f9f295a40018b8a45e",
+          "video_external_id": "644986ea0eb3000018acd6f3",
+          "title": "Some Basic Concept of Chemistry 07 : Mole Calculations (Part-01)",
+          "date": "27 Apr 2023",
+          "duration": "01:53:44",
+          "img_src": "https://static.pw.live/5eb393ee95fab7468a79d189/612d562b-8d0e-45cc-b8bc-60341eded2e9.png"
+        },
+        {
+          "batch_id": "63fc53f28aac0a001871320d",
+          "subject_id": "5fa000977d57900119ba29db",
+          "subject_slug": "physical-chemistry-875552",
+          "topic_slug": "ch-01---some-basic-concept-of-chemistry-061558",
+          "topic_name": "Ch-01 : Some Basic Concept of Chemistry",
+          "video_id": "644946798304580018223080",
+          "video_external_id": "64481ce252e1210018db3b9e",
+          "title": "Some Basic Concept of Chemistry 06 : Molecular Mass || Molar Mass Mole || Calculations || (NO DPP)",
+          "date": "26 Apr 2023",
+          "duration": "01:50:00",
+          "img_src": "https://static.pw.live/5eb393ee95fab7468a79d189/37b7eb3e-a527-4671-9aa0-731ea0ea9f72.png"
+        },
+        {
+          "batch_id": "63fc53f28aac0a001871320d",
+          "subject_id": "5fa000977d57900119ba29db",
+          "subject_slug": "physical-chemistry-875552",
+          "topic_slug": "ch-01---some-basic-concept-of-chemistry-061558",
+          "topic_name": "Ch-01 : Some Basic Concept of Chemistry",
+          "video_id": "6442a65484a52c0018d612c9",
+          "video_external_id": "6441855ac329610018d4fca1",
+          "title": "Some Basic Concept of Chemistry 05 : Applications of Significant Figures || Dimensional Analysis || (NO DPP)",
+          "date": "21 Apr 2023",
+          "duration": "01:43:56",
+          "img_src": "https://static.pw.live/5eb393ee95fab7468a79d189/468fc068-27d7-451e-b59b-d2ca51203fa5.png"
+        },
+        {
+          "batch_id": "63fc53f28aac0a001871320d",
+          "subject_id": "5fa000977d57900119ba29db",
+          "subject_slug": "physical-chemistry-875552",
+          "topic_slug": "ch-01---some-basic-concept-of-chemistry-061558",
+          "topic_name": "Ch-01 : Some Basic Concept of Chemistry",
+          "video_id": "644161ff64c8f6001848dddb",
+          "video_external_id": "64401dd16b7b840018e42ca2",
+          "title": "Some Basic Concept of Chemistry 04 : Rounding Off || Significant Figures || DPP Discussion",
+          "date": "20 Apr 2023",
+          "duration": "02:06:32",
+          "img_src": "https://static.pw.live/5eb393ee95fab7468a79d189/6271a721-df6f-4ac7-a5a4-3691333743fb.png"
+        },
+        {
+          "batch_id": "63fc53f28aac0a001871320d",
+          "subject_id": "5fa000977d57900119ba29db",
+          "subject_slug": "physical-chemistry-875552",
+          "topic_slug": "ch-01---some-basic-concept-of-chemistry-061558",
+          "topic_name": "Ch-01 : Some Basic Concept of Chemistry",
+          "video_id": "64400b8b30d7ed0018cbc978",
+          "video_external_id": "643f6af0e6f0c4001843156c",
+          "title": "Some Basic Concept of Chemistry 03 : S.I Unit || Rounding Off || Scientific Notation || Significant Figures || (NO DPP)",
+          "date": "19 Apr 2023",
+          "duration": "01:51:16",
+          "img_src": "https://static.pw.live/5eb393ee95fab7468a79d189/59c78fe5-23f8-45ac-8dbf-0844604ae03e.png"
+        },
+        {
+          "batch_id": "63fc53f28aac0a001871320d",
+          "subject_id": "5fa000977d57900119ba29db",
+          "subject_slug": "physical-chemistry-875552",
+          "topic_slug": "ch-01---some-basic-concept-of-chemistry-061558",
+          "topic_name": "Ch-01 : Some Basic Concept of Chemistry",
+          "video_id": "64381d4aae54700018401f03",
+          "video_external_id": "6436dbf13c6ce500188b1590",
+          "title": "Some Basic Concept of Chemistry 02 : Atomic Number & Mass Number || Dalton's Atomic Theory || Average Atomic Mass",
+          "date": "13 Apr 2023",
+          "duration": "01:45:20",
+          "img_src": "https://static.pw.live/5eb393ee95fab7468a79d189/f4f4d510-0387-410f-abcd-260516601a8e.png"
+        },
+        {
+          "batch_id": "63fc53f28aac0a001871320d",
+          "subject_id": "5fa000977d57900119ba29db",
+          "subject_slug": "physical-chemistry-875552",
+          "topic_slug": "ch-01---some-basic-concept-of-chemistry-061558",
+          "topic_name": "Ch-01 : Some Basic Concept of Chemistry",
+          "video_id": "6436c6c2d664f400180d0f82",
+          "video_external_id": "6435aa87d01ae30018737604",
+          "title": "Some Basic Concept of Chemistry 01 : Basics and Introduction || (NO DPP)",
+          "date": "12 Apr 2023",
+          "duration": "01:41:24",
+          "img_src": "https://static.pw.live/5eb393ee95fab7468a79d189/dce3c329-2011-4e12-9a8b-e9173d9762a7.png"
+        }
+      ]
+    },
+    {
+      "notes": [
+        {
+          "card_text": "Some Basic Concept of Chemistry : Summary || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/85896303-7be7-4f44-94c6-29395fbca603.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry : Formula Notes || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/1c98387a-1515-4356-881b-a76488bdbe76.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry 15 : Class Notes || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/fa381dd8-ba79-4501-86ee-f34f83cc01d1.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry 14 : Class Notes || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/74a89b50-a1c3-4cd6-acee-dee2c9189ee6.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry 13 : Class Notes || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/44ea06e9-7150-4d32-a545-7f35607f2e8a.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry 12 : Class Notes || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/88f1c7d9-0129-4be3-896d-aa6da9cb9b2f.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry 11 : Class Notes || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/68b686bf-175f-42ff-bf3e-49352b579a40.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry 10 : Class Notes || Arjuna NEET 2024",
+          "download_link": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/b9987266-8b24-4990-84a8-f6b72295192e.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry 09 : Class Notes || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/b8d5f810-faaa-46ae-902f-4a851e4540fb.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry 08 : Class Notes || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/c49b01a1-967c-487d-9b46-77b9d51476b4.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry 07 : Class Notes || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/5207baf8-203b-42bb-a25c-54ba4beed682.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry 06 : Class Notes || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/215f7884-d9a0-4cc0-8fb9-763ff2ae169e.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry 05 : Class Notes || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/9f355777-1b9d-4340-ae0e-38ca3849033d.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry 04 : Class Notes || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/e4304292-d0bc-4209-ba3d-a3a2a41a443f.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry 03 : Class Notes || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/a1b64be1-0160-4ff9-8165-2f237a385acd.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry 02 : Class Notes || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/b0af1476-97b8-434c-a6e2-d102c56cc845.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry 01 : Class Notes || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/e0739e56-0c12-4275-8eb1-30aec18336bc.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry : DPP 10(of Lec-15) || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/d589c724-1890-40a8-bd47-e2f26bdaf3b3.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry : DPP 09(of Lec-14) || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/015de08b-ecab-4c97-9581-bd4c18b57a85.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry : DPP 08(of Lec-13) || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/9f973fb9-a220-4edc-9b31-736584ab4cb3.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry : DPP 07 (of Lec-12) || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/1e92029c-4d57-4906-a0b7-f184e6ac47f6.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry : DPP 06 (of Lec-10) || Arjuna NEET 2024",
+          "download_link": "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/11d24140-aea3-47e3-b074-7370ee3a02c6.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry : DPP 05 (of Lec-09) || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/ce8def33-5011-4f88-bacc-c05b78f6cbdb.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry : DPP 04 (Extra) || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/a98d9148-8af7-4919-8a77-67be9fbd1318.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry : DPP 03(of Lec-07) || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/69749332-4f38-4d47-b83b-84f4697badb6.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry : DPP 02(of Lec-04) || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/a79963b0-0e2f-477e-bc9e-be80ade21ead.pdf"
+        },
+        {
+          "card_text": "Some Basic Concept of Chemistry : DPP 01(of Lec-02) || Arjuna NEET 2024",
+          "download_link": "https://static.pw.live/5eb393ee95fab7468a79d189/87a6d330-4898-4e05-95fe-92376dca7939.pdf"
+        }
+      ]
+    },
+    {
+      "dpp_videos": []
+    }
+  ]
