@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Surface chemistry 03 : Coagulation ||...",
+    "lectureCode": "f6ceae05-d03f-4896-9579-6e67c29a542e",
+    "extId": "6502e17cd30fcd0018e8f9b6",
+    "key": "65040e122f9ad90018bcb804",
+    "classNotesCode": "0319ae1a-ff24-4b50-ae48-ce543838aa3d.pdf",
+    "dppsPdfCode": "12b3b57b-f585-49f6-b6c4-fb8d5cd13f19.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Surface chemistry 02 : Application of...",
+    "lectureCode": "6b315780-0b35-4a83-af47-0362c198a1ea",
+    "extId": "6501d9fc85c58f001850d1ad",
+    "key": "6502c01558932b0012be74af",
+    "classNotesCode": "35911409-a04b-4b61-9966-a2240e4d6432.pdf",
+    "dppsPdfCode": "88fc4a50-d275-49a4-9641-752804005596.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Surface chemistry 01 : Adsorption || ...",
+    "lectureCode": "ee9e7136-4f7f-4ec8-9b3a-931a40893671",
+    "extId": "65007905ca63b00018bef7e6",
+    "key": "65016c71b0af370012858c00",
+    "classNotesCode": "ed08faac-2ca0-469d-bb82-63e50944dd62.pdf",
+    "dppsPdfCode": "790d1290-92f3-431b-8e7b-ecd4c547183d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Surface Chemistry 02 : Colloids || Re...",
+    "lectureCode": "3b49bcbe-8c11-4b7d-a749-4f66b75cba19",
+    "extId": "650dc35db236ea001857e446",
+    "key": "650d5c572640320019de26de",
+    "classNotesCode": "0319ae1a-ff24-4b50-ae48-ce543838aa3d.pdf",
+    "dppsPdfCode": "825ddc56-f590-4665-b628-6b256704e920.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Surface Chemistry 01 : Adsorption || ...",
+    "lectureCode": "10b3fe7f-797b-471d-b0a4-6f5044975ce1",
+    "extId": "650a91f3d35f7e0018a112fc",
+    "key": "650a7d223095c4001867299b",
+    "classNotesCode": "35911409-a04b-4b61-9966-a2240e4d6432.pdf",
+    "dppsPdfCode": "a68fb876-42d2-4a7d-a082-f4d792403ceb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "DPP NO SURFACE CHEMISTRY YAKEEN AMIT MAHAJAN SIR...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "ed08faac-2ca0-469d-bb82-63e50944dd62.pdf",
+    "dppsPdfCode": "84599f69-57d1-4a63-b6c9-ea4b90f3d466.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "SURFACE CHEMISTRY DPP NO YAKEEN AMIT MAHAJAN SIR...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "2cd5c03d-990e-4be4-a038-7468f2f3959b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "SURFACE CHEMISTRY DPP DISCUSSION SUDHANSHU KUMAR SIR YAKEEN...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "69a97a03-60bc-4377-8716-8ffca1e59e22.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

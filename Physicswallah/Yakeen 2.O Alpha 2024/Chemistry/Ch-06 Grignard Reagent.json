@@ -1,0 +1,22 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Grignard Reagent 02 : Chemical Proper...",
+    "lectureCode": "6de9eca4-03ed-4078-b198-ff5496febc71",
+    "extId": "65aa9301c52ed700181078c1",
+    "key": "65ab816ef040730018a93cbf",
+    "classNotesCode": "16a6de67-2f13-4148-b305-19b8013eb6d1.pdf",
+    "dppsPdfCode": "22c7e8cc-4471-44dd-80c0-2a1858c65598.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Grignard Reagent  01 : MOP of Grignar...",
+    "lectureCode": "22410d46-d00f-4ae1-834d-c2b267815f41",
+    "extId": "65a8fc68b078840018af6c77",
+    "key": "65aa3091f0d77f00182fba8e",
+    "classNotesCode": "592c5efd-67e0-4685-9075-3a72ac68c8a6.pdf",
+    "dppsPdfCode": "77866920-8f02-4ee2-a3e1-2033e0a69a64.pdf",
+    "dppsSolutionCode": ""
+  }
+]

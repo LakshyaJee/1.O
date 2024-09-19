@@ -1,0 +1,342 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "states of matter summary lecture yake...",
+    "lectureCode": "1b0de1cf-6c54-41ad-b746-360fbc03de82",
+    "extId": "64e0dcc1cc4eb50019dc7dce",
+    "key": "64e07c2d914182001882d3c3",
+    "classNotesCode": "7d343f79-072d-4304-a998-518820ae59bd.pdf",
+    "dppsPdfCode": "aaeae950-8ef3-4672-bc9f-730848efab46.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "States of Matter-09 : Eudiometry & Li...",
+    "lectureCode": "3a9cdab7-d150-4215-8a6f-9a730131ac63",
+    "extId": "649f2f3b197b1f0018ee7e22",
+    "key": "64a0039005d1aa0018d92286",
+    "classNotesCode": "4b2b9517-01aa-4bfb-a0e0-124b8278db2f.pdf",
+    "dppsPdfCode": "1ae4223c-00b4-4c48-93a7-b6ec1a2309bb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "States of Matter-08 : Critical Constants",
+    "lectureCode": "cf248737-c3f8-468d-807d-6a552ba164d8",
+    "extId": "649dec25833dde0018df7d51",
+    "key": "649e8aec71c1e6001825fae2",
+    "classNotesCode": "f38c107c-cad1-499a-9ca7-0d37ef180f40.pdf",
+    "dppsPdfCode": "c6acbfda-1480-4ccd-8359-beb4dcf9f93a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "States of Matter-07 : Real Gases || D...",
+    "lectureCode": "d09e36e6-34b3-46cf-8c93-61197431ca9c",
+    "extId": "649b52061a9e750019112025",
+    "key": "649beb35b48c920018e50ff3",
+    "classNotesCode": "a3fb99fa-bf76-4610-a31c-adb9d128cdbe.pdf",
+    "dppsPdfCode": "bb985fb7-574d-408e-9fb1-06d988090651.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "States of Matter-06 : KTG & Maxwell B...",
+    "lectureCode": "3efc61d1-02f4-4f6a-ab8b-2be114d51cda",
+    "extId": "6499cfcc7733df001874777a",
+    "key": "649a95c717f38500189d79e2",
+    "classNotesCode": "7bb8ab2a-d4ce-4011-b09a-6e6540dbe3ff.pdf",
+    "dppsPdfCode": "091ca1fe-9152-4b1f-94f4-98736830f769.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "States of Matter-05 : Diffusion",
+    "lectureCode": "15a996af-8996-40c2-9068-88dffe0f0848",
+    "extId": "64986e833efb9c0018c6158f",
+    "key": "649946d15559b3001830c150",
+    "classNotesCode": "7d343f79-072d-4304-a998-518820ae59bd.pdf",
+    "dppsPdfCode": "19506122-ebd1-4519-92c5-cdd1324d259b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "States of Matter-04 : Dalton law of P...",
+    "lectureCode": "dcc78860-9705-4638-82b7-a55f6de9115b",
+    "extId": "649339201701d30018fbeb63",
+    "key": "64940a23dc451e0018348169",
+    "classNotesCode": "4b2b9517-01aa-4bfb-a0e0-124b8278db2f.pdf",
+    "dppsPdfCode": "eacd30a0-7a9c-4b4d-b0a4-f6c0474fc69b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "States of Matter-03 : Gas laws (Part-02)",
+    "lectureCode": "586293f0-4cd8-4265-bac2-b8a5f1c28ea0",
+    "extId": "6491e4ba2c988d0018a3a61b",
+    "key": "6492c0dd1bae020018b51fca",
+    "classNotesCode": "f38c107c-cad1-499a-9ca7-0d37ef180f40.pdf",
+    "dppsPdfCode": "186bb1b0-9643-4dbf-a34f-6a08373d6a00.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "States of Matter-02 : Gas Laws || (NO...",
+    "lectureCode": "6b987581-123e-4124-b960-005d72c435ea",
+    "extId": "64909945ae82570018754b45",
+    "key": "64916b680086360018c5b66a",
+    "classNotesCode": "a3fb99fa-bf76-4610-a31c-adb9d128cdbe.pdf",
+    "dppsPdfCode": "88a1e8d8-0734-489f-80fe-fbdef47b19ab.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "States of Matter-01 : Pressure Volume...",
+    "lectureCode": "e0ff2312-5a72-41ad-9484-b1d601fdd96b",
+    "extId": "648f65d85935c30018e290f0",
+    "key": "6490121dfa2f180019b2ea89",
+    "classNotesCode": "7bb8ab2a-d4ce-4011-b09a-6e6540dbe3ff.pdf",
+    "dppsPdfCode": "94ba2d14-00cc-4a86-817d-f1ffd4ddefd8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "States of Matter : Summary Lecture ||...",
+    "lectureCode": "8413efb4-0a8b-48fd-9b04-24fa7e63836b",
+    "extId": "64c8a6069643da001823e810",
+    "key": "64c8ac0faf9b0300180b7482",
+    "classNotesCode": "13b7940b-a9b8-441d-a093-b5683b6f16e9.pdf",
+    "dppsPdfCode": "ffe27678-f57c-4be1-ba01-224c5ceaa46a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "States of Matter 08 : Liquefaction of...",
+    "lectureCode": "38442313-ad74-4e45-aa14-b555b705fb14",
+    "extId": "6499836fbf42220018b654e9",
+    "key": "649a9938edfea40018260c10",
+    "classNotesCode": "848b9802-ed8c-41c5-ae71-f313836b60eb.pdf",
+    "dppsPdfCode": "db1d59f6-3ab8-40ce-98c1-1ebadd2fb3bc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "States of Matter 07 : Real Gas Analys...",
+    "lectureCode": "f3b84c4a-3e9a-4d7a-a83a-dbb035e588cf",
+    "extId": "6498708aafe97a001853c3aa",
+    "key": "6499493820f4eb0018505304",
+    "classNotesCode": "32a7ba8c-e010-40b6-911b-10454d5efbc9.pdf",
+    "dppsPdfCode": "080a19dc-5b14-49c5-a456-23b8b76c9394.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "States of Matter 06 : Maxwell Distrib...",
+    "lectureCode": "637ab551-4fc2-4a72-b651-599918d34f15",
+    "extId": "6495cbcc34703a00171506b4",
+    "key": "649683453ae3030018b99455",
+    "classNotesCode": "76012324-52da-4e7b-9d1b-85105ef00e15.pdf",
+    "dppsPdfCode": "5690c0bd-0d9a-42be-9dbf-98e9bea8ca03.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "States of Matter 05 : Graham’s Law of...",
+    "lectureCode": "52db7afa-5b8f-446e-9b2c-6dd7433e7f30",
+    "extId": "649474dee0eb51001890c69b",
+    "key": "649553688c818e0018ab5775",
+    "classNotesCode": "32e8eecc-f43f-4387-b5d8-1e6ea1b18c5d.pdf",
+    "dppsPdfCode": "98c53c08-5ca5-48e5-9b4d-f39e106103cf.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "States of Matter 04 : Dalton’s law of...",
+    "lectureCode": "8db42c5b-5d70-43ee-ad51-afe58c38484e",
+    "extId": "64932fb143c9860018541eef",
+    "key": "6494074e6f90e90018a6330d",
+    "classNotesCode": "da28da86-ebc6-4c8d-abfa-04e812c7cf72.pdf",
+    "dppsPdfCode": "84eafe63-77e7-48c2-9f5d-9bcb703d5535.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "States of Matter 03 : Gay lusaac’s la...",
+    "lectureCode": "a9185d9b-0ca7-440f-bcde-3da0ca296826",
+    "extId": "6491dea5c97a340018379e01",
+    "key": "6492bec47b62520018396c2b",
+    "classNotesCode": "4f7b16b2-8f88-4aa5-9a65-e9e85374b70d.pdf",
+    "dppsPdfCode": "bafa4524-7a57-4e3b-a3a5-b7492f64fb40.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "States of Matter 02 : Boyle’s law || ...",
+    "lectureCode": "20442855-d5a7-4487-b0ee-e7669227bc4d",
+    "extId": "64908c50a0d6700018165518",
+    "key": "64916acf9b43820018796db7",
+    "classNotesCode": "1c895daa-70ab-4283-a812-3eb40ae4c769.pdf",
+    "dppsPdfCode": "20b852ae-2010-4dd1-bbfb-111a88db16e3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "States of Matter 01 : Introduction ||...",
+    "lectureCode": "a5552579-a903-43a3-9c0b-0d8e8cbc7b36",
+    "extId": "648f691d3976c500182231d3",
+    "key": "6490102bdffcfd0018675596",
+    "classNotesCode": "13b7940b-a9b8-441d-a093-b5683b6f16e9.pdf",
+    "dppsPdfCode": "a8a7633f-5b33-40cb-a305-8d3e5da32479.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "States of Matter : Summary Lecture ||...",
+    "lectureCode": "ac9c50ab-68ae-4b83-a0ee-29c4992d4815",
+    "extId": "65c60debeac8980018ba5ff6",
+    "key": "65c5dd2bbea38500188a4892",
+    "classNotesCode": "848b9802-ed8c-41c5-ae71-f313836b60eb.pdf",
+    "dppsPdfCode": "4385f6ef-7db9-4dc6-8b68-0dc8f97d061c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "States of Matter Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "32a7ba8c-e010-40b6-911b-10454d5efbc9.pdf",
+    "dppsPdfCode": "83a1e9ee-cd6b-4f99-b57f-053d2c180411.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "States of Matter Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "76012324-52da-4e7b-9d1b-85105ef00e15.pdf",
+    "dppsPdfCode": "3a70376f-6ee4-4bd1-b233-a78300f4725c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 23,
+    "lectureName": "States of Matter Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "32e8eecc-f43f-4387-b5d8-1e6ea1b18c5d.pdf",
+    "dppsPdfCode": "8f4e8b92-c4fb-4083-8b82-22bf56457b81.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 24,
+    "lectureName": "States of Matter Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "da28da86-ebc6-4c8d-abfa-04e812c7cf72.pdf",
+    "dppsPdfCode": "c1c262f5-d8d6-4483-98ff-c014ea7871be.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 25,
+    "lectureName": "States of Matter Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "4f7b16b2-8f88-4aa5-9a65-e9e85374b70d.pdf",
+    "dppsPdfCode": "995487fc-767f-41a5-b1f4-bf0fa279061d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 26,
+    "lectureName": "States of Matter Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "1c895daa-70ab-4283-a812-3eb40ae4c769.pdf",
+    "dppsPdfCode": "fc401e5e-f128-4f56-a311-8b40389c967a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 27,
+    "lectureName": "States of Matter Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "13b7940b-a9b8-441d-a093-b5683b6f16e9.pdf",
+    "dppsPdfCode": "f293dc7a-d820-4c16-ba12-f563dc31bec0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 28,
+    "lectureName": "States of Matter Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "848b9802-ed8c-41c5-ae71-f313836b60eb.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 29,
+    "lectureName": "States of Matter Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "32a7ba8c-e010-40b6-911b-10454d5efbc9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 30,
+    "lectureName": "States of Matter Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "76012324-52da-4e7b-9d1b-85105ef00e15.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 31,
+    "lectureName": "States of Matter Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "32e8eecc-f43f-4387-b5d8-1e6ea1b18c5d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 32,
+    "lectureName": "States of Matter Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "da28da86-ebc6-4c8d-abfa-04e812c7cf72.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 33,
+    "lectureName": "States of Matter Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "4f7b16b2-8f88-4aa5-9a65-e9e85374b70d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 34,
+    "lectureName": "States of Matter Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "1c895daa-70ab-4283-a812-3eb40ae4c769.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Chemical Kinetics 07 : Factors Affect...",
+    "lectureCode": "521dd594-a02a-4b34-a3ee-7ecda1532767",
+    "extId": "64aafb30c47d700018060d07",
+    "key": "64abc31e53237e00182cc0a9",
+    "classNotesCode": "05a889f3-9b1b-42d5-8511-aad2a82e5a58.pdf",
+    "dppsPdfCode": "9a96ad9b-47ad-4021-9159-0daf7ea26b9c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Chemical Kinetics 06 : How to Find Or...",
+    "lectureCode": "3b9aa91d-6dda-4e87-af13-b4ad0bc57028",
+    "extId": "64a8657dc501e90018b28f98",
+    "key": "64a8fefaf01c4000185be216",
+    "classNotesCode": "7429ee77-4020-478b-bc9c-4026df50ac2c.pdf",
+    "dppsPdfCode": "d12866a5-249a-4fb5-998d-1179d6862259.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Chemical Kinetics 05 : How to Find Or...",
+    "lectureCode": "0bab5fba-e9cf-43a7-9d49-f6325dc8c2a6",
+    "extId": "64a7289fd94cc30018804a95",
+    "key": "64a7ccddb254e8001892b0fc",
+    "classNotesCode": "05a889f3-9b1b-42d5-8511-aad2a82e5a58.pdf",
+    "dppsPdfCode": "d04060b4-61be-4213-9b5f-43229814cc8f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Chemical Kinetics 04 : First Order Re...",
+    "lectureCode": "e2919491-ec7e-475c-852e-c4d91f0b2ccb",
+    "extId": "64a5ce68ae8d7d001891c55c",
+    "key": "64a677c8ee66970018c2ac31",
+    "classNotesCode": "7429ee77-4020-478b-bc9c-4026df50ac2c.pdf",
+    "dppsPdfCode": "78a8304f-a44d-438a-b244-c35c7c605fd6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Chemical Kinetics 03 : Zero Order Rea...",
+    "lectureCode": "f954f220-531e-4d03-958e-a980d1843859",
+    "extId": "64a46503f03c900018b15493",
+    "key": "64a52608347ed40018288855",
+    "classNotesCode": "e24748f4-e55a-4844-b307-1a77ca70687e.pdf",
+    "dppsPdfCode": "2e156905-7e0e-473c-ba9c-b92f3ca15554.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Chemical Kinetics 02 : Rate Constant ...",
+    "lectureCode": "a979854c-9fed-4b93-bf39-85540bfbb938",
+    "extId": "64a32a390418ef001851ca4f",
+    "key": "64a3d42c7c208e001860df16",
+    "classNotesCode": "af07595d-4423-4a63-8d32-cce643ca738c.pdf",
+    "dppsPdfCode": "cf9d983c-6e02-4767-b00c-215fd55be5ae.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Chemical Kinetics 01 : Rate of Reacti...",
+    "lectureCode": "9d1990d4-0493-4cfa-b034-619c67229669",
+    "extId": "64a26099bde9e90018518177",
+    "key": "64a2f3effe5bc600182eafab",
+    "classNotesCode": "3c6b4802-1af4-48d7-bdb4-5c2517715375.pdf",
+    "dppsPdfCode": "d885b67a-a92e-4912-96ee-d0307302b790.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Chemical Kinetics 08 : Nuclear Chemistry",
+    "lectureCode": "e6dd47d3-63a9-4bc5-8995-6efa118b1e55",
+    "extId": "64b42b623025a000184b2e54",
+    "key": "64b15c0b241abf0018dcb42e",
+    "classNotesCode": "a3169c93-8c58-4404-bf2c-6ad3ecc9491d.pdf",
+    "dppsPdfCode": "eff61f3c-c52c-4a91-ab21-4d775d17ec6d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Chemical Kinetics 07 : Arrhenius Theo...",
+    "lectureCode": "8879b10f-b979-4f55-9b33-1b4e8b15c3c7",
+    "extId": "64a6edef70fd1b00190ed571",
+    "key": "64a7c4d76586e000199b6abc",
+    "classNotesCode": "2494f4ad-ec7e-4ed1-a988-9ad8bcda60e1.pdf",
+    "dppsPdfCode": "236e41fc-6421-4e76-a6ba-3b970949f1ca.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Chemical Kinetics 06 : Application of...",
+    "lectureCode": "5f6d882e-33db-49e1-be3c-4da0266a83a8",
+    "extId": "64a59d88a81edd001875a23e",
+    "key": "64a67d2c50161f0018ad29b9",
+    "classNotesCode": "1a0977f9-7910-437e-9a23-d7a7b33e0ecd.pdf",
+    "dppsPdfCode": "83864c3a-3338-4f88-9cba-95aea081d36d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Chemical Kinetics 05 : Integrated Rat...",
+    "lectureCode": "8732fd7e-2315-4f8c-bcc3-64fdf221eea2",
+    "extId": "64a4411572499200189ce21e",
+    "key": "64a529a204bc6e0018bc3b92",
+    "classNotesCode": "4155d5f2-5083-423c-8fd9-d7a633a09906.pdf",
+    "dppsPdfCode": "c3665225-7730-48a8-afde-52cdf774cc0c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Chemical Kinetics 04 : Integrated rat...",
+    "lectureCode": "790ce3c8-6bdb-46b8-8e0a-7cac3687cc50",
+    "extId": "64a32c1993f90a00188cce77",
+    "key": "64a3d56c2987420018808b2f",
+    "classNotesCode": "a61eeb3b-bd68-4955-83f0-a223a7502284.pdf",
+    "dppsPdfCode": "a59dcd55-8405-4f9b-855e-d39f42cf68bc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Chemical Kinetics 03 : Order of react...",
+    "lectureCode": "3e846d9c-0b3f-4f42-99de-1f8fb4d18d7c",
+    "extId": "645b93e0e2ca7100184d7c12",
+    "key": "64a28085eeab410018a3b5f4",
+    "classNotesCode": "e24748f4-e55a-4844-b307-1a77ca70687e.pdf",
+    "dppsPdfCode": "a064daf5-42fa-48ab-acec-c96afdedb62c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Chemical Kinetics 02 : Factors Affect...",
+    "lectureCode": "69734bfc-72d5-4150-bb09-8d0fef530265",
+    "extId": "649dedac38be980018bdbb45",
+    "key": "649e92c483b03f001849de8d",
+    "classNotesCode": "af07595d-4423-4a63-8d32-cce643ca738c.pdf",
+    "dppsPdfCode": "be24ce74-1fb1-4f9b-9c43-0057846e81ac.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Chemical Kinetics 01 : Introduction  ...",
+    "lectureCode": "7e6d81bd-2c1b-4149-8e9d-642f0eca4402",
+    "extId": "649b16a996f30a001850b7af",
+    "key": "649bee192ba1670018d72c50",
+    "classNotesCode": "3c6b4802-1af4-48d7-bdb4-5c2517715375.pdf",
+    "dppsPdfCode": "3c2f71c3-3276-4948-acf8-09f82b9fc839.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Chemical Kinetics 06 : Application of...",
+    "lectureCode": "b85956d6-c0a2-4d8b-9ab0-391fec9020e9",
+    "extId": "64a59d88a81edd001875a23e",
+    "key": "65cc9a6e1ea3260018f5c1ec",
+    "classNotesCode": "a3169c93-8c58-4404-bf2c-6ad3ecc9491d.pdf",
+    "dppsPdfCode": "23229aa0-f9ff-4c6e-8a68-7f3a0cd9a16a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "summary lecture chemical kinetics yak...",
+    "lectureCode": "159e2b0f-20f7-4756-8510-865b2a43c3c2",
+    "extId": "65c36942a1b70c0018daa303",
+    "key": "65c33b6f31cb940018898502",
+    "classNotesCode": "2494f4ad-ec7e-4ed1-a988-9ad8bcda60e1.pdf",
+    "dppsPdfCode": "0dfe48a4-ba5b-4f70-a637-447b29526db5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Chemical Kinetics : Summary Lecture |...",
+    "lectureCode": "0820a7a1-343b-47da-b701-da36e745be30",
+    "extId": "66095425006be00017bf96b1",
+    "key": "66094e0da723170018988a7e",
+    "classNotesCode": "1a0977f9-7910-437e-9a23-d7a7b33e0ecd.pdf",
+    "dppsPdfCode": "c8e66760-363a-49a5-963f-64ebf0a78fd1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Chemical Kinetics Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "4155d5f2-5083-423c-8fd9-d7a633a09906.pdf",
+    "dppsPdfCode": "a5699357-e424-44c2-b514-b6a451bdeb23.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "Chemical Kinetics Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "a61eeb3b-bd68-4955-83f0-a223a7502284.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "Chemical Kinetics Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "e24748f4-e55a-4844-b307-1a77ca70687e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "Chemical Kinetics Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "af07595d-4423-4a63-8d32-cce643ca738c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 23,
+    "lectureName": "Chemical Kinetics Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "3c6b4802-1af4-48d7-bdb4-5c2517715375.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 24,
+    "lectureName": "Chemical Kinetics Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "a3169c93-8c58-4404-bf2c-6ad3ecc9491d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 25,
+    "lectureName": "Chemical Kinetics Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "2494f4ad-ec7e-4ed1-a988-9ad8bcda60e1.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 26,
+    "lectureName": "Chemical Kinetics Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "1a0977f9-7910-437e-9a23-d7a7b33e0ecd.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 27,
+    "lectureName": "Chemical Kinetics Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "4155d5f2-5083-423c-8fd9-d7a633a09906.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 28,
+    "lectureName": "Chemical Kinetics Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "a61eeb3b-bd68-4955-83f0-a223a7502284.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]
