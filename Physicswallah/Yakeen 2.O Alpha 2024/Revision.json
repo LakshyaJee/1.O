@@ -1,0 +1,1262 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Revision 01 : Units and Dimensions ||...",
+    "lectureCode": "229723b8-7f8a-4a64-935a-29310dd6296a",
+    "extId": "65797397f082ca00189631fd",
+    "key": "6579d0688f1d1900189db328",
+    "classNotesCode": "da212036-dd1a-4984-b09a-1c201682dd8b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Revision 02 : Vectors || (NO DPP)",
+    "lectureCode": "5206b88a-ec50-4eb0-ae5b-8ce5cd8eefdf",
+    "extId": "6576e5862c688d001847bcd3",
+    "key": "6577315c1b502b00187174ec",
+    "classNotesCode": "83b9cfa6-64b1-4a12-b663-3a7daed96d06.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Revision 01 : Vectors || (NO DPP)",
+    "lectureCode": "a571bdff-0b59-4f66-8bb3-9d1de314fa13",
+    "extId": "657042bcbf9d4f0018bc1960",
+    "key": "65709b8c7b6e600018ce3c97",
+    "classNotesCode": "7c010f78-a89f-401b-91d9-781404f36499.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Revision 01 : Basic Maths and Calculu...",
+    "lectureCode": "88c7e88a-cbf4-4b5a-9df9-b9dbdb332cab",
+    "extId": "656d9f79b6760f001895a069",
+    "key": "656dfab6b25d1c0018fb7a02",
+    "classNotesCode": "8cb1c07e-e1b7-4433-9df2-46fc47c8f951.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Revision 03 : Motion in a Plane || (N...",
+    "lectureCode": "f3df8e1b-c7f7-41a9-bf45-1cb865c8d8a0",
+    "extId": "658fe5477f835b001894e17c",
+    "key": "659028fe65f970001891f89a",
+    "classNotesCode": "b26334be-9a57-4452-a7b9-151e22023fa6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Revision 02 : Motion in a Plane || (N...",
+    "lectureCode": "bfc8f7b9-1508-4aeb-af8a-d3478e8cd403",
+    "extId": "658d568308ca52001813d967",
+    "key": "658d860d1e80fb001824ddfe",
+    "classNotesCode": "509e5cf8-aaca-4871-8748-01abb2eba3ff.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Revision 01 : Motion in a Plane || (N...",
+    "lectureCode": "f24367f0-eb53-4e3a-a600-b1c7eb843777",
+    "extId": "658be2deea3eb80018d9bf85",
+    "key": "658c5371d8968e0018281e31",
+    "classNotesCode": "37d71633-1809-43a8-a59b-be56c67ed7df.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Revision 02 : Motion in One Dimension...",
+    "lectureCode": "3c5ce778-7f9d-475a-9468-2a49b228c2fe",
+    "extId": "658420949caf940018ac4d54",
+    "key": "658459ceff718f0018a25738",
+    "classNotesCode": "25ae19cb-83c8-453c-9e38-a49a449127bd.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Revision 01 : Motion in One Dimension...",
+    "lectureCode": "dcab3583-0140-4d19-80cf-d2928604d5b4",
+    "extId": "6582b9259108060018172c43",
+    "key": "65830a35e3bc2a0018104335",
+    "classNotesCode": "b712068b-3d49-480e-bb03-3d25ee5edbfe.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Revision 03 : Newton's Laws of Motion...",
+    "lectureCode": "a248badf-ae90-4701-bfd1-76d4f22c8a1f",
+    "extId": "65a1468606f2fc0018fbe10f",
+    "key": "65a167e22c942e001998d217",
+    "classNotesCode": "73770d88-533d-423a-905f-e7351323abfc.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Revision 02 : Work, Energy and Power ...",
+    "lectureCode": "40c14991-faf6-489c-aed5-daa7cd6d31f0",
+    "extId": "659fbc085ce91000183289f0",
+    "key": "65a00b60cc4b3944e3926b42",
+    "classNotesCode": "03a9ae86-6007-41a0-b2c3-9f78323fb92d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Revision 01 : Work, Energy and Power ...",
+    "lectureCode": "3edb25fd-3734-4757-ae9a-66244198c062",
+    "extId": "659e6326cdcfaf00185526f6",
+    "key": "659eb2071997e68a1eb2585b",
+    "classNotesCode": "31cdd3e8-4c25-4374-b461-a6e4b7d4af2d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Revision 02 : Newton's Laws of Motion...",
+    "lectureCode": "fb50d417-8499-446b-b61f-2ab840c717af",
+    "extId": "659671a4f142440018a8d5dc",
+    "key": "6596ca71ef6f76e6d00c0979",
+    "classNotesCode": "676f54e3-a454-4811-8f1e-78556038c887.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Electric Charges and Fields 10 : Prac...",
+    "lectureCode": "dec9e7be-5580-480f-844a-b96242e68431",
+    "extId": "65b21d7efa170f0018bcf25e",
+    "key": "65b27775a650870018cb859b",
+    "classNotesCode": "eb3a6e9d-e7d6-4aa3-94cd-023ddd170182.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Kinematics Lec-07 (Manish Raj Sir)_En...",
+    "lectureCode": "0008dd2e-7999-4b37-8909-18ba1efe4f3e",
+    "extId": "64ff0278a7ce0b0018880b97",
+    "key": "60014e9564a98c0084613057",
+    "classNotesCode": "038c7881-5838-4249-8865-3e9317866047.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "EM Wave Lec-01(Manish Raj Sir)_Englis...",
+    "lectureCode": "d0f1aeec-416b-42e2-b2d4-97fabd5356f6",
+    "extId": "65c6176abb37e200184533ed",
+    "key": "608c3b7317fc0000188c87fb",
+    "classNotesCode": "d9a8eb77-f8af-4f0b-901c-4e271b0f6fad.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Alternating Current Lec-04 (Manish Ra...",
+    "lectureCode": "4634f4dc-9188-4739-95b4-483f73620e77",
+    "extId": "65c615d5f8b4450018c956d9",
+    "key": "608a5739c709fc001a11ad39",
+    "classNotesCode": "647008c9-0192-4c12-96b0-25c85da708e2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Alternating Current Lec-03 (Manish Ra...",
+    "lectureCode": "bcc7e846-df10-45ae-ac19-08e281641dad",
+    "extId": "65c615a1db99ba001925cfd3",
+    "key": "60890be1c2a80b0018133bc6",
+    "classNotesCode": "83abf27d-64d4-4ee3-8318-ca9dda37ba53.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Alternating Current Lec-02 (Manish Ra...",
+    "lectureCode": "99b13e43-c9d7-4edb-9fbf-536d959a3125",
+    "extId": "65c6154deac8980018ba858b",
+    "key": "6087cb698b6b7b005c89e704",
+    "classNotesCode": "3ded2a4f-d3b7-43a0-9475-9b08411f8276.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "Alternating Current Lec-01 Part-02 (M...",
+    "lectureCode": "000ebfd0-6313-47dd-987a-5a11a9cf8d2b",
+    "extId": "65c61514f8b4450018c94a23",
+    "key": "60868d0b94bb790018e7d7bb",
+    "classNotesCode": "06c972fc-8a1c-4980-9518-af9262e3633e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "Alternating Current Lec-01 Part-01 (M...",
+    "lectureCode": "6323e99b-317e-4372-b575-88f651067a96",
+    "extId": "65c6124da709b9001874a862",
+    "key": "6083b74d44a71300113e32c7",
+    "classNotesCode": "560dcea6-fae7-49ad-8766-6a720bcc6a24.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "Revision 04 : Principle of Inheritanc...",
+    "lectureCode": "f4223a78-9fcc-4c46-9e6e-b096bcc43e1b",
+    "extId": "65d8d0153cca0500184aec1d",
+    "key": "65d9cc8d9dbee300124bfb81",
+    "classNotesCode": "5c630fbf-08d8-4c7e-a42b-c9cce7ded49e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 23,
+    "lectureName": "Revision 03 : (NO DPP) || (Class Note...",
+    "lectureCode": "6ed88344-ed35-4b1d-a6ba-cb9d35d3d016",
+    "extId": "65d77edc69765e00186b3aa2",
+    "key": "65d87d4d957c8f001244310b",
+    "classNotesCode": "fac5297c-e399-4ab6-9ba5-be8f12f53eea.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 24,
+    "lectureName": "Revision 02 : Principle of Inheritanc...",
+    "lectureCode": "39bec174-8f58-4f8b-a1e0-112e0554f82e",
+    "extId": "65d64476e9343b0018442ce6",
+    "key": "65d725e817e0570012db3032",
+    "classNotesCode": "da212036-dd1a-4984-b09a-1c201682dd8b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 25,
+    "lectureName": "Revision 01 : Principal of Inheritanc...",
+    "lectureCode": "b2de77b5-48d0-4ce5-b3a8-2b142dee85dc",
+    "extId": "65cb9ba78399c4001827b9fc",
+    "key": "65cc8e3250ae3600186b4512",
+    "classNotesCode": "83b9cfa6-64b1-4a12-b663-3a7daed96d06.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 26,
+    "lectureName": "Revision 01 : GOC || (NO DPP) || (Res...",
+    "lectureCode": "65f42697-719c-4293-a9d0-14d33c8c8c48",
+    "extId": "65d4dcce7cbe3200183c34a4",
+    "key": "65d5ac4d5f9eef00188b6ddb",
+    "classNotesCode": "7c010f78-a89f-401b-91d9-781404f36499.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 27,
+    "lectureName": "Revision 03 :",
+    "lectureCode": "4d391ef0-2cb2-4c87-b040-4a3239d89d3f",
+    "extId": "65e1f8ac151727001898925e",
+    "key": "65e302c70bb8df00125069e2",
+    "classNotesCode": "8cb1c07e-e1b7-4433-9df2-46fc47c8f951.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 28,
+    "lectureName": "Revision 02 : Molecular Basis of Inhe...",
+    "lectureCode": "ff57552b-4573-4bf8-9586-58132ccf376a",
+    "extId": "65e08d4d62389f0018d79909",
+    "key": "65e1aeff7493da001870c33e",
+    "classNotesCode": "b26334be-9a57-4452-a7b9-151e22023fa6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 29,
+    "lectureName": "Revision 01 : Molecular Basis of Inhe...",
+    "lectureCode": "4062ab11-fc37-4759-86ef-622f943604c7",
+    "extId": "65df7b2c75d5ea0018b83769",
+    "key": "65e05d2867d4430012b6a721",
+    "classNotesCode": "509e5cf8-aaca-4871-8748-01abb2eba3ff.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 30,
+    "lectureName": "Revision 01 : Living world & Biologic...",
+    "lectureCode": "3efa13b1-71ec-4fe2-8ff0-ec86fa61c014",
+    "extId": "65d62807f5004d00182bc8e2",
+    "key": "65d71d96b65dba0012807cf2",
+    "classNotesCode": "37d71633-1809-43a8-a59b-be56c67ed7df.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 31,
+    "lectureName": "Revision 02 : (NO DPP) || (Reschedule...",
+    "lectureCode": "818ec2a8-67a3-49f0-899f-938332b98255",
+    "extId": "65eb01312b40210018e3eab2",
+    "key": "65ec1c03d7f64f00181faa21",
+    "classNotesCode": "25ae19cb-83c8-453c-9e38-a49a449127bd.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 32,
+    "lectureName": "Revision 01 : Organisms & Population ...",
+    "lectureCode": "187ec5cc-f90a-42dd-8c29-4a2cd020412b",
+    "extId": "65e9ef2289fd6300187606a3",
+    "key": "65eac57eb448f300126f6c0d",
+    "classNotesCode": "b712068b-3d49-480e-bb03-3d25ee5edbfe.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 33,
+    "lectureName": "Molecular basis of inharitence Revisi...",
+    "lectureCode": "f46cdb16-e8eb-4593-a131-3e54ee1a7e73",
+    "extId": "65e8a3aa225d7e001843561e",
+    "key": "65e9d11110fd86001807bff0",
+    "classNotesCode": "73770d88-533d-423a-905f-e7351323abfc.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 34,
+    "lectureName": "Revision 11 : NO DPP || (Class Notes ...",
+    "lectureCode": "0cb0816b-4483-40f6-bc83-031fca8bfc17",
+    "extId": "65f3222951eee60018ed2299",
+    "key": "65f422b0e7ae410018f6bb56",
+    "classNotesCode": "75db0f01-e9dc-48e3-9867-8f4eecd0ea47.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 35,
+    "lectureName": "Revision 04 : Anatomy of flowering pl...",
+    "lectureCode": "062aa396-6f98-47e4-83b7-8ddcad4a475a",
+    "extId": "65f47c397fd2bb001879ef5c",
+    "key": "65f5670789b45100129ea65a",
+    "classNotesCode": "50c5e488-5a34-483d-b4d1-2d2da29bb890.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 36,
+    "lectureName": "Revision 03 : Morphology of flowering...",
+    "lectureCode": "31d30320-2cd0-48e2-91c5-f5b1d5b75ecd",
+    "extId": "65f1ddd2d611ee0018af2822",
+    "key": "65f2c2921d1f500018035432",
+    "classNotesCode": "d830eca5-4e97-4259-9206-cd1e75a20883.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 37,
+    "lectureName": "Revision 01 : Respiration in Plants |...",
+    "lectureCode": "60a1d2a4-9cf7-4352-9558-6d7ab72f0161",
+    "extId": "65f65cd379a46a00188e0729",
+    "key": "65f6bfa4a585030018d5ae0b",
+    "classNotesCode": "e505280f-a5e1-48ca-96c2-aa12b195fd52.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 38,
+    "lectureName": "Revision 03 : Organism and population...",
+    "lectureCode": "dcfdd750-e567-4902-bf5e-6f9378b9d95b",
+    "extId": "65f48097b2531b001866f367",
+    "key": "65f54f2689b45100129d0e5e",
+    "classNotesCode": "0e8385d3-64d9-4d97-b5fa-dabbe55ba8b7.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 39,
+    "lectureName": "Revision 01 : Photosynthesis in Highe...",
+    "lectureCode": "0c7d21d8-d2ad-443f-8b16-9a0561b8db92",
+    "extId": "65fc33fcd4450d00183002a5",
+    "key": "65fd5c9965b6b600183bd5db",
+    "classNotesCode": "f50a89a6-110c-477a-a8cf-12d8fde3e146.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 40,
+    "lectureName": "Revision 02 : Respiration in Plants |...",
+    "lectureCode": "980990f0-df40-4435-8e8c-a604e7e5e7c4",
+    "extId": "65faf233e83ecc0018afd48c",
+    "key": "65fc0d2f33cd7d0018ec1f4f",
+    "classNotesCode": "038c7881-5838-4249-8865-3e9317866047.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 41,
+    "lectureName": "Human Health and Disease || NO DPP ||...",
+    "lectureCode": "b7363270-eabd-4324-a293-954e631f075a",
+    "extId": "65fd7bc568740900180ea0bd",
+    "key": "65fede74677fd80012d8db2a",
+    "classNotesCode": "d9a8eb77-f8af-4f0b-901c-4e271b0f6fad.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 42,
+    "lectureName": "Revision 04 : || NO DPP || (Reschedul...",
+    "lectureCode": "6a739e8f-bff2-4bc9-a83f-c08635826855",
+    "extId": "65fc3433de7cf30018d88376",
+    "key": "65fd8f36bb1c9d001806c398",
+    "classNotesCode": "647008c9-0192-4c12-96b0-25c85da708e2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 43,
+    "lectureName": "Revision 03 : Evolution || (NO DPP) |...",
+    "lectureCode": "c10270bc-2976-4f22-8986-967688a173e0",
+    "extId": "65f9bf35d0fe2f0018e9488e",
+    "key": "65faecfae0904b0018ccd152",
+    "classNotesCode": "83abf27d-64d4-4ee3-8318-ca9dda37ba53.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 44,
+    "lectureName": "Revision 02 : Evolution",
+    "lectureCode": "85fc24cf-d510-4822-b9f3-4a1922ba881d",
+    "extId": "65f97356d152e20018b459f2",
+    "key": "65f9ab0c5b162e001940a27f",
+    "classNotesCode": "3ded2a4f-d3b7-43a0-9475-9b08411f8276.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 45,
+    "lectureName": "Revision 01 : Evolution || (NO DPP) |...",
+    "lectureCode": "e65ca6d7-4b1b-4a82-b520-52e748064bc9",
+    "extId": "65f6eeb46ad4a90018d8c661",
+    "key": "65f7d2004eac5d0018e8dfc3",
+    "classNotesCode": "06c972fc-8a1c-4980-9518-af9262e3633e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 46,
+    "lectureName": "Revision 06 : Plant Growth and Develo...",
+    "lectureCode": "e73a83a4-1742-4838-98cf-5a1bb482dfca",
+    "extId": "65fdcfc78adbca00182f29b1",
+    "key": "65fea243d8995700186f6eeb",
+    "classNotesCode": "560dcea6-fae7-49ad-8766-6a720bcc6a24.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 47,
+    "lectureName": "Revision 05 : Cell the Unit of Life  ...",
+    "lectureCode": "da3434d0-f367-4d30-a4ab-7f6a5db96dd5",
+    "extId": "65faf389dda9800018995dc9",
+    "key": "65fc098057c0d50018a943a8",
+    "classNotesCode": "5c630fbf-08d8-4c7e-a42b-c9cce7ded49e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 48,
+    "lectureName": "Revision 02 : || NO DPP",
+    "lectureCode": "916bb6d0-77f9-460f-a834-4f08b1879406",
+    "extId": "65fd7b5c8adbca00182ebf9a",
+    "key": "65fe969187cffa00126d104c",
+    "classNotesCode": "53fafaab-7baf-42be-be8f-335e1967e8c6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 49,
+    "lectureName": "Revision 01 : Photosynthesis in Highe...",
+    "lectureCode": "6e6d318c-d560-4a50-822a-904d3c5d0a88",
+    "extId": "65fc33fcd4450d00183002a5",
+    "key": "65fd7367e75b640018fa110e",
+    "classNotesCode": "b4b9ee82-2ccf-4661-ac91-d5b1f241dd52.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 50,
+    "lectureName": "Revision 03 : Human Health and Diseas...",
+    "lectureCode": "ca9007da-1afc-40e6-ba9a-66e4cd4e1990",
+    "extId": "6601bbac2a094d0018be771b",
+    "key": "6602e5027b23430018e300ac",
+    "classNotesCode": "a137c865-f5e2-40de-a29a-979c0692d58a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 51,
+    "lectureName": "Revision 02 : Human Health and Diseas...",
+    "lectureCode": "4345d072-ef76-4552-8421-baff4bc7b53c",
+    "extId": "65ffce2c21145300189599e3",
+    "key": "66003668e3ab940018b63de8",
+    "classNotesCode": "a7a4d806-c5d9-4546-afe4-4462ff1b1157.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 52,
+    "lectureName": "Revision 01 : Human Reproduction || N...",
+    "lectureCode": "d0384a0e-d624-4c1c-9af4-b4cbe17ca398",
+    "extId": "6602d019bf51c80018eb09c2",
+    "key": "660400946cd2b50018d1d90b",
+    "classNotesCode": "7bd2f6ac-757b-4621-8445-01016b065c56.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 53,
+    "lectureName": "Revision 07 : Respiration in Plants a...",
+    "lectureCode": "cef7e391-c165-4dd0-a79e-10c01bb1e628",
+    "extId": "66051b8c6f71cb0018ee09ba",
+    "key": "66053cdb77b13f0018b33ddc",
+    "classNotesCode": "d11b5763-4457-4a07-b33d-4c39ad42081b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 54,
+    "lectureName": "Revision 03 :",
+    "lectureCode": "cb6274b0-b0c1-44d0-8efb-bbcb42171751",
+    "extId": "66045d8b9891c40018b62357",
+    "key": "66053d35108cdc001295618d",
+    "classNotesCode": "bdc83fbd-dbc6-4a02-bf4b-990e95fe45d3.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 55,
+    "lectureName": "Revision 01 : Ray Optics and Optical ...",
+    "lectureCode": "4e08d881-e76e-4c5c-90f3-d89b202f12ed",
+    "extId": "660554352e1a3400192424b1",
+    "key": "660678d65f6d15001811a57d",
+    "classNotesCode": "38b46a61-7627-449b-b686-acd656f29724.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 56,
+    "lectureName": "Revision 08 : Sexual Reproduction in ...",
+    "lectureCode": "31a1a408-af07-424f-8ea7-aa18be5e895f",
+    "extId": "66056b1c1ee48b0018dadb47",
+    "key": "660669cc51521f00123b1c2d",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 57,
+    "lectureName": "Revision 02 : Ray Optics and Optical ...",
+    "lectureCode": "582780ce-32a4-4b85-9414-173a4d680a3a",
+    "extId": "6606ea471598540018143ca7",
+    "key": "66081272e283ed0018ee72fb",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 58,
+    "lectureName": "Revision 02 : Anatomy in Flowering Pl...",
+    "lectureCode": "cea0d46d-285a-4bc4-91b8-c53a4ce40c49",
+    "extId": "6606e8ff99cb260018565c74",
+    "key": "6607e415601f3c0018b141fc",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 59,
+    "lectureName": "Revision 01 : Anatomy in Flowering Pl...",
+    "lectureCode": "89150915-39a8-4362-b680-d7fcbbe11561",
+    "extId": "66055280127a2a0018209d89",
+    "key": "660698d7bd47680018c9111c",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 60,
+    "lectureName": "Revision planner by sudhanshu sir",
+    "lectureCode": "311f2240-d39e-457f-8cd3-df6ee686168b",
+    "extId": "660d08c66699e300185da236",
+    "key": "660ce790b6d213001848e4f7",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 61,
+    "lectureName": "Revision 02 :  GOC and Isomerism || (...",
+    "lectureCode": "aa49684c-2b52-4bbc-9cc8-1294d1b996ad",
+    "extId": "660c368b6b91100018d49323",
+    "key": "660d107359f4f200181c3d6d",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 62,
+    "lectureName": "Revision 01 : IUPAC & Isomerism || (N...",
+    "lectureCode": "f341672d-9970-4a2e-bc10-e0967bd8f9c4",
+    "extId": "645b9409df3a030018c92050",
+    "key": "660a6f313b49ad0018cb0cf1",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 63,
+    "lectureName": "Revision 01 : NO DPP",
+    "lectureCode": "9a033f70-3acd-4970-a74a-ff7ea49c4f42",
+    "extId": "660d847770e051001876bda8",
+    "key": "660e48d03d61a00018b88ee1",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 64,
+    "lectureName": "Revision 02 : Reproductive Health (NO...",
+    "lectureCode": "965f1438-c2c5-4ac2-bba5-c0a1b66b37a6",
+    "extId": "660c0ca5c7f28d0018aa7da8",
+    "key": "660e5847340ae80018b451fc",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 65,
+    "lectureName": "Revision 05 : Aldehyde and Ketone and...",
+    "lectureCode": "af5489d2-694c-45e3-8ddd-7724c994cef8",
+    "extId": "66154183d184b6001825fe9e",
+    "key": "661646ee9a883c00189c0a05",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 66,
+    "lectureName": "Revision 04 : Haloalkane Haloarene ||...",
+    "lectureCode": "cb7a5b54-bdf2-4731-bed0-2067d7eabcd7",
+    "extId": "6613fb6cbd67560018112e68",
+    "key": "6614f7457708dd0018d62ae7",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 67,
+    "lectureName": "Revision 03 : Hydrocarbon and GOC || ...",
+    "lectureCode": "17e850a0-3dc2-48cb-bb61-bdb0b7d7f41b",
+    "extId": "6612d7bab226f000182b9f26",
+    "key": "6613a376ead0d700189cc6fa",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 68,
+    "lectureName": "Revision 02 : Atomic Structure and Re...",
+    "lectureCode": "7704df8a-6c3e-40a7-8777-ae90f375bd50",
+    "extId": "661540ca7bbb280018e048aa",
+    "key": "66162e9c274a0c0018abf56d",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 69,
+    "lectureName": "Revision 01 : Electrochemistry || NO ...",
+    "lectureCode": "44ed8ee5-bc97-4193-979b-fc12a1ff3054",
+    "extId": "66193c338236c50018d1be3f",
+    "key": "661a3272765cff001831e440",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 70,
+    "lectureName": "Revision 01  Mole Concept (Topper Dis...",
+    "lectureCode": "632be0b2-c230-49f6-858d-923083028ce8",
+    "extId": "6618036f325d0e00180bf6c2",
+    "key": "6618effaab707b00188351d0",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 71,
+    "lectureName": "Revision 01  Atomic Structure (Topper...",
+    "lectureCode": "ad8fddfa-2308-433f-b281-5975b4407229",
+    "extId": "66153e74342c0c00186e55c9",
+    "key": "661636074bbc7b0018c5015c",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 72,
+    "lectureName": "Revision 01 : Solutions (Topper Discu...",
+    "lectureCode": "71ad8f7d-2dc1-45d9-85c2-fc35a1cf4c28",
+    "extId": "6612d6d330131b00186d1fa9",
+    "key": "661384b10647050018d265c8",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 73,
+    "lectureName": "Revision 01 : Chemical Equilibrium ||...",
+    "lectureCode": "77b84202-cf62-4255-be6c-ea02870369a5",
+    "extId": "660ecae6e2fdf000181d7dbf",
+    "key": "660f913fc5dcbf001883502e",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 74,
+    "lectureName": "Revision 02 : Ionic Equilibrium || (T...",
+    "lectureCode": "244726c9-72bd-42fe-9131-5a1fd9d227d6",
+    "extId": "660c0c4cddda0b001829ad6b",
+    "key": "660e5b610038830018334711",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 75,
+    "lectureName": "Revision 01 : Ionic Equilibrium (Topp...",
+    "lectureCode": "7fbcc7eb-aa90-46e4-ae20-52a0d4e85fa8",
+    "extId": "660b7d1df39578001899a8bb",
+    "key": "660b96137604d3001284da9d",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 76,
+    "lectureName": "Revision 01 : Periodic Table || NO DP...",
+    "lectureCode": "a9777307-64ef-456e-ba7d-0ee7cff3655f",
+    "extId": "661946a8ed0408001840e57f",
+    "key": "66192e09e422f800189ea334",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 77,
+    "lectureName": "Revision 02 : || (NO DPP) || Extra",
+    "lectureCode": "933a6229-177f-45f5-a538-2b6398b3aec0",
+    "extId": "661bf3dd95cf4a00189f209a",
+    "key": "661cb84720723b001872dd63",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 78,
+    "lectureName": "Revision 04 : Chemical Equilibrium an...",
+    "lectureCode": "1f631301-e22b-41a3-9215-934851c70706",
+    "extId": "661bf484f7aafe0018b4d1f2",
+    "key": "661ccfd4417ef20018a9b61c",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 79,
+    "lectureName": "Revision 03 : (NO DPP) (Reschedule to...",
+    "lectureCode": "dda7c237-5073-4bbf-9b2e-97ae8133e77a",
+    "extId": "66181c892b5fc300196c9d94",
+    "key": "6618d8bef2184d0018976842",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 80,
+    "lectureName": "Revision 02 : Biotechnology and it's ...",
+    "lectureCode": "a21d0617-9194-4d5e-997d-f58c10623177",
+    "extId": "661d2c635274c100181550b4",
+    "key": "661e8c8b80ed490018a19c3b",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 81,
+    "lectureName": "Revision 01 : Biotechnology and it's ...",
+    "lectureCode": "e813f246-d990-4fd5-845c-e09c6bd22738",
+    "extId": "661bf2e91f06ee001822d036",
+    "key": "661d2c6895002c00181ee1ff",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 82,
+    "lectureName": "Revision 06 : Electrochemistry || NO ...",
+    "lectureCode": "1074f0be-d5ee-41d5-9154-58047d239989",
+    "extId": "661ea1b4ae0bc9001860ea5e",
+    "key": "661f6bdb51b58b0018c5b4b5",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 83,
+    "lectureName": "Revision 05 : Solutions || Chemical K...",
+    "lectureCode": "315c052f-286a-43a1-bafa-16169d6ec4ad",
+    "extId": "661d46ee66ef3900188fe5a5",
+    "key": "661e1ad400624d00189b2c3d",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 84,
+    "lectureName": "Revision 02 : Biomolecules || NO DPP ...",
+    "lectureCode": "732d0195-083c-4abc-83f2-8a87acbac073",
+    "extId": "66253f05ebf2760018cfc690",
+    "key": "6626748e4ca7ed0018e0f4f7",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 85,
+    "lectureName": "Revision 01 : Biomolecules || NO DPP ...",
+    "lectureCode": "19b6e1fd-79e2-44e7-bfd9-7c8cdb551991",
+    "extId": "6623f6a967191f00180be4de",
+    "key": "662528a8d6b472001842b530",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 86,
+    "lectureName": "Revision 02 : Structural Organisation...",
+    "lectureCode": "5d3696dd-389b-4dbf-8ba5-65f6464c7f5f",
+    "extId": "6622787e38eaad00180c91ca",
+    "key": "6623ccc06d9e6e00184cc095",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 87,
+    "lectureName": "Revision 01 : Structural Organisation...",
+    "lectureCode": "74d1897e-d604-413f-a93c-d4a65339dac4",
+    "extId": "66210c738b3c3e00183fc735",
+    "key": "66227cac825842001849e32b",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 88,
+    "lectureName": "Revision 04 : || NO DPP || Reschedule...",
+    "lectureCode": "9e05b384-dc55-42bd-b573-c7af153ce82a",
+    "extId": "661fe4942e414c0018527314",
+    "key": "66212563c3cc9e001810a381",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 89,
+    "lectureName": "Revision 03 : Biotechnology and it's ...",
+    "lectureCode": "8522d4c1-b7a5-4261-b797-ef1b28f7c5c8",
+    "extId": "661e52f862d9ae0019ff58a6",
+    "key": "661feb49973d6b0018d07862",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 90,
+    "lectureName": "Revision 07 : Mole Concept || Atomic ...",
+    "lectureCode": "69335a14-29ba-4652-b1d2-4c74a87a4fd7",
+    "extId": "66266850bcc30100b044a384",
+    "key": "662756fb666ece0018b6ec29",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 91,
+    "lectureName": "Revision 06 : Biomolecules || (NO DPP...",
+    "lectureCode": "02ca4ff8-825e-4149-83f4-999c2e39fcc7",
+    "extId": "66247f04f32bf400181e372d",
+    "key": "662499799d4da00018f71c87",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 92,
+    "lectureName": "Revision 01 : Complete Physical Chemi...",
+    "lectureCode": "ea03da43-9079-417d-93ee-a602ddd0ad06",
+    "extId": "662546028931020018d58395",
+    "key": "6625f108cf096b0018456ed3",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 93,
+    "lectureName": "Revision 02 : || NO DPP || Extra || R...",
+    "lectureCode": "84af8e92-9e00-4186-98e6-6f9b630a9666",
+    "extId": "661e5277568276001863933d",
+    "key": "661fa05ca96bd50018c1b229",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 94,
+    "lectureName": "Revision 03 : || NO DPP || Reschedule...",
+    "lectureCode": "66a076ca-78d2-45cf-bc19-0f4728dc6f44",
+    "extId": "6627b69ac363d6001803e8fb",
+    "key": "6629105566fd2900185e865b",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 95,
+    "lectureName": "Revision 01 : Salt Analysis || (NO DPP)",
+    "lectureCode": "f505f99f-6168-4f23-bff1-7d207f421f49",
+    "extId": "662278f85132e30018b809ca",
+    "key": "662214bff16b940018aedd77",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 96,
+    "lectureName": "D & F Block Lec-01  MD Sir  17-04-2024",
+    "lectureCode": "c795c6ba-d2cb-4e57-ad4e-c8597dd3e211",
+    "extId": "661fe7506fddd50018855ea4",
+    "key": "661f8eea0931bd001978faa1",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 97,
+    "lectureName": "Revision 01 : P- Block Elements || NO...",
+    "lectureCode": "dfc01d12-cdb7-41f3-ae3b-fcba216ae98b",
+    "extId": "661e940362d9ae001900888e",
+    "key": "661e79045c1fd90018bd214a",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 98,
+    "lectureName": "coordination compounds lEC-01 (Revisi...",
+    "lectureCode": "c5bab545-99b3-4782-a6f8-9e0b7401ef7d",
+    "extId": "661d2fced25819001824a5c6",
+    "key": "661d5bd7bc37b100183623a5",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 99,
+    "lectureName": "Chemical Bonding Revision 01",
+    "lectureCode": "a28c6af4-14b4-4027-971b-cc12333be6e6",
+    "extId": "661bf60e1f06ee001822d173",
+    "key": "661c0177986fad00187e9b36",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 100,
+    "lectureName": "Revision 02 : Complete Physical Chemi...",
+    "lectureCode": "0b141700-7626-450e-b8af-e464c3d91a8a",
+    "extId": "662904bbd93ed0001886a811",
+    "key": "6629e1bc5c9d0f001849cc19",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 101,
+    "lectureName": "Revision 08 : Redox Reaction || Chemi...",
+    "lectureCode": "fc720b70-efc6-4c66-97b4-2423d106d2c3",
+    "extId": "66290423d9b31b00186e4731",
+    "key": "6629f09abf27590018a18872",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 102,
+    "lectureName": "Revision 05 : Evolution, Biotechnolog...",
+    "lectureCode": "672bc7c9-ae39-4306-81ef-97142cefb7de",
+    "extId": "661ea3b1d8b10a0018a27885",
+    "key": "661a7d949ef46a0018d74c79",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 103,
+    "lectureName": "Revision 04 : Human Reproduction || R...",
+    "lectureCode": "c477316e-0bd1-4097-bd56-1ca12d6de42b",
+    "extId": "661d43435796140018d7bfee",
+    "key": "66191fcbabfa8c0018c17c3a",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 104,
+    "lectureName": "Revision 03 : Structural Organization...",
+    "lectureCode": "b43667fb-e471-4d82-830e-faf822a8f28c",
+    "extId": "661541ecb05969001844385d",
+    "key": "661664afcf2d670018a8c5dc",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 105,
+    "lectureName": "Revision 02 : Locomotion and Movement...",
+    "lectureCode": "dab235ee-090f-49d9-a355-72e45c7be919",
+    "extId": "6613fc739c992400187176e5",
+    "key": "661521633a319d001832ade2",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 106,
+    "lectureName": "Revision 01 :  Breathing and Exchange...",
+    "lectureCode": "a4a229b9-e630-40fe-8333-fac1eafd5590",
+    "extId": "660c37048fe4c0001894f310",
+    "key": "660d2d0cfe81db0018bb691b",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 107,
+    "lectureName": "Revision 01 : Animal Kingdom (NO DPP)...",
+    "lectureCode": "a9112d3b-b049-4a72-aea7-f5e9888856a9",
+    "extId": "662bdbbad182e10018297bcc",
+    "key": "662c7fd860938a001843c8a9",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 108,
+    "lectureName": "Revision 05 : Biomolecules || NO DPP ...",
+    "lectureCode": "cf42a235-6fef-40c1-9de2-ec5a65c5063a",
+    "extId": "662a833bb7fd380018bae99f",
+    "key": "662c7e9e5a76210018826681",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 109,
+    "lectureName": "Revision 04 : || NO DPP || Reschedule...",
+    "lectureCode": "a0cf493c-1915-456c-bc48-97543a29c110",
+    "extId": "6629031ec3efc80018ce35e2",
+    "key": "662a746e9163660018ec6516",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 110,
+    "lectureName": "Revision 05 : P Block Elements || NO ...",
+    "lectureCode": "d89afbae-1843-424d-9607-39bdf357c841",
+    "extId": "66292fcd5d581700188eff9f",
+    "key": "6624d1f32a207300185758a1",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 111,
+    "lectureName": "Revision 04 : D-F Block Element || NO...",
+    "lectureCode": "ce6f22ac-bf31-45c9-b234-bfc213099e1c",
+    "extId": "6628a956c941d90018fabb10",
+    "key": "662397b943e63b0018d3a467",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 112,
+    "lectureName": "Revision 03 : Coordination Compounds ...",
+    "lectureCode": "ea766abd-87e7-461d-bdd4-89068f82aa39",
+    "extId": "6627dfe87bd75700190d0745",
+    "key": "66237b53302c9b0018d7e621",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 113,
+    "lectureName": "Revision 02 : Chemical Bonding || NO ...",
+    "lectureCode": "8cb9a3ee-4032-4311-b164-4f56196e5e8c",
+    "extId": "661ff8b0ab55240018d029fc",
+    "key": "661d1771eb81dc001879ad0e",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 114,
+    "lectureName": "Revision 01 : Periodic Table || NO DP...",
+    "lectureCode": "6f1f0bea-322a-4033-9dda-d6aec59ae64c",
+    "extId": "661f54de06838f0018089d9a",
+    "key": "661baede9980940018743a81",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 115,
+    "lectureName": "Revision 04 : (NO DPP) || (Reschedule...",
+    "lectureCode": "1c689065-b9c9-4697-b278-ee5f8868978f",
+    "extId": "662f9c7c2296850018718701",
+    "key": "663103b432f5f00018d93d1e",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 116,
+    "lectureName": "Revision 03 : Animal Kingdom || (NO D...",
+    "lectureCode": "443f3c4e-5934-488f-a4a3-805eb4338d7d",
+    "extId": "662e87c8f449e60018b623a6",
+    "key": "663086378e336a0018cd5e76",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 117,
+    "lectureName": "Revision 02 : Animal Kingdom  (NO DPP...",
+    "lectureCode": "73b3ff20-63bd-4085-8575-255dc982fe29",
+    "extId": "662d0b51e48f700018114a7d",
+    "key": "662e67d67771fc0018da4017",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 118,
+    "lectureName": "Revision 06 : Salt Analysis || NO DPP...",
+    "lectureCode": "d4fc1c8b-6fde-4df2-a4c9-f16e98191ff7",
+    "extId": "662f5059d09ec500189bbb44",
+    "key": "6627d519cd713f0018ae33d7",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 119,
+    "lectureName": "Revision 01 : LAST MINUTE TOPICS to s...",
+    "lectureCode": "3460e3ae-1246-478c-b204-afec9c03d9b2",
+    "extId": "6633bc00df0f1e001825e0a8",
+    "key": "66347e7c4c66270018b956e3",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 120,
+    "lectureName": "Revision 01 : Animal Kingdom & Chemic...",
+    "lectureCode": "a7bb154e-a101-4cfb-b3ea-29a84ab61c0d",
+    "extId": "66328706ba12250018d87bfd",
+    "key": "66349d2199e884001852a7dc",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 121,
+    "lectureName": "Revision 05 : Animal Kingdom || (NO D...",
+    "lectureCode": "43217170-506b-490d-a080-f3036f50e9c5",
+    "extId": "663106f09fd5990018d7ffd8",
+    "key": "663260c237c7a0001875b01c",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 122,
+    "lectureName": "Revision 12 : Ecosystem and Microbes ...",
+    "lectureCode": "f81924e4-9789-4fc3-a314-f105c9d6cb37",
+    "extId": "661ff6414495cd0018f8dc87",
+    "key": "6620cc2027e71100189e77c5",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 123,
+    "lectureName": "Revision 11 :  Organism and Populatio...",
+    "lectureCode": "3075a7d4-fad2-405d-9fee-7d6077cbde53",
+    "extId": "66194cab47617b0018fc15d3",
+    "key": "661a2929d0869f0018553ce0",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 124,
+    "lectureName": "Revision 10 || (NO DPP)",
+    "lectureCode": "98acecd6-2b2c-4460-a31c-ed649824cb0f",
+    "extId": "66101ad1fab1970018853560",
+    "key": "6611221bfd81220018deb77a",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 125,
+    "lectureName": "Revision 09 : Molecular Basis of Inhe...",
+    "lectureCode": "ebe20b7f-726a-412a-bddf-c2f8119fa198",
+    "extId": "660e0d13089a880018c88824",
+    "key": "660e74a552a9d5001828182d",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 126,
+    "lectureName": "Basic Information Video : Last Checks...",
+    "lectureCode": "4a789d30-e212-4144-aef2-c3c5d4302128",
+    "extId": "6635c2e3b67e2f0018f2384c",
+    "key": "6635d7e005243100188e5588",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

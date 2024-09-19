@@ -1,0 +1,92 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Wave Optics 04 : Diffraction (Part 02...",
+    "lectureCode": "19f59576-bc31-4267-a854-3eb648c88b2a",
+    "extId": "65d627532e90f500188dcef8",
+    "key": "65d6e1722dfce10012dbbb49",
+    "classNotesCode": "02181bb6-8cf8-491a-a3a1-3eb6ec34cd98.pdf",
+    "dppsPdfCode": "c85134c5-9381-4c0c-ab60-74ab5905a741.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Wave Optics 03 : Modification of YDSE...",
+    "lectureCode": "66f5684a-b505-407b-86d0-739fb5590df0",
+    "extId": "65d4db56ff14d20018d6bef4",
+    "key": "65d5918d7e384300123fe3c0",
+    "classNotesCode": "25c23422-7593-4a9d-97af-9a029dacb2bc.pdf",
+    "dppsPdfCode": "1e17967d-40bc-48fd-848f-0b64b88abef5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Wave Optics 02 : Young Double Slit Ex...",
+    "lectureCode": "f02a26d7-79c3-41b9-9328-652b52bfa570",
+    "extId": "65d3860434cf08001945ca2c",
+    "key": "65d44019f0b37c0012318e56",
+    "classNotesCode": "16cf448c-d7f8-4272-af3d-d710f0a90e86.pdf",
+    "dppsPdfCode": "84f8edbb-935a-4013-aedc-4f6d19fd68b0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Wave Optics 01 : || Rescheduled @01:35pm",
+    "lectureCode": "566aa0e6-4ab0-43a5-b256-2080743b557e",
+    "extId": "65d208b41d938000184b91f7",
+    "key": "65d33bfbf0b86700122f1a0c",
+    "classNotesCode": "b909c0be-d082-4518-a33f-ca6895cf7078.pdf",
+    "dppsPdfCode": "af9431d2-02ab-40b3-8ecb-776803a5fc30.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Wave Optics 05 : Resolving Power || (...",
+    "lectureCode": "0bbc39aa-4e6c-4864-afa2-25b20309f71e",
+    "extId": "65d77e1ef1997500183019ba",
+    "key": "65d8349a9890c8001288fb6a",
+    "classNotesCode": "0a4072ed-36be-47f0-ac41-f3d53b498cb1.pdf",
+    "dppsPdfCode": "a0a4fd4f-a320-4901-97cd-305a1670be31.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Wave Optics 04 : Polarization || Resc...",
+    "lectureCode": "90c21320-1660-44fc-8b4a-ca6f26fde6db",
+    "extId": "65e8a4d26914180018c5ad50",
+    "key": "65e956ffcde1da0018f7a122",
+    "classNotesCode": "08e8c2c3-a00b-469d-bf07-b901d0e37f57.pdf",
+    "dppsPdfCode": "d8ec6e56-c32e-43dd-b36d-7c6335985e36.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Wave Optics 03 : Diffraction || Polar...",
+    "lectureCode": "daa74f13-f52d-4c89-8609-56acf4cca683",
+    "extId": "65e714ccd251bf00185dd38b",
+    "key": "65e8080d716a11001253b304",
+    "classNotesCode": "a79a824f-cc0e-4118-86df-a29f603aa6d5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Wave Optics 02 : YDSE Experiment || (...",
+    "lectureCode": "2f1863a3-e869-40b7-a674-b362b647e5c7",
+    "extId": "65e5cc312115d10018a01678",
+    "key": "65e6d76fc3416f001872a112",
+    "classNotesCode": "348cc9ce-b350-4d98-b9cd-fe7f4f9b3d71.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Wave Optics 01 : Introduction || NO D...",
+    "lectureCode": "da7983e9-4a7d-4757-b137-4f45f1a6eda1",
+    "extId": "65e49708413dd60018c75ada",
+    "key": "65e56051e7be5200120ae558",
+    "classNotesCode": "36a64af9-cda1-4225-a771-58b79dedaa23.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

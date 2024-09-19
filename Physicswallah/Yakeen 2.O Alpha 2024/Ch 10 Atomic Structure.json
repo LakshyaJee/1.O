@@ -1,0 +1,332 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Atomic Structure 09 : Electronic Conf...",
+    "lectureCode": "8b2a4683-448f-4b0e-90f0-51ce67300cc4",
+    "extId": "64ff4c9417dd03001881086b",
+    "key": "65001985b4beee0012f34216",
+    "classNotesCode": "d0b39f4f-d08a-4b43-bf3f-78d2b1751edb.pdf",
+    "dppsPdfCode": "555b502b-ef8d-4e68-ba97-a7dad9bc33e8.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Atomic Structure 08 : Quantum numbers...",
+    "lectureCode": "f584a72f-c70f-4304-a86e-56ec9652119d",
+    "extId": "64fe03209c23130018b0801b",
+    "key": "64fec60526caba0018f173d5",
+    "classNotesCode": "3ee6d7ff-41f6-480c-8c7b-4135144a8d32.pdf",
+    "dppsPdfCode": "6df4e4ec-0093-43e8-aa57-e81fb230ada6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Atomic Structure 07 : Quantum numbers...",
+    "lectureCode": "a8c22f26-09f1-4787-ab0a-e410f877d948",
+    "extId": "645b92badf3a030018c91eac",
+    "key": "64feaa9840653c0018079440",
+    "classNotesCode": "0039b9ce-0b4a-4c73-ad80-5e460ae5ed55.pdf",
+    "dppsPdfCode": "4533b2d9-22c6-4abd-a201-9fa5fd05e773.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Atomic Structure 06 : Dual Nature of ...",
+    "lectureCode": "ad4f450b-56d5-42c3-9585-86a43aa1c698",
+    "extId": "64fb595b6a078600185dd261",
+    "key": "64fc131fa30499001821618e",
+    "classNotesCode": "a2573c38-98c9-4827-9108-11d90448dcae.pdf",
+    "dppsPdfCode": "5e95546a-3971-49b9-8cf6-02df10681c4a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Atomic Structure 05 : Bohr Model || D...",
+    "lectureCode": "07cc5ee8-0a4c-4f75-b8fc-d9c6d9648a33",
+    "extId": "64f9d5e1cde6d3001859b83f",
+    "key": "64fad5da0190dc0018c7ec02",
+    "classNotesCode": "b6e43030-9db7-40cd-9258-5b5c5736fb6d.pdf",
+    "dppsPdfCode": "95fe3720-7f36-4ffd-a27e-cf8f88b0bb18.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Lec 4 atomic structure yakeen 2.0 ami...",
+    "lectureCode": "e659bf26-fffe-41ea-b88a-ce72e0a9940f",
+    "extId": "64f84d8c8fb55f0018e43599",
+    "key": "64f98a9de210f80018747099",
+    "classNotesCode": "f58e9aad-9d98-4c98-a08d-c547d291c132.pdf",
+    "dppsPdfCode": "6a784178-550e-4aea-b549-80a5a8e9d28a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Atomic Structure 03 : Planck Quantum ...",
+    "lectureCode": "0376ed2d-9ed9-4512-8adc-dad54b6661ca",
+    "extId": "64f765f68b572c00186526d3",
+    "key": "64f83557d7646f00183d9182",
+    "classNotesCode": "ef3d7f46-ee2d-4c02-87d0-eae37897e499.pdf",
+    "dppsPdfCode": "b8250a23-5c92-4e1e-b768-c98884cdce4b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Atomic Structure 02 : Rutherford model",
+    "lectureCode": "aaedb654-7132-4e0b-9174-bad97064629a",
+    "extId": "64f5dd6beda6c600185a4fa6",
+    "key": "64f6e30fe117e30018ba9d1b",
+    "classNotesCode": "73cbc7d0-a72f-4ce8-83cd-6a01fbc3d90e.pdf",
+    "dppsPdfCode": "00dde2bb-b1ab-4665-906d-a9d217590743.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Atomic Structure 01 : Discovery of Fu...",
+    "lectureCode": "de918df6-43fb-4491-844f-dc1fab9fe985",
+    "extId": "645b92badf3a030018c91eab",
+    "key": "64f58e69f931c400188b6e97",
+    "classNotesCode": "553fad0b-b07e-4fab-9179-964d60848336.pdf",
+    "dppsPdfCode": "e42f1af5-6890-4eeb-9169-b3a54faaa5a6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Atomic Structure 09 : Applications of...",
+    "lectureCode": "1075ec95-dc00-4b33-be0e-ba6c0ef571b2",
+    "extId": "64fb4b78e313830018673f5d",
+    "key": "64fc2892cda0b500182e345e",
+    "classNotesCode": "d0b39f4f-d08a-4b43-bf3f-78d2b1751edb.pdf",
+    "dppsPdfCode": "8b8cf8df-5807-49d3-a4ab-78cb58310095.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Atomic Structure 08 : Schrödinger Equ...",
+    "lectureCode": "612356f0-efb2-47e4-9ded-34f3e0b3efe1",
+    "extId": "64f9d809951bf80018e27896",
+    "key": "64fad8457c6939001876a732",
+    "classNotesCode": "3ee6d7ff-41f6-480c-8c7b-4135144a8d32.pdf",
+    "dppsPdfCode": "6b5a580c-c9af-4cd6-ab58-d543552c3875.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Atomic Structure 07 : Limitation of B...",
+    "lectureCode": "0ff15589-cf94-4d75-ae13-463895232532",
+    "extId": "64f850cef40660001868941c",
+    "key": "64f9866c49159000182cee4e",
+    "classNotesCode": "0039b9ce-0b4a-4c73-ad80-5e460ae5ed55.pdf",
+    "dppsPdfCode": "400c4d75-bd0e-4561-b538-fcf5b5da476b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Atomic Structure 06 : Applications of...",
+    "lectureCode": "5466f301-42c2-4f4e-bc9b-a05eb5706203",
+    "extId": "64f7677fca5855001840970a",
+    "key": "64f8368f040c430018831877",
+    "classNotesCode": "a2573c38-98c9-4827-9108-11d90448dcae.pdf",
+    "dppsPdfCode": "8bc16c83-4f2c-494d-a7da-d6c6b1947c06.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Atomic Structure 05 : Bohr’s Model (C...",
+    "lectureCode": "85caf484-0496-4bd9-b086-134bed3d1fd9",
+    "extId": "64f5df496a1cfd0018b9d72f",
+    "key": "64f6e2511043970018b22e35",
+    "classNotesCode": "b6e43030-9db7-40cd-9258-5b5c5736fb6d.pdf",
+    "dppsPdfCode": "520442f9-5d26-4960-8fe6-fca2533e9325.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Atomic Structure 04 : Photoelectric E...",
+    "lectureCode": "68ba9ad4-731e-4935-9d5b-93b8d661889b",
+    "extId": "64f4b76f4ebc5d001998004c",
+    "key": "64f5940d0169840019197e59",
+    "classNotesCode": "f58e9aad-9d98-4c98-a08d-c547d291c132.pdf",
+    "dppsPdfCode": "be63f373-e57e-47fc-acbf-3fd7f1364505.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Atomic Structure 03 : Electromagnetic...",
+    "lectureCode": "576da245-c1ac-48e3-a479-743de73956fd",
+    "extId": "64f1f4c1daf69600189196a4",
+    "key": "64f2ee136fa0ff001839cf9d",
+    "classNotesCode": "ef3d7f46-ee2d-4c02-87d0-eae37897e499.pdf",
+    "dppsPdfCode": "b1f75be4-be4d-4fc2-8280-e702b1a60f27.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Atomic Structure 02 : Waves || Ruther...",
+    "lectureCode": "ae1b93dd-a22e-49eb-9c00-72ea009430c0",
+    "extId": "64f0a8835bb8d20018eea79f",
+    "key": "64f19ec32afc3100186621d1",
+    "classNotesCode": "73cbc7d0-a72f-4ce8-83cd-6a01fbc3d90e.pdf",
+    "dppsPdfCode": "3a12e263-b80c-4d92-b9fa-3246fde26f05.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Atomic Structure 01 : Discovery Of Su...",
+    "lectureCode": "a52da15a-5c90-4be0-9d54-7dbf2ab02d45",
+    "extId": "64ef81cdf88f110018b5fe8b",
+    "key": "64ef14361b34880018ee6019",
+    "classNotesCode": "553fad0b-b07e-4fab-9179-964d60848336.pdf",
+    "dppsPdfCode": "a378fa11-4c79-46d7-90d3-c06e77c64a7c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "dpp no atomic structure yakeen amit mahajan sir...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "8166d2a4-c46e-4e04-8006-7a5407f20d01.pdf",
+    "dppsPdfCode": "327eebd7-aa36-42f4-8afa-24e7e974fb78.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "dpp no atomic structure yakeen amit mahajan sir...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "ffbc2543-cf76-4e08-bae2-11e69f88f168.pdf",
+    "dppsPdfCode": "9df92b3c-9b1e-46bd-bcb1-864e425a9297.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "Amit Sir Yakeen DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "38ccf183-c7bf-4287-a76a-eb874aab582b.pdf",
+    "dppsPdfCode": "3ff8067a-74a9-4883-8894-f645b171d067.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "Amit Sir Yakeen DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "1ba2e8af-23f1-4ccf-ab31-47f4a3e4bda2.pdf",
+    "dppsPdfCode": "286ed251-324e-4602-a844-c2d569f42c54.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 23,
+    "lectureName": "Amit Sir Yakeen DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "df668c65-ecc6-4168-afe5-4b086ad576a4.pdf",
+    "dppsPdfCode": "94977300-c7fb-402a-8d9d-8790f0c92792.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 24,
+    "lectureName": "Atomic Structure Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "fcca192c-0b0c-4318-887e-c1ce32f6559c.pdf",
+    "dppsPdfCode": "cb358402-18c0-4029-85e4-26d06cb6b89a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 25,
+    "lectureName": "Atomic Structure Dpp-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "a5e4d7fb-2961-4898-8895-df8bd79a6fae.pdf",
+    "dppsPdfCode": "d6a18381-f69c-4a6a-b8eb-ae9f4e67f708.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 26,
+    "lectureName": "Atomic Structure Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "f49ad2dc-f0ac-4c68-93ef-c3f4577efa5b.pdf",
+    "dppsPdfCode": "04f15f19-f7d7-45a9-bf23-3f0390f0c6d7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 27,
+    "lectureName": "Atomic Structure Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "e0999b48-153c-4e3b-b6bc-81e5404cd7c3.pdf",
+    "dppsPdfCode": "eb22a3ae-18ec-4677-ab31-aade91cf25fa.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 28,
+    "lectureName": "Atomic Structure Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "e556e8af-7183-4a63-9e05-421012c2b753.pdf",
+    "dppsPdfCode": "a73eaaa8-7b5f-46b8-90f5-0eedc39df5ab.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 29,
+    "lectureName": "Atomic Structure Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "8166d2a4-c46e-4e04-8006-7a5407f20d01.pdf",
+    "dppsPdfCode": "7822584f-8051-4bc5-8d91-7837a2904465.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 30,
+    "lectureName": "Atomic Structure Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "ffbc2543-cf76-4e08-bae2-11e69f88f168.pdf",
+    "dppsPdfCode": "ac808a54-2910-4b04-ba0f-d201a5b9db0e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 31,
+    "lectureName": "Atomic Structure Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "38ccf183-c7bf-4287-a76a-eb874aab582b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 32,
+    "lectureName": "Atomic Structure Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "1ba2e8af-23f1-4ccf-ab31-47f4a3e4bda2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 33,
+    "lectureName": "Atomic Structure Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "df668c65-ecc6-4168-afe5-4b086ad576a4.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

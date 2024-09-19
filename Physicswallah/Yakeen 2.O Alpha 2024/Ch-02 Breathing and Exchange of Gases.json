@@ -1,0 +1,382 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Breathing and Exchange of Gases : Sum...",
+    "lectureCode": "4de4f83b-1531-4f3a-b1ad-67631348fc13",
+    "extId": "64b2257db2f5c80018868e11",
+    "key": "64b2a0187cb685001896f00e",
+    "classNotesCode": "11a30b6c-5558-4477-a601-caacfe9937aa.pdf",
+    "dppsPdfCode": "a82efb4d-cf54-4673-9e5b-05746ad5bdee.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Breathing and exchange of gases : Sum...",
+    "lectureCode": "cb256dbd-a816-426c-9a58-d24090b337ac",
+    "extId": "64a9284ae300130018cc7ccc",
+    "key": "64a96bb76122ad00182b2591",
+    "classNotesCode": "7782c543-3109-46bb-b06c-9669fe7d3736.pdf",
+    "dppsPdfCode": "ae93ba14-81e7-495c-b724-0c6a96a3c23a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Breathing and Exchange of Gases 11 : ...",
+    "lectureCode": "b09ec0ca-1ed5-423d-9ffd-b87c829dc2f8",
+    "extId": "6499d0fe2b79210018635627",
+    "key": "649abd5847539500189babcc",
+    "classNotesCode": "a7af5143-e05b-4914-8446-121d75e11bd6.pdf",
+    "dppsPdfCode": "965a7184-951a-47cc-819d-ebe3f1c5a61b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Breathing and Exchange of Gases 10 : ...",
+    "lectureCode": "df6d20a6-c658-4c53-af29-b7039befdc99",
+    "extId": "649947341234110019030f17",
+    "key": "64996df6d95365001877f8c8",
+    "classNotesCode": "746bbd10-6a17-4d19-a0b3-ba0fac346ae3.pdf",
+    "dppsPdfCode": "bf00807d-e372-45e4-bf7b-c9f2651d18eb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Breathing and Exchange of Gases 09 : ...",
+    "lectureCode": "b91f3de5-912d-4ff4-9db2-37d3a9dc02e0",
+    "extId": "6491e43dc90e4f0018a7d4fe",
+    "key": "6492e5761e0e1e0018020dca",
+    "classNotesCode": "212bc43c-46f8-4c95-865e-3cd0653fac86.pdf",
+    "dppsPdfCode": "ed46cdb0-d79a-4d72-9672-a56774bebe9e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Breathing and Exchange of Gases 08 : ...",
+    "lectureCode": "18de6aca-8a59-47ac-ba48-828e51c27717",
+    "extId": "6490afd91b6f9800189f2690",
+    "key": "649183e958c62b0018c86ae0",
+    "classNotesCode": "72dacf1a-e7c8-449f-b9c4-efa2815c79f2.pdf",
+    "dppsPdfCode": "092e3255-a897-4261-b75e-e7d7d00b1bcd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Breathing and Exchange of Gases 07 : ...",
+    "lectureCode": "761f561d-7ca3-48ff-812e-60bcd71be5f0",
+    "extId": "648f65323976c50018223171",
+    "key": "64902d798231750018b8a9bf",
+    "classNotesCode": "8eaaa8a2-60e9-4502-b71c-6436a90078b3.pdf",
+    "dppsPdfCode": "f3ab22b8-677e-4382-8775-86c6e0cf4431.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Breathing and Exchange of Gases 06 : ...",
+    "lectureCode": "9943ab88-0bfa-4a19-9ced-6c1427f4be33",
+    "extId": "6488da3836a49c00183402c0",
+    "key": "64896b873b9f1700185c98e8",
+    "classNotesCode": "11a30b6c-5558-4477-a601-caacfe9937aa.pdf",
+    "dppsPdfCode": "1b74031d-cc1a-40ac-998d-a549bb580a83.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Breathing and Exchange of Gases 05 : ...",
+    "lectureCode": "a00df2c0-cfe6-4fc0-93c8-587d570c8e11",
+    "extId": "6487273ab095a30018baf13a",
+    "key": "6488488a8dfc290018c4847b",
+    "classNotesCode": "7782c543-3109-46bb-b06c-9669fe7d3736.pdf",
+    "dppsPdfCode": "d75e77d9-f17d-437e-b050-3e65d417d8e0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Breathing and Exchange of Gases 04 : ...",
+    "lectureCode": "236fad24-e9c6-4587-bc48-5cb1a2a8242e",
+    "extId": "645b91953693f500187ca310",
+    "key": "6486f7a54c0f72001842a2bf",
+    "classNotesCode": "a7af5143-e05b-4914-8446-121d75e11bd6.pdf",
+    "dppsPdfCode": "03742f71-b9a7-4e15-851d-0efd90d17617.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Breathing and Exchange of Gases 03 : ...",
+    "lectureCode": "6838ca2b-e7fc-4913-bf2b-d489ab84e61e",
+    "extId": "647f5f8c5183fd00180ce779",
+    "key": "6480611676f4c80018ff0510",
+    "classNotesCode": "746bbd10-6a17-4d19-a0b3-ba0fac346ae3.pdf",
+    "dppsPdfCode": "a0357b96-80b6-4bb8-9b98-b533746f8956.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 12,
+    "lectureName": "Breathing and Exchange of Gases 02 : ...",
+    "lectureCode": "022ab446-396e-4ebe-83e5-b20f666a39ab",
+    "extId": "647e12c0ed387700181070cb",
+    "key": "647f0d4bb2169d0018fa8f76",
+    "classNotesCode": "212bc43c-46f8-4c95-865e-3cd0653fac86.pdf",
+    "dppsPdfCode": "dd73f06f-89c4-441f-9d86-b335f663fdf7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 13,
+    "lectureName": "Breathing and Exchange of Gases 01 : ...",
+    "lectureCode": "fd3564a4-be53-43d8-9abc-9615a641bf0c",
+    "extId": "645b91953693f500187ca30f",
+    "key": "647dc1a313123e0018291c06",
+    "classNotesCode": "72dacf1a-e7c8-449f-b9c4-efa2815c79f2.pdf",
+    "dppsPdfCode": "4426a49a-9156-4adf-9546-6dea8247c260.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 14,
+    "lectureName": "Breathing and Exchange of Gases 09 : ...",
+    "lectureCode": "dc2bf9ab-730f-4f6f-af8d-39683037d765",
+    "extId": "64987018afe97a001853c387",
+    "key": "64996b7691e6a300181df3b2",
+    "classNotesCode": "8eaaa8a2-60e9-4502-b71c-6436a90078b3.pdf",
+    "dppsPdfCode": "be2a7f5a-822f-4a97-9ef5-479424a6fb94.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 15,
+    "lectureName": "Breathing and Exchange of Gases 08 : ...",
+    "lectureCode": "f732af54-a4ad-47fb-9bd7-fdb2934c56e5",
+    "extId": "64908d67471aca0018e266c2",
+    "key": "649183cb74cb4e00184deb7f",
+    "classNotesCode": "11a30b6c-5558-4477-a601-caacfe9937aa.pdf",
+    "dppsPdfCode": "9c066231-d021-498b-a89b-54e1cc134e56.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 16,
+    "lectureName": "Breathing and Exchange of Gases 07 : ...",
+    "lectureCode": "429830dd-b623-4a05-927c-f947f16bd970",
+    "extId": "648f6808a2fb880018464623",
+    "key": "6490394b91189500185ec487",
+    "classNotesCode": "7782c543-3109-46bb-b06c-9669fe7d3736.pdf",
+    "dppsPdfCode": "f6ba6572-c38d-4a02-a97d-56bd74a09eb0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 17,
+    "lectureName": "Breathing and Exchange of Gases 06 : ...",
+    "lectureCode": "a4c0a4a4-c074-412d-ae8b-d9ab2f450d4d",
+    "extId": "6488dd04f7d9c800187004d6",
+    "key": "6489983082387200181a638b",
+    "classNotesCode": "a7af5143-e05b-4914-8446-121d75e11bd6.pdf",
+    "dppsPdfCode": "c93b2b72-f24e-4529-832a-723e0b588b8f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 18,
+    "lectureName": "Breathing and Exchange of Gases 05 : ...",
+    "lectureCode": "80dd289f-c7b8-449e-a3d7-ff382c4ecf23",
+    "extId": "6487275da5baef0018f9a9c1",
+    "key": "648846ea86f04d001857e6a8",
+    "classNotesCode": "746bbd10-6a17-4d19-a0b3-ba0fac346ae3.pdf",
+    "dppsPdfCode": "b7b714f7-0755-402d-b29d-5cf2de6962a6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 19,
+    "lectureName": "Breathing and Exchange of Gases-04 : ...",
+    "lectureCode": "e565ea1e-18c2-4daa-b5f6-065fc01d573f",
+    "extId": "645b93a870d8730018cc0577",
+    "key": "6486f5411359830018388bdf",
+    "classNotesCode": "212bc43c-46f8-4c95-865e-3cd0653fac86.pdf",
+    "dppsPdfCode": "36efb3a1-c629-43b6-a6f4-e5f2caa9e6c9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 20,
+    "lectureName": "Breathing and Exchange of Gases-03 : ...",
+    "lectureCode": "df310ed4-d280-43c8-ac6a-6ed3f37fdf4b",
+    "extId": "647f8b2488dfb20018346317",
+    "key": "6480637d738c06001821500e",
+    "classNotesCode": "72dacf1a-e7c8-449f-b9c4-efa2815c79f2.pdf",
+    "dppsPdfCode": "5762694b-e72b-4987-b274-625e589f94ec.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 21,
+    "lectureName": "Breathing and Exchange of Gases-02 : ...",
+    "lectureCode": "001c6819-8606-4172-8b07-cc52f84c4410",
+    "extId": "647e00fd4a59bf00186fab19",
+    "key": "647f0c0040846000181b54cc",
+    "classNotesCode": "8eaaa8a2-60e9-4502-b71c-6436a90078b3.pdf",
+    "dppsPdfCode": "be29f16e-6528-4c32-ab98-5d475c2d84bc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 22,
+    "lectureName": "Breathing and Exchange of Gases 01 : ...",
+    "lectureCode": "858bb2f2-e3d9-4b9f-a44f-0fe42bda2f1d",
+    "extId": "645b93a870d8730018cc0576",
+    "key": "647dbb5534ad780018782b11",
+    "classNotesCode": "bf00807d-e372-45e4-bf7b-c9f2651d18eb.pdf",
+    "dppsPdfCode": "8a301546-0a48-45f3-a56e-16fd663518fd.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 23,
+    "lectureName": "Breathing and Exchange of Gases Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "d75e77d9-f17d-437e-b050-3e65d417d8e0.pdf",
+    "dppsPdfCode": "7d177308-39a1-4b46-97d8-3cebda8669b3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 24,
+    "lectureName": "Breathing and Exchange of Gases Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "c93b2b72-f24e-4529-832a-723e0b588b8f.pdf",
+    "dppsPdfCode": "1d8f858f-8aa8-498d-a082-64fed601a348.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 25,
+    "lectureName": "Breathing and Exchange of Gases Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "451c7abd-4c5a-4997-ad47-6e1198146e04.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 26,
+    "lectureName": "Breathing and Exchange of Gases Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "61c74f16-e97f-4d20-a45b-4aaebb0a1a9f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 27,
+    "lectureName": "Breathing and Exchange of Gases Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "3cefa51a-5c76-4c21-940a-f959a7cc1cd3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 28,
+    "lectureName": "Breathing and Exchange of Gases Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "d68a7cd0-72a4-4bda-95fe-8a6092b6a27c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 29,
+    "lectureName": "Breathing and Exchange of Gases Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "8c9c9bec-341f-4470-842d-0075566661b4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 30,
+    "lectureName": "Breathing and Exchange of Gases DPP- Solution...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "b120aa5f-46bf-4fa3-b000-8536dc431a98.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 31,
+    "lectureName": "Breathing and Exchange of Gases DPP- Solution...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 32,
+    "lectureName": "Breathing and Exchange of Gases Solution to DPP...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 33,
+    "lectureName": "Breathing and Exchange of Gases Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 34,
+    "lectureName": "Breathing and Exchange of Gases Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 35,
+    "lectureName": "Breathing and Exchange of Gases Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 36,
+    "lectureName": "Breathing and Exchange of Gases Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 37,
+    "lectureName": "Breathing and Exchange of Gases Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 38,
+    "lectureName": "Breathing and Exchange of Gases Solution to DPP-...",
+    "lectureCode": "",
+    "extId": "",
+    "key": "",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]
