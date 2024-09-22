@@ -1,69 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Shaka Player UI library -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream Player</title>
     <script src="https://cdn.jsdelivr.net/npm/shaka-player@4.9.2/dist/shaka-player.ui.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/shaka-player@4.9.2/dist/controls.css">
-
-    <!-- Chromecast SDK -->
-    <script defer src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script>
 </head>
 
 <body>
-
-    <!-- Container for Shaka Player -->
-    <div data-shaka-player-container data-shaka-player-cast-receiver-id="1BA79154">
-        <video autoplay data-shaka-player poster="https://peach.blender.org/wp-content/uploads/bbb-splash.png"
-               id="video" style="width:100%; height:100%"></video>
+    <!-- Video Container for Shaka Player -->
+    <div data-shaka-player-container>
+        <video id="video" autoplay data-shaka-player poster="https://peach.blender.org/wp-content/uploads/bbb-splash.png" 
+            style="width:100%; height:100%"></video>
     </div>
 
     <script>
-        /// Retrieve the URL parameters
         const urlParams = new URLSearchParams(window.location.search);
         const ext = urlParams.get('UI');
-
-        // Build the manifest URL (m3u8 file)
         let manifestUri = ext ? `https://stream.githab.in/${ext}/master.m3u8` : null;
 
-        // Check if the user-agent is VLC
+        // VLC Player Detection
         function isVLCPlayer() {
             return navigator.userAgent.toLowerCase().includes('vlc');
         }
 
-        // If VLC is detected, redirect to the video stream URL
+        // If VLC is detected, redirect to the manifest URI directly
         if (manifestUri && isVLCPlayer()) {
-            window.location.href = manifestUri;  // Redirect VLC to play the m3u8 stream
+            window.location.href = manifestUri;
         }
 
-        // Initialize Shaka Player if not VLC (for browser playback)
+        // Initialize Shaka Player for browsers
         async function initPlayer() {
             if (!manifestUri) {
-                console.log('No live stream URL found.');
+                console.error('No stream URL provided.');
                 return;
             }
 
-            // Get the video element and initialize Shaka Player UI
             const video = document.getElementById('video');
             const ui = video['ui'];
             const controls = ui.getControls();
             const player = controls.getPlayer();
 
-            // Attach player to the global scope for debugging
             window.player = player;
             window.ui = ui;
 
-            player.addEventListener('error', (event) => console.error('Player error', event.detail));
-
             try {
-                // Load the video stream into Shaka Player
                 await player.load(manifestUri);
-                console.log('Video has loaded successfully.');
+                console.log('Video has been successfully loaded.');
             } catch (error) {
-                console.error('Error loading video:', error);
+                console.error('Error loading the video:', error);
             }
         }
 
-        // If VLC is not detected, initialize Shaka Player
+        // Initialize the player in browsers
         if (!isVLCPlayer()) {
             document.addEventListener('shaka-ui-loaded', initPlayer);
             document.addEventListener('shaka-ui-load-failed', () => {
@@ -71,6 +61,5 @@
             });
         }
     </script>
-
 </body>
 </html>
