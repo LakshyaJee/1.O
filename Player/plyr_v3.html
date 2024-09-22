@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Shaka Player ui compiled library: -->
+    <script src="https://cdn.jsdelivr.net/npm/shaka-player@4.9.2/dist/shaka-player.ui.js"></script>
+
+    <!-- Shaka Player ui compiled library default CSS: -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/shaka-player@4.9.2/dist/controls.css">
+
+    <!-- Chromecast SDK (if you want Chromecast support for your app): -->
+    <script defer src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script>
+</head>
+
+<body>
+
+    <div data-shaka-player-container data-shaka-player-cast-receiver-id="1BA79154">
+        <video autoplay data-shaka-player poster="https://peach.blender.org/wp-content/uploads/bbb-splash.png"
+            id="video" style="width:100%;height:100%"></video>
+    </div>
+
+    <script>
+        /// Retrieve the URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const ext = urlParams.get('UI');
+
+        // Retrieve the modified URL from sessionStorage
+        let modifyUrl = sessionStorage.getItem('modifyUrl');
+
+        // Check if the 'UI' param is present in the URL
+        let manifestUri;
+        if (ext) {
+            manifestUri = `https://stream.githab.in/${ext}/master.m3u8`; // Use UI param to construct manifest URL
+            console.log('Using manifestUri from URL params:', manifestUri);
+        } else if (modifyUrl) {
+            // Use session storage modified URL
+            const finalModifyUrl = new URL(modifyUrl);
+            const url = finalModifyUrl.searchParams.get('url');
+            const startTime = finalModifyUrl.searchParams.get('start_time');
+            const modifyUrl2 = `${encodeURIComponent(url)}&start_time=${startTime}/`;
+            manifestUri = `${modifyUrl2}`;
+            console.log('Using manifestUri from session storage (modified):', manifestUri);
+        } else {
+            console.log('No live stream URL found.');
+        }
+
+        // Detect if the user is using VLC player
+        function isVLCPlayer() {
+            return navigator.userAgent.toLowerCase().includes('vlc');
+        }
+
+        // If manifestUri is available, either load it into Shaka Player or redirect for VLC
+        if (manifestUri) {
+            if (isVLCPlayer()) {
+                // Redirect to manifest URL if VLC is detected
+                window.location.href = manifestUri;
+            } else {
+                // Initialize Shaka player for browsers
+                initPlayer(manifestUri);
+            }
+        } else {
+            console.log('Error: Unable to fetch the manifest URL.');
+        }
+
+        // Function to initialize the Shaka player
+        async function initPlayer(manifestUri) {
+            const video = document.getElementById('video');
+            const ui = video['ui'];
+            const controls = ui.getControls();
+            const player = controls.getPlayer();
+            window.player = player;
+            window.ui = ui;
+
+            player.addEventListener('error', onPlayerErrorEvent);
+            controls.addEventListener('error', onUIErrorEvent);
+
+            try {
+                await player.load(manifestUri);
+                console.log('The video has now been loaded!');
+            } catch (error) {
+                onPlayerError(error);
+            }
+        }
+
+        function onPlayerErrorEvent(errorEvent) {
+            onPlayerError(errorEvent.detail);
+        }
+
+        function onPlayerError(error) {
+            console.error('Error code', error.code, 'object', error);
+        }
+
+        function onUIErrorEvent(errorEvent) {
+            onPlayerError(errorEvent.detail);
+        }
+
+        document.addEventListener('shaka-ui-loaded', () => initPlayer(manifestUri));
+        document.addEventListener('shaka-ui-load-failed', (errorEvent) => {
+            console.error('Unable to load the UI library!', errorEvent);
+        });
+    </script>
+
+</body>
+
+</html>
