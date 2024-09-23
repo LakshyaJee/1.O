@@ -1,0 +1,16 @@
+[
+    {
+        "lectureNumber": 2,
+        "lectureName": "Microbes in Human Welfare 02 : Microbe in Sewage Treatment",
+        "lectureCode": "9e2550f9-fe3b-4d0f-a184-58aa27fe90a7",
+        "classNotesCode": "5607e7bc-2035-4921-9d60-cf2bf5a5878a.pdf",
+        "dppsPdfCode": "99422b7d-49c7-40a9-b7ac-41183275e63d.pdf"
+      },
+      {
+        "lectureNumber": 1,
+        "lectureName": "Microbes in Human Welfare 01 : Microbes in Food Preparation || No DPP",
+        "lectureCode": "881175c5-32b6-4ec7-af3a-3c1b1fb911bb",
+        "classNotesCode": "c1104f67-e06d-46d9-8599-f20e825d895d.pdf",
+        "dppsPdfCode": ""
+      }
+    ]

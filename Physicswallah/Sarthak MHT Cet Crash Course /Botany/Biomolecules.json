@@ -1,0 +1,23 @@
+[
+{
+    "lectureNumber": 3,
+    "lectureName": "Biomolecules 03 : DPP Discussion",
+    "lectureCode": "00e35edd-9057-4bea-b029-2698ef743467",
+    "classNotesCode": "62dded93-d29b-431a-800a-7dfd069fc642.pdf",
+    "dppsPdfCode": "7a0e41b3-a460-400b-9051-1cbdece9a898.pdf"
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Biomolecules 02 : Enzymes",
+    "lectureCode": "e9581088-540d-493a-bdcc-c6008bfba0d8",
+    "classNotesCode": "84e2c5d0-5635-4282-adab-703854c576c1.pdf",
+    "dppsPdfCode": ""
+  },
+  {
+    "lectureNumber": 1,
+    "lectureName": "Biomolecules 01 : Carbohydrates Lipid and Proteins || No DPP",
+    "lectureCode": "1aff7d6e-30e7-4a48-9183-156f2853e600",
+    "classNotesCode": "a14fd909-8d66-4dd9-a68a-053adfdd34db.pdf",
+    "dppsPdfCode": ""
+  }
+]

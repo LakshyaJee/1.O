@@ -1,0 +1,30 @@
+[
+    {
+        "lectureNumber": 1,
+        "lectureName": "Inheritance & Variation 01 : Mendel's Law || No DPP",
+        "lectureCode": "14a48973-1fb0-4c06-933a-17215d91c50e",
+        "classNotesPdf": "41cd2cc8-f562-4b6e-9e21-f74d10b2b5ed.pdf",
+        "dppsPdfCode": ""
+      },
+      {
+        "lectureNumber": 2,
+        "lectureName": "Inheritance & Variation 02 : Neo Mendelism || No DPP",
+        "lectureCode": "2d3ded1b-11e1-493c-ae4c-272f0e708532",
+        "classNotesPdf": "ac40d625-1f13-457c-baad-cfebe7e5f544.pdf",
+        "dppsPdfCode": ""
+      },
+      {
+        "lectureNumber": 3,
+        "lectureName": "Inheritance & Variation 03 : Genetic Disorders",
+        "lectureCode": "f5971211-b91e-451b-af69-c9ccbb7f794c",
+        "classNotesPdf": "3c786052-59ee-4334-ab7f-a06d36e87819.pdf",
+        "dppsPdfCode": ""
+      },
+      {
+        "lectureNumber": 4,
+        "lectureName": "Inheritance & Variation 04 : DPP Discussion",
+        "lectureCode": "a977e0c7-113d-4a34-869b-ee444d1c8eaf",
+        "classNotesPdf": "79f1c417-8507-450b-8b15-dee5e7bcdbcd.pdf",
+        "dppsPdfCode": "2598fe25-5ad5-4ac8-86e3-63071e14e395.pdf"
+      }
+    ]

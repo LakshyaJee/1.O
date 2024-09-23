@@ -1,0 +1,23 @@
+[
+    {
+        "lectureNumber": 3,
+        "lectureName": "Respiration & Energy Transfer 03 : DPP Discussion",
+        "lectureCode": "8f367c82-ced5-408b-80e4-e13c8365880e",
+        "classNotesCode": "2468d1a1-c2c9-4af2-901d-9f88714a7664.pdf",
+        "dppsPdfCode": "97baf0d6-cfc5-4fb8-bfc3-5340e7cc8221.pdf"
+      },
+      {
+        "lectureNumber": 2,
+        "lectureName": "Respiration & Energy Transfer 02 : ETS and Oxidative Phosphorylation",
+        "lectureCode": "28ea9885-3761-47d6-85f8-81b6e09b12f8",
+        "classNotesCode": "6ab64165-38f6-40cf-815a-2530e1d7af53.pdf",
+        "dppsPdfCode": ""
+      },
+      {
+        "lectureNumber": 1,
+        "lectureName": "Respiration & Energy Transfer 01 : Glycolysis and Krebs cycle || No DPP",
+        "lectureCode": "9e89cfaf-b085-40d8-b13f-3e55bb6094bf",
+        "classNotesCode": "691356e9-ed51-460b-bdfc-409724f6af25.pdf",
+        "dppsPdfCode": ""
+      }
+    ]
