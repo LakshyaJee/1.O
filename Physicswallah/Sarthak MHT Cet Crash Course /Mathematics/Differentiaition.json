@@ -1,0 +1,23 @@
+[
+    {
+        "lectureNumber": 3,
+        "lectureName": "Differentiation 03 : DPP Discussion",
+        "lectureCode": "73476db9-1bb7-4fcc-9db2-a98733a614e4",
+        "classNotesCode": "c734768f-3edf-4ee7-a726-70d684d0bfcc.pdf",
+        "dppsPdfCode": "a7777575-1206-4fbd-b52b-c4f55954621f.pdf"
+      },
+      {
+        "lectureNumber": 2,
+        "lectureName": "Differentiation 02 : Derivative of Composite Functions || No DPP",
+        "lectureCode": "9bf83fdf-e903-497d-a8bf-dba300697b08",
+        "classNotesCode": "0b50e84b-4376-419d-b83d-5f88598e34c5.pdf",
+        "dppsPdfCode": ""
+      },
+      {
+        "lectureNumber": 1,
+        "lectureName": "Differentiation 01 : Derivative of Composite Functions",
+        "lectureCode": "cbe1c3ff-1bc2-419e-b090-f33c3052f401",
+        "classNotesCode": "b7a82b10-eb87-4e30-be0b-f15623ed4bc8.pdf",
+        "dppsPdfCode": ""
+      }
+    ]

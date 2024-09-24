@@ -1,0 +1,23 @@
+[
+    {
+        "lectureNumber": 3,
+        "lectureName": "Vectors 03 : DPP Discussion",
+        "lectureCode": "681b7866-9faf-46fa-80cf-7bbe0afa7012",
+        "classNotesCode": "3d48dfb5-c642-4184-8ca1-c87f77932566.pdf",
+        "dppsPdfCode": "474763cd-2aaf-4f09-ad4a-82c857a95880.pdf"
+      },
+      {
+        "lectureNumber": 2,
+        "lectureName": "Vectors 02 : Scalar Product of Vectors",
+        "lectureCode": "ea9c947b-3ab7-4eb4-ad71-305c113f564e",
+        "classNotesCode": "8624d847-c654-4112-a300-3df039d48b88.pdf",
+        "dppsPdfCode": ""
+      },
+      {
+        "lectureNumber": 1,
+        "lectureName": "Vectors 01 : Types of Vectors and Algebra of Vectors, Collinearity and Coplanarity of Vectors || No DPP",
+        "lectureCode": "2bb86f80-5ce3-45ed-b89e-8f89f580f31a",
+        "classNotesCode": "816a6337-003c-43fe-90e2-fa2a8f47887a.pdf",
+        "dppsPdfCode": ""
+      }
+    ]

@@ -1,0 +1,16 @@
+[
+    {
+        "lectureNumber": 2,
+        "lectureName": "Matrices 02 : Practice Questions",
+        "lectureCode": "e6b1173f-5767-4be8-bdce-2adad4428b00",
+        "classNotesCode": "44d31403-27a8-4079-8793-90ec6ace6947.pdf",
+        "dppsPdfCode": "d972f842-c4a6-46e2-841a-e34d492f99e8.pdf"
+      },
+      {
+        "lectureNumber": 1,
+        "lectureName": "Matrices 01 : Inverse of Matrix, Properties of A Joint of Matrix",
+        "lectureCode": "23204bc5-7bce-45d0-b165-3987dee068c4",
+        "classNotesCode": "8164e8ad-266a-4da7-988e-21bcc1f3c02f.pdf",
+        "dppsPdfCode": ""
+      }
+    ]
