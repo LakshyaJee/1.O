@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Organic compounds containing nitrogen...",
+    "lectureCode": "2a4b8ae3-bcb4-4d2c-8c7f-113846ef76dc",
+    "extId": "66627d326836ca0018902663",
+    "key": "66630217d80c45001867516e",
+    "classNotesCode": "99e37bf6-759d-444e-9fab-49a2f7f502c9.pdf",
+    "dppsPdfCode": "eae7cc18-252e-4725-9045-bf96895ea0e6.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Organic compounds containing nitrogen...",
+    "lectureCode": "a45adaa3-0c5c-46c1-8e98-f97320df2584",
+    "extId": "665fdd958ffeca00184a0b2b",
+    "key": "66605c8acbbd1100127dad16",
+    "classNotesCode": "9d47c431-decc-4d1d-ab8f-a3f47ac34e3b.pdf",
+    "dppsPdfCode": "44fd7f62-7cca-495f-b702-3f2e8201d80b.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Organic compounds containing nitrogen...",
+    "lectureCode": "661d49b6-b711-4f67-b308-934d84dfa746",
+    "extId": "665df0efd604d90018b3f06a",
+    "key": "665f0972fab00000123bb7b2",
+    "classNotesCode": "ee957db2-7a76-4f0e-8571-3fb49e27535f.pdf",
+    "dppsPdfCode": "1e8e50e2-d454-4e7f-acf3-a7461cead280.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Organic compounds containing nitrogen...",
+    "lectureCode": "a70cd8bf-6e24-4e5f-9b03-c6f1a5d6b6a0",
+    "extId": "665a8c9148489200189c367d",
+    "key": "665b1647ae5e3e0018285daf",
+    "classNotesCode": "119eaa8d-e492-43e4-afe1-227d11eeaa11.pdf",
+    "dppsPdfCode": "b1b10958-0b14-41d5-92d9-218208bf0d1e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Organic compounds containing nitrogen...",
+    "lectureCode": "043f9181-6973-4f00-a3ce-e4ca9a1b0a40",
+    "extId": "6658ab00fbf5d400189200f3",
+    "key": "6659c44b9a27e50012fb63e2",
+    "classNotesCode": "4ab2ec90-8202-45bc-81d9-5498d7abc1f9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

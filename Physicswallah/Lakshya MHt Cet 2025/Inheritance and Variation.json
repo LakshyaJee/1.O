@@ -1,0 +1,92 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Inheritance and Variation 06 : Deviat...",
+    "lectureCode": "42229232-68e3-4074-a581-d937754445b1",
+    "extId": "664ccbac4223e900184c5952",
+    "key": "664e04199ee6640018c80ba2",
+    "classNotesCode": "2cbe5753-d8d8-4404-b14e-d5a5ce008396.pdf",
+    "dppsPdfCode": "e5f2f6aa-5334-4619-857c-53d12194bf4f.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Inheritance and Variation 05 : Dihybr...",
+    "lectureCode": "9e4082cf-fd9a-431d-a520-6bd63b0eebca",
+    "extId": "664b7e8b80e85a00180eccff",
+    "key": "664cb1a7f825b3001859b973",
+    "classNotesCode": "5fd592f5-a6fa-4a8d-b1f6-e09264e4a58f.pdf",
+    "dppsPdfCode": "61a45e11-c7d3-4537-a00b-18e66445c879.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Inheritance and Variation 04 : Mendel...",
+    "lectureCode": "605f69ed-0baf-4c54-ac78-8007b6d1729a",
+    "extId": "664a1574db9dff0018024698",
+    "key": "664b4363cc6af40018e1e124",
+    "classNotesCode": "b0ec6340-2aca-4118-a5b7-3acea3aa8e36.pdf",
+    "dppsPdfCode": "8a0411df-28bc-4f86-9589-422ada451580.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Inheritance and Variation 03 : Import...",
+    "lectureCode": "c286574c-a24d-4a7d-a63e-9621f625459d",
+    "extId": "6643a32ef374ac0019ec8c2b",
+    "key": "6644c8972a4b2b00121df464",
+    "classNotesCode": "2e09b14c-b350-4d16-abc1-34ee26baa2fa.pdf",
+    "dppsPdfCode": "fd6c59cf-2356-484a-b3b6-187aefa515f0.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Inheritance and Variation 02 : Geneti...",
+    "lectureCode": "9069c421-ac1a-41ad-8f78-ce7ecc630009",
+    "extId": "664264ea09ce7100185409f1",
+    "key": "664378d5c30db90018f6e659",
+    "classNotesCode": "ffcbe0c3-af59-45a3-a36f-1a93eeea8a71.pdf",
+    "dppsPdfCode": "370a1343-62ae-48ba-8b77-96dc96edd9ec.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Lecture01:Inheritance and Variation |...",
+    "lectureCode": "6d3e37f4-f096-4ccb-953b-8d76b20278d4",
+    "extId": "664185cef0842200189d6f97",
+    "key": "663f4603cbb7c700182a2b0b",
+    "classNotesCode": "dd8df3fc-3909-45d4-8c5f-3497fd5dcd8e.pdf",
+    "dppsPdfCode": "225f7aae-f24b-4aaa-a144-7c22a09cd6b2.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "lecture 9 | Inheritance and variation...",
+    "lectureCode": "97aa112c-e187-4074-8202-1d8ec22d7c73",
+    "extId": "6656d2655154ce00188e7541",
+    "key": "66586f2395a3be0018f79c12",
+    "classNotesCode": "de186aab-6942-4df4-acd0-bc20f91f733e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Inheritance and Variation 08 : Deviat...",
+    "lectureCode": "444b6e9a-f2b2-4a77-ba20-4def49bab52f",
+    "extId": "6654b297ad61ec001809fbfc",
+    "key": "6655eb8dd60c950012550e25",
+    "classNotesCode": "3d8776b2-a0d6-486d-9c4f-ef6db39159a0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Inheritance and Variation 07 : Deviat...",
+    "lectureCode": "c19dd388-d819-4dbf-a06f-ef261cd5a108",
+    "extId": "6653f5afe80a6f0018351352",
+    "key": "66548070786e8d0018273742",
+    "classNotesCode": "b10a1866-1a5a-4ebf-8c09-236f65b41045.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "lecture no 09 Biomolecules | sidhi mam",
+    "lectureCode": "993c97a0-7759-42a3-88d6-08277e6221ab",
+    "extId": "66754f5feda6ec00180eb241",
+    "key": "667519953cda040018c975d3",
+    "classNotesCode": "0c85050a-a4b1-49ea-a962-996de43e61f1.pdf",
+    "dppsPdfCode": "8b84ce1f-ce79-4050-9d9d-c75956aa0d43.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "lecture no 08 Biomolecules | sidhi mam",
+    "lectureCode": "4160ca6a-67cb-4d2c-8704-f69671cb60fc",
+    "extId": "6674eac13232370018c2ff98",
+    "key": "667537f7151f580018da47ea",
+    "classNotesCode": "3136efd6-96de-48ba-86f1-f2793bd4b368.pdf",
+    "dppsPdfCode": "77581b09-c93e-4d9b-8e3c-3cc249fc351a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Biomolecules 07: Proteins (Part 02) |...",
+    "lectureCode": "07e45c6e-4bab-48ec-91d6-f93a18fa0be0",
+    "extId": "6670e7d61350b200189c35e0",
+    "key": "6671477c6b057c0012fca570",
+    "classNotesCode": "8a080260-c2b1-489c-bc3b-b7e017d239b3.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Biomolecules Lec 06 || Lakshya MHT CET",
+    "lectureCode": "e77f1b8d-1591-4238-967a-e2c518137f68",
+    "extId": "666f1fc61bdd31001856c7fb",
+    "key": "666fdef34d026800182d293d",
+    "classNotesCode": "a8f10092-715b-43d4-a583-f5eb2f312601.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Biomolecules 05 : Disaccharides and P...",
+    "lectureCode": "06dd4ce3-b1cf-4634-8681-7c66eac4d214",
+    "extId": "666d0096d112ba00188c66c9",
+    "key": "666d8d112003460012de8547",
+    "classNotesCode": "5b5aa406-3743-4276-a9be-b15a57c05df4.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Biomolecules 04 : Disaccharides and P...",
+    "lectureCode": "761b21ed-c536-45ab-a513-8c48daa0769d",
+    "extId": "666bd8aa56032b0018f41d7a",
+    "key": "666c3dfe65ad860018fab8a6",
+    "classNotesCode": "f0298bd5-c161-43c0-b1e6-6eecb9588370.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Topic  Biomolecules 03 Disaccharides ...",
+    "lectureCode": "d49bf30f-2ca3-4556-aca2-f40e81919145",
+    "extId": "666899cfaad6ff0018800ccf",
+    "key": "66699c58cf067400196f5790",
+    "classNotesCode": "8b84ce1f-ce79-4050-9d9d-c75956aa0d43.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Biomolecules 02 : Glucose and Fructos...",
+    "lectureCode": "6226a9a2-61f1-422f-8958-1ac6d16c9b37",
+    "extId": "6667c715fe0ade0018eb4fad",
+    "key": "666847be5abfcd001869f24b",
+    "classNotesCode": "77581b09-c93e-4d9b-8e3c-3cc249fc351a.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Biomolecules 01 : Carbohydrates: Clas...",
+    "lectureCode": "8c05d153-d628-4e7a-ac91-984fa667bd70",
+    "extId": "6663d263ced139001894c251",
+    "key": "66644ea0fa4b540018a3f2fb",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

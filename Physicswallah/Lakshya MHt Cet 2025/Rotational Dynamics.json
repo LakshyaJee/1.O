@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Rotational dynamics 08 : Rolling Moti...",
+    "lectureCode": "5def24da-9d62-4001-9bf3-0aad51235a2c",
+    "extId": "6633a99513569a0018208598",
+    "key": "66350a140be6aa0018ae07e8",
+    "classNotesCode": "9df062e8-191f-4621-9288-9c40a16216d9.pdf",
+    "dppsPdfCode": "f2eea5ab-4d33-487b-93eb-6500615e7ea7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Rotational dynamics 07 : Angular Mome...",
+    "lectureCode": "e3ed48e0-2e09-4906-ba3c-d978da70611a",
+    "extId": "6632384283aea80018ad9066",
+    "key": "6633c0a2f3aa130018d13f70",
+    "classNotesCode": "84b5d105-6322-4d70-a13d-b8fe82be04f4.pdf",
+    "dppsPdfCode": "260fb8a0-8d09-472f-8c8b-d47ad2b9a3ea.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Rotational dynamics 06 : Moment of In...",
+    "lectureCode": "8b3627f9-ae11-4189-a16e-298742870b90",
+    "extId": "663075ca9fd5990018d6d939",
+    "key": "66311f32ea1d490018ca8e03",
+    "classNotesCode": "efcdf3ec-6ca3-4ae5-a655-a6b96f75bad9.pdf",
+    "dppsPdfCode": "0a9f1706-8aca-45a2-8db3-981bf674c70a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Rotational dynamics 05 : Conical Pend...",
+    "lectureCode": "aa47184e-35f6-4f02-9b63-0f355d16883c",
+    "extId": "662f0f7319496c0018a46dc4",
+    "key": "662fc590a01a400018da72e9",
+    "classNotesCode": "04681d17-89c9-4314-acce-b78667c03b2e.pdf",
+    "dppsPdfCode": "b0fac9b9-62b3-4f90-a9d7-60798570f016.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Rotational Dynamics 04 : || DPP & Qui...",
+    "lectureCode": "d894cef5-71d3-46d9-a417-edf60cc8f805",
+    "extId": "662a845979b9010018eb5b56",
+    "key": "662bd1ff457e3400181e7fd5",
+    "classNotesCode": "f86b1d5d-4ef0-44bd-ba8d-9c4a8c2b6200.pdf",
+    "dppsPdfCode": "f9ef3fa4-d0bc-469f-9e75-f71e742d2ff4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Rotational dynamics 03 : Vehicle Alon...",
+    "lectureCode": "77aea8dd-0c00-473a-908a-9277f6910f57",
+    "extId": "66292c887ad958001834f8a9",
+    "key": "662a69a69163660018ebe119",
+    "classNotesCode": "28e8f525-b045-47ab-bc88-f948f5b62e7b.pdf",
+    "dppsPdfCode": "f25584ba-c46c-455f-8af8-5baa59b26706.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Rotational dynamics 02 : Centripetal ...",
+    "lectureCode": "d1acaadd-b380-4d4b-8ae8-e5b822531fbd",
+    "extId": "66271ff11f14a6001831eb8e",
+    "key": "6627e09935299800182f572c",
+    "classNotesCode": "75a6f94f-732c-4fb9-8d06-71f48bfb8cbc.pdf",
+    "dppsPdfCode": "fccc6678-100c-47bc-8770-48bd358ff58e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Rotational dynamics 01: Basics of Rot...",
+    "lectureCode": "fa19c7de-ad71-4fa1-90b7-c62d294e8242",
+    "extId": "6625de93dc42d00018c0fd2d",
+    "key": "6626742eec1bc500181da09d",
+    "classNotesCode": "40d23868-bf60-4c5c-867e-3073c2c6eb96.pdf",
+    "dppsPdfCode": "3b8620ce-d2bd-43a9-86e8-604a400d129c.pdf",
+    "dppsSolutionCode": ""
+  }
+]

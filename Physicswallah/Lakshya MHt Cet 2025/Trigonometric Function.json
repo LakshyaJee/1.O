@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Trigonometric Function 04: Projection...",
+    "lectureCode": "f23d670b-59b4-444c-bc2e-b3879d77cd40",
+    "extId": "6673066e233f34001878bf80",
+    "key": "66743c3f0de91c00185b2fc9",
+    "classNotesCode": "bcde8df0-eefb-49a0-a19f-ca5858870afa.pdf",
+    "dppsPdfCode": "f6506859-e7e4-4775-94e0-4bcef7ffc99c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Trigonometric Function 03 : Cartesian...",
+    "lectureCode": "7f69d1ce-8335-4e69-8bd7-c81fd5510330",
+    "extId": "66726af7cb155a001831d52b",
+    "key": "6673051fbb85aa00121bab17",
+    "classNotesCode": "a0a3c4ce-35b2-4dce-9e78-425b3d833b2b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Trigonometric Function 02 : General s...",
+    "lectureCode": "06155bc3-059d-4608-9186-34ac9b76652b",
+    "extId": "666fa122e11701001839c79e",
+    "key": "66703f33c98cf50018fe3102",
+    "classNotesCode": "074ab3ab-5dd8-4967-bbe1-d75f4ff19ebe.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Trigonometric Function 01 : Trigonome...",
+    "lectureCode": "20eede5c-3ab6-4586-89ff-44f4f49cff80",
+    "extId": "666d01cd83d891001820e4d2",
+    "key": "666dba0d83aad80018fd32dd",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Trigonometric Function 05 : Principal...",
+    "lectureCode": "eb603637-176b-47f5-acd6-4366a2ff8c9b",
+    "extId": "667668fefce01900181ea965",
+    "key": "6676fa289047990012dbbbb7",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

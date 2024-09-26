@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Lecture05:matrices | Arjun Sir",
+    "lectureCode": "e99c7488-249d-405a-b4af-2236532b4573",
+    "extId": "663c5271574ae10018d0f6f9",
+    "key": "663c4be0a0d9960018325c8e",
+    "classNotesCode": "435995dc-4e33-4b92-90e8-60860ba5f905.pdf",
+    "dppsPdfCode": "8917490b-f4b3-479b-b551-d7da8d236bf7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Lecture 04 | Matrices | Arjun Sir",
+    "lectureCode": "aeaa5608-0cbe-4fe4-9691-1d1c21f9359f",
+    "extId": "663af53704587e00183c6a42",
+    "key": "663af04a10f455001823e4f7",
+    "classNotesCode": "6eb666d7-a70f-4f9c-a8d7-3ce9d511af3b.pdf",
+    "dppsPdfCode": "306b0bc4-8801-4346-9863-d12606138874.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Matrices 03 lecture",
+    "lectureCode": "1f562cd6-8ea4-4ba7-ab9c-3fada612526e",
+    "extId": "6635b4873e4c1f0018830fd3",
+    "key": "6635cbad4655fe00181dd20c",
+    "classNotesCode": "8e0c1c88-90ed-4f1c-ab3e-1bcf4d121e6e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Matrices 02 : Inverse of Matrix",
+    "lectureCode": "4cc35431-44a4-464e-89fe-8ef410a4cb27",
+    "extId": "663236e52e86060018c398d6",
+    "key": "6633a5edcc61040018bc80c9",
+    "classNotesCode": "2ce23858-bac2-45cf-bc40-db089264353e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Matrices 01 : Elementary Transformati...",
+    "lectureCode": "3c0be988-3ecf-470f-837b-bf8e99e174fe",
+    "extId": "662f0d2f5b053c00188e6aab",
+    "key": "662fb1649a97170018bd6e7d",
+    "classNotesCode": "8c80de3c-83b4-46c9-b898-11c0991727dd.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

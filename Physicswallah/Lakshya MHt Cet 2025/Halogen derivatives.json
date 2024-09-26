@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Halogen derivatives 06 : Chemical rea...",
+    "lectureCode": "0d9ec621-6f66-4e6d-ae64-b30c814031b4",
+    "extId": "6633a8d69e003d0018eeaaa7",
+    "key": "6634d51cfef3fd0018b0c96a",
+    "classNotesCode": "da387288-d8a8-430d-baf2-f5bb998605b3.pdf",
+    "dppsPdfCode": "bd38859e-e9e1-4a42-af50-61ec79f56689.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Halogen derivatives 05 : SN1 and SN2 ...",
+    "lectureCode": "08e3320b-f5d0-4aeb-83d9-fe8ea7e42387",
+    "extId": "6630751ee48f70001813edf7",
+    "key": "6630e67cce52ab00185b9a19",
+    "classNotesCode": "8ebd2fd6-1f9e-4238-b4df-61855ce3bb85.pdf",
+    "dppsPdfCode": "06c1ea9a-5692-4e6d-8f6d-feb3b248af73.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Halogen derivatives 04 : Optical isom...",
+    "lectureCode": "d9ecf91a-29b8-48f9-96ce-da4e28dbaebe",
+    "extId": "662bebdb96b350001880c548",
+    "key": "662cf118275fc100188b37a5",
+    "classNotesCode": "348d4bb5-940d-42de-a14a-5f62036d6d28.pdf",
+    "dppsPdfCode": "6a11b041-1a84-403f-93f2-6dcfd5537f85.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Halogen derivatives 03 : Physical Pro...",
+    "lectureCode": "dfedf617-aac5-4e3f-98f4-d734bcb98c2a",
+    "extId": "662a84aaf054a00018a99629",
+    "key": "662b9e2a4859d50019198b71",
+    "classNotesCode": "56e11767-aa9c-4696-9dc9-6ec7596452f5.pdf",
+    "dppsPdfCode": "10e8b625-043d-4b59-b0c2-4a002be84824.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Halogen derivatives 02: Methods of pr...",
+    "lectureCode": "0dbf9436-d331-450a-9e57-3f2857f542e6",
+    "extId": "6627e3fda0a66a0018af7e52",
+    "key": "6628fd1602661d0018324c84",
+    "classNotesCode": "977dc644-df1f-48c3-8947-badc54cd99f5.pdf",
+    "dppsPdfCode": "c44fe0fe-ce4e-4979-9b13-8175dfc5f039.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Halogen derivatives  01 : Introductio...",
+    "lectureCode": "bb916075-2d63-43be-92f7-5d5a7f38df93",
+    "extId": "66271f4acf1e7d0018c94d83",
+    "key": "6627c413ffc7920018fe8534",
+    "classNotesCode": "fe5821dc-4d84-4b20-9896-d6e5ce014fa5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

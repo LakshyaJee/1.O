@@ -1,0 +1,42 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Mathematical Logic 04 : Application o...",
+    "lectureCode": "aab83750-e53f-405a-a6d6-4bf0aa2b84e0",
+    "extId": "662bec2e9873590018a6a7b5",
+    "key": "662d1cf995b4130018018d1f",
+    "classNotesCode": "4f5b2c0d-2551-4e7e-9177-8ab9181cd218.pdf",
+    "dppsPdfCode": "23100f24-2036-4a84-8c38-5176ec7d91b4.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Mathematical Logic 03 : Quantifiers, ...",
+    "lectureCode": "2e1f595e-3541-4e8c-a00e-faf39e0b4b09",
+    "extId": "66292c58e359ca0018e21213",
+    "key": "662a863912502600186562a3",
+    "classNotesCode": "18b73988-295a-4f61-b07a-99cd9a054d31.pdf",
+    "dppsPdfCode": "7686bb4e-0b9a-470a-9623-eb9d92211c37.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Mathematical Logic 02: Logical Equiva...",
+    "lectureCode": "0a5bfaed-ffc7-4369-a0c8-2542094a55d6",
+    "extId": "6627e52eacce14001814a5fb",
+    "key": "662a228cd458b80019d1ffab",
+    "classNotesCode": "02ebffb7-8a07-4e3f-a1c0-46a57a4c0e3e.pdf",
+    "dppsPdfCode": "c884daa3-cb0e-42b3-92fc-b0a6a24076e9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Mathematical Logic 01 : Statement and...",
+    "lectureCode": "56648ac1-f5b3-49f7-bfa2-781a980ba9a3",
+    "extId": "6625df2b8931020018d5b68b",
+    "key": "662691142a1b5400189ea501",
+    "classNotesCode": "7ed8e08f-4236-434f-accf-aa13f1767c54.pdf",
+    "dppsPdfCode": "7f32b173-3045-433a-93f3-b4e4578a9009.pdf",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Wave optics 08 : Numericals || No DPP",
+    "lectureCode": "6c53a984-7347-4e9f-bfb5-62e1996e156e",
+    "extId": "6669c6f9e6213e00184a81c7",
+    "key": "666b1c23df2a2900187a7289",
+    "classNotesCode": "8922c206-0665-49ce-82f9-a00b2b6942fe.pdf",
+    "dppsPdfCode": "17519f3b-1f6d-4260-8526-b9cdfe28629a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Wave optics 07 : Diffraction (Part 02...",
+    "lectureCode": "b50aace8-8d3b-43ea-888c-201fc3cf9b2f",
+    "extId": "6667c7f4dd77a300186bf5bb",
+    "key": "666878a3ac79490018adc5b5",
+    "classNotesCode": "697019d9-5abf-4652-a9db-a1c7cb868491.pdf",
+    "dppsPdfCode": "632e034f-271e-4c8e-87a5-caa54761e8a1.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Wave optics 06 : Diffraction || Class...",
+    "lectureCode": "e8db463d-9cb0-43bc-9969-a17e72f4db5c",
+    "extId": "666676f57ae7960018827d4b",
+    "key": "666724c8c5c2590012146934",
+    "classNotesCode": "c7db4674-d8d4-438c-ac53-0ed77529ec5d.pdf",
+    "dppsPdfCode": "7dd005a2-ebed-4fa1-9965-025993619991.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Lecture05:Wave Optics | Sushant Sir |...",
+    "lectureCode": "f2c7381d-604b-4c7a-ab1d-5bd14d359007",
+    "extId": "66627deb0353660018fb932e",
+    "key": "666443aa117ab2001873dc9b",
+    "classNotesCode": "3204398d-98b8-4699-ac38-b9577c865381.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Wave optics 04 : Polarization, Interf...",
+    "lectureCode": "6507e8eb-cb89-42d0-8de8-d4e65033af33",
+    "extId": "66608bfa9d5d1e00189593cc",
+    "key": "6661e0a119e51800120bdcbf",
+    "classNotesCode": "4ac2ab36-99f5-44e2-a3c8-2189ae0acea8.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Wave optics 03 : Refraction || No DPP...",
+    "lectureCode": "e3aade10-51e3-4124-993d-ff565a73ac00",
+    "extId": "665df1b8b0f067001818089b",
+    "key": "665f3e8244288000181c1292",
+    "classNotesCode": "474c6225-1de8-4aeb-82ac-1e4cb86a8c2f.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Wave optics 02 : Huygens Principle, R...",
+    "lectureCode": "f8e60d57-f1fd-43a6-9cf1-f1e7595c9401",
+    "extId": "665d42e17262f80018ab61e1",
+    "key": "665df130f0cec40018dccf78",
+    "classNotesCode": "ac219fa4-3be2-4f9d-bea9-38c0514adc4b.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Wave optics 01 : Introduction || No D...",
+    "lectureCode": "3d7d1d86-9634-4a6d-8244-705e7e2e264b",
+    "extId": "6653f5fa6cb0290018794496",
+    "key": "6654b1797d12190018c3de23",
+    "classNotesCode": "ffd68090-e07a-428b-9bfa-0fd959c0f227.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

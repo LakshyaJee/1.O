@@ -1,0 +1,72 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Alcohol phenol and ethers lec 06",
+    "lectureCode": "997c0f83-f1a7-402e-8485-5fb1bad24410",
+    "extId": "6645904a715c470018fa37f9",
+    "key": "6645599b85504700184b40af",
+    "classNotesCode": "a882ac7f-25fb-4e2f-aab4-abfecd447dfa.pdf",
+    "dppsPdfCode": "46335c1d-7ac1-4162-9d9f-b49994ecb949.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Alcohols, phenols and ethers 06 : Ethers",
+    "lectureCode": "9a59249c-b2b6-40f1-a96c-c5fbcef0de23",
+    "extId": "66426488d987e50018b5ae63",
+    "key": "66435c2d5ff6d00018c9ecca",
+    "classNotesCode": "f43ffa0f-7a98-4246-b55b-b2187ae7822a.pdf",
+    "dppsPdfCode": "6389e971-c73f-4dbd-89a5-45248f94345d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Alcohols, phenols and ethers 05 : Rea...",
+    "lectureCode": "1d4d1d73-e4b3-41ee-b6d3-80563779e76e",
+    "extId": "663e5593a85d1d0019316690",
+    "key": "663f64c7170fc8001821695d",
+    "classNotesCode": "c414b1d8-1e52-4507-bfbe-d25ad3dec250.pdf",
+    "dppsPdfCode": "d2a178ee-9032-4dd1-abfb-c2686a07c1ba.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Alcohols, phenols and ethers 04 : Rea...",
+    "lectureCode": "227594d6-fd57-41bb-ab7b-5781825f6cf6",
+    "extId": "663cf7382bc2e1001874240d",
+    "key": "663e16404dd3670018bebff1",
+    "classNotesCode": "3cf0caa3-c07e-4f98-86a7-4d5d3e79e89d.pdf",
+    "dppsPdfCode": "7a0c0ac7-54c1-4e32-9003-04c80638d86d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Alcohols, phenols and ethers 03 : Met...",
+    "lectureCode": "746432c2-79d5-4028-b2fe-1576ba597249",
+    "extId": "663a5c9a39034f0018bd96b3",
+    "key": "663b70b8875c610018290abf",
+    "classNotesCode": "d07b8587-7877-46dc-8a45-57efe77070c0.pdf",
+    "dppsPdfCode": "01f6f328-f161-4c80-b459-adcd7bd43813.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Alcohols, phenols and ethers 02 : Met...",
+    "lectureCode": "89909ba1-3786-4d5e-a406-22f69283273e",
+    "extId": "6639acbc0ac5c300186fc59c",
+    "key": "663a1fdab89ba90018e09a91",
+    "classNotesCode": "",
+    "dppsPdfCode": "46770bb6-5c78-46cd-8442-a1dbb8f03736.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Alcohols, phenols and ethers 01 : Int...",
+    "lectureCode": "1f53929c-f768-4263-9acb-bce9bce2e359",
+    "extId": "6635b443024d1c0018fd4222",
+    "key": "66362a08ac0379001890b434",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Electrostatics 01 : Introduction || N...",
+    "lectureCode": "a5296b61-ca86-4799-b711-e8cfe0ea7c94",
+    "extId": "666bd9bed22c380018328c98",
+    "key": "666c68c2d060ec0018da2934",
+    "classNotesCode": "00d07275-3586-4541-951c-75deb8ed8df5.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Electrostatics 02 : Electric Field, E...",
+    "lectureCode": "f88d2cdb-3aee-46d4-a62c-a3a024f95fd9",
+    "extId": "6678eff659289500186200ff",
+    "key": "66799dc9e1be690018f164dc",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Electrostatics 03 : Gauss Law and it ...",
+    "lectureCode": "00c0ef06-cbb3-4ca4-82cf-7754b3005206",
+    "extId": "667a4c8e95ea1900188631ca",
+    "key": "667aedf45cd2a400181a65ec",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

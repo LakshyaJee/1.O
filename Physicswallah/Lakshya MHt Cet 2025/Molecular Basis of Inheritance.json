@@ -1,0 +1,112 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Molecular Basis of Inheritance 09 : t...",
+    "lectureCode": "7a2326aa-9e15-42cd-b8fa-212276111110",
+    "extId": "6672659073373f00183194d3",
+    "key": "6672eeb760065100120a3381",
+    "classNotesCode": "ac2518bd-aba5-4ff1-9002-deae70eea0fe.pdf",
+    "dppsPdfCode": "cba5c624-779b-4e10-8006-ad3bdd78e68c.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Molecular Basis of Inheritance 08 : G...",
+    "lectureCode": "fc695209-0b82-4ce2-aee7-9d71ffb776c1",
+    "extId": "667118490439620018798ba2",
+    "key": "66719a0a442d3600183be836",
+    "classNotesCode": "c0daa432-8768-4671-a34e-71d746b8662b.pdf",
+    "dppsPdfCode": "4d7b8263-6b3a-43cb-87ea-feb77840a003.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Molecular Basis of Inheritance 07 : T...",
+    "lectureCode": "e01a465a-e3d1-4977-8d2e-a57a151f87f0",
+    "extId": "666fa0c0d2ff8000182a0a39",
+    "key": "66702e0b69a5550018163e0c",
+    "classNotesCode": "bd2cb958-b465-429c-97e0-2810a96ebb7c.pdf",
+    "dppsPdfCode": "a299b376-46ff-4ace-b94d-17981de4e72e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Molecular Basis of Inheritance 06 : T...",
+    "lectureCode": "94bdbb39-f949-4c9d-89a5-fb1427605983",
+    "extId": "66691f61e6213e0018492923",
+    "key": "6669aff6bec9f300180b7761",
+    "classNotesCode": "55f23196-26ff-449b-a3bd-0400e0aaec67.pdf",
+    "dppsPdfCode": "3a33a9bd-2f33-4be7-9215-c716ad9b7759.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Molecular Basis of Inheritance 05 : M...",
+    "lectureCode": "c0de7de2-9b8d-494d-93f7-e3ba866b5112",
+    "extId": "6667c7814f0e1e0018c4d9c3",
+    "key": "666860a31e88d70018e831b3",
+    "classNotesCode": "840aef30-b62f-436f-ac01-733dd46dff83.pdf",
+    "dppsPdfCode": "378ce3a8-e65a-4c39-95cc-6cb82cb40955.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Molecular Basis of Inheritance 04 : D...",
+    "lectureCode": "ef2c40c9-0adb-4be7-b11a-a97cf83cb21f",
+    "extId": "66667632909e4300188ca794",
+    "key": "6666f26b5ad631001275f708",
+    "classNotesCode": "782e5141-22e5-453e-9299-dd05a4fefbf0.pdf",
+    "dppsPdfCode": "56cece2f-ff13-4a69-abe9-3cf5d13aefba.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Molecular Basis of Inheritance 03 : D...",
+    "lectureCode": "5576a7d3-2c33-41b7-954c-f4bd15ba02f1",
+    "extId": "665fde2a582b7c001862c550",
+    "key": "666076f93f0bd10018a4366b",
+    "classNotesCode": "b3afa310-6d3d-472d-8100-032a954aa08e.pdf",
+    "dppsPdfCode": "c61f7398-93e4-4fe9-b8d0-0a32ac4e6352.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Molecular Basis of Inheritance 02 : S...",
+    "lectureCode": "6bd92ae6-9142-4f71-89e1-b83020c7bbc6",
+    "extId": "665df13fd7cd5d00184c36e0",
+    "key": "665f2766486c960012ab8e28",
+    "classNotesCode": "e6adc3c9-351a-4a05-aa36-9c321d64905e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 9,
+    "lectureName": "Molecular Basis of Inheritance 01 : D...",
+    "lectureCode": "ddf118e8-5be9-48cd-8747-3ee37b3d82bc",
+    "extId": "665d41fbf9347c001897c6f8",
+    "key": "665db67f9ed3c5001257ba54",
+    "classNotesCode": "09a2c0a8-23c7-4eb7-b0e3-60d8d4a028d6.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 10,
+    "lectureName": "Molecular Basis of Inheritance 10 : T...",
+    "lectureCode": "cf06fd4f-28ea-4219-b5bd-0264dd8cf123",
+    "extId": "6678ed40592895001861fc5b",
+    "key": "6679726db38493001898ef0b",
+    "classNotesCode": "cba5c624-779b-4e10-8006-ad3bdd78e68c.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 11,
+    "lectureName": "Molecular Basis of Inheritance 11 : L...",
+    "lectureCode": "a8624c30-8da1-4f32-bea5-ade59334cb55",
+    "extId": "667a414546092400185d435a",
+    "key": "667a860ad026ad0018d6c994",
+    "classNotesCode": "4d7b8263-6b3a-43cb-87ea-feb77840a003.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

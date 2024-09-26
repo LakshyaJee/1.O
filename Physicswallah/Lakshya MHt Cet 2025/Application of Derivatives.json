@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Application of Derivatives 01 : Appli...",
+    "lectureCode": "f50b510d-0f69-4a46-9991-654b60681e5e",
+    "extId": "6650a8ee8163d500186919ac",
+    "key": "66520cf816e06200184eb6c3",
+    "classNotesCode": "d8cedebe-3b10-4265-9feb-4b4838480c01.pdf",
+    "dppsPdfCode": "ae1a8549-acb7-41b6-8a63-739ac50150cb.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Application of Derivatives 08 : MHT C...",
+    "lectureCode": "b4d2053f-72da-47b6-93c1-e58c34b0434c",
+    "extId": "6663d360418b7c0018b0e635",
+    "key": "6664843b51c24300129793b7",
+    "classNotesCode": "691d77ed-350f-485e-ab9b-19e9d8b5f0df.pdf",
+    "dppsPdfCode": "f21b369a-766c-4a06-9e92-c2fc5f322da5.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Lecture07:Appication of Derivatives |...",
+    "lectureCode": "38e4ffa5-1316-4dc2-9193-599dff706d83",
+    "extId": "66608ba4967afb001827b038",
+    "key": "665efacd4daad50018faf2d5",
+    "classNotesCode": "5554b33d-458d-4d78-a80a-b0bd20952df5.pdf",
+    "dppsPdfCode": "5ed71198-6246-416a-b5cc-349360e8f544.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Application of Derivatives 06 : Incre...",
+    "lectureCode": "df84dc3e-5e52-4cfd-b8b6-870d50fc270d",
+    "extId": "665fde9ce870880018e258d1",
+    "key": "6660901619474700127a3608",
+    "classNotesCode": "41563b45-4fc1-4a8e-88f5-97955111bcdc.pdf",
+    "dppsPdfCode": "cd2ccd24-e31e-44f3-a9c7-67a601197db9.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Application of Derivatives 05 : Lagra...",
+    "lectureCode": "82698f25-f685-42a0-8f3a-ebc8dd19623e",
+    "extId": "665d42863260890018b6c3eb",
+    "key": "665dd24b9d38b90018b85e34",
+    "classNotesCode": "cc04b464-072d-4d6f-863e-2ac19963a145.pdf",
+    "dppsPdfCode": "ff702208-97f1-42cf-9289-5a620bdbe1fc.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Application of Derivatives 04 : Rolle...",
+    "lectureCode": "8f361d6a-eb9b-4c90-8405-6e267aced65c",
+    "extId": "665a8d3914f1a60018ddecac",
+    "key": "665b4aa9f1b45600122d38ac",
+    "classNotesCode": "72e46208-4b06-44fa-a8d9-e7fd67481418.pdf",
+    "dppsPdfCode": "79c515a0-23ab-4b0f-8997-2fac0d763fd3.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Application of Derivatives 03 : Appro...",
+    "lectureCode": "d0bbd84b-1774-49d1-ad8c-ee77b839e9d3",
+    "extId": "6657fd5bff06750018136c67",
+    "key": "66588ee94dee10001873f8fc",
+    "classNotesCode": "cbffcda5-8b3c-4529-9a49-0ff62828b07e.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Application of Derivatives 02 : Deriv...",
+    "lectureCode": "e183e748-b25f-455c-842c-1a8ad6ae1a68",
+    "extId": "6655eb68289bba0018bac99a",
+    "key": "665753e5ac2a8700182ba467",
+    "classNotesCode": "3b8e53b7-bb67-4817-a666-571108bf7dcf.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

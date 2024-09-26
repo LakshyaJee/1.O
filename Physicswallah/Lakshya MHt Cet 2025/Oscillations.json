@@ -1,0 +1,52 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Oscillations 05 || Lakshya MHTCET",
+    "lectureCode": "f56a83ee-9b28-47de-a111-a12fea194573",
+    "extId": "664255be439147001881c840",
+    "key": "664229faf0842200189eac64",
+    "classNotesCode": "7500a92b-a92a-427f-9e5b-311d20268f97.pdf",
+    "dppsPdfCode": "080d5ff4-8b09-4912-aa84-83f51957f48a.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Oscillations 04 : Composition of SHM,...",
+    "lectureCode": "f1deef35-d4a2-49a6-849c-02c17d02657b",
+    "extId": "663cf804ee0b720018f97d49",
+    "key": "663e4ae6dd2a5500183fb8fb",
+    "classNotesCode": "8ac5e5a8-463e-4add-8210-b1714e6bd94d.pdf",
+    "dppsPdfCode": "51f1d819-d21b-4f9d-9414-dd970a808e94.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Oscillations 03 : Reference Circle Me...",
+    "lectureCode": "271a8538-885a-467f-bdf6-42028a86fb4c",
+    "extId": "663c50bda39a0300183e9a22",
+    "key": "663cfb987b9d530018311f97",
+    "classNotesCode": "2ab4fa99-9275-41d5-8180-9430f72ad58a.pdf",
+    "dppsPdfCode": "ea1239c1-1847-4986-9f7e-7c7fd430fe8d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Oscillations 02 : Expression for Accl...",
+    "lectureCode": "05c6109a-ede0-418f-a98d-9da8519d6121",
+    "extId": "6639ae87e81f7400182eda15",
+    "key": "663a572641770d001889c6dd",
+    "classNotesCode": "ea11f2d3-b1ad-4cca-9857-12dc94088f4e.pdf",
+    "dppsPdfCode": "379d1a3b-8d92-4ab3-8c05-8fbc24b0925e.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Oscillations 01 : Introduction, Diffe...",
+    "lectureCode": "622aff9d-e0be-4ebf-9214-c0dba1765173",
+    "extId": "6637a268be1d1900188bf47e",
+    "key": "6639038a8f4616001800ea87",
+    "classNotesCode": "d2385c95-8d3b-416f-9113-2cc18ba53068.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

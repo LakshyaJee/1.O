@@ -1,0 +1,82 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Blood Circulation 08 : Blood Composit...",
+    "lectureCode": "e138b53c-0bbe-4a0f-9e4e-611dcd668bc9",
+    "extId": "666d0111fc30620018d1b960",
+    "key": "666d9c5aff8c85001834af6e",
+    "classNotesCode": "3f8f9f59-28c7-4085-a767-9f9e72d4163b.pdf",
+    "dppsPdfCode": "d384c7fe-ba75-4ea2-bf10-c96b05141ede.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Blood Circulation 07 : Blood Composit...",
+    "lectureCode": "775abd27-6fb8-4ffa-9905-69550b3aabee",
+    "extId": "666bd8fa70ac110018d7d5af",
+    "key": "666c58b68305b100187f3cd1",
+    "classNotesCode": "f246602c-8e86-4d81-8807-88a3c4dba71d.pdf",
+    "dppsPdfCode": "0cd435dd-9ee5-4fd3-a573-865614377ec7.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Blood Circulation 06 : Blood Composit...",
+    "lectureCode": "41f8928c-46e9-49d8-ad9d-8ecc5241434a",
+    "extId": "6669c64d2af967001831a408",
+    "key": "666ae96aeb886f001863c897",
+    "classNotesCode": "dbae52d8-11eb-47f1-a665-64e22fd6d81a.pdf",
+    "dppsPdfCode": "fd6fd95c-5f9e-490d-9e7a-0bf7a21ebd8d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "Blood Circulation 05 : Plasma || Clas...",
+    "lectureCode": "bf8b5648-d2e9-4c3f-9d6a-f43ff23acaed",
+    "extId": "6663d2e9ff95130018a17d15",
+    "key": "66646858ec0b1300185ddfc4",
+    "classNotesCode": "4ba4f33f-fa02-43e2-b3db-1a2f0b965f71.pdf",
+    "dppsPdfCode": "a72169f7-81b2-450a-8480-e58f7107d15d.pdf",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Zoology - Jun 7, 2024 Topic : Blood C...",
+    "lectureCode": "3ddcb4ba-4510-4621-9833-9b17dd55cfe3",
+    "extId": "66627d82bf29ba0018f05f17",
+    "key": "66643ba0418b7c0018b1c61f",
+    "classNotesCode": "4b99a500-35c7-46ec-989d-d7d937f012d8.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Blood Circulation 03 : Open Circulati...",
+    "lectureCode": "05a651d5-46b6-44c5-8552-5346b2034ff4",
+    "extId": "66608b141c2bef001808e052",
+    "key": "6661b1e381bd23001809bc96",
+    "classNotesCode": "b9bdd8e3-1160-4469-89f1-41d16bc43970.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 7,
+    "lectureName": "Blood Circulation 02 : Types of Blood...",
+    "lectureCode": "f8164653-e0ec-4cd2-8a06-daf63cd0760a",
+    "extId": "665a8cbfc153bb0018778db6",
+    "key": "665b2db8ad9fb100128ada7b",
+    "classNotesCode": "55e6efe5-5b1b-4dac-99b2-51437e002770.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 8,
+    "lectureName": "Blood Circulation 01 : Transportation...",
+    "lectureCode": "2dba0197-62e4-4906-8c2b-f8db59feb9b3",
+    "extId": "6658ab30c7a8ec0018762e2e",
+    "key": "6659e00f25f975001731a5b7",
+    "classNotesCode": "7acece66-42c0-459c-99da-49b7208dbbc2.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

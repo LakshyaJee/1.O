@@ -1,0 +1,32 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Polymers 03 : Some important polymers...",
+    "lectureCode": "eba62336-f1be-4b1a-b319-e0782ed6a01d",
+    "extId": "66745865c3e6b000185b7247",
+    "key": "6675792573a3950012134547",
+    "classNotesCode": "3c64a921-5a70-42b6-b33e-14ff5b854845.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Polymers 02 : Some important polymers...",
+    "lectureCode": "7333f3d6-9c9c-4bf5-bfe8-9cc86f627d88",
+    "extId": "6672653d78f63200186e0636",
+    "key": "6672d2901091df00186a7ad9",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "Polymers 01 : Introduction and classi...",
+    "lectureCode": "62ac3189-fb95-493f-ade4-9e82ac28bbc4",
+    "extId": "66710b9fbe51160018b51436",
+    "key": "66718354e0012300185623c1",
+    "classNotesCode": "",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]

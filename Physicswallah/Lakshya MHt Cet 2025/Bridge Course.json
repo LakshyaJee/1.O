@@ -1,0 +1,62 @@
+[
+  {
+    "lectureNumber": 1,
+    "lectureName": "Bridge Course 04 : GOC (Part 04) || N...",
+    "lectureCode": "2782fac4-c7a1-49c3-a79c-9bb395d3ff93",
+    "extId": "6621f2af0649e90018cc3d73",
+    "key": "662153ce14831f0018720fa2",
+    "classNotesCode": "9c51f9fe-50e9-414a-af6b-986f42871aad.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 2,
+    "lectureName": "Bridge Course 03 : GOC (Part 03) || N...",
+    "lectureCode": "b1c7bec0-444d-408f-9050-63784749e8df",
+    "extId": "661f5486e9bd970018750b0b",
+    "key": "661f677217f75b0019a6174b",
+    "classNotesCode": "123e22cf-7a30-4a26-88d4-15ae1c9f5cb0.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 3,
+    "lectureName": "GOC | Dnyaneshwar Sir",
+    "lectureCode": "51004aa4-1361-4fa4-8c3c-5e004a684a7d",
+    "extId": "661c9d0ba9cab600182764c3",
+    "key": "661cc033cce4260018da4817",
+    "classNotesCode": "0d477496-4523-4a3b-b377-34a10fdf7b8d.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 4,
+    "lectureName": "General organic chemistry_lakshya mht...",
+    "lectureCode": "0c9ad9af-df23-45bb-82cc-129200aa5f1d",
+    "extId": "6619fff521e4cb0018d4ab5b",
+    "key": "661a36bfde68fc00186294ed",
+    "classNotesCode": "67e3ab57-7d0f-4101-a1ab-4ae3d10d8d42.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 5,
+    "lectureName": "Lecture02:Cell Cycle & Cell Division ...",
+    "lectureCode": "7992f148-35aa-4025-9e65-4d36bc911ef0",
+    "extId": "6618b00b7d189600187e7734",
+    "key": "66180068be955f001897f903",
+    "classNotesCode": "e05b2675-0bd0-4081-a83f-82e6b9e85bb9.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  },
+  {
+    "lectureNumber": 6,
+    "lectureName": "Lecture01:Organ System In Animal Grou...",
+    "lectureCode": "3e770352-8d08-4866-a6d6-787a5c8c2457",
+    "extId": "6614b89922c6220018e31c58",
+    "key": "661509a97bbb280018dfb065",
+    "classNotesCode": "5f342f5b-64dc-4ec1-8eba-c549de038104.pdf",
+    "dppsPdfCode": "",
+    "dppsSolutionCode": ""
+  }
+]
