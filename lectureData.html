@@ -163,12 +163,30 @@ if (!lectureData) {
             return '';
         }
 
-        // Function to open PDF in a new tab/window
+        // Function to open PDF in a new window and embed the PDF
 function openPDFInNewWindow(pdfUrl) {
-    const newWindow = window.open(pdfUrl, '_blank');
+    // Create a new window
+    const newWindow = window.open('', '_blank');
+    
+    // Set the window's content with an embedded PDF using an iframe
+    newWindow.document.write(`
+        <html>
+            <head>
+                <title>PDF Viewer</title>
+                <style>
+                    body { margin: 0; }
+                    iframe { width: 100vw; height: 100vh; border: none; }
+                </style>
+            </head>
+            <body>
+                <iframe src="${pdfUrl}" frameborder="0"></iframe>
+            </body>
+        </html>
+    `);
+
+    // Focus on the new window
     newWindow.focus();
 }
-
         // Function to view lecture with key and lectureCode as URL parameters
 function viewLecture(key, lectureCode) {
     const qualitySelectUrl = `quality-select.html?key=${key}&UI=${lectureCode}`;
