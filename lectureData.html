@@ -148,45 +148,12 @@ if (!lectureData) {
             return buttonContainer;
         }
 
-        // Function to generate link for class notes
-        function generateClassNotesLink(classNotesCode) {
-            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
-            return baseUrl + classNotesCode;
+        // Function to open PDF in new window
+        function openPDFInNewWindow(pdfUrl) {
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
         }
-
-        // Function to generate link for DPP
-        function generateDPPLink(dppCode) {
-            if (dppCode) {
-                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
-                return baseUrl + dppCode;
-            }
-            return '';
-        }
-
-        // Function to open PDF in a new window and embed the PDF
-function openPDFInNewWindow(pdfUrl) {
-    // Create a new window
-    const newWindow = window.open('', '_blank');
-    
-    // Set the window's content with an embedded PDF using an iframe
-    newWindow.document.write(`
-        <html>
-            <head>
-                <title>PDF Viewer</title>
-                <style>
-                    body { margin: 0; }
-                    iframe { width: 100vw; height: 100vh; border: none; }
-                </style>
-            </head>
-            <body>
-                <iframe src="${pdfUrl}" frameborder="0"></iframe>
-            </body>
-        </html>
-    `);
-
-    // Focus on the new window
-    newWindow.focus();
-}
         // Function to view lecture with key and lectureCode as URL parameters
 function viewLecture(key, lectureCode) {
     const qualitySelectUrl = `quality-select.html?key=${key}&UI=${lectureCode}`;
