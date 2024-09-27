@@ -147,29 +147,12 @@ if (!lectureData) {
 
             return buttonContainer;
         }
-
-        // Function to detect if the user is on an Android device
-function isAndroid() {
-    return /Android/i.test(navigator.userAgent);
-}
-
-// Function to generate the full PDF URL
-function getPDFUrl(pdfUrl) {
-    return encodeURIComponent(pdfUrl);
-}
-
-// Function to open the PDF based on the device
-function openPDF(pdfUrl) {
-    if (isAndroid()) {
-        // For Android devices, prompt to open with a native PDF viewer
-        window.location.href = `intent://${getPDFUrl(pdfUrl)}#Intent;action=android.intent.action.VIEW;scheme=https;type=application/pdf;end;`;
-    } else {
-        // For desktops and non-Android, open in Mozilla PDF.js viewer
-        const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
-        const newWindow = window.open(viewerUrl + getPDFUrl(pdfUrl), '_blank');
-        newWindow.focus();
-    }
-}
+// Function to open PDF in new window
+        function openPDFInNewWindow(pdfUrl) {
+            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
+            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
+            newWindow.focus();
+        }
         // Function to view lecture with key and lectureCode as URL parameters
 function viewLecture(key, lectureCode) {
     const qualitySelectUrl = `quality-select.html?key=${key}&UI=${lectureCode}`;
