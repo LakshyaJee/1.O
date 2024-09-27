@@ -147,12 +147,15 @@ if (!lectureData) {
 
             return buttonContainer;
         }
-// Function to open PDF in new window
+
+
+        // Function to open PDF in new window
         function openPDFInNewWindow(pdfUrl) {
             const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
             const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
             newWindow.focus();
         }
+        
         // Function to view lecture with key and lectureCode as URL parameters
 function viewLecture(key, lectureCode) {
     const qualitySelectUrl = `quality-select.html?key=${key}&UI=${lectureCode}`;
