@@ -149,18 +149,28 @@ if (!lectureData) {
         }
 
 
+
+        // Function to generate link for class notes
+        function generateClassNotesLink(classNotesCode) {
+            const baseUrl = "https://static.pw.live/5eb393ee95fab7468a79d189/";
+            return baseUrl + classNotesCode;
+        }
+
+        // Function to generate link for DPP
+        function generateDPPLink(dppCode) {
+            if (dppCode) {
+                const baseUrl = "https://static.pw.live/5eb393ee95fab7468a79d189/";
+                return baseUrl + dppCode;
+            }
+            return '';
+        }
+
         // Function to open PDF in new window
         function openPDFInNewWindow(pdfUrl) {
             const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
             const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
             newWindow.focus();
         }
-        
-        // Function to view lecture with key and lectureCode as URL parameters
-function viewLecture(key, lectureCode) {
-    const qualitySelectUrl = `quality-select.html?key=${key}&UI=${lectureCode}`;
-    window.open(qualitySelectUrl, '_blank');
-}
 
         // Function to view solutions
         function viewSolutions(dppsSolutionCode) {
