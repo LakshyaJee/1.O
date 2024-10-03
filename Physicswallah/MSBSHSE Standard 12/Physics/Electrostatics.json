@@ -1,0 +1,23 @@
+[
+    {
+        "lectureNumber": 1,
+        "lectureName": "Electrostatics 01: Application of Gauss's Law, Equipotential Surface, No DPP",
+        "lectureCode": "ea3835a8-6dc1-46cf-a2e4-acb9fee94e70",
+        "classNotesCode": "da50d010-f058-44b2-ba62-654b106ffebc.pdf",
+        "dppsPdfCode": ""
+      },
+      {
+        "lectureNumber": 2,
+        "lectureName": "Electrostatics 02: Polar Dielectrics, Non-Polar Dielectrics",
+        "lectureCode": "1da2f646-98e8-446f-95ee-d1bb8f76ca11",
+        "classNotesCode": "555783a3-a056-4ee7-90e5-e7bee7095730.pdf",
+        "dppsPdfCode": ""
+      },
+      {
+        "lectureNumber": 3,
+        "lectureName": "Electrostatics 03: Most Important Problems, NO DPP",
+        "lectureCode": "95bf52ab-beb0-423a-8fc1-b5101f5bf4c7",
+        "classNotesCode": "65c14f04-2c5e-43f6-9af2-f601d0c79300.pdf",
+        "dppsPdfCode": "b604d909-1ff4-407f-9ebf-4701d08212b5.pdf"
+      }
+    ]

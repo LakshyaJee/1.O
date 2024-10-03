@@ -1,0 +1,23 @@
+[
+    {
+        "lectureNumber": 1,
+        "lectureName": "Oscillations 01 : Periodic Motion || Extreme Values || No DPP",
+        "lectureCode": "3a9dfec6-0d73-4b35-8f0d-fe28623a8c23",
+        "classNotesCode": "a6b350d4-aa29-4479-82e2-40cbbbd88636.pdf",
+        "dppsPdfCode": "",
+      },
+      {
+        "lectureNumber": 2,
+        "lectureName": "Oscillations 02 : Phase in S.H.M. || Simple Pendulum",
+        "lectureCode": "83a607fb-9430-41e7-aa77-d2803b676935",
+        "classNotesCode": "bd50d367-ff06-4094-96dc-dedd4c8e07c6.pdf",
+        "dppsPdfCode": "",
+      },
+      {
+        "lectureNumber": 3,
+        "lectureName": "Oscillations 03 : Most Important Problems || No DPP",
+        "lectureCode": "9890dcaa-d672-4f10-aa28-6ce4af3b1696",
+        "classNotesCode": "333d20b4-62ad-43af-8328-b4e21642ca2d.pdf",
+        "dppsPdfCode": "f66f3296-91fa-4f9e-a285-2266f9035378.pdf",
+      },
+    ]

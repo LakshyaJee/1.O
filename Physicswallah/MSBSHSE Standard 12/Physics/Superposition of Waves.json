@@ -1,0 +1,23 @@
+[
+    {
+        "lectureNumber": 1,
+        "lectureName": "Superposition of Waves 01 : Progressive Waves || Reflection of Waves || No DPP",
+        "lectureCode": "4d259bc3-4ca8-4583-b494-e28239cd94e4",
+        "classNotesCode": "0d3f432b-d65a-4b82-add2-c568fe2519ec.pdf",
+        "dppsPdfCode": "",
+      },
+      {
+        "lectureNumber": 2,
+        "lectureName": "Superposition of Waves 02 : Sonometer || Beats",
+        "lectureCode": "dd580981-077f-43bd-9f48-7d6234ad14e0",
+        "classNotesCode": "d928e6bd-fc4e-4ccb-aa25-b3586b263667.pdf",
+        "dppsPdfCode": "",
+      },
+      {
+        "lectureNumber": 3,
+        "lectureName": "Superposition of Waves 03 : Most Important Problems || No DPP",
+        "lectureCode": "674faa1f-bc07-4d74-8e7a-1e70cae5f03b",
+        "classNotesCode": "c7c8c1cf-225f-4d31-b29d-885f8c6d766b.pdf",
+        "dppsPdfCode": "df105cbc-b556-4d8a-bd02-ce04e8858b3e.pdf",
+      },
+    ]

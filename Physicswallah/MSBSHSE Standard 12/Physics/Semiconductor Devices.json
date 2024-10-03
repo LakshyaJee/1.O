@@ -1,0 +1,16 @@
+[
+    {
+        "lectureNumber": 1,
+        "lectureName": "Semiconductor Devices 01 : p-n Junction Diode as a Rectifier || Logic Gates",
+        "lectureCode": "aecb4c65-ec92-4a9f-96a8-b3825731f3b9",
+        "classNotesCode": "35aa6e7a-1de1-4cf1-9ab1-ff726e6f2c06.pdf", // Class Notes 01 PDF key for Lecture 1
+        "dppsPdfCode": "dceb60ac-ab8d-480c-93ad-e87933d76bb5.pdf" // DPP 01 PDF key for Lecture 1
+      },
+      {
+        "lectureNumber": 2,
+        "lectureName": "Semiconductor Devices 02 : Most Important Problems || No DPP",
+        "lectureCode": "e0bfe6e6-a6a9-4b3d-b524-16ba70b8dea7",
+        "classNotesCode": "8329edd1-1c49-4806-9855-6fea1bee4bfe.pdf", // Class Notes 02 PDF key for Lecture 2
+        "dppsPdfCode": ""
+      }
+    ]

@@ -1,0 +1,16 @@
+[
+    {
+        "lectureNumber": 1,
+        "lectureName": "Kinetics Theory of Gases and Radiation 02 : Most Important Problems || No DPP",
+        "lectureCode": "1219b482-132f-4202-99c7-a1bcfaae8868",
+        "classNotesCode": "d93a504a-e7e5-4102-b913-c76a7d8b4280.pdf", // Class Notes 02 PDF key for Lecture 1
+        "dppsPdfCode": "5a7134c7-5ad7-4ce5-a7c8-d332f759ad76.pdf" // DPP 01 PDF key for Lecture 1
+      },
+      {
+        "lectureNumber": 2,
+        "lectureName": "Kinetics Theory of Gases and Radiation 01 : Mean Free Path || Pressure of Ideal Gas",
+        "lectureCode": "73b8e253-f6e4-45c1-8517-1c9b2ab2a1a2",
+        "classNotesCode": "8b3daa53-8d72-4285-b804-46cb1df98fb2.pdf", // Class Notes 01 PDF key for Lecture 2
+        "dppsPdfCode": ""
+      }
+    ]

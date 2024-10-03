@@ -1,0 +1,23 @@
+[
+    {
+        "lectureNumber": 1,
+        "lectureName": "Wave Optics 01 : Nature of Light || Light as a Wave || No DPP",
+        "lectureCode": "2fe7ec01-21ca-46ac-81e8-2e790810422b",
+        "classNotesCode": "ab382e01-1974-477e-adcc-b80ce12a3b1c.pdf",
+        "dppsPdfCode": "",
+      },
+      {
+        "lectureNumber": 2,
+        "lectureName": "Wave Optics 02 : Interference || Resolving Power",
+        "lectureCode": "3fb081dd-eea6-40e5-a987-3bdfdb913e39",
+        "classNotesCode": "34bedbdf-489d-44f0-a939-f14f285dd531.pdf",
+        "dppsPdfCode": "",
+      },
+      {
+        "lectureNumber": 3,
+        "lectureName": "Wave Optics 03 : Most Important Problems || No DPP",
+        "lectureCode": "f0c4262b-6307-48b8-8754-b5b3b7c4e0ec",
+        "classNotesCode": "520ae0ef-d4ce-4e97-828b-ca869552ede5.pdf",
+        "dppsPdfCode": "a525b7f9-0e2a-4cac-a20f-f6e697b9ecc3.pdf",
+      },
+    ]

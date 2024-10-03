@@ -1,0 +1,16 @@
+[
+    {
+        "lectureNumber": 1,
+        "lectureName": "Magnetic Field Due To Electric Current 01 : Magnetic Force || Helical Motion || No DPP",
+        "lectureCode": "2d955fdf-074b-46f9-957a-a41321c6358a",
+        "classNotesCode": "a2b75b56-9c90-4eed-b437-5584b537b30a.pdf",
+        "dppsPdfCode": "",
+      },
+      {
+        "lectureNumber": 2,
+        "lectureName": "Magnetic Field Due To Electric Current 02 : Ampere's Law",
+        "lectureCode": "e6d55258-3328-4f79-b027-6b0d8ef56591",
+        "classNotesCode": "7613009c-430c-4af6-b0ef-29867f8517e3.pdf",
+        "dppsPdfCode": "d896f455-9378-422a-b95b-ec1a4d78fdce.pdf",
+      }
+    ]
