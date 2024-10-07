@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #dcdcdc;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 10px; /* Added padding to prevent overflow */
+            box-sizing: border-box; /* Include padding in width/height calculations */
+        }
+
+        .quality-select-container {
+            background-color: #252526;
+            border: 1px solid #444;
+            padding: 20px;
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            overflow: auto; /* Prevent overflow */
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #61dafb;
+            font-size: 24px; /* Increased font size for better visibility */
+        }
+
+        select,
+        button {
+            background-color: #3c3c3c;
+            color: #dcdcdc;
+            border: 1px solid #555;
+            padding: 10px;
+            font-size: 16px;
+            margin: 4px 0; /* Adjusted margin for vertical spacing */
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            width: 100%;
+        }
+
+        select:hover,
+        button:hover {
+            background-color: #4b4b4b;
+        }
+
+        p {
+            margin-top: 20px;
+            white-space: nowrap; /* Prevent text wrapping */
+            overflow: hidden; /* Hide overflow */
+            text-overflow: ellipsis; /* Ellipsis for long text */
+        }
+
+        .copy-button {
+            display: none; /* Initially hidden */
+        }
+
+        .cloud-icon {
+            cursor: pointer;
+            font-size: 40px;
+            margin-top: 20px;
+            color: #f39c12;
+        }
+
+        .cloud-icon:hover {
+            transform: scale(1.1);
+        }
+
+        /* Styling for the textarea */
+        textarea {
+            width: 100%;
+            height: 80px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid #555;
+            background-color: #3c3c3c;
+            color: #dcdcdc;
+            padding: 10px;
+            font-size: 16px;
+            resize: none; /* Prevent resizing */
+        }
+    </style>
+</head>
+
+<body>
+<br><br>
+    <div class="quality-select-container">
+        <br><br><h2>Select Quality</h2>
+        <select id="qualityOptions">
+            <option value="720">720p</option>
+            <option value="480">480p</option>
+            <option value="360">360p</option>
+            <option value="240">240p</option>
+            <option value="144">144p</option>
+        </select>
+        <br><br>
+
+        <button onclick="downloadVideo()">Download Now</button>
+        <br><br>
+        <button onclick="MobilePlyr()">Best Player for Mobiles</button>
+        <br><br>
+        <button onclick="playOnWeb()">Play on Web</button>
+        <br><br>
+        <p id="lectureLink"></p>
+        <br><br>
+        <button class="copy-button" onclick="copyLink()">Copy Now</button>
+        <br><br>
+        <button onclick="goBack()">Go Back</button>
+        <br><br>
+        <i class="cloud-icon" onclick="redirectToChromeExtension()">&#9729; Chrome</i>
+        <br><br>
+        <i class="cloud-icon" name="Mozilla Firefox" onclick="redirectToFirefoxExtension()">&#9729; Firefox</i>
+        <br><br>
+        <button onclick="sendToTelegram()">Send UI to Telegram Bot</button>
+        <br><br>
+
+        <!-- Enter Link button will be created here -->
+    </div>
+
+    <script>
+        function playVideo() {
+            const quality = document.getElementById('qualityOptions').value;
+
+            // Get the lecture code from the URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const lectureCode = urlParams.get('lectureCode');
+           
+            // Determine the video link based on the selected quality
+            const videoLinkWithQuality = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${quality}/main.m3u8`;
+
+            // Check if the device is mobile
+            const isMobile = window.innerWidth <= 600;
+
+            if (isMobile) {
+                // Redirect to VLC on mobile devices
+                window.location.href = `vlc://${videoLinkWithQuality}`;
+            } else {
+                // Show the video link with a copy button on desktop
+                document.getElementById('lectureLink').innerText = videoLinkWithQuality;
+                document.querySelector('.copy-button').style.display = 'inline-block';
+            }
+        }
+
+        function downloadVideo() {
+            const quality = document.getElementById('qualityOptions').value;
+
+            // Get the lecture code from the URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const lectureCode = urlParams.get('lectureCode');
+            const dppsSolutionCode = urlParams.get('dppsSolutionCode');
+
+            // Concatenate lecture code and solution code to form video key
+            const videoKey = `${lectureCode}/${dppsSolutionCode}`;
+
+            // Determine the video link based on the selected quality
+            const videoLinkWithQuality = `https://psitoffers.store/1dm.php?vid=${videoKey}`;
+
+            // Check if the device is mobile
+            const isMobile = window.innerWidth <= 600;
+
+            if (isMobile) {
+                // Open 1DM app with the provided intent link
+                window.location.href = `intent:${videoLinkWithQuality}#Intent;package=idm.internet.download.manager;end`;
+            } else {
+                alert('Download feature is available for mobile devices only.');
+            }
+        }
+
+        function playOnWeb() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const key = urlParams.get('key');
+            const dppsSolutionCode = urlParams.get('dppsSolutionCode');
+
+            let redirectURL;
+
+            if (key) {
+                redirectURL = `Video/index.html?key=${key}`;
+            } else if (dppsSolutionCode) {
+                redirectURL = `plyr_v2.html?key=${dppsSolutionCode}`;
+            } else {
+                console.error('Neither lectureCode nor dppsSolutionCode found in URL');
+                alert('Error: Neither lectureCode nor dppsSolutionCode found in URL');
+                return;
+            }
+
+            const isMobile = window.innerWidth <= 650;
+
+            if (isMobile) {
+                window.location.href = `intent://lakshyajee.github.io/1.O/${redirectURL}&package=com.kiwibrowser.browser#Intent;scheme=https;package=com.kiwibrowser.browser;end`;
+            } else {
+                window.location.href = `https://lakshyajee.github.io/1.O/${redirectURL}`;
+            }
+        }
+
+        async function MobilePlyr() {
+            const quality = document.getElementById('qualityOptions').value;
+            const urlParams = new URLSearchParams(window.location.search);
+            const lectureCode = urlParams.get('UI');
+            const dppsSolutionCode = urlParams.get('dppsSolutionCode');
+
+            let key;
+
+            if (lectureCode) {
+                key = lectureCode;
+            } else if (dppsSolutionCode) {
+                key = dppsSolutionCode;
+            } else {
+                console.error('Neither lectureCode nor dppsSolutionCode found in URL');
+                alert('Error: Neither lectureCode nor dppsSolutionCode found in URL');
+                return;
+            }
+
+            const playerUrl = `Player/plyr_v1.html?UI=${key}`;
+            window.location.href = playerUrl;
+        }
+
+        function goBack() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const lessonName = urlParams.get('lessonName');
+
+            if (lessonName) {
+                window.location.href = `${lessonName}.html`;
+            } else {
+                window.location.href = 'default.html';
+            }
+        }
+
+        function copyLink() {
+            const lectureLink = document.getElementById('lectureLink');
+            const textArea = document.createElement('textarea');
+            textArea.value = lectureLink.innerText;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+
+            alert('Link copied!');
+        }
+
+        function redirectToChromeExtension() {
+            const isMobile = window.innerWidth <= 600;
+
+            if (isMobile) {
+                window.location.href = `intent://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejba#Intent;scheme=https;package=com.android.chrome;end`;
+            } else {
+                window.open('https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejba', '_blank');
+            }
+        }
+
+        function redirectToFirefoxExtension() {
+            const isMobile = window.innerWidth <= 600;
+
+            if (isMobile) {
+                window.location.href = `intent://addons.mozilla.org/en-US/firefox/addon/allow-cors-access-control/#Intent;scheme=https;package=org.mozilla.firefox;end`;
+            } else {
+                window.open('https://addons.mozilla.org/en-US/firefox/addon/allow-cors-access-control/', '_blank');
+            }
+        }
+
+             function sendToTelegram() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const uiCode = urlParams.get('UI');
+
+    if (!uiCode) {
+        alert('Error: UI code not found in URL');
+        return;
+    }
+
+    // Copy the UI code to the clipboard
+    const tempTextArea = document.createElement('textarea');
+    tempTextArea.value = uiCode;
+    document.body.appendChild(tempTextArea);
+    tempTextArea.select();
+    document.execCommand('copy');
+    document.body.removeChild(tempTextArea);
+
+    alert('UI code copied to clipboard!');
+
+    // Check if the bot has already been started
+    const botStarted = sessionStorage.getItem('botStarted');
+
+    let telegramBotLink;
+
+    if (botStarted) {
+        // If the bot has already started, send the UI as a message
+        telegramBotLink = `https://t.me/pwjarvislink_bot?start=${uiCode}&send=${uiCode}`;
+    } else {
+        // If the bot hasn't started, use the /start command
+        telegramBotLink = `https://t.me/pwjarvislink_bot?start=${uiCode}`;
+        // Mark the bot as started in sessionStorage
+        sessionStorage.setItem('botStarted', 'true');
+    }
+
+    // Redirect to Telegram bot
+    window.location.href = telegramBotLink;
+}
+
+// Function to create the "Enter the Link" button and subsequent elements
+function createLinkInputButton() {
+    // Create "Enter the Link" button
+    const enterLinkButton = document.createElement('button');
+    enterLinkButton.textContent = "Enter the Link";
+    enterLinkButton.onclick = showLinkInput;
+    document.body.appendChild(enterLinkButton);
+}
+
+        function createLinkInputButton() {
+            const container = document.querySelector('.quality-select-container');
+            const enterLinkButton = document.createElement('button');
+            enterLinkButton.innerText = "Enter the Link";
+            enterLinkButton.onclick = showLinkInput;
+            container.appendChild(enterLinkButton);
+        }
+
+       function showLinkInput() {
+    const container = document.querySelector('.quality-select-container');
+    const inputTextarea = document.createElement('textarea');
+    inputTextarea.id = "linkInput"; // Add an ID to target it later
+    inputTextarea.placeholder = "Paste your link here...";
+    container.appendChild(inputTextarea);
+
+    const goButton = document.createElement('button');
+    goButton.innerText = "GO";
+    goButton.onclick = function () {
+        const linkValue = inputTextarea.value;
+        console.log("Entered link:", linkValue);
+
+        // Check if the link is valid and redirect
+        if (linkValue) {
+            sessionStorage.setItem('savedLink', linkValue);
+            console.log('Link saved to sessionStorage:', linkValue);
+            
+            window.location.href = 'v6.html'; // Redirect to v6.html
+        } else {
+            alert('Please enter a valid link.');
+        }
+    };
+    container.appendChild(goButton);
+}
+
+
+        // Function to save the link and redirect
+function saveLinkAndRedirect() {
+    // Get the link from the textarea
+    const linkInput = document.getElementById('linkInput').value;
+
+    if (linkInput) {
+        // Save the link to sessionStorage
+        sessionStorage.setItem('savedLink', linkInput);
+
+        // Log the link to the console
+        console.log('Link saved to sessionStorage:', linkInput);
+
+        // Redirect to "Player/version_v1.html"
+        window.location.href = 'v6.html';
+    } else {
+        alert('Please enter a valid link.');
+    }
+}
+
+// Call the function to create the "Enter the Link" button on page load
+createLinkInputButton();
+
+    </script>
+</body>
+
+</html>
