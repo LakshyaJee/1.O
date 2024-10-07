@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/openplayerjs@1.12.1/dist/openplayer.min.css">
+</head>
+<body>
+    <script src="//cdn.jsdelivr.net/npm/openplayerjs@1.12.1/dist/openplayer.min.js"></script>
+    <video class="op-player op-player__media" id="video" controls playsinline>
+        <source src="https://stream.pwjarvis.app?v=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjgzMzg4NjEsIlZpZCI6IjdkZDBjNDRkLTBiNzctNGNkNS04Y2YzLWIzMmIxZjcxMzEwOSIsImlhdCI6MTcyODMyMDg2MX0.sIc5Yp4Iv-lr7mxpSkWiQL5JDYjKhgSpStktrMjHTPk&quality=720" type="application/x-mpegURL">
+    </video>
+    <script>
+        var player = new OpenPlayer('video', false, {
+            hls: {
+                debug: true
+            }
+        });
+        player.init();
+
+        // Function to handle keyboard events for rewinding and forwarding
+        document.addEventListener('keydown', function(event) {
+            const video = document.getElementById('video');
+            const rewindAmount = 15; // seconds
+
+            console.log(`Key pressed: ${event.keyCode}`); // Log key press
+
+            if (event.keyCode === 37) { // Left arrow key
+                // Rewind video by 15 seconds
+                console.log('Rewinding video'); // Log rewind action
+                video.currentTime = Math.max(0, video.currentTime - rewindAmount);
+            } else if (event.keyCode === 39) { // Right arrow key
+                // Forward video by 15 seconds
+                console.log('Forwarding video'); // Log forward action
+                video.currentTime = Math.min(video.duration, video.currentTime + rewindAmount);
+            }
+        });
+    </script>
+</body>
+</html>
