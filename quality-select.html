@@ -339,7 +339,7 @@ function createLinkInputButton() {
             sessionStorage.setItem('savedLink', linkValue);
             console.log('Link saved to sessionStorage:', linkValue);
             
-            window.location.href = 'v6.html'; // Redirect to v6.html
+            window.location.href = 'Player/v6.html'; // Redirect to v6.html
         } else {
             alert('Please enter a valid link.');
         }
@@ -361,7 +361,7 @@ function saveLinkAndRedirect() {
         console.log('Link saved to sessionStorage:', linkInput);
 
         // Redirect to "Player/version_v1.html"
-        window.location.href = 'v6.html';
+        window.location.href = 'Player/v6.html';
     } else {
         alert('Please enter a valid link.');
     }
