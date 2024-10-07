@@ -127,7 +127,7 @@
 
         <!-- Enter Link button will be created here -->
     </div>
-    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+
     <script>
         function playVideo() {
             const quality = document.getElementById('qualityOptions').value;
@@ -321,7 +321,9 @@ function createLinkInputButton() {
             enterLinkButton.innerText = "Enter the Link";
             enterLinkButton.onclick = showLinkInput;
             container.appendChild(enterLinkButton);
-        }function showLinkInput() {
+        }
+
+       function showLinkInput() {
     const container = document.querySelector('.quality-select-container');
     const inputTextarea = document.createElement('textarea');
     inputTextarea.id = "linkInput"; // Add an ID to target it later
@@ -339,7 +341,7 @@ function createLinkInputButton() {
             sessionStorage.setItem('savedLink', linkValue);
             console.log('Link saved to sessionStorage:', linkValue);
             
-            window.location.href = 'Player/v6.html'; // Redirect to v6.html
+            window.location.href = 'v6.html'; // Redirect to v6.html
         } else {
             alert('Please enter a valid link.');
         }
@@ -361,7 +363,7 @@ function saveLinkAndRedirect() {
         console.log('Link saved to sessionStorage:', linkInput);
 
         // Redirect to "Player/version_v1.html"
-        window.location.href = 'Player/v6.html';
+        window.location.href = 'v6.html';
     } else {
         alert('Please enter a valid link.');
     }
@@ -369,7 +371,6 @@ function saveLinkAndRedirect() {
 
 // Call the function to create the "Enter the Link" button on page load
 createLinkInputButton();
-
 
     </script>
 </body>
