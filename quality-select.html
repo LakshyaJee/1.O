@@ -235,18 +235,33 @@
             window.location.href = 'https://addons.mozilla.org/en-US/firefox/addon/access-control-allow-origin/';
         }
 
-        // Function to send UI to Telegram Bot
-        function sendToTelegram() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const uiCode = urlParams.get('UI');
-            
-            if (uiCode) {
-                const telegramBotLink = `https://t.me/pwjarvislink_bot?start=${uiCode}`;
-                window.location.href = telegramBotLink;
-            } else {
-                alert('Error: UI code not found in URL');
-            }
-        }
+       function sendToTelegram() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const uiCode = urlParams.get('UI');
+
+    if (!uiCode) {
+        alert('Error: UI code not found in URL');
+        return;
+    }
+
+    // Check if the bot has already been started
+    const botStarted = localStorage.getItem('botStarted');
+
+    let telegramBotLink;
+
+    if (botStarted) {
+        // If the bot has already started, send the UI as a message
+        telegramBotLink = `https://t.me/pwjarvislink_bot?start=${uiCode}&send=${uiCode}`;
+    } else {
+        // If the bot hasn't started, use the /start command
+        telegramBotLink = `https://t.me/pwjarvislink_bot?start=${uiCode}`;
+        // Mark the bot as started in localStorage
+        localStorage.setItem('botStarted', 'true');
+    }
+
+    window.location.href = telegramBotLink;
+}
+
     </script>
 </body>
 
