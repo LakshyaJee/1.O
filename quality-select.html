@@ -94,7 +94,11 @@
         <br><br>
         <!-- Cloud icon for redirecting to Mozilla Firefox extension -->
         <i class="cloud-icon" name="Mozilla Firefox" onclick="redirectToFirefoxExtension()">&#9729;</i>
+        <br><br>
+        <!-- Telegram bot button -->
+        <button onclick="sendToTelegram()">Send UI to Telegram Bot</button>
     </div>
+
     <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
 
     <script>
@@ -105,9 +109,6 @@
             const urlParams = new URLSearchParams(window.location.search);
             const lectureCode = urlParams.get('lectureCode');
            
-
-           
-
             // Determine the video link based on the selected quality
             const videoLinkWithQuality = `https://d26g5bnklkwsh4.cloudfront.net/${lectureCode}/hls/${quality}/main.m3u8`;
 
@@ -129,11 +130,11 @@
 
             // Get the lecture code from the URL
             const urlParams = new URLSearchParams(window.location.search);
-    const lectureCode = urlParams.get('lectureCode');
-    const dppsSolutionCode = urlParams.get('dppsSolutionCode');
+            const lectureCode = urlParams.get('lectureCode');
+            const dppsSolutionCode = urlParams.get('dppsSolutionCode');
 
-    // Concatenate lecture code and solution code to form video key
-    const videoKey = `${lectureCode}/${dppsSolutionCode}`;
+            // Concatenate lecture code and solution code to form video key
+            const videoKey = `${lectureCode}/${dppsSolutionCode}`;
 
             // Determine the video link based on the selected quality
             const videoLinkWithQuality = `https://psitoffers.store/1dm.php?vid=${videoKey}`;
@@ -142,89 +143,68 @@
             const isMobile = window.innerWidth <= 600;
 
             if (isMobile) {
-
                 // Open 1DM app with the provided intent link
                 window.location.href = `intent:${videoLinkWithQuality}#Intent;package=idm.internet.download.manager;end`;
             } else {
-                // Show a message that this feature is for mobile devices only
                 alert('Download feature is available for mobile devices only.');
             }
         }
 
         function playOnWeb() {
-    // Get the lecture code and solution code from the URL
-    const urlParams = new URLSearchParams(window.location.search);
-    const key = urlParams.get('key');
-    const dppsSolutionCode = urlParams.get('dppsSolutionCode');
+            const urlParams = new URLSearchParams(window.location.search);
+            const key = urlParams.get('key');
+            const dppsSolutionCode = urlParams.get('dppsSolutionCode');
 
-    // Construct the URL with the proper parameter
-    let redirectURL;
+            let redirectURL;
 
-    if (key) {
-        // If lectureCode is present, use it in the redirect URL
-        redirectURL = `Video/index.html?key=${key}`;
-    } else if (dppsSolutionCode) {
-        // If dppsSolutionCode is present, use it in the redirect URL
-        redirectURL = `plyr_v2.html?key=${dppsSolutionCode}`;
-    } else {
-        // Handle the case where neither lectureCode nor dppsSolutionCode is present
-        console.error('Neither lectureCode nor dppsSolutionCode found in URL');
-        alert('Error: Neither lectureCode nor dppsSolutionCode found in URL');
-        return;
-    }
+            if (key) {
+                redirectURL = `Video/index.html?key=${key}`;
+            } else if (dppsSolutionCode) {
+                redirectURL = `plyr_v2.html?key=${dppsSolutionCode}`;
+            } else {
+                console.error('Neither lectureCode nor dppsSolutionCode found in URL');
+                alert('Error: Neither lectureCode nor dppsSolutionCode found in URL');
+                return;
+            }
 
-    // Check if the device is mobile
-    const isMobile = window.innerWidth <= 650;
+            const isMobile = window.innerWidth <= 650;
 
-    if (isMobile) {
-        // Open KiwiBrowser app with the provided intent link
-        window.location.href = `intent://lakshyajee.github.io/1.O/${redirectURL}&package=com.kiwibrowser.browser#Intent;scheme=https;package=com.kiwibrowser.browser;end`;
-    } else {
-        // Redirect to the plyr.html page with the proper parameter
-        window.location.href = `https://lakshyajee.github.io/1.O/${redirectURL}`;
-    }
-}
+            if (isMobile) {
+                window.location.href = `intent://lakshyajee.github.io/1.O/${redirectURL}&package=com.kiwibrowser.browser#Intent;scheme=https;package=com.kiwibrowser.browser;end`;
+            } else {
+                window.location.href = `https://lakshyajee.github.io/1.O/${redirectURL}`;
+            }
+        }
 
-async function MobilePlyr() {
-    const quality = document.getElementById('qualityOptions').value;
-    const urlParams = new URLSearchParams(window.location.search);
-    const lectureCode = urlParams.get('UI');
-    const dppsSolutionCode = urlParams.get('dppsSolutionCode');
+        async function MobilePlyr() {
+            const quality = document.getElementById('qualityOptions').value;
+            const urlParams = new URLSearchParams(window.location.search);
+            const lectureCode = urlParams.get('UI');
+            const dppsSolutionCode = urlParams.get('dppsSolutionCode');
 
-    let key;
+            let key;
 
-    if (lectureCode) {
-        key = lectureCode;
-    } else if (dppsSolutionCode) {
-        key = dppsSolutionCode;
-    } else {
-        console.error('Neither lectureCode nor dppsSolutionCode found in URL');
-        alert('Error: Neither lectureCode nor dppsSolutionCode found in URL');
-        return;
-    }
+            if (lectureCode) {
+                key = lectureCode;
+            } else if (dppsSolutionCode) {
+                key = dppsSolutionCode;
+            } else {
+                console.error('Neither lectureCode nor dppsSolutionCode found in URL');
+                alert('Error: Neither lectureCode nor dppsSolutionCode found in URL');
+                return;
+            }
 
-     // Construct the new URL to redirect to the player page
-     const playerUrl = `Player/plyr_v1.html?UI=${key}`;
-
-// Redirect to the new player URL
-window.location.href = playerUrl;
-}
-
-
-
-
-        
+            const playerUrl = `Player/plyr_v1.html?UI=${key}`;
+            window.location.href = playerUrl;
+        }
 
         function goBack() {
-            // Get the lessonName parameter from the URL
             const urlParams = new URLSearchParams(window.location.search);
             const lessonName = urlParams.get('lessonName');
 
-            // Redirect back to the respective lesson page
             if (lessonName) {
                 window.location.href = `${lessonName}.html`;
             } else {
-                // If lessonName is not available, you can provide a default fallback page
                 window.location.href = 'default.html';
             }
         }
@@ -241,26 +221,31 @@ window.location.href = playerUrl;
             alert('Link copied!');
         }
 
-        // Function to redirect to Chrome extension page
         function redirectToChromeExtension() {
-
-            // Check if the device is mobile
             const isMobile = window.innerWidth <= 600;
 
             if (isMobile) {
-
-                // Open KiwiBrowser app with the provided intent link
                 window.location.href = `intent://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf&package=com.kiwibrowser.browser#Intent;scheme=https;package=com.kiwibrowser.browser;end`;
             } else {
-                
-                // Redirect to the ChromeExtensionpage 
                 window.location.href = 'https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf';
             }
         }
 
-       // Function to redirect to Mozilla Firefox extension page
-       function redirectToFirefoxExtension() {
+        function redirectToFirefoxExtension() {
             window.location.href = 'https://addons.mozilla.org/en-US/firefox/addon/access-control-allow-origin/';
+        }
+
+        // Function to send UI to Telegram Bot
+        function sendToTelegram() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const uiCode = urlParams.get('UI');
+            
+            if (uiCode) {
+                const telegramBotLink = `https://t.me/pwjarvislink_bot?start=${uiCode}`;
+                window.location.href = telegramBotLink;
+            } else {
+                alert('Error: UI code not found in URL');
+            }
         }
     </script>
 </body>
