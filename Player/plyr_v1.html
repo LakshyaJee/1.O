@@ -52,7 +52,7 @@ let modifyUrl = sessionStorage.getItem('modifyUrl');
 let manifestUri;
 if (ext) {
     // Use the 'UI' param to construct the manifestUri
-    manifestUri = `https://madxabhi-pw-78ab681aba3f.herokuapp.com/pp/${ext}/master.m3u8`;
+    manifestUri = `https://madxabhi-pw-78ab681aba3f.herokuapp.com/pp/${ext}/hls/720/main.m3u8`;
     console.log('Using manifestUri from URL params:', manifestUri);
 } else if (modifyUrl) {
     // If no 'UI' param, use the stored 'modifyUrl' from sessionStorage
