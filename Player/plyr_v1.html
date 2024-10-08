@@ -52,10 +52,35 @@ let modifyUrl = sessionStorage.getItem('modifyUrl');
 let manifestUri;
 if (ext) {
     // Use the 'UI' param to construct the manifestUri
-    manifestUri = `https://madxabhi-pw-78ab681aba3f.herokuapp.com/pp/${ext}/hls/720/main.m3u8`;
-    console.log('Using manifestUri from URL params:', manifestUri);
+
+  // Assuming 'manifestUri' is already defined as you mentioned
+manifestUri = `https://madxabhi-pw-78ab681aba3f.herokuapp.com/pp/${ext}/hls/720/main.m3u8`;
+console.log('Using manifestUri from URL params:', manifestUri);
+
+if (manifestUri) {
+    // Dynamically create a video element with CORS enabled
+    const videoElement = document.createElement('video');
+    videoElement.controls = true;
+    videoElement.crossOrigin = 'anonymous';  // Enable CORS for cross-origin video
+
+    // Create source element for video
+    const sourceElement = document.createElement('source');
+    sourceElement.src = manifestUri;  // Set the video source to the manifestUri
+    sourceElement.type = 'application/x-mpegURL';  // HLS MIME type
+
+    // Append the source to the video element
+    videoElement.appendChild(sourceElement);
+
+    // Handle fallback message for unsupported browsers
+    videoElement.innerHTML = 'Your browser does not support the video tag.';
+
+    // Append the video element to the body or a specific container
+    document.body.appendChild(videoElement);
+    
 } else if (modifyUrl) {
     // If no 'UI' param, use the stored 'modifyUrl' from sessionStorage
+    // Add your modifyUrl logic here if needed
+}
 
     // Modify the URL for the final structure
     const finalModifyUrl = new URL(modifyUrl); // Parse modifyUrl to manipulate
