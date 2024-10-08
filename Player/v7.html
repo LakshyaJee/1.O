@@ -44,10 +44,9 @@
             background-color: #0056b3;
         }
 
-        #reproductor_wrapper {
-            display: none;
+        #reproductor {
             width: 100%;
-            height: 400px;
+            height: 100vh; /* Make the video container full height */
             background-color: #000;
         }
     </style>
@@ -79,9 +78,6 @@
             // Hide the modal
             document.getElementById('qualityModal').style.display = 'none';
 
-            // Show the player container
-            document.getElementById('reproductor_wrapper').style.display = 'block';
-
             // Initialize the player with the selected quality link
             setupJWPlayer(qualityLink);
         }
@@ -90,11 +86,10 @@
         function setupJWPlayer(qualityLink) {
             jwplayer('reproductor').setup({
                 file: qualityLink,
-                width: "700",
-                skin: "five",
-                height: "700",
+                width: "100%",
+                height: "100%",
                 title: 'xsoundtv.com',
-                autostart: "true",
+                autostart: true,
                 stretching: "fill"
             }).on('ready', function () {
                 // Request full-screen when the player is ready
@@ -104,7 +99,7 @@
 
         // Function to request full-screen mode for the player
         function requestFullScreen() {
-            const playerElement = document.getElementById('reproductor_wrapper');
+            const playerElement = document.getElementById('reproductor');
             if (playerElement.requestFullscreen) {
                 playerElement.requestFullscreen();
             } else if (playerElement.mozRequestFullScreen) { // Firefox
@@ -133,9 +128,7 @@
     </div>
 
     <!-- JWPlayer Container -->
-    <div id="reproductor_wrapper">
-        <div id="reproductor"></div>
-    </div>
+    <div id="reproductor"></div>
 </body>
 
 </html>
