@@ -1,180 +1,153 @@
 <!DOCTYPE html>
-
 <html>
 
-  <head>
-
-    <!-- Shaka Player ui compiled library: -->
-
+<head>
+    <!-- Shaka Player UI compiled library -->
     <script src="https://cdn.jsdelivr.net/npm/shaka-player@4.9.2/dist/shaka-player.ui.js"></script>
-
-    <!-- Shaka Player ui compiled library default CSS: -->
-
+    <!-- Shaka Player UI compiled library default CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/shaka-player@4.9.2/dist/controls.css">
-
-    <!-- Chromecast SDK (if you want Chromecast support for your app): -->
-
+    <!-- Chromecast SDK -->
     <script defer src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
 
-    
+        #qualityModal {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 300px;
+        }
 
-  </head>
+        #qualityModal h2 {
+            margin-bottom: 20px;
+        }
 
-  <body>
+        .quality-button {
+            margin: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
 
-    <!-- The data-shaka-player-container tag will make the UI library place the controls in this div.
+        .quality-button:hover {
+            background-color: #0056b3;
+        }
 
-         The data-shaka-player-cast-receiver-id tag allows you to provide a Cast Application ID that
+        #videoContainer {
+            display: none; /* Initially hidden */
+            max-width: 100%;
+        }
 
-           the cast button will cast to; the value provided here is the sample cast receiver. -->
+        video {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
 
-    <div data-shaka-player-container style="max-width:"
-
-         data-shaka-player-cast-receiver-id="1BA79154">
-
-       <!-- The data-shaka-player tag will make the UI library use this video element.
-
-            If no video is provided, the UI will automatically make one inside the container div. -->
-
-      <video autoplay data-shaka-player poster="https://peach.blender.org/wp-content/uploads/bbb-splash.png" id="video" style="width:100%;height:100%"></video>
-
+<body>
+    <div id="qualityModal">
+        <h2>Select Video Quality</h2>
+        <button class="quality-button" onclick="setQuality(720)">720p</button>
+        <button class="quality-button" onclick="setQuality(480)">480p</button>
+        <button class="quality-button" onclick="setQuality(360)">360p</button>
+        <button class="quality-button" onclick="setQuality(240)">240p</button>
+        <button class="quality-button" onclick="setQuality(144)">144p</button>
     </div>
+
+    <div id="videoContainer" data-shaka-player-container data-shaka-player-cast-receiver-id="1BA79154">
+        <video autoplay data-shaka-player poster="https://peach.blender.org/wp-content/uploads/bbb-splash.png" id="video"></video>
+    </div>
+
     <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
-   <script>
-             /// Retrieve the URL parameters
-const urlParams = new URLSearchParams(window.location.search);
-const ext = urlParams.get('UI');
+    <script>
+        // Retrieve the URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const ext = urlParams.get('UI');
+        let modifyUrl = sessionStorage.getItem('modifyUrl');
+        let manifestUri;
+        let quality; // Store selected quality
 
-// Retrieve the modified URL from sessionStorage
-let modifyUrl = sessionStorage.getItem('modifyUrl');
+        if (ext) {
+            manifestUri = `https://madxabhi-pw-78ab681aba3f.herokuapp.com/pp/${ext}/hls/${quality}/main.m3u8`;
+            console.log('Using manifestUri from URL params:', manifestUri);
+        } else if (modifyUrl) {
+            const finalModifyUrl = new URL(modifyUrl);
+            const url = finalModifyUrl.searchParams.get('url');
+            const startTime = finalModifyUrl.searchParams.get('start_time');
+            const modifyUrl2 = `${encodeURIComponent(url)}&start_time=${startTime}/`;
+            manifestUri = `${modifyUrl2}`;
+            console.log('Using manifestUri from session storage (modified):', manifestUri);
+        } else {
+            console.log('No live stream URL found in session storage or URL params.');
+        }
 
-// Check if the 'UI' param is present in the URL
-let manifestUri;
-if (ext) {
-    // Use the 'UI' param to construct the manifestUri
+        function setQuality(selectedQuality) {
+            quality = selectedQuality; // Set selected quality
+            document.getElementById('qualityModal').style.display = 'none'; // Hide modal
+            document.getElementById('videoContainer').style.display = 'block'; // Show video container
+            initPlayer(); // Initialize player after quality is set
+        }
 
- manifestUri = `https://madxabhi-pw-78ab681aba3f.herokuapp.com/pp/${ext}/hls/720/main.m3u8`;
-    console.log('Using manifestUri from URL params:', manifestUri);
-} else if (modifyUrl) {
-    // If no 'UI' param, use the stored 'modifyUrl' from sessionStorage
+        async function initPlayer() {
+            const video = document.getElementById('video');
+            const ui = video['ui'];
+            const controls = ui.getControls();
+            const player = controls.getPlayer();
+            window.player = player;
+            window.ui = ui;
 
+            player.addEventListener('error', onPlayerErrorEvent);
+            controls.addEventListener('error', onUIErrorEvent);
 
-    // Modify the URL for the final structure
-    const finalModifyUrl = new URL(modifyUrl); // Parse modifyUrl to manipulate
-    const url = finalModifyUrl.searchParams.get('url');
-    const startTime = finalModifyUrl.searchParams.get('start_time');
+            try {
+                if (quality) {
+                    await player.load(`https://madxabhi-pw-78ab681aba3f.herokuapp.com/pp/${ext}/hls/${quality}/main.m3u8`);
+                    console.log('The video has now been loaded!');
+                }
+            } catch (error) {
+                onPlayerError(error);
+            }
+        }
 
-    // Create the 2modifyurl with the required structure
-    const modifyUrl2 = `${encodeURIComponent(url)}&start_time=${startTime}/`;
+        function onPlayerErrorEvent(errorEvent) {
+            onPlayerError(event.detail);
+        }
 
-    // Set the manifestUri to the modified URL
-    manifestUri = `${modifyUrl2}`;
-    console.log('Using manifestUri from session storage (modified):', manifestUri);
-} else {
-    console.log('No live stream URL found in session storage or URL params.');
-}
+        function onPlayerError(error) {
+            console.error('Error code', error.code, 'object', error);
+        }
 
-// Use manifestUri for initializing the player
-if (manifestUri) {
-    console.log('Playing live stream from:', manifestUri);
-    // Logic to initialize the player with manifestUri
-} else {
-    console.log('Error: Unable to fetch the manifest URL.');
-}
+        function onUIErrorEvent(errorEvent) {
+            onPlayerError(event.detail);
+        }
 
+        function initFailed(errorEvent) {
+            console.error('Unable to load the UI library!');
+        }
 
-async function init() {
-
-// When using the UI, the player is made automatically by the UI object.
-
-const video = document.getElementById('video');
-
-const ui = video['ui'];
-
-const controls = ui.getControls();
-
-const player = controls.getPlayer();
-
-// Attach player and ui to the window to make it easy to access in the JS console.
-
-window.player = player;
-
-window.ui = ui;
-
-// Listen for error events.
-
-player.addEventListener('error', onPlayerErrorEvent);
-
-controls.addEventListener('error', onUIErrorEvent);
-
-// Try to load a manifest.
-
-// This is an asynchronous process.
-
-try {
-
-await player.load(manifestUri);
-
-// This runs if the asynchronous load is successful.
-
-console.log('The video has now been loaded!');
-
-} catch (error) {
-
-onPlayerError(error);
-
-}
-
-}
-
-function onPlayerErrorEvent(errorEvent) {
-
-// Extract the shaka.util.Error object from the event.
-
-onPlayerError(event.detail);
-
-}
-
-function onPlayerError(error) {
-
-// Handle player error
-
-console.error('Error code', error.code, 'object', error);
-
-}
-
-function onUIErrorEvent(errorEvent) {
-
-// Extract the shaka.util.Error object from the event.
-
-onPlayerError(event.detail);
-
-}
-
-function initFailed(errorEvent) {
-
-// Handle the failure to load; errorEvent.detail.reasonCode has a
-
-// shaka.ui.FailReasonCode describing why.
-
-console.error('Unable to load the UI library!');
-
-}
-
-// Listen to the custom shaka-ui-loaded event, to wait until the UI is loaded.
-
-document.addEventListener('shaka-ui-loaded', init);
-
-// Listen to the custom shaka-ui-load-failed event, in case Shaka Player fails
-
-// to load (e.g. due to lack of browser support).
-
-document.addEventListener('shaka-ui-load-failed', initFailed);
-
-
+        document.addEventListener('shaka-ui-loaded', init);
+        document.addEventListener('shaka-ui-load-failed', initFailed);
     </script>
 
-  </body>
+</body>
 
 </html>
-
