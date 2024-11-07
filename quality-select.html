@@ -372,11 +372,11 @@ function createLinkInputButton() {
                 const lectureKey = lectureKeyMatch[1];
                 
                 // Construct the VLC link
-                const vlcLink = `vlc://stream.pwjarvis.app/${lectureKey}/main.m3u8`;
+                const vlcLink = `vlc://https://stream.pwjarvis.app/${lectureKey}main.m3u8`;
                 console.log("VLC link:", vlcLink);
 
                 // Open the link in VLC (works if VLC is configured to handle vlc:// links)
-                window.location.href = vlcLink;
+                window.open(vlcLink, '_blank');
             } else {
                 alert("Invalid link format. Please enter a valid link.");
             }
