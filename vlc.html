@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Link in VLC</title>
+    <style>
+        .container {
+            max-width: 300px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        input, button {
+            margin-top: 10px;
+            padding: 8px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h3>Open Link in VLC</h3>
+    <input type="text" id="linkInput" placeholder="Paste your link here...">
+    <button onclick="openInVLC()">Open in VLC</button>
+</div>
+
+<script>
+    function openInVLC() {
+        const linkInput = document.getElementById('linkInput').value;
+
+        if (linkInput) {
+            // Convert the link to the vlc:// protocol
+            const vlcLink = `vlc://${linkInput}`;
+            console.log("Opening VLC link:", vlcLink);
+
+            // Open the link in VLC (if VLC is configured to handle vlc:// links)
+            window.open(vlcLink, '_blank');
+        } else {
+            alert("Please enter a valid link.");
+        }
+    }
+</script>
+
+</body>
+</html>
