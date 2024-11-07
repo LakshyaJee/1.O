@@ -332,7 +332,7 @@ function createLinkInputButton() {
             container.appendChild(enterLinkButton);
         }
 
-       function showLinkInput() {
+        function showLinkInput() {
     const container = document.querySelector('.quality-select-container');
     
     // Create and configure the textarea
@@ -366,9 +366,12 @@ function createLinkInputButton() {
     newPlayerButton.onclick = function () {
         const linkValue = inputTextarea.value;
         if (linkValue) {
-            // Open VLC player with the given link
-            window.location.href = `vlc://${linkValue}`;
-            console.log("Redirecting to VLC with link:", `vlc://${linkValue}`);
+            // Construct the Android intent URL for VLC
+            const intentUrl = `intent:${linkValue}#Intent;package=org.videolan.vlc;scheme=http;end;`;
+            console.log("Attempting to open VLC with intent:", intentUrl);
+            
+            // Open the link using the intent
+            window.location.href = intentUrl;
         } else {
             alert('Please enter a valid link.');
         }
@@ -383,6 +386,7 @@ function createLinkInputButton() {
 
 // Call the function on page load to set up the link input
 createLinkInputButton();
+
 
     </script>
 </body>
