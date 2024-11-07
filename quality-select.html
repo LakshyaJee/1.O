@@ -367,7 +367,7 @@ function createLinkInputButton() {
         const linkValue = inputTextarea.value;
         if (linkValue) {
             // Construct the Android intent URL for VLC
-            const intentUrl = `intent://${linkValue}&package=org.videolan.vlc#Intent;scheme=https;package=org.videolan.vlc;end`;
+            const intentUrl = `intent://${linkValue}#Intent;scheme=https;package=org.videolan.vlc;end`;
             console.log("Attempting to open VLC with intent:", intentUrl);
             
             // Open the link using the intent
