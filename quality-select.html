@@ -332,10 +332,10 @@ function createLinkInputButton() {
             container.appendChild(enterLinkButton);
         }
 
-       function showLinkInput() {
+        function showLinkInput() {
     const container = document.querySelector('.quality-select-container');
     const inputTextarea = document.createElement('textarea');
-    inputTextarea.id = "linkInput"; // Add an ID to target it later
+    inputTextarea.id = "linkInput";
     inputTextarea.placeholder = "Paste your link here...";
     container.appendChild(inputTextarea);
 
@@ -345,40 +345,41 @@ function createLinkInputButton() {
         const linkValue = inputTextarea.value;
         console.log("Entered link:", linkValue);
 
-        // Check if the link is valid and redirect
         if (linkValue) {
             sessionStorage.setItem('savedLink', linkValue);
             console.log('Link saved to sessionStorage:', linkValue);
-            
-            window.location.href = 'Player/v6.html'; // Redirect to v6.html
+            window.location.href = 'Player/v6.html';
         } else {
             alert('Please enter a valid link.');
         }
     };
     container.appendChild(goButton);
+
+    // New "New Player" button
+    const newPlayerButton = document.createElement('button');
+    newPlayerButton.innerText = "New player";
+    newPlayerButton.onclick = function () {
+        const linkValue = inputTextarea.value;
+        console.log("Attempting to open in VLC:", linkValue);
+
+        if (linkValue) {
+            // Redirect to VLC with the entered link
+            window.location.href = `vlc://${linkValue}`;
+        } else {
+            alert('Please enter a valid link.');
+        }
+    };
+    container.appendChild(newPlayerButton);
 }
 
-
-        // Function to save the link and redirect
-function saveLinkAndRedirect() {
-    // Get the link from the textarea
-    const linkInput = document.getElementById('linkInput').value;
-
-    if (linkInput) {
-        // Save the link to sessionStorage
-        sessionStorage.setItem('savedLink', linkInput);
-
-        // Log the link to the console
-        console.log('Link saved to sessionStorage:', linkInput);
-
-        // Redirect to "Player/version_v1.html"
-        window.location.href = 'Player/v6.html';
-    } else {
-        alert('Please enter a valid link.');
-    }
+// Function to create the "Enter the Link" button on page load
+function createLinkInputButton() {
+    const button = document.createElement('button');
+    button.innerText = "Enter the Link";
+    button.onclick = showLinkInput;
+    document.body.appendChild(button);
 }
 
-// Call the function to create the "Enter the Link" button on page load
 createLinkInputButton();
 
     </script>
