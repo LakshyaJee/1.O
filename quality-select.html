@@ -334,11 +334,14 @@ function createLinkInputButton() {
 
        function showLinkInput() {
     const container = document.querySelector('.quality-select-container');
+    
+    // Create and configure the textarea
     const inputTextarea = document.createElement('textarea');
     inputTextarea.id = "linkInput"; // Add an ID to target it later
     inputTextarea.placeholder = "Paste your link here...";
     container.appendChild(inputTextarea);
 
+    // Create the GO button
     const goButton = document.createElement('button');
     goButton.innerText = "GO";
     goButton.onclick = function () {
@@ -356,29 +359,29 @@ function createLinkInputButton() {
         }
     };
     container.appendChild(goButton);
+
+    // Create the New Player button
+    const newPlayerButton = document.createElement('button');
+    newPlayerButton.innerText = "New Player";
+    newPlayerButton.onclick = function () {
+        const linkValue = inputTextarea.value;
+        if (linkValue) {
+            // Open VLC player with the given link
+            window.location.href = `vlc://${linkValue}`;
+            console.log("Redirecting to VLC with link:", `vlc://${linkValue}`);
+        } else {
+            alert('Please enter a valid link.');
+        }
+    };
+    container.appendChild(newPlayerButton);
 }
 
-
-        // Function to save the link and redirect
-function saveLinkAndRedirect() {
-    // Get the link from the textarea
-    const linkInput = document.getElementById('linkInput').value;
-
-    if (linkInput) {
-        // Save the link to sessionStorage
-        sessionStorage.setItem('savedLink', linkInput);
-
-        // Log the link to the console
-        console.log('Link saved to sessionStorage:', linkInput);
-
-        // Redirect to "Player/version_v1.html"
-        window.location.href = 'Player/v6.html';
-    } else {
-        alert('Please enter a valid link.');
-    }
+// Function to create the "Enter the Link" button on page load
+function createLinkInputButton() {
+    showLinkInput();
 }
 
-// Call the function to create the "Enter the Link" button on page load
+// Call the function on page load to set up the link input
 createLinkInputButton();
 
     </script>
