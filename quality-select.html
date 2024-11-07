@@ -366,12 +366,20 @@ function createLinkInputButton() {
     newPlayerButton.onclick = function () {
         const linkValue = inputTextarea.value;
         if (linkValue) {
-            // Construct the Android intent URL for VLC
-            const intentUrl = `intent://${linkValue}#Intent;scheme=https;package=org.videolan.vlc;end`;
-            console.log("Attempting to open VLC with intent:", intentUrl);
-            
-            // Open the link using the intent
-            window.location.href = intentUrl;
+            // Extract the lecture key using regex
+            const lectureKeyMatch = linkValue.match(/https:\/\/stream\.pwjarvis\.app\/(.+?)\/hls\/\d+\//);
+            if (lectureKeyMatch && lectureKeyMatch[1]) {
+                const lectureKey = lectureKeyMatch[1];
+                
+                // Construct the VLC link
+                const vlcLink = `vlc://https://stream.pwjarvis.app/${lectureKey}/main.m3u8`;
+                console.log("VLC link:", vlcLink);
+
+                // Open the link in VLC (works if VLC is configured to handle vlc:// links)
+                window.location.href = vlcLink;
+            } else {
+                alert("Invalid link format. Please enter a valid link.");
+            }
         } else {
             alert('Please enter a valid link.');
         }
@@ -386,7 +394,6 @@ function createLinkInputButton() {
 
 // Call the function on page load to set up the link input
 createLinkInputButton();
-
 
     </script>
 </body>
