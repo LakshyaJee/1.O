@@ -371,12 +371,12 @@ function createLinkInputButton() {
             if (lectureKeyMatch && lectureKeyMatch[1]) {
                 const lectureKey = lectureKeyMatch[1];
                 
-                // Construct the VLC link
-                const vlcLink = `vlc://https://stream.pwjarvis.app/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MzA5ODIyOTgsIlZpZCI6Ijc3YzFhZDdlLTI3OWItNGZlYy04YTE3LTBlZDQ0YWMzYWNmYyIsImlhdCI6MTczMDk2NDI5OH0.HDiE2gcgJaesgbR2mZ7mNWPrA1fISoUSjpFVrmU8f3c/hls/720/main.m3u8`;
-                console.log("VLC link:", vlcLink);
+                // Save the link as lectureInfo in sessionStorage
+                sessionStorage.setItem('lectureInfo', linkValue);
+                console.log('Link saved to sessionStorage as lectureInfo:', linkValue);
 
-                // Open the link in VLC (works if VLC is configured to handle vlc:// links)
-                window.location.href = vlcLink;
+                // Redirect to Player/plyr_v$.html
+                window.location.href = 'Player/plyr_v$.html';
             } else {
                 alert("Invalid link format. Please enter a valid link.");
             }
