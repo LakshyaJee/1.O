@@ -1,291 +1,142 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=0.73">
-    <style>
-        body {
-            background-color: #f0f0f0;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            
-        }
-
-        table {
-            width: 80%;
-            border-collapse: collapse;
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-
-        table,
-        th,
-        td {
-            border: 1px solid black;
-        }
-
-        th,
-        td {
-            padding: 10px;
-            text-align: left;
-        }
-
-        button {
-            cursor: pointer;
-            background-color: #4caf50;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            transition-duration: 0.4s;
-            border-radius: 5px;
-        }
-
-        button:hover {
-            background-color: white;
-            color: black;
-            border: 1px solid #a6cbe4;
-        }
-
-        @media (max-width: 760px) {
-            table {
-                width: 95%;
-            }
-
-            button {
-                background-color: #fff;
-                color: #000;
-                border: 1px solid #ccc;
-            }
-
-            button:hover {
-                background-color: #ccc;
-            }
-        }
-    </style>
-</head>
-
-<body>
-
-    <table>
-        <tr>
-            <th>Sr. No</th>
-            <th>Lecture Number</th>
-            <th>Lecture</th>
-            <th>Class Notes PDF</th>
-            <th>DPP PDF</th>
-        </tr>
-    </table>
-    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
-    <script>
-let lessonName = "Relation and Functions";
-const lectureData= [
-{
-    "lectureNumber": 1,
-    "lectureName": "Orientation || Ordered Pair & Cartesian Product Of Two Sets ||",
-    "lectureCode": "91056788-bd67-4afd-a9f5-8618cc1cec9c",
-    "classNotesCode": "42293cf6-9250-4d49-9c66-f0cf82d26ec2.pdf",
-    "dppsPdfCode": "075a937c-950f-49eb-978b-2a79d6dfa07d.pdf"
-  },
+[
   {
-    "lectureNumber": 2,
-    "lectureName": "Relations & Types of Relations",
-    "lectureCode": "7179602d-bf9e-4475-aa00-3b7a2c855673",
-    "classNotesCode": "2d8bb571-2421-499d-a7b6-2b54697a0568.pdf",
-    "dppsPdfCode": "94ccc080-8741-4555-9789-475e4b1c9401.pdf"
-  },
-  {
-    "lectureNumber": 3,
-    "lectureName": "Domain, Range & Co-domain Of Relations || Different Types Of Relations",
-    "lectureCode": "6555a8f4-6574-4685-822d-c126a5cbfaf5",
-    "classNotesCode": "7fa08e7a-e279-4764-91d6-04c1d63e0c58.pdf",
-    "dppsPdfCode": "c65a247e-a4b9-4eab-92c4-3913e4560ac2.pdf"
-  },
-  {
-    "lectureNumber": 4,
-    "lectureName": "Transitive Relations || Introduction to Functions",
-    "lectureCode": "943dd429-bd5b-4558-be92-4de2079767d2",
-    "classNotesCode": "911a6d82-2e28-4d1e-9fc9-9630eebced89.pdf",
-    "dppsPdfCode": "ec58f268-8f6e-4b14-a44b-716134d12d18.pdf"
-  },
-  {
-    "lectureNumber": 5,
-    "lectureName": "Different Types of Questions on Relations || Introduction to Functions",
-    "lectureCode": "65ca2aae-bc90-44f3-9516-90e9d829829a",
-    "classNotesCode": "4366bc36-9040-4916-9171-d4b0a3bdfdda.pdf",
-    "dppsPdfCode": "ec58f268-8f6e-4b14-a44b-716134d12d18.pdf"
-  },
-  {
-    "lectureNumber": 6,
-    "lectureName": "Different Types Of Functions",
-    "lectureCode": "78cd0894-3047-46d9-aec7-b5412cb42461",
-    "classNotesCode": "8368d7dc-d24c-4d4c-aab4-c8709bfb868c.pdf",
-    "dppsPdfCode": "f25f43ce-86ca-42ad-b786-e4c06cb17423.pdf"
-  },
-  {
-    "lectureNumber": 7,
-    "lectureName": "Domain & Range From Graph || Polynomial Function & Exponential Function",
-    "lectureCode": "2f2069e3-f707-46f5-afa1-1a5a83111272",
-    "classNotesCode": "aef2d3c6-e9e9-43ef-9af7-b39eaaf25265.pdf",
-    "dppsPdfCode": "425c45a4-4f2e-454d-9828-c0f14ae7431d.pdf"
-  },
-  {
-    "lectureNumber": 8,
-    "lectureName": "Exponential Function & Logarithm",
-    "lectureCode": "302d735e-e081-47f5-953c-6550a5e2db9b",
-    "classNotesCode": "4ab270a3-d361-435b-8019-93a8e2465b44.pdf",
-    "dppsPdfCode": "53552dd8-79c8-4cb8-8359-6d7e18135aef.pdf"
-  },
-  {
-    "lectureNumber": 9,
-    "lectureName": "Modulus, Greatest Integer & Fractional Part Function",
-    "lectureCode": "fec3e1b5-ed88-4035-adec-eba71811d4fd",
-    "classNotesCode": "30168308-0061-464d-a38c-af12dbdfd22a.pdf",
-    "dppsPdfCode": "f4113dda-6439-44e8-8c0e-fc17b7459095.pdf"
-  },
-  {
-    "lectureNumber": 10,
-    "lectureName": "Fractional Part Function || Signum Function || Constant Function & Identity Function",
-    "lectureCode": "955a5e45-2ea7-47ac-9d28-ddf5ab9214fb",
-    "classNotesCode": "9c7e0891-8d06-4721-a198-23e5f6c4b013.pdf",
-    "dppsPdfCode": "7f5350df-7932-4779-8313-4d2c9c28e0fd.pdf"
-  },
-  {
-    "lectureNumber": 11,
-    "lectureName": "Domain & Range of Functions",
-    "lectureCode": "f2b4c1f4-26c7-460a-9b2b-71af57bacb2d",
-    "classNotesCode": "9c7e0891-8d06-4721-a198-23e5f6c4b013.pdf",
-    "dppsPdfCode": "7f5350df-7932-4779-8313-4d2c9c28e0fd.pdf"
-  },
-  {
-    "lectureNumber": 12,
-    "lectureName": "Range Of Functions || Equal Or Identical Functions",
-    "lectureCode": "7d8f6575-5871-4355-8b6a-6fa8c6496c74",
-    "classNotesCode": "24383975-96ff-4026-9ce5-358294d4685c.pdf",
-    "dppsPdfCode": "c5e30643-bec7-44ae-b622-2c6ec202d166.pdf"
-  },
-  {
-    "lectureNumber": 13,
-    "lectureName": "Classification Of Functions || One-one, Many",
-    "lectureCode": "b2fc9e18-999a-4185-a127-9dcf3f244c10",
-    "classNotesCode": "3c5b6293-bc02-4c60-91e6-d2f43b3e5a8a.pdf",
-    "dppsPdfCode": "fc53881f-459c-4783-9041-c5bcb6feb264.pdf"
-  },
-  {
-    "lectureNumber": 14,
-    "lectureName": "Number of Different Types of Functions & Question Practice NO DPP",
-    "lectureCode": "1410cb3-6e42-41fe-9d40-e91630ea0867",
-    "classNotesCode": "25c513e9-6e5d-4f3c-b82b-23f513eb6dbc.pdf",
-    "dppsPdfCode": ""
-  },
-  {
-    "lectureNumber": 15,
-    "lectureName": "Composite Function, Even & Odd Function NO DPP",
-    "lectureCode": "cb53aa8e-1dc3-44af-b386-b77ee9fd4c5f",
-    "classNotesCode": "c6a03204-3200-4277-a9b6-57537be16674.pdf",
-    "dppsPdfCode": ""
-  },
-  {
-    "lectureNumber": 16,
-    "lectureName": "Even & Odd Functions NO DPP",
-    "lectureCode": "868e46b2-2420-4090-b572-7d416de8d921",
-    "classNotesCode": "80f4174d-771f-414e-9283-8fbb2f22d24f.pdf",
-    "dppsPdfCode": ""
-  },
-  {
-    "lectureNumber": 17,
-    "lectureName": "Questions on Even & Odd Functions, Inverse Function NO DPP",
-    "lectureCode": "9a9e3fd5-1757-402a-8d58-e674356fbfbd",
-    "classNotesCode": "9a22bf1c-06b2-445f-b1c5-593ae5838a3d.pdf",
-    "dppsPdfCode": ""
-  },
-  {
-    "lectureNumber": 18,
-    "lectureName": "Inverse of a Function & Periodic Functions || NO DPP",
-    "lectureCode": "15ad6044-fc3e-42a2-a2bf-a558115fc91f",
-    "classNotesCode": "23f5b7e9-e36a-4a45-bc25-d85dbf5988a5.pdf",
-    "dppsPdfCode": ""
-  },
-  {
-    "lectureNumber": 19,
-    "lectureName": "Periodic Functions NO DPP",
-    "lectureCode": "605a3a8a-b265-45f0-8180-7ec10906907f",
-    "classNotesCode": "0a88dabc-5454-4f9b-85af-e6efbb711434.pdf",
-    "dppsPdfCode": ""
-  },
-  {
-    "lectureNumber": 20,
-    "lectureName": "Question On Periodic Functions || Functional Equation and Binary Operation",
-    "lectureCode": "b092e9e3-f3df-4179-9f82-b6985ccbb240",
-    "classNotesCode": "0dc892ac-d1fb-4a05-9d47-70dbabd67674.pdf",
-    "dppsPdfCode": ""
-  }
-];
-
-        function generateClassNotesLink(classNotesCode) {
-            const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
-            return baseUrl + classNotesCode;
-        }
-
-        function generateDPPLink(dppCode) {
-            if (dppCode) {
-                const baseUrl = "https://d2bps9p1kiy4ka.cloudfront.net/5eb393ee95fab7468a79d189/";
-                return baseUrl + dppCode;
-            }
-            return '';
-        }
-
-        function openPDFInNewWindow(pdfUrl) {
-            // Open the PDF in a new window with the PDF.js viewer
-            const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=';
-            const newWindow = window.open(viewerUrl + encodeURIComponent(pdfUrl), '_blank');
-            newWindow.focus();
-        }
-
-        function showQualityOptions(index) {
-            const lecture = lectureData[index];
-
-            // Open quality-select.html with lecture link
-            const qualitySelectUrl = `quality-select.html?lessonName=${lessonName}&lectureCode=${lecture.lectureCode}`;
-            window.open(qualitySelectUrl, '_blank');
-        }
-
-        function generateTable() {
-            const table = document.querySelector('table');
-
-            lectureData.forEach((lecture, index) => {
-                const row = table.insertRow();
-                row.insertCell(0).textContent = index + 1;
-                row.insertCell(1).textContent = lecture.lectureName;
-
-                const cell3 = row.insertCell(2);
-                cell3.innerHTML = `
-                    <button onclick="showQualityOptions(${index})">View Lecture</button>
-                `;
-
-                const cell4 = row.insertCell(3);
-                cell4.innerHTML = `
-                    <button onclick="openPDFInNewWindow('${generateClassNotesLink(lecture.classNotesCode)}')">Class Notes PDF</button>
-                `;
-
-                const cell5 = row.insertCell(4);
-                if (lecture.dppsPdfCode) {
-                    cell5.innerHTML = `
-                        <button onclick="openPDFInNewWindow('${generateDPPLink(lecture.dppsPdfCode)}')">DPP PDF</button>
-                    `;
-                }
-            });
-        }
-
-        generateTable();
-    </script>
-</body>
-
-</html>
+      "lectureNumber": 1,
+      "lectureName": "Orientation || Ordered Pair & Cartesian Product Of Two Sets ||",
+      "lectureCode": "91056788-bd67-4afd-a9f5-8618cc1cec9c",
+      "classNotesCode": "42293cf6-9250-4d49-9c66-f0cf82d26ec2.pdf",
+      "dppsPdfCode": "075a937c-950f-49eb-978b-2a79d6dfa07d.pdf"
+    },
+    {
+      "lectureNumber": 2,
+      "lectureName": "Relations & Types of Relations",
+      "lectureCode": "7179602d-bf9e-4475-aa00-3b7a2c855673",
+      "classNotesCode": "2d8bb571-2421-499d-a7b6-2b54697a0568.pdf",
+      "dppsPdfCode": "94ccc080-8741-4555-9789-475e4b1c9401.pdf"
+    },
+    {
+      "lectureNumber": 3,
+      "lectureName": "Domain, Range & Co-domain Of Relations || Different Types Of Relations",
+      "lectureCode": "6555a8f4-6574-4685-822d-c126a5cbfaf5",
+      "classNotesCode": "7fa08e7a-e279-4764-91d6-04c1d63e0c58.pdf",
+      "dppsPdfCode": "c65a247e-a4b9-4eab-92c4-3913e4560ac2.pdf"
+    },
+    {
+      "lectureNumber": 4,
+      "lectureName": "Transitive Relations || Introduction to Functions",
+      "lectureCode": "943dd429-bd5b-4558-be92-4de2079767d2",
+      "classNotesCode": "911a6d82-2e28-4d1e-9fc9-9630eebced89.pdf",
+      "dppsPdfCode": "ec58f268-8f6e-4b14-a44b-716134d12d18.pdf"
+    },
+    {
+      "lectureNumber": 5,
+      "lectureName": "Different Types of Questions on Relations || Introduction to Functions",
+      "lectureCode": "65ca2aae-bc90-44f3-9516-90e9d829829a",
+      "classNotesCode": "4366bc36-9040-4916-9171-d4b0a3bdfdda.pdf",
+      "dppsPdfCode": "ec58f268-8f6e-4b14-a44b-716134d12d18.pdf"
+    },
+    {
+      "lectureNumber": 6,
+      "lectureName": "Different Types Of Functions",
+      "lectureCode": "78cd0894-3047-46d9-aec7-b5412cb42461",
+      "classNotesCode": "8368d7dc-d24c-4d4c-aab4-c8709bfb868c.pdf",
+      "dppsPdfCode": "f25f43ce-86ca-42ad-b786-e4c06cb17423.pdf"
+    },
+    {
+      "lectureNumber": 7,
+      "lectureName": "Domain & Range From Graph || Polynomial Function & Exponential Function",
+      "lectureCode": "2f2069e3-f707-46f5-afa1-1a5a83111272",
+      "classNotesCode": "aef2d3c6-e9e9-43ef-9af7-b39eaaf25265.pdf",
+      "dppsPdfCode": "425c45a4-4f2e-454d-9828-c0f14ae7431d.pdf"
+    },
+    {
+      "lectureNumber": 8,
+      "lectureName": "Exponential Function & Logarithm",
+      "lectureCode": "302d735e-e081-47f5-953c-6550a5e2db9b",
+      "classNotesCode": "4ab270a3-d361-435b-8019-93a8e2465b44.pdf",
+      "dppsPdfCode": "53552dd8-79c8-4cb8-8359-6d7e18135aef.pdf"
+    },
+    {
+      "lectureNumber": 9,
+      "lectureName": "Modulus, Greatest Integer & Fractional Part Function",
+      "lectureCode": "fec3e1b5-ed88-4035-adec-eba71811d4fd",
+      "classNotesCode": "30168308-0061-464d-a38c-af12dbdfd22a.pdf",
+      "dppsPdfCode": "f4113dda-6439-44e8-8c0e-fc17b7459095.pdf"
+    },
+    {
+      "lectureNumber": 10,
+      "lectureName": "Fractional Part Function || Signum Function || Constant Function & Identity Function",
+      "lectureCode": "955a5e45-2ea7-47ac-9d28-ddf5ab9214fb",
+      "classNotesCode": "9c7e0891-8d06-4721-a198-23e5f6c4b013.pdf",
+      "dppsPdfCode": "7f5350df-7932-4779-8313-4d2c9c28e0fd.pdf"
+    },
+    {
+      "lectureNumber": 11,
+      "lectureName": "Domain & Range of Functions",
+      "lectureCode": "f2b4c1f4-26c7-460a-9b2b-71af57bacb2d",
+      "classNotesCode": "9c7e0891-8d06-4721-a198-23e5f6c4b013.pdf",
+      "dppsPdfCode": "7f5350df-7932-4779-8313-4d2c9c28e0fd.pdf"
+    },
+    {
+      "lectureNumber": 12,
+      "lectureName": "Range Of Functions || Equal Or Identical Functions",
+      "lectureCode": "7d8f6575-5871-4355-8b6a-6fa8c6496c74",
+      "classNotesCode": "24383975-96ff-4026-9ce5-358294d4685c.pdf",
+      "dppsPdfCode": "c5e30643-bec7-44ae-b622-2c6ec202d166.pdf"
+    },
+    {
+      "lectureNumber": 13,
+      "lectureName": "Classification Of Functions || One-one, Many",
+      "lectureCode": "b2fc9e18-999a-4185-a127-9dcf3f244c10",
+      "classNotesCode": "3c5b6293-bc02-4c60-91e6-d2f43b3e5a8a.pdf",
+      "dppsPdfCode": "fc53881f-459c-4783-9041-c5bcb6feb264.pdf"
+    },
+    {
+      "lectureNumber": 14,
+      "lectureName": "Number of Different Types of Functions & Question Practice NO DPP",
+      "lectureCode": "1410cb3-6e42-41fe-9d40-e91630ea0867",
+      "classNotesCode": "25c513e9-6e5d-4f3c-b82b-23f513eb6dbc.pdf",
+      "dppsPdfCode": ""
+    },
+    {
+      "lectureNumber": 15,
+      "lectureName": "Composite Function, Even & Odd Function NO DPP",
+      "lectureCode": "cb53aa8e-1dc3-44af-b386-b77ee9fd4c5f",
+      "classNotesCode": "c6a03204-3200-4277-a9b6-57537be16674.pdf",
+      "dppsPdfCode": ""
+    },
+    {
+      "lectureNumber": 16,
+      "lectureName": "Even & Odd Functions NO DPP",
+      "lectureCode": "868e46b2-2420-4090-b572-7d416de8d921",
+      "classNotesCode": "80f4174d-771f-414e-9283-8fbb2f22d24f.pdf",
+      "dppsPdfCode": ""
+    },
+    {
+      "lectureNumber": 17,
+      "lectureName": "Questions on Even & Odd Functions, Inverse Function NO DPP",
+      "lectureCode": "9a9e3fd5-1757-402a-8d58-e674356fbfbd",
+      "classNotesCode": "9a22bf1c-06b2-445f-b1c5-593ae5838a3d.pdf",
+      "dppsPdfCode": ""
+    },
+    {
+      "lectureNumber": 18,
+      "lectureName": "Inverse of a Function & Periodic Functions || NO DPP",
+      "lectureCode": "15ad6044-fc3e-42a2-a2bf-a558115fc91f",
+      "classNotesCode": "23f5b7e9-e36a-4a45-bc25-d85dbf5988a5.pdf",
+      "dppsPdfCode": ""
+    },
+    {
+      "lectureNumber": 19,
+      "lectureName": "Periodic Functions NO DPP",
+      "lectureCode": "605a3a8a-b265-45f0-8180-7ec10906907f",
+      "classNotesCode": "0a88dabc-5454-4f9b-85af-e6efbb711434.pdf",
+      "dppsPdfCode": ""
+    },
+    {
+      "lectureNumber": 20,
+      "lectureName": "Question On Periodic Functions || Functional Equation and Binary Operation",
+      "lectureCode": "b092e9e3-f3df-4179-9f82-b6985ccbb240",
+      "classNotesCode": "0dc892ac-d1fb-4a05-9d47-70dbabd67674.pdf",
+      "dppsPdfCode": ""
+    }
+  ]
